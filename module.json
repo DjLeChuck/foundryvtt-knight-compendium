@@ -106,6 +106,13 @@
       "name": "weapons-espoir",
       "path": "packs/weapons-espoir.db",
       "system": "knight"
+    },
+    {
+      "label": "Capacités PNJ",
+      "type": "Item",
+      "name": "npc-capacities-base",
+      "path": "packs/npc-capacities-base.db",
+      "system": "knight"
     }
   ],
   "relationships": {
