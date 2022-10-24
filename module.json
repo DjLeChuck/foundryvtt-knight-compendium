@@ -1,0 +1,127 @@
+{
+  "id": "knight-compendium",
+  "title": "Knight - Compendium",
+  "description": "Ensemble de compendium pour le système Knight",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 10
+  },
+  "authors": [
+    {
+      "name": "DjLeChuck",
+      "email": "djlechuck@gmail.com",
+      "url": "https://github.com/djlechuck/"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Méta-armures - 1. Livre de base",
+      "type": "Item",
+      "name": "armours-base",
+      "path": "packs/armours-base.db",
+      "system": "knight"
+    },
+    {
+      "label": "Méta-armures - 2. Supplément 2038",
+      "type": "Item",
+      "name": "armours-2038",
+      "path": "packs/armours-2038.db",
+      "system": "knight"
+    },
+    {
+      "label": "Méta-armures - 3. Codex v1.5",
+      "type": "Item",
+      "name": "armours-codex",
+      "path": "packs/armours-codex.db",
+      "system": "knight"
+    },
+    {
+      "label": "Méta-armures - 4. Atlas",
+      "type": "Item",
+      "name": "armours-atlas",
+      "path": "packs/armours-atlas.db",
+      "system": "knight"
+    },
+    {
+      "label": "Modules - 1. Standard",
+      "type": "Item",
+      "name": "modules-standard",
+      "path": "packs/modules-standard.db",
+      "system": "knight"
+    },
+    {
+      "label": "Modules - 2. Avancé",
+      "type": "Item",
+      "name": "modules-avance",
+      "path": "packs/modules-avance.db",
+      "system": "knight"
+    },
+    {
+      "label": "Modules - 3. Rare",
+      "type": "Item",
+      "name": "modules-rare",
+      "path": "packs/modules-rare.db",
+      "system": "knight"
+    },
+    {
+      "label": "Modules - 4. Prestige",
+      "type": "Item",
+      "name": "modules-prestige",
+      "path": "packs/modules-prestige.db",
+      "system": "knight"
+    },
+    {
+      "label": "Armes - 1. Standard",
+      "type": "Item",
+      "name": "weapons-standard",
+      "path": "packs/weapons-standard.db",
+      "system": "knight"
+    },
+    {
+      "label": "Armes - 2. Avancé",
+      "type": "Item",
+      "name": "weapons-avance",
+      "path": "packs/weapons-avance.db",
+      "system": "knight"
+    },
+    {
+      "label": "Armes - 3. Rare",
+      "type": "Item",
+      "name": "weapons-rare",
+      "path": "packs/weapons-rare.db",
+      "system": "knight"
+    },
+    {
+      "label": "Armes - 4. Prestige",
+      "type": "Item",
+      "name": "weapons-prestige",
+      "path": "packs/weapons-prestige.db",
+      "system": "knight"
+    },
+    {
+      "label": "Armes - 5. Relique d'espoir",
+      "type": "Item",
+      "name": "weapons-espoir",
+      "path": "packs/weapons-espoir.db",
+      "system": "knight"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "knight",
+        "type": "system"
+      }
+    ]
+  },
+  "socket": false,
+  "url": "https://github.com/DjLeChuck/foundryvtt-knight-compendium",
+  "manifest": "https://raw.githubusercontent.com/DjLeChuck/foundryvtt-knight-compendium/main/module.json",
+  "download": "https://github.com/DjLeChuck/foundryvtt-knight-compendium/archive/0.0.1.zip",
+  "bugs": "https://github.com/DjLeChuck/foundryvtt-knight-compendium/issues",
+  "changelog": "https://github.com/DjLeChuck/foundryvtt-knight-compendium/blob/main/CHANGELOG.md",
+  "license": "./LICENSE",
+  "readme": "./README.md"
+}
