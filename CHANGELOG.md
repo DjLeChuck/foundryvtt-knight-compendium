@@ -31,7 +31,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.3...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.4...HEAD
+
+[0.0.4]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.3...0.0.4
 
 [0.0.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.2...0.0.3
 
