@@ -16,6 +16,9 @@
       "discord": "DjLeChuck#9015"
     }
   ],
+  "esmodules": [
+    "scripts/knight-compendium.js"
+  ],
   "packs": [
     {
       "label": "Méta-armures - 1. Livre de base",
