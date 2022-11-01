@@ -131,6 +131,14 @@
       "path": "packs/npc-capacities-base.db",
       "system": "knight",
       "private": true
+    },
+    {
+      "label": "Mecha-armures",
+      "type": "Actor",
+      "name": "mecha-armours-base",
+      "path": "packs/mecha-armours-base.db",
+      "system": "knight",
+      "private": true
     }
   ],
   "relationships": {
