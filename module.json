@@ -139,6 +139,22 @@
       "path": "packs/mecha-armours-base.db",
       "system": "knight",
       "private": true
+    },
+    {
+      "label": "Traumas",
+      "type": "Item",
+      "name": "traumas-base",
+      "path": "packs/traumas-base.db",
+      "system": "knight",
+      "private": false
+    },
+    {
+      "label": "Traumas - Tables aléatoires",
+      "type": "RollTable",
+      "name": "traumas-tables",
+      "path": "packs/traumas-tables.db",
+      "system": "knight",
+      "private": false
     }
   ],
   "relationships": {
