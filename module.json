@@ -155,6 +155,38 @@
       "path": "packs/traumas-tables.db",
       "system": "knight",
       "private": false
+    },
+    {
+      "label": "Avantages - Chevaliers",
+      "type": "Item",
+      "name": "knight-advantages-base",
+      "path": "packs/knight-advantages-base.db",
+      "system": "knight",
+      "private": false
+    },
+    {
+      "label": "Inconvénients - Chevaliers",
+      "type": "Item",
+      "name": "knight-disadvantages-base",
+      "path": "packs/knight-disadvantages-base.db",
+      "system": "knight",
+      "private": false
+    },
+    {
+      "label": "Avantages - IA",
+      "type": "Item",
+      "name": "ai-advantages-base",
+      "path": "packs/ai-advantages-base.db",
+      "system": "knight",
+      "private": false
+    },
+    {
+      "label": "Inconvénients - IA",
+      "type": "Item",
+      "name": "ai-disadvantages-base",
+      "path": "packs/ai-disadvantages-base.db",
+      "system": "knight",
+      "private": false
     }
   ],
   "relationships": {

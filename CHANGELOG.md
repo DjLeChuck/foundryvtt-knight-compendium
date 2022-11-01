@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Mecha-armours actors
 - Traumas items with associated roll tables
+- Advantages and disadvantages for Knight and AI
 
 ## [0.0.5] - 2022-10-26
 
