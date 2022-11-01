@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Mecha-armours actors
+- Traumas items with associated roll tables
+
 ## [0.0.5] - 2022-10-26
 
 ### Added
