@@ -187,6 +187,22 @@
       "path": "packs/ai-disadvantages-base.db",
       "system": "knight",
       "private": false
+    },
+    {
+      "label": "Cartes du Destin",
+      "type": "Item",
+      "name": "destiny-cards-base",
+      "path": "packs/destiny-cards-base.db",
+      "system": "knight",
+      "private": false
+    },
+    {
+      "label": "Cartes du Destin - Table aléatoire",
+      "type": "RollTable",
+      "name": "destiny-cards-tables",
+      "path": "packs/destiny-cards-tables.db",
+      "system": "knight",
+      "private": false
     }
   ],
   "relationships": {
