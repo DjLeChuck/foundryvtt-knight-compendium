@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.6] - 2022-11-02
+
 ### Added
 
 - Mecha-armours actors
@@ -16,7 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Heroic capacities
 - Creatures weapons
 - Official bestiary
-- The Knight members
+- The Knight NPCs
+- La Black Cell NPCs
+- Le Nodachi NPCs
+- Les Neufs NPCs
+- Multiple humans profils NPCs
 
 ### Updated
 
@@ -60,7 +66,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.5...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.6...HEAD
+
+[0.0.6]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.5...0.0.6
 
 [0.0.5]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.4...0.0.5
 

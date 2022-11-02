@@ -235,6 +235,38 @@
       "path": "packs/le-knight.db",
       "system": "knight",
       "private": true
+    },
+    {
+      "label": "La Black Cell",
+      "type": "Actor",
+      "name": "la-black-cell",
+      "path": "packs/la-black-cell.db",
+      "system": "knight",
+      "private": true
+    },
+    {
+      "label": "Le Nodachi",
+      "type": "Actor",
+      "name": "le-nodachi",
+      "path": "packs/le-nodachi.db",
+      "system": "knight",
+      "private": true
+    },
+    {
+      "label": "Les Neuf",
+      "type": "Actor",
+      "name": "les-neuf",
+      "path": "packs/les-neuf.db",
+      "system": "knight",
+      "private": true
+    },
+    {
+      "label": "Profils humains",
+      "type": "Actor",
+      "name": "profils-humains",
+      "path": "packs/profils-humains.db",
+      "system": "knight",
+      "private": true
     }
   ],
   "relationships": {
