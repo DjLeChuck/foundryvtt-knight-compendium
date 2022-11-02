@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Official bestiary
 - The Knight members
 
+### Updated
+
+- Multiple manual enrichments of compendiums
+
 ## [0.0.5] - 2022-10-26
 
 ### Added
