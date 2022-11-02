@@ -203,6 +203,38 @@
       "path": "packs/destiny-cards-tables.db",
       "system": "knight",
       "private": false
+    },
+    {
+      "label": "Armes des créatures",
+      "type": "Item",
+      "name": "armes-des-creatures",
+      "path": "packs/armes-des-creatures.db",
+      "system": "knight",
+      "private": true
+    },
+    {
+      "label": "Capacités héroïques",
+      "type": "Item",
+      "name": "capacites-heroiques",
+      "path": "packs/capacites-heroiques.db",
+      "system": "knight",
+      "private": false
+    },
+    {
+      "label": "Créatures - Bestiaire officiel",
+      "type": "Actor",
+      "name": "creatures-bestiaire-officiel",
+      "path": "packs/creatures-bestiaire-officiel.db",
+      "system": "knight",
+      "private": true
+    },
+    {
+      "label": "Le Knight",
+      "type": "Actor",
+      "name": "le-knight",
+      "path": "packs/le-knight.db",
+      "system": "knight",
+      "private": true
     }
   ],
   "relationships": {
