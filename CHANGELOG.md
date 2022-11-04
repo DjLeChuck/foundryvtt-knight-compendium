@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Modified
+
+- Multiple adjustments on compendium (see [#4](https://github.com/DjLeChuck/foundryvtt-knight-compendium/issues/4))
+
 ## [0.0.6] - 2022-11-02
 
 ### Added
