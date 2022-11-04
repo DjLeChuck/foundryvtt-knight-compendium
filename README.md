@@ -11,6 +11,32 @@ Vous aurez alors la dernière version et profiterez des mises à jour automatiqu
 Sinon, il est possible l'ajouter en utilisant le lien de son manifest :
 `https://raw.githubusercontent.com/DjLeChuck/foundryvtt-knight-compendium/main/module.json`
 
+## Contenu
+
+Actuellement composé de :
+
+* Actor
+  * Créatures - Bestiaire officiel
+  * La Black Cell
+  * Le Knight
+  * Le Nodachi
+  * Les Neuf
+  * Mecha-armures
+  * Profils humains
+* Item
+  * Armes
+  * Armes des créatures
+  * Avantages / Inconvénient (Chevaliers et IA)
+  * Capacités héroïques
+  * Capacités PNJ
+  * Cartes du Destin
+  * Méta-armures
+  * Modules
+  * Traumas
+* RollTable
+  * Cartes du Destin
+  * Traumas
+
 ## Comment contribuer ?
 
 Le plus simple est de venir sur le Discord [La Fonderie](https://discord.com/invite/pPSDNJk), dans le canal #knight
