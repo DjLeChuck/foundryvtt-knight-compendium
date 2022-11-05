@@ -27,11 +27,13 @@ Actuellement composé de :
   * Armes
   * Armes des créatures
   * Avantages / Inconvénient (Chevaliers et IA)
+  * Inconvénients de Sections
   * Capacités héroïques
   * Capacités PNJ
   * Cartes du Destin
   * Méta-armures
   * Modules
+  * Overdrives
   * Traumas
 * RollTable
   * Cartes du Destin
