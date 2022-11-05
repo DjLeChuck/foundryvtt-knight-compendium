@@ -205,6 +205,14 @@
       "private": false
     },
     {
+      "label": "Inconvénients - Sections",
+      "type": "Item",
+      "name": "section-disadvantages-base",
+      "path": "packs/section-disadvantages-base.db",
+      "system": "knight",
+      "private": false
+    },
+    {
       "label": "Cartes du Destin",
       "type": "Item",
       "name": "destiny-cards-base",
