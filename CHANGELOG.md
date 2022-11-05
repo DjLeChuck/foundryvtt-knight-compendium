@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.8]
+
 ### Added
 
 - Overdrives
@@ -78,7 +80,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.7...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.8...HEAD
+
+[0.0.8]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.7...0.0.8
 
 [0.0.7]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.6...0.0.7
 
