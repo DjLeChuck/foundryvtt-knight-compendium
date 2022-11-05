@@ -27,7 +27,7 @@ Actuellement composé de :
   * Armes
   * Armes des créatures
   * Avantages / Inconvénient (Chevaliers et IA)
-  * Inconvénients de Sections
+  * Inconvénients des Sections
   * Capacités héroïques
   * Capacités PNJ
   * Cartes du Destin
