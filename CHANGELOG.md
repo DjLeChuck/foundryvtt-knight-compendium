@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Overdrives
 - Sections disadvantages
+- Missing "Vrai artiste" advantage for Knights
 
 ## [0.0.7]
 
