@@ -85,6 +85,22 @@
       "private": true
     },
     {
+      "label": "Overdrives - 1. Avancé",
+      "type": "Item",
+      "name": "overdrives-avance",
+      "path": "packs/overdrives-avance.db",
+      "system": "knight",
+      "private": true
+    },
+    {
+      "label": "Overdrives - 2. Rare",
+      "type": "Item",
+      "name": "overdrives-rare",
+      "path": "packs/overdrives-rare.db",
+      "system": "knight",
+      "private": true
+    },
+    {
       "label": "Armes - 1. Standard",
       "type": "Item",
       "name": "weapons-standard",
