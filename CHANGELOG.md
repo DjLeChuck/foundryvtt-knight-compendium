@@ -10,11 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Official bestiary images
+- NPCs of "La Geste de la fin des temps"
+- Vehicles
 
-### Updated
+### Modified
 
 - Merge one hand/two hands weapons
 - Merge multiple ammo weapons
+- Missing NPC capacities
+- Missing creatures and humans weapons
 
 ## [0.0.8]
 
