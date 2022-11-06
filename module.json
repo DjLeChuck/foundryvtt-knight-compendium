@@ -350,6 +350,22 @@
       "path": "packs/la-geste-de-la-fin-des-temps-prequelles.db",
       "system": "knight",
       "private": true
+    },
+    {
+      "label": "Blessures graves",
+      "type": "Item",
+      "name": "blessures-graves",
+      "path": "packs/blessures-graves.db",
+      "system": "knight",
+      "private": false
+    },
+    {
+      "label": "Journaux",
+      "type": "JournalEntry",
+      "name": "journaux",
+      "path": "packs/journaux.db",
+      "system": "knight",
+      "private": false
     }
   ],
   "relationships": {
