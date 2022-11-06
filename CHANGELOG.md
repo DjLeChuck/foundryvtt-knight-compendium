@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.9] - 2022-11-06
+
 ### Added
 
 - Official bestiary images
@@ -21,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Missing NPC capacities
 - Missing creatures and humans weapons
 
-## [0.0.8]
+## [0.0.8] - 2022-11-05
 
 ### Added
 
@@ -29,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Sections disadvantages
 - Missing "Vrai artiste" advantage for Knights
 
-## [0.0.7]
+## [0.0.7] - 2022-11-04
 
 ### Modified
 
@@ -94,7 +96,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.8...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.9...HEAD
+
+[0.0.9]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.8...0.0.9
 
 [0.0.8]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.7...0.0.8
 
