@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updated
+
+- Merge one hand/two hands weapons
+- Merge multiple ammo weapons
+
 ## [0.0.8]
 
 ### Added
