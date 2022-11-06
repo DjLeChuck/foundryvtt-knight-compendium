@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.9] - 2022-11-06
+## [0.0.10] - 2022-11-06
 
 ### Added
 
@@ -96,9 +96,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.9...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.10...HEAD
 
-[0.0.9]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.8...0.0.9
+[0.0.10]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.8...0.0.10
 
 [0.0.8]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.7...0.0.8
 

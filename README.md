@@ -18,16 +18,19 @@ Actuellement composé de :
 * Actor
   * Créatures - Bestiaire officiel
   * La Black Cell
+  * La Geste de la fin des temps (tous les arcs + préquelles)
   * Le Knight
   * Le Nodachi
   * Les Neuf
   * Mecha-armures
   * Profils humains
+  * Véhicules
 * Item
   * Armes
-  * Armes des créatures
+  * Armes des créatures et humains
   * Avantages / Inconvénient (Chevaliers et IA)
   * Inconvénients des Sections
+  * Blessures graves
   * Capacités héroïques
   * Capacités PNJ
   * Cartes du Destin
@@ -35,6 +38,8 @@ Actuellement composé de :
   * Modules
   * Overdrives
   * Traumas
+* JournalEntry
+  * Tableau des blessures aléatoires
 * RollTable
   * Cartes du Destin
   * Traumas
