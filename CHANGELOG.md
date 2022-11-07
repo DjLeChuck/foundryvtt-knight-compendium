@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Missing module "Option grenades intelligentes avancées"
 - Missing bonus on multiple modules
 
+### Fixed
+
+- Bad configuration on last level of Warrior
+
 ## [0.0.10] - 2022-11-06
 
 ### Added
