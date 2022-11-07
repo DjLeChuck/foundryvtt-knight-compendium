@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Official NPCs images
 - Missing module "Option grenades intelligentes avancées"
+- Missing bonus on multiple modules
 
 ## [0.0.10] - 2022-11-06
 
