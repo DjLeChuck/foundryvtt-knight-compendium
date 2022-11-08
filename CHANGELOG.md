@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.11] - 2022-11-08
+
 ### Added
 
 - Official NPCs images
@@ -108,7 +110,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.10...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.11...HEAD
+
+[0.0.11]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.10...0.0.11
 
 [0.0.10]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.8...0.0.10
 
