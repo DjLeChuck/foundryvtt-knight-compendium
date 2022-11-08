@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Bad configuration on last level of Warrior
+- Rework Ranger entry to get in line with the new treatment in the system
 
 ## [0.0.10] - 2022-11-06
 
