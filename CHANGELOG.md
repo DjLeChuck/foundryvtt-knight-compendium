@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Modified
 
 - Set variable damages on Canon Balder
+- Add automatic dice roll on compatible modules
 
 ## [0.0.11] - 2022-11-08
 
