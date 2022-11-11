@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.13] - 2022-11-11
+
 ### Fixed
 
 - No slot cost on module evolutions
@@ -125,9 +127,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.12...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.13...HEAD
 
-[0.0.11]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.11...0.0.12
+[0.0.13]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.12...0.0.13
+
+[0.0.12]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.11...0.0.12
 
 [0.0.11]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.10...0.0.11
 
