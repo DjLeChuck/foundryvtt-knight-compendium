@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Wrong energy regeneration on Berserk armour
+
 ## [0.0.13] - 2022-11-11
 
 ### Fixed
