@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.14] - 2022-11-12
+
 ### Fixed
 
 - Wrong energy regeneration on Berserk armour
@@ -131,7 +133,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.13...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.14...HEAD
+
+[0.0.14]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.13...0.0.14
 
 [0.0.13]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.12...0.0.13
 
