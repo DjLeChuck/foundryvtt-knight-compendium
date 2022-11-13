@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Remove undesirable unicode characters
+
 ## [0.0.14] - 2022-11-12
 
 ### Fixed
