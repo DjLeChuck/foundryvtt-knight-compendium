@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Wrong egide bonus on Berserk
+
 ## [0.0.15] - 2022-11-13
 
 ### Fixed
