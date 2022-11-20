@@ -7,10 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Modified
+
+- Buying a new level for a module should now replace the previous one
+
 ### Fixed
 
 - Wrong egide bonus on Berserk
 - Wrong damages bonus on Monk last evolution
+- Wrong energy bonus on Warmaster armour
 
 ## [0.0.15] - 2022-11-13
 
