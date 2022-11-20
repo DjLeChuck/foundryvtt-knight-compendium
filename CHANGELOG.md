@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Wrong egide bonus on Berserk
+- Multiple adjustments on Berserk
 - Wrong damages bonus on Monk last evolution
 - Wrong energy bonus on Warmaster armour
 
