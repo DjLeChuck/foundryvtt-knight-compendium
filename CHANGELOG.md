@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.16] - 2022-11-20
+
 ### Modified
 
 - Buying a new level for a module should now replace the previous one
@@ -149,7 +151,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.15...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.16...HEAD
+
+[0.0.16]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.15...0.0.16
 
 [0.0.15]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.14...0.0.15
 
