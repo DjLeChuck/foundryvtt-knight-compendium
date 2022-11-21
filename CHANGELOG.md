@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Modified
 
 - Reduce length of compendium name for `La Geste de la fin des temps`
+- Change `Attaque sur casque niv. 2` as a damage bonus on contact attacks instead of a weapon
 
 ## [0.0.16] - 2022-11-20
 
