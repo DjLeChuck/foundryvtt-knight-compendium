@@ -304,7 +304,7 @@
       "private": true
     },
     {
-      "label": "La Geste de la fin des temps - Arc de la Bête",
+      "label": "La Geste - Arc de la Bête",
       "type": "Actor",
       "name": "la-geste-de-la-fin-des-temps-arc-de-la-bete",
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-bete.db",
@@ -312,7 +312,7 @@
       "private": true
     },
     {
-      "label": "La Geste de la fin des temps - Arc de la Chair",
+      "label": "La Geste - Arc de la Chair",
       "type": "Actor",
       "name": "la-geste-de-la-fin-des-temps-arc-de-la-chair",
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-chair.db",
@@ -320,7 +320,7 @@
       "private": true
     },
     {
-      "label": "La Geste de la fin des temps - Arc de la Dame",
+      "label": "La Geste - Arc de la Dame",
       "type": "Actor",
       "name": "la-geste-de-la-fin-des-temps-arc-de-la-dame",
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-dame.db",
@@ -328,7 +328,7 @@
       "private": true
     },
     {
-      "label": "La Geste de la fin des temps - Arc de la Machine",
+      "label": "La Geste - Arc de la Machine",
       "type": "Actor",
       "name": "la-geste-de-la-fin-des-temps-arc-de-la-machine",
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-machine.db",
@@ -336,7 +336,7 @@
       "private": true
     },
     {
-      "label": "La Geste de la fin des temps - Arc du Masque",
+      "label": "La Geste - Arc du Masque",
       "type": "Actor",
       "name": "la-geste-de-la-fin-des-temps-arc-du-masque",
       "path": "packs/la-geste-de-la-fin-des-temps-arc-du-masque.db",
@@ -344,7 +344,7 @@
       "private": true
     },
     {
-      "label": "La Geste de la fin des temps - Préquelles",
+      "label": "La Geste - Préquelles",
       "type": "Actor",
       "name": "la-geste-de-la-fin-des-temps-prequelles",
       "path": "packs/la-geste-de-la-fin-des-temps-prequelles.db",
