@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Compendium for `Distinctions` (use `Avantage` item)
+
 ### Modified
 
 - Reduce length of compendium name for `La Geste de la fin des temps`

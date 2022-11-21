@@ -366,6 +366,14 @@
       "path": "packs/journaux.db",
       "system": "knight",
       "private": false
+    },
+    {
+      "label": "Distinctions",
+      "type": "Item",
+      "name": "distinctions",
+      "path": "packs/distinctions.db",
+      "system": "knight",
+      "private": true
     }
   ],
   "relationships": {
