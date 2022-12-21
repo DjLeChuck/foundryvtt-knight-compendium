@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.17] - 2022-12-21
+
 ### Added
 
 - Images for 4 Nodachi NPC
@@ -160,7 +162,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.16...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.17...HEAD
+
+[0.0.17]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.16...0.0.17
 
 [0.0.16]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.15...0.0.16
 
