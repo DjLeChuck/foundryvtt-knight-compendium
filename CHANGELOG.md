@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.18] - 2023-01-31
+
+### Fixed
+
+- Add Ranger longbow data
+
 ## [0.0.17] - 2022-12-21
 
 ### Added
@@ -162,7 +168,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.17...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.18...HEAD
+
+[0.0.18]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.17...0.0.18
 
 [0.0.17]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.16...0.0.17
 
