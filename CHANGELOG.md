@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Enhance Warrior meta-armour description with each available types
+- Distinctions compendium
 
 ### Fixed
 

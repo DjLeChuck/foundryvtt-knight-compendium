@@ -412,6 +412,15 @@
       "system": "knight",
       "private": false,
       "flags": {}
+    },
+    {
+      "label": "Distinctions",
+      "type": "Item",
+      "name": "distinctions",
+      "path": "packs/distinctions.db",
+      "system": "knight",
+      "private": true,
+      "flags": {}
     }
   ],
   "relationships": {
