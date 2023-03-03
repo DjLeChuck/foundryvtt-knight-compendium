@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.19] - 2023-03-03
+
 ### Added
 
 - Enhance Warrior meta-armour description with each available types
@@ -178,7 +180,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.18...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.19...HEAD
+
+[0.0.19]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.18...0.0.19
 
 [0.0.18]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.17...0.0.18
 
@@ -211,3 +215,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.0.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.2...0.0.3
 
 [0.0.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.1...0.0.2
+
+[0.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/releases/tag/0.0.1
