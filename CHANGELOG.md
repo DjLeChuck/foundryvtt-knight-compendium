@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Enhance Warrior meta-armour description with each available types
+
+### Fixed
+
+- "Fusil UV" is a two hands weapon
+
 ## [0.0.18] - 2023-01-31
 
 ### Fixed
