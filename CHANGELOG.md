@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.20] - 2023-03-04
+
 ### Fixed
 
 - Cost of "Énergie améliorée niv. 3" is 90
@@ -184,7 +186,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.19...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.20...HEAD
+
+[0.0.20]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.19...0.0.20
 
 [0.0.19]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.18...0.0.19
 
