@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [10.0.0] - 2023-04-08
+
 ### Modified
 
+- Follow Foundry major version
 - Update all module to reflect new level system
 
 ### Fixed
@@ -194,7 +197,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.20...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.0...HEAD
+
+[10.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.20...10.0.0
 
 [0.0.20]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.19...0.0.20
 
