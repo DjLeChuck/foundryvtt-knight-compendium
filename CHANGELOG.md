@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Modified
+
+- Update all module to reflect new level system
+
 ### Fixed
 
 - Swap "Rayon d’énergie" damage dice for level 2 and 3 on Monk’s armor
