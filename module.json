@@ -99,19 +99,10 @@
       "flags": {}
     },
     {
-      "label": "Overdrives - 1. Avancé",
+      "label": "Overdrives",
       "type": "Item",
-      "name": "overdrives-avance",
-      "path": "packs/overdrives-avance.db",
-      "system": "knight",
-      "private": true,
-      "flags": {}
-    },
-    {
-      "label": "Overdrives - 2. Rare",
-      "type": "Item",
-      "name": "overdrives-rare",
-      "path": "packs/overdrives-rare.db",
+      "name": "overdrives",
+      "path": "packs/overdrives.db",
       "system": "knight",
       "private": true,
       "flags": {}
