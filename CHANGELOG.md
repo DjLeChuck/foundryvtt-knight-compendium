@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [10.0.1] - 2023-04-09
+
 ### Modified
 
 - Update all overdrives to reflect new level system
@@ -201,7 +203,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.0...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.1...HEAD
+
+[10.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.0...10.0.1
 
 [10.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/0.0.20...10.0.0
 
