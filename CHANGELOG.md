@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Wrong impulsion count on Warmaster last evolution
+- Wrong description for the "Céa" mode on the Monk
+- Missing special "Récolte du flux" on the Psion
+
 ## [10.0.1] - 2023-04-09
 
 ### Modified
