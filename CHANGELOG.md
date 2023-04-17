@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [10.0.2] - 2023-04-17
+
 ### Fixed
 
 - Wrong impulsion count on Warmaster last evolution
@@ -209,7 +211,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.2...HEAD
+
+[10.0.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.1...10.0.2
 
 [10.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.0...10.0.1
 
