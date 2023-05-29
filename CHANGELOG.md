@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Compendium packs for v11
+
+### Fixed
+
+- Only change pack visibility if admin
+
 ## [10.0.1] - 2023-04-09
 
 ### Modified

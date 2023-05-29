@@ -6,7 +6,7 @@
   "compatibility": {
     "minimum": "10",
     "verified": "10",
-    "maximum": "10"
+    "maximum": "11"
   },
   "authors": [
     {
@@ -25,6 +25,97 @@
   "esmodules": [
     "scripts/knight-compendium.js"
   ],
+  "packFolders": [
+    {
+      "name": "Knight",
+      "sorting": "m",
+      "packs": [
+        "overdrives",
+        "npc-capacities-base",
+        "mecha-armours-base",
+        "traumas-base",
+        "traumas-tables",
+        "destiny-cards-base",
+        "destiny-cards-tables",
+        "capacites-heroiques",
+        "creatures-bestiaire-officiel",
+        "blessures-graves",
+        "journaux",
+        "distinctions"
+      ],
+      "folders": [
+        {
+          "name": "Armes",
+          "sorting": "m",
+          "packs": [
+            "weapons-standard",
+            "weapons-avance",
+            "weapons-rare",
+            "weapons-prestige",
+            "weapons-espoir",
+            "armes-des-creatures-et-humains"
+          ]
+        },
+        {
+          "name": "Modules",
+          "sorting": "m",
+          "packs": [
+            "modules-standard",
+            "modules-avance",
+            "modules-rare",
+            "modules-prestige"
+          ]
+        },
+        {
+          "name": "Méta-armures",
+          "sorting": "m",
+          "packs": [
+            "armours-base",
+            "armours-2038",
+            "armours-codex",
+            "armours-atlas"
+          ]
+        },
+        {
+          "name": "Avantages et Inconvénients",
+          "sorting": "m",
+          "packs": [
+            "knight-advantages-base",
+            "knight-disadvantages-base",
+            "ai-advantages-base",
+            "ai-disadvantages-base",
+            "section-disadvantages-base"
+          ]
+        },
+        {
+          "name": "PNJs",
+          "sorting": "m",
+          "packs": [
+            "le-knight",
+            "la-black-cell",
+            "le-nodachi",
+            "les-neuf",
+            "profils-humains",
+            "vehicules"
+          ],
+          "folders": [
+            {
+              "name": "La Geste",
+              "sorting": "m",
+              "packs": [
+                "la-geste-de-la-fin-des-temps-arc-de-la-bete",
+                "la-geste-de-la-fin-des-temps-arc-de-la-chair",
+                "la-geste-de-la-fin-des-temps-arc-de-la-dame",
+                "la-geste-de-la-fin-des-temps-arc-de-la-machine",
+                "la-geste-de-la-fin-des-temps-arc-du-masque",
+                "la-geste-de-la-fin-des-temps-prequelles"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "packs": [
     {
       "label": "Méta-armures - 1. Livre de base",
@@ -32,7 +123,6 @@
       "name": "armours-base",
       "path": "packs/armours-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -42,6 +132,12 @@
       "path": "packs/armours-2038.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -51,6 +147,12 @@
       "path": "packs/armours-codex.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -60,6 +162,12 @@
       "path": "packs/armours-atlas.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -68,7 +176,6 @@
       "name": "modules-standard",
       "path": "packs/modules-standard.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -78,6 +185,12 @@
       "path": "packs/modules-avance.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -87,6 +200,12 @@
       "path": "packs/modules-rare.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -96,6 +215,12 @@
       "path": "packs/modules-prestige.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -105,6 +230,12 @@
       "path": "packs/overdrives.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -113,7 +244,6 @@
       "name": "weapons-standard",
       "path": "packs/weapons-standard.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -123,6 +253,12 @@
       "path": "packs/weapons-avance.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -132,6 +268,12 @@
       "path": "packs/weapons-rare.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -141,6 +283,12 @@
       "path": "packs/weapons-prestige.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -150,6 +298,12 @@
       "path": "packs/weapons-espoir.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -159,6 +313,12 @@
       "path": "packs/npc-capacities-base.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -168,6 +328,12 @@
       "path": "packs/mecha-armours-base.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -176,7 +342,6 @@
       "name": "traumas-base",
       "path": "packs/traumas-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -185,7 +350,6 @@
       "name": "traumas-tables",
       "path": "packs/traumas-tables.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -194,7 +358,6 @@
       "name": "knight-advantages-base",
       "path": "packs/knight-advantages-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -203,7 +366,6 @@
       "name": "knight-disadvantages-base",
       "path": "packs/knight-disadvantages-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -212,7 +374,6 @@
       "name": "ai-advantages-base",
       "path": "packs/ai-advantages-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -221,7 +382,6 @@
       "name": "ai-disadvantages-base",
       "path": "packs/ai-disadvantages-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -230,7 +390,6 @@
       "name": "section-disadvantages-base",
       "path": "packs/section-disadvantages-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -239,7 +398,6 @@
       "name": "destiny-cards-base",
       "path": "packs/destiny-cards-base.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -248,7 +406,6 @@
       "name": "destiny-cards-tables",
       "path": "packs/destiny-cards-tables.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -258,6 +415,12 @@
       "path": "packs/armes-des-creatures-et-humains.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -266,7 +429,6 @@
       "name": "capacites-heroiques",
       "path": "packs/capacites-heroiques.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -276,6 +438,12 @@
       "path": "packs/creatures-bestiaire-officiel.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -285,6 +453,12 @@
       "path": "packs/le-knight.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -294,6 +468,12 @@
       "path": "packs/la-black-cell.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -303,6 +483,12 @@
       "path": "packs/le-nodachi.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -312,6 +498,12 @@
       "path": "packs/les-neuf.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -321,6 +513,12 @@
       "path": "packs/profils-humains.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -330,6 +528,12 @@
       "path": "packs/vehicules.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -339,6 +543,12 @@
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-bete.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -348,6 +558,12 @@
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-chair.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -357,6 +573,12 @@
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-dame.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -366,6 +588,12 @@
       "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-machine.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -375,6 +603,12 @@
       "path": "packs/la-geste-de-la-fin-des-temps-arc-du-masque.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -384,6 +618,12 @@
       "path": "packs/la-geste-de-la-fin-des-temps-prequelles.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -392,7 +632,6 @@
       "name": "blessures-graves",
       "path": "packs/blessures-graves.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -401,7 +640,6 @@
       "name": "journaux",
       "path": "packs/journaux.db",
       "system": "knight",
-      "private": false,
       "flags": {}
     },
     {
@@ -411,6 +649,12 @@
       "path": "packs/distinctions.db",
       "system": "knight",
       "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
       "flags": {}
     }
   ],
