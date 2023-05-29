@@ -19,5 +19,18 @@ Hooks.on('knightSettingsChange', setting => {
 });
 
 function processPackVisibility(setting, packName) {
-  game.packs.get(packName).configure({ 'private': !game.settings.get('knight', setting) });
+  if (!game.user.isGM) {
+    return;
+  }
+
+  const hideToPlayers = !game.settings.get('knight', setting);
+  const ownershipLevel = hideToPlayers ? 'LIMITED' : 'OBSERVER';
+
+  game.packs.get(packName).configure({
+    private: hideToPlayers,
+    ownership: {
+      PLAYER: ownershipLevel,
+      TRUSTED: ownershipLevel,
+    },
+  });
 }
