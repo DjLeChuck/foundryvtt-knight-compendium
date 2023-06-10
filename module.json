@@ -30,6 +30,9 @@
       "name": "Knight",
       "sorting": "m",
       "packs": [
+        "creatures-bestiaire-officiel",
+        "npcs",
+        "vehicles",
         "overdrives",
         "npc-capacities-base",
         "mecha-armours-base",
@@ -38,7 +41,6 @@
         "destiny-cards-base",
         "destiny-cards-tables",
         "capacites-heroiques",
-        "creatures-bestiaire-officiel",
         "blessures-graves",
         "journaux",
         "distinctions"
@@ -85,43 +87,6 @@
             "ai-advantages-base",
             "ai-disadvantages-base",
             "section-disadvantages-base"
-          ]
-        },
-        {
-          "name": "PNJs",
-          "sorting": "m",
-          "packs": [
-            "le-knight",
-            "la-black-cell",
-            "le-nodachi",
-            "les-neuf",
-            "foret-noire-allemagne",
-            "istanbul-turquie",
-            "rio-de-janeiro-bresil",
-            "arche-de-los-angeles--san-francisco",
-            "nashville-usa",
-            "arche-de-londres-royaume-uni",
-            "arche-de-tokyo-kyoto-japon",
-            "arche-doslo-asgard-norvege",
-            "siberie-centrale-russie",
-            "paris-france",
-            "manhattan-usa",
-            "profils-humains",
-            "vehicules"
-          ],
-          "folders": [
-            {
-              "name": "La Geste",
-              "sorting": "m",
-              "packs": [
-                "la-geste-de-la-fin-des-temps-arc-de-la-bete",
-                "la-geste-de-la-fin-des-temps-arc-de-la-chair",
-                "la-geste-de-la-fin-des-temps-arc-de-la-dame",
-                "la-geste-de-la-fin-des-temps-arc-de-la-machine",
-                "la-geste-de-la-fin-des-temps-arc-du-masque",
-                "la-geste-de-la-fin-des-temps-prequelles"
-              ]
-            }
           ]
         }
       ]
@@ -443,6 +408,21 @@
       "flags": {}
     },
     {
+      "label": "PNJs",
+      "type": "Actor",
+      "name": "npcs",
+      "path": "packs/npcs.db",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "label": "Créatures - Bestiaire officiel",
       "type": "Actor",
       "name": "creatures-bestiaire-officiel",
@@ -458,175 +438,10 @@
       "flags": {}
     },
     {
-      "label": "Le Knight",
-      "type": "Actor",
-      "name": "le-knight",
-      "path": "packs/le-knight.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "La Black Cell",
-      "type": "Actor",
-      "name": "la-black-cell",
-      "path": "packs/la-black-cell.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Le Nodachi",
-      "type": "Actor",
-      "name": "le-nodachi",
-      "path": "packs/le-nodachi.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Les Neuf",
-      "type": "Actor",
-      "name": "les-neuf",
-      "path": "packs/les-neuf.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Profils humains",
-      "type": "Actor",
-      "name": "profils-humains",
-      "path": "packs/profils-humains.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
       "label": "Véhicules",
       "type": "Actor",
       "name": "vehicules",
       "path": "packs/vehicules.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "La Geste - Arc de la Bête",
-      "type": "Actor",
-      "name": "la-geste-de-la-fin-des-temps-arc-de-la-bete",
-      "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-bete.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "La Geste - Arc de la Chair",
-      "type": "Actor",
-      "name": "la-geste-de-la-fin-des-temps-arc-de-la-chair",
-      "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-chair.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "La Geste - Arc de la Dame",
-      "type": "Actor",
-      "name": "la-geste-de-la-fin-des-temps-arc-de-la-dame",
-      "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-dame.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "La Geste - Arc de la Machine",
-      "type": "Actor",
-      "name": "la-geste-de-la-fin-des-temps-arc-de-la-machine",
-      "path": "packs/la-geste-de-la-fin-des-temps-arc-de-la-machine.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "La Geste - Arc du Masque",
-      "type": "Actor",
-      "name": "la-geste-de-la-fin-des-temps-arc-du-masque",
-      "path": "packs/la-geste-de-la-fin-des-temps-arc-du-masque.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "La Geste - Préquelles",
-      "type": "Actor",
-      "name": "la-geste-de-la-fin-des-temps-prequelles",
-      "path": "packs/la-geste-de-la-fin-des-temps-prequelles.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -658,171 +473,6 @@
       "type": "Item",
       "name": "distinctions",
       "path": "packs/distinctions.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Forêt-Noire - Allemagne",
-      "type": "Actor",
-      "name": "foret-noire-allemagne",
-      "path": "packs/foret-noire-allemagne.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Istanbul - Turquie",
-      "type": "Actor",
-      "name": "istanbul-turquie",
-      "path": "packs/istanbul-turquie.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Rio de Janeiro - Brésil",
-      "type": "Actor",
-      "name": "rio-de-janeiro-bresil",
-      "path": "packs/rio-de-janeiro-bresil.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Arche de Los Angeles / San Francisco",
-      "type": "Actor",
-      "name": "arche-de-los-angeles--san-francisco",
-      "path": "packs/arche-de-los-angeles--san-francisco.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Nashville - USA",
-      "type": "Actor",
-      "name": "nashville-usa",
-      "path": "packs/nashville-usa.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Arche de Londres - Royaume-Uni",
-      "type": "Actor",
-      "name": "arche-de-londres-royaume-uni",
-      "path": "packs/arche-de-londres-royaume-uni.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Arche de Tokyo-Kyoto - Japon",
-      "type": "Actor",
-      "name": "arche-de-tokyo-kyoto-japon",
-      "path": "packs/arche-de-tokyo-kyoto-japon.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Arche d’Oslo-Asgard - Norvège",
-      "type": "Actor",
-      "name": "arche-doslo-asgard-norvege",
-      "path": "packs/arche-doslo-asgard-norvege.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Sibérie centrale - Russie",
-      "type": "Actor",
-      "name": "siberie-centrale-russie",
-      "path": "packs/siberie-centrale-russie.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Paris - France",
-      "type": "Actor",
-      "name": "paris-france",
-      "path": "packs/paris-france.db",
-      "system": "knight",
-      "private": true,
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "TRUSTED": "LIMITED",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Manhattan - USA",
-      "type": "Actor",
-      "name": "manhattan-usa",
-      "path": "packs/manhattan-usa.db",
       "system": "knight",
       "private": true,
       "ownership": {

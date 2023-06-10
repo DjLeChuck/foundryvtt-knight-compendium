@@ -17,6 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Only change pack visibility if admin
 
+### Changed
+
+- Group all NPCs into one compendium
+
 ## [10.0.2] - 2023-04-17
 
 ### Fixed
