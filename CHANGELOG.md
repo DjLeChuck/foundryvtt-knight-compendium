@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- New capacity on the "Sorcerer"
+
+### Fixed
+
+- Wrong energy cost on the "Phase" special of the "Sorcerer"
+
 ## [10.0.3] - 2023-06-10
 
 ### Added
