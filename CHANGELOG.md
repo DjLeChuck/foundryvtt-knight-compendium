@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [10.1.0] - 2023-06-21
+
 ### Added
 
 - RollTable for serious injuries
@@ -249,7 +251,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.4...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.0...HEAD
+
+[10.1.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.4...10.1.0
 
 [10.0.4]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.3...10.0.4
 
