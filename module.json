@@ -42,6 +42,7 @@
         "destiny-cards-tables",
         "capacites-heroiques",
         "blessures-graves",
+        "blessures-graves-table-aleatoire",
         "journaux",
         "distinctions"
       ],
@@ -481,6 +482,14 @@
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
       },
+      "flags": {}
+    },
+    {
+      "label": "Blessures graves - Table aléatoire",
+      "type": "RollTable",
+      "name": "blessures-graves-table-aleatoire",
+      "path": "packs/blessures-graves-table-aleatoire.db",
+      "system": "knight",
       "flags": {}
     }
   ],
