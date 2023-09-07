@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [10.1.1] - 2023-09-07
+
 ### Fixed
 
 - Bad trait on "Épée bâtarde"
@@ -260,7 +262,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.0...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.1...HEAD
+
+[10.1.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.0...10.1.1
 
 [10.1.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.0.4...10.1.0
 
