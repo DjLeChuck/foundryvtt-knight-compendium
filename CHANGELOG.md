@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Bad trait on "Épée bâtarde"
+
 ## [10.1.0] - 2023-06-21
 
 ### Added
