@@ -499,7 +499,7 @@
         "id": "knight",
         "type": "system",
         "compatibility": {
-          "minimum": "3.11.1"
+          "minimum": "3.21.4"
         }
       }
     ]

@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bad trait on "Épée bâtarde"
 - Wrong damages on Monk capacities
 
+### Changed
+
+- Global update for the system 3.21
+
 ## [10.1.0] - 2023-06-21
 
 ### Added
