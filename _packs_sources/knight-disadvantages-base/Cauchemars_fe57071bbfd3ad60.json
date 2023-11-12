@@ -1,0 +1,96 @@
+{
+  "name": "Cauchemars",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>Depuis quelques années, suite à un traumatisme, le personnage dort très mal et fait régulièrement des cauchemars terribles (à préciser en accord avec le MJ) qui l'empêchent de dormir et dévorent son sommeil en plus d'alimenter sa fatigue. En termes de jeu, lorsque le personnage dort ou se repose pour récupérer des points de santé, il doit lancer 1D6. Sur un résultat pair, tout va bien, la récupération et la nuit sont normales. Sur un résultat impair, le héros subit une nuit de cauchemars et ne récupère aucun point de santé, même en cas de soin à l'infirmerie du Knight, et perd 1 point d'espoir.</p>\n",
+    "type": "standard",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "fe57071bbfd3ad60",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-disadvantages-base.fe57071bbfd3ad60"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019356174,
+    "modifiedTime": 1668026683791,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!fe57071bbfd3ad60"
+}

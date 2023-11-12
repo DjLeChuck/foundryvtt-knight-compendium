@@ -1,0 +1,96 @@
+{
+  "name": "Libertine",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>L'IA de l'armure déborde de sensualité et essaie par tous les moyens de vivre un amour charnel par procuration au travers de son porteur. Si elle sent que son chevalier est en passe d'avoir un échange d'ordre sensuel ou sexuel, elle défolde d'elle-même la méta-armure afin de recouvrir le corps du chevalier et ressentir un peu de cette chaleur humaine qu'elle recherche. En termes de jeu, le chevalier doit gérer une armure qui n'en fait qu'à sa tête lorsque les relations physiques deviennent plus intimes.</p>\n",
+    "type": "ia",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "fffb8b6f7d74be00",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-disadvantages-base.fffb8b6f7d74be00"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668025962899,
+    "modifiedTime": 1668026687803,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!fffb8b6f7d74be00"
+}

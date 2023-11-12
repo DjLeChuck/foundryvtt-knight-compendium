@@ -1,0 +1,139 @@
+{
+  "name": "Fusil anti-matériel",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/fusil-anti-materiel.webp",
+  "system": {
+    "description": "<p>Ce très long fusil de précision anti-matériel tire des obus de DCA. Précis sur plus d'un kilomètre, il tire à travers la plupart des couverts urbains. Sa lunette de visée est doublée d'une caméra très haute performance pour le tir en sécurité et la désignation des cibles. Ces dernières apparaissent sur les affichages RA de toute la coterie pour l'assistance balistique automatisée.</p>\n",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "lointaine",
+    "prix": 60,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "assistanceattaque",
+        "designation",
+        "destructeur",
+        "deuxmains",
+        "lourd",
+        "percearmure 40",
+        "precision",
+        "tirensecurite"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.83fd22d5e3b1ee5a"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005682,
+    "modifiedTime": 1693092596472,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "CRS6DOWZori7imSa",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!CRS6DOWZori7imSa"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Rêves prémonitoires",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le personnage fait régulièrement des rêves prémonitoires. Il en a conscience et, même s'il ne maîtrise pas ce don, il peut parfois s'avérer très utile. En termes de jeu, une fois par partie, lorsque son personnage dort, le joueur peut demander au MJ ce qu'il voit dans ses rêves prémonitoires. Le MJ doit répondre au joueur de façon sibylline, par deux ou trois phrases allégoriques sur la suite du scénario ou encore sur un personnage important de l'aventure. Cette réponse ne doit pas mal aiguiller le joueur et, bien évidemment, ne pas l'amener sur de fausses pistes (mais bien sûr, le personnage peut toujours mal interpréter ses rêves).</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "f767a2fb3eaabc9a",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.f767a2fb3eaabc9a"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192551,
+    "modifiedTime": 1668026461672,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!f767a2fb3eaabc9a"
+}

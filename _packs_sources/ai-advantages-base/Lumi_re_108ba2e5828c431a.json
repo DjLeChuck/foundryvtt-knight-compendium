@@ -1,0 +1,60 @@
+{
+  "name": "Lumière",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA guide le chevalier dans les ténèbres, quoi qu'il arrive. Pour ce faire, elle magnifie son armure et se déplace de manière à refléter toujours un peu de lumière. En termes de jeu, le chevalier bénéficie toujours de l'aspect lumière 1 pour ses attaques contre les créatures de l'Anathème.</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "108ba2e5828c431a",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.108ba2e5828c431a"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216120,
+    "modifiedTime": 1668026466789,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!108ba2e5828c431a"
+}

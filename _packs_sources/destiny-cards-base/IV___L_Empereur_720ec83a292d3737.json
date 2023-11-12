@@ -1,0 +1,29 @@
+{
+  "name": "IV - L'Empereur",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, un PJ peut récupérer instantanément la totalité de ses points d'armure. Cette carte peut être jouée juste au moment où les PA du PJ tombent à 0. Dans ce cas, les dégâts qui auraient dû toucher les PS du PJ ne font en fait qu'entamer le score de PA revenu à son maximum.</p>\n<blockquote><p>À ses côtés, la destruction paraîtra ne jamais avoir existé.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "720ec83a292d3737",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.720ec83a292d3737"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353099,
+    "modifiedTime": 1668026490400,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!720ec83a292d3737"
+}

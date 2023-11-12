@@ -1,0 +1,96 @@
+{
+  "name": "Giant - Rat d’atelier",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>Le PJ &eacute;tait plus souvent &agrave; l&rsquo;atelier que sur le terrain et il est encore mal habitu&eacute; aux cr&eacute;atures et horreurs de l&rsquo;Anath&egrave;me. Pour repr&eacute;senter cela, celui-ci subit le r&eacute;sultat &eacute;chec critique de la capacit&eacute; <em>peur</em> sans pouvoir faire de test pour y r&eacute;sister. Le nombre de tours que le PJ passe &agrave; ne rien pouvoir faire est &eacute;gal, en D6, au score de la capacit&eacute; <em>peur</em> pr&eacute;sent dans le profil de l&rsquo;ennemi.</p>",
+    "type": "standard",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.section-disadvantages-base.4SE2TlCrU6UvrMr9"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667642468712,
+    "modifiedTime": 1668026692648,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "4SE2TlCrU6UvrMr9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4SE2TlCrU6UvrMr9"
+}

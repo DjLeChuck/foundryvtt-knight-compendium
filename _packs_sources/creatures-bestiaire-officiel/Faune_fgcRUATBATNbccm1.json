@@ -1,0 +1,809 @@
+{
+  "name": "Faune",
+  "type": "creature",
+  "img": "modules/knight-compendium/assets/bestiary/faune.webp",
+  "system": {
+    "combat": {
+      "armesimprovisees": {
+        "aspect": "chair",
+        "contact": "combat",
+        "distance": "tir",
+        "liste": {
+          "ai1": {
+            "force": 1,
+            "chair": [
+              1,
+              2
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 2
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai2": {
+            "force": 2,
+            "chair": [
+              3,
+              4
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai3": {
+            "force": 3,
+            "chair": [
+              5,
+              6
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 7
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai4": {
+            "force": 4,
+            "chair": [
+              7,
+              8
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 9
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 8
+                },
+                "violence": {
+                  "dice": 8
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai5": {
+            "force": 5,
+            "chair": [
+              9,
+              10
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 10
+                },
+                "violence": {
+                  "dice": 12
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 11
+                },
+                "violence": {
+                  "dice": 11
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "modificateur": 0,
+        "succesbonus": 0,
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "aspects": {
+      "chair": {
+        "value": 8,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "value": 10,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "6",
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "value": 4,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "value": 4,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "value": 7,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "1",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      }
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "diceBase": 3,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 3
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "diceBonus": {},
+        "diceMalus": {},
+        "bonus": {},
+        "malus": {}
+      },
+      "optionDeploy": false
+    },
+    "reaction": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 2,
+      "optionDeploy": false
+    },
+    "defense": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 5,
+      "optionDeploy": false
+    },
+    "sante": {
+      "bonus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "max": 0,
+      "base": 80,
+      "optionDeploy": false
+    },
+    "description": "<p>Les faunes sont les humains qui ont &eacute;t&eacute; touch&eacute;s par le d&eacute;sespoir dans le domaine de la B&ecirc;te. La plupart subissent des transformations physiques limit&eacute;es, des &eacute;cailles s&rsquo;&eacute;tendent sur leur peau si ce ne sont des poils, leurs doigts se palment ou deviennent griffus et leurs yeux se noircissent pour adapter leur vue &agrave; l&rsquo;obscurit&eacute;. Leur personnalit&eacute; est, quant &agrave; elle, g&eacute;n&eacute;ralement plus touch&eacute;e par la pr&eacute;sence du Seigneur. Certains s&rsquo;isolent de toutes les autres cr&eacute;atures, pr&eacute;f&eacute;rant chasser pour eux-m&ecirc;mes et s&rsquo;enfermer dans un mutisme haineux. Le reste se d&eacute;place par groupes d&rsquo;environ dix individus. Leurs mots finissent g&eacute;n&eacute;ralement par se transformer en cris. Ils attaquent de fa&ccedil;on organis&eacute;e des communaut&eacute;s de rebuts pour trouver de la nourriture, mais, si celle-ci vient &agrave; v&eacute;ritablement manquer, ils sont capables de se d&eacute;vorer entre eux pour survivre ou de se s&eacute;parer de leur groupe d&rsquo;origine.<br>Car voil&agrave; l&rsquo;objectif premier des faunes, survivre. Quelles que soient les m&eacute;thodes mises en &oelig;uvre pour cela, ces d&eacute;sesp&eacute;r&eacute;s particuli&egrave;rement brutaux sont pr&ecirc;ts &agrave; tout pour perdurer. Leur instinct les pousse &agrave; tuer les humains pour r&eacute;cup&eacute;rer du mat&eacute;riel et des vivres.</p>",
+    "tactique": "<p>Simples et brutaux, les faunes attaquent l&rsquo;ennemi le plus proche d&rsquo;eux. Si leurs ennemis sont &agrave; distance &eacute;gale, alors&nbsp;<br>les faunes attaqueront celui qui poss&egrave;de le plus haut score dans l&rsquo;aspect Dame puis en Aura.</p>",
+    "type": "Salopard (recrue)",
+    "pointsFaibles": "",
+    "phase2Activate": false,
+    "phase2": {
+      "sante": 0,
+      "armure": 0,
+      "energie": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        }
+      }
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "bouclier": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "resilience": {
+      "value": 0,
+      "max": 0
+    },
+    "histoire": "",
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "options": {
+      "energie": false,
+      "sante": true,
+      "bouclier": false,
+      "armure": false,
+      "resilience": false,
+      "phase2": true
+    },
+    "knightRoll": {
+      "id": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Faune",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/knight-compendium/assets/bestiary/faune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Charge brutale",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Une fois par combat, le PNJ peut parcourir instantanément la distance qui le sépare d'un ennemi à portée moyenne ou inférieure. Il doit faire un jet pour toucher, s'il réussit, il inflige à son ennemi les dégâts de son arme auxquels s'ajoute deux fois son score de Bête.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "aZwmczivV6fDPFTq",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.50ca71407d7356b8"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.5",
+        "coreVersion": "10.288",
+        "createdTime": 1666890018849,
+        "modifiedTime": 1666908728768,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!fgcRUATBATNbccm1.aZwmczivV6fDPFTq"
+    },
+    {
+      "name": "Arme lourde",
+      "type": "arme",
+      "system": {
+        "description": "",
+        "rarete": "standard",
+        "type": "contact",
+        "portee": "contact",
+        "prix": 0,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 4,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "effets": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "img": "systems/knight/assets/icons/arme.svg",
+      "_id": "TZt2njrzFv49lcRX",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1666908741597,
+        "modifiedTime": 1667154407270,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "_key": "!actors.items!fgcRUATBATNbccm1.TZt2njrzFv49lcRX"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.fgcRUATBATNbccm1"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666908516117,
+    "modifiedTime": 1668026211623,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "fgcRUATBATNbccm1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!fgcRUATBATNbccm1"
+}

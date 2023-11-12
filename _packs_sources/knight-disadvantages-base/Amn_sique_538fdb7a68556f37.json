@@ -1,0 +1,96 @@
+{
+  "name": "Amnésique",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>Qu'il ait été retrouvé à moitié mort sur une plage ou qu'il se soit réveillé dans un hôpital, le personnage semble n'avoir aucun passé et être inconnu de tous. Il semble tout de même posséder un avenir glorieux au sein du Knight. En termes de jeu, le passé du héros doit être composé par le MJ et rester secret, ses avantages sont aussi choisis par le MJ et seront révélés au héros au cours des différentes parties de Knight (au bon vouloir du MJ).</p>\n",
+    "type": "standard",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "538fdb7a68556f37",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-disadvantages-base.538fdb7a68556f37"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019356171,
+    "modifiedTime": 1668026683791,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!538fdb7a68556f37"
+}

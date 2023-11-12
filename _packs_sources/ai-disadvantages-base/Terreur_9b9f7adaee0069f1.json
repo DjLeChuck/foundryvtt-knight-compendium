@@ -1,0 +1,96 @@
+{
+  "name": "Terreur",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>L'IA sait par quel type de créature a été tué le chevalier qu'elle pense être. Si elle doit affronter ce type d'être, elle risque de perdre de manière dramatique ses moyens. En termes de jeu, à la création de l'IA, le MJ choisit secrètement un type de créature, si le chevalier combat une entité similaire, tous ses tests contre celle-ci ou destinés à lui permettre de la fuir voient leur difficulté augmenter de 1.</p>\n",
+    "type": "ia",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "9b9f7adaee0069f1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-disadvantages-base.9b9f7adaee0069f1"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668025962897,
+    "modifiedTime": 1668026687804,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!9b9f7adaee0069f1"
+}

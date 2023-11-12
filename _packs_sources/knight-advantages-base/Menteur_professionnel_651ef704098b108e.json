@@ -1,0 +1,60 @@
+{
+  "name": "Menteur professionnel",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le héros est très doué pour mentir et faire passer des vessies pour des lanternes. S'il n'est pas forcément un escroc, il ment avec un naturel et un aplomb que beaucoup envieraient s'ils savaient que le personnage ment. En termes de jeu, lorsque le personnage effectue un jet <em>Parole</em> combo <em>Discrétion</em>, la difficulté du test est réduite d'un niveau (un test difficulté faisable passe à un test difficulté facile).</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "651ef704098b108e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.651ef704098b108e"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192549,
+    "modifiedTime": 1668026461671,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!651ef704098b108e"
+}

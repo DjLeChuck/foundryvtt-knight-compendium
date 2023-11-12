@@ -1,0 +1,29 @@
+{
+  "name": "VIII - La Justice",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider d'appliquer deux effets supplémentaires à chacune de ses attaques réussies pendant toute la durée d'une phase de conflit. Ces deux effets sont à choisir parmi la liste suivante : <em>ignore armure</em>, <em>ignore CdF</em>, <em>fureur</em>, <em>démoralisant</em>.</p>\n<blockquote><p>Elle brandira son épée contre ceux qui le méritent.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "cc20350fff20d939",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.cc20350fff20d939"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353100,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!cc20350fff20d939"
+}

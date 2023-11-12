@@ -1,0 +1,691 @@
+{
+  "name": "Maraudeur II",
+  "type": "vehicule",
+  "img": "systems/knight/assets/icons/vehicule.svg",
+  "system": {
+    "manoeuvrabilite": 0,
+    "vitesse": 2,
+    "passagers": 10,
+    "champDeForce": {
+      "value": 0,
+      "base": 0,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 30,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 150,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "embuscade": {
+        "dice": 3,
+        "value": 0
+      }
+    },
+    "reaction": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "defense": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "equipage": {
+      "value": 0,
+      "max": 0,
+      "pilote": {
+        "name": "",
+        "id": ""
+      },
+      "passagers": []
+    },
+    "description": "<p>Construit par Paramount Group, entreprise sud-africaine, le premier maraudeur, un transport de troupes 4x4 blind&eacute; de 10 tonnes, a prouv&eacute; son efficacit&eacute; lors des affrontements contre Eurocorps, devenant par l&agrave; m&ecirc;me une r&eacute;f&eacute;rence. Le maraudeur &eacute;tant un produit phare, la NAU a financ&eacute; un projet de modernisation de la plate-forme.Les prototypes &eacute;taient en phase de test quand l&rsquo;Anath&egrave;me s&rsquo;est d&eacute;voil&eacute;, for&ccedil;ant la NAU &agrave; changer le cahier des charges. La NAU a &eacute;t&eacute; la toute premi&egrave;re &agrave; disposer d&rsquo;un v&eacute;hicule pens&eacute; pour lutter contre les cr&eacute;atures des &nbsp;t&eacute;n&egrave;bres (phares ultra-violets, meurtri&egrave;res coulissantes, porti&egrave;res &agrave; fermeture pneumatique, etc.).L&rsquo;&eacute;quipage du maraudeur II est constitu&eacute; d&rsquo;un pilote et d&rsquo;un copilote-artilleur &agrave; l&rsquo;avant, transportant huit soldats &nbsp;et leur &eacute;quipement &agrave; l&rsquo;arri&egrave;re. D&rsquo;&eacute;normes pneus &agrave; structure alv&eacute;olaire increvable et un gigantesque ch&acirc;ssis quasi indestructible permettent au maraudeur II d&rsquo;&eacute;voluer aussi rapidement en terrain accident&eacute; qu&rsquo;un v&eacute;hicule &agrave; chenilles, quitte &agrave; &eacute;craser des voitures abandonn&eacute;es. Sur le toit, un support pour tourelle automatique permet d&rsquo;&eacute;quiper diff&eacute;rentes armes. En plus des transports de troupes arm&eacute;es, sont disponibles des maraudeurs II ambulances et v&eacute;hicules de commandement.Il est &agrave; noter que le maraudeur est l&rsquo;un des principaux &nbsp;v&eacute;hicules de combat pr&eacute;sents dans les territoires libres mais aussi au sein de certaines arches.</p>"
+  },
+  "prototypeToken": {
+    "name": "un acteur non défini(e) (210)",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/knight/assets/icons/vehicule.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Mitrailleuse lourde",
+      "type": "arme",
+      "img": "modules/knight-compendium/assets/weapons/mitrailleuse-lourde.webp",
+      "system": {
+        "description": "<p>Les recruteurs du Knight ont l'habitude de dire qu'un chevalier en méta-armure est aussi puissant qu'un véhicule blindé. La mitrailleuse lourde à canons rotatifs le confirme. Elle se tient à la hanche, par la poignée du dessus, et un chevalier tire avec celle sur le côté. Une bande articulée blindée relie la mitrailleuse à un caisson de munitions fixé au dos de la méta-armure.</p>\n",
+        "rarete": "avance",
+        "type": "distance",
+        "portee": "moyenne",
+        "prix": 45,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 5,
+          "fixe": 10
+        },
+        "violence": {
+          "dice": 4,
+          "fixe": 0
+        },
+        "effets": {
+          "liste": [],
+          "raw": [
+            "destructeur",
+            "deuxmains",
+            "lourd",
+            "percearmure 20"
+          ],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "effects": [],
+      "_id": "DEz5tkQjwwDTrn0M",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890005694,
+        "modifiedTime": 1667499857540,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "Ng4Wg5CoRf575OLv",
+      "sort": 0,
+      "_key": "!actors.items!H4lnndxdkNbf8KJ2.DEz5tkQjwwDTrn0M"
+    },
+    {
+      "name": "Pod roquette niv. 1",
+      "type": "module",
+      "img": "modules/knight-compendium/assets/modules/pod-roquette.webp",
+      "system": {
+        "description": "<p>Un lanceur envoie une salve de roquettes antipersonnel.</p>\n",
+        "categorie": "distance",
+        "permanent": false,
+        "rarete": "avance",
+        "prix": 30,
+        "energie": {
+          "tour": {
+            "value": 1,
+            "label": "Instantanée"
+          },
+          "minute": {
+            "value": 0,
+            "label": "Minute"
+          },
+          "supplementaire": 0
+        },
+        "activation": "deplacement",
+        "duree": "",
+        "portee": "longue",
+        "listes": {},
+        "labels": {},
+        "aspects": {
+          "chair": {
+            "liste": {
+              "deplacement": {},
+              "force": {},
+              "endurance": {}
+            }
+          },
+          "bete": {
+            "liste": {
+              "hargne": [],
+              "combat": [],
+              "instinct": [],
+              "deplacement": {},
+              "force": {},
+              "endurance": {}
+            }
+          },
+          "machine": {
+            "liste": {
+              "tir": [],
+              "savoir": [],
+              "technique": [],
+              "deplacement": {},
+              "force": {},
+              "endurance": {}
+            }
+          },
+          "dame": {
+            "liste": {
+              "aura": [],
+              "parole": [],
+              "sangFroid": [],
+              "deplacement": {},
+              "force": {},
+              "endurance": {}
+            }
+          },
+          "masque": {
+            "liste": {
+              "discretion": [],
+              "dexterite": [],
+              "perception": [],
+              "deplacement": {},
+              "force": {},
+              "endurance": {}
+            }
+          }
+        },
+        "slots": {
+          "tete": 0,
+          "torse": 2,
+          "brasGauche": 0,
+          "brasDroit": 0,
+          "jambeGauche": 0,
+          "jambeDroite": 0
+        },
+        "bonus": {
+          "has": false,
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "champDeForce": {
+            "has": false,
+            "value": 0
+          },
+          "energie": {
+            "has": false,
+            "value": 0
+          },
+          "degats": {
+            "has": false,
+            "type": "contact",
+            "dice": 0,
+            "fixe": 0,
+            "variable": {
+              "has": false,
+              "min": {
+                "dice": 0,
+                "fixe": 0
+              },
+              "max": {
+                "dice": 0,
+                "fixe": 0
+              }
+            }
+          },
+          "violence": {
+            "has": false,
+            "type": "contact",
+            "dice": 0,
+            "fixe": 0,
+            "variable": {
+              "has": false,
+              "min": {
+                "dice": 0,
+                "fixe": 0
+              },
+              "max": {
+                "dice": 0,
+                "fixe": 0
+              }
+            }
+          },
+          "overdrives": {
+            "has": false,
+            "aspects": {
+              "chair": {
+                "deplacement": 0,
+                "force": 0,
+                "endurance": 0
+              },
+              "bete": {
+                "hargne": 0,
+                "combat": 0,
+                "instinct": 0
+              },
+              "machine": {
+                "tir": 0,
+                "savoir": 0,
+                "technique": 0
+              },
+              "dame": {
+                "aura": 0,
+                "parole": 0,
+                "sangFroid": 0
+              },
+              "masque": {
+                "discretion": 0,
+                "dexterite": 0,
+                "perception": 0
+              }
+            }
+          },
+          "grenades": {
+            "has": false,
+            "liste": {
+              "antiblindage": {
+                "degats": {
+                  "dice": 0
+                },
+                "violence": {
+                  "dice": 0
+                }
+              },
+              "explosive": {
+                "degats": {
+                  "dice": 0
+                },
+                "violence": {
+                  "dice": 0
+                }
+              },
+              "shrapnel": {
+                "degats": {
+                  "dice": 0
+                },
+                "violence": {
+                  "dice": 0
+                }
+              }
+            }
+          }
+        },
+        "arme": {
+          "has": true,
+          "type": "distance",
+          "portee": "longue",
+          "degats": {
+            "dice": 1,
+            "fixe": 6,
+            "variable": {
+              "has": false,
+              "min": {
+                "dice": 0,
+                "fixe": 0
+              },
+              "max": {
+                "dice": 0,
+                "fixe": 0
+              },
+              "cout": 0
+            }
+          },
+          "violence": {
+            "dice": 6,
+            "fixe": 12,
+            "variable": {
+              "has": false,
+              "min": {
+                "dice": 0,
+                "fixe": 0
+              },
+              "max": {
+                "dice": 0,
+                "fixe": 0
+              },
+              "cout": 0
+            }
+          },
+          "effets": {
+            "liste": [],
+            "custom": [],
+            "raw": [
+              "chargeur 3",
+              "ultraviolence"
+            ]
+          },
+          "distance": {
+            "liste": [],
+            "custom": [],
+            "raw": []
+          },
+          "structurelles": {
+            "liste": [],
+            "custom": [],
+            "raw": []
+          },
+          "ornementales": {
+            "liste": [],
+            "custom": [],
+            "raw": []
+          }
+        },
+        "overdrives": {
+          "has": false,
+          "aspects": {
+            "chair": {
+              "deplacement": 0,
+              "force": 0,
+              "endurance": 0
+            },
+            "bete": {
+              "hargne": 0,
+              "combat": 0,
+              "instinct": 0
+            },
+            "machine": {
+              "tir": 0,
+              "savoir": 0,
+              "technique": 0
+            },
+            "dame": {
+              "aura": 0,
+              "parole": 0,
+              "sangFroid": 0
+            },
+            "masque": {
+              "discretion": 0,
+              "dexterite": 0,
+              "perception": 0
+            }
+          }
+        },
+        "pnj": {
+          "has": false,
+          "modele": {
+            "nom": "",
+            "special": "",
+            "type": "pnj",
+            "champDeForce": 0,
+            "defense": 0,
+            "reaction": 0,
+            "armure": 0,
+            "debordement": 0,
+            "initiative": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "jetSpecial": {
+              "has": false,
+              "modele": {
+                "nom": "",
+                "dice": 0,
+                "overdrive": 0
+              },
+              "liste": {}
+            },
+            "aspects": {
+              "has": false,
+              "liste": {
+                "chair": {
+                  "value": 0,
+                  "ae": {
+                    "mineur": 0,
+                    "majeur": 0
+                  }
+                },
+                "bete": {
+                  "value": 0,
+                  "ae": {
+                    "mineur": 0,
+                    "majeur": 0
+                  }
+                },
+                "machine": {
+                  "value": 0,
+                  "ae": {
+                    "mineur": 0,
+                    "majeur": 0
+                  }
+                },
+                "dame": {
+                  "value": 0,
+                  "ae": {
+                    "mineur": 0,
+                    "majeur": 0
+                  }
+                },
+                "masque": {
+                  "value": 0,
+                  "ae": {
+                    "mineur": 0,
+                    "majeur": 0
+                  }
+                }
+              }
+            },
+            "armes": {
+              "has": false,
+              "modele": {
+                "nom": "",
+                "type": "contact",
+                "portee": "contact",
+                "attaque": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "degats": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "violence": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "effets": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                }
+              },
+              "liste": []
+            }
+          },
+          "liste": {}
+        },
+        "ersatz": {
+          "rogue": {
+            "has": false,
+            "interruption": {
+              "actif": true
+            },
+            "reussites": 3,
+            "attaque": "discretion",
+            "degats": {
+              "caracteristique": "discretion",
+              "od": true,
+              "dice": false,
+              "fixe": true
+            }
+          },
+          "bard": {
+            "has": false
+          }
+        },
+        "jetsimple": {
+          "has": false,
+          "label": "",
+          "jet": "0D0",
+          "effets": {
+            "raw": [],
+            "custom": []
+          }
+        },
+        "textarea": {
+          "duree": 22
+        }
+      },
+      "effects": [],
+      "_id": "K39QNRKSF58QMWRG",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.modules-avance.ffa19220110e5639"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890048757,
+        "modifiedTime": 1667499877207,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "EOfwePWZKQ7DXgZa",
+      "sort": 0,
+      "_key": "!actors.items!H4lnndxdkNbf8KJ2.K39QNRKSF58QMWRG"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.vehicules.H4lnndxdkNbf8KJ2"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667499770673,
+    "modifiedTime": 1668026280501,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "H4lnndxdkNbf8KJ2",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!H4lnndxdkNbf8KJ2"
+}

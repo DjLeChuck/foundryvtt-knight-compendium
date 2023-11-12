@@ -1,0 +1,983 @@
+{
+  "name": "Jarod Bentley",
+  "type": "pnj",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "combat": {
+      "armesimprovisees": {
+        "aspect": "chair",
+        "contact": "combat",
+        "distance": "tir",
+        "liste": {
+          "ai1": {
+            "force": 1,
+            "chair": [
+              1,
+              2
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 2
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai2": {
+            "force": 2,
+            "chair": [
+              3,
+              4
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai3": {
+            "force": 3,
+            "chair": [
+              5,
+              6
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 7
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai4": {
+            "force": 4,
+            "chair": [
+              7,
+              8
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 9
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 8
+                },
+                "violence": {
+                  "dice": 8
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai5": {
+            "force": 5,
+            "chair": [
+              9,
+              10
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 10
+                },
+                "violence": {
+                  "dice": 12
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 11
+                },
+                "violence": {
+                  "dice": 11
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "modificateur": 0,
+        "succesbonus": 0,
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "nods": {
+        "soin": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "armure": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "energie": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        }
+      },
+      "grenades": {
+        "quantity": {
+          "value": 5,
+          "max": 5
+        },
+        "liste": {
+          "antiblindage": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "destructeur",
+                "dispersion 6",
+                "penetrant 6",
+                "percearmure 20"
+              ],
+              "custom": []
+            }
+          },
+          "explosive": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antivehicule",
+                "choc 1",
+                "dispersion 3"
+              ],
+              "custom": []
+            }
+          },
+          "flashbang": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "barrage 2",
+                "choc 1",
+                "dispersion 6"
+              ],
+              "custom": []
+            }
+          },
+          "iem": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "dispersion 6",
+                "parasitage 2"
+              ],
+              "custom": []
+            }
+          },
+          "shrapnel": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "dispersion 6",
+                "meurtrier",
+                "ultraviolence"
+              ],
+              "custom": []
+            }
+          }
+        }
+      }
+    },
+    "aspects": {
+      "chair": {
+        "value": 6,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "value": 10,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "value": 6,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "value": 10,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "value": 4,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      }
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "diceBase": 3,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 2
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "diceBonus": {},
+        "diceMalus": {},
+        "bonus": {},
+        "malus": {}
+      },
+      "optionDeploy": true
+    },
+    "reaction": {
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 3,
+      "optionDeploy": true
+    },
+    "defense": {
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 5,
+      "optionDeploy": true
+    },
+    "sante": {
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "max": 0,
+      "base": 0
+    },
+    "description": "<p>Jarod Bentley est un c&eacute;l&egrave;bre compositeur et interpr&egrave;te de musique country. Il est aussi un des rares artistes &agrave; ne pas avoir perdu son talent lors de l&rsquo;arriv&eacute;e de l&rsquo;Anath&egrave;me. Proche de Clara Jensen, l&rsquo;immortelle qui souhaitait cr&eacute;er l&rsquo;arche de Nashville, celle-ci a tent&eacute; de le faire &eacute;vacuer le soir o&ugrave; les nanomachines ont enferm&eacute; la ville sous le d&ocirc;me. Alors qu&rsquo;il &eacute;tait &agrave; bord d&rsquo;un des derniers vectors d&eacute;collant de l&rsquo;arche avort&eacute;e, Jarod a &agrave; peine eu le temps de voir arriver l&rsquo;Anath&egrave;me de la Machine sur la zone que son v&eacute;hicule a &eacute;t&eacute; attaqu&eacute; &agrave; distance par des cr&eacute;atures et qu&rsquo;il en a &eacute;t&eacute; &eacute;ject&eacute;. Par chance, il a surv&eacute;cu &agrave; la chute vertigineuse qui l&rsquo;a ramen&eacute; au sein du d&ocirc;me, bien qu&rsquo;il ait mis beaucoup de temps &agrave; se remettre de ses nombreuses fractures. Aujourd&rsquo;hui, Jarod est l&rsquo;un des seuls &agrave; savoir que l&rsquo;ext&eacute;rieur du d&ocirc;me ne permet plus de voir la lumi&egrave;re du jour, mais seulement l&rsquo;Anath&egrave;me. Bien s&ucirc;r, il se tait afin de ne pas provoquer une nouvelle panique, mais sa musique est devenue bien plus sombre et cherche, en quelque sorte, &agrave; faire comprendre &agrave; ses admirateurs qu&rsquo;il ne faut plus chercher &agrave; quitter Nashville.</p>",
+    "tactique": "<p>Jarod Bentley ne combat pas et fuit automatiquement en phase de conflit.</p>",
+    "type": "Allié (recrue)",
+    "pointsFaibles": "",
+    "phase2Activate": false,
+    "phase2": {
+      "sante": 0,
+      "armure": 0,
+      "energie": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        }
+      }
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 20,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": true
+    },
+    "bouclier": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "resilience": {
+      "value": 0,
+      "max": 0
+    },
+    "surnom": "",
+    "age": "",
+    "wear": "",
+    "archetype": "",
+    "hautFait": "",
+    "section": "",
+    "blason": "",
+    "histoire": "",
+    "metaarmure": "",
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "champDeForce": {
+      "value": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "espoir": {
+      "value": 0,
+      "max": 0
+    },
+    "options": {
+      "energie": false,
+      "champDeForce": false,
+      "sante": false,
+      "bouclier": false,
+      "armure": true,
+      "espoir": false,
+      "resilience": false,
+      "modules": false,
+      "phase2": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Jarod Bentley",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "sante"
+    },
+    "bar2": {
+      "attribute": "armure"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Haine de l'Anathème",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Les dégâts du PNJ sont augmentés de 3D6 contre les créatures de l'Anathème.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "enyDxHHJivznlMBS",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Kisv9JwB5w6zIXyv": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.76f7c56995dad05f"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "3.10.2",
+        "coreVersion": "10.291",
+        "createdTime": 1666890018880,
+        "modifiedTime": 1685564181999,
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+      },
+      "_key": "!actors.items!QjIR9JJd2lyCcLLL.enyDxHHJivznlMBS"
+    }
+  ],
+  "effects": [
+    {
+      "label": "Modules",
+      "icon": null,
+      "changes": [],
+      "disabled": false,
+      "_id": "nSdi6pUAhh3BTZFQ",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "_key": "!actors.effects!QjIR9JJd2lyCcLLL.nSdi6pUAhh3BTZFQ"
+    },
+    {
+      "label": "Capacites",
+      "icon": null,
+      "changes": [
+        {
+          "key": "system.aspects.chair.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.chair.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.chair.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.bete.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.bete.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.bete.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.machine.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.machine.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.machine.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.dame.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.dame.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.dame.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.masque.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.masque.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.masque.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        }
+      ],
+      "disabled": false,
+      "_id": "s3PQBS5lCwEk8zX4",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "_key": "!actors.effects!QjIR9JJd2lyCcLLL.s3PQBS5lCwEk8zX4"
+    },
+    {
+      "label": "Armes",
+      "icon": null,
+      "changes": [],
+      "disabled": false,
+      "_id": "hqlldgeHOsrKcXbj",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "_key": "!actors.effects!QjIR9JJd2lyCcLLL.hqlldgeHOsrKcXbj"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.10.2",
+    "coreVersion": "10.291",
+    "createdTime": 1685564138289,
+    "modifiedTime": 1685567497782,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "QjIR9JJd2lyCcLLL",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Kisv9JwB5w6zIXyv": 3
+  },
+  "_key": "!actors!QjIR9JJd2lyCcLLL"
+}

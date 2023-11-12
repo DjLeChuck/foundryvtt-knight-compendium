@@ -1,0 +1,126 @@
+{
+  "name": "Traumas légers",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "description": "Le personnage peut récupérer 20 points d'espoir en échange d'un trauma léger, influant généralement sur une caractéristique.",
+  "results": [
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Faiblesse",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "c7b2eb705798b82b",
+      "_id": "xprdZIywmnrkzX2r",
+      "flags": {},
+      "_key": "!tables.results!PjZ63kdqZTNNw3jz.xprdZIywmnrkzX2r"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Somatisation",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "80237ac6db3a27d5",
+      "_id": "681LV91cdAjqcAQr",
+      "flags": {},
+      "_key": "!tables.results!PjZ63kdqZTNNw3jz.681LV91cdAjqcAQr"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Distanciation",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "59147be5e22f3611",
+      "_id": "BU09vmDyTZoIHDx9",
+      "flags": {},
+      "_key": "!tables.results!PjZ63kdqZTNNw3jz.BU09vmDyTZoIHDx9"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Rêveries",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "c73c00dedeca04dc",
+      "_id": "CoCXP7aSOdkCCSQR",
+      "flags": {},
+      "_key": "!tables.results!PjZ63kdqZTNNw3jz.CoCXP7aSOdkCCSQR"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Hypersensibilité",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "621c85bd978b47bf",
+      "_id": "V4PBWERIRuZS6USv",
+      "flags": {},
+      "_key": "!tables.results!PjZ63kdqZTNNw3jz.V4PBWERIRuZS6USv"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Trouble sensitif",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "fac1c873d6fafc2e",
+      "_id": "85fvMIQjSsfTW1ry",
+      "flags": {},
+      "_key": "!tables.results!PjZ63kdqZTNNw3jz.85fvMIQjSsfTW1ry"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-tables.PjZ63kdqZTNNw3jz"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "PjZ63kdqZTNNw3jz",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026008876,
+    "modifiedTime": 1668026672575,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!tables!PjZ63kdqZTNNw3jz"
+}

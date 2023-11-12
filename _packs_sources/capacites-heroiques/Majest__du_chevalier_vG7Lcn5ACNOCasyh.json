@@ -1,0 +1,29 @@
+{
+  "name": "Majesté du chevalier",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Les tests effectu&eacute;s avec les caract&eacute;ristiques Parole ou Aura du PJ re&ccedil;oivent 3 r&eacute;ussites automatiques.</p>\n<ul>\n<li>Activation : Aucune</li>\n<li>Dur&eacute;e : Une sc&egrave;ne ou une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 2</li>\n<li>Cat&eacute;gorie : Sociale</li>\n<li>XP : 10</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.vG7Lcn5ACNOCasyh"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667228376489,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "vG7Lcn5ACNOCasyh",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!vG7Lcn5ACNOCasyh"
+}

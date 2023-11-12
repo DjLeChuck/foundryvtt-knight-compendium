@@ -1,0 +1,60 @@
+{
+  "name": "Instinct animal",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le personnage possède un instinct très prononcé qui lui permet de percevoir des choses et des événements avant les autres. En termes de jeu, le héros reçoit un bonus de +10 à son <em>initiative</em> lors des embuscades qu'il subit et conserve ses scores de <em>défense</em> et de <em>réaction</em> lorsqu'il subit une attaque surprise ou lorsqu'il est attaqué dans le dos.</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": true,
+          "dice": 0,
+          "fixe": 10
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "b4e6804358ffdfa9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.b4e6804358ffdfa9"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192550,
+    "modifiedTime": 1668026461671,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!b4e6804358ffdfa9"
+}

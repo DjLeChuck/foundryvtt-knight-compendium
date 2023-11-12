@@ -1,0 +1,135 @@
+{
+  "name": "Fusil sonique",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/fusil-sonique.webp",
+  "system": {
+    "description": "<p>Cette arme, à l'aspect d'un énorme fusil à canon scié pourvu d'un unique tube, est la première arme à distance sonique à avoir été pensée par le Knight. Simple d'utilisation, dotée d'un petit réacteur à élément alpha alimentant un générateur sonique puissant, le fusil sonique envoie une puissante onde sonore ultra concentrée prenant la forme d'un cône de quelques mètres de long. Calibrée pour vibrer sur de multiples fréquences, l'arme peut liquéfier les organes, détruire les tympans et briser les os des cibles les moins résistantes.</p>\n",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "courte",
+    "prix": 30,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "choc 1",
+        "deuxmains",
+        "dispersion 3",
+        "obliteration"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.c2bb4878e3b4759b"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005688,
+    "modifiedTime": 1693092596472,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "7tMkfOj63SRJ2r6w",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!7tMkfOj63SRJ2r6w"
+}

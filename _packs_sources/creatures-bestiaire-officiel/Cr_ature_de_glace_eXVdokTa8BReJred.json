@@ -1,0 +1,1205 @@
+{
+  "name": "Créature de glace",
+  "type": "creature",
+  "img": "modules/knight-compendium/assets/bestiary/creature-glace.webp",
+  "system": {
+    "combat": {
+      "armesimprovisees": {
+        "aspect": "chair",
+        "contact": "combat",
+        "distance": "tir",
+        "liste": {
+          "ai1": {
+            "force": 1,
+            "chair": [
+              1,
+              2
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 2
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai2": {
+            "force": 2,
+            "chair": [
+              3,
+              4
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai3": {
+            "force": 3,
+            "chair": [
+              5,
+              6
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 7
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai4": {
+            "force": 4,
+            "chair": [
+              7,
+              8
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 9
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 8
+                },
+                "violence": {
+                  "dice": 8
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai5": {
+            "force": 5,
+            "chair": [
+              9,
+              10
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 10
+                },
+                "violence": {
+                  "dice": 12
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 11
+                },
+                "violence": {
+                  "dice": 11
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "modificateur": 0,
+        "succesbonus": 0,
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "aspects": {
+      "chair": {
+        "value": 12,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "value": 12,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "3",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "value": 8,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "value": 6,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "value": 4,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "3",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      }
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "diceBase": 3,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 2
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "diceBonus": {},
+        "diceMalus": {},
+        "bonus": {},
+        "malus": {}
+      },
+      "optionDeploy": false
+    },
+    "reaction": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 4,
+      "optionDeploy": false
+    },
+    "defense": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 6,
+      "optionDeploy": false
+    },
+    "sante": {
+      "bonus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "max": 0,
+      "base": 60,
+      "optionDeploy": false
+    },
+    "description": "<p>Les cr&eacute;atures de glace sont l&eacute;gions et proviennent toutes de la main de la Matrice. Tous uniques, ces &ecirc;tres peuvent avoir diff&eacute;rentes fonctions et de tr&egrave;s nombreuses formes. Parmi eux, on peut par exemple compter la pr&eacute;sence des &laquo; nourrices &raquo;. Souvent de forme animale, ils habitent en g&eacute;n&eacute;ral le labyrinthe qui renferme la Matrice qu&rsquo;ils entretiennent. En plus de r&eacute;pondre &agrave; tous les d&eacute;sirs de leur cr&eacute;atrice, ces cr&eacute;atures peuvent parfois sortir de sa prison afin de s&rsquo;occuper des nombreuses statues de glace se trouvant sur le territoire de la Dame. Mais la majorit&eacute; d&rsquo;entre elles sont des soldats. Pour l&rsquo;instant inactives, la Matrice augmente chaque jour leur nombre et, lorsque la Dame aura besoin de leur puissance, elles seront des milliers &agrave; pouvoir r&eacute;pondre &agrave; son appel. Ce jour-l&agrave; sera alors bien sombre pour l&rsquo;Humanit&eacute;. En plus de ces soldats, l&rsquo;incarnation commence &agrave; cr&eacute;er des champions. Cr&eacute;atures bien plus puissantes et bien plus grandes que les simples soldats, ces g&eacute;ants de glace parcourent le territoire de leur Seigneur dans l&rsquo;attente d&rsquo;une rencontre &agrave; leur hauteur.</p>",
+    "tactique": "<p>Une cr&eacute;ature de glace est avant tout une protectrice, elle attaquera donc tous ceux qui cherchent &agrave; s&rsquo;approcher de la Matrice ou qui s&rsquo;en prennent &agrave; elle. En combat, elle s&rsquo;attaque aux ennemis poss&eacute;dant le plus haut score de B&ecirc;te puis de Hargne.</p>",
+    "type": "Hostile (initié)",
+    "pointsFaibles": "",
+    "phase2Activate": false,
+    "phase2": {
+      "sante": 0,
+      "armure": 0,
+      "energie": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        }
+      }
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "bouclier": {
+      "value": 0,
+      "max": 0,
+      "base": 5,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": false
+    },
+    "resilience": {
+      "value": 0,
+      "max": 0
+    },
+    "histoire": "",
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "options": {
+      "energie": false,
+      "sante": true,
+      "bouclier": true,
+      "armure": false,
+      "resilience": false,
+      "phase2": false
+    },
+    "knightRoll": {
+      "id": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Créature de glace",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/knight-compendium/assets/bestiary/creature-glace.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Charge brutale",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Une fois par combat, le PNJ peut parcourir instantanément la distance qui le sépare d'un ennemi à portée moyenne ou inférieure. Il doit faire un jet pour toucher, s'il réussit, il inflige à son ennemi les dégâts de son arme auxquels s'ajoute deux fois son score de Bête.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "t10Er7o99sXxXcvv",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.50ca71407d7356b8"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1666890018849,
+        "modifiedTime": 1667159407922,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!eXVdokTa8BReJred.t10Er7o99sXxXcvv"
+    },
+    {
+      "name": "Protéiforme mineur",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ peut changer son apparence et se doter d'armes avec les effets suivants (au choix du MJ) : ignore armure, meurtrier, destructeur ou choc 1.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "bmM43AP4yPRpI67H",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.f4507559b4cc8a7e"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019304,
+        "modifiedTime": 1667159417464,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!eXVdokTa8BReJred.bmM43AP4yPRpI67H"
+    },
+    {
+      "name": "Hypersensibilité lumineuse",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Toute utilisation de l'effet lumière annule pendant 1D6 tours une ou plusieurs capacités du PNJ (au choix du MJ). Les dégâts infligés au PNJ avec des armes possédant l'effet lumière sont doublés.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "VWcJS4hjHJ8F9Iw3",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.7bd15242b5ac9216"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1666890018887,
+        "modifiedTime": 1667159434537,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!eXVdokTa8BReJred.VWcJS4hjHJ8F9Iw3"
+    },
+    {
+      "name": "Loyauté sans faille",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ ne fuit jamais et ne se rend jamais.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "vkhy0MDKtFA0sZFo",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.09e8362f60e15668"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1666890018792,
+        "modifiedTime": 1667159461076,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!eXVdokTa8BReJred.vkhy0MDKtFA0sZFo"
+    },
+    {
+      "folder": "BZpWmamPeuX1E27W",
+      "name": "Lame de glace",
+      "type": "arme",
+      "img": "systems/knight/assets/icons/arme.svg",
+      "system": {
+        "description": "",
+        "rarete": "standard",
+        "type": "contact",
+        "portee": "contact",
+        "prix": 0,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 6,
+          "fixe": 3
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "effets": {
+          "liste": [],
+          "raw": [
+            "meurtrier",
+            "destructeur",
+            "choc 1"
+          ],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.VAnrKZhcHaqL2nlU"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1667159478757,
+        "modifiedTime": 1667159558285,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "_id": "jpQBaxNStQ26CI7u",
+      "_key": "!actors.items!eXVdokTa8BReJred.jpQBaxNStQ26CI7u"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.eXVdokTa8BReJred"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667158662358,
+    "modifiedTime": 1668026211619,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "eXVdokTa8BReJred",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!eXVdokTa8BReJred"
+}

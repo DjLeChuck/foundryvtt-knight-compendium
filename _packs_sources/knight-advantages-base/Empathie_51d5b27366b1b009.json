@@ -1,0 +1,60 @@
+{
+  "name": "Empathie",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le personnage est doué d'une empathie naturelle avec les gens. Il peut comprendre ses interlocuteurs, détecter leurs sentiments et leurs émotions en quelques regards. En termes de jeu, lorsque le personnage cherche à déceler les émotions ou les sentiments d'un interlocuteur, il reçoit un bonus d'une réussite automatique à son jet base <em>Instinct</em> et ignore les éventuels échecs critiques.</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "51d5b27366b1b009",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.51d5b27366b1b009"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192549,
+    "modifiedTime": 1668026461671,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!51d5b27366b1b009"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Discours enflammé",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Par un discours particuli&egrave;rement galvanisant, le chevalier peut faire retrouver l&rsquo;espoir &agrave; des personnes d&eacute;sesp&eacute;r&eacute;es ou sur le point de l&rsquo;&ecirc;tre. Toutes les personnes entendant le discours r&eacute;cup&egrave;rent automatiquement 1D6 points d&rsquo;espoir auxquels s&rsquo;ajoute le score d&rsquo;Aura du chevalier utilisant la capacit&eacute;. Les d&eacute;sesp&eacute;r&eacute;s qui entendent le discours b&eacute;n&eacute;ficient automatiquement de l&rsquo;effet esp&eacute;rance et la difficult&eacute; du test que les PNJ doivent r&eacute;ussir lorsqu&rsquo;ils subissent cet effet est baiss&eacute;e d&rsquo;un niveau.</p>\n<p>Enfin, une bande de d&eacute;sesp&eacute;r&eacute;s qui entend le discours peut elle aussi tenter de r&eacute;ussir un test (difficult&eacute; ardu) pour retrouver espoir, comme si elle &eacute;tait un d&eacute;sesp&eacute;r&eacute; de type hostile b&eacute;n&eacute;ficiant de l&rsquo;effet esp&eacute;rance. Si le test est r&eacute;ussi, on consid&egrave;re qu&rsquo;une vague d&rsquo;espoir se r&eacute;pand parmi la bande et que ses membres retrouvent leurs esprits. La bande ne constitue alors plus un danger pour les chevaliers.</p>\n<ul>\n<li>Activation : Action de combat</li>\n<li>Dur&eacute;e : Instantan&eacute;e</li>\n<li>H&eacute;ro&iuml;sme : 5</li>\n<li>Cat&eacute;gorie : Sociale</li>\n<li>XP : 20</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.0vkbCiV8tAMV0G5W"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667228422944,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "0vkbCiV8tAMV0G5W",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0vkbCiV8tAMV0G5W"
+}

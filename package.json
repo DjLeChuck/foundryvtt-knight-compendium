@@ -1,0 +1,16 @@
+{
+  "name": "knight-compendium",
+  "scripts": {
+    "pack-packs": "node pack-packs.mjs"
+  },
+  "author": "DjLeChuck",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "yarn": "3.6.3"
+  }
+}

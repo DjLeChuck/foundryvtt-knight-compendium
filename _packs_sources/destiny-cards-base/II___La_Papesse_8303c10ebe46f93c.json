@@ -1,0 +1,29 @@
+{
+  "name": "II - La Papesse",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>Lorsqu'un PJ tire cette carte, son effet s'applique instantanément. Le PJ reçoit, grâce à une vision ou à une intuition, un indice sur la mission en cours. Cet indice donné par le MJ doit être composé de quelques mots et prendre, au mieux, la forme d'une description d'une scène passée, présente ou à venir (au choix du MJ).</p>\n<blockquote><p>Elle saura tout, sans le chercher.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "8303c10ebe46f93c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.8303c10ebe46f93c"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353100,
+    "modifiedTime": 1668026490400,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!8303c10ebe46f93c"
+}

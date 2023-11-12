@@ -1,0 +1,104 @@
+{
+  "name": "Gantelet chimère",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>En &eacute;tudiant les enregistrements de combats, Merlin s&rsquo;est rendu compte qu&rsquo;il y avait des g&eacute;nies parmi les chevaliers et que ces derniers auraient besoin d&rsquo;un syst&egrave;me d&rsquo;armement qui leur permette d&rsquo;exprimer leur polyvalence et leur cr&eacute;ativit&eacute;. C&rsquo;est pourquoi il s&rsquo;est inspir&eacute; de la chim&egrave;re, cette cr&eacute;ature qui a une t&ecirc;te et des pattes avant de lion, une t&ecirc;te et des pattes arri&egrave;re de ch&egrave;vre et une queue qui est t&ecirc;te et corps de serpent : griffes, crocs, cornes, sabots et venin &agrave; la fois.</p>\n<p>C&rsquo;est un gantelet imposant prenant tout l&rsquo;avant-bras des deux c&ocirc;t&eacute;s, reli&eacute; &agrave; une ceinture par deux tubes, fix&eacute; &agrave; l&rsquo;arri&egrave;re du bras et redescendant dans le dos. La ceinture large et &eacute;paisse contient une bonne r&eacute;serve d&rsquo;un liquide charg&eacute; de particules m&eacute;talliques, capable de solidification sur impulsion. Le gantelet contient un modulateur de champ magn&eacute;tique et de champ cin&eacute;tique et est recouvert par des &eacute;cailles ac&eacute;r&eacute;es d&rsquo;acier blind&eacute;es d&rsquo;&eacute;l&eacute;ment alpha.</p>\n<p>Les possibilit&eacute;s laiss&eacute;es au chevalier sont nombreuses, l&rsquo;infini des possibles est encore &agrave; d&eacute;couvrir. Mais les premiers essais sont prometteurs. Les combattants au corps &agrave; corps utilisent les capacit&eacute;s de lac&eacute;ration et de perforation du champ cin&eacute;tique avec force coups de poing et du tranchant de la main. Ils forment griffes, &eacute;p&eacute;es, boucliers, lances en un clin d&rsquo;&oelig;il, passant d&rsquo;une forme &agrave; l&rsquo;autre selon la n&eacute;cessit&eacute; du combat. Des lames aux pointes ac&eacute;r&eacute;es blind&eacute;es d&rsquo;&eacute;cailles d&rsquo;&eacute;l&eacute;ment alpha se changent soudain en des dizaines de poignards en suspension magn&eacute;tique capables de partir avec la force d&rsquo;une arbal&egrave;te. Certains m&ecirc;me forment des canons, projetant dards d&rsquo;acier ou &eacute;cailles d&rsquo;&eacute;l&eacute;ment alpha d&rsquo;une impulsion cin&eacute;tique. Ils ont alors int&eacute;r&ecirc;t &agrave; r&eacute;cup&eacute;rer leurs munitions, car leur r&eacute;serve d&rsquo;&eacute;cailles et de fluide m&eacute;tallique se r&eacute;duit &agrave; chaque tir. Pour cela, ils doivent s&rsquo;approcher du corps de leur cible, morte ou vive, et en attirer les projectiles &agrave; eux, quitte &agrave; faire de nouveaux trous&hellip;</p>\n<p><strong>Sp&eacute;cial</strong>&nbsp;: Plut&ocirc;t qu&rsquo;une arme avec des caract&eacute;ristiques d&eacute;finies, le gantelet chim&egrave;re peut se m&eacute;tamorphoser en diff&eacute;rentes armes et en poss&eacute;der tous les caract&eacute;ristiques et effets. Ainsi, pour un seul point d&rsquo;&eacute;nergie et sans action, le chevalier peut transformer son gant en l&rsquo;&eacute;quivalent d&rsquo;une arme de l&rsquo;arsenal, &agrave; choisir parmi la liste suivante :&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/masse-magnetique/\">masse magn&eacute;tique</a>,&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/epee-sonique/\">&eacute;p&eacute;e sonique</a>,&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/epee-lumiere/\">&eacute;p&eacute;e lumi&egrave;re</a>. Il peut aussi obtenir les effets combin&eacute;s d&rsquo;une&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/targe-amovible/\">targe amovible</a>&nbsp;et d&rsquo;une&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/epee-cinetique/\">&eacute;p&eacute;e cin&eacute;tique</a>, de deux&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/epee-cinetique/\">&eacute;p&eacute;es cin&eacute;tiques</a>&nbsp;ou de deux&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/ceste-de-fracture/\">cestes de fracture</a>&nbsp;(pour utiliser au mieux les paires d&rsquo;armes, il doit quand m&ecirc;me utiliser les styles akimbo ou ambidextre). Tous les effets des armes cr&eacute;&eacute;es s&rsquo;appliquent donc, sauf les effets&nbsp;<span class=\"d-none d-sm-inline-block\"><a title=\"\" href=\"https://www.knight-jdr-systeme.fr/effect/deux-mains/\" data-html=\"true\" data-toggle=\"tooltip\" data-original-title=\"Arme non utilisable en Akimbo ou Ambidextrie.\">deux mains</a></span>&nbsp;et&nbsp;<span class=\"d-none d-sm-inline-block\"><a title=\"\" href=\"https://www.knight-jdr-systeme.fr/effect/lourd/\" data-html=\"true\" data-toggle=\"tooltip\" data-original-title=\"Utilise une action de combat + une action de d&eacute;placement par attaque.\">lourd</a></span>&nbsp;qui sont purement et simplement ignor&eacute;s. Un chevalier peut donc par exemple tenir sa masse magn&eacute;tique &agrave; une main.</p>\n<p>Lorsqu&rsquo;il est utilis&eacute; comme propulseur d&rsquo;&eacute;chardes d&rsquo;&eacute;l&eacute;ment alpha, le gantelet chim&egrave;re compte comme un&nbsp;<a href=\"https://www.knight-jdr-systeme.fr/weapon/shotgun-auto-lourd/\">shotgun automatique lourd</a>&nbsp;.</p>\n<p>Enfin, d&rsquo;une simple pens&eacute;e et sans action, le chevalier peut faire en sorte que l&rsquo;arme ou les armes cr&eacute;&eacute;es (dans le cas de la cr&eacute;ation des armes cit&eacute;es plus haut) redeviennent un simple gantelet.</p>",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 0
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 0
+    },
+    "effets": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-prestige.UG5RxI0C0kEJWUeo"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667232729972,
+    "modifiedTime": 1668026445676,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "UG5RxI0C0kEJWUeo",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!UG5RxI0C0kEJWUeo"
+}

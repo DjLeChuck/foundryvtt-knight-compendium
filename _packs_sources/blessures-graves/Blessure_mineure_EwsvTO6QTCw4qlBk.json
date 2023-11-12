@@ -1,0 +1,105 @@
+{
+  "name": "Blessure mineure",
+  "type": "blessure",
+  "img": "systems/knight/assets/icons/blessureGrave.svg",
+  "system": {
+    "description": "<p>Le personnage subit un malus dans une caract&eacute;ristique &agrave; la discr&eacute;tion du MJ.</p>\n<p>Rien de grave.</p>",
+    "soigne": {
+      "implant": false,
+      "reconstruction": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.blessures-graves.EwsvTO6QTCw4qlBk"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667768791559,
+    "modifiedTime": 1668026472538,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "EwsvTO6QTCw4qlBk",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!EwsvTO6QTCw4qlBk"
+}

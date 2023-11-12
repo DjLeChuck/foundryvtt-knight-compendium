@@ -1,0 +1,105 @@
+{
+  "name": "Dos touché",
+  "type": "blessure",
+  "img": "systems/knight/assets/icons/blessureGrave.svg",
+  "system": {
+    "description": "<p>Le personnage re&ccedil;oit un malus de 1 dans ses caract&eacute;ristiques <em>Force</em> et <em>D&eacute;placement</em>.</p>",
+    "soigne": {
+      "implant": false,
+      "reconstruction": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 1
+          },
+          "force": {
+            "value": 1
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.blessures-graves.mIx0Of2uworxTN5p"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667768762032,
+    "modifiedTime": 1668026472539,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "mIx0Of2uworxTN5p",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mIx0Of2uworxTN5p"
+}

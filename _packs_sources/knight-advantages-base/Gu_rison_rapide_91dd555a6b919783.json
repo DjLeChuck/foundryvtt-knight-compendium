@@ -1,0 +1,60 @@
+{
+  "name": "Guérison rapide",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le personnage est doté d'un métabolisme plus rapide que la normale. Il récupère vite, très vite, et semble pouvoir se remettre de blessures qui laisseraient normalement sur le carreau. En termes de jeu, cela signifie que le personnage met deux fois moins de temps à récupérer ses points de santé. De plus, lorsque le personnage récupère des points de santé grâce à des soins, des nanoM ou des nods médicaux, il en récupère toujours 3 de plus.</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 3,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "91dd555a6b919783",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.91dd555a6b919783"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192550,
+    "modifiedTime": 1668026461671,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!91dd555a6b919783"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Le Fou",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>Lorsqu'un PJ tire cette carte, son effet s'applique instantanément. Deux PJ membres de la coterie, au choix du PJ tirant la carte, peuvent tout de suite tirer chacun une carte du destin. Les effets de ces deux cartes tirées s'appliquent normalement.</p>\n<blockquote><p>Maître du destin, il redistribuera les cartes.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "0d75b47fcf3095de",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.0d75b47fcf3095de"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353097,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!0d75b47fcf3095de"
+}

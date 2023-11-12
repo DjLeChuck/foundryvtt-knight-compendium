@@ -1,0 +1,60 @@
+{
+  "name": "Impétueuse",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA de l'armure du chevalier aime le combat et prouver sa valeur lui importe beaucoup. Elle se lance dans les combats avec hargne et fougue. En termes de jeu, lorsque la méta-armure est défoldée, tous les tests basés sur la caractéristique <em>Hargne</em> voient leur difficulté diminuer de 1.</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "d329f2a3a58add84",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.d329f2a3a58add84"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216122,
+    "modifiedTime": 1668026466789,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!d329f2a3a58add84"
+}

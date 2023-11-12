@@ -1,0 +1,60 @@
+{
+  "name": "Combative",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA de l'armure optimise ses capacités de combat afin d'aider son chevalier. De ce fait, ce dernier bénéficie d'une réduction de difficulté de 1 lors de ses tests ayant pour base la caractéristique <em>Tir</em> ou <em>Combat</em> (à déterminer lors de la création de l'IA), tant que l'armure est défoldée.</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "096115f3ce77faeb",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.096115f3ce77faeb"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216120,
+    "modifiedTime": 1668026466788,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!096115f3ce77faeb"
+}

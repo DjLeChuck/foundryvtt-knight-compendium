@@ -1,0 +1,29 @@
+{
+  "name": "Instinct infaillible",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Le PJ sait instinctivement situer une pi&egrave;ce ou un lieu &agrave; proximit&eacute; o&ugrave; se trouve un indice utile dans les investigations du Knight. Si aucun indice n&rsquo;est pr&eacute;sent, le MJ doit imaginer un document ou faire intervenir un PNJ aiguillant les PJ vers la suite de la mission.</p>\n<ul>\n<li>Activation : Aucune</li>\n<li>Dur&eacute;e : Instantan&eacute;e</li>\n<li>H&eacute;ro&iuml;sme : 5</li>\n<li>Cat&eacute;gorie : Enqu&ecirc;te</li>\n<li>XP : 20</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.sjAv8qodMtacKyh7"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667228307574,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "sjAv8qodMtacKyh7",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!sjAv8qodMtacKyh7"
+}

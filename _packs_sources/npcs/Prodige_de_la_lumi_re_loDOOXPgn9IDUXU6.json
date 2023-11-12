@@ -1,0 +1,1489 @@
+{
+  "name": "Prodige de la lumière",
+  "type": "pnj",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "combat": {
+      "armesimprovisees": {
+        "aspect": "chair",
+        "contact": "combat",
+        "distance": "tir",
+        "liste": {
+          "ai1": {
+            "force": 1,
+            "chair": [
+              1,
+              2
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 2
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai2": {
+            "force": 2,
+            "chair": [
+              3,
+              4
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai3": {
+            "force": 3,
+            "chair": [
+              5,
+              6
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 7
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai4": {
+            "force": 4,
+            "chair": [
+              7,
+              8
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 9
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 8
+                },
+                "violence": {
+                  "dice": 8
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai5": {
+            "force": 5,
+            "chair": [
+              9,
+              10
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 10
+                },
+                "violence": {
+                  "dice": 12
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 11
+                },
+                "violence": {
+                  "dice": 11
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "modificateur": 0,
+        "succesbonus": 0,
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "nods": {
+        "soin": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "armure": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "energie": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        }
+      },
+      "grenades": {
+        "quantity": {
+          "value": 5,
+          "max": 5
+        },
+        "liste": {
+          "antiblindage": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "destructeur",
+                "dispersion 6",
+                "penetrant 6",
+                "percearmure 20"
+              ],
+              "custom": []
+            }
+          },
+          "explosive": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antivehicule",
+                "choc 1",
+                "dispersion 3"
+              ],
+              "custom": []
+            }
+          },
+          "flashbang": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "barrage 2",
+                "choc 1",
+                "dispersion 6"
+              ],
+              "custom": []
+            }
+          },
+          "iem": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "dispersion 6",
+                "parasitage 2"
+              ],
+              "custom": []
+            }
+          },
+          "shrapnel": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "dispersion 6",
+                "meurtrier",
+                "ultraviolence"
+              ],
+              "custom": []
+            }
+          }
+        }
+      }
+    },
+    "aspects": {
+      "chair": {
+        "value": 9,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "value": 9,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "value": 9,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "value": 9,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "value": 9,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      }
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "diceBase": 3,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 10
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "diceBonus": {},
+        "diceMalus": {},
+        "bonus": {},
+        "malus": {}
+      },
+      "optionDeploy": false
+    },
+    "reaction": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 10,
+      "optionDeploy": false
+    },
+    "defense": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 10,
+      "optionDeploy": false
+    },
+    "sante": {
+      "bonus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "max": 0,
+      "base": 100,
+      "optionDeploy": false
+    },
+    "description": "<p>Les prodiges de la lumi&egrave;re sont en quelque sorte les pendants &eacute;th&eacute;r&eacute;s des prodiges de la Dame. Moins nombreux que ces derniers sur Terre, en particulier depuis l&rsquo;arriv&eacute;e de l&rsquo;Anath&egrave;me, ces &ecirc;tres, s&rsquo;ils viennent &agrave; d&eacute;velopper leur v&eacute;ritable nature, n&rsquo;en restent pas moins puissants. La plupart d&rsquo;entre eux sont des amoureux des arts, de la guerre et des individus au charisme marquant. Beaucoup sont d&rsquo;ailleurs des artistes reconnus qui n&rsquo;ont pas perdu leur talent avec la venue des t&eacute;n&egrave;bres.</p>\n<p>Un prodige de la lumi&egrave;re peut conserver ses caract&eacute;ristiques humaines si aucun &eacute;v&eacute;nement ne le pousse &agrave; se transcender. Toutefois, le confronter &agrave; des &eacute;preuves ou &agrave; un fragment du Graal peut l&rsquo;amener &agrave; devenir en tr&egrave;s peu de temps un &ecirc;tre tr&egrave;s dou&eacute; pour affronter l&rsquo;obscurit&eacute;. Cependant, les prodiges d&eacute;clar&eacute;s sont aussi le plus souvent des &ecirc;tres instables, passionn&eacute;s et chass&eacute;s par les cr&eacute;atures de l&rsquo;Anath&egrave;me.</p>",
+    "tactique": "<p>Les prodiges ne sont pas des &ecirc;tres purement surnaturels, mais des personnes entre Humanit&eacute; et Abysse. Chacun a donc sa propre personnalit&eacute; et ses tactiques.</p>",
+    "type": "Allié (héros) / salopard (héros)",
+    "pointsFaibles": "",
+    "phase2Activate": false,
+    "phase2": {
+      "sante": 0,
+      "armure": 0,
+      "energie": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        }
+      }
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "bouclier": {
+      "value": 0,
+      "max": 0,
+      "base": 6,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": false
+    },
+    "resilience": {
+      "value": 0,
+      "max": 0
+    },
+    "surnom": "",
+    "age": "",
+    "wear": "",
+    "archetype": "",
+    "hautFait": "",
+    "section": "",
+    "blason": "",
+    "histoire": "",
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "champDeForce": {
+      "value": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "espoir": {
+      "value": 0,
+      "max": 0
+    },
+    "options": {
+      "energie": false,
+      "champDeForce": false,
+      "sante": true,
+      "bouclier": true,
+      "armure": false,
+      "espoir": false,
+      "resilience": false,
+      "modules": false,
+      "phase2": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Prodige de la lumière",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Accablant",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Si un PJ détruit le PNJ, il doit réussir un test base Hargne combo Sang-Froid (difficulté au choix du MJ) pour ne pas perdre 3D6 points d'espoir.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "IeMZ1brZqZVWovGl",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.ecfd895dd7aa4b13"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019291,
+        "modifiedTime": 1667666675055,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!loDOOXPgn9IDUXU6.IeMZ1brZqZVWovGl"
+    },
+    {
+      "name": "Actions multiples (1)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ possède X actions de combat en plus de son action de déplacement et de combat de base. Ces actions sont à effectuer à son initiative.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "gnrJJRhoHbS3T0r5",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019239,
+        "modifiedTime": 1667666732774,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!loDOOXPgn9IDUXU6.gnrJJRhoHbS3T0r5"
+    },
+    {
+      "name": "Équipement (3 arme ou modules rares)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ peut être doté de X modules ou armes jusqu'à rares tirés de l'arsenal. Il est possible que cette capacité soit présente sur des PNJ ne possédant pas de méta-armure. Dans ce cas, les PNJ profitent seulement des effets de ces capacités, sans dépenser de PE, comme s'ils disposaient simplement d'un équivalent. L'aspect et l'allure des modules sur ces PNJ est à la discrétion du MJ.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "ozj9yrxf2lgmKKKj",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.029a37f4096a442e"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890018775,
+        "modifiedTime": 1667666776179,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!loDOOXPgn9IDUXU6.ozj9yrxf2lgmKKKj"
+    },
+    {
+      "name": "Né dans les ténèbres",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ est insensible aux effets domination, anathème, peur (X), contradiction et aura de souffrance.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "jdk0MvqOJLQ2ERJy",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.8c4d3432a78bdb8b"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019227,
+        "modifiedTime": 1667666797841,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!loDOOXPgn9IDUXU6.jdk0MvqOJLQ2ERJy"
+    },
+    {
+      "name": "Parangon de lumière",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Plus talentueux que la plupart des autres humains, le prodige semble réussir tout ce qu'il entreprend. Lorsqu'il effectue un test, le PNJ peut relancer, une fois par test, tout ses dés qui ne présentent pas de réussites.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "GthNqa0m4eeQVwz6",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.ad4a1cc5ebc2e6b7"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019249,
+        "modifiedTime": 1667666812191,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!loDOOXPgn9IDUXU6.GthNqa0m4eeQVwz6"
+    },
+    {
+      "name": "Surhomme (3 à 18 points d'aspect exceptionnel)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le MJ peut répartir de X points dans les aspects exceptionnels du PNJ (et, bien entendu, en créer si le PNJ n'en a pas) et lui faire bénéficier de leurs effets.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "w86NLK9AXDjSZanB",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.fb26dd11f6518f97"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019310,
+        "modifiedTime": 1667666839277,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!loDOOXPgn9IDUXU6.w86NLK9AXDjSZanB"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-du-masque.loDOOXPgn9IDUXU6"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667666249701,
+    "modifiedTime": 1668026246704,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "loDOOXPgn9IDUXU6",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!loDOOXPgn9IDUXU6"
+}

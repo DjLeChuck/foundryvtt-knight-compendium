@@ -1,0 +1,60 @@
+{
+  "name": "Créative",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Les questions de l'IA peuvent permettre au chevalier d'avancer dans une réflexion sur l'enquête en cours ou être d'ordre plus futile. En termes de jeu, à la faveur du MJ, l'IA peut poser une question au PJ afin de l'aiguiller dans une direction propice à l'avancée du scénario.</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "fdf62f0b9c94e3d5",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.fdf62f0b9c94e3d5"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216122,
+    "modifiedTime": 1668026466788,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!fdf62f0b9c94e3d5"
+}

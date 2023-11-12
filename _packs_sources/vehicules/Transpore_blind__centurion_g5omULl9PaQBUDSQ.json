@@ -1,0 +1,153 @@
+{
+  "name": "Transpore blindé centurion",
+  "type": "vehicule",
+  "img": "systems/knight/assets/icons/vehicule.svg",
+  "system": {
+    "manoeuvrabilite": -3,
+    "vitesse": 2,
+    "passagers": 14,
+    "champDeForce": {
+      "value": 0,
+      "base": 14,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 30,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 200,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "embuscade": {
+        "dice": 3,
+        "value": 0
+      }
+    },
+    "reaction": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "defense": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "equipage": {
+      "value": 0,
+      "max": 0,
+      "pilote": {
+        "name": "",
+        "id": ""
+      },
+      "passagers": []
+    },
+    "description": "<p>Les centurions sont des transports de troupes blind&eacute;s chenill&eacute;s lourds, con&ccedil;us pour livrer douze chevaliers ou une vingtaine d&rsquo;hommes avec &eacute;quipement en temps, en heure et en s&eacute;curit&eacute;, dans l&rsquo;absence de confort caract&eacute;-ristique des chenill&eacute;s. &Agrave; l&rsquo;avant, un bec a&eacute;rodynamique tranche l&rsquo;air et l&rsquo;eau, d&eacute;fonce les murs de b&eacute;ton et couche les ennemis pour mieux les &eacute;craser. &Agrave; l&rsquo;arri&egrave;re, on trouve une porte blind&eacute;e qui sert de rampe une fois abaiss&eacute;e. Un puissant champ cin&eacute;tique parach&egrave;ve la quasi-invuln&eacute;rabilit&eacute; du centurion. L&rsquo;&eacute;quipage des centurions est constitu&eacute; d&rsquo;un pilote et d&rsquo;un artilleur ou copilote charg&eacute; des communications. Pilote et artilleur n&rsquo;ont aucune vue directe sur l&rsquo;ext&eacute;rieur, qui est &agrave; la place repr&eacute;sent&eacute; sur des &eacute;crans RA permettant de d&eacute;signer les cibles aux deux tourelles automatiques plac&eacute;es sur le toit et souvent &eacute;quip&eacute;es d&rsquo;une mitrailleuse lourde et d&rsquo;un lance-missile.</p>\n<p>La plupart des centurions disposent d&rsquo;un nose art (comme sur les avions) d&rsquo;inspiration imp&eacute;riale romaine, g&eacute;n&eacute;ralement des aigles, et portent le nom d&rsquo;un personnage grec ou romain historique, voire mythique (Parm&eacute;nion, Leonidas, Agamemnon, Neron...).</p>"
+  },
+  "prototypeToken": {
+    "name": "Transpore blindé centurion",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/knight/assets/icons/vehicule.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.vehicules.g5omULl9PaQBUDSQ"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667499656989,
+    "modifiedTime": 1668026280508,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "g5omULl9PaQBUDSQ",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!g5omULl9PaQBUDSQ"
+}

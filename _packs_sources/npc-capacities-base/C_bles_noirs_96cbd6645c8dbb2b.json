@@ -1,0 +1,129 @@
+{
+  "name": "Câbles noirs",
+  "type": "capacite",
+  "img": "systems/knight/assets/icons/capacite.svg",
+  "system": {
+    "description": "<p>Si certains des câbles noirs reliés au PNJ sont trouvés et détruits (leur nombre est à la discrétion du MJ), son score de débordement (cumulé au fil des tours) revient à son score initial.</p>\n",
+    "aspects": {
+      "chair": {},
+      "bete": {},
+      "machine": {},
+      "dame": {},
+      "masque": {}
+    },
+    "isPhase2": false,
+    "bonus": {
+      "aspectsLieSupplementaire": {
+        "has": false,
+        "value": "chair"
+      },
+      "sante": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "aspectMax": {
+        "has": false,
+        "aspect": "chair",
+        "maximum": {
+          "aspect": 40,
+          "ae": 20
+        }
+      }
+    },
+    "degats": {
+      "has": false,
+      "system": {
+        "dice": 0,
+        "fixe": 0,
+        "effets": {
+          "raw": [],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "attaque": {
+      "has": false,
+      "type": "contact",
+      "portee": "contact",
+      "degats": {
+        "dice": 0,
+        "fixe": 0
+      },
+      "effets": {
+        "raw": [],
+        "custom": [],
+        "liste": []
+      }
+    },
+    "phase2": {
+      "aspects": {
+        "has": false,
+        "liste": {
+          "chair": {
+            "value": 0
+          },
+          "bete": {
+            "value": 0
+          },
+          "machine": {
+            "value": 0
+          },
+          "dame": {
+            "value": 0
+          },
+          "masque": {
+            "value": 0
+          }
+        }
+      },
+      "sante": {
+        "has": false,
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "value": 0
+      },
+      "tactique": {
+        "has": false,
+        "value": ""
+      }
+    }
+  },
+  "effects": [],
+  "_id": "96cbd6645c8dbb2b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.npc-capacities-base.96cbd6645c8dbb2b"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890019232,
+    "modifiedTime": 1668026483936,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!96cbd6645c8dbb2b"
+}

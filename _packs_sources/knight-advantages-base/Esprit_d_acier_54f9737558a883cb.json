@@ -1,0 +1,60 @@
+{
+  "name": "Esprit d'acier",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le personnage est habitué à gérer ses émotions seul et sait qu'il peut compter sur lui-même avant toute autre personne. S'il mécanise souvent ses émotions, il résiste mieux à l'Horreur et perd moins facilement espoir. En termes de jeu, lors des pertes de points d'espoir, peu importe leurs sources, le personnage perd toujours 1 point d'espoir de moins que ne l'annoncent le MJ ou les dés.</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "54f9737558a883cb",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.54f9737558a883cb"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192549,
+    "modifiedTime": 1668026461671,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!54f9737558a883cb"
+}

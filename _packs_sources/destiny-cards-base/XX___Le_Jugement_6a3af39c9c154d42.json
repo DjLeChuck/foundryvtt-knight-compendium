@@ -1,0 +1,29 @@
+{
+  "name": "XX - Le Jugement",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>Lorsqu'un PJ tire cette carte, son effet s'applique instantanément. Le PJ peut, trois fois seulement au cours de la mission actuelle, décider si une action accomplie par un PJ (lui-même inclus) ou un PNJ est réussie ou non. Cette décision peut être prise après un jet de dés.</p>\n<blockquote><p>Il jugera du sort des faibles et du sort des forts.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "6a3af39c9c154d42",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.6a3af39c9c154d42"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353099,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!6a3af39c9c154d42"
+}

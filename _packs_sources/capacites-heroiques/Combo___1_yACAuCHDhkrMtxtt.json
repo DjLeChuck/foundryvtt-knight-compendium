@@ -1,0 +1,29 @@
+{
+  "name": "Combo + 1",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Le PJ peut ajouter une autre caract&eacute;ristique &agrave; chacun de ses combos. Il peut en g&eacute;n&eacute;ral en utiliser deux, comme les r&egrave;gles le stipulent, et donc en ajouter une troisi&egrave;me pour d&eacute;finir le total de d&eacute;s &agrave; lancer lors de son test.</p>\n<p>Le PJ peut ajouter une autre caract&eacute;ristique &agrave; chacun de ses combos. Il peut en g&eacute;n&eacute;ral en utiliser deux, comme les r&egrave;gles le stipulent, et donc en ajouter une troisi&egrave;me pour d&eacute;finir le total de d&eacute;s &agrave; lancer lors de son test.</p>\n<ul>\n<li>Activation : Aucune</li>\n<li>Dur&eacute;e : Une sc&egrave;ne ou une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 2</li>\n<li>Cat&eacute;gorie : G&eacute;n&eacute;rale</li>\n<li>XP : 10</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.yACAuCHDhkrMtxtt"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667224271993,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "yACAuCHDhkrMtxtt",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!yACAuCHDhkrMtxtt"
+}

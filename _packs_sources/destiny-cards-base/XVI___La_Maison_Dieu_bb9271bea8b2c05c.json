@@ -1,0 +1,29 @@
+{
+  "name": "XVI - La Maison-Dieu",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider, à chacune de ses attaques réussies contre une bande, d'infliger son maximum de violence avec une arme à la place d'effectuer le jet de violence. Cette capacité dure le temps d'une phase de conflit entière.</p>\n<blockquote><p>Même en nombre, ils ne seront rien face à elle.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "bb9271bea8b2c05c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.bb9271bea8b2c05c"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353100,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!bb9271bea8b2c05c"
+}

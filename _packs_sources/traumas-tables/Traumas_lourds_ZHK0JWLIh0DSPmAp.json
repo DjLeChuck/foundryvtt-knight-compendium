@@ -1,0 +1,126 @@
+{
+  "name": "Traumas lourds",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "description": "Le personnage peut recouvrer 40 points d'espoir en échange d'un trauma lourd qui influe généralement sur plusieurs caractéristiques.",
+  "results": [
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Anathème",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "70564a32cf49705g",
+      "_id": "y63JtSNupP6bC1jE",
+      "flags": {},
+      "_key": "!tables.results!ZHK0JWLIh0DSPmAp.y63JtSNupP6bC1jE"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Abattement",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "245d1700f52ac5bf",
+      "_id": "MJFJewJ3QWyGwyMJ",
+      "flags": {},
+      "_key": "!tables.results!ZHK0JWLIh0DSPmAp.MJFJewJ3QWyGwyMJ"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Découragement",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "9e3cab531f8191dd",
+      "_id": "W0HgZiEDumYwwx6J",
+      "flags": {},
+      "_key": "!tables.results!ZHK0JWLIh0DSPmAp.W0HgZiEDumYwwx6J"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Oubli",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "bda033065a208eaf",
+      "_id": "RLN4A4b6SPfXP9cz",
+      "flags": {},
+      "_key": "!tables.results!ZHK0JWLIh0DSPmAp.RLN4A4b6SPfXP9cz"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Phobie sociale",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "f527405ee83fe5e2",
+      "_id": "1PscBGih6b4zUPqe",
+      "flags": {},
+      "_key": "!tables.results!ZHK0JWLIh0DSPmAp.1PscBGih6b4zUPqe"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Perte de contrôle",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "9f329e49126b57cd",
+      "_id": "EqeeZbAJe4TB1sCC",
+      "flags": {},
+      "_key": "!tables.results!ZHK0JWLIh0DSPmAp.EqeeZbAJe4TB1sCC"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-tables.ZHK0JWLIh0DSPmAp"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ZHK0JWLIh0DSPmAp",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026008876,
+    "modifiedTime": 1668026672576,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!tables!ZHK0JWLIh0DSPmAp"
+}

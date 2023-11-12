@@ -1,0 +1,181 @@
+{
+  "name": "Railgun de poing",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "",
+    "rarete": "standard",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 9
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 0
+    },
+    "effets": {
+      "liste": [],
+      "raw": [],
+      "custom": [
+        {
+          "label": "Au choix du mj",
+          "description": "",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          }
+        }
+      ]
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.vKPv9i75WfJoIhhx"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667504708569,
+    "modifiedTime": 1668026455991,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "VHU9kbUEi2GCq7fU",
+  "_key": "!items!VHU9kbUEi2GCq7fU"
+}

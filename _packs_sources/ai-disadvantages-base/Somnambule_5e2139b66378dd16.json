@@ -1,0 +1,96 @@
+{
+  "name": "Somnambule",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>L'IA de l'armure, bien que consciente du besoin naturel et obligatoire de repos de son chevalier, s'arrange pour continuer à faire des découvertes pendant son sommeil. En termes de jeu, une fois par partie, quand le chevalier s'endort ou se repose, l'armure défolde et explore l'endroit où elle se trouve pendant une à deux heures avant de reprendre la place qui était la sienne. Si elle rencontre des personnes, elle communique comme s'il s'agissait du chevalier et, si elle doit entrer en action, elle s'exécute. Si elle déclenche une scène d'action mouvementée, telle qu'un combat par exemple, son porteur doit réussir un test base <em>Endurance</em> difficulté délicat (4) afin de se réveiller.</p>\n",
+    "type": "ia",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "5e2139b66378dd16",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-disadvantages-base.5e2139b66378dd16"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668025962895,
+    "modifiedTime": 1668026687803,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!5e2139b66378dd16"
+}

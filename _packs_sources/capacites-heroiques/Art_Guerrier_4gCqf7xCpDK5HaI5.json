@@ -1,0 +1,29 @@
+{
+  "name": "Art Guerrier",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Avec ses attaques de combat ou de tir, le PJ frappe tous les hostiles, salopards ou patrons engag&eacute;s avec lui ou &agrave; port&eacute;e (il doit choisir quel type d&rsquo;ennemi il frappe &agrave; chaque attaque).</p>\n<ul>\n<li>Activation : Action de d&eacute;placement</li>\n<li>Dur&eacute;e : Une sc&egrave;ne ou une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme: 2</li>\n<li>Cat&eacute;gorie : Combat</li>\n<li>XP : 10</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.4gCqf7xCpDK5HaI5"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667227531043,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "4gCqf7xCpDK5HaI5",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4gCqf7xCpDK5HaI5"
+}

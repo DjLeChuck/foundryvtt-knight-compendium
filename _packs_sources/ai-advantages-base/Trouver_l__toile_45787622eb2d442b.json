@@ -1,0 +1,60 @@
+{
+  "name": "Trouver l'étoile",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA est connectée au ciel et aux étoiles, et ce, même lorsqu'elles ne sont pas visibles à l'œil nu ou dans la plus terrible des obscurités. Il est impossible pour le chevalier de se perdre, y compris dans les ténèbres les plus profondes : il connaît toujours la direction de l'étoile du berger et par conséquent du nord, même sous les ténèbres.</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "45787622eb2d442b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.45787622eb2d442b"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216120,
+    "modifiedTime": 1668026466790,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!45787622eb2d442b"
+}

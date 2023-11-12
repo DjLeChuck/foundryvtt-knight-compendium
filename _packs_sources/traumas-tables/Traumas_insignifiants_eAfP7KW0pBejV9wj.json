@@ -1,0 +1,126 @@
+{
+  "name": "Traumas insignifiants",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "description": "Le personnage peut récupérer 10 points d'espoir en échange d'une blessure mentale symbolisée par un petit effet circonstanciel, comme une peur d'une situation bien précise, une manie ou encore une nouvelle attitude.",
+  "results": [
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Anxiété",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "7280bd31587f10f2",
+      "_id": "roqm5adxg4oWawYl",
+      "flags": {},
+      "_key": "!tables.results!eAfP7KW0pBejV9wj.roqm5adxg4oWawYl"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Tic",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "f9e10abc69c3eb55",
+      "_id": "Z3qmKfjmdnNzFpcU",
+      "flags": {},
+      "_key": "!tables.results!eAfP7KW0pBejV9wj.Z3qmKfjmdnNzFpcU"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Perte de contrôle",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "9f329e49126b57cd",
+      "_id": "cgbEPLiXWyYhNanC",
+      "flags": {},
+      "_key": "!tables.results!eAfP7KW0pBejV9wj.cgbEPLiXWyYhNanC"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Peur du monstre",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "f6b70f147e8f8622",
+      "_id": "dAP3YEYTPNmqN8A4",
+      "flags": {},
+      "_key": "!tables.results!eAfP7KW0pBejV9wj.dAP3YEYTPNmqN8A4"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Rituel",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "a7d53e114dcff5d7",
+      "_id": "X8oWREvlXgQq8NL8",
+      "flags": {},
+      "_key": "!tables.results!eAfP7KW0pBejV9wj.X8oWREvlXgQq8NL8"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Collection",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "987be5b98e052996",
+      "_id": "WNGx4K1ZW8f8mCIH",
+      "flags": {},
+      "_key": "!tables.results!eAfP7KW0pBejV9wj.WNGx4K1ZW8f8mCIH"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-tables.eAfP7KW0pBejV9wj"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "eAfP7KW0pBejV9wj",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026008878,
+    "modifiedTime": 1668026672574,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!tables!eAfP7KW0pBejV9wj"
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Chaîne tronçonneuse",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>La défection de yojimbos du Nodachi pour le Knight peut mener à des transferts technologiques intéressants, la chaîne tronçonneuse est de ceux-là.</p>\n<p>Cette arme n'est pas une simple chaîne de tronçonneuse, mais bien une chaîne de combat parcourue par une chaîne de tronçonneuse. L'on y distingue donc la chaîne support et la chaîne coupante qui coulisse dessus. Repliée autour du manche, on déplie la longue et lourde chaîne de combat d'un mouvement du poignet. Les « maillons » principaux sont capables de retenir de puissants adversaires. Les lames des maillons tronçonneurs composées de carbure de tungstène peuvent découper le béton ou l'acier sans difficulté. La rotation de la chaîne de tronçonneuse stabilise les mouvements de la chaîne support par la force centripète, lui permettant de donner des coups très précis. Mieux, la chaîne coupante va, en mordant le métal, la pierre, le bois ou la chair, s'agripper à la cible comme la mâchoire d'un requin affamé, l'entourant pour mieux la découper.</p>\n",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "courte",
+    "prix": 100,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "cadence 3",
+        "destructeur",
+        "deuxmains",
+        "fureur",
+        "orfevrerie",
+        "soumission"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "44fb61ee52ef3dfe",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.44fb61ee52ef3dfe"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009137,
+    "modifiedTime": 1693092600324,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!44fb61ee52ef3dfe"
+}

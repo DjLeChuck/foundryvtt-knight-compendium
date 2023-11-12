@@ -1,0 +1,28 @@
+{
+  "name": "Insigne d’honneur",
+  "type": "distinction",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Cette distinction symbolise les efforts des chevaliers dans leur lutte pour sauver l&rsquo;Humanit&eacute;. D&eacute;sormais, lorsqu&rsquo;un chevalier doit perdre des points d&rsquo;espoir, il soustrait toujours 1 point &agrave; cette perte. Ce bonus peut parfaitement se combiner avec d&rsquo;autres r&eacute;ductions de ce type.</p>",
+    "espoir": 0,
+    "egide": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "2.3.7",
+    "coreVersion": "10.291",
+    "createdTime": 1677865458554,
+    "modifiedTime": 1677865488526,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "Ndt1dFpRV5bUwirp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Kisv9JwB5w6zIXyv": 3
+  },
+  "_key": "!items!Ndt1dFpRV5bUwirp"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "V - Le Pape",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>Lorsqu'un PJ tire cette carte, son effet s'applique instantanément. Le PJ reçoit de manière permanente 1 point dans son aspect le plus bas. Si deux aspects ou plus sont au même score, le MJ choisit celui qui augmente.</p>\n<blockquote><p>Il offrira la transcendance à ceux qui en ont besoin.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "f6fb3030313ba461",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.f6fb3030313ba461"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353100,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!f6fb3030313ba461"
+}

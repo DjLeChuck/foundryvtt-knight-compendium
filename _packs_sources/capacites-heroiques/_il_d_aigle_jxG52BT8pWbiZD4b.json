@@ -1,0 +1,29 @@
+{
+  "name": "Œil d'aigle",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Le PJ ignore les malus de port&eacute;e de son arme de tir (jusqu&rsquo;&agrave; port&eacute;e lointaine) et, pour chaque r&eacute;ussite d&eacute;passant le score de r&eacute;action de l&rsquo;ennemi, le PJ ajoute 3 points au r&eacute;sultat de ses d&eacute;g&acirc;ts s&rsquo;il tire sur un hostile, un salopard, un colosse ou un patron (ou 3 points au r&eacute;sultat de son test de violence s&rsquo;il tire sur une bande). Cette capacit&eacute; h&eacute;ro&iuml;que peut se cumuler avec l&rsquo;effet assistance &agrave; l&rsquo;attaque.</p>\n<ul>\n<li>Activation : Action de d&eacute;placement</li>\n<li>Dur&eacute;e: Une sc&egrave;ne ou une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 3</li>\n<li>Cat&eacute;gorie : Combat</li>\n<li>XP : 20</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.jxG52BT8pWbiZD4b"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667227690304,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "jxG52BT8pWbiZD4b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!jxG52BT8pWbiZD4b"
+}

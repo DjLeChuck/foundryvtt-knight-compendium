@@ -1,0 +1,29 @@
+{
+  "name": "Frappe terribles",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Au combat au contact, si le chevalier touche sa cible, il ne jette pas ses d&eacute;s de d&eacute;g&acirc;ts, mais fait automatiquement le maximum de d&eacute;g&acirc;ts possible sur chacun des d&eacute;s. Par exemple, 3D6 de d&eacute;g&acirc;ts deviennent automatiquement 18 points de d&eacute;g&acirc;ts. &Agrave; ces d&eacute;g&acirc;ts maximums s&rsquo;ajoutent bien entendu les bonus de d&eacute;g&acirc;ts fixes de l&rsquo;arme (ou du module) et les bonus apport&eacute;s par les caract&eacute;ristiques, overdrives et modules du PJ.</p>\n<ul>\n<li>Activation : Action de d&eacute;placement</li>\n<li>Dur&eacute;e : Une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 4</li>\n<li>Cat&eacute;gorie : Combat</li>\n<li>XP : 20</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.8JsWr3OkfCDBGwW4"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667227786223,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "8JsWr3OkfCDBGwW4",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8JsWr3OkfCDBGwW4"
+}

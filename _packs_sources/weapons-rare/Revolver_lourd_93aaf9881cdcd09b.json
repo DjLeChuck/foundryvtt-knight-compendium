@@ -1,0 +1,167 @@
+{
+  "name": "Revolver lourd",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/revolver-lourd.webp",
+  "system": {
+    "description": "<p>Ce revolver a été conçu par Nathan « Nate » Johanson, écuyer de Gauvain, pour tirer une balle de chasse à l'éléphant, la 600 Nitro Express (NE). Cette arme égale en puissance un fusil anti-matériel, mais ne s'utilise qu'à une main. Nate récupère des chutes d'usinage de méta-armure pour faire des balles dans un amalgame spécial capable de traverser n'importe quoi. Ces rares munitions sont nommées les T-800, en référence à Terminator. Mais la matière première manque et chaque balle a un coût.\nChanger de type de munition prend une action de déplacement.\nAttention : Les T-800 s'achètent 5 PG l'unité à Camelot même.</p>\n",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": true,
+      "actuel": "0",
+      "value": 2,
+      "liste": {
+        "0": {
+          "nom": "600 NE",
+          "raw": [
+            "meurtrier",
+            "percearmure 40",
+            "penetrant 10"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 6,
+            "fixe": 10
+          },
+          "violence": {
+            "dice": 1,
+            "fixe": null
+          }
+        },
+        "1": {
+          "nom": "T-800",
+          "raw": [
+            "antivehicule",
+            "ignorearmure",
+            "ignorechampdeforce"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 6,
+            "fixe": 20
+          },
+          "violence": {
+            "dice": 2,
+            "fixe": null
+          }
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 10,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "93aaf9881cdcd09b",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.93aaf9881cdcd09b"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009157,
+    "modifiedTime": 1693092600327,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!93aaf9881cdcd09b"
+}

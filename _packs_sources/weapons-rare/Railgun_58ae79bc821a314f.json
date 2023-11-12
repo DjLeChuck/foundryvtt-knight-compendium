@@ -1,0 +1,138 @@
+{
+  "name": "Railgun",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/railgun.webp",
+  "system": {
+    "description": "<p>Le railgun est un fusil à canon électrique utilisant la force magnétique pour propulser des balles à une vitesse extrême grâce à des batteries et des circuits d'énergie alpha placés dans la crosse. À 3 500 mètres par seconde, la balle du railgun porte en elle une énergie cinétique phénoménale qui lui fait traverser les bâtiments et les véhicules sans aucun souci. Les cibles sont transpercées, qu'elles soient organiques, mécaniques, à couvert ou blindées n'y change rien. Le railgun dispose, bien entendu, d'une lunette de visée et d'une caméra très haute définition pour désigner des cibles et tirer à plusieurs kilomètres de distance.</p>\n",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "lointaine",
+    "prix": 90,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 10,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antivehicule",
+        "artillerie",
+        "assistanceattaque",
+        "designation",
+        "deuxmains",
+        "ignorearmure",
+        "precision"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "58ae79bc821a314f",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.58ae79bc821a314f"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009138,
+    "modifiedTime": 1693092600327,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!58ae79bc821a314f"
+}

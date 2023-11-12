@@ -1,0 +1,111 @@
+{
+  "name": "Fléau de guerre Apophis",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>Manipul&eacute; depuis une moto steed, le fl&eacute;au de guerre Apophis inflige le double de ses d&eacute;s de d&eacute;g&acirc;ts (16D6 au lieu de 8D6).</p>",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 8,
+      "fixe": 0
+    },
+    "violence": {
+      "dice": 10,
+      "fixe": 0
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "choc 4",
+        "dispersion 6",
+        "enchaine",
+        "barrage 4",
+        "ignorechampdeforce",
+        "assistanceattaque"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.armes-des-creatures-et-humains.GDxe6MN6feHWtzgG"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667235488388,
+    "modifiedTime": 1668026455988,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "GDxe6MN6feHWtzgG",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!GDxe6MN6feHWtzgG"
+}

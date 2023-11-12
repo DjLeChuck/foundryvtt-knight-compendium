@@ -1,0 +1,945 @@
+{
+  "name": "La Parole",
+  "type": "creature",
+  "img": "modules/knight-compendium/assets/bestiary/parole.webp",
+  "system": {
+    "combat": {
+      "armesimprovisees": {
+        "aspect": "chair",
+        "contact": "combat",
+        "distance": "tir",
+        "liste": {
+          "ai1": {
+            "force": 1,
+            "chair": [
+              1,
+              2
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 2
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai2": {
+            "force": 2,
+            "chair": [
+              3,
+              4
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai3": {
+            "force": 3,
+            "chair": [
+              5,
+              6
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 7
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai4": {
+            "force": 4,
+            "chair": [
+              7,
+              8
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 9
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 8
+                },
+                "violence": {
+                  "dice": 8
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai5": {
+            "force": 5,
+            "chair": [
+              9,
+              10
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 10
+                },
+                "violence": {
+                  "dice": 12
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 11
+                },
+                "violence": {
+                  "dice": 11
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "modificateur": 0,
+        "succesbonus": 0,
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "aspects": {
+      "chair": {
+        "value": 12,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "value": 16,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "value": 16,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "5",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "value": 18,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "10",
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "value": 18,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "10",
+            "max": 10
+          }
+        }
+      }
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "diceBase": 3,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "diceBonus": {},
+        "diceMalus": {},
+        "bonus": {},
+        "malus": {}
+      }
+    },
+    "reaction": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 8,
+      "optionDeploy": false
+    },
+    "defense": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 8,
+      "optionDeploy": false
+    },
+    "sante": {
+      "bonus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "max": 0,
+      "base": 400,
+      "optionDeploy": false
+    },
+    "description": "<p>Les triarches sont toujours au nombre de neuf. Garants du bon d&eacute;roulement du jeu des Seigneurs et de la guerre entre les t&eacute;n&egrave;bres et l&rsquo;Humanit&eacute; (mais avant cela, ils &eacute;taient garants du bon d&eacute;roulement de la guerre entre l&rsquo;Abysse et l&rsquo;&Eacute;ther), ils n&rsquo;ont pas toujours &eacute;t&eacute; les m&ecirc;mes. En effet, l&rsquo;Arbitre, lorsqu&rsquo;il consid&egrave;re avoir trouv&eacute; un &ecirc;tre plus &agrave; m&ecirc;me de jouer ce r&ocirc;le, le met &agrave; la place de celui qu&rsquo;il juge le moins efficace. Tout cela se fait apr&egrave;s un long proc&egrave;s, bien entendu. Une fois la d&eacute;cision prise, l&rsquo;&eacute;clat attend alors patiemment la mort de l&rsquo;&eacute;lu et s&rsquo;empresse de venir le chercher au seuil de l&rsquo;agonie. Il l&rsquo;emm&egrave;ne alors dans l&rsquo;Abysse afin de substituer de l&rsquo;&eacute;l&eacute;ment alpha &agrave; son corps, d&rsquo;aiguiser ses r&eacute;flexes et d&rsquo;aff&ucirc;ter son esprit. Inutile de dire qu&rsquo;il attend avec la plus grande impatience la mort d&rsquo;Arthur.</p>\n<p>Form&eacute;s des plus grands combattants et h&eacute;ros connus sur Terre, l&rsquo;Arbitre a privil&eacute;gi&eacute; leur d&eacute;termination et leur art du combat plut&ocirc;t que leur intelligence. En effet, les triarches sont directement reli&eacute;s &agrave; lui. Celui-ci voit par leurs yeux et peut m&ecirc;me parler par leur bouche. De cette fa&ccedil;on, il les fait b&eacute;n&eacute;ficier de ses talents d&rsquo;enqu&ecirc;teur, faisant d&rsquo;eux les meilleurs serviteurs possible. &Agrave; force de passer par eux pour agir, il est m&ecirc;me all&eacute; jusqu&rsquo;&agrave; effacer une partie de leur personnalit&eacute;. S&rsquo;ils se souviennent pour la plupart qu&rsquo;ils ont &eacute;t&eacute; vivants et humains, ils n&rsquo;ont alors comme souvenir que les actes forts qui ont caract&eacute;ris&eacute; leur vie : les grandes victoires, parfois leur mort lorsqu&rsquo;elle a &eacute;t&eacute; tr&egrave;s violente. Ayant oubli&eacute; leur nom, ils utilisent celui avec lequel l&rsquo;Arbitre les a baptis&eacute;s &agrave; leur renaissance.</p>\n<p><br>Les triarches se ressemblent en r&egrave;gle g&eacute;n&eacute;rale. Habill&eacute;s d&rsquo;un grand manteau noir semblant flotter dans l&rsquo;air, de longs gants obscurs et d&rsquo;un chapeau d&rsquo;inquisiteur, leur visage ainsi que leur corps ne sont jamais visibles. Leur voix peut &ecirc;tre f&eacute;minine ou masculine, mais aucun accent ne les caract&eacute;rise, car ils parlent toutes les langues et dialectes existant sur Terre. En outre, ils sont diff&eacute;renciables par deux attributs, souvent de combat, qui peuvent donner une id&eacute;e de leur origine humaine. Leurs fonctions sont, elles aussi, diff&eacute;rentes. Quoiqu&rsquo;ils puissent accomplir toutes les t&acirc;ches gr&acirc;ce &agrave; leur lien avec l&rsquo;Arbitre, chacun excelle dans une sp&eacute;cialit&eacute; qui donne aux triarches, lorsqu&rsquo;ils sont tous ensemble, des moyens d&rsquo;enqu&ecirc;te et de punition particuli&egrave;rement puissants. Ils peuvent voyager o&ugrave; ils le souhaitent sur Terre comme dans l&rsquo;Abysse. Utilisant la pierre pour se t&eacute;l&eacute;porter, ils ont bien plus de facilit&eacute; &agrave; s&rsquo;introduire dans les lieux rest&eacute;s sauvages que dans les arches o&ugrave; les &eacute;l&eacute;ments naturels n&rsquo;ont pas leur place.</p>\n<p><br>Dans la campagne La Geste de la fin des temps, le triarche r&eacute;guli&egrave;rement rencontr&eacute; est la Parole. C&rsquo;est son profil qui sert de base aux autres triarches. Pour d&eacute;couvrir les autres profils, rendez-vous page 391 du livre de base de Knight.</p>",
+    "tactique": "<p>La Parole se jette rarement seule dans la bataille, elle se contente souvent de diriger les autres triarches tandis&nbsp;<br>qu&rsquo;elle rend leurs coups &agrave; ceux qui cherchent &agrave; l&rsquo;attaquer. Si elle doit combattre, elle ciblera en premier les ennemis avec un haut score de Dame ou d&rsquo;Aura.</p>",
+    "type": "Patron (initié)",
+    "pointsFaibles": "<p>Parole</p>",
+    "phase2Activate": false,
+    "phase2": {
+      "sante": 0,
+      "armure": 0,
+      "energie": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        }
+      }
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "bouclier": {
+      "value": 0,
+      "max": 0,
+      "base": 10,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": false
+    },
+    "resilience": {
+      "value": 0,
+      "max": 0
+    },
+    "histoire": "",
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "options": {
+      "energie": false,
+      "sante": true,
+      "bouclier": true,
+      "armure": false,
+      "resilience": false,
+      "phase2": false
+    },
+    "knightRoll": {
+      "id": false
+    }
+  },
+  "prototypeToken": {
+    "name": "La parole",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/knight-compendium/assets/bestiary/parole.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Sentence",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Si le PNJ prononce une sentence à l'encontre d'un personnage, celui-ci sera poursuivi par les triarches tant qu'il ne sera pas mort ou qu'il ne l'aura pas convaincu de changer d'avis.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "do7Ui7IPqhiltADe",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.c93b9caae835c7e8"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019267,
+        "modifiedTime": 1667167949307,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!jc1b8Js4FvcoadzM.do7Ui7IPqhiltADe"
+    },
+    {
+      "name": "Coopération",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>En agissant de façon coordonnée, 2 PNJ (ou plus) avec cette capacité gagnent 2 à leur défense et à leur réaction et gagnent chacun une action de combat supplémentaire. Attention, cette capacité ne peut pas se cumuler sur des PNJ en bénéficiant déjà.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "5AkahG29mD2CGiEQ",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.ce4ecdf9ca6c27fd"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1666890019271,
+        "modifiedTime": 1667167959452,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!jc1b8Js4FvcoadzM.5AkahG29mD2CGiEQ"
+    },
+    {
+      "folder": "BZpWmamPeuX1E27W",
+      "name": "Épée",
+      "type": "arme",
+      "img": "systems/knight/assets/icons/arme.svg",
+      "system": {
+        "description": "",
+        "rarete": "standard",
+        "type": "contact",
+        "portee": "courte",
+        "prix": 0,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 3,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "effets": {
+          "liste": [],
+          "raw": [
+            "ignorearmure",
+            "ignorechampdeforce"
+          ],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.IWvPYYaOJ7H7yVv1"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.4.9",
+        "coreVersion": "10.288",
+        "createdTime": 1667168010011,
+        "modifiedTime": 1667168041652,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "_id": "EyK1Ps1kMEzlOwhO",
+      "_key": "!actors.items!jc1b8Js4FvcoadzM.EyK1Ps1kMEzlOwhO"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.jc1b8Js4FvcoadzM"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667167649027,
+    "modifiedTime": 1668026211635,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "jc1b8Js4FvcoadzM",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!jc1b8Js4FvcoadzM"
+}

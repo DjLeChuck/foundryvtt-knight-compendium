@@ -1,0 +1,29 @@
+{
+  "name": "XI - La Force",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider, à chacune de ses attaques réussies, d'infliger son maximum de dégâts avec une arme à la place d'effectuer le jet de dégâts. Cette capacité dure le temps d'une phase de conflit entière.</p>\n<blockquote><p>Jamais ennemis n'oseront se dresser longtemps contre elle.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "228d87e608ea3aff",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.228d87e608ea3aff"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353098,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!228d87e608ea3aff"
+}

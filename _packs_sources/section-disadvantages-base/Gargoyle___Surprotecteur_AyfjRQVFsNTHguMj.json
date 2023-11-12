@@ -1,0 +1,96 @@
+{
+  "name": "Gargoyle - Surprotecteur",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>Le PJ est un protecteur-n&eacute;, incapable de laisser une personne qu&rsquo;il consid&egrave;re comme pr&eacute;cieuse ou faible sans protection. Pour symboliser cela, le PJ doit d&eacute;signer un (et un seul) membre de la coterie (n&eacute;cessairement un autre PJ) comme &eacute;tant son prot&eacute;g&eacute;. Une fois cet alli&eacute; d&eacute;sign&eacute;, le PJ doit appliquer les r&egrave;gles suivantes : lorsque le prot&eacute;g&eacute; est mis &agrave; l&rsquo;agonie, le PJ perd 1D6+3 points d&rsquo;espoir et si le prot&eacute;g&eacute; est tu&eacute;, le PJ perd 2D6+6 points d&rsquo;espoir en plus de tous points perdus normalement par les membres de la coterie &agrave; la mort d&rsquo;un compagnon d&rsquo;armes.</p>",
+    "type": "standard",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.section-disadvantages-base.AyfjRQVFsNTHguMj"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667642526434,
+    "modifiedTime": 1668026692648,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "AyfjRQVFsNTHguMj",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!AyfjRQVFsNTHguMj"
+}

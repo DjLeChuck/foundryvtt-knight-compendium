@@ -1,0 +1,129 @@
+{
+  "name": "Gideon",
+  "type": "capacite",
+  "img": "systems/knight/assets/icons/capacite.svg",
+  "system": {
+    "description": "<p>Bien qu&rsquo;incarnant Mordred et &eacute;tant elle-m&ecirc;me une incarnation du Masque, Morgane reste attach&eacute;e &agrave; son fils Gideon. Si les PJ m&egrave;nent l&rsquo;assaut avec lui, alors Morgane est troubl&eacute;e. Elle perd la capacit&eacute; actions multiples (2) lors de sa premi&egrave;re phase (et uniquement celle-ci).&nbsp;</p>",
+    "aspects": {
+      "chair": {},
+      "bete": {},
+      "machine": {},
+      "dame": {},
+      "masque": {}
+    },
+    "isPhase2": false,
+    "bonus": {
+      "aspectsLieSupplementaire": {
+        "has": false,
+        "value": "chair"
+      },
+      "sante": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "aspectMax": {
+        "has": false,
+        "aspect": "chair",
+        "maximum": {
+          "aspect": 40,
+          "ae": 20
+        }
+      }
+    },
+    "degats": {
+      "has": false,
+      "system": {
+        "dice": 0,
+        "fixe": 0,
+        "effets": {
+          "raw": [],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "attaque": {
+      "has": false,
+      "type": "contact",
+      "portee": "contact",
+      "degats": {
+        "dice": 0,
+        "fixe": 0
+      },
+      "effets": {
+        "raw": [],
+        "custom": [],
+        "liste": []
+      }
+    },
+    "phase2": {
+      "aspects": {
+        "has": false,
+        "liste": {
+          "chair": {
+            "value": 0
+          },
+          "bete": {
+            "value": 0
+          },
+          "machine": {
+            "value": 0
+          },
+          "dame": {
+            "value": 0
+          },
+          "masque": {
+            "value": 0
+          }
+        }
+      },
+      "sante": {
+        "has": false,
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "value": 0
+      },
+      "tactique": {
+        "has": false,
+        "value": ""
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.e52ot9yHfXVF8oo3"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667665546490,
+    "modifiedTime": 1668026483940,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "cNbn8dQN0Lox63BY",
+  "_key": "!items!cNbn8dQN0Lox63BY"
+}

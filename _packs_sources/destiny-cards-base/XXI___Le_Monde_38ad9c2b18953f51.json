@@ -1,0 +1,29 @@
+{
+  "name": "XXI - Le Monde",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider d'appliquer l'effet suivant : tous les PJ alliés (mais pas le PJ utilisateur de la carte) récupèrent tous leurs PS ou la moitié de leurs PA s'ils ne sont pas tombés à 0.</p>\n<blockquote><p>Ceux qui le méritent bénéficieront de ses bienfaits.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "38ad9c2b18953f51",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.38ad9c2b18953f51"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353098,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!38ad9c2b18953f51"
+}

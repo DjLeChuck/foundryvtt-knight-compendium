@@ -1,0 +1,96 @@
+{
+  "name": "Tarasque - Fou dangereux",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>M&ecirc;me s&rsquo;il n&rsquo;est plus au sein de la section Tarasque, le chevalier reste surveill&eacute; par Sagramor et par les agents du Korrigan. &Agrave; la moindre incartade, au moindre signe de d&eacute;sespoir, il est automatiquement &laquo; neutralis&eacute; &raquo; par l&rsquo;explosif que la section Tarasque lui a plac&eacute; dans la t&ecirc;te. Pour repr&eacute;senter cela, si au d&eacute;but d&rsquo;une sc&egrave;ne le personnage est &agrave; moins de 10 points d&rsquo;espoir, il est automatiquement tu&eacute; par l&rsquo;explosif et retir&eacute; du jeu.</p>",
+    "type": "standard",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.section-disadvantages-base.kGyerOTluVeSQEiI"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667642598110,
+    "modifiedTime": 1668026692649,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "kGyerOTluVeSQEiI",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kGyerOTluVeSQEiI"
+}

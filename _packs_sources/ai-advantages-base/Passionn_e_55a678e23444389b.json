@@ -1,0 +1,60 @@
+{
+  "name": "Passionnée",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA de l'armure est une passionnée et une risque-tout. Elle entend bien que son chevalier la suive même en enfer s'il le faut pour gagner le combat. Pour cette raison, lorsque le PJ tente une action extrêmement périlleuse , l 'IA met tout en œuvre pour qu'il en sorte victorieux. En termes de jeu, quand le MJ estime que le joueur tente une folie ou une action extrême, l'IA puise dans son énergie pour soutenir son chevalier : pour chaque tranche de 4 PE dépensés, le chevalier peut ajouter 1 dé à un de ses jets (dans la limite d'énergie de la méta-armure).</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "55a678e23444389b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.55a678e23444389b"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216120,
+    "modifiedTime": 1668026466789,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!55a678e23444389b"
+}

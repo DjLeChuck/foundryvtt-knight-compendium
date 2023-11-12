@@ -1,0 +1,382 @@
+{
+  "name": "Cartes du Destin",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "description": "",
+  "results": [
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Le Fou",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "0d75b47fcf3095de",
+      "_id": "b48JV7D5WurqhmH9",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.b48JV7D5WurqhmH9"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "I - Le Bateleur",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "566fbe1e3b542d42",
+      "_id": "aLf1YwPlH5mREPXb",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.aLf1YwPlH5mREPXb"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "II - La Papesse",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "8303c10ebe46f93c",
+      "_id": "nRDAZKsLL7uVyClh",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.nRDAZKsLL7uVyClh"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "III - L'Impératrice",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "fb5d966e413dd586",
+      "_id": "FKuAvYZrTvP6GKfc",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.FKuAvYZrTvP6GKfc"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "IV - L'Empereur",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "720ec83a292d3737",
+      "_id": "LPFWO9kLJxVdFwfU",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.LPFWO9kLJxVdFwfU"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "V - Le Pape",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "f6fb3030313ba461",
+      "_id": "w7AHZVtmC3QWlSeR",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.w7AHZVtmC3QWlSeR"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "text": "VI - L'Amoureux",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "13d32a52ac006adc",
+      "_id": "X7nwp2IvuWEPT2gc",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.X7nwp2IvuWEPT2gc"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "text": "VII - Le Chariot",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "ca8cc7008dbdda1f",
+      "_id": "Mc5l5ciUofT9wtyI",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.Mc5l5ciUofT9wtyI"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "text": "VIII - La Justice",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "cc20350fff20d939",
+      "_id": "cB5chPtQv2Jjs9AU",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.cB5chPtQv2Jjs9AU"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "text": "IX - L'Ermite",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "81e664168ef83f69",
+      "_id": "UXMeONgyyOqsYC8F",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.UXMeONgyyOqsYC8F"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "text": "X - La Roue-de-Fortune",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "531c3f1de6ae8f31",
+      "_id": "QWf6eu7L7f96p8PL",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.QWf6eu7L7f96p8PL"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "text": "XI - La Force",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "228d87e608ea3aff",
+      "_id": "Gqat51hAzFaowHh4",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.Gqat51hAzFaowHh4"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "text": "XII - Le Pendu",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "c0bdd0d7bcac6768",
+      "_id": "2OW3NIFEhljYRYjk",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.2OW3NIFEhljYRYjk"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "text": "XIII - L'Arcane sans nom",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "dc24b379397a6ac6",
+      "_id": "uALIBKJOHDcHclmj",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.uALIBKJOHDcHclmj"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "text": "XIV - Tempérance",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "50796089e42806bb",
+      "_id": "lHIjBBt3IRZuzOOh",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.lHIjBBt3IRZuzOOh"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "text": "XV - Le Diable",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "4c94760dd004d30e",
+      "_id": "tMfWKP9Rck5r2oXQ",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.tMfWKP9Rck5r2oXQ"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "text": "XVI - La Maison-Dieu",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "bb9271bea8b2c05c",
+      "_id": "cXpoB3km1Uf4VWgR",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.cXpoB3km1Uf4VWgR"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "text": "XVII - L'Étoile",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "0f66121e362b2430",
+      "_id": "kVEo38rvlCfJTxJG",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.kVEo38rvlCfJTxJG"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "text": "XVIII - La Lune",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "514a29780155a5ca",
+      "_id": "7d7yrXCwWqPv0uLQ",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.7d7yrXCwWqPv0uLQ"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "text": "XIX - Le Soleil",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "29f224354c851db3",
+      "_id": "uUiMywLc0RIZ5mZs",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.uUiMywLc0RIZ5mZs"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "text": "XX - Le Jugement",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "6a3af39c9c154d42",
+      "_id": "so0qiz2PHptKhgUB",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.so0qiz2PHptKhgUB"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "text": "XXI - Le Monde",
+      "img": "systems/knight/assets/icons/carteheroique.svg",
+      "documentCollection": "knight-compendium.destiny-cards-base",
+      "documentId": "38ad9c2b18953f51",
+      "_id": "3rDBHY3mTJHDtcxw",
+      "flags": {},
+      "_key": "!tables.results!H0bkEGVJjjG9jEbx.3rDBHY3mTJHDtcxw"
+    }
+  ],
+  "formula": "1d22",
+  "replacement": false,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "_id": "H0bkEGVJjjG9jEbx",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-tables.H0bkEGVJjjG9jEbx"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019513997,
+    "modifiedTime": 1668026669765,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!tables!H0bkEGVJjjG9jEbx"
+}

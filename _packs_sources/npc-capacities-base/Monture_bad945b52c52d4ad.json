@@ -1,0 +1,129 @@
+{
+  "name": "Monture",
+  "type": "capacite",
+  "img": "systems/knight/assets/icons/capacite.svg",
+  "system": {
+    "description": "<p>Le destrier du PNJ lui permet de bénéficier de points supplémentaires dans l'aspect Bête ainsi qu'en défense et en réaction (déjà inclus dans le profil). Pour le mettre à terre, il faut réussir un test base Déplacement contre son aspect Chair divisé par 2 et avoir au moins un overdrive de niveau 3 en Force.</p>\n",
+    "aspects": {
+      "chair": {},
+      "bete": {},
+      "machine": {},
+      "dame": {},
+      "masque": {}
+    },
+    "isPhase2": false,
+    "bonus": {
+      "aspectsLieSupplementaire": {
+        "has": false,
+        "value": "chair"
+      },
+      "sante": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "aspectMax": {
+        "has": false,
+        "aspect": "chair",
+        "maximum": {
+          "aspect": 40,
+          "ae": 20
+        }
+      }
+    },
+    "degats": {
+      "has": false,
+      "system": {
+        "dice": 0,
+        "fixe": 0,
+        "effets": {
+          "raw": [],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "attaque": {
+      "has": false,
+      "type": "contact",
+      "portee": "contact",
+      "degats": {
+        "dice": 0,
+        "fixe": 0
+      },
+      "effets": {
+        "raw": [],
+        "custom": [],
+        "liste": []
+      }
+    },
+    "phase2": {
+      "aspects": {
+        "has": false,
+        "liste": {
+          "chair": {
+            "value": 0
+          },
+          "bete": {
+            "value": 0
+          },
+          "machine": {
+            "value": 0
+          },
+          "dame": {
+            "value": 0
+          },
+          "masque": {
+            "value": 0
+          }
+        }
+      },
+      "sante": {
+        "has": false,
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "value": 0
+      },
+      "tactique": {
+        "has": false,
+        "value": ""
+      }
+    }
+  },
+  "effects": [],
+  "_id": "bad945b52c52d4ad",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.npc-capacities-base.bad945b52c52d4ad"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890019254,
+    "modifiedTime": 1668026483943,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!bad945b52c52d4ad"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Oubli",
+  "type": "trauma",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "system": {
+    "description": "<p>Suite au trauma, le personnage oublie des pans entiers de sa culture et de ses connaissances académiques. Le personnage retire 1 point dans deux de ses caractéristiques sous l'aspect Machine.</p>\n",
+    "gainEspoir": {
+      "value": 40,
+      "applique": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "bda033065a208eaf",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-base.bda033065a208eaf"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026003359,
+    "modifiedTime": 1668026741678,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!bda033065a208eaf"
+}

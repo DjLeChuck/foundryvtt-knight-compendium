@@ -1,0 +1,28 @@
+{
+  "name": "Table Ronde",
+  "type": "distinction",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Tant que le personnage arbore cette distinction, il re&ccedil;oit une bonus de 2 r&eacute;ussites automatiques &agrave; toutes ses interactions sociales (persuasion, charme, intimidation, diplomatie, etc.) avec des humains, pouvant parfaitement se combiner avec d&rsquo;autres bonus sociaux.</p>",
+    "espoir": 0,
+    "egide": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "2.3.7",
+    "coreVersion": "10.291",
+    "createdTime": 1677865432334,
+    "modifiedTime": 1677865488526,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "uy9fsjeNdeTYvf6Y",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Kisv9JwB5w6zIXyv": 3
+  },
+  "_key": "!items!uy9fsjeNdeTYvf6Y"
+}

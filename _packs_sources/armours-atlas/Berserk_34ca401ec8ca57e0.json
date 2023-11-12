@@ -1,0 +1,4509 @@
+{
+  "name": "Berserk",
+  "type": "armure",
+  "img": "modules/knight-compendium/assets/armours/berserk.webp",
+  "system": {
+    "description": "<p>Créée juste après la victoire de l'Humanité sur la Chasse sauvage, la méta-armure Berserk a été conçue autour du cœur lumineux d'un être angélique tué lors de la bataille de Rome. D'aspect, c'est une armure rutilante et blindée, dessinée pour projeter et conduire la lumière en tout sens autour de son porteur. C'est l'ultime méta-armure du Knight et Merlin, comme Gauvain, espèrent bien que ce sera la dernière. Malheureusement, c'est une création unique, nécessitant un cœur de lumière pour fonctionner. Une seule méta-armure Berserk est donc en possession du Knight.</p>\n<p>La lumière du cœur de la Berserk n'est pas de la lumière à proprement parler. C'est une matière étrange, dont la totalité des propriétés demeure encore inconnue et qui peut être tantôt quasi solide, tantôt vaporeuse, tantôt évanescente. Merlin a nommé cette matière « énergie apeiron » et celle du cœur lui-même « élément apeiron » en opposition à l'élément alpha.</p>\n<br /><br /><p>Malgré sa conception à la pointe de la technologie, la méta-armure Berserk est dotée d'un blindage et d'un champ de force relativement faibles. L'élément alpha et les champs d'énergie supportant très mal la présence du cœur de lumière, il a fallu limiter la présence du métal ténébreux et le remplacer par des matériaux plus traditionnels, comme des nanotubes de carbone graphène ou encore un alliage or-platine dernier cri. La Berserk compense ces faiblesses par une résistance innée aux attaques et aux capacités de l'Anathème.</p>\n<p>La méta-armure Berserk a été façonnée pour lutter contre les ténèbres et non contre les humains. En analysant le cœur de la créature de lumière, Merlin a pu comprendre que l'énergie apeiron en émanant pouvait être manipulée, diffractée, modifiée pour activer plusieurs effets différents pouvant troubler les ennemis, les blesser, les anéantir et même renforcer les alliés. La lumière de la Berserk est par ailleurs faite de chaleur et de fureur. Le chevalier peut laisser éclater ces sentiments pour entrer dans une rage terrifiante, à même de lui permettre de terrasser n'importe quelle créature des ténèbres. Attention cependant car, lorsqu'il est enragé, le chevalier n'est plus maître de lui-même.</p>\n<p>Enfin, le cœur est doté d'une énergie qui ne s'épuise virtuellement pas et qui n'est pas quantifiable. Cependant, il est irrémédiablement lié à la volonté du porteur de la méta-armure. Sans cette dernière, son espoir, le noyau d'énergie apeiron ne peut fonctionner à son plein potentiel. De fait, chaque capacité de la méta-armure coûte de l'espoir à son porteur et le seul moyen efficace pour lui d'en récupérer reste d'anéantir les engeances des ténèbres, comme si seules la destruction et la colère pouvaient raffermir la volonté du chevalier.</p>\n<br /><br /><p>Cette méta-armure possède des capacités qui ne puisent non pas dans l'énergie, mais directement dans l'espoir du chevalier. Tous ses modules, armes et effets qui devraient normalement ponctionner des PE le font à la place sur les points d'espoir. Toutefois, chaque coût en points d'espoir lors de l'utilisation des modules et armes est divisé par 2, avec un minimum de 1 point d'espoir utilisé.</p>\n<h2>NOYAU APEIRON</h2>\n<p>Tant qu'il porte la méta-armure, le personnage augmente son total de points d'espoir de 15 points. De plus, toutes ses pertes d'espoir (en dehors des pertes causées par les capacités de la méta-armure) sont réduites de 1. L'effet est cumulable avec d'autres avantages ou effets.</p>\n<h2>PORTEUR DE LUMIÈRE</h2>\n<p>Toutes les attaques portées par le chevalier en méta-armure reçoivent les effets : <em>anti-Anathème</em> et <em>ténébricide</em>.</p>\n",
+    "generation": 3,
+    "jauges": {
+      "armure": true,
+      "champDeForce": true,
+      "egide": false,
+      "energie": false,
+      "espoir": true,
+      "flux": false,
+      "sante": true,
+      "heroisme": true
+    },
+    "armure": {
+      "value": 0,
+      "base": 60,
+      "bonus": {},
+      "malus": {}
+    },
+    "champDeForce": {
+      "base": 8,
+      "bonus": {},
+      "malus": {}
+    },
+    "egide": {
+      "value": 6
+    },
+    "energie": {
+      "value": 0,
+      "base": 0,
+      "bonus": {},
+      "malus": {}
+    },
+    "espoir": {
+      "bonus": true,
+      "value": 15,
+      "remplaceEnergie": true,
+      "cout": 2
+    },
+    "flux": {
+      "value": 0
+    },
+    "capacites": {
+      "actuel": "personnalise",
+      "liste": {},
+      "selected": {
+        "illumination": {
+          "label": "Mode Illumination",
+          "description": "<p style=\"text-align:justify\">L’énergie apeiron dégagée par le noyau de la méta-armure peut être déployée tout autour d’elle pour provoquer différents effets. En fonction de l’intensité de la lumière ou de son état, six effets différents peuvent s’appliquer. Tous les effets de ce mode, sauf Candle, peuvent être prolongés pour le coût en points d’espoir indiqué.</p><p style=text-align:justify;><b>Attention</b> : À l’obtention de la méta-armure, le chevalier doit choisir trois des sept effets listés ici et peut les utiliser. Il ne peut obtenir les autres que grâce aux évolutions de la méta-armure.</p>",
+          "activation": "deplacement",
+          "duree": "1 tour ou 6 secondes",
+          "nbreCapacitesSelected": 3,
+          "nbreCapacitesTotale": 7,
+          "blaze": {
+            "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\r\n\r\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+            "degats": 2,
+            "violence": 2,
+            "portee": "contact",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "candle": {
+            "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\r\n\r\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
+            "portee": "contact",
+            "espoir": {
+              "dice": 1,
+              "face": 3
+            }
+          },
+          "beacon": {
+            "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
+            "bonus": 2,
+            "portee": "courte",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "torch": {
+            "description": "La lumière se solidifie autour du personnage, créant une sorte de brume lumineuse. Les humains et animaux qui ne sont pas désespérés et qui sont à portée courte reçoivent un score d’égide ou augmentent leur score d’égide de lorsqu’ils sont la cible de créatures ou d’effets de l’Anathème. En outre, les ténèbres situées à portée courte de l’armure sont considérées comme étant d’une intensité d’un niveau moindre. L’obscurité devient de la nuit, la nuit devient de la pénombre et la pénombre s’efface simplement.",
+            "bonus": 2,
+            "portee": "courte",
+            "espoir": {
+              "base": 3,
+              "prolonger": 1
+            }
+          },
+          "projector": {
+            "description": "La lumière émanant du noyau de la méta-armure peut être concentrée sur une créature de l’Anathème en un rayon puissant. En pleine lumière, la nature horrible de la cible change, elle semble devenir plus belle et se détacher des ténèbres.\r\n\r\nTant que l’effet est activé, la créature ciblée à portée courte, hostile ou salopard, ne peut plus utiliser une de ses capacités. La capacité peut être choisie par le chevalier, mais il doit l’avoir identifiée et pouvoir en décrire les effets. Sinon, c’est le MJ qui choisit.",
+            "portee": "courte",
+            "espoir": {
+              "base": 3,
+              "prolonger": 1
+            }
+          },
+          "lighthouse": {
+            "description": "La lumière de la méta-armure pulse et trouble les créatures de l’Anathème les plus proches. Le flux qui existe entre elles est comme déchiré et sensiblement amoindri par l’énergie apeiron.\r\n\r\nTant que l’effet est activé, les créatures de l’Anathème de type hostile à portée courte perdent une action lors de leur tour de jeu.",
+            "portee": "courte",
+            "espoir": {
+              "base": 4,
+              "prolonger": 1
+            }
+          },
+          "lantern": {
+            "description": "Une lumière douce et rassurante émane de la méta-armure. Elle remotive les alliés et paraît même pouvoir anéantir le désespoir.\r\n\r\nTant que l’effet est actif, les désespérés à portée courte de la méta-armure subissent des dégâts avec des effets associés.",
+            "portee": "courte",
+            "degats": 1,
+            "effets": {
+              "raw": [
+                "esperance"
+              ],
+              "liste": [],
+              "custom": []
+            },
+            "espoir": {
+              "base": 4,
+              "prolonger": 1
+            }
+          },
+          "textarea": {
+            "duree": 50,
+            "blaze": 175,
+            "candle": 125,
+            "beacon": 110,
+            "torch": 175,
+            "projector": 190,
+            "lighthouse": 140,
+            "lantern": 120
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "duree": "1 tour ou 6 secondes",
+            "blaze": {
+              "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\r\n\r\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+              "degats": 2,
+              "violence": 2,
+              "portee": "contact",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "candle": {
+              "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\r\n\r\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
+              "portee": "contact",
+              "espoir": 1
+            },
+            "beacon": {
+              "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
+              "bonus": 2,
+              "portee": "courte",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "torch": {
+              "description": "La lumière se solidifie autour du personnage, créant une sorte de brume lumineuse. Les humains et animaux qui ne sont pas désespérés et qui sont à portée courte reçoivent un score d’égide ou augmentent leur score d’égide de lorsqu’ils sont la cible de créatures ou d’effets de l’Anathème. En outre, les ténèbres situées à portée courte de l’armure sont considérées comme étant d’une intensité d’un niveau moindre. L’obscurité devient de la nuit, la nuit devient de la pénombre et la pénombre s’efface simplement.",
+              "bonus": 2,
+              "portee": "courte",
+              "espoir": {
+                "base": 3,
+                "prolonger": 1
+              }
+            },
+            "projector": {
+              "description": "La lumière émanant du noyau de la méta-armure peut être concentrée sur une créature de l’Anathème en un rayon puissant. En pleine lumière, la nature horrible de la cible change, elle semble devenir plus belle et se détacher des ténèbres.\r\n\r\nTant que l’effet est activé, la créature ciblée à portée courte, hostile ou salopard, ne peut plus utiliser une de ses capacités. La capacité peut être choisie par le chevalier, mais il doit l’avoir identifiée et pouvoir en décrire les effets. Sinon, c’est le MJ qui choisit.",
+              "portee": "courte",
+              "espoir": {
+                "base": 3,
+                "prolonger": 1
+              }
+            },
+            "lighthouse": {
+              "description": "La lumière de la méta-armure pulse et trouble les créatures de l’Anathème les plus proches. Le flux qui existe entre elles est comme déchiré et sensiblement amoindri par l’énergie apeiron.\r\n\r\nTant que l’effet est activé, les créatures de l’Anathème de type hostile à portée courte perdent une action lors de leur tour de jeu.",
+              "portee": "courte",
+              "espoir": {
+                "base": 4,
+                "prolonger": 1
+              }
+            },
+            "lantern": {
+              "description": "Une lumière douce et rassurante émane de la méta-armure. Elle remotive les alliés et paraît même pouvoir anéantir le désespoir.\r\n\r\nTant que l’effet est actif, les désespérés à portée courte de la méta-armure subissent des dégâts avec des effets associés.",
+              "portee": "courte",
+              "degats": 1,
+              "effets": {
+                "raw": [
+                  "esperance"
+                ],
+                "liste": [],
+                "custom": []
+              },
+              "espoir": {
+                "base": 4,
+                "prolonger": 1
+              }
+            },
+            "textarea": {
+              "duree": 50,
+              "blaze": 175,
+              "candle": 125,
+              "beacon": 110,
+              "torch": 175,
+              "projector": 190,
+              "lighthouse": 140,
+              "lantern": 120
+            }
+          },
+          "key": "illumination",
+          "softlock": true
+        },
+        "rage": {
+          "label": "Mode Rage",
+          "description": "<p style=\"text-align:justify\">Pour récupérer des points d'espoir, le chevalier doit nourrir la lumière de la méta-armure. L'énergie apeiron ne peut être alimentée que par le sacrifice d'une créature de l'Anathème ou autre, comme si le seul fait de dévorer quelque chose pouvait la faire perdurer.</p><p style=text-align:justify;>En activant ce mode, le chevalier se laisse envahir par la lumière de la méta-armure et tente de faire renaître son propre espoir ainsi que l'énergie de son noyau. Il entre alors en rage et est habité par la lumière qui émane de lui en une fumée brûlante et brillante. Ce mode ne peut être activé qu'en phase de conflit. Les effets du mode Illumination peuvent être utilisés simultanément.</p><p style=text-align:justify;>En activant ce mode, le personnage peut entrer dans différents niveaux de rage qui lui font subir des effets de plus en plus puissants, mais aussi de plus en plus dangereux. Attention, chaque niveau de rage atteint possède les effets du niveau précédent. Pour atteindre un niveau de rage supérieur, le chevalier doit tuer un ennemi ou sacrifier de lui-même 1D6 points d'espoir (sans aucune réduction possible).</p>",
+          "activation": "aucune",
+          "duree": "Jusqu'à la fin de la phase de conflit ou jusqu'à ce que le chevalier ait réussi à tuer un ennemi.",
+          "espoir": 0,
+          "aspects": [],
+          "nourri": {
+            "label": "",
+            "description": "Lorsqu’il est dans le mode Rage, chaque créature ou être humain que le chevalier tue lui fait récupérer un certain nombre de points d’espoir. De plus, si une créature des ténèbres est tuée à portée courte de l’armure, il récupère 1 point d’espoir tant qu’il est dans ce mode",
+            "humain": {
+              "hostile": {
+                "dice": 0,
+                "face": 0,
+                "fixe": 1
+              },
+              "salopard": {
+                "dice": 1,
+                "face": 3,
+                "fixe": 0
+              },
+              "patron": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 3
+              },
+              "bande": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 0
+              }
+            },
+            "anatheme": {
+              "hostile": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 0
+              },
+              "salopard": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 3
+              },
+              "patron": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 6
+              },
+              "bande": {
+                "dice": 2,
+                "face": 6,
+                "fixe": 0
+              }
+            }
+          },
+          "colere": {
+            "label": "",
+            "description": "",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 3,
+            "defense": 3,
+            "reaction": 3,
+            "subis": 0,
+            "combosBonus": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": "",
+                "c4": "",
+                "c5": "",
+                "c6": ""
+              }
+            }
+          },
+          "rage": {
+            "label": "",
+            "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\r\n\r\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\r\n\r\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\r\n\r\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 3,
+            "defense": 9,
+            "reaction": 9,
+            "subis": 0,
+            "combosBonus": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": true,
+              "liste": {
+                "c1": "sangFroid",
+                "c2": "parole",
+                "c3": "savoir",
+                "c4": "technique",
+                "c5": "discretion",
+                "c6": ""
+              }
+            }
+          },
+          "fureur": {
+            "label": "",
+            "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\r\n\r\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\r\n\r\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\r\n\r\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.\r\n\r\nIl ignore les effets choc X, parasitage X, domination et anathème.\r\n\r\nToutes les créatures de l’Anathème à portée contact attaquent le PJ au lieu de suivre leur tactique. L’effet du module Banner surpasse cet effet.",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 6,
+            "defense": 9,
+            "reaction": 9,
+            "subis": 1,
+            "combosBonus": {
+              "has": true,
+              "liste": {
+                "c1": "hargne",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": true,
+              "liste": {
+                "c1": "sangFroid",
+                "c2": "parole",
+                "c3": "savoir",
+                "c4": "technique",
+                "c5": "discretion",
+                "c6": ""
+              }
+            }
+          },
+          "blaze": {
+            "label": "",
+            "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\r\n\r\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+            "degats": 2,
+            "violence": 2,
+            "portee": "contact",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "textarea": {
+            "duree": 55,
+            "nourri": 55,
+            "rage": 210,
+            "fureur": 325,
+            "blaze": 180
+          },
+          "evolutions": {
+            "activation": "aucune",
+            "duree": "Jusqu'à la fin de la phase de conflit ou jusqu'à ce que le chevalier ait réussi à tuer un ennemi.",
+            "espoir": 0,
+            "aspects": [],
+            "nourri": {
+              "label": "",
+              "description": "Lorsqu’il est dans le mode Rage, chaque créature ou être humain que le chevalier tue lui fait récupérer un certain nombre de points d’espoir. De plus, si une créature des ténèbres est tuée à portée courte de l’armure, il récupère 1 point d’espoir tant qu’il est dans ce mode",
+              "humain": {
+                "hostile": {
+                  "dice": 0,
+                  "face": 0,
+                  "fixe": 1
+                },
+                "salopard": {
+                  "dice": 1,
+                  "face": 3,
+                  "fixe": 0
+                },
+                "patron": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 3
+                },
+                "bande": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 0
+                }
+              },
+              "anatheme": {
+                "hostile": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 0
+                },
+                "salopard": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 3
+                },
+                "patron": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 6
+                },
+                "bande": {
+                  "dice": 2,
+                  "face": 6,
+                  "fixe": 0
+                }
+              }
+            },
+            "colere": {
+              "label": "",
+              "description": "",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 3,
+              "defense": 3,
+              "reaction": 3,
+              "subis": 0,
+              "combosBonus": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": "",
+                  "c4": "",
+                  "c5": "",
+                  "c6": ""
+                }
+              }
+            },
+            "rage": {
+              "label": "",
+              "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\r\n\r\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\r\n\r\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\r\n\r\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 3,
+              "defense": 9,
+              "reaction": 9,
+              "subis": 0,
+              "combosBonus": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": true,
+                "liste": {
+                  "c1": "sangFroid",
+                  "c2": "parole",
+                  "c3": "savoir",
+                  "c4": "technique",
+                  "c5": "discretion",
+                  "c6": ""
+                }
+              }
+            },
+            "fureur": {
+              "label": "",
+              "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\r\n\r\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\r\n\r\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\r\n\r\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.\r\n\r\nIl ignore les effets choc X, parasitage X, domination et anathème.\r\n\r\nToutes les créatures de l’Anathème à portée contact attaquent le PJ au lieu de suivre leur tactique. L’effet du module Banner surpasse cet effet.",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 6,
+              "defense": 9,
+              "reaction": 9,
+              "subis": 1,
+              "combosBonus": {
+                "has": true,
+                "liste": {
+                  "c1": "hargne",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": true,
+                "liste": {
+                  "c1": "sangFroid",
+                  "c2": "parole",
+                  "c3": "savoir",
+                  "c4": "technique",
+                  "c5": "discretion",
+                  "c6": ""
+                }
+              }
+            },
+            "blaze": {
+              "label": "",
+              "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\r\n\r\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+              "degats": 2,
+              "violence": 2,
+              "portee": "contact",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "textarea": {
+              "duree": 55,
+              "nourri": 55,
+              "rage": 10,
+              "colere": 210,
+              "fureur": 325,
+              "blaze": 180
+            }
+          },
+          "key": "rage",
+          "softlock": true
+        }
+      },
+      "base": {
+        "borealis": {
+          "label": "",
+          "description": "",
+          "support": {
+            "description": "",
+            "energie": {
+              "base": 6,
+              "allie": 2
+            },
+            "activation": "tour",
+            "duree": ""
+          },
+          "offensif": {
+            "description": "",
+            "energie": 2,
+            "activation": "combat",
+            "duree": "",
+            "degats": {
+              "dice": 4,
+              "fixe": 4
+            },
+            "violence": {
+              "dice": 4,
+              "fixe": 0
+            },
+            "portee": "courte",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antianatheme",
+                "degatscontinus 3"
+              ],
+              "custom": []
+            }
+          },
+          "utilitaire": {
+            "description": "",
+            "energie": 6,
+            "activation": "tour",
+            "duree": ""
+          },
+          "evolutions": {
+            "support": {
+              "description": "",
+              "energie": {
+                "base": 6,
+                "allie": 2
+              },
+              "activation": "tour",
+              "duree": ""
+            },
+            "offensif": {
+              "description": "",
+              "energie": 2,
+              "activation": "combat",
+              "duree": "",
+              "degats": {
+                "dice": 4,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 4,
+                "fixe": 0
+              },
+              "portee": "courte",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "antianatheme",
+                  "degatscontinus 3"
+                ],
+                "custom": []
+              }
+            },
+            "utilitaire": {
+              "description": "",
+              "energie": 6,
+              "activation": "tour",
+              "duree": ""
+            },
+            "textarea": {
+              "descriptionESupport": 120,
+              "descriptionEUtilitaire": 140,
+              "descriptionEOffensif": 85,
+              "dureeESupport": 50,
+              "dureeEUtilitaire": 50,
+              "dureeEOffensif": 50
+            }
+          },
+          "textarea": {
+            "descriptionSupport": 120,
+            "descriptionUtilitaire": 140,
+            "descriptionOffensif": 85,
+            "descriptionESupport": 120,
+            "descriptionEUtilitaire": 140,
+            "descriptionEOffensif": 85,
+            "dureeSupport": 50,
+            "dureeUtilitaire": 50,
+            "dureeOffensif": 50,
+            "dureeESupport": 50,
+            "dureeEUtilitaire": 50,
+            "dureeEOffensif": 50
+          }
+        },
+        "changeling": {
+          "label": "",
+          "description": "",
+          "activation": "tour6Sec",
+          "duree": "",
+          "portee": "",
+          "energie": {
+            "personnel": 6,
+            "etendue": 8,
+            "fauxEtre": {
+              "value": 3,
+              "max": 4
+            }
+          },
+          "desactivationexplosive": {
+            "label": "",
+            "acces": false,
+            "portee": "courte",
+            "degats": {
+              "dice": 3,
+              "fixe": 6
+            },
+            "violence": {
+              "dice": 3,
+              "fixe": 6
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "ignorearmure",
+                "ignorechampdeforce",
+                "dispersion 6",
+                "choc 1"
+              ],
+              "custom": []
+            }
+          },
+          "evolutions": {
+            "activation": "tour6Sec",
+            "duree": "",
+            "portee": "",
+            "energie": {
+              "personnel": 6,
+              "etendue": 8,
+              "fauxEtre": {
+                "value": 3,
+                "max": 4
+              }
+            },
+            "desactivationexplosive": {
+              "label": "",
+              "acces": false,
+              "portee": "courte",
+              "degats": {
+                "dice": 3,
+                "fixe": 6
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 6
+              },
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "ignorearmure",
+                  "ignorechampdeforce",
+                  "dispersion 6",
+                  "choc 1"
+                ],
+                "custom": []
+              }
+            },
+            "textarea": {
+              "duree": 50,
+              "portee": 50
+            }
+          },
+          "textarea": {
+            "duree": 50,
+            "portee": 50
+          }
+        },
+        "falcon": {
+          "label": "",
+          "description": "",
+          "energie": 6,
+          "activation": "deplacement",
+          "duree": "",
+          "informations": "",
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "energie": 6,
+            "activation": "deplacement",
+            "duree": "",
+            "informations": "",
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "goliath": {
+          "label": "",
+          "description": "",
+          "energie": 2,
+          "activation": "deplacement",
+          "duree": "",
+          "taille": {
+            "value": 0,
+            "max": 4
+          },
+          "armesRack": {
+            "label": "",
+            "active": true,
+            "value": 4
+          },
+          "bonus": {
+            "cdf": {
+              "value": 1
+            },
+            "force": {
+              "value": 1
+            },
+            "endurance": {
+              "value": 1
+            },
+            "degats": {
+              "dice": 1
+            },
+            "violence": {
+              "dice": 1
+            }
+          },
+          "malus": {
+            "reaction": {
+              "value": 2
+            },
+            "defense": {
+              "value": 1
+            }
+          },
+          "evolutions": {
+            "energie": 2,
+            "activation": "deplacement",
+            "duree": "",
+            "taille": {
+              "value": 0,
+              "max": 4
+            },
+            "armesRack": {
+              "label": "",
+              "active": true,
+              "value": 4
+            },
+            "bonus": {
+              "cdf": {
+                "value": 1
+              },
+              "force": {
+                "value": 1
+              },
+              "endurance": {
+                "value": 1
+              },
+              "degats": {
+                "dice": 1
+              },
+              "violence": {
+                "dice": 1
+              }
+            },
+            "malus": {
+              "reaction": {
+                "value": 2
+              },
+              "defense": {
+                "value": 1
+              }
+            },
+            "textarea": {
+              "duree": 50
+            }
+          },
+          "textarea": {
+            "duree": 50
+          }
+        },
+        "ghost": {
+          "label": "",
+          "description": "",
+          "interruption": {
+            "actif": true,
+            "label": ""
+          },
+          "activation": "aucune",
+          "duree": "",
+          "energie": {
+            "tour": 2,
+            "minute": 6
+          },
+          "bonus": {
+            "aspects": {},
+            "reussites": 3,
+            "attaque": "discretion",
+            "degats": {
+              "caracteristique": "discretion",
+              "inclus": {
+                "od": "",
+                "dice": "",
+                "fixe": ""
+              },
+              "od": true,
+              "dice": false,
+              "fixe": true
+            }
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "interruption": {
+              "actif": true,
+              "label": ""
+            },
+            "activation": "aucune",
+            "duree": "",
+            "energie": {
+              "tour": 2,
+              "minute": 6
+            },
+            "bonus": {
+              "aspects": {},
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "inclus": {
+                  "od": "",
+                  "dice": "",
+                  "fixe": ""
+                },
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "longbow": {
+          "label": "",
+          "description": "",
+          "degats": {
+            "energie": 1,
+            "min": 3,
+            "max": 9
+          },
+          "violence": {
+            "energie": 1,
+            "min": 1,
+            "max": 7
+          },
+          "portee": {
+            "energie": 1,
+            "min": "moyenne",
+            "max": "lointaine"
+          },
+          "effets": {
+            "base": {
+              "liste": [],
+              "raw": [
+                "assistanceattaque",
+                "deuxmains",
+                "lourd"
+              ],
+              "custom": []
+            },
+            "liste1": {
+              "energie": 2,
+              "liste": [],
+              "raw": [
+                "choc 1",
+                "degatscontinus 3",
+                "designation",
+                "percearmure 40",
+                "silencieux",
+                "ultraviolence"
+              ],
+              "custom": []
+            },
+            "liste2": {
+              "energie": 3,
+              "liste": [],
+              "raw": [
+                "antivehicule",
+                "artillerie",
+                "dispersion 3",
+                "lumiere 4",
+                "penetrant 6",
+                "percearmure 60"
+              ],
+              "custom": []
+            },
+            "liste3": {
+              "label": "",
+              "acces": false,
+              "energie": 6,
+              "liste": [],
+              "raw": [
+                "antianatheme",
+                "demoralisant",
+                "enchaine",
+                "fureur",
+                "ignorearmure",
+                "penetrant 10"
+              ],
+              "custom": []
+            }
+          },
+          "distance": {
+            "raw": [],
+            "custom": []
+          },
+          "specialEvolutions": {
+            "1": {
+              "value": 50,
+              "description": "",
+              "effets": {
+                "liste1": {
+                  "liste": [],
+                  "raw": [
+                    "choc 1",
+                    "degatscontinus 3",
+                    "designation",
+                    "percearmure 40",
+                    "silencieux",
+                    "ultraviolence"
+                  ],
+                  "custom": []
+                },
+                "liste2": {
+                  "liste": [],
+                  "raw": [
+                    "antivehicule",
+                    "artillerie",
+                    "dispersion 3",
+                    "lumiere 4",
+                    "penetrant 6",
+                    "percearmure 60"
+                  ],
+                  "custom": []
+                },
+                "liste3": {
+                  "label": "",
+                  "acces": true,
+                  "liste": [],
+                  "raw": [
+                    "antianatheme",
+                    "demoralisant",
+                    "enchaine",
+                    "fureur",
+                    "ignorearmure",
+                    "penetrant 10"
+                  ],
+                  "custom": []
+                }
+              }
+            },
+            "2": {
+              "value": 50,
+              "description": "",
+              "degats": {
+                "min": 5,
+                "max": 14
+              },
+              "violence": {
+                "min": 3,
+                "max": 12
+              }
+            },
+            "3": {
+              "value": 50,
+              "description": "",
+              "effets": {
+                "base": {
+                  "liste": [],
+                  "raw": [
+                    "assistanceattaque",
+                    "deuxmains"
+                  ],
+                  "custom": []
+                }
+              }
+            },
+            "4": {
+              "value": 100,
+              "description": "",
+              "effets": {
+                "liste1": {
+                  "energie": 1
+                },
+                "liste2": {
+                  "energie": 1
+                },
+                "liste3": {
+                  "energie": 4
+                }
+              }
+            }
+          },
+          "evolutions": {
+            "degats": {
+              "energie": 1,
+              "min": 3,
+              "max": 9
+            },
+            "violence": {
+              "energie": 1,
+              "min": 1,
+              "max": 7
+            },
+            "portee": {
+              "energie": 1,
+              "min": "moyenne",
+              "max": "lointaine"
+            },
+            "effets": {
+              "base": {
+                "liste": [],
+                "raw": [
+                  "assistanceattaque",
+                  "deuxmains",
+                  "lourd"
+                ],
+                "custom": []
+              },
+              "liste1": {
+                "energie": 2,
+                "liste": [],
+                "raw": [
+                  "choc 1",
+                  "degatscontinus 3",
+                  "designation",
+                  "percearmure 40",
+                  "silencieux",
+                  "ultraviolence"
+                ],
+                "custom": []
+              },
+              "liste2": {
+                "energie": 3,
+                "liste": [],
+                "raw": [
+                  "antivehicule",
+                  "artillerie",
+                  "dispersion 3",
+                  "lumiere 4",
+                  "penetrant 6",
+                  "percearmure 60"
+                ],
+                "custom": []
+              },
+              "liste3": {
+                "label": "",
+                "acces": false,
+                "energie": 6,
+                "liste": [],
+                "raw": [
+                  "antianatheme",
+                  "demoralisant",
+                  "enchaine",
+                  "fureur",
+                  "ignorearmure",
+                  "penetrant 10"
+                ],
+                "custom": []
+              }
+            }
+          }
+        },
+        "mechanic": {
+          "label": "",
+          "description": "",
+          "activation": {
+            "contact": "deplacement",
+            "distance": "deplacement"
+          },
+          "portee": "",
+          "reparation": {
+            "contact": {
+              "duree": "",
+              "dice": 3,
+              "fixe": 6
+            },
+            "distance": {
+              "duree": "",
+              "dice": 2,
+              "fixe": 6
+            }
+          },
+          "energie": {
+            "contact": 4,
+            "distance": 6
+          },
+          "textarea": {
+            "dureeContact": 50,
+            "dureeDistance": 50
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "portee": "",
+            "reparation": {
+              "contact": {
+                "duree": "",
+                "dice": 3,
+                "fixe": 6
+              },
+              "distance": {
+                "duree": "",
+                "dice": 2,
+                "fixe": 6
+              }
+            },
+            "energie": {
+              "contact": 4,
+              "distance": 6
+            },
+            "textarea": {
+              "dureeContact": 50,
+              "dureeDistance": 50
+            }
+          }
+        },
+        "nanoc": {
+          "label": "",
+          "description": "",
+          "activation": "toutes",
+          "duree": "",
+          "energie": {
+            "base": 3,
+            "detaille": 6,
+            "mecanique": 9,
+            "prolonger": 2
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "toutes",
+            "duree": "",
+            "energie": {
+              "base": 3,
+              "detaille": 6,
+              "mecanique": 9,
+              "prolonger": 2
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "oriflamme": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement",
+          "duree": "",
+          "portee": "courte",
+          "energie": 12,
+          "degats": {
+            "dice": 6,
+            "fixe": 6
+          },
+          "violence": {
+            "dice": 6,
+            "fixe": 12
+          },
+          "effets": {
+            "liste": [],
+            "raw": [
+              "antianatheme",
+              "lumiere 2"
+            ],
+            "custom": []
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "duree": "",
+            "portee": "courte",
+            "energie": 12,
+            "degats": {
+              "dice": 6,
+              "fixe": 6
+            },
+            "violence": {
+              "dice": 6,
+              "fixe": 12
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antianatheme",
+                "lumiere 2"
+              ],
+              "custom": []
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "shrine": {
+          "label": "",
+          "description": "",
+          "activation": "aucune",
+          "duree": "",
+          "portee": "",
+          "energie": {
+            "personnel": 1,
+            "distance": 2,
+            "acces6tours": false,
+            "personnel6tours": 5,
+            "distance6tours": 10
+          },
+          "champdeforce": 6,
+          "requis": {
+            "force": 5,
+            "chair": 10
+          },
+          "textarea": {
+            "duree": "50",
+            "portee": "50"
+          },
+          "evolutions": {
+            "activation": "aucun",
+            "duree": "",
+            "portee": "",
+            "energie": {
+              "personnel": 1,
+              "distance": 2,
+              "acces6tours": false,
+              "personnel6tours": 5,
+              "distance6tours": 10
+            },
+            "champdeforce": 6,
+            "requis": {
+              "force": 5,
+              "chair": 10
+            },
+            "textarea": {
+              "duree": "50",
+              "portee": "50"
+            }
+          }
+        },
+        "type": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement",
+          "duree": "",
+          "nbreType": 3,
+          "energie": {
+            "tour": 1,
+            "scene": 6
+          },
+          "type": {
+            "soldier": {
+              "aspect": "chair",
+              "liste": {
+                "deplacement": {
+                  "value": 1
+                },
+                "force": {
+                  "value": 1
+                },
+                "endurance": {
+                  "value": 1
+                }
+              }
+            },
+            "hunter": {
+              "aspect": "bete",
+              "liste": {
+                "hargne": {
+                  "value": 1
+                },
+                "combat": {
+                  "value": 1
+                },
+                "instinct": {
+                  "value": 1
+                }
+              }
+            },
+            "scholar": {
+              "aspect": "machine",
+              "liste": {
+                "tir": {
+                  "value": 1
+                },
+                "savoir": {
+                  "value": 1
+                },
+                "technique": {
+                  "value": 1
+                }
+              }
+            },
+            "herald": {
+              "aspect": "dame",
+              "liste": {
+                "aura": {
+                  "value": 1
+                },
+                "parole": {
+                  "value": 1
+                },
+                "sangFroid": {
+                  "value": 1
+                }
+              }
+            },
+            "scout": {
+              "aspect": "masque",
+              "liste": {
+                "discretion": {
+                  "value": 1
+                },
+                "dexterite": {
+                  "value": 1
+                },
+                "perception": {
+                  "value": 1
+                }
+              }
+            }
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "duree": "",
+            "nbreType": 3,
+            "energie": {
+              "tour": 1,
+              "scene": 6
+            },
+            "type": {
+              "soldier": {
+                "aspect": "chair",
+                "liste": {
+                  "deplacement": {
+                    "value": 1
+                  },
+                  "force": {
+                    "value": 1
+                  },
+                  "endurance": {
+                    "value": 1
+                  }
+                }
+              },
+              "hunter": {
+                "aspect": "bete",
+                "liste": {
+                  "hargne": {
+                    "value": 1
+                  },
+                  "combat": {
+                    "value": 1
+                  },
+                  "instinct": {
+                    "value": 1
+                  }
+                }
+              },
+              "scholar": {
+                "aspect": "machine",
+                "liste": {
+                  "tir": {
+                    "value": 1
+                  },
+                  "savoir": {
+                    "value": 1
+                  },
+                  "technique": {
+                    "value": 1
+                  }
+                }
+              },
+              "herald": {
+                "aspect": "dame",
+                "liste": {
+                  "aura": {
+                    "value": 1
+                  },
+                  "parole": {
+                    "value": 1
+                  },
+                  "sangFroid": {
+                    "value": 1
+                  }
+                }
+              },
+              "scout": {
+                "aspect": "masque",
+                "liste": {
+                  "discretion": {
+                    "value": 1
+                  },
+                  "dexterite": {
+                    "value": 1
+                  },
+                  "perception": {
+                    "value": 1
+                  }
+                }
+              }
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "vision": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement6Sec",
+          "duree": "",
+          "energie": {
+            "min": 5,
+            "max": 10
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement6Sec",
+            "duree": "",
+            "energie": {
+              "min": 5,
+              "max": 10
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "warlord": {
+          "label": "",
+          "description": "",
+          "impulsions": {
+            "selection": 3,
+            "action": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "description": ""
+              },
+              "energie": {
+                "allie": 4,
+                "porteur": 10
+              }
+            },
+            "esquive": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "reaction": 2,
+                "defense": 2
+              },
+              "energie": {
+                "allie": 3,
+                "porteur": 2,
+                "prolonger": 2
+              }
+            },
+            "force": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "champDeForce": 2
+              },
+              "energie": {
+                "allie": 2,
+                "porteur": 1,
+                "prolonger": 1
+              }
+            },
+            "guerre": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "degats": 1,
+                "violence": 1
+              },
+              "energie": {
+                "allie": 1,
+                "porteur": 1,
+                "prolonger": 1
+              }
+            },
+            "energie": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "description": ""
+              },
+              "energie": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          },
+          "textarea": {
+            "dureeAction": 50,
+            "dureeForce": 50,
+            "dureeEnergie": 50,
+            "dureeEsquive": 50,
+            "dureeGuerre": 50,
+            "bonusAction": 85,
+            "bonusEnergie": 110
+          },
+          "evolutions": {
+            "impulsions": {
+              "selection": 3,
+              "action": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "description": ""
+                },
+                "energie": {
+                  "allie": 4,
+                  "porteur": 10
+                }
+              },
+              "esquive": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "reaction": 2,
+                  "defense": 2
+                },
+                "energie": {
+                  "allie": 3,
+                  "porteur": 2,
+                  "prolonger": 2
+                }
+              },
+              "force": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "champDeForce": 2
+                },
+                "energie": {
+                  "allie": 2,
+                  "porteur": 1,
+                  "prolonger": 1
+                }
+              },
+              "guerre": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "degats": 1,
+                  "violence": 1
+                },
+                "energie": {
+                  "allie": 1,
+                  "porteur": 1,
+                  "prolonger": 1
+                }
+              },
+              "energie": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "description": ""
+                },
+                "energie": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            },
+            "textarea": {
+              "dureeAction": 50,
+              "dureeForce": 50,
+              "dureeEnergie": 50,
+              "dureeEsquive": 50,
+              "dureeGuerre": 50,
+              "bonusAction": 85,
+              "bonusEnergie": 110
+            }
+          }
+        },
+        "watchtower": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement3Sec",
+          "duree": "",
+          "energie": 2,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement3Sec",
+            "duree": "",
+            "energie": 2,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "personnalise": {
+          "label": "",
+          "description": ""
+        }
+      },
+      "c2038": {
+        "cea": {
+          "label": "",
+          "description": "",
+          "energie": 3,
+          "activation": "combat",
+          "duree": "",
+          "espoir": 1,
+          "vague": {
+            "degats": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "portee": "",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "parasitage 2",
+                "dispersion 3",
+                "destructeur",
+                "choc 2"
+              ],
+              "custom": []
+            }
+          },
+          "salve": {
+            "degats": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "portee": "",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "ultraviolence",
+                "meurtrier 3",
+                "dispersion 3",
+                "parasitage 1"
+              ],
+              "custom": []
+            }
+          },
+          "rayon": {
+            "degats": {
+              "dice": 4,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 2,
+              "fixe": 0
+            },
+            "portee": "",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "parasitage 1",
+                "percearmure 40"
+              ],
+              "custom": []
+            }
+          },
+          "textarea": {
+            "descriptionVague": 70,
+            "descriptionSalve": 75,
+            "descriptionRayon": 150,
+            "porteeVague": 50,
+            "porteeSalve": 50,
+            "porteeRayon": 50,
+            "duree": 50
+          },
+          "evolutions": {
+            "energie": 3,
+            "activation": "combat",
+            "duree": "",
+            "espoir": 1,
+            "vague": {
+              "degats": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "portee": "",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "parasitage 2",
+                  "dispersion 3",
+                  "destructeur",
+                  "choc 2"
+                ],
+                "custom": []
+              }
+            },
+            "salve": {
+              "degats": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "portee": "",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "ultraviolence",
+                  "meurtrier 3",
+                  "dispersion 3",
+                  "parasitage 1"
+                ],
+                "custom": []
+              }
+            },
+            "rayon": {
+              "degats": {
+                "dice": 4,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 2,
+                "fixe": 0
+              },
+              "portee": "",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "parasitage 1",
+                  "percearmure 40"
+                ],
+                "custom": []
+              }
+            },
+            "textarea": {
+              "descriptionVague": 70,
+              "descriptionSalve": 75,
+              "descriptionRayon": 150,
+              "porteeVague": 50,
+              "porteeSalve": 50,
+              "porteeRayon": 50,
+              "duree": 50
+            }
+          }
+        },
+        "discord": {
+          "label": "",
+          "description": "",
+          "special": {
+            "c2038": "recolteflux"
+          },
+          "malus": {
+            "reaction": 2,
+            "defense": 2,
+            "actions": 2
+          },
+          "tour": {
+            "flux": 1,
+            "energie": 2,
+            "activation": "deplacement",
+            "duree": ""
+          },
+          "scene": {
+            "flux": 3,
+            "energie": 6,
+            "activation": "deplacement",
+            "duree": ""
+          },
+          "textarea": {
+            "dureeTour": 50,
+            "dureeScene": 50
+          },
+          "evolutions": {
+            "malus": {
+              "reaction": 2,
+              "defense": 2,
+              "actions": 2
+            },
+            "tour": {
+              "flux": 1,
+              "energie": 2,
+              "activation": "deplacement",
+              "duree": ""
+            },
+            "scene": {
+              "flux": 3,
+              "energie": 6,
+              "activation": "deplacement",
+              "duree": ""
+            },
+            "textarea": {
+              "dureeTour": 50,
+              "dureeScene": 50
+            }
+          }
+        },
+        "puppet": {
+          "label": "",
+          "description": "",
+          "special": {
+            "c2038": "recolteflux"
+          },
+          "duree": "",
+          "activation": "deplacement",
+          "creatures": 3,
+          "energie": {
+            "ordre": 2,
+            "supplementaire": 3,
+            "prolonger": 1
+          },
+          "flux": {
+            "has": true,
+            "ordre": 1,
+            "supplementaire": 1,
+            "prolonger": 1
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "deplacement",
+            "creatures": 3,
+            "energie": {
+              "ordre": 2,
+              "supplementaire": 3,
+              "prolonger": 1
+            },
+            "flux": {
+              "has": true,
+              "ordre": 1,
+              "supplementaire": 1,
+              "prolonger": 1
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "windtalker": {
+          "label": "",
+          "description": "",
+          "special": {
+            "c2038": "recolteflux"
+          },
+          "flux": 2,
+          "energie": 4,
+          "activation": "deplacement",
+          "duree": "",
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "flux": 2,
+            "energie": 4,
+            "activation": "deplacement",
+            "duree": "",
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "zen": {
+          "label": "",
+          "description": "",
+          "espoir": 0,
+          "difficulte": 5,
+          "aspects": {
+            "chair": {
+              "caracteristiques": {
+                "deplacement": {
+                  "value": false
+                },
+                "force": {
+                  "value": false
+                },
+                "endurance": {
+                  "value": false
+                }
+              }
+            },
+            "bete": {
+              "caracteristiques": {
+                "hargne": {
+                  "value": true
+                },
+                "combat": {
+                  "value": false
+                },
+                "instinct": {
+                  "value": false
+                }
+              }
+            },
+            "machine": {
+              "caracteristiques": {
+                "tir": {
+                  "value": false
+                },
+                "savoir": {
+                  "value": false
+                },
+                "technique": {
+                  "value": false
+                }
+              }
+            },
+            "dame": {
+              "caracteristiques": {
+                "aura": {
+                  "value": false
+                },
+                "parole": {
+                  "value": false
+                },
+                "sangFroid": {
+                  "value": true
+                }
+              }
+            },
+            "masque": {
+              "caracteristiques": {
+                "discretion": {
+                  "value": false
+                },
+                "dexterite": {
+                  "value": false
+                },
+                "perception": {
+                  "value": false
+                }
+              }
+            }
+          },
+          "evolutions": {
+            "espoir": 0,
+            "difficulte": 5,
+            "aspects": {
+              "chair": {
+                "caracteristiques": {
+                  "deplacement": {
+                    "value": false
+                  },
+                  "force": {
+                    "value": false
+                  },
+                  "endurance": {
+                    "value": false
+                  }
+                }
+              },
+              "bete": {
+                "caracteristiques": {
+                  "hargne": {
+                    "value": true
+                  },
+                  "combat": {
+                    "value": false
+                  },
+                  "instinct": {
+                    "value": false
+                  }
+                }
+              },
+              "machine": {
+                "caracteristiques": {
+                  "tir": {
+                    "value": false
+                  },
+                  "savoir": {
+                    "value": false
+                  },
+                  "technique": {
+                    "value": false
+                  }
+                }
+              },
+              "dame": {
+                "caracteristiques": {
+                  "aura": {
+                    "value": false
+                  },
+                  "parole": {
+                    "value": false
+                  },
+                  "sangFroid": {
+                    "value": true
+                  }
+                }
+              },
+              "masque": {
+                "caracteristiques": {
+                  "discretion": {
+                    "value": false
+                  },
+                  "dexterite": {
+                    "value": false
+                  },
+                  "perception": {
+                    "value": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "c2038Necromancer": {
+        "sarcophage": {
+          "label": "",
+          "description": "",
+          "bonus": {
+            "paliers": 7,
+            "liste": {
+              "b0": {
+                "pg": {
+                  "min": 0,
+                  "max": 49
+                },
+                "offert": ""
+              },
+              "b1": {
+                "pg": {
+                  "min": 50,
+                  "max": 99
+                },
+                "offert": ""
+              },
+              "b2": {
+                "pg": {
+                  "min": 100,
+                  "max": 149
+                },
+                "offert": ""
+              },
+              "b3": {
+                "pg": {
+                  "min": 150,
+                  "max": 199
+                },
+                "offert": ""
+              },
+              "b4": {
+                "pg": {
+                  "min": 200,
+                  "max": 249
+                },
+                "offert": ""
+              },
+              "b5": {
+                "pg": {
+                  "min": 250,
+                  "max": 299
+                },
+                "offert": ""
+              },
+              "b6": {
+                "pg": {
+                  "min": 300
+                },
+                "offert": ""
+              }
+            }
+          },
+          "textarea": {
+            "b0": 50,
+            "b1": 50,
+            "b2": 50,
+            "b3": 50,
+            "b4": 50,
+            "b5": 50,
+            "b6": 50
+          }
+        }
+      },
+      "c2038Sorcerer": {
+        "morph": {
+          "label": "",
+          "description": "",
+          "energie": 10,
+          "activation": "aucune",
+          "duree": "",
+          "espoir": 1,
+          "capacites": 3,
+          "vol": {
+            "description": ""
+          },
+          "phase": {
+            "description": "",
+            "activation": "deplacement",
+            "energie": 5,
+            "duree": "Spécial – 1 action pour 50 centimètres de matière",
+            "niveau2": {
+              "acces": false,
+              "activation": "aucune",
+              "energie": 8,
+              "duree": "Instantanée"
+            }
+          },
+          "etirement": {
+            "description": "",
+            "portee": "",
+            "bonus": 3
+          },
+          "metal": {
+            "bonus": {
+              "champDeForce": 2
+            }
+          },
+          "fluide": {
+            "bonus": {
+              "reaction": 2,
+              "defense": 2
+            }
+          },
+          "polymorphie": {
+            "description": "",
+            "griffe": {
+              "portee": "contact",
+              "type": "contact",
+              "degats": {
+                "dice": 2,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 1,
+                "fixe": 0
+              },
+              "effets": {
+                "liste": [],
+                "raw": [],
+                "custom": []
+              }
+            },
+            "lame": {
+              "portee": "contact",
+              "type": "contact",
+              "degats": {
+                "dice": 2,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 1,
+                "fixe": 0
+              },
+              "effets": {
+                "liste": [],
+                "raw": [],
+                "custom": []
+              }
+            },
+            "canon": {
+              "portee": "distance",
+              "type": "moyenne",
+              "energie": 1,
+              "degats": {
+                "dice": 3,
+                "fixe": 3
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 3
+              },
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "destructeur",
+                  "meurtrier",
+                  "ultraviolence"
+                ],
+                "custom": []
+              }
+            }
+          },
+          "textarea": {
+            "duree": 50,
+            "vol": 130,
+            "phase": 115,
+            "phaseDuree": 50,
+            "phaseDuree2": 50,
+            "etirement": 130,
+            "etirementPortee": 50,
+            "polymorphie": 205
+          },
+          "evolutions": {
+            "energie": 10,
+            "activation": "aucune",
+            "duree": "",
+            "espoir": 1,
+            "capacites": 3,
+            "vol": {
+              "description": ""
+            },
+            "phase": {
+              "description": "",
+              "activation": "deplacement",
+              "energie": 5,
+              "duree": "Spécial – 1 action pour 50 centimètres de matière",
+              "niveau2": {
+                "acces": false,
+                "activation": "aucune",
+                "energie": 8,
+                "duree": "Instantanée"
+              }
+            },
+            "etirement": {
+              "description": "",
+              "portee": "",
+              "bonus": 3
+            },
+            "metal": {
+              "bonus": {
+                "champDeForce": 2
+              }
+            },
+            "fluide": {
+              "bonus": {
+                "reaction": 2,
+                "defense": 2
+              }
+            },
+            "polymorphie": {
+              "description": "",
+              "griffe": {
+                "portee": "contact",
+                "type": "contact",
+                "degats": {
+                  "dice": 2,
+                  "fixe": 0
+                },
+                "violence": {
+                  "dice": 1,
+                  "fixe": 0
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "lame": {
+                "portee": "contact",
+                "type": "contact",
+                "degats": {
+                  "dice": 2,
+                  "fixe": 0
+                },
+                "violence": {
+                  "dice": 1,
+                  "fixe": 0
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "canon": {
+                "portee": "distance",
+                "type": "moyenne",
+                "energie": 1,
+                "degats": {
+                  "dice": 3,
+                  "fixe": 3
+                },
+                "violence": {
+                  "dice": 3,
+                  "fixe": 3
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [
+                    "destructeur",
+                    "meurtrier",
+                    "ultraviolence"
+                  ],
+                  "custom": []
+                }
+              }
+            },
+            "textarea": {
+              "duree": 50,
+              "vol": 130,
+              "phase": 115,
+              "phaseDuree": 50,
+              "phaseDuree2": 50,
+              "etirement": 130,
+              "etirementPortee": 50,
+              "polymorphie": 205
+            }
+          }
+        }
+      },
+      "codex": {
+        "companions": {
+          "label": "",
+          "description": "",
+          "activation": "tour6Sec",
+          "duree": "",
+          "energie": {
+            "base": 16,
+            "prolonger": 8
+          },
+          "textarea": {
+            "duree": 50,
+            "labor": 85,
+            "medic": 85,
+            "tech": 85,
+            "fighter": 85,
+            "recon": 85,
+            "crow": 52
+          },
+          "lion": {
+            "img": "systems/knight/assets/lion.jpg",
+            "PG": 60,
+            "aspects": {
+              "chair": {
+                "value": 7,
+                "ae": 1
+              },
+              "bete": {
+                "value": 6,
+                "ae": 1
+              },
+              "machine": {
+                "value": 7,
+                "ae": 1
+              },
+              "dame": {
+                "value": 4,
+                "ae": 0
+              },
+              "masque": {
+                "value": 4,
+                "ae": 0
+              }
+            },
+            "champDeForce": {
+              "base": 10,
+              "bonus": [],
+              "malus": []
+            },
+            "defense": {
+              "base": 4,
+              "bonus": [],
+              "malus": []
+            },
+            "reaction": {
+              "base": 4,
+              "bonus": [],
+              "malus": []
+            },
+            "armure": {
+              "base": 60,
+              "bonus": [],
+              "malus": []
+            },
+            "energie": {
+              "base": 0,
+              "bonus": [],
+              "malus": []
+            },
+            "initiative": {
+              "value": 3,
+              "fixe": 2
+            },
+            "armes": {
+              "contact": {
+                "coups": {
+                  "label": "",
+                  "portee": "contact",
+                  "degats": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "raw": [],
+                    "custom": []
+                  }
+                }
+              },
+              "distance": []
+            }
+          },
+          "wolf": {
+            "img": "systems/knight/assets/wolf.jpg",
+            "aspects": {
+              "chair": {
+                "value": 2,
+                "ae": 0
+              },
+              "bete": {
+                "value": 4,
+                "ae": 0
+              },
+              "machine": {
+                "value": 4,
+                "ae": 0
+              },
+              "dame": {
+                "value": 2,
+                "ae": 0
+              },
+              "masque": {
+                "value": 4,
+                "ae": 0
+              }
+            },
+            "champDeForce": {
+              "base": 4
+            },
+            "defense": {
+              "base": 4
+            },
+            "reaction": {
+              "base": 4
+            },
+            "armure": {
+              "base": 20
+            },
+            "energie": {
+              "base": 0
+            },
+            "initiative": {
+              "value": 3,
+              "fixe": 2
+            },
+            "armes": {
+              "contact": {
+                "coups": {
+                  "label": "",
+                  "portee": "contact",
+                  "degats": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "raw": [],
+                    "custom": []
+                  }
+                }
+              }
+            },
+            "configurations": {
+              "labor": {
+                "niveau": 1,
+                "description": "",
+                "energie": 1,
+                "bonus": {
+                  "roll": 1
+                }
+              },
+              "medic": {
+                "niveau": 1,
+                "description": "",
+                "energie": 1,
+                "bonus": {
+                  "roll": 1,
+                  "soins": 2
+                }
+              },
+              "tech": {
+                "niveau": 1,
+                "description": "",
+                "energie": 2,
+                "bonus": {
+                  "roll": 1,
+                  "reparation": 3
+                }
+              },
+              "fighter": {
+                "niveau": 1,
+                "description": "",
+                "energie": 2,
+                "degats": 1,
+                "violence": 1,
+                "bonus": {
+                  "roll": 1,
+                  "effets": {
+                    "raw": [
+                      "barrage 1"
+                    ],
+                    "liste": [],
+                    "custom": []
+                  }
+                }
+              },
+              "recon": {
+                "niveau": 1,
+                "description": "",
+                "energie": 1,
+                "bonus": {
+                  "roll": 1
+                }
+              }
+            }
+          },
+          "crow": {
+            "img": "systems/knight/assets/crow.jpg",
+            "capacites": "",
+            "aspects": {
+              "chair": {
+                "value": 6
+              },
+              "bete": {
+                "value": 4
+              },
+              "machine": {
+                "value": 4
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 6
+              }
+            },
+            "champDeForce": {
+              "base": 2
+            },
+            "defense": {
+              "base": 2
+            },
+            "reaction": {
+              "base": 2
+            },
+            "cohesion": {
+              "base": 50
+            },
+            "debordement": {
+              "base": 2
+            },
+            "energie": {
+              "base": 0
+            },
+            "initiative": {
+              "value": 0,
+              "fixe": 1
+            }
+          },
+          "specialEvolutions": {
+            "activation": "tour6Sec",
+            "duree": "",
+            "adistribuer": 1,
+            "description": "",
+            "energie": {
+              "base": 16,
+              "prolonger": 8
+            },
+            "lion": {
+              "label": "",
+              "aspects": {
+                "value": 5,
+                "max": 2
+              },
+              "ae": 2,
+              "pg": 60
+            },
+            "wolf": {
+              "label": "",
+              "aspects": {
+                "value": 3,
+                "max": 2
+              },
+              "ae": 1,
+              "bonus": 2
+            },
+            "crow": {
+              "label": "",
+              "aspects": {
+                "value": 2,
+                "max": 2
+              },
+              "cohesion": 50,
+              "debordement": 2,
+              "cdf": 2
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        }
+      },
+      "atlas": {
+        "ascension": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "tour6Sec",
+          "portee": "contact",
+          "impregnation": 3,
+          "sansarmure": {
+            "acces": false
+          },
+          "special": {
+            "atlas": "impregnation"
+          },
+          "energie": {
+            "min": 10,
+            "max": 50,
+            "limite": 0
+          },
+          "textarea": {
+            "duree": 75
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "Tour6Sec",
+            "portee": "contact",
+            "impregnation": 3,
+            "sansarmure": {
+              "acces": false,
+              "label": ""
+            },
+            "special": {
+              "atlas": "impregnation"
+            },
+            "energie": {
+              "min": 10,
+              "max": 50,
+              "limite": 0
+            },
+            "textarea": {
+              "duree": 75
+            }
+          }
+        },
+        "forward": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "aucune",
+          "special": {
+            "atlas": "contrecoups"
+          },
+          "energie": 3,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "aucune",
+            "special": {
+              "atlas": "contrecoups"
+            },
+            "energie": 3,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "record": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "aucune",
+          "special": {
+            "atlas": "contrecoups"
+          },
+          "energie": 12,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "aucune",
+            "special": {
+              "atlas": "contrecoups"
+            },
+            "energie": 12,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "rewind": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "aucune",
+          "special": {
+            "atlas": "contrecoups"
+          },
+          "energie": 15,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "aucune",
+            "special": {
+              "atlas": "contrecoups"
+            },
+            "energie": 15,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "totem": {
+          "label": "",
+          "description": "",
+          "activation": "aucune",
+          "duree": "",
+          "portee": "courte",
+          "nombre": 2,
+          "impregnation": 1,
+          "special": {
+            "atlas": "impregnation"
+          },
+          "energie": {
+            "base": 3,
+            "prolonger": 1
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "aucune",
+            "duree": "",
+            "portee": "courte",
+            "nombre": 2,
+            "impregnation": 1,
+            "energie": {
+              "base": 3,
+              "prolonger": 1
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        }
+      },
+      "atlasSpecial": {
+        "illumination": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement",
+          "duree": "",
+          "nbreCapacitesSelected": 3,
+          "nbreCapacitesTotale": 7,
+          "blaze": {
+            "description": "",
+            "degats": 2,
+            "violence": 2,
+            "portee": "contact",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "candle": {
+            "description": "",
+            "portee": "contact",
+            "espoir": {
+              "dice": 1,
+              "face": 3
+            }
+          },
+          "beacon": {
+            "description": "",
+            "bonus": 2,
+            "portee": "courte",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "torch": {
+            "description": "",
+            "bonus": 2,
+            "portee": "courte",
+            "espoir": {
+              "base": 3,
+              "prolonger": 1
+            }
+          },
+          "projector": {
+            "description": "",
+            "portee": "courte",
+            "espoir": {
+              "base": 3,
+              "prolonger": 1
+            }
+          },
+          "lighthouse": {
+            "description": "",
+            "portee": "courte",
+            "espoir": {
+              "base": 4,
+              "prolonger": 1
+            }
+          },
+          "lantern": {
+            "description": "",
+            "portee": "courte",
+            "degats": 1,
+            "effets": {
+              "raw": [
+                "esperance"
+              ],
+              "liste": [],
+              "custom": []
+            },
+            "espoir": {
+              "base": 4,
+              "prolonger": 1
+            }
+          },
+          "textarea": {
+            "duree": 50,
+            "blaze": 175,
+            "candle": 125,
+            "beacon": 110,
+            "torch": 175,
+            "projector": 190,
+            "lighthouse": 140,
+            "lantern": 120
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "duree": "",
+            "nbreCapacitesSelected": 3,
+            "nbreCapacitesTotale": 7,
+            "blaze": {
+              "description": "",
+              "degats": 2,
+              "violence": 2,
+              "portee": "contact",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "candle": {
+              "description": "",
+              "portee": "contact",
+              "espoir": 1
+            },
+            "beacon": {
+              "description": "",
+              "bonus": 2,
+              "portee": "courte",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "torch": {
+              "description": "",
+              "bonus": 2,
+              "portee": "courte",
+              "espoir": {
+                "base": 3,
+                "prolonger": 1
+              }
+            },
+            "projector": {
+              "description": "",
+              "portee": "courte",
+              "espoir": {
+                "base": 3,
+                "prolonger": 1
+              }
+            },
+            "lighthouse": {
+              "description": "",
+              "portee": "courte",
+              "espoir": {
+                "base": 4,
+                "prolonger": 1
+              }
+            },
+            "lantern": {
+              "description": "",
+              "portee": "courte",
+              "degats": 1,
+              "effets": {
+                "raw": [
+                  "esperance"
+                ],
+                "liste": [],
+                "custom": []
+              },
+              "espoir": {
+                "base": 4,
+                "prolonger": 1
+              }
+            },
+            "textarea": {
+              "duree": 50,
+              "blaze": 175,
+              "candle": 125,
+              "beacon": 110,
+              "torch": 175,
+              "projector": 190,
+              "lighthouse": 140,
+              "lantern": 120
+            }
+          }
+        },
+        "rage": {
+          "label": "",
+          "description": "",
+          "activation": "aucune",
+          "duree": "",
+          "espoir": 0,
+          "aspects": {},
+          "nourri": {
+            "label": "",
+            "description": "",
+            "humain": {
+              "hostile": {
+                "dice": 0,
+                "face": 0,
+                "fixe": 1
+              },
+              "salopard": {
+                "dice": 1,
+                "face": 3,
+                "fixe": 0
+              },
+              "patron": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 3
+              },
+              "bande": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 0
+              }
+            },
+            "anatheme": {
+              "hostile": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 0
+              },
+              "salopard": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 3
+              },
+              "patron": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 6
+              },
+              "bande": {
+                "dice": 2,
+                "face": 6,
+                "fixe": 0
+              }
+            }
+          },
+          "colere": {
+            "label": "",
+            "description": "",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 3,
+            "defense": 3,
+            "reaction": 3,
+            "subis": 0,
+            "combosBonus": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": "",
+                "c4": "",
+                "c5": "",
+                "c6": ""
+              }
+            }
+          },
+          "rage": {
+            "label": "",
+            "description": "",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 3,
+            "defense": 9,
+            "reaction": 9,
+            "subis": 0,
+            "combosBonus": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": true,
+              "liste": {
+                "c1": "sangFroid",
+                "c2": "parole",
+                "c3": "savoir",
+                "c4": "technique",
+                "c5": "discretion",
+                "c6": ""
+              }
+            }
+          },
+          "fureur": {
+            "label": "",
+            "description": "",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 6,
+            "defense": 9,
+            "reaction": 9,
+            "subis": 1,
+            "combosBonus": {
+              "has": true,
+              "liste": {
+                "c1": "hargne",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": true,
+              "liste": {
+                "c1": "sangFroid",
+                "c2": "parole",
+                "c3": "savoir",
+                "c4": "technique",
+                "c5": "discretion",
+                "c6": ""
+              }
+            }
+          },
+          "blaze": {
+            "label": "",
+            "description": "",
+            "degats": 2,
+            "violence": 2,
+            "portee": "contact",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "textarea": {
+            "duree": 55,
+            "nourri": 55,
+            "rage": 210,
+            "fureur": 325,
+            "blaze": 180
+          },
+          "evolutions": {
+            "activation": "aucune",
+            "duree": "",
+            "espoir": 0,
+            "aspects": {},
+            "nourri": {
+              "label": "",
+              "description": "",
+              "humain": {
+                "hostile": {
+                  "dice": 0,
+                  "face": 0,
+                  "fixe": 1
+                },
+                "salopard": {
+                  "dice": 1,
+                  "face": 3,
+                  "fixe": 0
+                },
+                "patron": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 3
+                },
+                "bande": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 0
+                }
+              },
+              "anatheme": {
+                "hostile": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 0
+                },
+                "salopard": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 3
+                },
+                "patron": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 6
+                },
+                "bande": {
+                  "dice": 2,
+                  "face": 6,
+                  "fixe": 0
+                }
+              }
+            },
+            "colere": {
+              "label": "",
+              "description": "",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 3,
+              "defense": 3,
+              "reaction": 3,
+              "subis": 0,
+              "combosBonus": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": "",
+                  "c4": "",
+                  "c5": "",
+                  "c6": ""
+                }
+              }
+            },
+            "rage": {
+              "label": "",
+              "description": "",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 3,
+              "defense": 9,
+              "reaction": 9,
+              "subis": 0,
+              "combosBonus": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": true,
+                "liste": {
+                  "c1": "sangFroid",
+                  "c2": "parole",
+                  "c3": "savoir",
+                  "c4": "technique",
+                  "c5": "discretion",
+                  "c6": ""
+                }
+              }
+            },
+            "fureur": {
+              "label": "",
+              "description": "",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 6,
+              "defense": 9,
+              "reaction": 9,
+              "subis": 1,
+              "combosBonus": {
+                "has": true,
+                "liste": {
+                  "c1": "hargne",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": true,
+                "liste": {
+                  "c1": "sangFroid",
+                  "c2": "parole",
+                  "c3": "savoir",
+                  "c4": "technique",
+                  "c5": "discretion",
+                  "c6": ""
+                }
+              }
+            },
+            "blaze": {
+              "label": "",
+              "description": "",
+              "degats": 2,
+              "violence": 2,
+              "portee": "contact",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "textarea": {
+              "duree": 55,
+              "nourri": 55,
+              "rage": 10,
+              "colere": 210,
+              "fureur": 325,
+              "blaze": 180
+            }
+          }
+        }
+      }
+    },
+    "special": {
+      "actuel": "personnalise",
+      "liste": {},
+      "selected": {},
+      "base": {
+        "personnalise": {
+          "label": "",
+          "description": ""
+        },
+        "lenteetlourde": {
+          "label": "",
+          "description": "",
+          "evolutions": {
+            "delete": {
+              "label": "",
+              "value": false
+            }
+          }
+        }
+      },
+      "c2038": {
+        "recolteflux": {
+          "label": "",
+          "description": "",
+          "conflit": {
+            "base": 2,
+            "tour": 1,
+            "hostile": 2,
+            "salopard": 3,
+            "patron": 4,
+            "portee": "moyenne"
+          },
+          "horsconflit": {
+            "base": 1,
+            "portee": "moyenne",
+            "limite": 10
+          },
+          "evolutions": {
+            "conflit": {
+              "base": 2,
+              "tour": 1,
+              "hostile": 2,
+              "salopard": 3,
+              "patron": 4,
+              "portee": "moyenne"
+            },
+            "horsconflit": {
+              "base": 1,
+              "portee": "moyenne",
+              "limite": 10
+            }
+          }
+        }
+      },
+      "c2038Sorcerer": {
+        "energiedeficiente": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "c2038Necromancer": {
+        "plusespoir": {
+          "label": "",
+          "description": "",
+          "espoir": {
+            "base": 10,
+            "recuperation": {
+              "label": "",
+              "value": false
+            },
+            "perte": {
+              "label": "",
+              "value": false
+            }
+          },
+          "evolutions": {
+            "espoir": {
+              "base": 10,
+              "recuperation": {
+                "label": "",
+                "value": false
+              },
+              "perte": {
+                "label": "",
+                "value": false
+              }
+            }
+          }
+        }
+      },
+      "atlas": {
+        "impregnation": {
+          "label": "",
+          "description": "",
+          "aspects": {},
+          "jets": {
+            "c1a": "sangFroid",
+            "c2a": "technique",
+            "c1b": "hargne",
+            "c2b": "technique"
+          },
+          "evolutions": {
+            "aspects": {},
+            "jets": {
+              "c1a": "sangFroid",
+              "c2a": "technique",
+              "c1b": "hargne",
+              "c2b": "technique"
+            }
+          }
+        },
+        "contrecoups": {
+          "label": "",
+          "description": "",
+          "tableau": {
+            "c1": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c2": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c3": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c4": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c5": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c6": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            }
+          },
+          "relance": {
+            "label": "",
+            "value": false
+          },
+          "maxeffets": {
+            "label": "",
+            "value": true,
+            "max": 5
+          },
+          "armedistance": {
+            "label": "",
+            "value": false
+          },
+          "jet": {
+            "aspects": {},
+            "c1": "hargne",
+            "c2": "sangFroid"
+          },
+          "evolutions": {
+            "tableau": {
+              "c1": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c2": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c3": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c4": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c5": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c6": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              }
+            },
+            "relance": {
+              "label": "",
+              "value": false
+            },
+            "maxeffets": {
+              "label": "",
+              "value": true,
+              "max": 5
+            },
+            "armedistance": {
+              "label": "",
+              "value": false
+            },
+            "jet": {
+              "aspects": {},
+              "c1": "hargne",
+              "c2": "sangFroid"
+            }
+          }
+        }
+      },
+      "atlasSpecial": {
+        "apeiron": {
+          "label": "",
+          "description": "",
+          "espoir": {
+            "bonus": 15,
+            "reduction": {
+              "value": 1
+            }
+          },
+          "evolutions": {
+            "espoir": {
+              "bonus": 15,
+              "reduction": {
+                "value": 1
+              }
+            }
+          }
+        },
+        "porteurlumiere": {
+          "label": "",
+          "bonus": {
+            "effets": {
+              "raw": [
+                "antianatheme",
+                "tenebricide"
+              ],
+              "liste": [],
+              "custom": []
+            }
+          },
+          "evolutions": {
+            "bonus": {
+              "effets": {
+                "raw": [
+                  "antianatheme",
+                  "tenebricide"
+                ],
+                "liste": [],
+                "custom": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "slots": {
+      "tete": {
+        "value": 6,
+        "bonus": {},
+        "malus": {}
+      },
+      "torse": {
+        "value": 10,
+        "bonus": {},
+        "malus": {}
+      },
+      "brasGauche": {
+        "value": 6,
+        "bonus": {},
+        "malus": {}
+      },
+      "brasDroit": {
+        "value": 6,
+        "bonus": {},
+        "malus": {}
+      },
+      "jambeGauche": {
+        "value": 6,
+        "bonus": {},
+        "malus": {}
+      },
+      "jambeDroite": {
+        "value": 6,
+        "bonus": {},
+        "malus": {}
+      }
+    },
+    "overdrives": {
+      "chair": {
+        "liste": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "liste": {
+          "hargne": {
+            "value": 1
+          },
+          "combat": {
+            "value": 1
+          },
+          "instinct": {
+            "value": 1
+          }
+        }
+      },
+      "machine": {
+        "liste": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "liste": {
+          "aura": {
+            "value": 1
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "liste": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    },
+    "evolutions": {
+      "paliers": 3,
+      "aAcheter": {
+        "label": "",
+        "value": false
+      },
+      "liste": {
+        "0": {
+          "value": 250,
+          "description": "<p>Tant qu'il porte la méta-armure, le personnage augmente désormais son total de points d'espoir de 25.</p>\n<p>Il reçoit un effet supplémentaire de son choix du mode Illumination.</p>\n",
+          "capacites": {
+            "illumination": {
+              "activation": "deplacement",
+              "duree": "1 tour ou 6 secondes",
+              "blaze": {
+                "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+                "degats": 2,
+                "violence": 2,
+                "portee": "contact",
+                "espoir": {
+                  "base": 2,
+                  "prolonger": 1
+                }
+              },
+              "candle": {
+                "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\n\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
+                "portee": "contact",
+                "espoir": 1
+              },
+              "beacon": {
+                "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
+                "bonus": 2,
+                "portee": "courte",
+                "espoir": {
+                  "base": 2,
+                  "prolonger": 1
+                }
+              },
+              "torch": {
+                "description": "La lumière se solidifie autour du personnage, créant une sorte de brume lumineuse. Les humains et animaux qui ne sont pas désespérés et qui sont à portée courte reçoivent un score d’égide ou augmentent leur score d’égide de lorsqu’ils sont la cible de créatures ou d’effets de l’Anathème. En outre, les ténèbres situées à portée courte de l’armure sont considérées comme étant d’une intensité d’un niveau moindre. L’obscurité devient de la nuit, la nuit devient de la pénombre et la pénombre s’efface simplement.",
+                "bonus": 2,
+                "portee": "courte",
+                "espoir": {
+                  "base": 3,
+                  "prolonger": 1
+                }
+              },
+              "projector": {
+                "description": "La lumière émanant du noyau de la méta-armure peut être concentrée sur une créature de l’Anathème en un rayon puissant. En pleine lumière, la nature horrible de la cible change, elle semble devenir plus belle et se détacher des ténèbres.\n\nTant que l’effet est activé, la créature ciblée à portée courte, hostile ou salopard, ne peut plus utiliser une de ses capacités. La capacité peut être choisie par le chevalier, mais il doit l’avoir identifiée et pouvoir en décrire les effets. Sinon, c’est le MJ qui choisit.",
+                "portee": "courte",
+                "espoir": {
+                  "base": 3,
+                  "prolonger": 1
+                }
+              },
+              "lighthouse": {
+                "description": "La lumière de la méta-armure pulse et trouble les créatures de l’Anathème les plus proches. Le flux qui existe entre elles est comme déchiré et sensiblement amoindri par l’énergie apeiron.\n\nTant que l’effet est activé, les créatures de l’Anathème de type hostile à portée courte perdent une action lors de leur tour de jeu.",
+                "portee": "courte",
+                "espoir": {
+                  "base": 4,
+                  "prolonger": 1
+                }
+              },
+              "lantern": {
+                "description": "Une lumière douce et rassurante émane de la méta-armure. Elle remotive les alliés et paraît même pouvoir anéantir le désespoir.\n\nTant que l’effet est actif, les désespérés à portée courte de la méta-armure subissent des dégâts avec des effets associés.",
+                "portee": "courte",
+                "degats": 1,
+                "effets": {
+                  "raw": [
+                    "esperance"
+                  ],
+                  "liste": [],
+                  "custom": []
+                },
+                "espoir": {
+                  "base": 4,
+                  "prolonger": 1
+                }
+              },
+              "textarea": {
+                "duree": 50,
+                "blaze": 175,
+                "candle": 125,
+                "beacon": 110,
+                "torch": 175,
+                "projector": 190,
+                "lighthouse": 140,
+                "lantern": 120
+              },
+              "nbreCapacitesSelected": 4
+            },
+            "rage": {
+              "activation": "aucune",
+              "duree": "Jusqu'à la fin de la phase de conflit ou jusqu'à ce que le chevalier ait réussi à tuer un ennemi.",
+              "espoir": 0,
+              "aspects": [],
+              "nourri": {
+                "label": "",
+                "description": "Lorsqu’il est dans le mode Rage, chaque créature ou être humain que le chevalier tue lui fait récupérer un certain nombre de points d’espoir. De plus, si une créature des ténèbres est tuée à portée courte de l’armure, il récupère 1 point d’espoir tant qu’il est dans ce mode",
+                "humain": {
+                  "hostile": {
+                    "dice": 0,
+                    "face": 0,
+                    "fixe": 1
+                  },
+                  "salopard": {
+                    "dice": 1,
+                    "face": 3,
+                    "fixe": 0
+                  },
+                  "patron": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 3
+                  },
+                  "bande": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 0
+                  }
+                },
+                "anatheme": {
+                  "hostile": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 0
+                  },
+                  "salopard": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 3
+                  },
+                  "patron": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 6
+                  },
+                  "bande": {
+                    "dice": 2,
+                    "face": 6,
+                    "fixe": 0
+                  }
+                }
+              },
+              "colere": {
+                "label": "",
+                "description": "",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 3,
+                "defense": 3,
+                "reaction": 3,
+                "subis": 0,
+                "combosBonus": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": "",
+                    "c4": "",
+                    "c5": "",
+                    "c6": ""
+                  }
+                }
+              },
+              "rage": {
+                "label": "",
+                "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 3,
+                "defense": 9,
+                "reaction": 9,
+                "subis": 0,
+                "combosBonus": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": true,
+                  "liste": {
+                    "c1": "sangFroid",
+                    "c2": "parole",
+                    "c3": "savoir",
+                    "c4": "technique",
+                    "c5": "discretion",
+                    "c6": ""
+                  }
+                }
+              },
+              "fureur": {
+                "label": "",
+                "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.\n\nIl ignore les effets choc X, parasitage X, domination et anathème.\n\nToutes les créatures de l’Anathème à portée contact attaquent le PJ au lieu de suivre leur tactique. L’effet du module Banner surpasse cet effet.",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 6,
+                "defense": 9,
+                "reaction": 9,
+                "subis": 1,
+                "combosBonus": {
+                  "has": true,
+                  "liste": {
+                    "c1": "hargne",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": true,
+                  "liste": {
+                    "c1": "sangFroid",
+                    "c2": "parole",
+                    "c3": "savoir",
+                    "c4": "technique",
+                    "c5": "discretion",
+                    "c6": ""
+                  }
+                }
+              },
+              "blaze": {
+                "label": "",
+                "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+                "degats": 2,
+                "violence": 2,
+                "portee": "contact",
+                "espoir": {
+                  "base": 2,
+                  "prolonger": 1
+                }
+              },
+              "textarea": {
+                "duree": 55,
+                "nourri": 55,
+                "rage": 10,
+                "colere": 210,
+                "fureur": 325,
+                "blaze": 180
+              }
+            }
+          },
+          "special": [],
+          "data": {
+            "armure": 0,
+            "champDeForce": 0,
+            "energie": 0,
+            "espoir": 25
+          }
+        },
+        "1": {
+          "value": 350,
+          "description": "<p>Les effets Beacon, Blaze et Torch augmentent en efficacité :</p>\n<ul>\n<li>Blaze provoque désormais 4D6 (12) points de dégâts et de violence.</li>\n<li>Beacon octroie désormais un bonus de 4 réussites automatiques.</li>\n<li>Torch offre désormais une égide de 4 ou un bonus d'égide de 4.</li>\n</ul>\n<p>Le chevalier reçoit un effet supplémentaire de son choix du mode Illumination.</p>\n",
+          "capacites": {
+            "illumination": {
+              "activation": "deplacement",
+              "duree": "1 tour ou 6 secondes",
+              "blaze": {
+                "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+                "degats": 2,
+                "violence": 2,
+                "portee": "contact",
+                "espoir": {
+                  "base": 2,
+                  "prolonger": 1
+                }
+              },
+              "candle": {
+                "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\n\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
+                "portee": "contact",
+                "espoir": 1
+              },
+              "beacon": {
+                "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
+                "bonus": 4,
+                "portee": "courte",
+                "espoir": {
+                  "base": 2,
+                  "prolonger": 1
+                }
+              },
+              "torch": {
+                "description": "La lumière se solidifie autour du personnage, créant une sorte de brume lumineuse. Les humains et animaux qui ne sont pas désespérés et qui sont à portée courte reçoivent un score d’égide ou augmentent leur score d’égide de lorsqu’ils sont la cible de créatures ou d’effets de l’Anathème. En outre, les ténèbres situées à portée courte de l’armure sont considérées comme étant d’une intensité d’un niveau moindre. L’obscurité devient de la nuit, la nuit devient de la pénombre et la pénombre s’efface simplement.",
+                "bonus": 4,
+                "portee": "courte",
+                "espoir": {
+                  "base": 3,
+                  "prolonger": 1
+                }
+              },
+              "projector": {
+                "description": "La lumière émanant du noyau de la méta-armure peut être concentrée sur une créature de l’Anathème en un rayon puissant. En pleine lumière, la nature horrible de la cible change, elle semble devenir plus belle et se détacher des ténèbres.\n\nTant que l’effet est activé, la créature ciblée à portée courte, hostile ou salopard, ne peut plus utiliser une de ses capacités. La capacité peut être choisie par le chevalier, mais il doit l’avoir identifiée et pouvoir en décrire les effets. Sinon, c’est le MJ qui choisit.",
+                "portee": "courte",
+                "espoir": {
+                  "base": 3,
+                  "prolonger": 1
+                }
+              },
+              "lighthouse": {
+                "description": "La lumière de la méta-armure pulse et trouble les créatures de l’Anathème les plus proches. Le flux qui existe entre elles est comme déchiré et sensiblement amoindri par l’énergie apeiron.\n\nTant que l’effet est activé, les créatures de l’Anathème de type hostile à portée courte perdent une action lors de leur tour de jeu.",
+                "portee": "courte",
+                "espoir": {
+                  "base": 4,
+                  "prolonger": 1
+                }
+              },
+              "lantern": {
+                "description": "Une lumière douce et rassurante émane de la méta-armure. Elle remotive les alliés et paraît même pouvoir anéantir le désespoir.\n\nTant que l’effet est actif, les désespérés à portée courte de la méta-armure subissent des dégâts avec des effets associés.",
+                "portee": "courte",
+                "degats": 1,
+                "effets": {
+                  "raw": [
+                    "esperance"
+                  ],
+                  "liste": [],
+                  "custom": []
+                },
+                "espoir": {
+                  "base": 4,
+                  "prolonger": 1
+                }
+              },
+              "textarea": {
+                "duree": 50,
+                "blaze": 133,
+                "candle": 125,
+                "beacon": 52,
+                "torch": 86,
+                "projector": 190,
+                "lighthouse": 140,
+                "lantern": 120
+              },
+              "nbreCapacitesSelected": 5
+            },
+            "rage": {
+              "activation": "aucune",
+              "duree": "Jusqu'à la fin de la phase de conflit ou jusqu'à ce que le chevalier ait réussi à tuer un ennemi.",
+              "espoir": 0,
+              "aspects": [],
+              "nourri": {
+                "label": "",
+                "description": "Lorsqu’il est dans le mode Rage, chaque créature ou être humain que le chevalier tue lui fait récupérer un certain nombre de points d’espoir. De plus, si une créature des ténèbres est tuée à portée courte de l’armure, il récupère 1 point d’espoir tant qu’il est dans ce mode",
+                "humain": {
+                  "hostile": {
+                    "dice": 0,
+                    "face": 0,
+                    "fixe": 1
+                  },
+                  "salopard": {
+                    "dice": 1,
+                    "face": 3,
+                    "fixe": 0
+                  },
+                  "patron": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 3
+                  },
+                  "bande": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 0
+                  }
+                },
+                "anatheme": {
+                  "hostile": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 0
+                  },
+                  "salopard": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 3
+                  },
+                  "patron": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 6
+                  },
+                  "bande": {
+                    "dice": 2,
+                    "face": 6,
+                    "fixe": 0
+                  }
+                }
+              },
+              "colere": {
+                "label": "",
+                "description": "",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 3,
+                "defense": 3,
+                "reaction": 3,
+                "subis": 0,
+                "combosBonus": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": "",
+                    "c4": "",
+                    "c5": "",
+                    "c6": ""
+                  }
+                }
+              },
+              "rage": {
+                "label": "",
+                "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 3,
+                "defense": 9,
+                "reaction": 9,
+                "subis": 0,
+                "combosBonus": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": true,
+                  "liste": {
+                    "c1": "sangFroid",
+                    "c2": "parole",
+                    "c3": "savoir",
+                    "c4": "technique",
+                    "c5": "discretion",
+                    "c6": ""
+                  }
+                }
+              },
+              "fureur": {
+                "label": "",
+                "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.\n\nIl ignore les effets choc X, parasitage X, domination et anathème.\n\nToutes les créatures de l’Anathème à portée contact attaquent le PJ au lieu de suivre leur tactique. L’effet du module Banner surpasse cet effet.",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 6,
+                "defense": 9,
+                "reaction": 9,
+                "subis": 1,
+                "combosBonus": {
+                  "has": true,
+                  "liste": {
+                    "c1": "hargne",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": true,
+                  "liste": {
+                    "c1": "sangFroid",
+                    "c2": "parole",
+                    "c3": "savoir",
+                    "c4": "technique",
+                    "c5": "discretion",
+                    "c6": ""
+                  }
+                }
+              },
+              "blaze": {
+                "label": "",
+                "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+                "degats": 4,
+                "violence": 4,
+                "portee": "contact",
+                "espoir": {
+                  "base": 2,
+                  "prolonger": 1
+                }
+              },
+              "textarea": {
+                "duree": 55,
+                "nourri": 55,
+                "rage": 10,
+                "colere": 210,
+                "fureur": 325,
+                "blaze": 180
+              }
+            }
+          },
+          "special": [],
+          "data": {
+            "armure": 0,
+            "champDeForce": 0,
+            "energie": 0,
+            "espoir": null
+          }
+        },
+        "2": {
+          "value": 500,
+          "description": "<p>Désormais, toutes les pertes d'espoir du personnage (en dehors des pertes causées par les capacités de la méta-armure) sont réduites de 3 (minimum 1). L'effet est cumulable avec d'autres avantages ou effets.</p>\n<p>Il reçoit un effet supplémentaire de son choix du mode Illumination.</p>\n",
+          "capacites": {
+            "illumination": {
+              "activation": "deplacement",
+              "duree": "1 tour ou 6 secondes",
+              "blaze": {
+                "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+                "degats": 2,
+                "violence": 2,
+                "portee": "contact",
+                "espoir": {
+                  "base": 1,
+                  "prolonger": 1
+                }
+              },
+              "candle": {
+                "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\n\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
+                "portee": "contact",
+                "espoir": 1
+              },
+              "beacon": {
+                "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
+                "bonus": 4,
+                "portee": "courte",
+                "espoir": {
+                  "base": 1,
+                  "prolonger": 1
+                }
+              },
+              "torch": {
+                "description": "La lumière se solidifie autour du personnage, créant une sorte de brume lumineuse. Les humains et animaux qui ne sont pas désespérés et qui sont à portée courte reçoivent un score d’égide ou augmentent leur score d’égide de lorsqu’ils sont la cible de créatures ou d’effets de l’Anathème. En outre, les ténèbres situées à portée courte de l’armure sont considérées comme étant d’une intensité d’un niveau moindre. L’obscurité devient de la nuit, la nuit devient de la pénombre et la pénombre s’efface simplement.",
+                "bonus": 4,
+                "portee": "courte",
+                "espoir": {
+                  "base": 1,
+                  "prolonger": 1
+                }
+              },
+              "projector": {
+                "description": "La lumière émanant du noyau de la méta-armure peut être concentrée sur une créature de l’Anathème en un rayon puissant. En pleine lumière, la nature horrible de la cible change, elle semble devenir plus belle et se détacher des ténèbres.\n\nTant que l’effet est activé, la créature ciblée à portée courte, hostile ou salopard, ne peut plus utiliser une de ses capacités. La capacité peut être choisie par le chevalier, mais il doit l’avoir identifiée et pouvoir en décrire les effets. Sinon, c’est le MJ qui choisit.",
+                "portee": "courte",
+                "espoir": {
+                  "base": 1,
+                  "prolonger": 1
+                }
+              },
+              "lighthouse": {
+                "description": "La lumière de la méta-armure pulse et trouble les créatures de l’Anathème les plus proches. Le flux qui existe entre elles est comme déchiré et sensiblement amoindri par l’énergie apeiron.\n\nTant que l’effet est activé, les créatures de l’Anathème de type hostile à portée courte perdent une action lors de leur tour de jeu.",
+                "portee": "courte",
+                "espoir": {
+                  "base": 1,
+                  "prolonger": 1
+                }
+              },
+              "lantern": {
+                "description": "Une lumière douce et rassurante émane de la méta-armure. Elle remotive les alliés et paraît même pouvoir anéantir le désespoir.\n\nTant que l’effet est actif, les désespérés à portée courte de la méta-armure subissent des dégâts avec des effets associés.",
+                "portee": "courte",
+                "degats": 1,
+                "effets": {
+                  "raw": [
+                    "esperance"
+                  ],
+                  "liste": [],
+                  "custom": []
+                },
+                "espoir": {
+                  "base": 1,
+                  "prolonger": 1
+                }
+              },
+              "textarea": {
+                "duree": 50,
+                "blaze": 103,
+                "candle": 86,
+                "beacon": 110,
+                "torch": 86,
+                "projector": 190,
+                "lighthouse": 86,
+                "lantern": 120
+              },
+              "nbreCapacitesSelected": 6
+            },
+            "rage": {
+              "activation": "aucune",
+              "duree": "Jusqu'à la fin de la phase de conflit ou jusqu'à ce que le chevalier ait réussi à tuer un ennemi.",
+              "espoir": 0,
+              "aspects": [],
+              "nourri": {
+                "label": "",
+                "description": "Lorsqu’il est dans le mode Rage, chaque créature ou être humain que le chevalier tue lui fait récupérer un certain nombre de points d’espoir. De plus, si une créature des ténèbres est tuée à portée courte de l’armure, il récupère 1 point d’espoir tant qu’il est dans ce mode",
+                "humain": {
+                  "hostile": {
+                    "dice": 0,
+                    "face": 0,
+                    "fixe": 1
+                  },
+                  "salopard": {
+                    "dice": 1,
+                    "face": 3,
+                    "fixe": 0
+                  },
+                  "patron": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 3
+                  },
+                  "bande": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 0
+                  }
+                },
+                "anatheme": {
+                  "hostile": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 0
+                  },
+                  "salopard": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 3
+                  },
+                  "patron": {
+                    "dice": 1,
+                    "face": 6,
+                    "fixe": 6
+                  },
+                  "bande": {
+                    "dice": 2,
+                    "face": 6,
+                    "fixe": 0
+                  }
+                }
+              },
+              "colere": {
+                "label": "",
+                "description": "",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 3,
+                "defense": 3,
+                "reaction": 3,
+                "subis": 0,
+                "combosBonus": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": "",
+                    "c4": "",
+                    "c5": "",
+                    "c6": ""
+                  }
+                }
+              },
+              "rage": {
+                "label": "",
+                "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 3,
+                "defense": 9,
+                "reaction": 9,
+                "subis": 0,
+                "combosBonus": {
+                  "has": false,
+                  "liste": {
+                    "c1": "",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": true,
+                  "liste": {
+                    "c1": "sangFroid",
+                    "c2": "parole",
+                    "c3": "savoir",
+                    "c4": "technique",
+                    "c5": "discretion",
+                    "c6": ""
+                  }
+                }
+              },
+              "fureur": {
+                "label": "",
+                "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.\n\nIl ignore les effets choc X, parasitage X, domination et anathème.\n\nToutes les créatures de l’Anathème à portée contact attaquent le PJ au lieu de suivre leur tactique. L’effet du module Banner surpasse cet effet.",
+                "degats": "bete",
+                "violence": "bete",
+                "egide": 6,
+                "defense": 9,
+                "reaction": 9,
+                "subis": 1,
+                "combosBonus": {
+                  "has": true,
+                  "liste": {
+                    "c1": "hargne",
+                    "c2": "",
+                    "c3": ""
+                  }
+                },
+                "combosInterdits": {
+                  "has": true,
+                  "liste": {
+                    "c1": "sangFroid",
+                    "c2": "parole",
+                    "c3": "savoir",
+                    "c4": "technique",
+                    "c5": "discretion",
+                    "c6": ""
+                  }
+                }
+              },
+              "blaze": {
+                "label": "",
+                "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
+                "degats": 4,
+                "violence": 4,
+                "portee": "contact",
+                "espoir": {
+                  "base": 2,
+                  "prolonger": 1
+                }
+              },
+              "textarea": {
+                "duree": 55,
+                "nourri": 55,
+                "rage": 10,
+                "colere": 210,
+                "fureur": 325,
+                "blaze": 180
+              }
+            }
+          },
+          "special": [],
+          "data": {
+            "armure": 0,
+            "champDeForce": 0,
+            "energie": 0,
+            "espoir": null
+          }
+        }
+      },
+      "special": {}
+    }
+  },
+  "effects": [],
+  "_id": "34ca401ec8ca57e0",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.armours-atlas.34ca401ec8ca57e0"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890042286,
+    "modifiedTime": 1693092470285,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!34ca401ec8ca57e0"
+}

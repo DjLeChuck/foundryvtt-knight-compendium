@@ -1,0 +1,105 @@
+{
+  "name": "Phobie sociale",
+  "type": "trauma",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "system": {
+    "description": "<p>Le personnage se met à craindre le regard et le jugement des autres. Il doit faire des efforts titanesques pour s'adresser à autrui. Le personnage retire 1 point dans deux de ses caractéristiques sous l'aspect Dame.</p>\n",
+    "gainEspoir": {
+      "value": 40,
+      "applique": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "f527405ee83fe5e2",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-base.f527405ee83fe5e2"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026003360,
+    "modifiedTime": 1668026741678,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!f527405ee83fe5e2"
+}

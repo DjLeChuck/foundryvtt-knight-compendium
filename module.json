@@ -2,11 +2,10 @@
   "id": "knight-compendium",
   "title": "Knight - Compendium",
   "description": "Ensemble de compendium pour le système Knight",
-  "version": "10.1.1",
+  "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10",
-    "maximum": "11"
+    "minimum": "11",
+    "verified": "11"
   },
   "authors": [
     {
@@ -32,7 +31,7 @@
       "packs": [
         "creatures-bestiaire-officiel",
         "npcs",
-        "vehicles",
+        "vehicules",
         "overdrives",
         "npc-capacities-base",
         "mecha-armours-base",
@@ -98,15 +97,12 @@
       "label": "Méta-armures - 1. Livre de base",
       "type": "Item",
       "name": "armours-base",
-      "path": "packs/armours-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Méta-armures - 2. Supplément 2038",
       "type": "Item",
       "name": "armours-2038",
-      "path": "packs/armours-2038.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -114,14 +110,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Méta-armures - 3. Codex v1.5",
       "type": "Item",
       "name": "armours-codex",
-      "path": "packs/armours-codex.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -129,14 +123,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Méta-armures - 4. Atlas",
       "type": "Item",
       "name": "armours-atlas",
-      "path": "packs/armours-atlas.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -144,22 +136,18 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Modules - 1. Standard",
       "type": "Item",
       "name": "modules-standard",
-      "path": "packs/modules-standard.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Modules - 2. Avancé",
       "type": "Item",
       "name": "modules-avance",
-      "path": "packs/modules-avance.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -167,14 +155,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Modules - 3. Rare",
       "type": "Item",
       "name": "modules-rare",
-      "path": "packs/modules-rare.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -182,14 +168,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Modules - 4. Prestige",
       "type": "Item",
       "name": "modules-prestige",
-      "path": "packs/modules-prestige.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -197,14 +181,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Overdrives",
       "type": "Item",
       "name": "overdrives",
-      "path": "packs/overdrives.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -212,22 +194,18 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Armes - 1. Standard",
       "type": "Item",
       "name": "weapons-standard",
-      "path": "packs/weapons-standard.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Armes - 2. Avancé",
       "type": "Item",
       "name": "weapons-avance",
-      "path": "packs/weapons-avance.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -235,14 +213,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Armes - 3. Rare",
       "type": "Item",
       "name": "weapons-rare",
-      "path": "packs/weapons-rare.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -250,14 +226,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Armes - 4. Prestige",
       "type": "Item",
       "name": "weapons-prestige",
-      "path": "packs/weapons-prestige.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -265,14 +239,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Armes - 5. Relique d'espoir",
       "type": "Item",
       "name": "weapons-espoir",
-      "path": "packs/weapons-espoir.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -280,14 +252,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Capacités PNJ",
       "type": "Item",
       "name": "npc-capacities-base",
-      "path": "packs/npc-capacities-base.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -295,14 +265,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Mecha-armures",
       "type": "Actor",
       "name": "mecha-armours-base",
-      "path": "packs/mecha-armours-base.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -310,86 +278,66 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Traumas",
       "type": "Item",
       "name": "traumas-base",
-      "path": "packs/traumas-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Traumas - Tables aléatoires",
       "type": "RollTable",
       "name": "traumas-tables",
-      "path": "packs/traumas-tables.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Avantages - Chevaliers",
       "type": "Item",
       "name": "knight-advantages-base",
-      "path": "packs/knight-advantages-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Inconvénients - Chevaliers",
       "type": "Item",
       "name": "knight-disadvantages-base",
-      "path": "packs/knight-disadvantages-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Avantages - IA",
       "type": "Item",
       "name": "ai-advantages-base",
-      "path": "packs/ai-advantages-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Inconvénients - IA",
       "type": "Item",
       "name": "ai-disadvantages-base",
-      "path": "packs/ai-disadvantages-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Inconvénients - Sections",
       "type": "Item",
       "name": "section-disadvantages-base",
-      "path": "packs/section-disadvantages-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Cartes du Destin",
       "type": "Item",
       "name": "destiny-cards-base",
-      "path": "packs/destiny-cards-base.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Cartes du Destin - Table aléatoire",
       "type": "RollTable",
       "name": "destiny-cards-tables",
-      "path": "packs/destiny-cards-tables.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Armes des créatures et humains",
       "type": "Item",
       "name": "armes-des-creatures-et-humains",
-      "path": "packs/armes-des-creatures-et-humains.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -397,22 +345,18 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Capacités héroïques",
       "type": "Item",
       "name": "capacites-heroiques",
-      "path": "packs/capacites-heroiques.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "PNJs",
       "type": "Actor",
       "name": "npcs",
-      "path": "packs/npcs.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -420,14 +364,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Créatures - Bestiaire officiel",
       "type": "Actor",
       "name": "creatures-bestiaire-officiel",
-      "path": "packs/creatures-bestiaire-officiel.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -435,14 +377,12 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Véhicules",
       "type": "Actor",
       "name": "vehicules",
-      "path": "packs/vehicules.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -450,30 +390,24 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Blessures graves",
       "type": "Item",
       "name": "blessures-graves",
-      "path": "packs/blessures-graves.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Journaux",
       "type": "JournalEntry",
       "name": "journaux",
-      "path": "packs/journaux.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     },
     {
       "label": "Distinctions",
       "type": "Item",
       "name": "distinctions",
-      "path": "packs/distinctions.db",
       "system": "knight",
       "private": true,
       "ownership": {
@@ -481,16 +415,13 @@
         "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "label": "Blessures graves - Table aléatoire",
       "type": "RollTable",
       "name": "blessures-graves-table-aleatoire",
-      "path": "packs/blessures-graves-table-aleatoire.db",
-      "system": "knight",
-      "flags": {}
+      "system": "knight"
     }
   ],
   "relationships": {
@@ -504,9 +435,9 @@
       }
     ]
   },
-  "url": "https://github.com/DjLeChuck/foundryvtt-knight-compendium",
-  "manifest": "https://raw.githubusercontent.com/DjLeChuck/foundryvtt-knight-compendium/main/module.json",
-  "download": "https://github.com/DjLeChuck/foundryvtt-knight-compendium/archive/10.1.1.zip",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "bugs": "https://github.com/DjLeChuck/foundryvtt-knight-compendium/issues",
   "changelog": "https://github.com/DjLeChuck/foundryvtt-knight-compendium/blob/main/CHANGELOG.md",
   "license": "./LICENSE",

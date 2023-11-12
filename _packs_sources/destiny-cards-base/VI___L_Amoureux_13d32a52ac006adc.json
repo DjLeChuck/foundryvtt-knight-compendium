@@ -1,0 +1,29 @@
+{
+  "name": "VI - L'Amoureux",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ reçoit 6 points de contact à ajouter à ceux actuels. Attention, ces points de contact supplémentaires sont perdus à la fin de la mission.</p>\n<blockquote><p>Il connaîtra chacun parmi les siens et les autres.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "13d32a52ac006adc",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.13d32a52ac006adc"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353098,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!13d32a52ac006adc"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Médaille de Saint-Georges qui terrasse le dragon",
+  "type": "distinction",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Lorsque les chevaliers effectuent des interactions sociales amicales ou diplomatiques avec des citoyens ou des immortels, ils re&ccedil;oivent un bonus de 1 r&eacute;ussite automatique.</p>",
+    "espoir": 0,
+    "egide": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "2.3.7",
+    "coreVersion": "10.291",
+    "createdTime": 1677865337306,
+    "modifiedTime": 1677865488525,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "9cjHy4HGmTUC9NDI",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Kisv9JwB5w6zIXyv": 3
+  },
+  "_key": "!items!9cjHy4HGmTUC9NDI"
+}

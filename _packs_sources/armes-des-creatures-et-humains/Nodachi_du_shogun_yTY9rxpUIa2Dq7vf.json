@@ -1,0 +1,109 @@
+{
+  "name": "Nodachi du shogun",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p><strong>D&eacute;g&acirc;ts :</strong> 4D6 + 18 (+1D6 par 1 d&rsquo;&eacute;nergie d&eacute;pens&eacute; avec un maximum de 10D6)</p>\n<p><strong>Violence :</strong> 4D6 (+1D6 par 1 d&rsquo;&eacute;nergie d&eacute;pens&eacute; avec un maximum de 10D6)&nbsp;</p>",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 0
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 0
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "ignorearmure",
+        "antivehicule",
+        "fureur",
+        "assistanceattaque"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.armes-des-creatures-et-humains.yTY9rxpUIa2Dq7vf"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667179131104,
+    "modifiedTime": 1668026455990,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "yTY9rxpUIa2Dq7vf",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!yTY9rxpUIa2Dq7vf"
+}

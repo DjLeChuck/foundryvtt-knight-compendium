@@ -1,0 +1,29 @@
+{
+  "name": "Prédateurs et proies",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Contre tous les ennemis pr&eacute;sents dans la sc&egrave;ne ou dans la phase de conflit, le PJ et ses alli&eacute;s re&ccedil;oivent un bonus d&rsquo;une r&eacute;ussite automatique &agrave; leurs tests de combat ou de tir. De plus, tous les ennemis pr&eacute;sents sont consid&eacute;r&eacute;s comment &eacute;tant d&eacute;sign&eacute;s (le bonus de d&eacute;signation s&rsquo;ajoute &agrave; la r&eacute;ussite automatique offerte par la capacit&eacute;).</p>\n<ul>\n<li>Activation : Action de d&eacute;placement</li>\n<li>Dur&eacute;e : Une sc&egrave;ne ou une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 1</li>\n<li>Cat&eacute;gorie : Combat</li>\n<li>XP : 10</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.d1dHBmQig8N2lYFm"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667227835841,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "d1dHBmQig8N2lYFm",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!d1dHBmQig8N2lYFm"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Colonne vertébrale touchée",
+  "type": "blessure",
+  "img": "systems/knight/assets/icons/blessureGrave.svg",
+  "system": {
+    "description": "<p>Le personnage re&ccedil;oit un malus de 2 &agrave; toutes ses caract&eacute;ristiques li&eacute;es aux aspects <em>Chair</em>, <em>B&ecirc;te</em> et <em>Masque</em>.</p>",
+    "soigne": {
+      "implant": false,
+      "reconstruction": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 2
+          },
+          "force": {
+            "value": 2
+          },
+          "endurance": {
+            "value": 2
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 2
+          },
+          "combat": {
+            "value": 2
+          },
+          "instinct": {
+            "value": 2
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 2
+          },
+          "dexterite": {
+            "value": 2
+          },
+          "perception": {
+            "value": 2
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.blessures-graves.GfSFjUQxxhHiuB9V"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667768751542,
+    "modifiedTime": 1668026472538,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "GfSFjUQxxhHiuB9V",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!GfSFjUQxxhHiuB9V"
+}

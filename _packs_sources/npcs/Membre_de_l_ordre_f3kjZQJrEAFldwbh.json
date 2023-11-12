@@ -1,0 +1,1309 @@
+{
+  "name": "Membre de l'ordre",
+  "type": "pnj",
+  "img": "icons/svg/mystery-man-black.svg",
+  "system": {
+    "combat": {
+      "armesimprovisees": {
+        "aspect": "chair",
+        "contact": "combat",
+        "distance": "tir",
+        "liste": {
+          "ai1": {
+            "force": 1,
+            "chair": [
+              1,
+              2
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 2
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai2": {
+            "force": 2,
+            "chair": [
+              3,
+              4
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai3": {
+            "force": 3,
+            "chair": [
+              5,
+              6
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 7
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai4": {
+            "force": 4,
+            "chair": [
+              7,
+              8
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 9
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 8
+                },
+                "violence": {
+                  "dice": 8
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai5": {
+            "force": 5,
+            "chair": [
+              9,
+              10
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 10
+                },
+                "violence": {
+                  "dice": 12
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 11
+                },
+                "violence": {
+                  "dice": 11
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "modificateur": 0,
+        "succesbonus": 0,
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "nods": {
+        "soin": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "armure": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "energie": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        }
+      },
+      "grenades": {
+        "quantity": {
+          "value": 5,
+          "max": 5
+        },
+        "liste": {
+          "antiblindage": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "destructeur",
+                "dispersion 6",
+                "penetrant 6",
+                "percearmure 20"
+              ],
+              "custom": []
+            }
+          },
+          "explosive": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antivehicule",
+                "choc 1",
+                "dispersion 3"
+              ],
+              "custom": []
+            }
+          },
+          "flashbang": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "barrage 2",
+                "choc 1",
+                "dispersion 6"
+              ],
+              "custom": []
+            }
+          },
+          "iem": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "dispersion 6",
+                "parasitage 2"
+              ],
+              "custom": []
+            }
+          },
+          "shrapnel": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "dispersion 6",
+                "meurtrier",
+                "ultraviolence"
+              ],
+              "custom": []
+            }
+          }
+        }
+      }
+    },
+    "aspects": {
+      "chair": {
+        "value": 8,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "value": 10,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "1",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "value": 10,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "1",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "value": 4,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "value": 4,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      }
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "diceBase": 3,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 2
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "diceBonus": {},
+        "diceMalus": {},
+        "bonus": {},
+        "malus": {}
+      },
+      "optionDeploy": false
+    },
+    "reaction": {
+      "bonus": {
+        "user": 0,
+        "armes": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 5,
+      "optionDeploy": false
+    },
+    "defense": {
+      "bonus": {
+        "user": 0,
+        "armes": 2,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0,
+        "armes": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 6,
+      "optionDeploy": false
+    },
+    "sante": {
+      "bonus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0,
+        "capacites": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "max": 0,
+      "base": 30,
+      "optionDeploy": false
+    },
+    "description": "<p>Jeune et pourtant terriblement puissant, l&rsquo;Ordre de la Lumi&egrave;re R&eacute;demptrice forme &agrave; la fois une arm&eacute;e et une milice sous l&rsquo;&eacute;gide de l&rsquo;&Eacute;glise. Bien qu&rsquo;il devienne de plus en plus ind&eacute;pendant, accomplissant des actions pour ses propres objectifs, l&rsquo;Ordre n&rsquo;en demeure pas moins le bras arm&eacute; du Neo Vatican. Compos&eacute; de 80 000 adeptes dont beaucoup sont des moines guerriers r&eacute;partis dans toute l&rsquo;Am&eacute;rique du Sud, au sein de &laquo; sanctuaires de la lumi&egrave;re &raquo; qui sont en fait des avant-postes dirig&eacute;s par des officiers nomm&eacute;s hi&eacute;rophantes, l&rsquo;Ordre n&rsquo;embauche presque exclusivement qu&rsquo;au sein des forces de l&rsquo;ordre ou des corps militaires et paramilitaires et fait de ceux qu&rsquo;il recrute de v&eacute;ritables fanatiques. Ces derniers sont bien &eacute;quip&eacute;s, financ&eacute;s par l&rsquo;&Eacute;glise et ses riches m&eacute;c&egrave;nes. Les adeptes au sein de l&rsquo;Ordre consid&egrave;rent que Dieu est lumi&egrave;re et que les t&eacute;n&egrave;bres, ainsi que l&rsquo;Horreur et le d&eacute;sespoir, sont une manifestation du Malin. De fait, toutes traces de t&eacute;n&egrave;bres comme d&eacute;sesp&eacute;r&eacute;s sont syst&eacute;matiquement &eacute;limin&eacute;s et, bien souvent, l&rsquo;Ordre effectue des frappes pr&eacute;ventives, &eacute;liminant de potentiels ennemis ou des personnes qui pourraient &ecirc;tre touch&eacute;es par le d&eacute;sespoir. Vis-&agrave;-vis du Knight, l&rsquo;Ordre peut &ecirc;tre un alli&eacute;, car luttant envers et contre tout face aux t&eacute;n&egrave;bres. Cependant, ses adeptes et ses chefs sont de v&eacute;ritables &eacute;lectrons libres, &nbsp;capables d&rsquo;an&eacute;antir des familles enti&egrave;res sur de simples soup&ccedil;ons.</p>",
+    "tactique": "<p>Les membres de l&rsquo;Ordre sont tous des combattants confirm&eacute;s qui se servent d&rsquo;exosquelettes de combat, visibles au-dessus de leurs bures de moine. Ils d&eacute;fendront Pietra de leur vie. Ils attaquent les ennemis avec le plus haut score de Masque ou de Discr&eacute;tion. Ils fonctionnent g&eacute;n&eacute;ralement par groupe de 6 tireurs (5 sont &eacute;quip&eacute;s de shotguns automatiques lourds et un autre d&rsquo;un lance-flammes), ou par groupe de 6 combattants au contact (tous &eacute;quip&eacute;s de torches &agrave; plasma).</p>",
+    "type": "Allié (héros) / Hostile (héros)",
+    "pointsFaibles": "",
+    "phase2Activate": false,
+    "phase2": {
+      "sante": 0,
+      "armure": 0,
+      "energie": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        }
+      }
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 20,
+      "bonus": {
+        "user": 0,
+        "modules": 0,
+        "capacites": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": false
+    },
+    "bouclier": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "resilience": {
+      "value": 0,
+      "max": 0
+    },
+    "surnom": "",
+    "age": "",
+    "wear": "",
+    "archetype": "",
+    "hautFait": "",
+    "section": "",
+    "blason": "",
+    "histoire": "",
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 20,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": false
+    },
+    "champDeForce": {
+      "value": 0,
+      "base": 10,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": false
+    },
+    "espoir": {
+      "value": 0,
+      "max": 0
+    },
+    "options": {
+      "energie": true,
+      "champDeForce": true,
+      "sante": true,
+      "bouclier": false,
+      "armure": true,
+      "espoir": false,
+      "resilience": false,
+      "modules": false,
+      "phase2": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Membre de l'ordre",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Exosquelette de combat (nv2)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ bénéficie d'aspects exceptionnels et d'un module de saut et de course nvX. Si ses PA tombent à 0, ces bénéfices sont annulés.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "oZAGBNrKPnpBu1fR",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.82424419a75bed1f"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890018902,
+        "modifiedTime": 1667659510204,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!f3kjZQJrEAFldwbh.oZAGBNrKPnpBu1fR"
+    },
+    {
+      "name": "Loyauté sans faille",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ ne fuit jamais et ne se rend jamais.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "5GiMqS56VbaqcaKo",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.npc-capacities-base.09e8362f60e15668"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890018792,
+        "modifiedTime": 1667659519169,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!f3kjZQJrEAFldwbh.5GiMqS56VbaqcaKo"
+    },
+    {
+      "name": "Torche plasma",
+      "type": "arme",
+      "img": "modules/knight-compendium/assets/weapons/torche-plasma.webp",
+      "system": {
+        "description": "<p>Ce long bâton qui ne paie pas de mine est une torche de découpage au plasma destinée aux chevaliers de la section Cyclope. De l'air est aspiré d'un côté, ionisé, puis soumis à un arc électrique, ce qui donne une flamme au plasma de l'autre côté. Elle se manie à deux mains, comme une lance. Sa longueur permet de tenir les adversaires en respect. Sa flamme à 18 000 °C est d'une efficacité redoutable face aux adversaires en armure.</p>\n",
+        "rarete": "avance",
+        "type": "contact",
+        "portee": "contact",
+        "prix": 50,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 6,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 4,
+          "fixe": 0
+        },
+        "effets": {
+          "liste": [],
+          "raw": [
+            "defense 2",
+            "destructeur",
+            "deuxmains",
+            "fureur",
+            "lumiere 4",
+            "percearmure 60"
+          ],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "effects": [],
+      "_id": "UAthox05Q6ruYgfM",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.weapons-avance.568733990519fd94"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890005671,
+        "modifiedTime": 1667659530365,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "Ng4Wg5CoRf575OLv",
+      "sort": 0,
+      "_key": "!actors.items!f3kjZQJrEAFldwbh.UAthox05Q6ruYgfM"
+    },
+    {
+      "name": "Shotgun auto. lourd",
+      "type": "arme",
+      "img": "modules/knight-compendium/assets/weapons/shotgun-auto-lourd.webp",
+      "system": {
+        "description": "<p>À la demande du chevalier Lamorak, Gauvain a mis au point une nouvelle version du shotgun automatique. Les cartouches, plus puissantes, tirent de la chevrotine en uranium appauvri. Le canon coulisse sur lui-même pour augmenter ou diminuer la dispersion de la chevrotine, il s'adapte ainsi à la nature de l'adversaire. Quand le canon est court, il disperse la chevrotine sur une large zone et des adversaires multiples. Et quand il est long, il centre la chevrotine sur une zone réduite et un adversaire unique. Bref, ce shotgun promet de glorieuses hécatombes à qui saura en tirer le meilleur.</p>\n",
+        "rarete": "rare",
+        "type": "distance",
+        "portee": "moyenne",
+        "prix": 80,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 6,
+          "fixe": 12
+        },
+        "violence": {
+          "dice": 6,
+          "fixe": 12
+        },
+        "effets": {
+          "liste": [],
+          "raw": [
+            "demoralisant",
+            "deuxmains",
+            "dispersion 6",
+            "fureur",
+            "lourd"
+          ],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "effects": [],
+      "_id": "KukyRj9uqqmJxCTW",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.weapons-rare.69d16505712c021d"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890009149,
+        "modifiedTime": 1667659548715,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "hWomqoUpx2C48FAn",
+      "sort": 0,
+      "_key": "!actors.items!f3kjZQJrEAFldwbh.KukyRj9uqqmJxCTW"
+    },
+    {
+      "name": "Lance-flammes",
+      "type": "arme",
+      "img": "modules/knight-compendium/assets/weapons/lance-flammes.webp",
+      "system": {
+        "description": "<p>Voilà l'arme ultime face aux hordes. Un caisson vissé dans le dos de la méta-armure contient le carburant inflammable. Un tube blindé le relie au propulseur, qui se tient à une ou à deux mains. Par commande vocale, un chevalier peut modifier le débit, la pression, l'angle de dispersion du jet et la viscosité du napalm. Tout est possible : tir fluide haute pression et rectiligne, tir en cloche par-dessus un mur ou tir large pour enflammer une salle ou un groupe tout entier. Le napalm lui-même est une réussite majeure des chimistes du Knight. Sa combustion produit une grande quantité de lumière ultra-violette. Il brûle sur l'eau et ne peut être éteint par les moyens habituels.</p>\n",
+        "rarete": "rare",
+        "type": "distance",
+        "portee": "moyenne",
+        "prix": 100,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 4,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 8,
+          "fixe": 12
+        },
+        "effets": {
+          "liste": [],
+          "raw": [
+            "barrage 5",
+            "degatscontinus 6",
+            "demoralisant",
+            "deuxmains",
+            "dispersion 6",
+            "fureur",
+            "lourd",
+            "lumiere 2"
+          ],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "effects": [],
+      "_id": "HRQR1Z9RAIO3SeNj",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.weapons-rare.1cec7557b4d15010"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "10.288",
+        "createdTime": 1666890009126,
+        "modifiedTime": 1667659564695,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "hWomqoUpx2C48FAn",
+      "sort": 0,
+      "_key": "!actors.items!f3kjZQJrEAFldwbh.HRQR1Z9RAIO3SeNj"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-bete.f3kjZQJrEAFldwbh"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667659272517,
+    "modifiedTime": 1668026222592,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "f3kjZQJrEAFldwbh",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!f3kjZQJrEAFldwbh"
+}

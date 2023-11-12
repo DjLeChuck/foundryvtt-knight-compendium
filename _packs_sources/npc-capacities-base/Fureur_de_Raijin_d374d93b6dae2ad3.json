@@ -1,0 +1,129 @@
+{
+  "name": "Fureur de Raijin",
+  "type": "capacite",
+  "img": "systems/knight/assets/icons/capacite.svg",
+  "system": {
+    "description": "<p>En dépensant son énergie d'un minimum de 1 PE jusqu'à un maximum de 25 PE, le PNJ peut augmenter la puissance des dégâts de ses cestes de fracture. D'étranges flammes bleutées entourent alors la méta-armure et l'air se diffracte tout autour. Par point d'énergie ainsi dépensé, le PNJ ajoute 2 points de dégâts à sa prochaine attaque avec les cestes, pouvant ainsi s'octroyer un maximum de 50 points de dégâts bonus par attaque.</p>\n",
+    "aspects": {
+      "chair": {},
+      "bete": {},
+      "machine": {},
+      "dame": {},
+      "masque": {}
+    },
+    "isPhase2": false,
+    "bonus": {
+      "aspectsLieSupplementaire": {
+        "has": false,
+        "value": "chair"
+      },
+      "sante": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "aspect": {
+          "lie": false,
+          "value": "chair",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "aspectMax": {
+        "has": false,
+        "aspect": "chair",
+        "maximum": {
+          "aspect": 40,
+          "ae": 20
+        }
+      }
+    },
+    "degats": {
+      "has": false,
+      "system": {
+        "dice": 0,
+        "fixe": 0,
+        "effets": {
+          "raw": [],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "attaque": {
+      "has": false,
+      "type": "contact",
+      "portee": "contact",
+      "degats": {
+        "dice": 0,
+        "fixe": 0
+      },
+      "effets": {
+        "raw": [],
+        "custom": [],
+        "liste": []
+      }
+    },
+    "phase2": {
+      "aspects": {
+        "has": false,
+        "liste": {
+          "chair": {
+            "value": 0
+          },
+          "bete": {
+            "value": 0
+          },
+          "machine": {
+            "value": 0
+          },
+          "dame": {
+            "value": 0
+          },
+          "masque": {
+            "value": 0
+          }
+        }
+      },
+      "sante": {
+        "has": false,
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "value": 0
+      },
+      "tactique": {
+        "has": false,
+        "value": ""
+      }
+    }
+  },
+  "effects": [],
+  "_id": "d374d93b6dae2ad3",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.npc-capacities-base.d374d93b6dae2ad3"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890019273,
+    "modifiedTime": 1668026483940,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!d374d93b6dae2ad3"
+}

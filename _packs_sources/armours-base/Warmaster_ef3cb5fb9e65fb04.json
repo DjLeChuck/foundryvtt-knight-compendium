@@ -1,0 +1,3728 @@
+{
+  "name": "Warmaster",
+  "type": "armure",
+  "img": "modules/knight-compendium/assets/armours/warmaster.webp",
+  "system": {
+    "description": "<p>Dernière méta-armure de première génération à avoir été créée et conçue par Merlin, la méta-armure Warmaster a été pensée pour répondre aux besoins des sénéchaux, les officiers du Knight, sur le terrain. Il leur fallait une méta-armure dotée de bonnes capacités de combat, capable d'assurer un contrôle tactique et d'aider au commandement. La Warmaster est donc plus légère et mobile que la Warrior. Elle est aussi dotée d'un meilleur réacteur et d'éléments de gestion stratégique et tactique des opérations ainsi que d'un bon blindage et d'un champ de force de bonne qualité.</p>\n<p>Les sénéchaux l'affectionnent parce qu'en plus d'être très utile à leur travail de leader, elle reflète leur position au sein de l'échelle du Knight. Ceux-ci peuvent en effet avoir des accès plus faciles et profiter des nombreux équipements mis à disposition.</p>\n<p>Sans doute la plus rare des méta-armures, avec celles de troisième génération, la Warmaster n'est pas portée par tous les sénéchaux, qui préfèrent parfois se doter d'une armure avec une meilleure puissance de feu. On raconte souvent dans les rangs du Knight que les sénéchaux en armure Warmaster sont des planqués qui ne réalisent jamais aucun exploit. On répond alors à ces médisants que sans cette méta-armure, sans ses qualités tactiques et stratégiques, nombre de missions auraient échoué. Ce qui n'est pas faux, mais pas totalement vrai non plus.</p>\n<p>En réalité, la Warmaster est la seule armure pouvant imposer à distance des réglages aux autres méta-armures et armes des chevaliers via des impulsions, c'est-à-dire des courants de nanomachines pouvant améliorer pour un temps tous les équipements du Knight. Ainsi, le porteur d'une Warmaster peut augmenter la vitesse d'une armure, la qualité de son champ de force ou encore la puissance d'une arme à feu.</p>\n<br /><br /><p>Dotée d'un blindage de 5 centimètres et pourvue d'un réacteur solide, la Warmaster est à mi-chemin entre la méta-armure utilitaire et la méta-armure de combat. En situation de conflit, bien équipée et dotée de quelques modules, elle fait des merveilles et peut même rivaliser avec une armure Warrior. Dans d'autres situations, ses nombreux équipements lui offrent une efficacité qu'elle est la seule à posséder. Des systèmes RA dernière génération inclus dans le casque permettent de contrôler efficacement le terrain de combat. Une IA avancée de type Sword-Bearer aide le porteur à gérer les différentes options tactiques qu'offre une mission ou un terrain de combat. Invasive, capable de contradiction et de réflexion, elle n'hésite pas à informer et à discuter avec le chevalier qu'elle sert. Mais la véritable particularité de la méta-armure Warmaster est son mode Falcon, un équipement permettant de connaître les forces et les faiblesses d'un ennemi. Le chevalier peut ainsi déclencher des impulsions tout en apprenant à connaître son ennemi. Des spécificités qui exigent une bonne maîtrise de soi et une bonne coordination avec les membres de l'équipe.</p>\n<br /><br />",
+    "generation": 1,
+    "jauges": {
+      "armure": true,
+      "champDeForce": true,
+      "egide": false,
+      "energie": true,
+      "espoir": true,
+      "flux": false,
+      "sante": true,
+      "heroisme": true
+    },
+    "armure": {
+      "value": 0,
+      "base": 90,
+      "bonus": {},
+      "malus": {}
+    },
+    "champDeForce": {
+      "base": 8,
+      "bonus": {},
+      "malus": {}
+    },
+    "egide": {
+      "value": 0
+    },
+    "energie": {
+      "value": 0,
+      "base": 50,
+      "bonus": {},
+      "malus": {}
+    },
+    "espoir": {
+      "bonus": false,
+      "value": 0,
+      "remplaceEnergie": false,
+      "cout": 2
+    },
+    "flux": {
+      "value": 0
+    },
+    "capacites": {
+      "actuel": "personnalise",
+      "liste": {},
+      "selected": {
+        "warlord": {
+          "label": "Mode Warlord",
+          "description": "<p style=\"text-align:justify\">Le porteur de l'armure peut améliorer à distance les méta-armures des chevaliers pendant un certain temps. Ces améliorations, appelées « impulsions », offrent des bonus substantiels aux membres de la coterie alliés. Une armure Warmaster possède au départ 3 impulsions différentes, à choisir parmi celles proposées, représentées par des grésillements de couleur lorsqu'elles sont utilisées.</p><p style=text-align:justify;></p><p style=text-align:justify;>Utiliser une impulsion coûte une action de déplacement. Les impulsions possèdent toutes une portée lointaine et peuvent être lancées sur les chevaliers alliés, même si le personnage ne possède pas de ligne vue sur eux ou s'ils sont invisibles.</p><p style=text-align:justify;>Quand c'est indiqué, le porteur de la méta-armure peut décider de se cibler lui-même. Le chevalier peut aussi décider de recevoir l'effet bonus offert à un ou plusieurs alliés pour un coût en énergie supplémentaire égal à la moitié du coût de base en énergie de l'impulsion (arrondi à l'entier supérieur). Viser plusieurs alliés et se viser soi-même avec une impulsion ne coûte aucune action supplémentaire autre que celle de base.</p><p style=text-align:justify;></p><p style=text-align:justify;>Quand c'est indiqué, certaines impulsions peuvent être prolongées pour un coût égal à la moitié du coût total d'activation de l'impulsion (en comptabilisant le coût d'éventuelles cibles supplémentaires), avec un minimum de 1 PE dépensé. Le chevalier décide à chaque tour de prolonger ou non une impulsion. Il dépense l'énergie à chaque tour où il décide de prolonger une impulsion. Prolonger une impulsion ne coûte aucune action. Il est tout à fait possible de prolonger plusieurs impulsions en même temps, mais on ne peut pas cumuler plusieurs fois la même impulsion sur une cible.</p><p style=text-align:justify;>Exemple : <i>Le personnage de Nicolas utilise une impulsion d'esquive sur un allié, il doit donc dépenser 3 PE. Il décide cependant d'utiliser cette impulsion aussi sur lui-même. Il dépense donc la moitié du coût de base en énergie, c'est-à-dire 2, et bénéficie de l'effet. Au total, pour son allié et lui-même, l'impulsion aura coûté 5 PE.</i></p>",
+          "impulsions": {
+            "selection": 3,
+            "action": {
+              "activation": "deplacement",
+              "duree": "1 tour",
+              "bonus": {
+                "description": "Un allié (et un seul) au choix du porteur de la méta-armure obtient une action de combat ou de déplacement supplémentaire lors de son prochain tour."
+              },
+              "energie": {
+                "allie": 4,
+                "porteur": 10
+              }
+            },
+            "esquive": {
+              "activation": "deplacement",
+              "duree": "1 tour (peut être prolongé)",
+              "bonus": {
+                "reaction": 2,
+                "defense": 2
+              },
+              "energie": {
+                "allie": 3,
+                "porteur": 2,
+                "prolonger": 2
+              }
+            },
+            "force": {
+              "activation": "deplacement",
+              "duree": "1 tour (peut être prolongé)",
+              "bonus": {
+                "champDeForce": 2
+              },
+              "energie": {
+                "allie": 2,
+                "porteur": 1,
+                "prolonger": 1
+              }
+            },
+            "guerre": {
+              "activation": "deplacement",
+              "duree": "1 tour (peut être prolongé)",
+              "bonus": {
+                "degats": 1,
+                "violence": 1
+              },
+              "energie": {
+                "allie": 1,
+                "porteur": 1,
+                "prolonger": 1
+              }
+            },
+            "energie": {
+              "activation": "deplacement",
+              "duree": "Instantanée",
+              "bonus": {
+                "description": "Un allié en méta-armure, au choix du PJ, reçoit une partie de l’énergie de la Warmaster. 1 à 5 points d’énergie, à la discrétion du joueur, peuvent être octroyés à un allié, mais pas à la Warmaster elle-même."
+              },
+              "energie": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          },
+          "textarea": {
+            "dureeAction": 50,
+            "dureeForce": 50,
+            "dureeEnergie": 50,
+            "dureeEsquive": 50,
+            "dureeGuerre": 50,
+            "bonusAction": 85,
+            "bonusEnergie": 110
+          },
+          "evolutions": {
+            "impulsions": {
+              "selection": 3,
+              "action": {
+                "activation": "deplacement",
+                "duree": "1 tour",
+                "bonus": {
+                  "description": "Un allié (et un seul) au choix du porteur de la méta-armure obtient une action de combat ou de déplacement supplémentaire lors de son prochain tour."
+                },
+                "energie": {
+                  "allie": 4,
+                  "porteur": 10
+                }
+              },
+              "esquive": {
+                "activation": "deplacement",
+                "duree": "1 tour (peut être prolongé)",
+                "bonus": {
+                  "reaction": 2,
+                  "defense": 2
+                },
+                "energie": {
+                  "allie": 3,
+                  "porteur": 2,
+                  "prolonger": 2
+                }
+              },
+              "force": {
+                "activation": "deplacement",
+                "duree": "1 tour (peut être prolongé)",
+                "bonus": {
+                  "champDeForce": 2
+                },
+                "energie": {
+                  "allie": 2,
+                  "porteur": 1,
+                  "prolonger": 1
+                }
+              },
+              "guerre": {
+                "activation": "deplacement",
+                "duree": "1 tour (peut être prolongé)",
+                "bonus": {
+                  "degats": 1,
+                  "violence": 1
+                },
+                "energie": {
+                  "allie": 1,
+                  "porteur": 1,
+                  "prolonger": 1
+                }
+              },
+              "energie": {
+                "activation": "deplacement",
+                "duree": "Instantanée",
+                "bonus": {
+                  "description": "Un allié en méta-armure, au choix du PJ, reçoit une partie de l’énergie de la Warmaster. 1 à 5 points d’énergie, à la discrétion du joueur, peuvent être octroyés à un allié, mais pas à la Warmaster elle-même."
+                },
+                "energie": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            },
+            "textarea": {
+              "dureeAction": 50,
+              "dureeForce": 50,
+              "dureeEnergie": 50,
+              "dureeEsquive": 50,
+              "dureeGuerre": 50,
+              "bonusAction": 85,
+              "bonusEnergie": 110
+            }
+          },
+          "key": "warlord",
+          "softlock": true
+        },
+        "falcon": {
+          "label": "Mode Falcon",
+          "description": "<p style=\"text-align:justify\">Disposant d’un analyseur dernière génération, la Warmaster est capable de détecter les faiblesses et les forces des ennemis. En activant cette capacité, le chevalier perçoit des données sur chaque cicatrice, chaque mouvement, chaque attitude d’un ennemi, qu’il soit humain, monstre des ténèbres ou machine. Par un jeu de reconstitution des faisceaux d’information, la méta-armure analyse les forces et faiblesses de la cible visée et dévoile au chevalier celles qui semblent les plus probables. Utiliser le mode Falcon coûte une action de déplacement.</p>",
+          "energie": 6,
+          "activation": "deplacement",
+          "duree": "Instantanée",
+          "informations": "<p>Découvrir tous les aspects d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de réaction et de défense d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects exceptionnels d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir le ou les points faibles d’un PNJ (salopard, patron ou colosse).</p><p>Découvrir les armes (et leurs statistiques) d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de bouclier, d’armure et de santé d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir toutes les capacités d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects et valeurs dérivées d’une bande.</p>",
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "energie": 6,
+            "activation": "deplacement",
+            "duree": "Instantanée",
+            "informations": "<p>Découvrir tous les aspects d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de réaction et de défense d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects exceptionnels d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir le ou les points faibles d’un PNJ (salopard, patron ou colosse).</p><p>Découvrir les armes (et leurs statistiques) d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de bouclier, d’armure et de santé d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir toutes les capacités d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects et valeurs dérivées d’une bande.</p>",
+            "textarea": {
+              "duree": 50
+            }
+          },
+          "key": "falcon",
+          "softlock": true
+        }
+      },
+      "base": {
+        "borealis": {
+          "label": "",
+          "description": "",
+          "support": {
+            "description": "",
+            "energie": {
+              "base": 6,
+              "allie": 2
+            },
+            "activation": "tour",
+            "duree": ""
+          },
+          "offensif": {
+            "description": "",
+            "energie": 2,
+            "activation": "combat",
+            "duree": "",
+            "degats": {
+              "dice": 4,
+              "fixe": 4
+            },
+            "violence": {
+              "dice": 4,
+              "fixe": 0
+            },
+            "portee": "courte",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antianatheme",
+                "degatscontinus 3"
+              ],
+              "custom": []
+            }
+          },
+          "utilitaire": {
+            "description": "",
+            "energie": 6,
+            "activation": "tour",
+            "duree": ""
+          },
+          "evolutions": {
+            "support": {
+              "description": "",
+              "energie": {
+                "base": 6,
+                "allie": 2
+              },
+              "activation": "tour",
+              "duree": ""
+            },
+            "offensif": {
+              "description": "",
+              "energie": 2,
+              "activation": "combat",
+              "duree": "",
+              "degats": {
+                "dice": 4,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 4,
+                "fixe": 0
+              },
+              "portee": "courte",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "antianatheme",
+                  "degatscontinus 3"
+                ],
+                "custom": []
+              }
+            },
+            "utilitaire": {
+              "description": "",
+              "energie": 6,
+              "activation": "tour",
+              "duree": ""
+            },
+            "textarea": {
+              "descriptionESupport": 120,
+              "descriptionEUtilitaire": 140,
+              "descriptionEOffensif": 85,
+              "dureeESupport": 50,
+              "dureeEUtilitaire": 50,
+              "dureeEOffensif": 50
+            }
+          },
+          "textarea": {
+            "descriptionSupport": 120,
+            "descriptionUtilitaire": 140,
+            "descriptionOffensif": 85,
+            "descriptionESupport": 120,
+            "descriptionEUtilitaire": 140,
+            "descriptionEOffensif": 85,
+            "dureeSupport": 50,
+            "dureeUtilitaire": 50,
+            "dureeOffensif": 50,
+            "dureeESupport": 50,
+            "dureeEUtilitaire": 50,
+            "dureeEOffensif": 50
+          }
+        },
+        "changeling": {
+          "label": "",
+          "description": "",
+          "activation": "tour6Sec",
+          "duree": "",
+          "portee": "",
+          "energie": {
+            "personnel": 6,
+            "etendue": 8,
+            "fauxEtre": {
+              "value": 3,
+              "max": 4
+            }
+          },
+          "desactivationexplosive": {
+            "label": "",
+            "acces": false,
+            "portee": "courte",
+            "degats": {
+              "dice": 3,
+              "fixe": 6
+            },
+            "violence": {
+              "dice": 3,
+              "fixe": 6
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "ignorearmure",
+                "ignorechampdeforce",
+                "dispersion 6",
+                "choc 1"
+              ],
+              "custom": []
+            }
+          },
+          "evolutions": {
+            "activation": "tour6Sec",
+            "duree": "",
+            "portee": "",
+            "energie": {
+              "personnel": 6,
+              "etendue": 8,
+              "fauxEtre": {
+                "value": 3,
+                "max": 4
+              }
+            },
+            "desactivationexplosive": {
+              "label": "",
+              "acces": false,
+              "portee": "courte",
+              "degats": {
+                "dice": 3,
+                "fixe": 6
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 6
+              },
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "ignorearmure",
+                  "ignorechampdeforce",
+                  "dispersion 6",
+                  "choc 1"
+                ],
+                "custom": []
+              }
+            },
+            "textarea": {
+              "duree": 50,
+              "portee": 50
+            }
+          },
+          "textarea": {
+            "duree": 50,
+            "portee": 50
+          }
+        },
+        "falcon": {
+          "label": "",
+          "description": "",
+          "energie": 6,
+          "activation": "deplacement",
+          "duree": "",
+          "informations": "",
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "energie": 6,
+            "activation": "deplacement",
+            "duree": "",
+            "informations": "",
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "goliath": {
+          "label": "",
+          "description": "",
+          "energie": 2,
+          "activation": "deplacement",
+          "duree": "",
+          "taille": {
+            "value": 0,
+            "max": 4
+          },
+          "armesRack": {
+            "label": "",
+            "active": true,
+            "value": 4
+          },
+          "bonus": {
+            "cdf": {
+              "value": 1
+            },
+            "force": {
+              "value": 1
+            },
+            "endurance": {
+              "value": 1
+            },
+            "degats": {
+              "dice": 1
+            },
+            "violence": {
+              "dice": 1
+            }
+          },
+          "malus": {
+            "reaction": {
+              "value": 2
+            },
+            "defense": {
+              "value": 1
+            }
+          },
+          "evolutions": {
+            "energie": 2,
+            "activation": "deplacement",
+            "duree": "",
+            "taille": {
+              "value": 0,
+              "max": 4
+            },
+            "armesRack": {
+              "label": "",
+              "active": true,
+              "value": 4
+            },
+            "bonus": {
+              "cdf": {
+                "value": 1
+              },
+              "force": {
+                "value": 1
+              },
+              "endurance": {
+                "value": 1
+              },
+              "degats": {
+                "dice": 1
+              },
+              "violence": {
+                "dice": 1
+              }
+            },
+            "malus": {
+              "reaction": {
+                "value": 2
+              },
+              "defense": {
+                "value": 1
+              }
+            },
+            "textarea": {
+              "duree": 50
+            }
+          },
+          "textarea": {
+            "duree": 50
+          }
+        },
+        "ghost": {
+          "label": "",
+          "description": "",
+          "interruption": {
+            "actif": true,
+            "label": ""
+          },
+          "activation": "aucune",
+          "duree": "",
+          "energie": {
+            "tour": 2,
+            "minute": 6
+          },
+          "bonus": {
+            "aspects": {},
+            "reussites": 3,
+            "attaque": "discretion",
+            "degats": {
+              "caracteristique": "discretion",
+              "inclus": {
+                "od": "",
+                "dice": "",
+                "fixe": ""
+              },
+              "od": true,
+              "dice": false,
+              "fixe": true
+            }
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "interruption": {
+              "actif": true,
+              "label": ""
+            },
+            "activation": "aucune",
+            "duree": "",
+            "energie": {
+              "tour": 2,
+              "minute": 6
+            },
+            "bonus": {
+              "aspects": {},
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "inclus": {
+                  "od": "",
+                  "dice": "",
+                  "fixe": ""
+                },
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "longbow": {
+          "label": "",
+          "description": "",
+          "degats": {
+            "energie": 1,
+            "min": 3,
+            "max": 9
+          },
+          "violence": {
+            "energie": 1,
+            "min": 1,
+            "max": 7
+          },
+          "portee": {
+            "energie": 1,
+            "min": "moyenne",
+            "max": "lointaine"
+          },
+          "effets": {
+            "base": {
+              "liste": [],
+              "raw": [
+                "assistanceattaque",
+                "deuxmains",
+                "lourd"
+              ],
+              "custom": []
+            },
+            "liste1": {
+              "energie": 2,
+              "liste": [],
+              "raw": [
+                "choc 1",
+                "degatscontinus 3",
+                "designation",
+                "percearmure 40",
+                "silencieux",
+                "ultraviolence"
+              ],
+              "custom": []
+            },
+            "liste2": {
+              "energie": 3,
+              "liste": [],
+              "raw": [
+                "antivehicule",
+                "artillerie",
+                "dispersion 3",
+                "lumiere 4",
+                "penetrant 6",
+                "percearmure 60"
+              ],
+              "custom": []
+            },
+            "liste3": {
+              "label": "",
+              "acces": false,
+              "energie": 6,
+              "liste": [],
+              "raw": [
+                "antianatheme",
+                "demoralisant",
+                "enchaine",
+                "fureur",
+                "ignorearmure",
+                "penetrant 10"
+              ],
+              "custom": []
+            }
+          },
+          "distance": {
+            "raw": [],
+            "custom": []
+          },
+          "specialEvolutions": {
+            "1": {
+              "value": 50,
+              "description": "",
+              "effets": {
+                "liste1": {
+                  "liste": [],
+                  "raw": [
+                    "choc 1",
+                    "degatscontinus 3",
+                    "designation",
+                    "percearmure 40",
+                    "silencieux",
+                    "ultraviolence"
+                  ],
+                  "custom": []
+                },
+                "liste2": {
+                  "liste": [],
+                  "raw": [
+                    "antivehicule",
+                    "artillerie",
+                    "dispersion 3",
+                    "lumiere 4",
+                    "penetrant 6",
+                    "percearmure 60"
+                  ],
+                  "custom": []
+                },
+                "liste3": {
+                  "label": "",
+                  "acces": true,
+                  "liste": [],
+                  "raw": [
+                    "antianatheme",
+                    "demoralisant",
+                    "enchaine",
+                    "fureur",
+                    "ignorearmure",
+                    "penetrant 10"
+                  ],
+                  "custom": []
+                }
+              }
+            },
+            "2": {
+              "value": 50,
+              "description": "",
+              "degats": {
+                "min": 5,
+                "max": 14
+              },
+              "violence": {
+                "min": 3,
+                "max": 12
+              }
+            },
+            "3": {
+              "value": 50,
+              "description": "",
+              "effets": {
+                "base": {
+                  "liste": [],
+                  "raw": [
+                    "assistanceattaque",
+                    "deuxmains"
+                  ],
+                  "custom": []
+                }
+              }
+            },
+            "4": {
+              "value": 100,
+              "description": "",
+              "effets": {
+                "liste1": {
+                  "energie": 1
+                },
+                "liste2": {
+                  "energie": 1
+                },
+                "liste3": {
+                  "energie": 4
+                }
+              }
+            }
+          },
+          "evolutions": {
+            "degats": {
+              "energie": 1,
+              "min": 3,
+              "max": 9
+            },
+            "violence": {
+              "energie": 1,
+              "min": 1,
+              "max": 7
+            },
+            "portee": {
+              "energie": 1,
+              "min": "moyenne",
+              "max": "lointaine"
+            },
+            "effets": {
+              "base": {
+                "liste": [],
+                "raw": [
+                  "assistanceattaque",
+                  "deuxmains",
+                  "lourd"
+                ],
+                "custom": []
+              },
+              "liste1": {
+                "energie": 2,
+                "liste": [],
+                "raw": [
+                  "choc 1",
+                  "degatscontinus 3",
+                  "designation",
+                  "percearmure 40",
+                  "silencieux",
+                  "ultraviolence"
+                ],
+                "custom": []
+              },
+              "liste2": {
+                "energie": 3,
+                "liste": [],
+                "raw": [
+                  "antivehicule",
+                  "artillerie",
+                  "dispersion 3",
+                  "lumiere 4",
+                  "penetrant 6",
+                  "percearmure 60"
+                ],
+                "custom": []
+              },
+              "liste3": {
+                "label": "",
+                "acces": false,
+                "energie": 6,
+                "liste": [],
+                "raw": [
+                  "antianatheme",
+                  "demoralisant",
+                  "enchaine",
+                  "fureur",
+                  "ignorearmure",
+                  "penetrant 10"
+                ],
+                "custom": []
+              }
+            }
+          }
+        },
+        "mechanic": {
+          "label": "",
+          "description": "",
+          "activation": {
+            "contact": "deplacement",
+            "distance": "deplacement"
+          },
+          "portee": "",
+          "reparation": {
+            "contact": {
+              "duree": "",
+              "dice": 3,
+              "fixe": 6
+            },
+            "distance": {
+              "duree": "",
+              "dice": 2,
+              "fixe": 6
+            }
+          },
+          "energie": {
+            "contact": 4,
+            "distance": 6
+          },
+          "textarea": {
+            "dureeContact": 50,
+            "dureeDistance": 50
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "portee": "",
+            "reparation": {
+              "contact": {
+                "duree": "",
+                "dice": 3,
+                "fixe": 6
+              },
+              "distance": {
+                "duree": "",
+                "dice": 2,
+                "fixe": 6
+              }
+            },
+            "energie": {
+              "contact": 4,
+              "distance": 6
+            },
+            "textarea": {
+              "dureeContact": 50,
+              "dureeDistance": 50
+            }
+          }
+        },
+        "nanoc": {
+          "label": "",
+          "description": "",
+          "activation": "toutes",
+          "duree": "",
+          "energie": {
+            "base": 3,
+            "detaille": 6,
+            "mecanique": 9,
+            "prolonger": 2
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "toutes",
+            "duree": "",
+            "energie": {
+              "base": 3,
+              "detaille": 6,
+              "mecanique": 9,
+              "prolonger": 2
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "oriflamme": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement",
+          "duree": "",
+          "portee": "courte",
+          "energie": 12,
+          "degats": {
+            "dice": 6,
+            "fixe": 6
+          },
+          "violence": {
+            "dice": 6,
+            "fixe": 12
+          },
+          "effets": {
+            "liste": [],
+            "raw": [
+              "antianatheme",
+              "lumiere 2"
+            ],
+            "custom": []
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "duree": "",
+            "portee": "courte",
+            "energie": 12,
+            "degats": {
+              "dice": 6,
+              "fixe": 6
+            },
+            "violence": {
+              "dice": 6,
+              "fixe": 12
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antianatheme",
+                "lumiere 2"
+              ],
+              "custom": []
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "shrine": {
+          "label": "",
+          "description": "",
+          "activation": "aucune",
+          "duree": "",
+          "portee": "",
+          "energie": {
+            "personnel": 1,
+            "distance": 2,
+            "acces6tours": false,
+            "personnel6tours": 5,
+            "distance6tours": 10
+          },
+          "champdeforce": 6,
+          "requis": {
+            "force": 5,
+            "chair": 10
+          },
+          "textarea": {
+            "duree": "50",
+            "portee": "50"
+          },
+          "evolutions": {
+            "activation": "aucun",
+            "duree": "",
+            "portee": "",
+            "energie": {
+              "personnel": 1,
+              "distance": 2,
+              "acces6tours": false,
+              "personnel6tours": 5,
+              "distance6tours": 10
+            },
+            "champdeforce": 6,
+            "requis": {
+              "force": 5,
+              "chair": 10
+            },
+            "textarea": {
+              "duree": "50",
+              "portee": "50"
+            }
+          }
+        },
+        "type": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement",
+          "duree": "",
+          "nbreType": 3,
+          "energie": {
+            "tour": 1,
+            "scene": 6
+          },
+          "type": {
+            "soldier": {
+              "aspect": "chair",
+              "liste": {
+                "deplacement": {
+                  "value": 1
+                },
+                "force": {
+                  "value": 1
+                },
+                "endurance": {
+                  "value": 1
+                }
+              }
+            },
+            "hunter": {
+              "aspect": "bete",
+              "liste": {
+                "hargne": {
+                  "value": 1
+                },
+                "combat": {
+                  "value": 1
+                },
+                "instinct": {
+                  "value": 1
+                }
+              }
+            },
+            "scholar": {
+              "aspect": "machine",
+              "liste": {
+                "tir": {
+                  "value": 1
+                },
+                "savoir": {
+                  "value": 1
+                },
+                "technique": {
+                  "value": 1
+                }
+              }
+            },
+            "herald": {
+              "aspect": "dame",
+              "liste": {
+                "aura": {
+                  "value": 1
+                },
+                "parole": {
+                  "value": 1
+                },
+                "sangFroid": {
+                  "value": 1
+                }
+              }
+            },
+            "scout": {
+              "aspect": "masque",
+              "liste": {
+                "discretion": {
+                  "value": 1
+                },
+                "dexterite": {
+                  "value": 1
+                },
+                "perception": {
+                  "value": 1
+                }
+              }
+            }
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "duree": "",
+            "nbreType": 3,
+            "energie": {
+              "tour": 1,
+              "scene": 6
+            },
+            "type": {
+              "soldier": {
+                "aspect": "chair",
+                "liste": {
+                  "deplacement": {
+                    "value": 1
+                  },
+                  "force": {
+                    "value": 1
+                  },
+                  "endurance": {
+                    "value": 1
+                  }
+                }
+              },
+              "hunter": {
+                "aspect": "bete",
+                "liste": {
+                  "hargne": {
+                    "value": 1
+                  },
+                  "combat": {
+                    "value": 1
+                  },
+                  "instinct": {
+                    "value": 1
+                  }
+                }
+              },
+              "scholar": {
+                "aspect": "machine",
+                "liste": {
+                  "tir": {
+                    "value": 1
+                  },
+                  "savoir": {
+                    "value": 1
+                  },
+                  "technique": {
+                    "value": 1
+                  }
+                }
+              },
+              "herald": {
+                "aspect": "dame",
+                "liste": {
+                  "aura": {
+                    "value": 1
+                  },
+                  "parole": {
+                    "value": 1
+                  },
+                  "sangFroid": {
+                    "value": 1
+                  }
+                }
+              },
+              "scout": {
+                "aspect": "masque",
+                "liste": {
+                  "discretion": {
+                    "value": 1
+                  },
+                  "dexterite": {
+                    "value": 1
+                  },
+                  "perception": {
+                    "value": 1
+                  }
+                }
+              }
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "vision": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement6Sec",
+          "duree": "",
+          "energie": {
+            "min": 5,
+            "max": 10
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement6Sec",
+            "duree": "",
+            "energie": {
+              "min": 5,
+              "max": 10
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "warlord": {
+          "label": "",
+          "description": "",
+          "impulsions": {
+            "selection": 3,
+            "action": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "description": ""
+              },
+              "energie": {
+                "allie": 4,
+                "porteur": 10
+              }
+            },
+            "esquive": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "reaction": 2,
+                "defense": 2
+              },
+              "energie": {
+                "allie": 3,
+                "porteur": 2,
+                "prolonger": 2
+              }
+            },
+            "force": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "champDeForce": 2
+              },
+              "energie": {
+                "allie": 2,
+                "porteur": 1,
+                "prolonger": 1
+              }
+            },
+            "guerre": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "degats": 1,
+                "violence": 1
+              },
+              "energie": {
+                "allie": 1,
+                "porteur": 1,
+                "prolonger": 1
+              }
+            },
+            "energie": {
+              "activation": "deplacement",
+              "duree": "",
+              "bonus": {
+                "description": ""
+              },
+              "energie": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          },
+          "textarea": {
+            "dureeAction": 50,
+            "dureeForce": 50,
+            "dureeEnergie": 50,
+            "dureeEsquive": 50,
+            "dureeGuerre": 50,
+            "bonusAction": 85,
+            "bonusEnergie": 110
+          },
+          "evolutions": {
+            "impulsions": {
+              "selection": 3,
+              "action": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "description": ""
+                },
+                "energie": {
+                  "allie": 4,
+                  "porteur": 10
+                }
+              },
+              "esquive": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "reaction": 2,
+                  "defense": 2
+                },
+                "energie": {
+                  "allie": 3,
+                  "porteur": 2,
+                  "prolonger": 2
+                }
+              },
+              "force": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "champDeForce": 2
+                },
+                "energie": {
+                  "allie": 2,
+                  "porteur": 1,
+                  "prolonger": 1
+                }
+              },
+              "guerre": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "degats": 1,
+                  "violence": 1
+                },
+                "energie": {
+                  "allie": 1,
+                  "porteur": 1,
+                  "prolonger": 1
+                }
+              },
+              "energie": {
+                "activation": "deplacement",
+                "duree": "",
+                "bonus": {
+                  "description": ""
+                },
+                "energie": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            },
+            "textarea": {
+              "dureeAction": 50,
+              "dureeForce": 50,
+              "dureeEnergie": 50,
+              "dureeEsquive": 50,
+              "dureeGuerre": 50,
+              "bonusAction": 85,
+              "bonusEnergie": 110
+            }
+          }
+        },
+        "watchtower": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement3Sec",
+          "duree": "",
+          "energie": 2,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "deplacement3Sec",
+            "duree": "",
+            "energie": 2,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "personnalise": {
+          "label": "",
+          "description": ""
+        }
+      },
+      "c2038": {
+        "cea": {
+          "label": "",
+          "description": "",
+          "energie": 3,
+          "activation": "combat",
+          "duree": "",
+          "espoir": 1,
+          "vague": {
+            "degats": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "portee": "",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "parasitage 2",
+                "dispersion 3",
+                "destructeur",
+                "choc 2"
+              ],
+              "custom": []
+            }
+          },
+          "salve": {
+            "degats": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 3,
+              "fixe": 0
+            },
+            "portee": "",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "ultraviolence",
+                "meurtrier 3",
+                "dispersion 3",
+                "parasitage 1"
+              ],
+              "custom": []
+            }
+          },
+          "rayon": {
+            "degats": {
+              "dice": 4,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 2,
+              "fixe": 0
+            },
+            "portee": "",
+            "effets": {
+              "liste": [],
+              "raw": [
+                "parasitage 1",
+                "percearmure 40"
+              ],
+              "custom": []
+            }
+          },
+          "textarea": {
+            "descriptionVague": 70,
+            "descriptionSalve": 75,
+            "descriptionRayon": 150,
+            "porteeVague": 50,
+            "porteeSalve": 50,
+            "porteeRayon": 50,
+            "duree": 50
+          },
+          "evolutions": {
+            "energie": 3,
+            "activation": "combat",
+            "duree": "",
+            "espoir": 1,
+            "vague": {
+              "degats": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "portee": "",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "parasitage 2",
+                  "dispersion 3",
+                  "destructeur",
+                  "choc 2"
+                ],
+                "custom": []
+              }
+            },
+            "salve": {
+              "degats": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "portee": "",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "ultraviolence",
+                  "meurtrier 3",
+                  "dispersion 3",
+                  "parasitage 1"
+                ],
+                "custom": []
+              }
+            },
+            "rayon": {
+              "degats": {
+                "dice": 4,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 2,
+                "fixe": 0
+              },
+              "portee": "",
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "parasitage 1",
+                  "percearmure 40"
+                ],
+                "custom": []
+              }
+            },
+            "textarea": {
+              "descriptionVague": 70,
+              "descriptionSalve": 75,
+              "descriptionRayon": 150,
+              "porteeVague": 50,
+              "porteeSalve": 50,
+              "porteeRayon": 50,
+              "duree": 50
+            }
+          }
+        },
+        "discord": {
+          "label": "",
+          "description": "",
+          "special": {
+            "c2038": "recolteflux"
+          },
+          "malus": {
+            "reaction": 2,
+            "defense": 2,
+            "actions": 2
+          },
+          "tour": {
+            "flux": 1,
+            "energie": 2,
+            "activation": "deplacement",
+            "duree": ""
+          },
+          "scene": {
+            "flux": 3,
+            "energie": 6,
+            "activation": "deplacement",
+            "duree": ""
+          },
+          "textarea": {
+            "dureeTour": 50,
+            "dureeScene": 50
+          },
+          "evolutions": {
+            "malus": {
+              "reaction": 2,
+              "defense": 2,
+              "actions": 2
+            },
+            "tour": {
+              "flux": 1,
+              "energie": 2,
+              "activation": "deplacement",
+              "duree": ""
+            },
+            "scene": {
+              "flux": 3,
+              "energie": 6,
+              "activation": "deplacement",
+              "duree": ""
+            },
+            "textarea": {
+              "dureeTour": 50,
+              "dureeScene": 50
+            }
+          }
+        },
+        "puppet": {
+          "label": "",
+          "description": "",
+          "special": {
+            "c2038": "recolteflux"
+          },
+          "duree": "",
+          "activation": "deplacement",
+          "creatures": 3,
+          "energie": {
+            "ordre": 2,
+            "supplementaire": 3,
+            "prolonger": 1
+          },
+          "flux": {
+            "has": true,
+            "ordre": 1,
+            "supplementaire": 1,
+            "prolonger": 1
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "deplacement",
+            "creatures": 3,
+            "energie": {
+              "ordre": 2,
+              "supplementaire": 3,
+              "prolonger": 1
+            },
+            "flux": {
+              "has": true,
+              "ordre": 1,
+              "supplementaire": 1,
+              "prolonger": 1
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "windtalker": {
+          "label": "",
+          "description": "",
+          "special": {
+            "c2038": "recolteflux"
+          },
+          "flux": 2,
+          "energie": 4,
+          "activation": "deplacement",
+          "duree": "",
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "flux": 2,
+            "energie": 4,
+            "activation": "deplacement",
+            "duree": "",
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "zen": {
+          "label": "",
+          "description": "",
+          "espoir": 0,
+          "difficulte": 5,
+          "aspects": {
+            "chair": {
+              "caracteristiques": {
+                "deplacement": {
+                  "value": false
+                },
+                "force": {
+                  "value": false
+                },
+                "endurance": {
+                  "value": false
+                }
+              }
+            },
+            "bete": {
+              "caracteristiques": {
+                "hargne": {
+                  "value": true
+                },
+                "combat": {
+                  "value": false
+                },
+                "instinct": {
+                  "value": false
+                }
+              }
+            },
+            "machine": {
+              "caracteristiques": {
+                "tir": {
+                  "value": false
+                },
+                "savoir": {
+                  "value": false
+                },
+                "technique": {
+                  "value": false
+                }
+              }
+            },
+            "dame": {
+              "caracteristiques": {
+                "aura": {
+                  "value": false
+                },
+                "parole": {
+                  "value": false
+                },
+                "sangFroid": {
+                  "value": true
+                }
+              }
+            },
+            "masque": {
+              "caracteristiques": {
+                "discretion": {
+                  "value": false
+                },
+                "dexterite": {
+                  "value": false
+                },
+                "perception": {
+                  "value": false
+                }
+              }
+            }
+          },
+          "evolutions": {
+            "espoir": 0,
+            "difficulte": 5,
+            "aspects": {
+              "chair": {
+                "caracteristiques": {
+                  "deplacement": {
+                    "value": false
+                  },
+                  "force": {
+                    "value": false
+                  },
+                  "endurance": {
+                    "value": false
+                  }
+                }
+              },
+              "bete": {
+                "caracteristiques": {
+                  "hargne": {
+                    "value": true
+                  },
+                  "combat": {
+                    "value": false
+                  },
+                  "instinct": {
+                    "value": false
+                  }
+                }
+              },
+              "machine": {
+                "caracteristiques": {
+                  "tir": {
+                    "value": false
+                  },
+                  "savoir": {
+                    "value": false
+                  },
+                  "technique": {
+                    "value": false
+                  }
+                }
+              },
+              "dame": {
+                "caracteristiques": {
+                  "aura": {
+                    "value": false
+                  },
+                  "parole": {
+                    "value": false
+                  },
+                  "sangFroid": {
+                    "value": true
+                  }
+                }
+              },
+              "masque": {
+                "caracteristiques": {
+                  "discretion": {
+                    "value": false
+                  },
+                  "dexterite": {
+                    "value": false
+                  },
+                  "perception": {
+                    "value": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "c2038Necromancer": {
+        "sarcophage": {
+          "label": "",
+          "description": "",
+          "bonus": {
+            "paliers": 7,
+            "liste": {
+              "b0": {
+                "pg": {
+                  "min": 0,
+                  "max": 49
+                },
+                "offert": ""
+              },
+              "b1": {
+                "pg": {
+                  "min": 50,
+                  "max": 99
+                },
+                "offert": ""
+              },
+              "b2": {
+                "pg": {
+                  "min": 100,
+                  "max": 149
+                },
+                "offert": ""
+              },
+              "b3": {
+                "pg": {
+                  "min": 150,
+                  "max": 199
+                },
+                "offert": ""
+              },
+              "b4": {
+                "pg": {
+                  "min": 200,
+                  "max": 249
+                },
+                "offert": ""
+              },
+              "b5": {
+                "pg": {
+                  "min": 250,
+                  "max": 299
+                },
+                "offert": ""
+              },
+              "b6": {
+                "pg": {
+                  "min": 300
+                },
+                "offert": ""
+              }
+            }
+          },
+          "textarea": {
+            "b0": 50,
+            "b1": 50,
+            "b2": 50,
+            "b3": 50,
+            "b4": 50,
+            "b5": 50,
+            "b6": 50
+          }
+        }
+      },
+      "c2038Sorcerer": {
+        "morph": {
+          "label": "",
+          "description": "",
+          "energie": 10,
+          "activation": "aucune",
+          "duree": "",
+          "espoir": 1,
+          "capacites": 3,
+          "vol": {
+            "description": ""
+          },
+          "phase": {
+            "description": "",
+            "activation": "deplacement",
+            "energie": 5,
+            "duree": "Spécial – 1 action pour 50 centimètres de matière",
+            "niveau2": {
+              "acces": false,
+              "activation": "aucune",
+              "energie": 8,
+              "duree": "Instantanée"
+            }
+          },
+          "etirement": {
+            "description": "",
+            "portee": "",
+            "bonus": 3
+          },
+          "metal": {
+            "bonus": {
+              "champDeForce": 2
+            }
+          },
+          "fluide": {
+            "bonus": {
+              "reaction": 2,
+              "defense": 2
+            }
+          },
+          "polymorphie": {
+            "description": "",
+            "griffe": {
+              "portee": "contact",
+              "type": "contact",
+              "degats": {
+                "dice": 2,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 1,
+                "fixe": 0
+              },
+              "effets": {
+                "liste": [],
+                "raw": [],
+                "custom": []
+              }
+            },
+            "lame": {
+              "portee": "contact",
+              "type": "contact",
+              "degats": {
+                "dice": 2,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 1,
+                "fixe": 0
+              },
+              "effets": {
+                "liste": [],
+                "raw": [],
+                "custom": []
+              }
+            },
+            "canon": {
+              "portee": "distance",
+              "type": "moyenne",
+              "energie": 1,
+              "degats": {
+                "dice": 3,
+                "fixe": 3
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 3
+              },
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "destructeur",
+                  "meurtrier",
+                  "ultraviolence"
+                ],
+                "custom": []
+              }
+            }
+          },
+          "textarea": {
+            "duree": 50,
+            "vol": 130,
+            "phase": 115,
+            "phaseDuree": 50,
+            "phaseDuree2": 50,
+            "etirement": 130,
+            "etirementPortee": 50,
+            "polymorphie": 205
+          },
+          "evolutions": {
+            "energie": 10,
+            "activation": "aucune",
+            "duree": "",
+            "espoir": 1,
+            "capacites": 3,
+            "vol": {
+              "description": ""
+            },
+            "phase": {
+              "description": "",
+              "activation": "deplacement",
+              "energie": 5,
+              "duree": "Spécial – 1 action pour 50 centimètres de matière",
+              "niveau2": {
+                "acces": false,
+                "activation": "aucune",
+                "energie": 8,
+                "duree": "Instantanée"
+              }
+            },
+            "etirement": {
+              "description": "",
+              "portee": "",
+              "bonus": 3
+            },
+            "metal": {
+              "bonus": {
+                "champDeForce": 2
+              }
+            },
+            "fluide": {
+              "bonus": {
+                "reaction": 2,
+                "defense": 2
+              }
+            },
+            "polymorphie": {
+              "description": "",
+              "griffe": {
+                "portee": "contact",
+                "type": "contact",
+                "degats": {
+                  "dice": 2,
+                  "fixe": 0
+                },
+                "violence": {
+                  "dice": 1,
+                  "fixe": 0
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "lame": {
+                "portee": "contact",
+                "type": "contact",
+                "degats": {
+                  "dice": 2,
+                  "fixe": 0
+                },
+                "violence": {
+                  "dice": 1,
+                  "fixe": 0
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "canon": {
+                "portee": "distance",
+                "type": "moyenne",
+                "energie": 1,
+                "degats": {
+                  "dice": 3,
+                  "fixe": 3
+                },
+                "violence": {
+                  "dice": 3,
+                  "fixe": 3
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [
+                    "destructeur",
+                    "meurtrier",
+                    "ultraviolence"
+                  ],
+                  "custom": []
+                }
+              }
+            },
+            "textarea": {
+              "duree": 50,
+              "vol": 130,
+              "phase": 115,
+              "phaseDuree": 50,
+              "phaseDuree2": 50,
+              "etirement": 130,
+              "etirementPortee": 50,
+              "polymorphie": 205
+            }
+          }
+        }
+      },
+      "codex": {
+        "companions": {
+          "label": "",
+          "description": "",
+          "activation": "tour6Sec",
+          "duree": "",
+          "energie": {
+            "base": 16,
+            "prolonger": 8
+          },
+          "textarea": {
+            "duree": 50,
+            "labor": 85,
+            "medic": 85,
+            "tech": 85,
+            "fighter": 85,
+            "recon": 85,
+            "crow": 52
+          },
+          "lion": {
+            "img": "systems/knight/assets/lion.jpg",
+            "PG": 60,
+            "aspects": {
+              "chair": {
+                "value": 7,
+                "ae": 1
+              },
+              "bete": {
+                "value": 6,
+                "ae": 1
+              },
+              "machine": {
+                "value": 7,
+                "ae": 1
+              },
+              "dame": {
+                "value": 4,
+                "ae": 0
+              },
+              "masque": {
+                "value": 4,
+                "ae": 0
+              }
+            },
+            "champDeForce": {
+              "base": 10,
+              "bonus": [],
+              "malus": []
+            },
+            "defense": {
+              "base": 4,
+              "bonus": [],
+              "malus": []
+            },
+            "reaction": {
+              "base": 4,
+              "bonus": [],
+              "malus": []
+            },
+            "armure": {
+              "base": 60,
+              "bonus": [],
+              "malus": []
+            },
+            "energie": {
+              "base": 0,
+              "bonus": [],
+              "malus": []
+            },
+            "initiative": {
+              "value": 3,
+              "fixe": 2
+            },
+            "armes": {
+              "contact": {
+                "coups": {
+                  "label": "",
+                  "portee": "contact",
+                  "degats": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "raw": [],
+                    "custom": []
+                  }
+                }
+              },
+              "distance": []
+            }
+          },
+          "wolf": {
+            "img": "systems/knight/assets/wolf.jpg",
+            "aspects": {
+              "chair": {
+                "value": 2,
+                "ae": 0
+              },
+              "bete": {
+                "value": 4,
+                "ae": 0
+              },
+              "machine": {
+                "value": 4,
+                "ae": 0
+              },
+              "dame": {
+                "value": 2,
+                "ae": 0
+              },
+              "masque": {
+                "value": 4,
+                "ae": 0
+              }
+            },
+            "champDeForce": {
+              "base": 4
+            },
+            "defense": {
+              "base": 4
+            },
+            "reaction": {
+              "base": 4
+            },
+            "armure": {
+              "base": 20
+            },
+            "energie": {
+              "base": 0
+            },
+            "initiative": {
+              "value": 3,
+              "fixe": 2
+            },
+            "armes": {
+              "contact": {
+                "coups": {
+                  "label": "",
+                  "portee": "contact",
+                  "degats": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "raw": [],
+                    "custom": []
+                  }
+                }
+              }
+            },
+            "configurations": {
+              "labor": {
+                "niveau": 1,
+                "description": "",
+                "energie": 1,
+                "bonus": {
+                  "roll": 1
+                }
+              },
+              "medic": {
+                "niveau": 1,
+                "description": "",
+                "energie": 1,
+                "bonus": {
+                  "roll": 1,
+                  "soins": 2
+                }
+              },
+              "tech": {
+                "niveau": 1,
+                "description": "",
+                "energie": 2,
+                "bonus": {
+                  "roll": 1,
+                  "reparation": 3
+                }
+              },
+              "fighter": {
+                "niveau": 1,
+                "description": "",
+                "energie": 2,
+                "degats": 1,
+                "violence": 1,
+                "bonus": {
+                  "roll": 1,
+                  "effets": {
+                    "raw": [
+                      "barrage 1"
+                    ],
+                    "liste": [],
+                    "custom": []
+                  }
+                }
+              },
+              "recon": {
+                "niveau": 1,
+                "description": "",
+                "energie": 1,
+                "bonus": {
+                  "roll": 1
+                }
+              }
+            }
+          },
+          "crow": {
+            "img": "systems/knight/assets/crow.jpg",
+            "capacites": "",
+            "aspects": {
+              "chair": {
+                "value": 6
+              },
+              "bete": {
+                "value": 4
+              },
+              "machine": {
+                "value": 4
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 6
+              }
+            },
+            "champDeForce": {
+              "base": 2
+            },
+            "defense": {
+              "base": 2
+            },
+            "reaction": {
+              "base": 2
+            },
+            "cohesion": {
+              "base": 50
+            },
+            "debordement": {
+              "base": 2
+            },
+            "energie": {
+              "base": 0
+            },
+            "initiative": {
+              "value": 0,
+              "fixe": 1
+            }
+          },
+          "specialEvolutions": {
+            "activation": "tour6Sec",
+            "duree": "",
+            "adistribuer": 1,
+            "description": "",
+            "energie": {
+              "base": 16,
+              "prolonger": 8
+            },
+            "lion": {
+              "label": "",
+              "aspects": {
+                "value": 5,
+                "max": 2
+              },
+              "ae": 2,
+              "pg": 60
+            },
+            "wolf": {
+              "label": "",
+              "aspects": {
+                "value": 3,
+                "max": 2
+              },
+              "ae": 1,
+              "bonus": 2
+            },
+            "crow": {
+              "label": "",
+              "aspects": {
+                "value": 2,
+                "max": 2
+              },
+              "cohesion": 50,
+              "debordement": 2,
+              "cdf": 2
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        }
+      },
+      "atlas": {
+        "ascension": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "tour6Sec",
+          "portee": "contact",
+          "impregnation": 3,
+          "sansarmure": {
+            "acces": false
+          },
+          "special": {
+            "atlas": "impregnation"
+          },
+          "energie": {
+            "min": 10,
+            "max": 50,
+            "limite": 0
+          },
+          "textarea": {
+            "duree": 75
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "Tour6Sec",
+            "portee": "contact",
+            "impregnation": 3,
+            "sansarmure": {
+              "acces": false,
+              "label": ""
+            },
+            "special": {
+              "atlas": "impregnation"
+            },
+            "energie": {
+              "min": 10,
+              "max": 50,
+              "limite": 0
+            },
+            "textarea": {
+              "duree": 75
+            }
+          }
+        },
+        "forward": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "aucune",
+          "special": {
+            "atlas": "contrecoups"
+          },
+          "energie": 3,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "aucune",
+            "special": {
+              "atlas": "contrecoups"
+            },
+            "energie": 3,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "record": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "aucune",
+          "special": {
+            "atlas": "contrecoups"
+          },
+          "energie": 12,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "aucune",
+            "special": {
+              "atlas": "contrecoups"
+            },
+            "energie": 12,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "rewind": {
+          "label": "",
+          "description": "",
+          "duree": "",
+          "activation": "aucune",
+          "special": {
+            "atlas": "contrecoups"
+          },
+          "energie": 15,
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "duree": "",
+            "activation": "aucune",
+            "special": {
+              "atlas": "contrecoups"
+            },
+            "energie": 15,
+            "textarea": {
+              "duree": 50
+            }
+          }
+        },
+        "totem": {
+          "label": "",
+          "description": "",
+          "activation": "aucune",
+          "duree": "",
+          "portee": "courte",
+          "nombre": 2,
+          "impregnation": 1,
+          "special": {
+            "atlas": "impregnation"
+          },
+          "energie": {
+            "base": 3,
+            "prolonger": 1
+          },
+          "textarea": {
+            "duree": 50
+          },
+          "evolutions": {
+            "activation": "aucune",
+            "duree": "",
+            "portee": "courte",
+            "nombre": 2,
+            "impregnation": 1,
+            "energie": {
+              "base": 3,
+              "prolonger": 1
+            },
+            "textarea": {
+              "duree": 50
+            }
+          }
+        }
+      },
+      "atlasSpecial": {
+        "illumination": {
+          "label": "",
+          "description": "",
+          "activation": "deplacement",
+          "duree": "",
+          "nbreCapacitesSelected": 3,
+          "nbreCapacitesTotale": 7,
+          "blaze": {
+            "description": "",
+            "degats": 2,
+            "violence": 2,
+            "portee": "contact",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "candle": {
+            "description": "",
+            "portee": "contact",
+            "espoir": {
+              "dice": 1,
+              "face": 3
+            }
+          },
+          "beacon": {
+            "description": "",
+            "bonus": 2,
+            "portee": "courte",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "torch": {
+            "description": "",
+            "bonus": 2,
+            "portee": "courte",
+            "espoir": {
+              "base": 3,
+              "prolonger": 1
+            }
+          },
+          "projector": {
+            "description": "",
+            "portee": "courte",
+            "espoir": {
+              "base": 3,
+              "prolonger": 1
+            }
+          },
+          "lighthouse": {
+            "description": "",
+            "portee": "courte",
+            "espoir": {
+              "base": 4,
+              "prolonger": 1
+            }
+          },
+          "lantern": {
+            "description": "",
+            "portee": "courte",
+            "degats": 1,
+            "effets": {
+              "raw": [
+                "esperance"
+              ],
+              "liste": [],
+              "custom": []
+            },
+            "espoir": {
+              "base": 4,
+              "prolonger": 1
+            }
+          },
+          "textarea": {
+            "duree": 50,
+            "blaze": 175,
+            "candle": 125,
+            "beacon": 110,
+            "torch": 175,
+            "projector": 190,
+            "lighthouse": 140,
+            "lantern": 120
+          },
+          "evolutions": {
+            "activation": "deplacement",
+            "duree": "",
+            "nbreCapacitesSelected": 3,
+            "nbreCapacitesTotale": 7,
+            "blaze": {
+              "description": "",
+              "degats": 2,
+              "violence": 2,
+              "portee": "contact",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "candle": {
+              "description": "",
+              "portee": "contact",
+              "espoir": 1
+            },
+            "beacon": {
+              "description": "",
+              "bonus": 2,
+              "portee": "courte",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "torch": {
+              "description": "",
+              "bonus": 2,
+              "portee": "courte",
+              "espoir": {
+                "base": 3,
+                "prolonger": 1
+              }
+            },
+            "projector": {
+              "description": "",
+              "portee": "courte",
+              "espoir": {
+                "base": 3,
+                "prolonger": 1
+              }
+            },
+            "lighthouse": {
+              "description": "",
+              "portee": "courte",
+              "espoir": {
+                "base": 4,
+                "prolonger": 1
+              }
+            },
+            "lantern": {
+              "description": "",
+              "portee": "courte",
+              "degats": 1,
+              "effets": {
+                "raw": [
+                  "esperance"
+                ],
+                "liste": [],
+                "custom": []
+              },
+              "espoir": {
+                "base": 4,
+                "prolonger": 1
+              }
+            },
+            "textarea": {
+              "duree": 50,
+              "blaze": 175,
+              "candle": 125,
+              "beacon": 110,
+              "torch": 175,
+              "projector": 190,
+              "lighthouse": 140,
+              "lantern": 120
+            }
+          }
+        },
+        "rage": {
+          "label": "",
+          "description": "",
+          "activation": "aucune",
+          "duree": "",
+          "espoir": 0,
+          "aspects": {},
+          "nourri": {
+            "label": "",
+            "description": "",
+            "humain": {
+              "hostile": {
+                "dice": 0,
+                "face": 0,
+                "fixe": 1
+              },
+              "salopard": {
+                "dice": 1,
+                "face": 3,
+                "fixe": 0
+              },
+              "patron": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 3
+              },
+              "bande": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 0
+              }
+            },
+            "anatheme": {
+              "hostile": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 0
+              },
+              "salopard": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 3
+              },
+              "patron": {
+                "dice": 1,
+                "face": 6,
+                "fixe": 6
+              },
+              "bande": {
+                "dice": 2,
+                "face": 6,
+                "fixe": 0
+              }
+            }
+          },
+          "colere": {
+            "label": "",
+            "description": "",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 3,
+            "defense": 3,
+            "reaction": 3,
+            "subis": 0,
+            "combosBonus": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": "",
+                "c4": "",
+                "c5": "",
+                "c6": ""
+              }
+            }
+          },
+          "rage": {
+            "label": "",
+            "description": "",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 3,
+            "defense": 9,
+            "reaction": 9,
+            "subis": 0,
+            "combosBonus": {
+              "has": false,
+              "liste": {
+                "c1": "",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": true,
+              "liste": {
+                "c1": "sangFroid",
+                "c2": "parole",
+                "c3": "savoir",
+                "c4": "technique",
+                "c5": "discretion",
+                "c6": ""
+              }
+            }
+          },
+          "fureur": {
+            "label": "",
+            "description": "",
+            "degats": "bete",
+            "violence": "bete",
+            "egide": 6,
+            "defense": 9,
+            "reaction": 9,
+            "subis": 1,
+            "combosBonus": {
+              "has": true,
+              "liste": {
+                "c1": "hargne",
+                "c2": "",
+                "c3": ""
+              }
+            },
+            "combosInterdits": {
+              "has": true,
+              "liste": {
+                "c1": "sangFroid",
+                "c2": "parole",
+                "c3": "savoir",
+                "c4": "technique",
+                "c5": "discretion",
+                "c6": ""
+              }
+            }
+          },
+          "blaze": {
+            "label": "",
+            "description": "",
+            "degats": 2,
+            "violence": 2,
+            "portee": "contact",
+            "espoir": {
+              "base": 2,
+              "prolonger": 1
+            }
+          },
+          "textarea": {
+            "duree": 55,
+            "nourri": 55,
+            "rage": 210,
+            "fureur": 325,
+            "blaze": 180
+          },
+          "evolutions": {
+            "activation": "aucune",
+            "duree": "",
+            "espoir": 0,
+            "aspects": {},
+            "nourri": {
+              "label": "",
+              "description": "",
+              "humain": {
+                "hostile": {
+                  "dice": 0,
+                  "face": 0,
+                  "fixe": 1
+                },
+                "salopard": {
+                  "dice": 1,
+                  "face": 3,
+                  "fixe": 0
+                },
+                "patron": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 3
+                },
+                "bande": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 0
+                }
+              },
+              "anatheme": {
+                "hostile": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 0
+                },
+                "salopard": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 3
+                },
+                "patron": {
+                  "dice": 1,
+                  "face": 6,
+                  "fixe": 6
+                },
+                "bande": {
+                  "dice": 2,
+                  "face": 6,
+                  "fixe": 0
+                }
+              }
+            },
+            "colere": {
+              "label": "",
+              "description": "",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 3,
+              "defense": 3,
+              "reaction": 3,
+              "subis": 0,
+              "combosBonus": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": "",
+                  "c4": "",
+                  "c5": "",
+                  "c6": ""
+                }
+              }
+            },
+            "rage": {
+              "label": "",
+              "description": "",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 3,
+              "defense": 9,
+              "reaction": 9,
+              "subis": 0,
+              "combosBonus": {
+                "has": false,
+                "liste": {
+                  "c1": "",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": true,
+                "liste": {
+                  "c1": "sangFroid",
+                  "c2": "parole",
+                  "c3": "savoir",
+                  "c4": "technique",
+                  "c5": "discretion",
+                  "c6": ""
+                }
+              }
+            },
+            "fureur": {
+              "label": "",
+              "description": "",
+              "degats": "bete",
+              "violence": "bete",
+              "egide": 6,
+              "defense": 9,
+              "reaction": 9,
+              "subis": 1,
+              "combosBonus": {
+                "has": true,
+                "liste": {
+                  "c1": "hargne",
+                  "c2": "",
+                  "c3": ""
+                }
+              },
+              "combosInterdits": {
+                "has": true,
+                "liste": {
+                  "c1": "sangFroid",
+                  "c2": "parole",
+                  "c3": "savoir",
+                  "c4": "technique",
+                  "c5": "discretion",
+                  "c6": ""
+                }
+              }
+            },
+            "blaze": {
+              "label": "",
+              "description": "",
+              "degats": 2,
+              "violence": 2,
+              "portee": "contact",
+              "espoir": {
+                "base": 2,
+                "prolonger": 1
+              }
+            },
+            "textarea": {
+              "duree": 55,
+              "nourri": 55,
+              "rage": 10,
+              "colere": 210,
+              "fureur": 325,
+              "blaze": 180
+            }
+          }
+        }
+      }
+    },
+    "special": {
+      "actuel": "personnalise",
+      "liste": {},
+      "selected": {},
+      "base": {
+        "personnalise": {
+          "label": "",
+          "description": ""
+        },
+        "lenteetlourde": {
+          "label": "",
+          "description": "",
+          "evolutions": {
+            "delete": {
+              "label": "",
+              "value": false
+            }
+          }
+        }
+      },
+      "c2038": {
+        "recolteflux": {
+          "label": "",
+          "description": "",
+          "conflit": {
+            "base": 2,
+            "tour": 1,
+            "hostile": 2,
+            "salopard": 3,
+            "patron": 4,
+            "portee": "moyenne"
+          },
+          "horsconflit": {
+            "base": 1,
+            "portee": "moyenne",
+            "limite": 10
+          },
+          "evolutions": {
+            "conflit": {
+              "base": 2,
+              "tour": 1,
+              "hostile": 2,
+              "salopard": 3,
+              "patron": 4,
+              "portee": "moyenne"
+            },
+            "horsconflit": {
+              "base": 1,
+              "portee": "moyenne",
+              "limite": 10
+            }
+          }
+        }
+      },
+      "c2038Sorcerer": {
+        "energiedeficiente": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "c2038Necromancer": {
+        "plusespoir": {
+          "label": "",
+          "description": "",
+          "espoir": {
+            "base": 10,
+            "recuperation": {
+              "label": "",
+              "value": false
+            },
+            "perte": {
+              "label": "",
+              "value": false
+            }
+          },
+          "evolutions": {
+            "espoir": {
+              "base": 10,
+              "recuperation": {
+                "label": "",
+                "value": false
+              },
+              "perte": {
+                "label": "",
+                "value": false
+              }
+            }
+          }
+        }
+      },
+      "atlas": {
+        "impregnation": {
+          "label": "",
+          "description": "",
+          "aspects": {},
+          "jets": {
+            "c1a": "sangFroid",
+            "c2a": "technique",
+            "c1b": "hargne",
+            "c2b": "technique"
+          },
+          "evolutions": {
+            "aspects": {},
+            "jets": {
+              "c1a": "sangFroid",
+              "c2a": "technique",
+              "c1b": "hargne",
+              "c2b": "technique"
+            }
+          }
+        },
+        "contrecoups": {
+          "label": "",
+          "description": "",
+          "tableau": {
+            "c1": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c2": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c3": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c4": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c5": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            },
+            "c6": {
+              "l1": "",
+              "l2": "",
+              "l3": "",
+              "l4": "",
+              "l5": "",
+              "l6": ""
+            }
+          },
+          "relance": {
+            "label": "",
+            "value": false
+          },
+          "maxeffets": {
+            "label": "",
+            "value": true,
+            "max": 5
+          },
+          "armedistance": {
+            "label": "",
+            "value": false
+          },
+          "jet": {
+            "aspects": {},
+            "c1": "hargne",
+            "c2": "sangFroid"
+          },
+          "evolutions": {
+            "tableau": {
+              "c1": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c2": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c3": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c4": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c5": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              },
+              "c6": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": "",
+                "l5": "",
+                "l6": ""
+              }
+            },
+            "relance": {
+              "label": "",
+              "value": false
+            },
+            "maxeffets": {
+              "label": "",
+              "value": true,
+              "max": 5
+            },
+            "armedistance": {
+              "label": "",
+              "value": false
+            },
+            "jet": {
+              "aspects": {},
+              "c1": "hargne",
+              "c2": "sangFroid"
+            }
+          }
+        }
+      },
+      "atlasSpecial": {
+        "apeiron": {
+          "label": "",
+          "description": "",
+          "espoir": {
+            "bonus": 15,
+            "reduction": {
+              "value": 1
+            }
+          },
+          "evolutions": {
+            "espoir": {
+              "bonus": 15,
+              "reduction": {
+                "value": 1
+              }
+            }
+          }
+        },
+        "porteurlumiere": {
+          "label": "",
+          "bonus": {
+            "effets": {
+              "raw": [
+                "antianatheme",
+                "tenebricide"
+              ],
+              "liste": [],
+              "custom": []
+            }
+          },
+          "evolutions": {
+            "bonus": {
+              "effets": {
+                "raw": [
+                  "antianatheme",
+                  "tenebricide"
+                ],
+                "liste": [],
+                "custom": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "slots": {
+      "tete": {
+        "value": 5,
+        "bonus": {},
+        "malus": {}
+      },
+      "torse": {
+        "value": 8,
+        "bonus": {},
+        "malus": {}
+      },
+      "brasGauche": {
+        "value": 5,
+        "bonus": {},
+        "malus": {}
+      },
+      "brasDroit": {
+        "value": 5,
+        "bonus": {},
+        "malus": {}
+      },
+      "jambeGauche": {
+        "value": 5,
+        "bonus": {},
+        "malus": {}
+      },
+      "jambeDroite": {
+        "value": 5,
+        "bonus": {},
+        "malus": {}
+      }
+    },
+    "overdrives": {
+      "chair": {
+        "liste": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 1
+          },
+          "endurance": {
+            "value": 1
+          }
+        }
+      },
+      "bete": {
+        "liste": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "liste": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "liste": {
+          "aura": {
+            "value": 1
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 1
+          }
+        }
+      },
+      "masque": {
+        "liste": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    },
+    "evolutions": {
+      "paliers": 3,
+      "aAcheter": {
+        "label": "",
+        "value": false
+      },
+      "liste": {
+        "0": {
+          "value": 150,
+          "description": "<p>Gain du réacteur Infinity, réacteur de méta-armure de dernière génération, qui permet à l'armure Warmaster de gagner 10 PE supplémentaires à ajouter à son total de PE.</p>\n",
+          "capacites": {
+            "warlord": {
+              "impulsions": {
+                "selection": 3,
+                "action": {
+                  "activation": [
+                    "aucune",
+                    "aucune"
+                  ],
+                  "duree": "1 tour",
+                  "bonus": {
+                    "description": "Un allié (et un seul) au choix du porteur de la méta-armure obtient une action de combat ou de déplacement supplémentaire lors de son prochain tour."
+                  },
+                  "energie": {
+                    "allie": 4,
+                    "porteur": 10
+                  }
+                },
+                "esquive": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "reaction": 2,
+                    "defense": 2
+                  },
+                  "energie": {
+                    "allie": 3,
+                    "porteur": 2,
+                    "prolonger": 2
+                  }
+                },
+                "force": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "champDeForce": 2
+                  },
+                  "energie": {
+                    "allie": 2,
+                    "porteur": 1,
+                    "prolonger": 1
+                  }
+                },
+                "guerre": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "degats": 1,
+                    "violence": 1
+                  },
+                  "energie": {
+                    "allie": 1,
+                    "porteur": 1,
+                    "prolonger": 1
+                  }
+                },
+                "energie": {
+                  "activation": "deplacement",
+                  "duree": "Instantanée",
+                  "bonus": {
+                    "description": "Un allié en méta-armure, au choix du PJ, reçoit une partie de l’énergie de la Warmaster. 1 à 5 points d’énergie, à la discrétion du joueur, peuvent être octroyés à un allié, mais pas à la Warmaster elle-même."
+                  },
+                  "energie": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              },
+              "textarea": {
+                "dureeAction": 50,
+                "dureeForce": 50,
+                "dureeEnergie": 50,
+                "dureeEsquive": 50,
+                "dureeGuerre": 50,
+                "bonusAction": 85,
+                "bonusEnergie": 110
+              }
+            },
+            "falcon": {
+              "energie": 6,
+              "activation": "deplacement",
+              "duree": "Instantanée",
+              "informations": "<p>Découvrir tous les aspects d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de réaction et de défense d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects exceptionnels d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir le ou les points faibles d’un PNJ (salopard, patron ou colosse).</p><p>Découvrir les armes (et leurs statistiques) d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de bouclier, d’armure et de santé d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir toutes les capacités d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects et valeurs dérivées d’une bande.</p>",
+              "textarea": {
+                "duree": 50
+              }
+            }
+          },
+          "special": [],
+          "data": {
+            "armure": 0,
+            "champDeForce": 0,
+            "energie": 10
+          }
+        },
+        "1": {
+          "value": 200,
+          "description": "<p>Le personnage peut bénéficier dorénavant de toutes les impulsions.</p>\n",
+          "capacites": {
+            "warlord": {
+              "impulsions": {
+                "selection": 5,
+                "action": {
+                  "activation": [
+                    "aucune",
+                    "aucune"
+                  ],
+                  "duree": "1 tour",
+                  "bonus": {
+                    "description": "Un allié (et un seul) au choix du porteur de la méta-armure obtient une action de combat ou de déplacement supplémentaire lors de son prochain tour."
+                  },
+                  "energie": {
+                    "allie": 4,
+                    "porteur": 10
+                  }
+                },
+                "esquive": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "reaction": 2,
+                    "defense": 2
+                  },
+                  "energie": {
+                    "allie": 3,
+                    "porteur": 2,
+                    "prolonger": 2
+                  }
+                },
+                "force": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "champDeForce": 2
+                  },
+                  "energie": {
+                    "allie": 2,
+                    "porteur": 1,
+                    "prolonger": 1
+                  }
+                },
+                "guerre": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "degats": 1,
+                    "violence": 1
+                  },
+                  "energie": {
+                    "allie": 1,
+                    "porteur": 1,
+                    "prolonger": 1
+                  }
+                },
+                "energie": {
+                  "activation": "deplacement",
+                  "duree": "Instantanée",
+                  "bonus": {
+                    "description": "Un allié en méta-armure, au choix du PJ, reçoit une partie de l’énergie de la Warmaster. 1 à 5 points d’énergie, à la discrétion du joueur, peuvent être octroyés à un allié, mais pas à la Warmaster elle-même."
+                  },
+                  "energie": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              },
+              "textarea": {
+                "dureeAction": 50,
+                "dureeForce": 50,
+                "dureeEnergie": 50,
+                "dureeEsquive": 50,
+                "dureeGuerre": 50,
+                "bonusAction": 85,
+                "bonusEnergie": 110
+              }
+            },
+            "falcon": {
+              "energie": 6,
+              "activation": "deplacement",
+              "duree": "Instantanée",
+              "informations": "<p>Découvrir tous les aspects d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de réaction et de défense d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects exceptionnels d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir le ou les points faibles d’un PNJ (salopard, patron ou colosse).</p><p>Découvrir les armes (et leurs statistiques) d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de bouclier, d’armure et de santé d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir toutes les capacités d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects et valeurs dérivées d’une bande.</p>",
+              "textarea": {
+                "duree": 50
+              }
+            }
+          },
+          "special": [],
+          "data": {
+            "armure": 0,
+            "champDeForce": 0,
+            "energie": 0
+          }
+        },
+        "2": {
+          "value": 250,
+          "description": "<p>Activer le mode Falcon ne coûte maintenant aucune action et ne coûte maintenant que 3 PE. De plus, l'armure Warmaster gagne de nouveau 10 PE à ajouter à son total de PE.</p>\n",
+          "capacites": {
+            "warlord": {
+              "impulsions": {
+                "selection": 5,
+                "action": {
+                  "activation": [
+                    "aucune",
+                    "aucune"
+                  ],
+                  "duree": "1 tour",
+                  "bonus": {
+                    "description": "Un allié (et un seul) au choix du porteur de la méta-armure obtient une action de combat ou de déplacement supplémentaire lors de son prochain tour."
+                  },
+                  "energie": {
+                    "allie": 4,
+                    "porteur": 10
+                  }
+                },
+                "esquive": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "reaction": 2,
+                    "defense": 2
+                  },
+                  "energie": {
+                    "allie": 3,
+                    "porteur": 2,
+                    "prolonger": 2
+                  }
+                },
+                "force": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "champDeForce": 2
+                  },
+                  "energie": {
+                    "allie": 2,
+                    "porteur": 1,
+                    "prolonger": 1
+                  }
+                },
+                "guerre": {
+                  "activation": "deplacement",
+                  "duree": "1 tour (peut être prolongé)",
+                  "bonus": {
+                    "degats": 1,
+                    "violence": 1
+                  },
+                  "energie": {
+                    "allie": 1,
+                    "porteur": 1,
+                    "prolonger": 1
+                  }
+                },
+                "energie": {
+                  "activation": "deplacement",
+                  "duree": "Instantanée",
+                  "bonus": {
+                    "description": "Un allié en méta-armure, au choix du PJ, reçoit une partie de l’énergie de la Warmaster. 1 à 5 points d’énergie, à la discrétion du joueur, peuvent être octroyés à un allié, mais pas à la Warmaster elle-même."
+                  },
+                  "energie": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              },
+              "textarea": {
+                "dureeAction": 50,
+                "dureeForce": 50,
+                "dureeEnergie": 50,
+                "dureeEsquive": 50,
+                "dureeGuerre": 50,
+                "bonusAction": 85,
+                "bonusEnergie": 110
+              }
+            },
+            "falcon": {
+              "energie": 3,
+              "activation": "aucune",
+              "duree": "Instantanée",
+              "informations": "<p>Découvrir tous les aspects d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de réaction et de défense d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects exceptionnels d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir le ou les points faibles d’un PNJ (salopard, patron ou colosse).</p><p>Découvrir les armes (et leurs statistiques) d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de bouclier, d’armure et de santé d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir toutes les capacités d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects et valeurs dérivées d’une bande.</p>",
+              "textarea": {
+                "duree": 50
+              }
+            }
+          },
+          "special": [],
+          "data": {
+            "armure": 0,
+            "champDeForce": 0,
+            "energie": 10
+          }
+        }
+      },
+      "special": {}
+    }
+  },
+  "effects": [],
+  "_id": "ef3cb5fb9e65fb04",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.armours-base.ef3cb5fb9e65fb04"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890021871,
+    "modifiedTime": 1693092459944,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!ef3cb5fb9e65fb04"
+}

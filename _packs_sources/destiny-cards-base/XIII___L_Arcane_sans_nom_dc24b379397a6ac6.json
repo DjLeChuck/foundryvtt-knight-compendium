@@ -1,0 +1,29 @@
+{
+  "name": "XIII - L'Arcane sans nom",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider d'anéantir purement et simplement tous les PNJ de type hostile présents dans la scène.</p>\n<blockquote><p>Sans un regard, elle mènera la fin des plus faibles.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "dc24b379397a6ac6",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.dc24b379397a6ac6"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353100,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!dc24b379397a6ac6"
+}

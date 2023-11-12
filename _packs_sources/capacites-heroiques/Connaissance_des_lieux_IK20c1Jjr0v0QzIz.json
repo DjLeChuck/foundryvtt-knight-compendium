@@ -1,0 +1,29 @@
+{
+  "name": "Connaissance des lieux",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Le MJ, si possible, doit donner un plan pr&eacute;cis du b&acirc;timent o&ugrave; les PJ se trouvent. Une fois activ&eacute;e, cette capacit&eacute; s&rsquo;applique sur seulement un &eacute;tage. Le MJ doit placer sur le plan les &eacute;ventuelles pi&egrave;ces dissimul&eacute;es et les menaces potentielles, personnages ou syst&egrave;mes de s&eacute;curit&eacute; par exemple.</p>\n<ul>\n<li>Activation : Aucune</li>\n<li>Dur&eacute;e : Une sc&egrave;ne</li>\n<li>H&eacute;ro&iuml;sme : 3</li>\n<li>Cat&eacute;gorie : Enqu&ecirc;te</li>\n<li>XP : 10</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.IK20c1Jjr0v0QzIz"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667228233230,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "IK20c1Jjr0v0QzIz",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!IK20c1Jjr0v0QzIz"
+}

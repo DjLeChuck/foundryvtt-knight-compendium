@@ -1,0 +1,126 @@
+{
+  "name": "Traumas graves",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "description": "Le PJ peut recouvrer 30 points d'espoir en échange d'une blessure mentale particulièrement grave, pouvant par exemple être une phobie majeure ou encore un effet se déroulant dans des circonstances pouvant survenir régulièrement (combat, poursuite, scène de dialogue...).",
+  "results": [
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Dissociation",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "91b5eb5d8dc0ecc3",
+      "_id": "oVh9u4cDWK7JRETD",
+      "flags": {},
+      "_key": "!tables.results!A0f0O8oNV1TEUh3v.oVh9u4cDWK7JRETD"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Dépression",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "55f542cc34afc1fe",
+      "_id": "kIWJhiig3z9RrCZO",
+      "flags": {},
+      "_key": "!tables.results!A0f0O8oNV1TEUh3v.kIWJhiig3z9RrCZO"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Paranoïa",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "88133536ccda4163",
+      "_id": "DjT03X8V21DeokdS",
+      "flags": {},
+      "_key": "!tables.results!A0f0O8oNV1TEUh3v.DjT03X8V21DeokdS"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Trouble mémoriel",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "7039bd210322d2fc",
+      "_id": "gIQCBGJnn4eWPydv",
+      "flags": {},
+      "_key": "!tables.results!A0f0O8oNV1TEUh3v.gIQCBGJnn4eWPydv"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Addiction",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "4be2bc12f73b36a0",
+      "_id": "LsN62H4WbdnSbeTN",
+      "flags": {},
+      "_key": "!tables.results!A0f0O8oNV1TEUh3v.LsN62H4WbdnSbeTN"
+    },
+    {
+      "type": 2,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Hallucinations",
+      "img": "systems/knight/assets/icons/trauma.svg",
+      "documentCollection": "knight-compendium.traumas-base",
+      "documentId": "b7dfe9b399ae5bbb",
+      "_id": "ozUZPlTCsoxLTjG3",
+      "flags": {},
+      "_key": "!tables.results!A0f0O8oNV1TEUh3v.ozUZPlTCsoxLTjG3"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-tables.A0f0O8oNV1TEUh3v"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "A0f0O8oNV1TEUh3v",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026008875,
+    "modifiedTime": 1668026672573,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!tables!A0f0O8oNV1TEUh3v"
+}

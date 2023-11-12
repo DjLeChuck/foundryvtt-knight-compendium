@@ -1,0 +1,29 @@
+{
+  "name": "XV - Le Diable",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider de faire en sorte qu'un PNJ hostile, un PNJ salopard ou un PNJ patron lance 6 dés de moins à chacun de ses tests. Cette capacité dure une scène ou une phase de conflit entière. Si un PNJ tombe à 0 dé de cette manière, il échoue systématiquement.</p>\n<blockquote><p>Ses ennemis seront tous maudits.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "4c94760dd004d30e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.4c94760dd004d30e"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353098,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!4c94760dd004d30e"
+}

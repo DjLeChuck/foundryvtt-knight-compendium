@@ -1,0 +1,29 @@
+{
+  "name": "I - Le Bateleur",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant la carte du Bateleur, un PJ peut modifier la scène décrite par le MJ, juste après cette description. Il peut la modifier en y ajoutant ou enlevant un (et un seul) élément de décor, ou objet, mais ne peut pas ajouter ou enlever de PNJ ou de PJ présent. De même, il ne peut pas créer d'indice ou d'élément crucial pour la mission en cours. S'il l'accepte, le MJ ne peut plus ignorer cette modification ou l'annuler.</p>\n<blockquote><p>Il pourra se jouer de tout et modifier ce qui était ou ce qui devrait être.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "566fbe1e3b542d42",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.566fbe1e3b542d42"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353099,
+    "modifiedTime": 1668026490400,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!566fbe1e3b542d42"
+}

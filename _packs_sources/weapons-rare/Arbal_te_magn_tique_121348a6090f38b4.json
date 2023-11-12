@@ -1,0 +1,203 @@
+{
+  "name": "Arbalète magnétique",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/arbalete-magnetique.webp",
+  "system": {
+    "description": "<p>Cette « arbalète » est en réalité une catapulte magnétique qui propulse de fins épieux sans détonation. Ces épieux, que les chevaliers nomment « carreaux », sont en élément alpha et sont si fins qu'ils peuvent traverser la plupart des protections. De minuscules ailerons les amènent à tourner sur eux-mêmes, ce qui les stabilise en vol. Une fois dans la cible, ils relâchent des neurotoxines, des sédatifs ou des nanomachines destructrices. Le carreau barbelé, lui, va déplier trois rangs de lames, ce qui le rend inextirpable et multiplie ses chances de toucher un organe vital. Tout ça en fait une arme discrète et mortelle.\nChanger de type de carreau prend une action de déplacement.</p>\n",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "longue",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": true,
+      "actuel": "0",
+      "value": 4,
+      "liste": {
+        "0": {
+          "nom": "Carreau à nanomachines",
+          "raw": [
+            "antivehicule",
+            "destructeur",
+            "lumiere 4"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 6,
+            "fixe": 6
+          },
+          "violence": {
+            "dice": null,
+            "fixe": 0
+          }
+        },
+        "1": {
+          "nom": "Carreau à neurotoxine",
+          "raw": [
+            "degatscontinus 9",
+            "ignorearmure"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 5,
+            "fixe": null
+          },
+          "violence": {
+            "dice": null,
+            "fixe": 1
+          }
+        },
+        "2": {
+          "nom": "Carreau barbelé",
+          "raw": [
+            "ignorearmure"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 6,
+            "fixe": null
+          },
+          "violence": {
+            "dice": null,
+            "fixe": 1
+          }
+        },
+        "3": {
+          "nom": "Carreau choc",
+          "raw": [
+            "choc 4",
+            "ignorearmure"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 4,
+            "fixe": null
+          },
+          "violence": {
+            "dice": null,
+            "fixe": 1
+          }
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 1,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "deuxmains",
+        "precision",
+        "silencieux"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "121348a6090f38b4",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.121348a6090f38b4"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009123,
+    "modifiedTime": 1693092600322,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!121348a6090f38b4"
+}

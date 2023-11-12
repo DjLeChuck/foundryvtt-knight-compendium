@@ -1,0 +1,29 @@
+{
+  "name": "XVII - L'Étoile",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider d'ajouter une (et une seule) troisième caractéristique (à choisir lorsque la carte est jouée) à chacun de ses combos (ajouter par exemple la Force à l'ensemble des jets de la phase de conflit ou de la scène). Si cette caractéristique ne peut s'appliquer au combo ou ne semble pas pertinente, le MJ peut augmenter la difficulté du test. Cette troisième caractéristique suit les règles normales de combo. Cette capacité dure le temps d'une scène ou d'une phase de conflit entière.</p>\n<blockquote><p>Brillante et chanceuse, elle donnera le meilleur d'elle-même.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "0f66121e362b2430",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.0f66121e362b2430"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353098,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!0f66121e362b2430"
+}

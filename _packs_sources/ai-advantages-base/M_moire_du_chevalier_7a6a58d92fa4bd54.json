@@ -1,0 +1,60 @@
+{
+  "name": "Mémoire du chevalier",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA est à tel point persuadée d'être un chevalier mort au combat qu'elle a scanné toutes les bases de données possible et même les dossiers les plus secrets du Knight. Elle s'est donc constitué un stock important de mémoires et d'expériences. En termes de jeu, une fois par partie, le chevalier peut obtenir 2 succès automatiques à l'un de ses tests, quel qu'il soit, en plus de ceux qu'il peut obtenir par d'éventuels overdrives : l'IA reconnaît une situation « qu'elle a déjà vécu ».</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "7a6a58d92fa4bd54",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.7a6a58d92fa4bd54"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216121,
+    "modifiedTime": 1668026466789,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!7a6a58d92fa4bd54"
+}

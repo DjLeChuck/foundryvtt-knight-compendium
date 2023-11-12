@@ -1,0 +1,60 @@
+{
+  "name": "Aisance",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Par adaptabilité ou par contrôle de son corps, le héros fait preuve d'une aisance particulière avec tout type d'armures et d'armes. Il peut, par exemple, tirer à la mitrailleuse tout en se déplaçant ou nager avec une armure de plate. En termes de jeu, le PJ ignore l'effet <em>lourd</em> des armes. Cependant, il doit quand même les tenir à <em>deux mains</em> pour pouvoir les utiliser.</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "a425308afe59328b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.a425308afe59328b"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192550,
+    "modifiedTime": 1668026461670,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!a425308afe59328b"
+}

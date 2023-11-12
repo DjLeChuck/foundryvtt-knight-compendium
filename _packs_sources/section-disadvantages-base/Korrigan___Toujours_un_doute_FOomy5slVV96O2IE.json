@@ -1,0 +1,96 @@
+{
+  "name": "Korrigan - Toujours un doute",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>Le PJ a &eacute;t&eacute; form&eacute; pour toujours avoir un doute sur quiconque et les autres chevaliers le lui rendent bien en ne lui accordant qu&rsquo;une confiance tr&egrave;s limit&eacute;e. Pour symboliser cela, le PJ, lorsqu&rsquo;il effectue des tests d&rsquo;aide envers les membres de sa coterie ou d&rsquo;autres personnages alli&eacute;s, subit un malus de 3D. De plus, aucun PJ ou PNJ alli&eacute; ne peut utiliser de module ou d&rsquo;avantage pour faire en sorte que le PJ provenant du Korrigan regagne des points d&rsquo;espoir.</p>",
+    "type": "standard",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": false,
+          "value": 9
+        },
+        "bete": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "chair": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "machine": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "dame": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        },
+        "masque": {
+          "has": false,
+          "value": 9,
+          "max": 9
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.section-disadvantages-base.FOomy5slVV96O2IE"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667642562282,
+    "modifiedTime": 1668026692648,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "FOomy5slVV96O2IE",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FOomy5slVV96O2IE"
+}

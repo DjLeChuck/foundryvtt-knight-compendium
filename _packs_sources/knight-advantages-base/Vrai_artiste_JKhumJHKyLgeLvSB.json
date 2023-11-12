@@ -1,0 +1,60 @@
+{
+  "name": "Vrai artiste",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le personnage est un r&eacute;el artiste, ma&icirc;tre dans son art et pouvant l&rsquo;utiliser pour combattre les t&eacute;n&egrave;bres. Le joueur doit expliquer comment son personnage a appris cet art, comment ila acc&eacute;d&eacute; &agrave; l&rsquo;excellence et devra le pratiquer r&eacute;guli&egrave;rement. &Agrave; la fin de l&rsquo;&eacute;tape 3, le PJ doit choisir un des six domaines artistiques pr&eacute;sents dans la partie &laquo; les effets de l&rsquo;art &raquo;. Il peut b&eacute;n&eacute;ficier des effets de pratique et ses &oelig;uvres, s&rsquo;il en cr&eacute;e, auront les effets d&eacute;crits.</p>",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667643380704,
+    "modifiedTime": 1668026461672,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "JKhumJHKyLgeLvSB",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.JKhumJHKyLgeLvSB"
+    }
+  },
+  "_key": "!items!JKhumJHKyLgeLvSB"
+}

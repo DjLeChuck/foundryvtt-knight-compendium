@@ -1,0 +1,141 @@
+{
+  "name": "Épée lumière",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/epee-lumiere.webp",
+  "system": {
+    "description": "<p>Cette arme est de celles qui font les héros. L'épée lumière, c'est la flexibilité du titane, la densité du tungstène, le tranchant de l'élément alpha et la flamme éblouissante du magnésium. Comme l'épée bâtarde, sa poignée s'allonge et sa garde modifie son équilibre pour l'utiliser à deux mains. Des canaux microscopiques déposent du magnésium à la surface de la lame. Sur demande, et à chaque coup porté, le magnésium prend feu dans un violent flash éblouissant les créatures de l'Anathème.</p>\n",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": true,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 6,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 3,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 6,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 6,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antianatheme",
+        "assistanceattaque",
+        "leste",
+        "lumiere 6"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [
+        "antianatheme",
+        "assistanceattaque",
+        "deuxmains",
+        "leste",
+        "lumiere 6"
+      ],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "292185629cc75c5f",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.292185629cc75c5f"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009130,
+    "modifiedTime": 1693092600324,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!292185629cc75c5f"
+}

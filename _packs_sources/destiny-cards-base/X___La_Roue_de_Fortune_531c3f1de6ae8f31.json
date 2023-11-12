@@ -1,0 +1,29 @@
+{
+  "name": "X - La Roue-de-Fortune",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider de relancer ou non une fois (et une seule) chacun de ses jets de dés ratés, juste après les avoir effectués, et doit conserver le second résultat, même s'il ne lui convient pas. Cette capacité dure le temps d'une scène ou d'une phase de conflit entière.</p>\n<blockquote><p>Elle décidera de la réussite ou de l'échec des entreprises.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "531c3f1de6ae8f31",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.531c3f1de6ae8f31"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353099,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!531c3f1de6ae8f31"
+}

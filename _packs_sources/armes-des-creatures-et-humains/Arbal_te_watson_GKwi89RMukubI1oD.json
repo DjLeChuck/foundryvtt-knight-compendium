@@ -1,0 +1,188 @@
+{
+  "name": "Arbalète watson",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "",
+    "rarete": "standard",
+    "type": "distance",
+    "portee": "longue",
+    "prix": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 12
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "silencieux",
+        "ignorechampdeforce",
+        "antianatheme",
+        "degatscontinus 6",
+        "choc 2",
+        "artillerie"
+      ],
+      "custom": [
+        {
+          "label": "Desigantion total",
+          "description": "",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          }
+        }
+      ]
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.armes-des-creatures-et-humains.GKwi89RMukubI1oD"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667234526130,
+    "modifiedTime": 1668026455984,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "GKwi89RMukubI1oD",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!GKwi89RMukubI1oD"
+}

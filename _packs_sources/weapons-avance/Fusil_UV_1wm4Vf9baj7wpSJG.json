@@ -1,0 +1,135 @@
+{
+  "name": "Fusil UV",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/fusil-uv.webp",
+  "system": {
+    "description": "<p>Compact, arrondi, d'un blanc neigeux, le fusil UV possède deux canons superposés destinés à envoyer des munitions à UV, des petits carreaux lumineux. D'un geste brusque, le tireur actionne la poignée sous les canons et deux nouvelles munitions sont placées directement dans les fûts. Sur le côté, un gros chargeur ovoïde contient douze « carreaux » dont la lumière luit au travers du blanc de l'arme. Très simple d'utilisation, le fusil UV est destiné à remplacer sous peu le shotgun escamotable au sein du Knight.</p>\n",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "courte",
+    "prix": 40,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 5,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antianatheme",
+        "lumiere 2",
+        "tenebricide",
+        "deuxmains"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.7d58753647002ed4"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005675,
+    "modifiedTime": 1693092596472,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "1wm4Vf9baj7wpSJG",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!1wm4Vf9baj7wpSJG"
+}

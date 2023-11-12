@@ -1,0 +1,114 @@
+{
+  "name": "Seth, canon intelligent à munition drones",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>Seth, divinité égyptienne de la foudre, du tonnerre et du chaos était aussi craint parce qu'il rendait les déserts arides et les terres mortes. Le canon intelligent Seth est un peu tout cela à la fois, frappant aussi fort que la foudre, plus bruyant que le tonnerre et capable de laisser un bâtiment aussi aride de vie que l'est un désert.</p>\n<p>La nécessité de ce canon intelligent est née d'un besoin de puissance de feu, centrée sur un seul et même point. Le principe de Seth est simple : un énorme canon multitubes haut comme un chevalier, se portant à la hanche ou sur l'épaule, équipé de rails magnétiques pouvant propulser des dizaines de munitions drones à une vitesse vertigineuse avec quelques millimètres carrés de précision, et ce, sur plusieurs kilomètres. Les munitions drones suivent une trajectoire préétablie par l'IA du Seth et peuvent être redirigées par le tireur durant leur très courte balade entre l'arme et la cible. Ces balles autopropulsées sont de véritables petits condensés de technologie, des sortes de mini-roquettes se comportant comme un essaim de frelons tueurs fondant sur une victime, évitant les obstacles toutes seules et se dirigeant inexorablement vers leur cible.</p>\n<p>Chacune de ces munitions drones est équipée pour se frayer un chemin dans n'importe quel bâtiment (par des ouvertures) ou blindé (en éventrant le blindage), puis pour exploser en une jolie déflagration assourdissante capable de décimer n'importe quoi à l'intérieur.</p>\n<p>Généralement, un seul tir de Seth propulsant une dizaine de munitions suffit à stopper net un char d'assaut en pleine course.</p>\n",
+    "rarete": "prestige",
+    "type": "distance",
+    "portee": "lointaine",
+    "prix": 150,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 12,
+      "fixe": 0
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 0
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antivehicule",
+        "artillerie",
+        "assistanceattaque",
+        "designation",
+        "deuxmains",
+        "dispersion 3",
+        "lourd",
+        "precision",
+        "ultraviolence"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "db48239933b039c0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-prestige.db48239933b039c0"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890012495,
+    "modifiedTime": 1668026445676,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!db48239933b039c0"
+}

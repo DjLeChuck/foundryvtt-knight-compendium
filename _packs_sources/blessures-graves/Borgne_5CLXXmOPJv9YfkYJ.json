@@ -1,0 +1,105 @@
+{
+  "name": "Borgne",
+  "type": "blessure",
+  "img": "systems/knight/assets/icons/blessureGrave.svg",
+  "system": {
+    "description": "<p>Le personnage perd un &oelig;il et re&ccedil;oit un malus de 1 &agrave; ses caract&eacute;ristiques <em>Tir</em> et <em>Perception</em>.</p>",
+    "soigne": {
+      "implant": false,
+      "reconstruction": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 1
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.blessures-graves.5CLXXmOPJv9YfkYJ"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667768768062,
+    "modifiedTime": 1668026472538,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "5CLXXmOPJv9YfkYJ",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5CLXXmOPJv9YfkYJ"
+}

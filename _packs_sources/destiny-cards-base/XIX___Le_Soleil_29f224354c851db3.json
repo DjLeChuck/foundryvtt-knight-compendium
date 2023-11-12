@@ -1,0 +1,29 @@
+{
+  "name": "XIX - Le Soleil",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, un PJ peut décider d'appliquer à chacune de ses attaques réussies, pendant toute la durée d'une phase de conflit, les effets <em>lumière 6</em> et <em>anti-Anathème</em> (voir la description des effets dans l'annexe 2 : Arsenal – page 414).</p>\n<blockquote><p>Sous sa lumière, les ténèbres faibliront.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "29f224354c851db3",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.29f224354c851db3"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353098,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!29f224354c851db3"
+}

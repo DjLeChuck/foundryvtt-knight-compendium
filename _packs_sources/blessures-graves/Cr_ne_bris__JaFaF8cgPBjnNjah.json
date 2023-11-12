@@ -1,0 +1,105 @@
+{
+  "name": "Crâne brisé",
+  "type": "blessure",
+  "img": "systems/knight/assets/icons/blessureGrave.svg",
+  "system": {
+    "description": "<p>Le personnage perd 1 point dans toutes ses caract&eacute;ristiques li&eacute;es aux aspects <em>Machine</em>, <em>Dame</em> et <em>Masque</em>.</p>",
+    "soigne": {
+      "implant": false,
+      "reconstruction": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 1
+          },
+          "savoir": {
+            "value": 1
+          },
+          "technique": {
+            "value": 1
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 1
+          },
+          "parole": {
+            "value": 1
+          },
+          "sangFroid": {
+            "value": 1
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 1
+          },
+          "dexterite": {
+            "value": 1
+          },
+          "perception": {
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.blessures-graves.JaFaF8cgPBjnNjah"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667768530790,
+    "modifiedTime": 1668026472539,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "JaFaF8cgPBjnNjah",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!JaFaF8cgPBjnNjah"
+}

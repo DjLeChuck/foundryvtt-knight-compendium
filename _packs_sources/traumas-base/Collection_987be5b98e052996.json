@@ -1,0 +1,105 @@
+{
+  "name": "Collection",
+  "type": "trauma",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "system": {
+    "description": "<p>Le PJ se sent désormais obligé de collectionner des choses en rapport avec la cause de son trauma. Par exemple, s'il a subi un trauma à cause d'un type de créature, il en collectionne par exemple le crâne ou les dents. S'il a subi un trauma à cause de la perte d'alliés ou d'innocents, il conserve des photos d'eux ou des noms dans un carnet. Cette collection doit être morbide ou inquiétante pour les alliés du PJ.</p>\n",
+    "gainEspoir": {
+      "value": 10,
+      "applique": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "987be5b98e052996",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-base.987be5b98e052996"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026003359,
+    "modifiedTime": 1668026741678,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!987be5b98e052996"
+}

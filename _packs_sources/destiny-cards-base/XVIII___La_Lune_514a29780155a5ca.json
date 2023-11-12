@@ -1,0 +1,29 @@
+{
+  "name": "XVIII - La Lune",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ applique son effet. Durant une scène ou une phase de conflit entière, les ennemis lui infligeant des dégâts (sur ses PA ou ses PS) subissent instantanément 5D6 points de dégâts (sans bonus fixe et sans effet).</p>\n<blockquote><p>Ceux qui la blesseront ne s'en sortiront pas indemnes.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "514a29780155a5ca",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.514a29780155a5ca"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353099,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!514a29780155a5ca"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "XIV - Tempérance",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider de s'immuniser totalement à la perte de points d'espoir (qu'elle soit due à une situation, à un ennemi ou à une capacité de PNJ) durant une mission entière.</p>\n<blockquote><p>Sans passion, sans peur, son esprit sera comme l'acier.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "50796089e42806bb",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.50796089e42806bb"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353099,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!50796089e42806bb"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Shotgun automatique léger",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/shotgun-automatique-leger.webp",
+  "system": {
+    "description": "<p>Techniquement, c'est un saiga-12, c'est-à-dire une kalachnikov qui tire des cartouches de shotgun. L'arsenal a juste revu les matériaux, l'équilibre, la longueur du canon, ajouté un compensateur de recul, revu à la hausse la puissance des cartouches, la capacité des chargeurs camembert... On a aussi adapté l'ergonomie générale, surtout au niveau des poignées pistolet, de la visée laser et de la lampe sous le canon afin de faciliter le tir instinctif et le maintien de l'arme à une seule main.</p>\n",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 50,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 3,
+      "fixe": 10,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 5,
+      "fixe": 10,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 2",
+        "dispersion 3",
+        "jumeleakimbo",
+        "meurtrier",
+        "ultraviolence"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.4831f8aff83a93cf"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005668,
+    "modifiedTime": 1693092596475,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "Ok6GcCfOxmkGin4K",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!Ok6GcCfOxmkGin4K"
+}

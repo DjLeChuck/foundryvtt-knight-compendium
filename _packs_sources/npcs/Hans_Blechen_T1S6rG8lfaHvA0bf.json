@@ -1,0 +1,1109 @@
+{
+  "name": "Hans Blechen",
+  "type": "pnj",
+  "img": "modules/knight-compendium/assets/npc/hans-blechen.webp",
+  "system": {
+    "combat": {
+      "armesimprovisees": {
+        "aspect": "chair",
+        "contact": "combat",
+        "distance": "tir",
+        "liste": {
+          "ai1": {
+            "force": 1,
+            "chair": [
+              1,
+              2
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 2
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "force": 1,
+                "chair": [
+                  1,
+                  2
+                ],
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai2": {
+            "force": 2,
+            "chair": [
+              3,
+              4
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 4
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 4
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai3": {
+            "force": 3,
+            "chair": [
+              5,
+              6
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 5
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 3
+              },
+              "2": {
+                "degats": {
+                  "dice": 5
+                },
+                "violence": {
+                  "dice": 7
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "3": {
+                "degats": {
+                  "dice": 6
+                },
+                "violence": {
+                  "dice": 6
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai4": {
+            "force": 4,
+            "chair": [
+              7,
+              8
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 7
+                },
+                "violence": {
+                  "dice": 9
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 8
+                },
+                "violence": {
+                  "dice": 8
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          },
+          "ai5": {
+            "force": 5,
+            "chair": [
+              9,
+              10
+            ],
+            "liste": {
+              "1": {
+                "degats": {
+                  "dice": 10
+                },
+                "violence": {
+                  "dice": 12
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 1
+              },
+              "2": {
+                "degats": {
+                  "dice": 11
+                },
+                "violence": {
+                  "dice": 11
+                },
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                },
+                "utilisations": 2
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "modificateur": 0,
+        "succesbonus": 0,
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "nods": {
+        "soin": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "armure": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "energie": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        }
+      },
+      "grenades": {
+        "quantity": {
+          "value": 5,
+          "max": 5
+        },
+        "liste": {
+          "antiblindage": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "destructeur",
+                "dispersion 6",
+                "penetrant 6",
+                "percearmure 20"
+              ],
+              "custom": []
+            }
+          },
+          "explosive": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antivehicule",
+                "choc 1",
+                "dispersion 3"
+              ],
+              "custom": []
+            }
+          },
+          "flashbang": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "barrage 2",
+                "choc 1",
+                "dispersion 6"
+              ],
+              "custom": []
+            }
+          },
+          "iem": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "dispersion 6",
+                "parasitage 2"
+              ],
+              "custom": []
+            }
+          },
+          "shrapnel": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "dispersion 6",
+                "meurtrier",
+                "ultraviolence"
+              ],
+              "custom": []
+            }
+          }
+        }
+      }
+    },
+    "aspects": {
+      "chair": {
+        "value": 6,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "value": 4,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "0",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "value": 14,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "3",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "value": 12,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "3",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "value": 10,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "1",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      }
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "diceBase": 3,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 6
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "diceBonus": {},
+        "diceMalus": {},
+        "bonus": {},
+        "malus": {}
+      },
+      "optionDeploy": false
+    },
+    "reaction": {
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 7,
+      "optionDeploy": false
+    },
+    "defense": {
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "base": 1,
+      "optionDeploy": false
+    },
+    "sante": {
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 0,
+      "max": 0,
+      "base": 100,
+      "optionDeploy": true
+    },
+    "description": "<p>Hans Blechen est un artiste reconnu dans l&rsquo;arche d&rsquo;Humanit&eacute; et dans le monde pour ses dons de peintre. N&eacute; d&rsquo;une m&egrave;re qu&rsquo;il n&rsquo;a jamais connue, son p&egrave;re &eacute;tait lui-m&ecirc;me un grand artiste qui n&rsquo;a pas tard&eacute; &agrave; &ecirc;tre surpass&eacute; par son fils. C&rsquo;est un peu avant l&rsquo;arriv&eacute;e de l&rsquo;Anath&egrave;me qu&rsquo;Hans, lors d&rsquo;une exposition &agrave; Londres, est devenu mondialement connu, notamment gr&acirc;ce &agrave; son &oelig;uvre &laquo; Utopia &raquo;. Ce tableau magistral repr&eacute;sente un monde de paix et chaque &eacute;l&eacute;ment y est si pr&eacute;cis qu&rsquo;on croirait regarder une fen&ecirc;tre sur une autre r&eacute;alit&eacute;.</p>\n<p>Lors de la cr&eacute;ation du Knight, Hans a &eacute;t&eacute; fascin&eacute; par Excalibur et ses d&eacute;monstrations de puissance. Il a activement particip&eacute; &agrave; faire conna&icirc;tre l&rsquo;organisation par ses &oelig;uvres dans lesquelles il illustrait Arthur comme le sauveur de l&rsquo;Humanit&eacute;. C&rsquo;est d&rsquo;ailleurs depuis un proche ami de Merlin.</p>\n<p>Cependant, depuis quelques semaines, l&rsquo;homme s&rsquo;est aigri. Ses &oelig;uvres, inspir&eacute;es des bas-fonds des conforteresses, v&eacute;hiculent une sensation de d&eacute;sespoir et la mort comme derni&egrave;re solution. Pis, il se sent depuis peu attir&eacute; par les &eacute;tendues glaciaires du Sahara et envisage s&eacute;rieusement de rejoindre ce territoire de silence et de mort.</p>",
+    "tactique": "<p>Hans Blechen ne combat jamais. S&rsquo;il est menac&eacute;, il pr&eacute;f&egrave;re se rendre directement ou se dissimuler. S&rsquo;il en a besoin, il peut appeler &agrave; la rescousse une bande de miliciens.</p>",
+    "type": "Allié (initié) / Salopard (héros)",
+    "pointsFaibles": "",
+    "phase2Activate": false,
+    "phase2": {
+      "sante": 0,
+      "armure": 0,
+      "energie": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": "0",
+            "majeur": "0"
+          }
+        }
+      }
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "bouclier": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "resilience": {
+      "value": 0,
+      "max": 0
+    },
+    "surnom": "",
+    "age": "",
+    "wear": "",
+    "archetype": "",
+    "hautFait": "",
+    "section": "",
+    "blason": "",
+    "histoire": "",
+    "metaarmure": "",
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "champDeForce": {
+      "value": 0,
+      "base": 0,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "espoir": {
+      "value": 0,
+      "max": 0
+    },
+    "options": {
+      "energie": false,
+      "champDeForce": false,
+      "sante": true,
+      "bouclier": false,
+      "armure": false,
+      "espoir": false,
+      "resilience": false,
+      "modules": false,
+      "phase2": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Hans Blechen",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/knight-compendium/assets/npc/hans-blechen.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "sante"
+    },
+    "bar2": {
+      "attribute": "armure"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Surhomme",
+      "type": "capacite",
+      "system": {
+        "description": "<p>Le MJ peut r&eacute;partir 7 points dans les aspects exceptionnels du PNJ et lui faire b&eacute;n&eacute;ficier de leurs effets.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "_id": "5RT7K3VRZnKGehcJ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Kisv9JwB5w6zIXyv": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "3.10.2",
+        "coreVersion": "10.291",
+        "createdTime": 1685553515065,
+        "modifiedTime": 1685553530970,
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+      },
+      "_key": "!actors.items!T1S6rG8lfaHvA0bf.5RT7K3VRZnKGehcJ"
+    },
+    {
+      "name": "Lumière",
+      "type": "capacite",
+      "system": {
+        "description": "<p>Quelque chose &eacute;mane du PNJ &agrave; tel point que les cr&eacute;atures des t&eacute;n&egrave;bres n&rsquo;osent s&rsquo;en approcher &agrave; moins de port&eacute;e moyenne. Si elles devaient se trouver &agrave; une port&eacute;e inf&eacute;rieure, elles subiraient automatiquement l&rsquo;effet lumi&egrave;re 6 tant qu&rsquo;elles y restent.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "_id": "FADaUZ0sUoXRFMmS",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Kisv9JwB5w6zIXyv": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "3.10.2",
+        "coreVersion": "10.291",
+        "createdTime": 1685553550274,
+        "modifiedTime": 1685553574355,
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+      },
+      "_key": "!actors.items!T1S6rG8lfaHvA0bf.FADaUZ0sUoXRFMmS"
+    }
+  ],
+  "effects": [
+    {
+      "label": "Modules",
+      "icon": null,
+      "changes": [],
+      "disabled": false,
+      "_id": "lLcaVJDYZotDrjLH",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "_key": "!actors.effects!T1S6rG8lfaHvA0bf.lLcaVJDYZotDrjLH"
+    },
+    {
+      "label": "Capacites",
+      "icon": null,
+      "changes": [
+        {
+          "key": "system.aspects.chair.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.chair.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.chair.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.bete.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.bete.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.bete.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.machine.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.machine.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.machine.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.dame.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.dame.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.dame.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.masque.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.masque.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.masque.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        }
+      ],
+      "disabled": false,
+      "_id": "N2ZXUI1hPLiKHt2D",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "_key": "!actors.effects!T1S6rG8lfaHvA0bf.N2ZXUI1hPLiKHt2D"
+    },
+    {
+      "label": "Armes",
+      "icon": null,
+      "changes": [],
+      "disabled": false,
+      "_id": "IvRpYEQKJyHxXROC",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": null,
+      "transfer": false,
+      "flags": {},
+      "_key": "!actors.effects!T1S6rG8lfaHvA0bf.IvRpYEQKJyHxXROC"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Actor.T1S6rG8lfaHvA0bf"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.10.2",
+    "coreVersion": "10.291",
+    "createdTime": 1685553201506,
+    "modifiedTime": 1686391323307,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "T1S6rG8lfaHvA0bf",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Kisv9JwB5w6zIXyv": 3
+  },
+  "_key": "!actors!T1S6rG8lfaHvA0bf"
+}

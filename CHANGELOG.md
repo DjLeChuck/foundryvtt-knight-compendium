@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Description of heroic capacity "Colère du Juste"
+
+### Changed
+
+- (Dev.) Commit JSON files for packs and use FoundryVTT cli to pack/unpack them
+
+### Added
+
+- (Dev.) GitHub action workflow for module release
+
 ## [10.1.1] - 2023-09-07
 
 ### Fixed

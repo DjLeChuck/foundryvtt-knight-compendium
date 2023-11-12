@@ -1,0 +1,263 @@
+{
+  "name": "Moto steed",
+  "type": "vehicule",
+  "img": "systems/knight/assets/icons/vehicule.svg",
+  "system": {
+    "manoeuvrabilite": 3,
+    "vitesse": 3,
+    "passagers": 1,
+    "champDeForce": {
+      "value": 0,
+      "base": 0,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 30,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 30,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "embuscade": {
+        "dice": 3,
+        "value": 0
+      }
+    },
+    "reaction": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "defense": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "equipage": {
+      "value": 0,
+      "max": 0,
+      "pilote": {
+        "name": "",
+        "id": ""
+      },
+      "passagers": []
+    },
+    "description": "<p>La moto steed est le v&eacute;hicule personnel le plus courant au sein du Knight, notamment au sein de la section Griffon. D&rsquo;aspect, c&rsquo;est un engin tr&egrave;s maniable, puissant, rac&eacute;, avec un guidon &eacute;pais prot&eacute;g&eacute; par un bec a&eacute;rodynamique. Les pneus, mont&eacute;s sur deux &eacute;paisses roues &agrave; suspension intelligente, ne sont pas gonfl&eacute;s mais form&eacute;s de mailles alv&eacute;ol&eacute;es auto-r&eacute;parantes et pouvant supporter des freinages &agrave; haute vitesse. La majorit&eacute; des chevaliers personnalisent leur moto avec des peintures color&eacute;es, affichant leur amour de la vitesse et du danger.</p>\n<p>Enfin, il est &agrave; noter que la moto steed constitue un module qui peut &ecirc;tre achet&eacute; &agrave; l&rsquo;arsenal. Dot&eacute;es d&rsquo;une technologie de pointe, toutes les steed sont en effet foldables, &agrave; l&rsquo;instar des m&eacute;ta-armures, et peuvent &ecirc;tre d&eacute;ploy&eacute;es depuis des petits modules &agrave; faire glisser au sol (ou gr&acirc;ce &agrave; la derni&egrave;re &eacute;volution de la m&eacute;ta-armure Priest).</p>"
+  },
+  "prototypeToken": {
+    "name": "Moto steed",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/knight/assets/icons/vehicule.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Shotgun escamotable",
+      "type": "arme",
+      "img": "modules/knight-compendium/assets/weapons/shotgun-escamotable.webp",
+      "system": {
+        "description": "<p>Ce shotgun pliable est installé à côté des extincteurs dans les couloirs de Camelot et dans les véhicules du Knight. Décrocher, déplier les poignées, un déclic se fait entendre, écarter les poignées énergiquement, ça coulisse, nouveau déclic, et voilà, un fusil à pompe armé et prêt à tirer. Il se recharge par l'arrière, sous la crosse, dans deux magasins tubulaires. Il est utilisable sans méta-armure.</p>\n",
+        "rarete": "standard",
+        "type": "distance",
+        "portee": "moyenne",
+        "prix": 20,
+        "listes": {},
+        "options2mains": {
+          "has": false,
+          "actuel": "1main",
+          "1main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          },
+          "2main": {
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            }
+          }
+        },
+        "optionsmunitions": {
+          "has": false,
+          "actuel": "0",
+          "value": 1,
+          "liste": {}
+        },
+        "tourelle": {
+          "has": false,
+          "attaque": {
+            "dice": 0,
+            "fixe": 0
+          }
+        },
+        "degats": {
+          "dice": 2,
+          "fixe": 10
+        },
+        "violence": {
+          "dice": 2,
+          "fixe": 0
+        },
+        "effets": {
+          "liste": [],
+          "raw": [
+            "barrage 2",
+            "choc 1",
+            "deuxmains",
+            "meurtrier"
+          ],
+          "custom": []
+        },
+        "effets2mains": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "distance": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "ornementales": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        },
+        "structurelles": {
+          "liste": [],
+          "raw": [],
+          "custom": []
+        }
+      },
+      "effects": [],
+      "_id": "ZVxwQEA8N3SxYsja",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.knight-compendium.weapons-standard.9e6924b375d1b2bc"
+        }
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890002684,
+        "modifiedTime": 1667498936294,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+      },
+      "folder": "WSLEdZOoNq5OS4E3",
+      "sort": 0,
+      "_key": "!actors.items!6gfj8BxzMikY3riX.ZVxwQEA8N3SxYsja"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.vehicules.6gfj8BxzMikY3riX"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667498773476,
+    "modifiedTime": 1668026280502,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "6gfj8BxzMikY3riX",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!6gfj8BxzMikY3riX"
+}

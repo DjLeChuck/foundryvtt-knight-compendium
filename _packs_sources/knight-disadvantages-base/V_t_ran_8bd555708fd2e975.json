@@ -1,0 +1,96 @@
+{
+  "name": "Vétéran",
+  "type": "inconvenient",
+  "img": "systems/knight/assets/icons/inconvenient.svg",
+  "system": {
+    "description": "<p>Le personnage est déjà bien âgé, il a sans doute plus de 50 ans et ses potentiels sont plus difficiles à développer. S'il possède déjà de l'expérience, il est plus difficile pour lui d'en acquérir. En termes de jeu, le personnage ne peut augmenter ses scores d'aspects au-delà de 7.</p>\n",
+    "type": "standard",
+    "limitations": {
+      "aspects": {
+        "all": {
+          "has": true,
+          "value": 7
+        },
+        "bete": {
+          "has": false,
+          "value": 7,
+          "max": 7
+        },
+        "chair": {
+          "has": false,
+          "value": 7,
+          "max": 7
+        },
+        "machine": {
+          "has": false,
+          "value": 7,
+          "max": 7
+        },
+        "dame": {
+          "has": false,
+          "value": 7,
+          "max": 7
+        },
+        "masque": {
+          "has": false,
+          "value": 7,
+          "max": 7
+        }
+      },
+      "espoir": {
+        "aucunGain": false
+      }
+    },
+    "malus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsAugmentes": {
+        "has": false,
+        "aspect": {
+          "multiplie": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "multiplie": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "8bd555708fd2e975",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-disadvantages-base.8bd555708fd2e975"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019356172,
+    "modifiedTime": 1668026683793,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!8bd555708fd2e975"
+}

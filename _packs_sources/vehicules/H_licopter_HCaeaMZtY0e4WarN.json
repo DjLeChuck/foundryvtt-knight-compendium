@@ -1,0 +1,152 @@
+{
+  "name": "Hélicopter",
+  "type": "vehicule",
+  "img": "systems/knight/assets/icons/vehicule.svg",
+  "system": {
+    "manoeuvrabilite": -2,
+    "vitesse": 3,
+    "passagers": 4,
+    "champDeForce": {
+      "value": 0,
+      "base": 0,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {}
+    },
+    "energie": {
+      "value": 0,
+      "max": 0,
+      "base": 10,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "armure": {
+      "value": 0,
+      "max": 0,
+      "base": 80,
+      "bonus": {
+        "modules": 0
+      },
+      "malus": {},
+      "optionDeploy": false
+    },
+    "initiative": {
+      "dice": 3,
+      "value": 0,
+      "embuscade": {
+        "dice": 3,
+        "value": 0
+      }
+    },
+    "reaction": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "defense": {
+      "value": 0,
+      "bonus": 0,
+      "malus": 0
+    },
+    "equipage": {
+      "value": 0,
+      "max": 0,
+      "pilote": {
+        "name": "",
+        "id": ""
+      },
+      "passagers": []
+    },
+    "description": "<p>&nbsp;4 &agrave; 20 personnes&nbsp;<br>(selon le mod&egrave;le)</p>\n<p><br>Armement:</p>\n<p>Peut &ecirc;tre &eacute;quip&eacute; de deux armes sur&nbsp;<br>les flancs ou d&rsquo;une &agrave; l&rsquo;avant, &agrave; choisir par-<br>mi la mitrailleuse lourde ou le fusil laser</p>"
+  },
+  "prototypeToken": {
+    "name": "Hélicopter",
+    "displayName": 0,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/knight/assets/icons/vehicule.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.vehicules.HCaeaMZtY0e4WarN"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667500855514,
+    "modifiedTime": 1668026280499,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "HCaeaMZtY0e4WarN",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!HCaeaMZtY0e4WarN"
+}

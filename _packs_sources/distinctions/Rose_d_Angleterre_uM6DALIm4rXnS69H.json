@@ -1,0 +1,28 @@
+{
+  "name": "Rose d’Angleterre",
+  "type": "distinction",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>La distinction augmente la confiance des chevaliers en leur lutte et en eux-m&ecirc;mes. Lorsque les chevaliers r&eacute;cup&egrave;rent des points d&rsquo;espoir en cours de mission (et seulement en cours de mission), ils re&ccedil;oivent un point d&rsquo;espoir suppl&eacute;mentaire, peu importe la source de cette r&eacute;cup&eacute;ration.</p>",
+    "espoir": 1,
+    "egide": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "2.3.7",
+    "coreVersion": "10.291",
+    "createdTime": 1677865392497,
+    "modifiedTime": 1677865488526,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "uM6DALIm4rXnS69H",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Kisv9JwB5w6zIXyv": 3
+  },
+  "_key": "!items!uM6DALIm4rXnS69H"
+}

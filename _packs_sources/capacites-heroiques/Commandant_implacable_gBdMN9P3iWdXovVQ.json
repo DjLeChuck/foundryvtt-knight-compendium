@@ -1,0 +1,29 @@
+{
+  "name": "Commandant implacable",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Le chevalier permet aux PJ alli&eacute;s (et donc pas &agrave; lui-m&ecirc;me) de disposer d&rsquo;une action de combat suppl&eacute;mentaire (contact ou tir) &agrave; chaque tour en phase de conflit.</p>\n<ul>\n<li>Activation : Action de combat</li>\n<li>Dur&eacute;e : Une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 5</li>\n<li>Cat&eacute;gorie : Combat</li>\n<li>XP : 30</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.gBdMN9P3iWdXovVQ"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667227970427,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "gBdMN9P3iWdXovVQ",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!gBdMN9P3iWdXovVQ"
+}

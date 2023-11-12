@@ -1,0 +1,29 @@
+{
+  "name": "Colère du juste",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Au combat au contact comme au tir, si le chevalier cible et touche une bande, il ne jette pas ses d&eacute;s de violence mais fait automatiquement le maximum de violence possible sur chacun des d&eacute;s. Par exemple, 3D6 de violence deviennent automatiquement 18 points de violence. &Agrave; ces d&eacute;g&acirc;ts maximums s&rsquo;ajoutent bien entendu tous les &eacute;ventuels bonus fixes offerts par des modules, des overdrives ou l&rsquo;arme elle-m&ecirc;me.</p>\n<ul>\n<li>Activation : Action de d&eacute;placement</li>\n<li>Dur&eacute;e : Une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 3</li>\n<li>Cat&eacute;gorie : Combat</li>\n<li>XP : 20</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.XYjoUr8sWy1wJwlS"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667227883111,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "XYjoUr8sWy1wJwlS",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!XYjoUr8sWy1wJwlS"
+}

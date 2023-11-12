@@ -1,0 +1,28 @@
+{
+  "name": "Médaille du Graal",
+  "type": "distinction",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>La distinction augmente la r&eacute;sistance des chevaliers aux t&eacute;n&egrave;bres. En arborant cette distinction, les chevaliers re&ccedil;oivent un point d&rsquo;&eacute;gide suppl&eacute;mentaire.</p>",
+    "espoir": 0,
+    "egide": 1
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "2.3.7",
+    "coreVersion": "10.291",
+    "createdTime": 1677865412626,
+    "modifiedTime": 1677865488526,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "zbUiHQgBoSU00iZ5",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Kisv9JwB5w6zIXyv": 3
+  },
+  "_key": "!items!zbUiHQgBoSU00iZ5"
+}

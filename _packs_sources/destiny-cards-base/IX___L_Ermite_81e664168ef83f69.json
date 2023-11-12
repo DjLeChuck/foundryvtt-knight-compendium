@@ -1,0 +1,29 @@
+{
+  "name": "IX - L'Ermite",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>Lorsqu'un PJ tire cette carte, son effet s'applique instantanément. Le PJ reçoit de manière permanente 1 point dans sa caractéristique la plus basse. Si deux caractéristiques ou plus sont au même score, le MJ choisit celle qui augmente.</p>\n<blockquote><p>Il apprendra tout seul les secrets de ce monde.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "81e664168ef83f69",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.81e664168ef83f69"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353099,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!81e664168ef83f69"
+}

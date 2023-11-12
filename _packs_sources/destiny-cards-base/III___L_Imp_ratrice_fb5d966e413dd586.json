@@ -1,0 +1,29 @@
+{
+  "name": "III - L'Impératrice",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, un PJ permet à chacun des PJ de la coterie (sauf lui-même) de récupérer instantanément tous leurs points d'énergie.</p>\n<blockquote><p>Sans rien attendre en retour, elle donnera aux nécessiteux.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "fb5d966e413dd586",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.fb5d966e413dd586"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353101,
+    "modifiedTime": 1668026490400,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!fb5d966e413dd586"
+}

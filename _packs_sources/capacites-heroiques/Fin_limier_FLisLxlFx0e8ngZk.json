@@ -1,0 +1,29 @@
+{
+  "name": "Fin limier",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Cette capacit&eacute; est &agrave; utiliser lorsque le chevalier veut suivre un PNJ qu&rsquo;il a directement en vue. Gr&acirc;ce &agrave; des indices discrets, quoi qu&rsquo;il arrive, le PJ retrouve toujours la trace du PNJ cibl&eacute;. Le MJ peut, s&rsquo;il le souhaite, improviser des tests difficult&eacute; facile &agrave; ardu pour symboliser le temps que le chevalier met &agrave; retrouver le PNJ. Cela peut aller de quelques minutes &agrave; plusieurs jours de traque.</p>\n<ul>\n<li>Activation : Aucune</li>\n<li>Dur&eacute;e : Jusqu&rsquo;&agrave; ce que la cible ait &eacute;t&eacute; retrouv&eacute;e</li>\n<li>H&eacute;ro&iuml;sme : 2</li>\n<li>Cat&eacute;gorie : Enqu&ecirc;te</li>\n<li>XP : 10</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.FLisLxlFx0e8ngZk"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667228168601,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "FLisLxlFx0e8ngZk",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FLisLxlFx0e8ngZk"
+}

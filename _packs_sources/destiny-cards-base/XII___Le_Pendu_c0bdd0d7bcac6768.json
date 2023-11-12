@@ -1,0 +1,29 @@
+{
+  "name": "XII - Le Pendu",
+  "type": "carteheroique",
+  "img": "systems/knight/assets/icons/carteheroique.svg",
+  "system": {
+    "description": "<p>En jouant cette carte, le PJ peut décider d'ignorer une mise à l'agonie et de récupérer la totalité de ses points de santé. Cette carte peut être jouée juste au moment où les PS du PJ tombent à 0.</p>\n<blockquote><p>Il souffrira le martyre et mourra pour mieux renaître.</p>\n</blockquote>"
+  },
+  "effects": [],
+  "_id": "c0bdd0d7bcac6768",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.destiny-cards-base.c0bdd0d7bcac6768"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019353100,
+    "modifiedTime": 1668026490401,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!c0bdd0d7bcac6768"
+}

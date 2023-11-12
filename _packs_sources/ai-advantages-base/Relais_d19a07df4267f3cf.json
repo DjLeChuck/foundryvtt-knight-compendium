@@ -1,0 +1,60 @@
+{
+  "name": "Relais",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA comprend qu'il y a des moments où le chevalier doit dormir et se reposer, volontairement ou forcé par des blessures ou des chocs. Une fois par mission, si le chevalier tombe inconscient pour une raison ou une autre (somnifère, agonie, choc, etc.) et que l'armure est défoldée, elle poursuit l'action en attendant son réveil pour un coût de 3 points d'énergie par tour (ou tranche de 10 secondes) et ce jusqu'à ce que l'armure n'ait plus d'énergie. Elle prend alors le contrôle total de l'armure et de ce qu'elle tient en main pour poursuivre l'action dans laquelle elle était engagée (terminer un combat, une joute verbale, etc...). Dès que le chevalier reprend conscience, le contrôle de l'armure lui est rendu.</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "d19a07df4267f3cf",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.d19a07df4267f3cf"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216122,
+    "modifiedTime": 1668026466790,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!d19a07df4267f3cf"
+}

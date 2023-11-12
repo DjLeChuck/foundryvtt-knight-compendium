@@ -1,0 +1,60 @@
+{
+  "name": "Soif d'apprendre",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>Le personnage est sans doute jeune et a besoin d'en apprendre toujours plus de ses coéquipiers. Il les prend sans doute pour exemple et essaie de devenir aussi bon qu'eux dans leurs domaines de prédilection. En termes de jeu, une fois par partie et uniquement à Camelot, le héros peut apprendre d'un autre personnage joueur pour augmenter une caractéristique. Ce personnage, qui est nommé professeur, entraîne le héros pendant des heures. Il ne peut le faire que s'il possède la caractéristique concernée à un niveau supérieur de 2 points à celui du héros. Au terme de l'entraînement, le héros peut augmenter la caractéristique concernée de 1 point, en payant un coût en expérience divisé par 2.</p>\n",
+    "type": "standard",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": true,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "9ab157b085c603b1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.knight-advantages-base.9ab157b085c603b1"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019192550,
+    "modifiedTime": 1668026461672,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!9ab157b085c603b1"
+}

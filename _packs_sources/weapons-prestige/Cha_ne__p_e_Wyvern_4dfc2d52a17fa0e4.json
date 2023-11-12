@@ -1,0 +1,111 @@
+{
+  "name": "Chaîne-épée Wyvern",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>La Wyvern est une chaîne-épée barbelée cinétique. Repliée, elle se comporte comme une lame cinétique, sur laquelle elle est basée, les dents de ses maillons lui donnant autant l'apparence d'une scie que d'une épée. Mais elle est surtout conçue pour s'étendre sur commande, sa lame droite se déplie alors doucement comme un drap de soie qui glisserait emporté par son propre poids, ou violemment comme le carreau propulsé par l'arbalète, avec assez de force pour défoncer une porte blindée. Elle quadruple alors sa taille, lui donnant la portée des plus longues lances. Le champ cinétique parcourant les maillons-lames de la chaîne- épée sert autant à découper adversaires et obstacles qu'à la mouvoir. L'arme reproduit les impulsions musculaires de la main et du poignet de son utilisateur et peut frapper en esquivant un obstacle ou un innocent d'un arc de cercle aussi gracieux que mortel. Sa portée et sa rapidité de frappe en font une arme formidable, mais extrêmement dangereuse, car la moindre mauvaise manipulation est à même de faucher un allié. C'est pourquoi Merlin la réserve au chevalier ayant fait preuve d'une habileté particulièrement exceptionnelle.</p>\n<p><strong>Spécial</strong> :</p>\n<ul>\n<li>Bien qu'elle soit considérée comme une arme de contact, la chaîne-épée peut frapper jusqu'à portée courte.</li>\n<li>Le bonus accordé par <em>orfèvrerie</em> s'applique aussi à la violence pour cette arme.</li>\n</ul>\n",
+    "rarete": "prestige",
+    "type": "distance",
+    "portee": "courte",
+    "prix": 150,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 9,
+      "fixe": 0
+    },
+    "violence": {
+      "dice": 9,
+      "fixe": 0
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "artillerie",
+        "defense 2",
+        "dispersion 3",
+        "fureur",
+        "ignorearmure",
+        "orfevrerie"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "4dfc2d52a17fa0e4",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-prestige.4dfc2d52a17fa0e4"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890012491,
+    "modifiedTime": 1668026445675,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!4dfc2d52a17fa0e4"
+}

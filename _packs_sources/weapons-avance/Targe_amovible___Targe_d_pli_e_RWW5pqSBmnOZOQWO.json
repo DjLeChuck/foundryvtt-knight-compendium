@@ -1,0 +1,135 @@
+{
+  "name": "Targe amovible - Targe dépliée",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/targe-amovible.webp",
+  "system": {
+    "description": "<p>Fixée au bras non directeur, la targe amovible fait partie intégrante de la méta-armure. Pliée, elle augmente les possibilités défensives des chevaliers sans les gêner. On peut toujours utiliser une arme à deux mains ou une arme dans chaque main. Bref, c'est un petit bouclier qui recouvre le bras, avec de grosses pointes au cas où. Mais quand elle se déplie, la targe est un véritable bouclier qui couvre l'avant du chevalier. Avec le champ de force de la méta-armure, elle dévie activement les attaques et repousse les hostiles qui viendraient vous chatouiller de trop près.</p>\n<p><strong>Rappel</strong> : la targe amovible pliée ne peut pas se cumuler avec les autres boucliers (voir le texte de l'effet <em>main libre</em>).</p>\n",
+    "rarete": "avance",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 45,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 2,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 2,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "choc 1",
+        "defense 3",
+        "jumeleambidextrie",
+        "reaction 3"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.1bce240afa036ddc"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005650,
+    "modifiedTime": 1693092596475,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "RWW5pqSBmnOZOQWO",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!RWW5pqSBmnOZOQWO"
+}

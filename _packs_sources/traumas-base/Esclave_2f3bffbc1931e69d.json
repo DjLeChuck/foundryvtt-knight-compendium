@@ -1,0 +1,105 @@
+{
+  "name": "Esclave",
+  "type": "trauma",
+  "img": "systems/knight/assets/icons/trauma.svg",
+  "system": {
+    "description": "<p>Le trauma permettant de récupérer 50 points d'espoir n'est pas tiré aléatoirement. Lorsqu'un PJ décide de choisir le trauma « esclave », le MJ en fait l'esclave d'un des cinq Seigneurs des ténèbres représentés par un aspect, généralement celui de l'arc en cours. Le PJ perd ainsi 1 point dans l'aspect correspondant au Seigneur et entre à son service pour des actions imminentes ou lointaines dans le futur.\nÊtre l'esclave d'un Seigneur est sans doute le trauma le plus complexe à gérer. Une fois au cours de la campagne, le MJ peut faire effectuer au PJ une série d'actions qui vont aider le Seigneur en question. Ces actions peuvent prendre la forme d'actes somnambuliques accomplis pendant la nuit ou encore de comportements conscients effectués en pleine journée, sous les yeux de ses coéquipiers. Les actions effectuées par le PJ peuvent être conscientes ou non, il peut s'en souvenir ou non, mais elles doivent toujours être en accord avec le Seigneur. Ainsi, les actions pour la Chair pourront être physiques, celles pour la Bête plutôt violentes, celles pour la Machine seront réfléchies et complexes, celles pour la Dame seront sans doute sociales et celles pour le Masque seront certainement basées sur la tricherie et le mensonge.\nIl faut bien avoir à l'esprit que les actions commises par un esclave doivent être décisives et entrer dans le plan du Seigneur qui est devenu le maître temporaire du personnage. Au MJ de bien préparer ce trauma, en accord avec le PJ.</p>\n",
+    "gainEspoir": {
+      "value": 50,
+      "applique": false
+    },
+    "aspects": {
+      "chair": {
+        "value": 0,
+        "caracteristiques": {
+          "deplacement": {
+            "value": 0
+          },
+          "force": {
+            "value": 0
+          },
+          "endurance": {
+            "value": 0
+          }
+        }
+      },
+      "bete": {
+        "value": 0,
+        "caracteristiques": {
+          "hargne": {
+            "value": 0
+          },
+          "combat": {
+            "value": 0
+          },
+          "instinct": {
+            "value": 0
+          }
+        }
+      },
+      "machine": {
+        "value": 0,
+        "caracteristiques": {
+          "tir": {
+            "value": 0
+          },
+          "savoir": {
+            "value": 0
+          },
+          "technique": {
+            "value": 0
+          }
+        }
+      },
+      "dame": {
+        "value": 0,
+        "caracteristiques": {
+          "aura": {
+            "value": 0
+          },
+          "parole": {
+            "value": 0
+          },
+          "sangFroid": {
+            "value": 0
+          }
+        }
+      },
+      "masque": {
+        "value": 0,
+        "caracteristiques": {
+          "discretion": {
+            "value": 0
+          },
+          "dexterite": {
+            "value": 0
+          },
+          "perception": {
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "2f3bffbc1931e69d",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.traumas-base.2f3bffbc1931e69d"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668026003357,
+    "modifiedTime": 1668026741678,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!2f3bffbc1931e69d"
+}

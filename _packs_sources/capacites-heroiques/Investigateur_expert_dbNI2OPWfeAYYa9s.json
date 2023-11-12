@@ -1,0 +1,29 @@
+{
+  "name": "Investigateur expert",
+  "type": "capaciteheroique",
+  "img": "systems/knight/assets/icons/capaciteheroique.svg",
+  "system": {
+    "description": "<p>Les tests effectu&eacute;s avec les caract&eacute;ristiques Perception ou Instinct du PJ re&ccedil;oivent 3 r&eacute;ussites automatiques.</p>\n<ul>\n<li>Activation : Aucune</li>\n<li>Dur&eacute;e : Une sc&egrave;ne ou une phase de conflit</li>\n<li>H&eacute;ro&iuml;sme : 2</li>\n<li>Cat&eacute;gorie : Enqu&ecirc;te</li>\n<li>XP : 10</li>\n</ul>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.capacites-heroiques.dbNI2OPWfeAYYa9s"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1667228097715,
+    "modifiedTime": 1668026479496,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_id": "dbNI2OPWfeAYYa9s",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dbNI2OPWfeAYYa9s"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Abnégation",
+  "type": "avantage",
+  "img": "systems/knight/assets/icons/avantage.svg",
+  "system": {
+    "description": "<p>L'IA de l'armure est capable d'aller très loin pour sauver la vie de son chevalier, quitte à s'éteindre pour y parvenir. En termes de jeu, si le personnage est à l'agonie et tant que l'armure dispose de points d'énergie, celle-ci en dépense pour transformer les nanoC qui la composent en nanoM pour le soigner. Elle peut en utiliser au maximum 3D6 par tour, tant qu'il lui reste des points d'énergie. En revanche, chaque point de santé rendu réduit les points d'armure de un (en plus du point d'énergie que coûte la manœuvre), car l'armure se décompose pour soigner le chevalier.</p>\n",
+    "type": "ia",
+    "bonus": {
+      "sante": 0,
+      "espoir": 0,
+      "initiative": {
+        "dice": 0,
+        "fixe": 0,
+        "ifEmbuscade": {
+          "has": false,
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "recuperation": {
+        "sante": 0,
+        "armure": 0,
+        "energie": 0,
+        "espoir": 0
+      },
+      "coutsReduits": {
+        "has": false,
+        "aspect": {
+          "divise": 0,
+          "value": 0
+        },
+        "caracteristique": {
+          "divise": 0,
+          "value": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "_id": "85615ba969b87207",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.ai-advantages-base.85615ba969b87207"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1668019216121,
+    "modifiedTime": 1668026466788,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!85615ba969b87207"
+}
