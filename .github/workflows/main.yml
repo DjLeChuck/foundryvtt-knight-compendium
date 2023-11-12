@@ -23,11 +23,8 @@ jobs:
             -   name: Checkout Repository
                 uses: actions/checkout@v3
 
-            -   name: Build assets [1/2] - yarn install
+            -   name: yarn install
                 run: yarn install
-
-            -   name: Build assets [2/2] - yarn build
-                run: NODE_ENV=production yarn run build
 
             -   name: Pack compendiums
                 run: yarn run pack-packs
