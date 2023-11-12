@@ -7,17 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Fixed
+### [11.0.0] - 2023-11-12
 
-- Description of heroic capacity "Colère du Juste"
+### Added
+
+- (Dev.) GitHub action workflow for module release
 
 ### Changed
 
 - (Dev.) Commit JSON files for packs and use FoundryVTT cli to pack/unpack them
 
-### Added
+### Removed
 
-- (Dev.) GitHub action workflow for module release
+- Remove support for FoundryVTT v10
+
+### Fixed
+
+- Description of heroic capacity "Colère du Juste"
 
 ## [10.1.1] - 2023-09-07
 
@@ -274,7 +280,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.0.0...HEAD
+
+[11.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.1...11.0.0
 
 [10.1.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.0...10.1.1
 
