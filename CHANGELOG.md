@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Misspell prototype token name of "Enfants du masque"
+
 ### [11.0.0] - 2023-11-12
 
 ### Added
