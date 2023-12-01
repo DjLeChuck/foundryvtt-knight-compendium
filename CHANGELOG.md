@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [11.0.1] - 2023-12-01
+
 ### Fixed
 
 - Misspell prototype token name of "Enfants du masque"
@@ -284,7 +286,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.0.0...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.0.1...HEAD
+
+[11.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.0.0...11.0.1
 
 [11.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/10.1.1...11.0.0
 
