@@ -1,0 +1,19 @@
+{
+  "name": "Capacités passives",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "1ght55OTMwsBnlGk",
+  "sort": 0,
+  "color": "#9b2727",
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.23.3",
+    "coreVersion": "11.315",
+    "createdTime": 1708089141347,
+    "modifiedTime": 1708260764899,
+    "lastModifiedBy": "nnPHX87Qkm8EnXN9"
+  },
+  "_key": "!folders!1ght55OTMwsBnlGk"
+}

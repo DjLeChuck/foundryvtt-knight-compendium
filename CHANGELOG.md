@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add legend meta-armour and ultimate capacities
+
 ### Fixed
 
 - Wrong defense and reaction on some creatures

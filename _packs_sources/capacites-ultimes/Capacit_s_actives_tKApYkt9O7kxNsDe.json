@@ -1,0 +1,19 @@
+{
+  "name": "Capacités actives",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "tKApYkt9O7kxNsDe",
+  "sort": 0,
+  "color": "#b1a62f",
+  "flags": {},
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.23.3",
+    "coreVersion": "11.315",
+    "createdTime": 1708089106015,
+    "modifiedTime": 1708260764899,
+    "lastModifiedBy": "nnPHX87Qkm8EnXN9"
+  },
+  "_key": "!folders!tKApYkt9O7kxNsDe"
+}

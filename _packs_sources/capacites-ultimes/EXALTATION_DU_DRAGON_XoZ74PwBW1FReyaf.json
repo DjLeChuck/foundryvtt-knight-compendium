@@ -1,0 +1,473 @@
+{
+  "folder": "tKApYkt9O7kxNsDe",
+  "name": "EXALTATION DU DRAGON",
+  "type": "capaciteultime",
+  "img": "systems/knight/assets/icons/capaciteultime.svg",
+  "system": {
+    "description": "<p>&laquo; Elle pouvait se servir de l&rsquo;&eacute;nergie de sa m&eacute;taarmure comme d&rsquo;une v&eacute;ritable arme. &raquo;</p>\n<p><strong>Effet&nbsp;</strong>: Une fois par tour, le PJ peut lib&eacute;rer l&rsquo;&eacute;nergie de sa m&eacute;ta-armure pour infliger de terribles&nbsp;d&eacute;g&acirc;ts &agrave; tous les ennemis autour de lui. Pour 1 PE&nbsp;d&eacute;pens&eacute;, le PJ inflige 2 points de d&eacute;g&acirc;ts avec l&rsquo;effet&nbsp;dispersion 6 et ignore CdF. Le PJ peut d&eacute;penser 1 &agrave;&nbsp;60 PE de cette mani&egrave;re.</p>",
+    "type": "active",
+    "condition": "<p>Uniquement pour un chevalier poss&eacute;dant le&nbsp;blason du dragon.</p>",
+    "actives": {
+      "activation": "Aucune",
+      "duree": "",
+      "instant": true,
+      "energie": 0,
+      "heroisme": 1,
+      "reaction": 0,
+      "defense": 0,
+      "recuperation": {
+        "PA": false,
+        "PS": false,
+        "PE": false
+      },
+      "jet": {
+        "actif": false,
+        "isfixe": false,
+        "fixe": {
+          "label": "",
+          "dice": "0",
+          "fixe": "0"
+        },
+        "variable": {
+          "caracteristiques": []
+        }
+      },
+      "degats": {
+        "actif": true,
+        "isfixe": false,
+        "fixe": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "variable": {
+          "energie": 1,
+          "paliers": [
+            "0D6+2",
+            "0D6+4",
+            "0D6+6",
+            "0D6+8",
+            "0D6+10",
+            "0D6+12",
+            "0D6+14",
+            "0D6+16",
+            "0D6+18",
+            "0D6+20",
+            "0D6+22",
+            "0D6+24",
+            "0D6+26",
+            "0D6+28",
+            "0D6+30",
+            "0D6+32",
+            "0D6+34",
+            "0D6+36",
+            "0D6+38",
+            "0D6+40",
+            "0D6+42",
+            "0D6+44",
+            "0D6+46",
+            "0D6+48",
+            "0D6+50",
+            "0D6+52",
+            "0D6+54",
+            "0D6+56",
+            "0D6+58",
+            "0D6+60",
+            "0D6+62",
+            "0D6+64",
+            "0D6+66",
+            "0D6+68",
+            "0D6+70",
+            "0D6+72",
+            "0D6+74",
+            "0D6+76",
+            "0D6+78",
+            "0D6+80",
+            "0D6+82",
+            "0D6+84",
+            "0D6+86",
+            "0D6+88",
+            "0D6+90",
+            "0D6+92",
+            "0D6+94",
+            "0D6+96",
+            "0D6+98",
+            "0D6+100",
+            "0D6+102",
+            "0D6+104",
+            "0D6+106",
+            "0D6+108",
+            "0D6+110",
+            "0D6+112",
+            "0D6+114",
+            "0D6+116",
+            "0D6+118",
+            "0D6+120"
+          ]
+        },
+        "effets": {
+          "raw": [
+            "dispersion 6",
+            "ignorechampdeforce"
+          ],
+          "custom": [],
+          "liste": []
+        }
+      },
+      "violence": {
+        "actif": false,
+        "isfixe": true,
+        "fixe": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "variable": {
+          "energie": 0,
+          "paliers": []
+        },
+        "effets": {
+          "raw": [],
+          "custom": [],
+          "liste": []
+        }
+      },
+      "effets": {
+        "actif": false,
+        "raw": [],
+        "custom": [],
+        "liste": []
+      },
+      "textarea": {
+        "activation": 51,
+        "duree": 20
+      }
+    },
+    "passives": {
+      "sante": false,
+      "contact": {
+        "actif": false,
+        "value": 0
+      },
+      "capacites": {
+        "actif": false,
+        "ascension": {
+          "actif": false,
+          "update": {
+            "permanent": false,
+            "prestige": false
+          }
+        },
+        "cea": {
+          "actif": false,
+          "update": {
+            "vague": {
+              "degats": {
+                "dice": 5,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 5,
+                "fixe": 0
+              },
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "parasitage 6"
+                ],
+                "custom": []
+              }
+            },
+            "salve": {
+              "degats": {
+                "dice": 5,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 5,
+                "fixe": 0
+              },
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "dispersion 12"
+                ],
+                "custom": []
+              }
+            },
+            "rayon": {
+              "degats": {
+                "dice": 5,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 5,
+                "fixe": 0
+              },
+              "effets": {
+                "liste": [],
+                "raw": [
+                  "ignorechampdeforce"
+                ],
+                "custom": []
+              }
+            }
+          }
+        },
+        "changeling": {
+          "actif": false,
+          "update": {
+            "duree": "",
+            "energie": {
+              "personnel": 0
+            },
+            "odbonus": 1,
+            "caracteristique": 2,
+            "textarea": 20
+          }
+        },
+        "companions": {
+          "actif": false,
+          "update": {
+            "deployables": 3
+          }
+        },
+        "ghost": {
+          "actif": false,
+          "update": {
+            "desactivation": false
+          }
+        },
+        "goliath": {
+          "actif": false,
+          "update": {
+            "taille": {
+              "max": 10
+            },
+            "malus": {
+              "reaction": {
+                "value": 0
+              },
+              "defense": {
+                "value": 0
+              }
+            }
+          }
+        },
+        "mechanic": {
+          "actif": false,
+          "update": {
+            "bonus": 2
+          }
+        },
+        "morph": {
+          "actif": false,
+          "update": {
+            "vol": {
+              "description": "",
+              "textarea": 20
+            },
+            "etirement": {
+              "portee": "",
+              "textarea": 20
+            },
+            "metal": {
+              "bonus": {
+                "champDeForce": 8
+              }
+            },
+            "fluide": {
+              "bonus": {
+                "reaction": 5,
+                "defense": 5
+              }
+            },
+            "polymorphie": {
+              "description": "",
+              "griffe": {
+                "degats": {
+                  "dice": 2,
+                  "fixe": 0
+                },
+                "violence": {
+                  "dice": 1,
+                  "fixe": 0
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "lame": {
+                "degats": {
+                  "dice": 2,
+                  "fixe": 0
+                },
+                "violence": {
+                  "dice": 1,
+                  "fixe": 0
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "canon": {
+                "degats": {
+                  "dice": 3,
+                  "fixe": 3
+                },
+                "violence": {
+                  "dice": 3,
+                  "fixe": 3
+                },
+                "effets": {
+                  "liste": [],
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "textarea": 20
+            }
+          }
+        },
+        "oriflamme": {
+          "actif": false,
+          "update": {
+            "activation": "deplacement",
+            "duree": "",
+            "portee": "longue",
+            "energie": 6,
+            "degats": {
+              "dice": 8,
+              "fixe": 12
+            },
+            "violence": {
+              "dice": 12,
+              "fixe": 12
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antianatheme",
+                "lumiere 4"
+              ],
+              "custom": []
+            }
+          }
+        },
+        "rage": {
+          "actif": false,
+          "update": {
+            "colere": {
+              "defense": 0,
+              "reaction": 0,
+              "subis": 0,
+              "combosInterdits": {
+                "has": false
+              }
+            },
+            "rage": {
+              "defense": 0,
+              "reaction": 0,
+              "subis": 0,
+              "combosInterdits": {
+                "has": false
+              }
+            },
+            "fureur": {
+              "defense": 0,
+              "reaction": 0,
+              "subis": 0,
+              "combosInterdits": {
+                "has": false
+              }
+            }
+          }
+        },
+        "type": {
+          "actif": false
+        },
+        "vision": {
+          "actif": false,
+          "update": {
+            "duree": "",
+            "energie": {
+              "changer": 0
+            },
+            "textarea": 20
+          }
+        },
+        "warlord": {
+          "actif": false,
+          "update": {
+            "activer": false,
+            "prolonger": false
+          }
+        },
+        "capacites": {
+          "oriflamme": {
+            "update": {
+              "duree": ""
+            }
+          }
+        }
+      },
+      "special": {
+        "recolteflux": {
+          "actif": false,
+          "update": {
+            "conflit": {
+              "base": 10,
+              "tour": 5
+            },
+            "horsconflit": {
+              "base": 10
+            }
+          }
+        },
+        "contrecoups": {
+          "actif": true
+        }
+      },
+      "changeling": {
+        "update": {
+          "energie": {
+            "personnel": null
+          },
+          "odbonus": null,
+          "caracteristique": null
+        }
+      },
+      "companions": {
+        "update": {
+          "deployable": null
+        }
+      },
+      "mechanic": {
+        "update": {
+          "bonus": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.23.3",
+    "coreVersion": "11.315",
+    "createdTime": 1707852094848,
+    "modifiedTime": 1708260764958,
+    "lastModifiedBy": "nnPHX87Qkm8EnXN9"
+  },
+  "_id": "XoZ74PwBW1FReyaf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nnPHX87Qkm8EnXN9": 3
+  },
+  "_key": "!items!XoZ74PwBW1FReyaf"
+}

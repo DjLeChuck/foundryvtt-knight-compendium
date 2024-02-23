@@ -43,7 +43,8 @@
         "blessures-graves",
         "blessures-graves-table-aleatoire",
         "journaux",
-        "distinctions"
+        "distinctions",
+        "capacites-ultimes"
       ],
       "folders": [
         {
@@ -75,7 +76,8 @@
             "armours-base",
             "armours-2038",
             "armours-codex",
-            "armours-atlas"
+            "armours-atlas",
+            "meta-armures-de-legende"
           ]
         },
         {
@@ -422,6 +424,31 @@
       "type": "RollTable",
       "name": "blessures-graves-table-aleatoire",
       "system": "knight"
+    },    {
+      "label": "Capacités ultimes",
+      "type": "Item",
+      "name": "capacites-ultimes",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Méta-armures de légende",
+      "type": "Item",
+      "name": "meta-armures-de-legende",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
     }
   ],
   "relationships": {
