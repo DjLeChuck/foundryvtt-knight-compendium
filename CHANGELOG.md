@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [11.1.0] - 2024-02-23
+
 ### Added
 
 - Add legend meta-armour and ultimate capacities
@@ -294,7 +296,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.0.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.0...HEAD
+
+[11.1.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.0.1...11.1.0
 
 [11.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.0.0...11.0.1
 
