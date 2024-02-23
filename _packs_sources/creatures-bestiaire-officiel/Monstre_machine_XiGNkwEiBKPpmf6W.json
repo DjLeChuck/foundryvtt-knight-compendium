@@ -354,7 +354,7 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 16,
+      "base": 8,
       "optionDeploy": false
     },
     "defense": {
@@ -371,7 +371,7 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 12,
+      "base": 7,
       "optionDeploy": false
     },
     "sante": {

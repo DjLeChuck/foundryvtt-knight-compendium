@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Wrong defense and reaction on some creatures
+
 ### [11.0.1] - 2023-12-01
 
 ### Fixed
