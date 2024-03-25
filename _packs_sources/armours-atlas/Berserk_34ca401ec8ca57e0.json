@@ -4224,7 +4224,7 @@
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": null
+            "espoir": 25
           }
         },
         "2": {
@@ -4477,7 +4477,7 @@
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": null
+            "espoir": 25
           }
         }
       },
