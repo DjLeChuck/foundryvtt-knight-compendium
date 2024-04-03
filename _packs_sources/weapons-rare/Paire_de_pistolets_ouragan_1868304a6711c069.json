@@ -51,32 +51,32 @@
       "dice": 5,
       "fixe": 0,
       "variable": {
-        "has": false,
+        "has": true,
         "min": {
-          "dice": 0,
+          "dice": 5,
           "fixe": 0
         },
         "max": {
-          "dice": 0,
+          "dice": 13,
           "fixe": 0
         },
-        "cout": 0
+        "cout": 1
       }
     },
     "violence": {
       "dice": 6,
       "fixe": 0,
       "variable": {
-        "has": false,
+        "has": true,
         "min": {
-          "dice": 0,
+          "dice": 6,
           "fixe": 0
         },
         "max": {
-          "dice": 0,
+          "dice": 16,
           "fixe": 0
         },
-        "cout": 0
+        "cout": 1
       }
     },
     "effets": {
