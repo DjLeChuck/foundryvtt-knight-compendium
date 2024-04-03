@@ -383,7 +383,7 @@
           },
           "ersatz": {
             "rogue": {
-              "has": false,
+              "has": true,
               "interruption": {
                 "actif": true
               },
