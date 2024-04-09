@@ -5,7 +5,7 @@
   "system": {
     "description": "<p>Le pavois est le plus grand bouclier du Knight. Il dispose d'un générateur de champ si efficace qu'il est capable de repousser le sol. Gauvain lui a trouvé deux usages. Premièrement, le champ de force du pavois dévie la plupart des attaques. Deuxièmement, quand il est surchargé en énergie, le pavois dévie l'air si fort qu'il génère une aspiration devant lui. Le chevalier, tiré vers l'avant peut faire une charge particulièrement violente à même de sonner la plus résistante des horreurs.\nEffectuer une charge coûte une action de déplacement normale qui se termine par un gros choc sur la cible visée. Une charge ne peut pas être effectuée par un chevalier déjà au combat au contact.</p>\n",
     "rarete": "rare",
-    "type": "distance",
+    "type": "contact",
     "portee": "courte",
     "prix": 60,
     "energie": 0,
