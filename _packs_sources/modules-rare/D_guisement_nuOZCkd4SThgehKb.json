@@ -397,7 +397,7 @@
               }
             },
             "bard": {
-              "has": false
+              "has": true
             }
           },
           "jetsimple": {
