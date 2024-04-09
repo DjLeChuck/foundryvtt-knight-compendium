@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [11.1.2] - 2024-04-09
+
+Thank you @sdurrheimer for the following fixes
+
+### Fixed
+
+- fix(weapons-rare): change 'Pavois - Charge' to be of 'contact' type
+- fix(modules-rare): enable 'Erzatz Rogue' effect on 'Camouflage Optique'
+- fix(modules-rare): enable 'Erzatz Bard' effect on 'Déguisement'
+- fix(weapons-rare): add boost effects on 'Paire de pistolets ouragan'
+
 ### [11.1.1] - 2024-03-25
 
 ### Fixed
@@ -302,7 +313,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.2...HEAD
+
+[11.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.1...11.1.2
 
 [11.1.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.0...11.1.1
 
