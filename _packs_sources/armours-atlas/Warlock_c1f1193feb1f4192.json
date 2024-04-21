@@ -3475,7 +3475,7 @@
               "special": {
                 "atlas": "contrecoups"
               },
-              "energie": 12,
+              "energie": 9,
               "textarea": {
                 "duree": 50
               }
@@ -3486,7 +3486,7 @@
               "special": {
                 "atlas": "contrecoups"
               },
-              "energie": 15,
+              "energie": 12,
               "textarea": {
                 "duree": 50
               }
@@ -3591,7 +3591,7 @@
               "special": {
                 "atlas": "contrecoups"
               },
-              "energie": 12,
+              "energie": 9,
               "textarea": {
                 "duree": 50
               }
@@ -3602,7 +3602,7 @@
               "special": {
                 "atlas": "contrecoups"
               },
-              "energie": 15,
+              "energie": 12,
               "textarea": {
                 "duree": 50
               }
@@ -3707,7 +3707,7 @@
               "special": {
                 "atlas": "contrecoups"
               },
-              "energie": 12,
+              "energie": 9,
               "textarea": {
                 "duree": 50
               }
@@ -3718,7 +3718,7 @@
               "special": {
                 "atlas": "contrecoups"
               },
-              "energie": 15,
+              "energie": 12,
               "textarea": {
                 "duree": 50
               }
