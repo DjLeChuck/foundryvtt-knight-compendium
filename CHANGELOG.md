@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [11.1.3] - 2024-04-2
+
+### Fixed
+
+- fix: energy cost on Warlock
+
 ### [11.1.2] - 2024-04-09
 
 Thank you @sdurrheimer for the following fixes
@@ -313,7 +319,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.2...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.3...HEAD
+
+[11.1.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.2...11.1.3
 
 [11.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.1...11.1.2
 
