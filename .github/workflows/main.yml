@@ -1,4 +1,4 @@
-name: Create Module Files For GitHub Release
+name: Create files for GitHub Release
 
 
 env:
@@ -29,7 +29,7 @@ jobs:
             -   name: Pack compendiums
                 run: yarn run pack-packs
 
-            -   name: Modify module manifest with release-specific values
+            -   name: Modify manifest with release-specific values
                 id: sub_manifest_link_version
                 uses: cschleiden/replace-tokens@v1
                 with:
@@ -40,7 +40,7 @@ jobs:
                     MANIFEST: ${{ env.latest_manifest_url }}
                     DOWNLOAD: ${{ env.release_url }}
 
-            -   name: Create module archive
+            -   name: Create archive
                 run: |
                     zip                                    \
                       --recurse-paths                      \
@@ -53,7 +53,7 @@ jobs:
                       packs/                               \
                       assets/
 
-            -   name: Update Release With Files
+            -   name: Update release with files
                 id: create_version_release
                 uses: ncipollo/release-action@v1
                 with:
