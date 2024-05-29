@@ -5,7 +5,7 @@
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12.324"
   },
   "authors": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Sphins",
-      "discord": "Sphins#5448",
+      "discord": "sphins",
       "flags": {}
     }
   ],
@@ -424,7 +424,8 @@
       "type": "RollTable",
       "name": "blessures-graves-table-aleatoire",
       "system": "knight"
-    },    {
+    },
+    {
       "label": "Capacités ultimes",
       "type": "Item",
       "name": "capacites-ultimes",
