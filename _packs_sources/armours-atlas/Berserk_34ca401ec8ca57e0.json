@@ -4240,7 +4240,7 @@
                 "violence": 2,
                 "portee": "contact",
                 "espoir": {
-                  "base": 1,
+                  "base": 2,
                   "prolonger": 1
                 }
               },
@@ -4254,7 +4254,7 @@
                 "bonus": 4,
                 "portee": "courte",
                 "espoir": {
-                  "base": 1,
+                  "base": 2,
                   "prolonger": 1
                 }
               },
@@ -4263,7 +4263,7 @@
                 "bonus": 4,
                 "portee": "courte",
                 "espoir": {
-                  "base": 1,
+                  "base": 3,
                   "prolonger": 1
                 }
               },
@@ -4271,7 +4271,7 @@
                 "description": "La lumière émanant du noyau de la méta-armure peut être concentrée sur une créature de l’Anathème en un rayon puissant. En pleine lumière, la nature horrible de la cible change, elle semble devenir plus belle et se détacher des ténèbres.\n\nTant que l’effet est activé, la créature ciblée à portée courte, hostile ou salopard, ne peut plus utiliser une de ses capacités. La capacité peut être choisie par le chevalier, mais il doit l’avoir identifiée et pouvoir en décrire les effets. Sinon, c’est le MJ qui choisit.",
                 "portee": "courte",
                 "espoir": {
-                  "base": 1,
+                  "base": 3,
                   "prolonger": 1
                 }
               },
@@ -4279,7 +4279,7 @@
                 "description": "La lumière de la méta-armure pulse et trouble les créatures de l’Anathème les plus proches. Le flux qui existe entre elles est comme déchiré et sensiblement amoindri par l’énergie apeiron.\n\nTant que l’effet est activé, les créatures de l’Anathème de type hostile à portée courte perdent une action lors de leur tour de jeu.",
                 "portee": "courte",
                 "espoir": {
-                  "base": 1,
+                  "base": 4,
                   "prolonger": 1
                 }
               },
