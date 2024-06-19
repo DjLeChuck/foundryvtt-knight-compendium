@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [12.0.1] - 2024-06-19
+
+### Fixed
+
+- fix(armours-base): missing effect and wrong violence values on Wizard
+- fix(armours-atlas): wrong espoir values on Berzerk
+
 ### [12.0.0] - 2024-05-29
 
 ### Added
@@ -325,7 +332,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.0.0...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.0.1...HEAD
+
+[12.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.0.0...12.0.1
 
 [12.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/11.1.3...12.0.0
 
