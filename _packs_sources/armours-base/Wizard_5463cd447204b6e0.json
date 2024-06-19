@@ -197,6 +197,7 @@
             "effets": {
               "liste": [],
               "raw": [
+                "affecteanatheme",
                 "antianatheme",
                 "lumiere 2"
               ],
@@ -3455,11 +3456,12 @@
               },
               "violence": {
                 "dice": 6,
-                "fixe": 6
+                "fixe": 12
               },
               "effets": {
                 "liste": [],
                 "raw": [
+                  "affecteanatheme",
                   "antianatheme",
                   "lumiere 2"
                 ],
@@ -3540,11 +3542,12 @@
               },
               "violence": {
                 "dice": 6,
-                "fixe": 6
+                "fixe": 12
               },
               "effets": {
                 "liste": [],
                 "raw": [
+                  "affecteanatheme",
                   "antianatheme",
                   "lumiere 2"
                 ],
@@ -3625,11 +3628,12 @@
               },
               "violence": {
                 "dice": 6,
-                "fixe": 6
+                "fixe": 12
               },
               "effets": {
                 "liste": [],
                 "raw": [
+                  "affecteanatheme",
                   "antianatheme",
                   "lumiere 2"
                 ],
