@@ -115,21 +115,20 @@
     "gratuit": false
   },
   "effects": [],
-  "folder": "PgzvmV6O8QwhNtAd",
-  "flags": {
-    "exportSource": {
-      "world": "knight",
-      "system": "knight",
-      "coreVersion": "12.331",
-      "systemVersion": "#{VERSION}#"
-    }
-  },
   "_stats": {
-    "coreVersion": "12.331",
     "systemId": "knight",
-    "systemVersion": "#{VERSION}#",
-    "createdTime": 1728479832901,
-    "modifiedTime": 1728479832901,
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
     "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
-  }
+  },
+  "_id": "OwpaepKYn0auh3dD",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!OwpaepKYn0auh3dD"
 }
