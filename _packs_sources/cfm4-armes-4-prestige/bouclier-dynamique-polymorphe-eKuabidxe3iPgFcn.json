@@ -1,0 +1,217 @@
+{
+  "name": "Bouclier dynamique polymorphe",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Inspir&eacute; par les chakrams et autres lance-disques, Merlin, &agrave; l'aide de nouveaux arrivants &agrave; la Table Ronde, a d&eacute;velopp&eacute; le concept du bouclier dynamique polymorphe aka le BDP, un bouclier rond remontant au dessus du coude et reposant sur un gantelet &eacute;quip&eacute; d'un calculateur de trajectoire g&eacute;r&eacute; par l'IA de l'armure. Constitu&eacute; d'un maillage adaptatif en nanomachines, sa forme peut &ecirc;tre modul&eacute;e, lui permettant d'alt&eacute;rer sa forme pour mieux encaisser les chocs, d&eacute;vier les tirs ou, une fois lanc&eacute;, adopter une forme plus a&eacute;rodynamique. Il s'agit de la seule arme permettant de d&eacute;fendre une cible &agrave; distance efficacement.</p>",
+    "rarete": "prestige",
+    "type": "contact",
+    "portee": "moyenne",
+    "prix": 150,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 10,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "leste",
+        "defense 6",
+        "reaction 6",
+        "artillerie",
+        "assistanceattaque",
+        "cadence 3"
+      ],
+      "custom": [
+        {
+          "label": "Spécial",
+          "description": "<p>Pour une action de combat, l'utilisateur peut &nbsp;intercepter une attaque et donner d&eacute;fense 6/r&eacute;action 6 &agrave; une cible pour un tour.</p>",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "36Gd9WxrFnmoaXqE",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479905025,
+    "modifiedTime": 1728479905025,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

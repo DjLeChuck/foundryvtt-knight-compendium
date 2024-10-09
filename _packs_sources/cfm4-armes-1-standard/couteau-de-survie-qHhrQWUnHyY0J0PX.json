@@ -1,0 +1,135 @@
+{
+  "name": "Couteau de survie",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Ce couteau est un mal n&eacute;cessaire dans un monde o&ugrave; chaque vie compte. Utilis&eacute; principalement par les agents en mission au plus proche de l'Anath&egrave;me, il ressemble &agrave; un couteau de survie classique. Derri&egrave;re cette apparence &nbsp;se cache en r&eacute;alit&eacute; une lame crant&eacute;e r&eacute;tractable qui vibre &nbsp;l&eacute;g&egrave;rement, &agrave; l'unisson des champs de force des combinaisons Guardian. Sur le manche est grav&eacute; &laquo; III.IX.X &raquo; : un rappel au code d'honneur du Knight ainsi qu'un soutien moral important pour son possesseur lorsqu'il n'a plus &nbsp;d'autre choix que de l'utiliser.</p>",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 10,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 1,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "penetrant 5",
+        "silencieux",
+        "jumeleambidextrie",
+        "sansarmure"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "pcVnIDLeFVM1PpYA",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

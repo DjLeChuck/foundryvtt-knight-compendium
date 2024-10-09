@@ -1,0 +1,137 @@
+{
+  "name": "« Al-Battar »  Dague des prophètes",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Certaines l&eacute;gendes parlent d&rsquo;un &ecirc;tre &eacute;trange qui parcourt la Terre depuis l&rsquo;aube de l&rsquo;humanit&eacute;. Les diverses religions lui ont donn&eacute; bien des noms : le proph&egrave;te, le malin, l&rsquo;homme de la nuit, le col&eacute;rique ou encore le &nbsp;r&eacute;dempteur. Des noms ambivalents d&eacute;pendant de sa relation avec le dogme en question. Toujours arm&eacute; de sa fid&egrave;le lame, elle est le seul d&eacute;nominateur commun &agrave; chaque apparition.</p>\n<p style=\"text-align: justify;\">Selon son propri&eacute;taire actuel, qui a souhait&eacute; garder l&rsquo;anonymat, il s&rsquo;agissait &agrave; l&rsquo;origine d&rsquo;une &eacute;p&eacute;e qui, suite &agrave; un combat, se serait bris&eacute;e. Elle aurait &eacute;t&eacute; retravaill&eacute;e pour prendre l&rsquo;apparence d&rsquo;une dague et les derni&egrave;res recherches m&egrave;nent &agrave; penser que celle-ci pourrait bien &ecirc;tre l&rsquo;arme mythique.</p>\n<p style=\"text-align: justify;\">&Agrave; pr&eacute;sent longue d&rsquo;une trentaine de centim&egrave;tres, la lame est finement grav&eacute;e avec les noms suivants en arabe : David, Salomon, Mo&iuml;se, Aaron, Josu&eacute;, Zacharie, Jean, J&eacute;sus et Mahomet. Elle comporte aussi une gravure illustrant le roi David d&eacute;capitant Goliath ainsi qu&rsquo;une inscription partielle identifi&eacute;e comme &eacute;tant du nabat&eacute;en.&nbsp;</p>\n<p style=\"text-align: justify;\">Lors de la cr&eacute;ation du Knight, son possesseur et Arthur se sont longuement entretenus. L&rsquo;organisation a ainsi obtenu plusieurs &oelig;uvres d&rsquo;arts majeures pour habiller le hall des h&eacute;ros, dont cette dague. Le bienfaiteur a conc&eacute;d&eacute; l&rsquo;utilisation de l&rsquo;arme pour repousser les t&eacute;n&egrave;bres &agrave; une seule condition : elle devra &ecirc;tre restitu&eacute;e &agrave; son propri&eacute;taire l&eacute;gitime lorsque tout sera termin&eacute;. Nul ne sait quelle contrepartie est pr&eacute;vue si cette part du march&eacute; n&rsquo;est pas respect&eacute;e.</p>",
+    "rarete": "espoir",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 1,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "orfevrerie",
+        "lumiere 2",
+        "antianatheme",
+        "assassin 2",
+        "silencieux",
+        "esperance"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "S1dMFGnpXnVQHYl9",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479930816,
+    "modifiedTime": 1728479930816,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

@@ -90,6 +90,20 @@
             "ai-disadvantages-base",
             "section-disadvantages-base"
           ]
+        },
+        {
+          "name": "Codex FM4",
+          "sorting": "m",
+          "packs": [
+            "cfm4-armes-1-standard",
+            "cfm4-armes-2-avance",
+            "cfm4-armes-3-rare",
+            "cfm4-armes-4-prestige",
+            "cfm4-armes-5-relique-despoir",
+            "cfm4-modules-1-standard",
+            "cfm4-modules-2-avance",
+            "cfm4-modules-3-rare"
+          ]
         }
       ]
     }
@@ -442,6 +456,97 @@
       "label": "Méta-armures de légende",
       "type": "Item",
       "name": "meta-armures-de-legende",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 1. Standard",
+      "type": "Item",
+      "name": "cfm4-armes-1-standard",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 2. Avancé",
+      "type": "Item",
+      "name": "cfm4-armes-2-avance",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 3. Rare",
+      "type": "Item",
+      "name": "cfm4-armes-3-rare",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 4. Prestige",
+      "type": "Item",
+      "name": "cfm4-armes-4-prestige",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Modules - 1. Standard",
+      "type": "Item",
+      "name": "cfm4-modules-1-standard",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Modules - 2. Avancé",
+      "type": "Item",
+      "name": "cfm4-modules-2-avance",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Modules - 3. Rare",
+      "type": "Item",
+      "name": "cfm4-modules-3-rare",
       "system": "knight",
       "private": true,
       "ownership": {

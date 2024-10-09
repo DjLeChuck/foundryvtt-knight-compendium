@@ -1,0 +1,137 @@
+{
+  "name": "Faux de guerre",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Une des nombreuses armes dont l'origine se retrouve dans l'outillage agricole et c&rsquo;est sur cette base que le Knight s&rsquo;est inspir&eacute; pour cr&eacute;er sa propre version avec, &eacute;videmment, quelques subtilit&eacute;s en plus. Visuellement imposante, l&rsquo;arme est en r&eacute;alit&eacute; suffisamment l&eacute;g&egrave;re pour permettre &agrave; un chevalier adroit de la faire danser autour de lui, tout en lac&eacute;rant la chair de ses adversaires. La lame, particuli&egrave;rement ac&eacute;r&eacute;e, est compos&eacute;e de graph&egrave;ne surmont&eacute; d'un tranchant en &eacute;l&eacute;ment alpha. Les Giants ont eu l'id&eacute;e d'installer un syst&egrave;me de rotation &agrave; l'ancien emplacement de l'anneau de serrage, permettant &agrave; la lame de pivoter &agrave; 90&deg; depuis sa position initiale, elle peut donc se redresser dans l'axe de la hampe ou au contraire, se replier et bloquer un adversaire.</p>",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "orfevrerie",
+        "degatscontinus 6",
+        "defense 2",
+        "enchaine",
+        "soumission",
+        "deuxmains"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "PgzvmV6O8QwhNtAd",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479832901,
+    "modifiedTime": 1728479832901,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

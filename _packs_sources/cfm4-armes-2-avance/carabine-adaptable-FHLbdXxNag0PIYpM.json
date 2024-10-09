@@ -1,0 +1,170 @@
+{
+  "name": "Carabine adaptable",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Au sein du Knight, il semblerait qu'il y ait une forte demande pour des armes &agrave; longue port&eacute;e autre que des fusils &agrave; lunette. C'est en consid&eacute;rant les diff&eacute;rentes envies et remarques que les ing&eacute;nieurs de la section Giant ont mis au point la carabine adaptable. En configuration longue port&eacute;e, le double canon de l'arme tire des munitions &agrave; shrapnel minut&eacute;es, pr&eacute;vues pour exploser peu avant d'atteindre la cible et ainsi infliger des d&eacute;g&acirc;ts importants. &Agrave; courte port&eacute;e, elles explosent &agrave; la sortie des canons de mani&egrave;re &agrave; toucher un maximum de cibles, au d&eacute;triment de la pr&eacute;cision.</p>",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "longue",
+    "prix": 50,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": true,
+      "actuel": "0",
+      "value": 2,
+      "liste": {
+        "0": {
+          "nom": "Portée longue",
+          "degats": {
+            "dice": 4,
+            "fixe": 6
+          },
+          "violence": {
+            "dice": 2,
+            "fixe": 3
+          },
+          "raw": [
+            "precision",
+            "assistanceattaque",
+            "cadence 2"
+          ],
+          "custom": [],
+          "liste": []
+        },
+        "1": {
+          "nom": "Portée courte",
+          "degats": {
+            "dice": 2,
+            "fixe": 3
+          },
+          "violence": {
+            "dice": 5,
+            "fixe": 6
+          },
+          "raw": [
+            "dispersion 3",
+            "ultraviolence",
+            "barrage 2"
+          ],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 3,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "designation",
+        "deuxmains"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "JbKnh7uNsH2UYQxv",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479743263,
+    "modifiedTime": 1728479743263,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

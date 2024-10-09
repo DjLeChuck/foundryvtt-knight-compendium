@@ -1,0 +1,136 @@
+{
+  "name": "Lance-harpon",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Lorsque d'anciens baleiniers ont postul&eacute; au Knight, la section Giant a d&eacute;cid&eacute; de faire des essais avec leur arme de pr&eacute;dilection. Si un harpon est capable de blesser des c&eacute;tac&eacute;s de plusieurs tonnes, les cr&eacute;atures de l'Anath&egrave;me devraient aussi y &ecirc;tre sensibles. Apr&egrave;s un petit travail d'adaptation pour &ecirc;tre manipul&eacute; par une m&eacute;ta-armure, le lance-harpon est n&eacute; : partant d'un fusil de pr&eacute;cision dont les munitions ont &eacute;t&eacute; lourdement modifi&eacute;es, la t&ecirc;te est bard&eacute;e de barbillons tandis que sa hampe d&eacute;clenche un filet immobilisant la cible lors de l'impact.</p>",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "longue",
+    "prix": 60,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "precision",
+        "assistanceattaque",
+        "meurtrier",
+        "deuxmains",
+        "immobilisation 15"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "JbKnh7uNsH2UYQxv",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479743263,
+    "modifiedTime": 1728479743263,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

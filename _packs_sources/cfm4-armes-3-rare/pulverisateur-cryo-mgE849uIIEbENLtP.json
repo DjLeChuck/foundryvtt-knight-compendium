@@ -1,0 +1,138 @@
+{
+  "name": "Pulvérisateur cryo",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Inspir&eacute;e par les statues de glaces parsemant le Sahara, la section R&amp;D de la Giant a mis au point un nouveau compos&eacute;, capable de geler n'importe quelle substance lors d'un simple contact. N&eacute;cessitant un &eacute;norme r&eacute;servoir, l'arme s'apparente visuellement au lance-flammes, mais c'est &agrave; l'utilisation que les effets diff&egrave;rent drastiquement : au lieu d'un feu intense et lumineux, c'est une brume &agrave; l'&eacute;paisseur variable qui envahit la zone et g&egrave;le tout ce qu'elle touche.</p>",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "courte",
+    "prix": 100,
+    "energie": 1,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 8,
+      "fixe": 12,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 4",
+        "dispersion 3",
+        "meurtrier",
+        "obliteration",
+        "deuxmains",
+        "lourd",
+        "immobilisation 15"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "PgzvmV6O8QwhNtAd",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479832901,
+    "modifiedTime": 1728479832901,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Shotgun gardien",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Ce fusil &agrave; pompe &agrave; l'allure tr&egrave;s &eacute;lanc&eacute;e tire des salves de lasers avec une pr&eacute;cision relative, destin&eacute;es &agrave; carboniser les cr&eacute;atures des t&eacute;n&egrave;bres &agrave; proximit&eacute;. Sur l'extr&eacute;mit&eacute; du canon, un ensemble de courtes lames dispos&eacute;es en &eacute;toile d&eacute;ploient un bouclier prot&eacute;geant des tirs d'ennemis et sur lequel apparait un affichage t&ecirc;te haute.</p>",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "courte",
+    "prix": 0,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 3,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "lumiere 4",
+        "dispersion 3",
+        "tenebricide",
+        "deuxmains",
+        "cdf 2",
+        "sansarmure"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "JbKnh7uNsH2UYQxv",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479743263,
+    "modifiedTime": 1728479743263,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

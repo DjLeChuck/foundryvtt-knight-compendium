@@ -1,0 +1,170 @@
+{
+  "name": "Lance disque (Distance)",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Apr&egrave;s avoir vu un des chevaliers de sa section improviser avec une scie circulaire de chantier, Sagramor est tomb&eacute; amoureux du potentiel destructeur de l'arme. Ainsi, Gauvain, sous la pression de Sagramor, a confectionn&eacute; une version boost&eacute;e de cette scie. Et comme taper avec un disque ne suffit pas, il peut aussi &ecirc;tre lanc&eacute;. En quittant l'arme, le disque va alors doubler de diam&egrave;tre au d&eacute;pend de sa vitesse de rotation et de vol.</p>",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 60,
+    "energie": 1,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 2,
+      "liste": {
+        "0": {
+          "nom": "Contact",
+          "degats": {
+            "dice": 6,
+            "fixe": 12
+          },
+          "violence": {
+            "dice": 2,
+            "fixe": 0
+          },
+          "raw": [
+            "penetrant 10",
+            "destructeur"
+          ],
+          "custom": [],
+          "liste": []
+        },
+        "1": {
+          "nom": "Tir (Portée Moyenne)",
+          "degats": {
+            "dice": 4,
+            "fixe": 0
+          },
+          "violence": {
+            "dice": 6,
+            "fixe": 6
+          },
+          "raw": [
+            "dispersion 3",
+            "chargeur 6"
+          ],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antivehicule",
+        "deuxmains",
+        "dispersion 3",
+        "chargeur 6"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "PgzvmV6O8QwhNtAd",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479832901,
+    "modifiedTime": 1728479832901,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

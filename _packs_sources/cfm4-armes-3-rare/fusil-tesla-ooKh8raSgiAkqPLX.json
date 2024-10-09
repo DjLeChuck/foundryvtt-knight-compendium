@@ -1,0 +1,152 @@
+{
+  "name": "Fusil Tesla",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Prenez une carabine, remplacez le projectile par une fl&eacute;chette adh&eacute;sive en acier reli&eacute;e &agrave; l'arme par un micro-filament de carbone. Et voil&agrave;, vous avez un moyen de diriger un courant &eacute;lectrique de mani&egrave;re pr&eacute;cise sur une cible. Ajoutez &agrave; cela 4 bobines Tesla miniatures et quelques acc&eacute;l&eacute;rateurs &agrave; &eacute;lectro-aimant, et vous avez un fusil Tesla. Et si &ccedil;a ne suffit pas, il est toujours possible de puiser dans l'&eacute;nergie de la m&eacute;ta-armure pour augmenter l'intensit&eacute; du courant. Le choc est si violent qu'il n'est pas rare de voir des gerbes d'&eacute;tincelles voler dans tous les sens.</p>",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {
+        "0": {
+          "nom": "Nom",
+          "degats": {
+            "dice": 4,
+            "fixe": 6
+          },
+          "violence": {
+            "dice": 3,
+            "fixe": 6
+          },
+          "raw": [],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 3,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "parasitage 4",
+        "meurtrier",
+        "designation",
+        "deuxmains",
+        "boostdegats 6",
+        "boostviolence 4"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "PgzvmV6O8QwhNtAd",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479832901,
+    "modifiedTime": 1728479832901,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}

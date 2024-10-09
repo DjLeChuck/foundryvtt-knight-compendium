@@ -1,0 +1,135 @@
+{
+  "name": "Lance grenade léger automatique",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Le lance grenade l&eacute;ger automatique, abr&eacute;g&eacute; en LGL automatique est une arme hybride plus puissante qu'un pistolet mitrailleur et dispose, gr&acirc;ce &agrave; sa munition : une grenade de 20mm &agrave; faible dispersion, d'une cadence sup&eacute;rieure au lance grenade l&eacute;ger. L'arme est rendue compacte gr&acirc;ce &agrave; l'architecture bullpup, c'est-&agrave;-dire que le chargeur se situe derri&egrave;re la poign&eacute;e pour r&eacute;duire la longueur de l'arme sans toucher au canon. Coupl&eacute; &agrave; la m&eacute;ta-armure qui encaisse la plupart du recul, on obtient une arme polyvalente utilisable &agrave; une main.</p>",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 55,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 2",
+        "dispersion 2",
+        "enchaine",
+        "ultraviolence"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "folder": "PgzvmV6O8QwhNtAd",
+  "flags": {
+    "exportSource": {
+      "world": "knight",
+      "system": "knight",
+      "coreVersion": "12.331",
+      "systemVersion": "#{VERSION}#"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "knight",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1728479832901,
+    "modifiedTime": 1728479832901,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  }
+}
