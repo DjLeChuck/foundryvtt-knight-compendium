@@ -1,5 +1,5 @@
 {
-  "name": "Lance-missile"
+  "name": "Lance-missile",
   "type": "arme",
   "img": "modules/knight-compendium/assets/weapons/lance-missile.webp",
   "system": {
