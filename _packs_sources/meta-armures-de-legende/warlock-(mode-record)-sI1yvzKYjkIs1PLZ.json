@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE WARMASTER",
+  "name": "Warlock (Mode Record)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,98 +741,17 @@
       },
       "liste": {},
       "selected": {
-        "warlord": {
-          "label": "Mode Warlord",
-          "description": "",
-          "base": {
-            "action": {
-              "activation": "deplacement",
-              "duree": "1 tour",
-              "bonus": {
-                "description": "Un allié (et un seul) au choix du porteur de la méta-armure obtient une action de combat ou de déplacement supplémentaire lors de son prochain tour."
-              },
-              "energie": {
-                "allie": 4,
-                "porteur": 10
-              }
-            }
-          },
-          "impulsions": {
-            "selection": 1,
-            "esquive": {
-              "activation": "deplacement",
-              "duree": "1 tour (peut être prolongé)",
-              "bonus": {
-                "reaction": 2,
-                "defense": 2
-              },
-              "energie": {
-                "allie": 3,
-                "porteur": 2,
-                "prolonger": 2
-              }
-            },
-            "force": {
-              "activation": "deplacement",
-              "duree": "1 tour (peut être prolongé)",
-              "bonus": {
-                "champDeForce": 2
-              },
-              "energie": {
-                "allie": 2,
-                "porteur": 1,
-                "prolonger": 1
-              }
-            },
-            "guerre": {
-              "activation": "deplacement",
-              "duree": "1 tour (peut être prolongé)",
-              "bonus": {
-                "degats": 1,
-                "violence": 1
-              },
-              "energie": {
-                "allie": 1,
-                "porteur": 1,
-                "prolonger": 1
-              }
-            },
-            "energie": {
-              "activation": "deplacement",
-              "duree": "Instantanée",
-              "bonus": {
-                "description": "Un allié en méta-armure, au choix du PJ, reçoit une partie de l’énergie de la Warmaster. 1 à 5 points d’énergie, à la discrétion du joueur, peuvent être octroyés à un allié, mais pas à la Warmaster elle-même."
-              },
-              "energie": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          },
-          "textarea": {
-            "dureeAction": 51,
-            "dureeForce": 51,
-            "dureeEnergie": 51,
-            "dureeEsquive": 51,
-            "dureeGuerre": 51,
-            "bonusAction": 86,
-            "bonusEnergie": 111
-          },
-          "softlock": true,
-          "key": "warlord"
-        },
-        "falcon": {
-          "label": "Mode Falcon",
-          "description": "",
-          "energie": 5,
-          "activation": "aucune",
+        "record": {
+          "label": "Mode Record",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Record de la m&eacute;ta-armure Warlock, mais le co&ucirc;t en &eacute;nergie est plus &eacute;lev&eacute;. Cette capacit&eacute; annexe est acquise sans &eacute;volution.</p>",
           "duree": "Instantanée",
-          "informations": "<p>Découvrir tous les aspects d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de réaction et de défense d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects exceptionnels d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir le ou les points faibles d’un PNJ (salopard, patron ou colosse).</p><p>Découvrir les armes (et leurs statistiques) d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir les scores de bouclier, d’armure et de santé d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir toutes les capacités d’un PNJ (hostile, salopard, patron ou colosse).</p><p>Découvrir tous les aspects et valeurs dérivées d’une bande.</p>",
+          "activation": "aucune",
+          "energie": 12,
           "textarea": {
             "duree": 50
           },
           "softlock": true,
-          "key": "falcon"
+          "key": "record"
         }
       }
     },
@@ -854,8 +776,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -867,11 +788,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "fANHJd5GFFAwOqYD",
+  "_id": "sI1yvzKYjkIs1PLZ",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!fANHJd5GFFAwOqYD"
+  "_key": "!items!sI1yvzKYjkIs1PLZ"
 }

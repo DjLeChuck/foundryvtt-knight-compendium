@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE BARD",
+  "name": "Warlock (Mode Rewind)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,26 +741,17 @@
       },
       "liste": {},
       "selected": {
-        "changeling": {
-          "label": "Mode Changeling",
-          "description": "",
-          "activation": "tour6Sec",
-          "duree": "Une scène, une phase ou une heure, peu importe la phase",
-          "portee": "50m de rayon",
-          "energie": {
-            "personnel": 8,
-            "etendue": 10,
-            "fauxEtre": {
-              "value": 4,
-              "max": 4
-            }
-          },
+        "rewind": {
+          "label": "Mode Rewind",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Rewind de la m&eacute;ta-armure Warlock, mais le co&ucirc;t en &eacute;nergie est plus &eacute;lev&eacute;. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 200 PG.</p>",
+          "duree": "Instantanée",
+          "activation": "aucune",
+          "energie": 18,
           "textarea": {
-            "duree": 50,
-            "portee": 51
+            "duree": 50
           },
           "softlock": true,
-          "key": "changeling"
+          "key": "rewind"
         }
       }
     },
@@ -782,8 +776,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -795,11 +788,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "15ihtlpyVwmstAYI",
+  "_id": "LPYAa04uriMZTbzk",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!15ihtlpyVwmstAYI"
+  "_key": "!items!LPYAa04uriMZTbzk"
 }

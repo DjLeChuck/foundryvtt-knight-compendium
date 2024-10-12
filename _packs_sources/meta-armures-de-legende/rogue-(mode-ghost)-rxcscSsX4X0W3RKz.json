@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE PRIEST",
+  "name": "Rogue (Mode Ghost)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,52 +741,40 @@
       },
       "liste": {},
       "selected": {
-        "nanoc": {
-          "label": "Mode nanoC",
-          "description": "",
-          "activation": "toutes",
-          "duree": "1 heure",
+        "ghost": {
+          "label": "Mode Ghost",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Ghost de la m&eacute;ta-armure Rogue, mais &agrave; un co&ucirc;t en &eacute;nergie plus &eacute;lev&eacute;. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 150 PG (inclus ci-dessous).</p>\n<p style=\"text-align: justify;\"><strong><span class=\"fontstyle0\">Exclusion : </span></strong><span class=\"fontstyle2\">M&eacute;ta-armure Berserk, m&eacute;ta-armure </span><span class=\"fontstyle2\">Wizard</span>&nbsp;</p>",
+          "interruption": {
+            "actif": true,
+            "label": ""
+          },
+          "activation": "aucune",
+          "duree": "1 tour ou 1 minute",
           "energie": {
-            "base": 4,
-            "detaille": 8,
-            "prolonger": null
+            "tour": 4,
+            "minute": 10
           },
-          "textarea": {
-            "duree": 51
-          },
-          "softlock": true,
-          "key": "nanoc"
-        },
-        "mechanic": {
-          "label": "Mode Mechanic",
-          "description": "",
-          "activation": {
-            "contact": "deplacement",
-            "distance": "deplacement"
-          },
-          "portee": "Longue (50 - 300m)",
-          "reparation": {
-            "contact": {
-              "duree": "Instantanée",
-              "dice": 4,
-              "fixe": 12
-            },
-            "distance": {
-              "duree": "Instantanée",
-              "dice": 3,
-              "fixe": 12
+          "bonus": {
+            "aspects": {},
+            "reussites": 3,
+            "attaque": "discretion",
+            "degats": {
+              "caracteristique": "discretion",
+              "inclus": {
+                "od": "",
+                "dice": "",
+                "fixe": ""
+              },
+              "od": true,
+              "dice": false,
+              "fixe": true
             }
           },
-          "energie": {
-            "contact": 6,
-            "distance": 8
-          },
           "textarea": {
-            "dureeContact": 50,
-            "dureeDistance": 50
+            "duree": 50
           },
           "softlock": true,
-          "key": "mechanic"
+          "key": "ghost"
         }
       }
     },
@@ -808,8 +799,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -821,11 +811,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "VuI3Y40lNaqzYtha",
+  "_id": "rxcscSsX4X0W3RKz",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!VuI3Y40lNaqzYtha"
+  "_key": "!items!rxcscSsX4X0W3RKz"
 }

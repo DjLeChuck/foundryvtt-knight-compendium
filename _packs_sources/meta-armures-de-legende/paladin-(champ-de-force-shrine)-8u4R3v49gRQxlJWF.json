@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE PALADIN",
+  "name": "Paladin (Champ de Force Shrine)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -740,7 +743,7 @@
       "selected": {
         "shrine": {
           "label": "Champ de Force Shrine",
-          "description": "",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le champ de force Shrine de la m&eacute;ta-armure Paladin, mais &agrave; un co&ucirc;t en &eacute;nergie plus &eacute;lev&eacute;. Cette capacit&eacute; annexe est acquise sans &eacute;volution.</p>",
           "activation": "aucune",
           "duree": "1 tour",
           "portee": "Personnelle / Moyenne (15 - 50m)",
@@ -757,7 +760,7 @@
             "duree": "50",
             "portee": "50"
           },
-          "softlock": true,
+          "softlock": false,
           "key": "shrine"
         }
       }
@@ -783,8 +786,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -796,11 +798,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "q5zI5IZnZivOZ9zA",
+  "_id": "8u4R3v49gRQxlJWF",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!q5zI5IZnZivOZ9zA"
+  "_key": "!items!8u4R3v49gRQxlJWF"
 }

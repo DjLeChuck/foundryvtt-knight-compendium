@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE RANGER",
+  "name": "Priest (Mode Mechanic)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,20 +741,36 @@
       },
       "liste": {},
       "selected": {
-        "vision": {
-          "label": "Vision",
-          "description": "",
-          "activation": "deplacement6Sec",
-          "duree": "6 secondes",
+        "mechanic": {
+          "label": "Mode Mechanic",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Mechanic de la m&eacute;ta-armure Priest, mais &agrave; un co&ucirc;t en &eacute;nergie plus &eacute;lev&eacute;. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 200 PG (inclus ci-dessous).</p>",
+          "activation": {
+            "contact": "deplacement",
+            "distance": "deplacement"
+          },
+          "portee": "Longue (50 - 300m)",
+          "reparation": {
+            "contact": {
+              "duree": "Instantanée",
+              "dice": 4,
+              "fixe": 6
+            },
+            "distance": {
+              "duree": "Instantanée",
+              "dice": 3,
+              "fixe": 6
+            }
+          },
           "energie": {
-            "min": "8",
-            "max": "15"
+            "contact": 6,
+            "distance": 8
           },
           "textarea": {
-            "duree": 50
+            "dureeContact": 50,
+            "dureeDistance": 50
           },
           "softlock": true,
-          "key": "vision"
+          "key": "mechanic"
         }
       }
     },
@@ -776,8 +795,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -789,11 +807,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "vH8X7O8ugnYwdFsY",
+  "_id": "ODvjYUwZdIqa1RvO",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!vH8X7O8ugnYwdFsY"
+  "_key": "!items!ODvjYUwZdIqa1RvO"
 }

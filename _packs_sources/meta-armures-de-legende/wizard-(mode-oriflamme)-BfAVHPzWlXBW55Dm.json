@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE ROGUE",
+  "name": "Wizard (Mode Oriflamme)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,40 +741,34 @@
       },
       "liste": {},
       "selected": {
-        "ghost": {
-          "label": "Mode Ghost",
-          "description": "",
-          "interruption": {
-            "actif": true,
-            "label": ""
+        "oriflamme": {
+          "label": "Mode Oriflamme",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Oriflamme de la m&eacute;ta-armure Wizard. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 250 PG.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Rogue</span>&nbsp;</p>",
+          "activation": "deplacement",
+          "duree": "Instantanée",
+          "portee": "moyenne",
+          "energie": 9,
+          "degats": {
+            "dice": 6,
+            "fixe": 6
           },
-          "activation": "aucune",
-          "duree": "6 tours ou 15 minutes",
-          "energie": {
-            "tour": 4,
-            "minute": 10
+          "violence": {
+            "dice": 6,
+            "fixe": 12
           },
-          "bonus": {
-            "aspects": {},
-            "reussites": 3,
-            "attaque": "discretion",
-            "degats": {
-              "caracteristique": "discretion",
-              "inclus": {
-                "od": "",
-                "dice": "",
-                "fixe": ""
-              },
-              "od": true,
-              "dice": false,
-              "fixe": true
-            }
+          "effets": {
+            "liste": [],
+            "raw": [
+              "antianatheme",
+              "lumiere 2"
+            ],
+            "custom": []
           },
           "textarea": {
-            "duree": 51
+            "duree": 50
           },
           "softlock": true,
-          "key": "ghost"
+          "key": "oriflamme"
         }
       }
     },
@@ -796,8 +793,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -809,11 +805,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "PC2gWY5RGBjuQvvo",
+  "_id": "BfAVHPzWlXBW55Dm",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!PC2gWY5RGBjuQvvo"
+  "_key": "!items!BfAVHPzWlXBW55Dm"
 }

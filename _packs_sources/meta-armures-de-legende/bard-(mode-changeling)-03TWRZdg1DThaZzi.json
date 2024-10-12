@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE WARRIOR",
+  "name": "Bard (Mode Changeling)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,93 +741,26 @@
       },
       "liste": {},
       "selected": {
-        "type": {
-          "label": "Type",
-          "description": "",
-          "activation": "deplacement",
-          "duree": "1 tour ou une scène",
-          "nbreType": 1,
+        "changeling": {
+          "label": "Mode Changeling",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Changeling de la m&eacute;ta-armure Bard, mais &agrave; un co&ucirc;t en &eacute;nergie plus &eacute;lev&eacute;. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 150 PG (inclus ci-dessous).</p>\n<p style=\"text-align: justify;\"><strong><span class=\"fontstyle0\">Exclusion : </span></strong><span class=\"fontstyle2\">M&eacute;ta-armure Barbarian, m&eacute;taarmure Berserk</span>&nbsp;</p>",
+          "activation": "tour6Sec",
+          "duree": "Une scène, une phase ou une heure, peu importe la phase",
+          "portee": "3m de rayon",
           "energie": {
-            "tour": 2,
-            "scene": 12
-          },
-          "type": {
-            "soldier": {
-              "aspect": "chair",
-              "liste": {
-                "deplacement": {
-                  "value": 1
-                },
-                "force": {
-                  "value": 1
-                },
-                "endurance": {
-                  "value": 1
-                }
-              }
-            },
-            "hunter": {
-              "aspect": "bete",
-              "liste": {
-                "hargne": {
-                  "value": 1
-                },
-                "combat": {
-                  "value": 1
-                },
-                "instinct": {
-                  "value": 1
-                }
-              }
-            },
-            "scholar": {
-              "aspect": "machine",
-              "liste": {
-                "tir": {
-                  "value": 1
-                },
-                "savoir": {
-                  "value": 1
-                },
-                "technique": {
-                  "value": 1
-                }
-              }
-            },
-            "herald": {
-              "aspect": "dame",
-              "liste": {
-                "aura": {
-                  "value": 1
-                },
-                "parole": {
-                  "value": 1
-                },
-                "sangFroid": {
-                  "value": 1
-                }
-              }
-            },
-            "scout": {
-              "aspect": "masque",
-              "liste": {
-                "discretion": {
-                  "value": 1
-                },
-                "dexterite": {
-                  "value": 1
-                },
-                "perception": {
-                  "value": 1
-                }
-              }
+            "personnel": 8,
+            "etendue": 10,
+            "fauxEtre": {
+              "value": 4,
+              "max": 4
             }
           },
           "textarea": {
-            "duree": 50
+            "duree": 50,
+            "portee": 50
           },
-          "softlock": true,
-          "key": "type"
+          "softlock": false,
+          "key": "changeling"
         }
       }
     },
@@ -849,8 +785,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -862,11 +797,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "jNmkbBOTpVmVWDeJ",
+  "_id": "03TWRZdg1DThaZzi",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!jNmkbBOTpVmVWDeJ"
+  "_key": "!items!03TWRZdg1DThaZzi"
 }

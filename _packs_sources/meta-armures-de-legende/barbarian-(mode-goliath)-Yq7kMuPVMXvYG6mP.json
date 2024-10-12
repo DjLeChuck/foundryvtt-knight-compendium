@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE WIZARD",
+  "name": "Barbarian (Mode Goliath)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,34 +741,53 @@
       },
       "liste": {},
       "selected": {
-        "oriflamme": {
-          "label": "Mode Oriflamme",
-          "description": "",
+        "goliath": {
+          "label": "Goliath Mode",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Goliath de la m&eacute;ta-armure Barbarian, mais le co&ucirc;t en &eacute;nergie est plus &eacute;lev&eacute; et l&rsquo;augmentation de taille est de 6 m&egrave;tres maximum. Cette capacit&eacute; annexe est acquise sans &eacute;volution.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Berserk, m&eacute;ta-armure </span><span class=\"fontstyle2\">Warlock</span>&nbsp;</p>",
+          "energie": 4,
           "activation": "deplacement",
-          "duree": "Instantanée",
-          "portee": "moyenne",
-          "energie": 12,
-          "degats": {
-            "dice": 6,
-            "fixe": 6
+          "duree": "6 tours ou 1 minute.",
+          "taille": {
+            "value": 0,
+            "max": 4
           },
-          "violence": {
-            "dice": 6,
-            "fixe": 12
+          "armesRack": {
+            "label": "",
+            "active": true,
+            "value": 4
           },
-          "effets": {
-            "liste": [],
-            "raw": [
-              "antianatheme",
-              "lumiere 2"
-            ],
-            "custom": []
+          "bonus": {
+            "cdf": {
+              "value": 1
+            },
+            "force": {
+              "value": 1
+            },
+            "endurance": {
+              "value": 1
+            },
+            "degats": {
+              "dice": 1,
+              "value": 1
+            },
+            "violence": {
+              "dice": 1,
+              "value": 1
+            }
+          },
+          "malus": {
+            "reaction": {
+              "value": 2
+            },
+            "defense": {
+              "value": 1
+            }
           },
           "textarea": {
-            "duree": 50
+            "duree": 51
           },
-          "softlock": true,
-          "key": "oriflamme"
+          "softlock": false,
+          "key": "goliath"
         }
       }
     },
@@ -790,8 +812,7 @@
         }
       },
       "selected": {}
-    },
-    "jauges": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -803,11 +824,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "MqzoPlTjMZnkXlS1",
+  "_id": "Yq7kMuPVMXvYG6mP",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!MqzoPlTjMZnkXlS1"
+  "_key": "!items!Yq7kMuPVMXvYG6mP"
 }

@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE PSION",
+  "name": "Warrior (Types)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,71 +741,93 @@
       },
       "liste": {},
       "selected": {
-        "puppet": {
-          "label": "Mode Puppet Master",
-          "description": "",
-          "special": "recolteflux",
-          "duree": "1 tour ou 10 secondes",
+        "type": {
+          "label": "Type",
+          "description": "<p style=\"text-align: justify;\">&Agrave; l&rsquo;acquisition de la capacit&eacute; annexe, le chevalier peut choisir un type parmi le type Soldier, Hunter, Scholar, Herald ou Scout. Cette capacit&eacute; annexe est acquise sans &eacute;volution.</p>",
           "activation": "deplacement",
-          "creatures": 3,
+          "duree": "1 tour ou une scène",
+          "nbreType": 1,
           "energie": {
-            "ordre": 2,
-            "supplementaire": 3,
-            "prolonger": 1
+            "tour": 2,
+            "scene": 12
           },
-          "flux": {
-            "has": true,
-            "ordre": 1,
-            "supplementaire": 1,
-            "prolonger": 1
+          "type": {
+            "soldier": {
+              "aspect": "chair",
+              "liste": {
+                "deplacement": {
+                  "value": 1
+                },
+                "force": {
+                  "value": 1
+                },
+                "endurance": {
+                  "value": 1
+                }
+              }
+            },
+            "hunter": {
+              "aspect": "bete",
+              "liste": {
+                "hargne": {
+                  "value": 1
+                },
+                "combat": {
+                  "value": 1
+                },
+                "instinct": {
+                  "value": 1
+                }
+              }
+            },
+            "scholar": {
+              "aspect": "machine",
+              "liste": {
+                "tir": {
+                  "value": 1
+                },
+                "savoir": {
+                  "value": 1
+                },
+                "technique": {
+                  "value": 1
+                }
+              }
+            },
+            "herald": {
+              "aspect": "dame",
+              "liste": {
+                "aura": {
+                  "value": 1
+                },
+                "parole": {
+                  "value": 1
+                },
+                "sangFroid": {
+                  "value": 1
+                }
+              }
+            },
+            "scout": {
+              "aspect": "masque",
+              "liste": {
+                "discretion": {
+                  "value": 1
+                },
+                "dexterite": {
+                  "value": 1
+                },
+                "perception": {
+                  "value": 1
+                }
+              }
+            }
           },
           "textarea": {
             "duree": 50
           },
           "softlock": true,
-          "key": "puppet"
-        },
-        "discord": {
-          "label": "Mode Discord",
-          "description": "",
-          "special": "recolteflux",
-          "malus": {
-            "reaction": 3,
-            "defense": 3,
-            "actions": 3
-          },
-          "tour": {
-            "flux": 1,
-            "energie": 2,
-            "activation": "deplacement",
-            "duree": "Un tour"
-          },
-          "scene": {
-            "flux": 3,
-            "energie": 6,
-            "activation": "deplacement",
-            "duree": "Une scène ou une phase de conflit"
-          },
-          "textarea": {
-            "dureeTour": 50,
-            "dureeScene": 50
-          },
-          "softlock": true,
-          "key": "discord"
-        },
-        "windtalker": {
-          "label": "Mode Windtalker",
-          "description": "",
-          "special": "recolteflux",
-          "flux": 2,
-          "energie": 4,
-          "activation": "deplacement",
-          "duree": "Instantanée",
-          "textarea": {
-            "duree": 50
-          },
-          "softlock": true,
-          "key": "windtalker"
+          "key": "type"
         }
       }
     },
@@ -826,29 +851,8 @@
           }
         }
       },
-      "selected": {
-        "recolteflux": {
-          "label": "Récolte du flux",
-          "description": "",
-          "conflit": {
-            "base": 2,
-            "tour": 1,
-            "hostile": 2,
-            "salopard": 3,
-            "patron": 4,
-            "portee": "moyenne"
-          },
-          "horsconflit": {
-            "base": 1,
-            "portee": "moyenne",
-            "limite": 10
-          },
-          "softlock": true,
-          "key": "recolteflux"
-        }
-      }
-    },
-    "jauges": {}
+      "selected": {}
+    }
   },
   "effects": [],
   "flags": {},
@@ -860,11 +864,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "Wmbv9ikebaVm416W",
+  "_id": "0M5skIsR6Pveyx5x",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!Wmbv9ikebaVm416W"
+  "_key": "!items!0M5skIsR6Pveyx5x"
 }

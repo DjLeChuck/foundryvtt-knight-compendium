@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "MÉTA-ARMURE BARBARIAN",
+  "name": "Psion (Mode Discord)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -533,7 +533,8 @@
                 }
               },
               "distance": []
-            }
+            },
+            "img": "systems/knight/assets/lion.jpg"
           },
           "wolf": {
             "aspects": {
@@ -650,7 +651,8 @@
                   "roll": 1
                 }
               }
-            }
+            },
+            "img": "systems/knight/assets/wolf.jpg"
           },
           "crow": {
             "capacites": "",
@@ -692,7 +694,8 @@
             "initiative": {
               "value": 0,
               "fixe": 1
-            }
+            },
+            "img": "systems/knight/assets/crow.jpg"
           }
         },
         "rewind": {
@@ -738,62 +741,33 @@
       },
       "liste": {},
       "selected": {
-        "goliath": {
-          "label": "Mode Goliath",
-          "description": "",
-          "energie": 4,
-          "activation": "deplacement",
-          "duree": "6 tours ou 1 minute",
-          "taille": {
-            "value": 0,
-            "max": 6
-          },
-          "armesRack": {
-            "label": "",
-            "active": true,
-            "value": 4
-          },
-          "bonus": {
-            "cdf": {
-              "value": 1
-            },
-            "force": {
-              "value": 1
-            },
-            "endurance": {
-              "value": 1
-            },
-            "degats": {
-              "dice": 1,
-              "value": 1
-            },
-            "violence": {
-              "dice": 1,
-              "value": 1
-            }
-          },
+        "discord": {
+          "label": "Mode Discord",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Discord de la m&eacute;ta-armure Psion. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 200 PG.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Berserk</span>&nbsp;</p>",
+          "special": "recolteflux",
           "malus": {
-            "reaction": {
-              "value": 2
-            },
-            "defense": {
-              "value": 1
-            }
+            "reaction": 3,
+            "defense": 3,
+            "actions": 3
+          },
+          "tour": {
+            "flux": 1,
+            "energie": 2,
+            "activation": "deplacement",
+            "duree": "Un tour"
+          },
+          "scene": {
+            "flux": 3,
+            "energie": 6,
+            "activation": "deplacement",
+            "duree": "Une scène ou une phase de conflit"
           },
           "textarea": {
-            "duree": 50
+            "dureeTour": 50,
+            "dureeScene": 50
           },
           "softlock": true,
-          "key": "goliath"
-        }
-      },
-      "barbarian": {
-        "selected": {
-          "bonus": {
-            "cdf": {
-              "value": 1
-            }
-          }
+          "key": "discord"
         }
       }
     },
@@ -817,9 +791,28 @@
           }
         }
       },
-      "selected": {}
-    },
-    "jauges": {}
+      "selected": {
+        "recolteflux": {
+          "label": "Récolte du flux",
+          "description": "<p style=\"text-align: justify;\">En combat, contre des cr&eacute;atures de l'Anath&egrave;me ou des d&eacute;sesp&eacute;r&eacute;s et uniquement contre ces types d'ennemis, un chevalier en m&eacute;ta-armure Psion peut r&eacute;colter du flux. Au d&eacute;but d'une phase de conflit, le chevalier re&ccedil;oit automatiquement 2 points de flux et, &agrave; chaque tour suivant, il en re&ccedil;oit 1 (pour les symboliser, prenez des pi&egrave;ces ou des pions). Si un ennemi &agrave; port&eacute;e moyenne est tu&eacute; par un chevalier de la coterie ou par un alli&eacute; (donc pas par une cr&eacute;ature de l'Anath&egrave;me ou un d&eacute;sesp&eacute;r&eacute;), le chevalier en m&eacute;ta-armure Psion re&ccedil;oit automatiquement le nombre de points de flux suivants par ennemi tu&eacute; :</p>\n<p style=\"text-align: justify;\">Il est &agrave; noter que le flux peut &ecirc;tre r&eacute;colt&eacute; en dehors d'une phase de conflit si le chevalier est en pr&eacute;sence d'une ou plusieurs cr&eacute;atures de l'Anath&egrave;me &agrave; une certaine port&eacute;e de l'armure. On consid&egrave;re alors qu'il re&ccedil;oit des points de flux par cr&eacute;ature pr&eacute;sente &agrave; port&eacute;e, dans ume certaine limite, durant la sc&egrave;ne. Ces points ne sont re&ccedil;us qu'une fois par sc&egrave;ne.</p>\n<p style=\"text-align: justify;\">Le flux r&eacute;colt&eacute; par le chevalier lors d'un combat lui permet d'utiliser les modes ci-dessous qui ont un co&ucirc;t en flux. Attention : Chacun des modes d&eacute;crits ne peut &ecirc;tre utilis&eacute; que contre les cr&eacute;atures de l'Anath&egrave;me ou contre les d&eacute;sesp&eacute;r&eacute;s.</p>\n<p style=\"text-align: justify;\"><strong>Attention</strong> : Si &agrave; la fin d'une sc&egrave;ne ou d'une phase de conflit le flux absorb&eacute; n'a pas &eacute;t&eacute; utilis&eacute;, il est d&eacute;finitivement perdu.</p>",
+          "conflit": {
+            "base": 2,
+            "tour": 1,
+            "hostile": 2,
+            "salopard": 3,
+            "patron": 4,
+            "portee": "moyenne"
+          },
+          "horsconflit": {
+            "base": 1,
+            "portee": "moyenne",
+            "limite": 10
+          },
+          "softlock": true,
+          "key": "recolteflux"
+        }
+      }
+    }
   },
   "effects": [],
   "flags": {},
@@ -831,11 +824,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "TVL7bdzwV4Fmdl3z",
+  "_id": "MR6p4yFY4Yy52ePf",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!TVL7bdzwV4Fmdl3z"
+  "_key": "!items!MR6p4yFY4Yy52ePf"
 }
