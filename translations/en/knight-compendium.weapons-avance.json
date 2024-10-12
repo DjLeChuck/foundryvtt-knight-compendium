@@ -1,0 +1,125 @@
+{
+  "label": "Weapons - 2. Advanced",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom"
+  },
+  "entries": {
+    "Baton de combat": {
+      "name": "Stun batons",
+      "description": "<p>These metal cylinders are always used in pairs. They are excellent clubs in their own right, but their stunning capabilities can put the sturdiest opponents out of commission. Using one with a shield may seem tempting, but their design only really works when both are used. They each have their own power converter, capable of generating a powerful current as often as required.\nWarning: Listed price is for a pair of stun batons.</p>\n"
+    },
+    "Bélier à piston": {
+      "name": "Piston ram",
+      "description": "<p>This weapon is little more than a magnetic piston designed to send a plated metal tube through an armoured door. Attached to a meta-armour’s forearm, it activates when the wearer hits something with their fist or open palm. It also has a jackhammer setting. Not so useful in a combat situation, unless the target is already immobilised, but a guaranteed way to smash through a building.</p>\n"
+    },
+    "Ceste répulsif": {
+      "name": "Charged gauntlet",
+      "description": "<p>A charged gauntlet replaces one of a meta-armour’s gloves from elbow to fingertip. Beneath its protective exterior are concealed a number of kinetic field generators, humming and sometimes sending electricity arcing outward when the wearer uses it to send an enemy flying into the background. These gauntlets can also be used defensively. By shielding themselves with their arm, charged gauntlet wielders generate a localised force field that hinders enemy attacks.</p>\n"
+    },
+    "Ceste shotgun - Mêlée": {
+      "name": "Shotgun cestus - Melee",
+      "description": "<p>It's a two-in-one weapon. A heavy ceste with a shotgun barrel. The shotgun mechanism adapted to the ceste is rearmed as soon as you strike with it, or with a gesture that's both technical and brutal, consisting of a rotation of the wrist followed by an energetic gesture backwards, like a blow from the elbow, or simply by rearming it with the other hand.</p>\n"
+    },
+    "Ceste shotgun - Tir": {
+      "name": "Shotgun cestus - Ranged",
+      "description": "<p>It's a two-in-one weapon. A heavy ceste with a shotgun barrel. The shotgun mechanism adapted to the ceste is rearmed as soon as you strike with it, or with a gesture that's both technical and brutal, consisting of a rotation of the wrist followed by an energetic gesture backwards, like a blow from the elbow, or simply by rearming it with the other hand.</p>\n"
+    },
+    "Ceste à concussion": {
+      "name": "Concussion cestus",
+      "description": "<p>The concussive cestus is based on the same technology as the sonic rifle. It is a bulky gauntlet with a powerful sonic emitter set in its palm, directly hooked up to the wielder‘s alpha energy reactor. When the meta-armour‘s wearer hits their target with their open palm, they send a sonic wave forward, knocking enemies out of the way while crushing bones and internal organs. Knights versed in the ways of martial arts use precise manoeuvres to slay their foes in breathtaking, deadly displays of skill. More brutish Knights just slap things until they stay down.</p>\n"
+    },
+    "Cimeterre cinétique": {
+      "name": "Kinetic scimitar",
+      "description": "<p>Composed of rare materials from the lands of darkness, coupled with kinetic sword technology, this heavy scimitar is designed for discreet warriors who still want significant impact on contact.</p>\n"
+    },
+    "Dague": {
+      "name": "Stiletto",
+      "description": "<p>These long, straight, elegant stiletto blades are made from a top secret alloy that can pierce just about anything. Those who master it become known as deadly assassins. It is an invaluable tool against Knights of Darkness or armoured creatures of the Anathema.</p>\n"
+    },
+    "Fléau répulsif": {
+      "name": "Charged flail",
+      "description": "<p>Charged flails contain a field generator in their head that feeds off the armour’s power reserves. Each time it strikes it unleashes a shockwave strong enough to turn concrete walls to rubble or send several enemies flying. Given the severity of the impact, the weapon’s head is at the end of a lengthy chain to avoid its user suffering a backlash due to close proximity with the wave. Given the skill required to not get hit by the weapon rebounding off a target–a sure-fire way for the wielder to lose their head–these weapons are only meant for masters of melee combat. Flail heads can be modified in the workshop to shape their user’s taste; bull and lion heads are currently in vogue.</p>\n"
+    },
+    "Fusil UV": {
+      "name": "UV rifle",
+      "description": "<p>Compact, snub-nosed, and milky white, the UV rifle has two barrels positioned one atop the other made to launch small bolts of burning UV light. A sharp tug on the handle below the barrels sets two fresh rounds in the cylinder, ready to launch. On the side of the weapon is an egg-shaped canister, the light of the twelve ‘bolts’ contained within glowing softly through its white casing. Given its simplicity and ease of use, the UV rifle will soon likely replace Avalon‘s standard foldable shotgun.</p>\n"
+    },
+    "Fusil anti-matériel": {
+      "name": "Anti-materiel rifle",
+      "description": "<p>This lengthy anti-materiel sniper rifle fires anti-aircraft gun shells, is precise well over half a mile, and can fire through brick and concrete walls. Its scope is supplemented by a high performance camera for cover shooting and enemy holo-targeting. It automatically sends marked targets to allies’ AR displays to increase squad ballistic targeting synergy.</p>\n"
+    },
+    "Fusil sonique": {
+      "name": "Sonic rifle",
+      "description": "<p>These are the first of Avalon‘s sonic weapons, and look like huge, single-barrelled sawn-off rifles. Their use is simple and intuitive, with a small alpha element reactor powering a powerful sonic generator to send a highly concentrated sonic wave in a cone a dozen feet long. Calibrated to vibrate on several frequencies at once, the sound wave turns innards to mush, bursts eardrums, and can shatter the bones of more fragile creatures with ease.</p>\n"
+    },
+    "Lance de lumière": {
+      "name": "Spear of light",
+      "description": "<p>Spears of light are based on a simple idea: an alpha element haft connected to a graphene tip containing a powerful UV source. When the spear sticks in an enemy, its tip is propelled forward and remains in the target‘s flesh. The spear almost instantaneously replaces its missing tip with a fresh one made of components from its haft. By hitting the same foe over and over, the wielder can pierce them through with rays of burning light.</p>\n"
+    },
+    "Lance-grenade lourd": {
+      "name": "Heavy grenade launcher",
+      "description": "<p>This semi-automatic heavy grenade launcher turns a Knight into a one-soldier artillery division. Its automatic rotating chamber contains 24 high velocity 1.5-inch grenades. The magazine prepares a different grenade type with a single verbal instruction from its user.</p>\n",
+      "m0Nom": "Sticky grenade",
+      "m1Nom": "Armour-piercing grenade",
+      "m2Nom": "Explosive grenade",
+      "m3Nom": "Incendiary grenade"
+    },
+    "Lance-missile": {
+      "name": "Rocket Launcher",
+      "description": "<p>Huge creatures surge from the darkness, laying waste to all in their path, but there are still hangars full of tanks all over the world. To give Knights a fighting chance against these threats, Avalon designed this portable rocket launcher. 5 feet long once unfolded, with four barrels for rockets and missiles and mounted laser guidance systems, its matte black finish is a token attempt at drawing less attention to its ominous promise of destructive power.\nKnights wishing to purchase additional ammunition for their rocket launchers must pay 10 GP for a pack of 5 rockets and/or missiles. The weapon and its ammunition only take up one space in a Knight’s rack module.</p>\n",
+      "m0Nom": "Missiles",
+      "m1Nom": "Rockets"
+    },
+    "Matraques électriques": {
+      "name": "Stun batons",
+      "description": "<p>These metal cylinders are always used in pairs. They are excellent clubs in their own right, but their stunning capabilities can put the sturdiest opponents out of commission. Using one with a shield may seem tempting, but their design only really works when both are used. They each have their own power converter, capable of generating a powerful current as often as required.\nWarning: Listed price is for a pair of stun batons.</p>\n"
+    },
+    "Mitrailleuse lourde": {
+      "name": "Heavy machine gun",
+      "description": "<p>Avalon’s recruitment officers are fond of saying that a Knight in meta-armour is as powerful as a tank. The heavy rotary machine gun confirms this particular boast. This heavy gun is held at hip height by one handle on top to bear its weight, with another on the side used to aim and fire. A flexible belt links the gun to an ammunition pack on the back of the Knight’s meta-armour.</p>\n"
+    },
+    "Pistolet d'infiltration": {
+      "name": "Infiltration pistol",
+      "description": "<p>This compact, silent infiltration pistol fires reinforced hypodermic needles designed to pierce armour and light plating. Once stuck in the target, they can release neurotoxins, sedatives, or destructive nanomachines. The ideal tool for a surprise assault. The three magazines supplied with the pistol are colour coded and labelled neuro, stun, and nano.\nSwitching types takes a move action in combat.</p>\n",
+      "m0Nom": "Nano-machine darts",
+      "m1Nom": "Neurotoxin darts",
+      "m2Nom": "Stun darts"
+    },
+    "Sabre brûlant": {
+      "name": "Flame sabre",
+      "description": "<p>This sabre’s unique ability is to burn in combat. Its design is quite ingenious–its hilt draws in air from its surroundings, mixing it with jet fuel in its grip. Superheated flames burst forth from vents along the blade’s edges. When the blade cuts into an enemy, the flames force the wound open, burning flesh and organs as it goes. Its user just needs to remember to refuel it after each battle.</p>\n"
+    },
+    "Shotgun automatique": {
+      "name": "Automatic shotgun",
+      "description": "<p>Fléau des désespérés, décimateur de bandes, le shotgun automatique possède un chargeur circulaire de 35 cartouches 23mm permettant de tirer une pluie de chevrotine en rafales continues dans un vacarme assourdissant.</p>\n"
+    },
+    "Shotgun automatique léger": {
+      "name": "Shotgun automatique léger",
+      "description": "<p>Scourge of the hopeless, crowd-clearing automatic shotguns are equipped with a rotating chamber of 35 4-gauge cartridges capable of delivering an uninterrupted, thunderous deluge of shot over a wide area.</p>\n"
+    },
+    "Targe amovible - Targe dépliée": {
+      "name": "Detachable buckler - Unfolded buckler",
+      "description": "<p>Attached to a Knight’s off-hand arm, detachable bucklers are a part of their meta-armour. While folded, it provides passive defensive bonuses without getting in their way. The user can use a two-handed weapon or one in each hand without issue. In short, it is a small arm-mounted shield, lined with big spikes just in case. When unfolded, however, it becomes a full-frontal shield. Combined with a meta-armour’s force field, it helps evade incoming fire and any big pointy teeth that get too close.</p>\n<p><strong>Reminder</strong>: the folded buckler cannot be cumulated with other shields (see the text of the <em>Hands-free</em> effect).</p>\n"
+    },
+    "Targe amovible - Targe pliée": {
+      "name": "Detachable buckler - Folded buckler",
+      "description": "<p>Attached to a Knight’s off-hand arm, detachable bucklers are a part of their meta-armour. While folded, it provides passive defensive bonuses without getting in their way. The user can use a two-handed weapon or one in each hand without issue. In short, it is a small arm-mounted shield, lined with big spikes just in case. When unfolded, however, it becomes a full-frontal shield. Combined with a meta-armour’s force field, it helps evade incoming fire and any big pointy teeth that get too close.</p>\n<p><strong>Reminder</strong>: the folded buckler cannot be cumulated with other shields (see the text of the <em>Hands-free</em> effect).\n"
+    },
+    "Torche plasma": {
+      "name": "Plasma torch",
+      "description": "<p>This unassuming staff is a plasma cutting torch made for Cyclops division Knights. Air is drawn in at one end, ionised in the shaft, and expelled through an electric arc, creating a jet of plasma at the other end. It is used twohanded, like a spear. Its length keeps adversaries at bay, and its superheated flame (upwards of 32,000 degrees F) is particularly effective against enemies in armour.</p>\n"
+    },
+    "Trident mâchoire": {
+      "name": "Trident jaw",
+      "description": "<p>Often, we would like to be able to immobilize the creatures of the Anathema so that they cannot attack those we seek to protect. This trident is designed to immobilize both small and large creatures while eviscerating them. It has a central point and two serrated side points that are articulated. These points can attach to the main one to form a single wide point that spreads inside the target, or they can attach to the handle and close on the target upon penetration, like the jaws of a shark.</p>\n"
+    },
+    "Épée longue": {
+      "name": "Longsword",
+      "description": "<p>In the first few months after Avalon’s founding, some Knights asked for large swords to help them fend off hordes of close range opponents. Gawain designed the armoury’s longswords: heavy, almost indestructible, sharpened to a razor’s edge, and with a large crossguard. When stuck in the ground they resemble a large cross, and some of the more religious Knights have a habit of kneeling in front of it before battle.</p>\n"
+    }
+  }
+}

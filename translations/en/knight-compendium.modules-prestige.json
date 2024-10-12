@@ -1,0 +1,270 @@
+{
+  "label": "Modules - 4. Prestige",
+  "mapping": {
+    "description": "system.description",
+    "n1EnergieTourLabel": "system.niveau.details.n1.energie.tour.label",
+    "n1EnergieMinuteLabel": "system.niveau.details.n1.energie.minute.label",
+    "n1Duration": "system.niveau.details.n1.duree",
+    "n2EnergieTourLabel": "system.niveau.details.n2.energie.tour.label",
+    "n2EnergieMinuteLabel": "system.niveau.details.n2.energie.minute.label",
+    "n2Duration": "system.niveau.details.n2.duree",
+    "n3EnergieTourLabel": "system.niveau.details.n3.energie.tour.label",
+    "n3EnergieMinuteLabel": "system.niveau.details.n3.energie.minute.label",
+    "n3Duration": "system.niveau.details.n3.duree",
+    "n1WpnEffetCustom1Label": "system.niveau.details.n1.arme.effets.custom.0.label",
+    "n1WpnEffetCustom1Description": "system.niveau.details.n1.arme.effets.custom.0.description",
+    "n1WpnEffetCustom1AtkCondition": "system.niveau.details.n1.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n1WpnEffetCustom1DgtCondition": "system.niveau.details.n1.arme.effets.custom.0.degats.conditionnel.condition",
+    "n1WpnEffetCustom1ViolenceCondition": "system.niveau.details.n1.arme.effets.custom.0.violence.conditionnel.condition",
+    "n2WpnEffetCustom1Label": "system.niveau.details.n2.arme.effets.custom.0.label",
+    "n2WpnEffetCustom1Description": "system.niveau.details.n2.arme.effets.custom.0.description",
+    "n2WpnEffetCustom1AtkCondition": "system.niveau.details.n2.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n2WpnEffetCustom1DgtCondition": "system.niveau.details.n2.arme.effets.custom.0.degats.conditionnel.condition",
+    "n2WpnEffetCustom1ViolenceCondition": "system.niveau.details.n2.arme.effets.custom.0.violence.conditionnel.condition",
+    "n3WpnEffetCustom1Label": "system.niveau.details.n3.arme.effets.custom.0.label",
+    "n3WpnEffetCustom1Description": "system.niveau.details.n3.arme.effets.custom.0.description",
+    "n3WpnEffetCustom1AtkCondition": "system.niveau.details.n3.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n3WpnEffetCustom1DgtCondition": "system.niveau.details.n3.arme.effets.custom.0.degats.conditionnel.condition",
+    "n3WpnEffetCustom1ViolenceCondition": "system.niveau.details.n3.arme.effets.custom.0.violence.conditionnel.condition"
+  },
+  "entries": {
+    "Assurance du lion": {
+      "name": "Lion's pride",
+      "description": "<p>The meta-armour‘s AI provides its wearer with constant reassurance. Their bond deepens and the two form a more reliable partnership than most Knights and their AI, with the AI gaining some measure of independence. It acts as a sibling or a loving parent, and is utterly devoted to its user.</p>\n<p><strong>Effect</strong>: Whenever the Knight would regain hope between missions or while on a mission, if they are able to hear their AI they can gain 2 additional hope points.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Aura du dragon": {
+      "name": "Dragon's aura",
+      "description": "<p>An additional force field of crackling white sparks is added to the meta-armour‘s regular force field. Every so often, when weapons or shots glance off it, arcing tendrils of excess energy collide in mid-air around the Knight.</p>\n<p><strong>Effect</strong>: The PC adds 3 additional points to their force field. Whenever they suffer damage, they may spend energy to increase their force field by 1 for 1 EP (up to a maximum of 10 EP per attack). This increase only lasts long enough for one attack, and disappears immediately afterward. All damage can be reduced with this FF increase, except damage dealt by weapons or attacks with the <em>ignore FF</em> effect.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Autorité du cerf": {
+      "name": "Stag's authority",
+      "description": "<p>Pheromone emitters on the meta-armour‘s helm now allow the character to subject others to their will, from petty criminals to heads of state, or both.</p>\n<p><strong>Effect</strong>: The character can spend some EP to give an order to a human NPC (with a Machine score of 12 or less) in medium range or less. The NPC must obey, without really knowing why. The order must be simple (in a few words at most), straightforward (no complex series of tasks), and not put the NPC‘s life in danger. The listed EP cost is for a single order; additional EP can be spent to issue the order to more than one target.</p>\n",
+      "n1EnergieTourLabel": "Depends on the order given",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Courage du lion": {
+      "name": "Lion's courage",
+      "description": "<p>This module allows the armour to play convincingly moving music and display beautiful artwork on its plating, making it a wonder to behold. Reassuring lights often also filter through its gaps and joints.</p>\n<p><strong>Effect</strong>: Through spending energy points, the Knight can become a bulwark against despair for a scene or conflict phase. For the rest of the scene or conflict phase, all hope point losses they, their allied PCs, and their allied NPCs suffer while in short range are reduced by 1, in addition to any other hope point loss reductions.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Cuir du taureau": {
+      "name": "Bull's hide",
+      "description": "<p>The character‘s meta-armour is thicker and appears more muscular, and its AI has improved user protection capabilities. It does all in its power to protect the armour‘s wearer, even to the detriment of the suit‘s physical condition if necessary.</p>\n<p><strong>Effect</strong>: While the meta-armour is deployed, any damage the Knight would take to their HP (from any source) is redirected to the armour‘s AP. This means that the <em>ignore armour</em> and <em>armour piercing X</em> effects no longer affect the character while they are wearing their meta-armour. This does not apply to the health points lost when a character takes multiples of 5 points of damage to their AP, as per usual. If the Knight runs out of AP, all remaining damage carries over to their health.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Endurance de l'ours": {
+      "name": "Bear's endurance",
+      "description": "<p>The meta-armour is always less damaged than it should be. Its inner workings are abuzz with nanomachines scurrying around constantly repairing it. Even in the heat of battle, blows taken by the armour seem lessened. The presence of latest generation nanomachines in the metaarmour allows its wearer to run diagnostic and repair routines with just a thought, at the cost of some of the reactor‘s energy.</p>\n<p><strong>Effect</strong>: Once per turn during a conflict phase or every ten seconds in a scene, the PC rolls 3D6. Their meta-armour recovers points equal to the highest dice roll of the 3.</p>\n",
+      "n1EnergieTourLabel": "One turn",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Faim du corbeau": {
+      "name": "Raven's hunger",
+      "description": "<p>The meta-armour now has several minuscule, jet black energy receivers, doubtless made from alpha element, that allow it to siphon power from nearby targets.</p>\n<p><strong>Effect</strong>: When the wearer attacks a target with an EP score at medium range or less, the PC can choose to use this module to drain a portion of their energy.</p>\n<p>On a successful attack, the player rolls 1D6. The target loses that many EP, and the character gains the amount lost. A target with 0 EP cannot lose any, and the character cannot gain any from them. This module does not allow the character to gain more EP than their EP total. They can carry on draining EP from a target in such a situation, however any excess EP is lost.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Férocité du lion": {
+      "name": "Lion's ferocity",
+      "description": "<p>The armour is lighter and more flexible, and its servos and power relays hum with barely contained energy ready to be unleashed on the wearer‘s adversaries. This newfound vigour allows the Knight to act almost twice as fast as usual.</p>\n<p><strong>Effect</strong>: By spending some EP during a conflict phase, the Knight can gain one additional combat action (and only one per turn thanks to this module). This additional attack is performed during the character‘s <em>initiative</em> turn.</p>\n<p>If this module and the movement accelerator are used in the same turn, this module‘s additional attack is treated as a third combat action.</p>\n",
+      "n1EnergieTourLabel": "One turn",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Fidélité du cheval": {
+      "name": "Horse's fidelity",
+      "description": "<p>The meta-armour is now capable of synchronising its actions with those of its allies, working in perfect harmony with them, and complementing their efforts. The Knight‘s AI can interface with their allies‘ AIs to coordinate their assaults.</p>\n<p><strong>Effect</strong>: This module allows the banner to perform a group attack. During their initiative turn (and only once per whole turn), the user can activate this module at the cost of one combat action. Upon activation, the other PCs involved in the fight (not the user themselves) may perform one ranged or melee attack action against one (and only one) target designated by the Knight using the module. This does not cost the attacking Knights any actions, and allows them to attack outside their initiative order, during the initiative of the module-using Knight. These attacks are simultaneous and each one requires an attack roll as usual.</p>\n<p>When it comes to their <em>initiative</em> turn, the other PCs resume play as normal.</p>",
+      "n1EnergieTourLabel": "One turn",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Force du faucon": {
+      "name": "Hawk's strength",
+      "description": "<p>All the character‘s weapons and ammunition are now enhanced to be even more effective against creatures of the Anathema.</p>\n<p><strong>Effect</strong>: The PC‘s weapons and those of their allies within short range gain the anti-Anathema effect. Allies using ranged weapons only get this effect if their targets are also in short range.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Grandeur du dragon": {
+      "name": "Dragon's scale",
+      "description": "<p>The meta-armour is about 1.5 feet taller, is larger and more impressive than before, and is also a bit heavier. Much tougher plating replaces the weaker parts of the armour and makes it more impervious to blows than before.</p>\n<p><strong>Effect</strong>: 10 armour points are added to the meta-armour‘s AP total.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Hargne du sanglier": {
+      "name": "Boar's viciousness",
+      "description": "<p>The meta-armour shudders almost imperceptibly, as if struggling to contain copious amounts of energy. Upon activation, the wearer unleashes a torrent of bestial violence, lending untold heights of mindless savagery to their attacks.</p>\n<p><strong>Effect</strong>: For the cost of some EP, the character can add their <em>Aggression</em> characteristic, as well as its ODs, to all their combos for the remainder of the scene. This means all their combos will be done with three characteristics. If <em>Aggression</em> is already the base characteristic of a test, they can add two others of their choice to bring it up to three.</p>\n<p>In return, all their actions have to be cruel, violent, savage, and noisy. As these are far from chivalrous traits and actions, no acts performed while this module is running can lead to the Knight gaining heroism points.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Instinct du loup": {
+      "name": "Wolf's instinct",
+      "description": "<p>Most of the meta-armour‘s interior and exterior parts are now laced with adaptive nanomachines which can instantaneously shift its density, shape, matter, and response to external stimuli. The suit‘s AI can now automatically detect negative impairments and respond on a case-by-case basis. With this module installed, the wearer is able to shrug off many effects that would otherwise disable them.</p>\n<p><strong>Effect</strong>: When they acquire this module, the character chooses two of the following effects: <em>stun X</em>, <em>continuous damage X</em>, <em>armour piercing X</em>, <em>fear X</em>.</p>\n<p>Then they choose one of the following effects: <em>ignore armour</em>, <em>ignore FF</em>, <em>energy drain</em>, or <em>domination</em>.</p>\n<p>While the PC is wearing their meta-armour, they ignore the chosen effects.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Longévité du corbeau": {
+      "name": "Raven's longevity",
+      "description": "<p>The armour now has a darkly glowing secondary alpha energy reactor core on its back, adding to the main reactor‘s power supply.</p>\n<p><strong>Effect</strong>: 20 energy points are added to the meta-armour‘s EP total.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Loyauté du cheval": {
+      "name": "Horse's loyalty",
+      "description": "<p>The character‘s meta-armour can tweak other armours‘ settings in much the same way as a Warmaster metaarmour, improving some of their allies‘ abilities at the expense of their own.</p>\n<p><strong>Effect</strong>: For the duration of one scene or a conflict phase and for a cost of 6 EP, the character may transfer some or all of their meta-armour‘s overdrives to an ally PC‘s meta-armour. One or more overdrives can be temporarily donated in this manner (but only to one ally per module activation). The targeted ally gains the overdrive bonuses to dice rolls but none of their other abilities or effects. Overdrives donated in this manner must be added to characteristics belonging to the same aspect as the original overdrives, and they can all be added to the same characteristics. Needless to say, the character donating their overdrives can no longer use them until the end of the scene or conflict phase. Overdrives obtained via the Warrior meta-armour‘s Stances cannot be donated.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Lumière du faucon": {
+      "name": "Hawk's radiance",
+      "description": "<p>Blinding, radiant light shines from cracks and slits in the armour, weakening and burning creatures of the darkness. Thus bathed in light, the Knight and their allies can stand toe to toe with the worst minions of the Anathema.</p>\n<p><strong>Effect</strong>: All the character’s attacks with ranged and melee weapons or unarmed strikes now have the radiance 6 effect, regardless of range from their target. This only applies to weapons held by the character; if they hand them to an ally, they lose this effect.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Meute du loup": {
+      "name": "Wolf's pack",
+      "description": "<p>The belt of the Knight‘s meta-armour now has several small drones they can deploy to aid them in battle. These drones can take the shape of antigravity spheres the size of an orange armed with small calibre firearms, or meld into one larger sphere shaped drone equipped with a heavy weapon.</p>\n<p><strong>Effect</strong>: For 6 EP, the Knight activates a pack of independent drones. They do not need to be actively commanded to act, and have one move action and one combat action.</p>\n<p>They can be used in two configurations:</p>\n<p>A drone band can provide light support. It acts the same as any other band, attacking all enemies in the combat phase, and has a relatively basic configuration.</p>\n<p>The spheres can become a single, larger drone equipped with a heavy automatic shotgun. The drone then becomes an allied NPC.</p>\n<p>Each NPC possesses a <em>level 3 flight module</em> that is constantly active and costs no energy. It ignores the Domination and Fear abilities.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Noblesse du cerf": {
+      "name": "Stag's nobility",
+      "description": "<p>This meta-armour is a work of beauty, its fine engravings backed up by pheromone emitters designed to fluster and confuse its enemies. When worn, the Knight becomes so charismatic and so unnaturally attractive that even the worst scum of the Earth thinks twice before attacking them.</p>\n<p><strong>Effect</strong>: By spending energy points, the character radiates a powerful aura of charisma and command. In game terms, this means that human enemies, regardless of their usual tactics, will always target other PCs first.</p>\n<p>Should an enemy have no choice but to attack the PC, they must succeed at a Machine based roll against the PC‘s Aura score. If they fail, they are charmed and do nothing for the turn. If they succeed, the PC gains 3 points in both <em>defence</em> and <em>reaction</em> for that attack.</p>\n<p>Finally, if the PC is fighting a band of human enemies, they only take half the usual overrun damage each turn.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Obstination du sanglier": {
+      "name": "Boar's stubbornness",
+      "description": "<p>The meta-armour‘s AI now has just the right words at the right times to give its Knight hope and reassurance. Even when they are supposed to be terrified, stressed, and worn out, the PC keeps fighting, keeps moving forward.</p>\n<p><strong>Effect</strong>: Now, when the PC rolls to resist fear or despair, they can always roll twice and keep the better of the two results.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Œil de l'aigle": {
+      "name": "Eagle's eye",
+      "description": "<p>The meta-armour‘s AI now has cutting edge aiming software enhancements allowing it to optimise projectile trajectories, compensating for factors such as wind, and overall ensure the farthest reach for their weapons.</p>\n<p><strong>Effect</strong>: The PC may now ignore any penalties due to range on ranged attack rolls. They suffer no penalty for firing at long range with a short-range weapon, for instance. This effect does not apply to flamethrower-type weapons.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Peau du serpent": {
+      "name": "Serpent's skin",
+      "description": "<p>The meta-armour always seems translucent and hard to focus on, as if reality around it were constantly shifting and warping. The wearer can even choose to make it become effectively invisible. Enemies in combat have a harder time hitting the wearer, and even allies find it hard to look straight at them for more than ten seconds.</p>\n<p><strong>Effect</strong>: The character‘s reaction score is increased by 2. This effect lasts for a whole scene or conflict phase. Furthermore, so long as the wearer remains immobile against a single-coloured background, they become completely undetectable to enemies without an exceptional Machine aspect score.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Présence du taureau": {
+      "name": "Bull's presence",
+      "description": "<p>The meta-armour now has several funnels and vents allowing it to spread a cloud of nanoMs to heal nearby allies. It is said that a Knight with this module can bring people back from the brink of death with nothing more than a modest expenditure of energy.</p>\n<p><strong>Effect</strong>: The character can spend 3 EP to restore 1D6 health points to allied PCs and NPCs in short range.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Protection du loup": {
+      "name": "Wolf's protection",
+      "description": "<p>The character‘s armour can now deploy small drones, similar to flying shields, to hover around it. These dozen or so drones help protect them from enemy attacks, and some can be sent to shore up an ally‘s defence if needed.</p>\n<p><strong>Effect</strong>: By spending energy, the PC can add 2 points to their current force field score for the duration of a scene or conflict phase. They can pay a further EP cost to allow allies to receive this bonus as well.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Puissance de l'ours": {
+      "name": "Bear's might",
+      "description": "<p>The meta-armour‘s gauntlets and vambraces are slightly thicker and hum with the kinetic energy of a localised force field, rendering weapons and other held items lighter. With this module the character can spend energy to wield heavy weapons as if they were one-handed weapons.</p>\n<p><strong>Effect</strong>: For the duration of a scene or conflict phase, the character can use weapons with the two-handed effect as if they were one-handed weapons and use them in Akimbo or Ambidextrous style (with the usual negative modifiers for those styles). The character is unaffected by the heavy weapon trait. Furthermore, the character multiplies their carrying and lifting weight by 2 while this module is active. Damage bonuses added by Strength ODs are also doubled.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Rage de l'ours": {
+      "name": "Bear's rage",
+      "description": "<p>The meta-armour now seems to have a will of its own. Its Knightly wearer still commands it, but its AI can now take over its movements with surprisingly protective results. This can include shielding its wearer, or lashing out at an enemy without its Knight‘s authorisation. This increased freedom allows it to carry on fighting, even when the wearer is unconscious.</p>\n<p><strong>Effect</strong>: When the Knight reaches 0 HP in a conflict phase and their armour is still deployed, they fall unconscious as usual and suffer a grievous wound. The armour itself carries on the fight, mimicking its wearer‘s usual reflexes and attitude. The PC carries on playing the armour as if their character were still conscious inside. The following restrictions apply: the armour can only act to protect its wearer or attack nearby enemies; the armour can only use weapons and modules, not other equipment (such as nodes); when the armour acts, it cannot perform actions using the Beast or Lady aspects.</p>\n<p>Each turn after its user falls unconscious, the armour spends 3 EP to keep running. If the armour runs out of EP, it goes into standby mode and stops acting until its user is healed.</p>\n<p>Once the conflict phase ends, the character is treated like any other character at death‘s door and their armour goes into standby mode (assuming it has not already done so) and stops acting until its user is healed.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase or until its EP run out",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Réflexes du serpent": {
+      "name": "Serpent's reflexes",
+      "description": "<p>The character‘s armour allows them to be much faster and make snap decisions beyond those of mere mortals.</p>\n<p><strong>Effect</strong>: When the character rolls for initiative, they roll 3 dice and add 10 to the total in addition to their initiative score. Furthermore, they now have one additional move action that they can only use to move.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Rire du corbeau": {
+      "name": "Raven's crackle",
+      "description": "<p>The meta-armour now radiates dark energy. When attacked, the armour‘s alpha energy reactor can activate to selectively disperse part of the incoming damage of the impact.</p>\n<p><strong>Effect</strong>: When the character sustains damage from any source (after FF reduction), they can choose to redirect half of the damage or less to their EP reserves. If, for example, they were to suffer 20 damage to their AP, they could decide to lose 10 AP and 10 EP instead. Note that when their EP reserves are empty, the Knight can no longer do this, and their AP takes all damage as usual until they regain some of their energy.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Sens du serpent": {
+      "name": "Serpent's sense",
+      "description": "<p>The armour has a powerful sonar capable of detecting all enemies in their vicinity, even if they are invisible, ethereal, or otherwise concealed.</p>\n<p><strong>Effect</strong>: When the character activates the module, they can detect all enemies up to medium range. Only NPCs with a major exceptional Machine or Mask aspect are immune to this effect. In order to detect an enemy, the character must concentrate on the sonar device and ask the GM if any are present.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Serres de l'aigle": {
+      "name": "Eagle's claws",
+      "description": "<p>Two clawlike blades spring from the meta-armour‘s vambraces on command. Attached to thin cables, they can be aimed at nearby enemies and snap back to the wielder with a flick of the arm.</p>\n<p><strong>Effect</strong>: The character can perform an additional attack each turn with their claws. This attack can be made with either a Combat or Ranged based roll. They are considered a single weapon for gameplay purposes, whether the user attacks with one or both of the claws. They also possess the same special effects as the <em>grappling hook module</em>.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Souffle du dragon": {
+      "name": "Dragon's breath",
+      "description": "<p>The meta-armour can spew forth a jet of pure, blue energy. This powerful spray can come from its gauntlets or its helm. Its range isn‘t far, but it is strong enough to send an armoured vehicle flying or tear a suit of metaarmour wide open.</p>\n<p><strong>Effect</strong>: This module works the same way as combat modules, but does not require a free hand or module slots.</p>\n",
+      "n1EnergieTourLabel": "One turn",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Splendeur du cerf": {
+      "name": "Stag's splendour",
+      "description": "<p>In battle, the Knight‘s armour shines with dazzling light, confusing nearby enemies. In addition to this, the PC‘s every movement is filled with confidence and grace.</p>\n<p><strong>Effect</strong>: The character adds 3 points to their <em>defence</em> score.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Toucher du serpent": {
+      "name": "Serpent's touch",
+      "description": "<p>The meta-armour secretes a powerful nanotoxin from the palms of its gauntlets. This toxin is made from synthetic nanomachines, and can affect creatures that are normally immune to such things. The Knight can let it flow across their weapons or they can use it with their bare hands.</p>\n<p><strong>Effect</strong>: All the character‘s melee attacks are treated as now having the wounding and continuous damage 6 effects. If their weapons already have a similar effect, the effect is increased to 4D6 instead of 2D6 for wounding and a duration of 2D6 turns instead of 1D6 for <em>continuous damage</em>.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Vigueur du taureau": {
+      "name": "Bull's vigour",
+      "description": "<p>Several injectors inside the meta-armour implant a cocktail of specially made nanomachines designed to render the user tougher, more resilient, and less susceptible to pain. While under the effects of these nanomachines, the character gains incredible endurance and vigour.</p>\n<p><strong>Effect</strong>: While carrying their meta-armour (folded or deployed), the character gains a number of total health points equal to half their normal amount (rounded down). If, for example, a character has 20 HP, they add 10 HP (half their current total) to their total HP. So long as the character is in possession of their meta-armour, their total HP is increased.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Vivacité de l'aigle": {
+      "name": "Eagle's agility",
+      "description": "<p>The armour‘s AI now has cutting edge anti-projectile evasion enhancements. It forewarns its user of enemy lock-ons, calculates projectile trajectories, and suggests evasive manoeuvres.</p>\n<p><strong>Effect</strong>: The meta-armour adds 4 points to the character‘s <em>reaction</em> score.</p>\n",
+      "n1EnergieTourLabel": "Permanent",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    }
+  }
+}

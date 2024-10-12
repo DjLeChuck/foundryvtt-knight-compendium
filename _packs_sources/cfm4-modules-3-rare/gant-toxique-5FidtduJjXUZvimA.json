@@ -3,7 +3,7 @@
   "type": "module",
   "img": "systems/knight/assets/icons/module.svg",
   "system": {
-    "description": "<p>Bien que nomm&eacute; gant, il s'agit en r&eacute;alit&eacute; d'un gantelet&nbsp;<br>plac&eacute; sur l'avant-bras de l'armure o&ugrave; sont stock&eacute;s six&nbsp;<br>duos de capsule. Une fois activ&eacute;, le contenu des deux&nbsp;<br>capsules est m&eacute;lang&eacute; et en attente d'&ecirc;tre inject&eacute; dans le&nbsp;<br>corps de la victime. Pris &agrave; part, chaque composant est&nbsp;<br>inoffensif mais une fois combin&eacute;, le compos&eacute; provoque&nbsp;<br>d'affreuses br&ucirc;lures.</p>",
+    "description": "<p style=\"text-align: justify;\">Bien que nomm&eacute; gant, il s'agit en r&eacute;alit&eacute; d'un gantelet plac&eacute; sur l'avant-bras de l'armure o&ugrave; sont stock&eacute;s six &nbsp;duos de capsule. Une fois activ&eacute;, le contenu des deux capsules est m&eacute;lang&eacute; et en attente d'&ecirc;tre inject&eacute; dans le &nbsp;corps de la victime. Pris &agrave; part, chaque composant est &nbsp;inoffensif mais une fois combin&eacute;, le compos&eacute; provoque d'affreuses br&ucirc;lures.</p>",
     "categorie": "contact",
     "slots": {
       "tete": 0,

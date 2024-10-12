@@ -1,5 +1,5 @@
 {
-  "name": "Lance-missile - Roquettes",
+  "name": "Lance-missile"
   "type": "arme",
   "img": "modules/knight-compendium/assets/weapons/lance-missile.webp",
   "system": {
@@ -35,10 +35,45 @@
       }
     },
     "optionsmunitions": {
-      "has": false,
+      "has": true,
       "actuel": "0",
-      "value": 1,
-      "liste": {}
+      "value": 2,
+      "liste": {
+        "0": {
+          "nom": "Missiles",
+          "raw": [
+            "antivehicule",
+            "artillerie"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 7,
+            "fixe": 10
+          },
+          "violence": {
+            "dice": 3,
+            "fixe": 0
+          }
+        },
+        "1": {
+          "nom": "Roquettes",
+          "raw": [
+            "dispersion 6",
+            "fureur"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 3,
+            "fixe": 0
+          },
+          "violence": {
+            "dice": 7,
+            "fixe": 10
+          }
+        }
+      }
     },
     "tourelle": {
       "has": false,
@@ -48,8 +83,8 @@
       }
     },
     "degats": {
-      "dice": 3,
-      "fixe": 0,
+      "dice": 7,
+      "fixe": 10,
       "variable": {
         "has": false,
         "min": {
@@ -64,8 +99,8 @@
       }
     },
     "violence": {
-      "dice": 7,
-      "fixe": 10,
+      "dice": 3,
+      "fixe": 0,
       "variable": {
         "has": false,
         "min": {
@@ -84,8 +119,6 @@
       "raw": [
         "assistanceattaque",
         "deuxmains",
-        "dispersion 6",
-        "fureur",
         "lourd"
       ],
       "custom": []
@@ -114,23 +147,23 @@
   "effects": [],
   "flags": {
     "core": {
-      "sourceId": "Compendium.knight-compendium.weapons-avance.98df5ce93f374d29"
+      "sourceId": "Compendium.knight-compendium.weapons-avance.df989aa0e916f542"
     }
   },
   "_stats": {
     "systemId": "knight",
     "systemVersion": "3.21.0",
     "coreVersion": "10.303",
-    "createdTime": 1666890005684,
+    "createdTime": 1666890005696,
     "modifiedTime": 1693092596473,
     "lastModifiedBy": "gUfRwPVCnScx6reY"
   },
-  "_id": "0CuHURQXjaSHbjiQ",
+  "_id": "RqcFLHhAOZQ7xQDb",
   "folder": null,
   "sort": 0,
   "ownership": {
     "default": 0,
     "gUfRwPVCnScx6reY": 3
   },
-  "_key": "!items!0CuHURQXjaSHbjiQ"
+  "_key": "!items!RqcFLHhAOZQ7xQDb"
 }

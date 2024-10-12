@@ -1,0 +1,25 @@
+{
+  "label": "Modules - 3. Rare",
+  "mapping": {
+    "description": "system.description",
+    "n1LabelTourEnergie": "system.niveau.details.n1.energie.tour.label",
+    "n1LabelMinuteEnergie": "system.niveau.details.n1.energie.minute.label",
+    "n1Duree": "system.niveau.details.n1.duree"
+  },
+  "entries": {
+    "Gant toxique": {
+      "name": "Toxic Glove",
+      "description": "<p style=\"text-align: justify;\">Although named glove, it is actually a gauntlet placed on the forearm of the armor where six pairs of capsules are stored. Once activated, the contents of the two capsules are mixed and ready to be injected into the victim's body. Taken separately, each component is harmless, but once combined, the compound causes terrible burns.</p>",
+      "n1LabelTourEnergie": "",
+      "n1LabelMinuteEnergie": "",
+      "n1Duree": ""
+    },
+    "Mortier dorsal": {
+      "name": "Back-mounted Mortar",
+      "description": "<p style=\"text-align: justify;\">This module is identifiable among thousands: an ejection tube protrudes over the shoulder and the lower half of the meta-armour is equipped with stabilizers and recoil compensators. Its guidance system allows it to hit a target at a very long distance with surgical precision.&nbsp;</p><p style=\"text-align: justify;\">The weapon is reloaded at Camelot and requires the target to be designated.</p>",
+      "n1LabelTourEnergie": "Instantaneous",
+      "n1LabelMinuteEnergie": "",
+      "n1Duree": ""
+    }
+  }
+}
