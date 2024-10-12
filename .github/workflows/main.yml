@@ -51,6 +51,7 @@ jobs:
                       LICENSE                              \
                       scripts/                             \
                       packs/                               \
+                      translations/                        \
                       assets/
 
             -   name: Update release with files
