@@ -277,17 +277,16 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890005694,
+        "modifiedTime": 1667499857540,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0
+      "sort": 0,
+      "_key": "!actors.items!H4lnndxdkNbf8KJ2.DEz5tkQjwwDTrn0M"
     },
     {
       "name": "Pod roquette",
@@ -1580,29 +1579,26 @@
         "isLion": false
       },
       "effects": [],
+      "_id": "K39QNRKSF58QMWRG",
+      "ownership": {
+        "default": 0
+      },
       "flags": {
         "core": {
           "sourceId": "Compendium.knight-compendium.modules-avance.ffa19220110e5639"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.modules-avance.ffa19220110e5639",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890048757,
+        "modifiedTime": 1667499877207,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
-      "_id": "Vm3F5jsATSYEAqcH",
-      "folder": null,
+      "folder": "EOfwePWZKQ7DXgZa",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "gUfRwPVCnScx6reY": 3,
-        "fsye0fvYVvoAjhx9": 3
-      }
+      "_key": "!actors.items!H4lnndxdkNbf8KJ2.K39QNRKSF58QMWRG"
     }
   ],
   "effects": [],

@@ -280,17 +280,16 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.weapons-rare.58ae79bc821a314f",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890009138,
+        "modifiedTime": 1667499453567,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "folder": "hWomqoUpx2C48FAn",
-      "sort": 0
+      "sort": 0,
+      "_key": "!actors.items!O4ASzhHQMxHCKllZ.WZMoIm65mngsNsLv"
     },
     {
       "name": "Mitrailleuse lourde",
@@ -419,17 +418,16 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890005694,
+        "modifiedTime": 1667499458124,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0
+      "sort": 0,
+      "_key": "!actors.items!O4ASzhHQMxHCKllZ.Xs9oJJiZOsQqoGUJ"
     }
   ],
   "effects": [],

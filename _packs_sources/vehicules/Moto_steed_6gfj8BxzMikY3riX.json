@@ -277,17 +277,16 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.weapons-standard.9e6924b375d1b2bc",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890002684,
+        "modifiedTime": 1667498936294,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "folder": "WSLEdZOoNq5OS4E3",
-      "sort": 0
+      "sort": 0,
+      "_key": "!actors.items!6gfj8BxzMikY3riX.ZVxwQEA8N3SxYsja"
     }
   ],
   "effects": [],

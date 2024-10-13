@@ -280,17 +280,16 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.weapons-rare.58ae79bc821a314f",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0",
+        "coreVersion": "10.288",
+        "createdTime": 1666890009138,
+        "modifiedTime": 1667257306601,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "folder": "hWomqoUpx2C48FAn",
-      "sort": 0
+      "sort": 0,
+      "_key": "!actors.items!RcUc9SOXlszSjdnk.ZMONoo0QNtb9hQWv"
     },
     {
       "name": "Mitrailleuse lourde",
@@ -419,17 +418,16 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.0",
+        "coreVersion": "10.288",
+        "createdTime": 1666890005694,
+        "modifiedTime": 1667257316151,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0
+      "sort": 0,
+      "_key": "!actors.items!RcUc9SOXlszSjdnk.IpGzisB5E0QJLUMc"
     },
     {
       "name": "Pod missile",
@@ -871,17 +869,16 @@
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.modules-avance.6783cf231850cdac",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890048724,
+        "modifiedTime": 1667498206599,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "folder": "EOfwePWZKQ7DXgZa",
-      "sort": 0
+      "sort": 0,
+      "_key": "!actors.items!RcUc9SOXlszSjdnk.vXMubT4jRbFgTUJ3"
     },
     {
       "name": "Pod roquette",
@@ -2174,29 +2171,26 @@
         "isLion": false
       },
       "effects": [],
+      "_id": "EMzYy1sHCwZ8rZ8U",
+      "ownership": {
+        "default": 0
+      },
       "flags": {
         "core": {
           "sourceId": "Compendium.knight-compendium.modules-avance.ffa19220110e5639"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.modules-avance.ffa19220110e5639",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890048757,
+        "modifiedTime": 1667498208217,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
-      "_id": "F2OVJRtm3Lo5F1v1",
-      "folder": null,
+      "folder": "EOfwePWZKQ7DXgZa",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "gUfRwPVCnScx6reY": 3,
-        "fsye0fvYVvoAjhx9": 3
-      }
+      "_key": "!actors.items!RcUc9SOXlszSjdnk.EMzYy1sHCwZ8rZ8U"
     },
     {
       "name": "Désignation",
@@ -3483,29 +3477,26 @@
         "isLion": false
       },
       "effects": [],
+      "_id": "INOebT2bb6qpITLP",
+      "ownership": {
+        "default": 0
+      },
       "flags": {
         "core": {
           "sourceId": "Compendium.knight-compendium.modules-standard.fbf42ec4f58304b4"
         }
       },
       "_stats": {
-        "compendiumSource": "Compendium.knight-compendium.modules-standard.fbf42ec4f58304b4",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "3.29.6",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "1.5.7",
+        "coreVersion": "10.288",
+        "createdTime": 1666890045582,
+        "modifiedTime": 1667498200390,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
-      "_id": "EFNrzAiPEcmpNy3z",
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "gUfRwPVCnScx6reY": 3,
-        "fsye0fvYVvoAjhx9": 3
-      }
+      "folder": "Ra6uGDsIHWsmsuV9",
+      "sort": 1300000,
+      "_key": "!actors.items!RcUc9SOXlszSjdnk.INOebT2bb6qpITLP"
     }
   ],
   "effects": [],
