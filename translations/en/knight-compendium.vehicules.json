@@ -1,0 +1,125 @@
+{
+  "label": "Vehicles",
+  "Actor": {
+      "items":{
+        "path":"items",
+        "converter":"knight-compendium"
+      }
+  },
+  "mapping":{
+    "description": "system.description",
+    "limited": "system.descriptionLimitee"
+  },
+  "entries": {
+    "Avion de ligne": {
+      "name": "Commercial airliner",
+      "tokenName": "Commercial airliner"
+    },
+    "Bee": {
+      "name": "Bee",
+      "tokenName": "Bee",
+      "items": {},
+      "description": "<p>The Bee model Nodachi combat craft is a modified combat vector model with the armour and crew points of a heavy vector.</p>"
+    },
+    "Camion": {
+      "name": "Truck",
+      "tokenName": "Truck"
+    },
+    "Camionette": {
+      "name": "Light commercial vehicle",
+      "tokenName": "Light commercial vehicle"
+    },
+    "Char d'assaut Tetsubo": {
+      "name": "Tetsubo Assault Tank",
+      "tokenName": "Nodachi hovercraft assault tank",
+      "items": {},
+      "description": "<p>The Tetsubo tank is the main ground vehicle of the Nodachi, an armoured troop carrier, ideal for operations on difficult terrain. At the front, an aerodynamic beak slices through the air and water, smashes concrete walls and knocks down enemies to better crush them. At the rear, there is an armoured door that serves as a ramp when lowered. The propulsion system of these vehicles is revolutionary: it is a magnetic suspension system that adapts to the terrain, without wheels or tracks, similar to that of a hovercraft, but not using air cushions per se. A kinetic field generator protects the vehicle and repels bodies likely to come into contact. External cameras transmit a panoramic image to the soldiers on board, AR screens allowing to designate targets to the turrets placed on the roof. The tank also has a tool kit and a first aid kit, as well as onboard fire extinguishers.</p>"
+    },
+    "Dropship": {
+      "name": "Dropship",
+      "tokenName": "Dropship",
+      "items": {},
+      "description": "<p>Avalon’s dropship is an airborne vehicle designed to jettison Knights into the worst theatres of operations, ones unreachable by vector due to heavy anti-aircraft defences or thick swarms of nocts. Its stationary flight, just on the edge of the Earth’s stratosphere, keeps it out of enemy radar range. When called upon, it can send individual landing pods containing Avalon agents hurtling towards landing zones determined during mission briefing. Knights sent earthwards this way are encased in an alpha element sarcophagus speeding towards the ground at 500 mph, with only a couple of retrothrusters with which to try to direct their descent. The passenger compartment has an AR display linked to cameras on the pod’s outside, allowing its occupant to see around them and providing them with various information such as current altitude and speed of descent. 300 feet or so from the ground, three parachutes and half a dozen braking rockets slow the capsule’s descent enough to not smash it and its passenger on impact. Still, the landing is anything but gentle.</p>\n<p>The dropship’s appearance is that of a 275-foot vector, weighing in at 230 tonnes. It is flanked on either side by twenty launch tubes primed for troop deployment at all times. Its wings bear as many weapons, and even more are turret and cockpit-mounted at the front and rear of the ship. As a note, Avalon only has one dropship, stationed at the Heathrow airport near London.</p>"
+    },
+    "Hélicopter": {
+      "name": "Helicopter",
+      "tokenName": "Helicopter",
+      "description": "<p>May be equipped with two weapons on its side, either heavy machine guns or laser rifles</p>"
+    },
+    "Jet privée": {
+      "name": "Private jet",
+      "tokenName": "Private jet"
+    },
+    "Maraudeur II": {
+      "name": "Marauder II",
+      "tokenName": "Marauder II",
+      "items": {},
+      "description": "<p>The first Marauder, a 10-tonne 4 × 4 created by the South African Paramount Group, proved to be a highly effective vehicle in the continent’s clashes with Eurocorps. The UAN decided to invest in the group’s flagship product to keep it up to date in these trying times.</p>\n<p>Prototypes were in the testing phase when the Anathema came, and the UAN changed its requirements accordingly. The Marauder II became the first vehicle created with the Anathema in mind, and is equipped with ultraviolet headlights, sliding windows, pneumatic doors, etc.</p>\n<p>Its crew consists of one pilot and a copilot or gunner at the front, and it can transport eight soldiers and their equipment in the back. Its huge, tear-resistant cellstructure tires and massive, nigh-indestructible chassis allow it to travel over bumpy terrain, creatures, and abandoned cars alike with the same ease as a tracked vehicle. Its roof-mounted automated turret can be fitted with a variety of heavy weapons. In addition to armed troop carriers, the Marauder II can also serve as ambulances and mobile command vehicles.</p>\n<p>An important detail to note is that while the Marauder is one of the most common combat vehicles in the free territories, its use in some arks is widespread too.</p>"
+    },
+    "Moto": {
+      "name": "Motorbike",
+      "tokenName": "Motorbike"
+    },
+    "Moto steed": {
+      "name": "Steed bike",
+      "tokenName": "Steed bike",
+      "items": {},
+      "description": "<p>Steed model motorbikes are Avalon’s most common personnel vehicles, particularly among the ranks of Gryphon division. Their appearance is that of a powerful, manoeuvrable, sleek bike with a wide handlebar shielded by an aerodynamic beak. The tires, mounted on two thick, computerised suspension wheels, are solid, not pneumatic. Their self-repairing cells are designed to withstand extreme acceleration and braking at high speeds. Most steed owners have custom paint jobs performed on their bikes, using bright colours to show their fondness for speed and danger.</p>\n<p>One thing to note is that, unlike other vehicles, steeds can be purchased as modules from the arsenal. Their high-tech design allows them to fold like a meta-armour, and deploy from small disks slid on the ground (or can be created from scratch via one of the Priest meta-armour’s upgrades).</p>"
+    },
+    "Plateforme de soutien aérien frelon": {
+      "name": "Hornet aerial support platform",
+      "tokenName": "Hornet aerial support platform",
+      "items": {},
+      "description": "<p>The Hornet aerial support platform is identical to the titan. It also has the flight ability (may fly up to long range in one turn, as if having a speed of 3) and landing space for up to four vectors.</p>"
+    },
+    "Stalion": {
+      "name": "Stalion",
+      "tokenName": "Stalion",
+      "items": {},
+      "description": "<p>Stallions are angular, roofless vehicles with metallic protective hoops and massive front bumper guards. They make up the lion’s share of Avalon’s terrestrial vehicles, and many ark militias use them too. Resembling an omnidirectional four-wheel-drive buggy, Stallions have all-terrain suspension allowing them to drive close to the road in flat areas and several feet off the ground on bumpy terrain. Like the steed, their tires are made of self-repairing, tear-resistant cells. Harpoon guns are mounted on their hoods, connected to powerful winches at the front of the vehicle. Thick handles sticking out of the Stallion’s body allow robust metal curtains to pull over its protective hoops, sliding into place to form a shell for its passengers. They also have kinetic shield generators designed to protect the vehicle and shove away anything that comes close. 360° external cameras send accurate images of the vehicle’s surroundings to its pilot and passengers via their helmet displays. Every Stallion has a full tool box, first aid kit, and one or two foldable shotguns.</p>\n<p>Weapons mounted on a Stallion can differ from ark to ark, but most have two heavy machine guns, one on the upper hoop for firing over the pilot’s head, the other on the back hoop covering the rear of the vehicle. Some Stallions switch these out in favour of turret railguns that can fire in all directions. Traditionally, a Stallion that returns from its first deployment is granted a name and a depiction of a horse is painted somewhere on its body.</p>"
+    },
+    "Titan": {
+      "name": "Titan",
+      "tokenName": "Titan",
+      "items": {},
+      "description": "<p>The Titan is a tracked armoured vehicle 22 feet wide and 111 feet long, with three two-storey articulated carriages. It is a mobile troop carrier, armoured attack vehicle, artillery unit, and field HQ all in one. In short, it is like a rocket built on tracks, bristling with cannons and machine guns.</p>\n<p>The fore resembles a ship. Its tip is both a huge battering ram and a double-hinged door. After piercing through a reinforced concrete wall, it can open up to let banners of Knights disembark covered by automated turrets.</p>\n<p>A Titan’s roof is equipped with several compartments: directional floodlights, a railgun or rocket launcher turret, two automated turrets with heavy machine guns, four semi-automatic grenade launchers, and two pivoting rocket launchers loaded with rockets and missiles.</p>\n<p>Its main alpha energy reactor and electric engines in each track allow it to haul its 1300 square feet surface and thick outer shell. Inside are a control centre housing the piloting, weapon, and kinetic barrier system controls, a rec room, an infirmary, armoury, workshop, and a garage in the rear compartment with room for stallions and centurions that can load and unload via its rear ramp.</p>\n<p>The Titan carries enough equipment to set up a fully functioning field headquarters: tents, unfoldable prefab buildings, electrified barbed wire, floodlights, etc.</p>"
+    },
+    "Transpore blindé centurion": {
+      "name": "Centurion armoured personnel carrier",
+      "tokenName": "Centurion armoured personnel carrier",
+      "description": "<p>Centurions are heavy tracked APCs, designed to transport twelve Knights or twenty military personnel and their equipment into combat zones safely, on time, and with all the lack of comfort that comes with traveling in a tracked vehicle. Their aerodynamic frontal plating splits through air and water, smashes through concrete walls, and lays enemies flat to better run them over. In the rear, an armoured door unfolds to serve as an unloading ramp. Powerful kinetic fields help round out the centurion’s nigh invulnerability. Centurion crews are composed of one pilot and a gunner or a copilot in charge of communications. Pilot and gunner have no direct exterior line of sight, and must rely on their AR screens to designate targets for the two roof-mounted automated turrets. These are most commonly equipped with a heavy machine gun and a rocket launcher.</p>\n<p>Most centurions have nose art (similar to that of fighter planes) with Roman inspired imagery, usually eagles. They have historical or mythical Greek or Roman names, like Parmenion, Leonidas, Agamemnon, Nero, etc.</p>"
+    },
+    "Vector de combat": {
+      "name": "Combat vector",
+      "tokenName": "Combat vector",
+      "items": {},
+      "description": "<p>Used by ark militias and other organisations, combat vectors are extremely fast and incredibly powerful. The ‘basic’ model comes equipped with rocket and missile pods, a railgun, and a heavy machine gun – enough to wipe out a small army or level a village.</p>"
+    },
+    "Vector furtif polymorphique valkyrie": {
+      "name": "Vector stealth polymorphic valkyrie",
+      "tokenName": "Vector stealth polymorphic valkyrie",
+      "items": {},
+      "description": "<p>The Valkyrie stealth polymorphic vector has the Mechanic mode capability (without evolution) of the Priest meta-armour, usable for combat action only on the vehicle itself. It also has the Changeling mode capability (without evolution) of the Bard meta-armour and can pass itself off as any aircraft of the same size.</p>"
+    },
+    "Vector léger": {
+      "name": "Light vector",
+      "tokenName": "Light vector",
+      "description": "<p>Light vectors are leisure and tourism vehicles, sometimes used by journalists and rank 1 or 2 Citizens. They are more fragile than their military counterparts, but are common in the arks.</p>"
+    },
+    "Vector lourd": {
+      "name": "Heavy vector",
+      "tokenName": "Heavy vector",
+      "description": "<p>Heavy vectors are designed to carry vehicles and civilian personnel. They can carry up to 60 people at once, and reach Mach 6 speeds. They are large, bulky, and usually used for civilian purposes, but Avalon sometimes uses them for large deployments.</p>"
+    },
+    "Vector modèle harpie": {
+      "name": "Harpy model vector",
+      "tokenName": "Harpy model vector",
+      "items": {},
+      "description": "<p>This hybrid vehicle, specially designed for Avalon, falls somewhere between a combat vector in terms of weapons and a heavy vector’s personnel transport capabilities. Unlike other vectors, the Harpy has an advanced AR control system, allowing a Knight in meta-armour or a trained pilot to fly it with ease.</p>"
+    },
+    "Voiture": {
+      "name": "Car",
+      "tokenName": "Car"
+    }
+  }
+}

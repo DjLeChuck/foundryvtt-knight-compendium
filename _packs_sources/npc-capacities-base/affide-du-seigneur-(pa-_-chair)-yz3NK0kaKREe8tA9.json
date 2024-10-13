@@ -1,9 +1,9 @@
 {
-  "name": "Élu du Seigneur",
+  "name": "Affidé du Seigneur (PA / Chair)",
   "type": "capacite",
   "img": "systems/knight/assets/icons/capacite.svg",
   "system": {
-    "description": "<p>Le PNJ peut dépasser un score d'aspect de 20 et un score d'aspect exceptionnel de 10 uniquement dans l'aspect de son Seigneur. Ces scores ne peuvent excéder 40 pour l'aspect et 20 pour l'aspect exceptionnel.\nNote : réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>\n",
+    "description": "<p>Le PNJ ajoute le score de l'aspect de son Seigneur multiplié par 5 à son total de PS (ou de PA). L'aspect exceptionnel n'ajoute pas de PS supplémentaires.\nNote : réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>",
     "aspects": {
       "chair": {},
       "bete": {},
@@ -20,16 +20,16 @@
       "sante": {
         "has": false,
         "aspect": {
-          "lie": false,
+          "lie": true,
           "value": "chair",
           "multiplie": 5
         },
         "value": 0
       },
       "armure": {
-        "has": false,
+        "has": true,
         "aspect": {
-          "lie": false,
+          "lie": true,
           "value": "chair",
           "multiplie": 5
         },
@@ -106,7 +106,7 @@
     }
   },
   "effects": [],
-  "_id": "15b58e11549bad9d",
+  "_id": "yz3NK0kaKREe8tA9",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -114,16 +114,16 @@
   },
   "flags": {
     "core": {
-      "sourceId": "Compendium.knight-compendium.npc-capacities-base.15b58e11549bad9d"
+      "sourceId": "Compendium.knight-compendium.npc-capacities-base.d7cf492179ece7c0"
     }
   },
   "_stats": {
     "systemId": "knight",
     "systemVersion": "1.8.6",
     "coreVersion": "10.288",
-    "createdTime": 1666890018811,
-    "modifiedTime": 1668026483938,
+    "createdTime": 1666890019275,
+    "modifiedTime": 1668026483934,
     "lastModifiedBy": "Kisv9JwB5w6zIXyv"
   },
-  "_key": "!items!15b58e11549bad9d"
+  "_key": "!items!yz3NK0kaKREe8tA9"
 }

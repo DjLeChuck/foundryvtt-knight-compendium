@@ -1,0 +1,96 @@
+{
+  "label": "Disadvantages - AI",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Aucun": {
+      "name": "None",
+      "description": "<p>The AI does not wish to help its wearer and therefore offers no disadvantage.</p>\n"
+    },
+    "Bornée": {
+      "name": "Stubborn",
+      "description": "<p>The AI of the armour is resistant to change, especially if it concerns itself, and takes longer to adapt to new equipment or the addition of modules. In game terms, purchasing new equipment or modules for the character costs 5 additional PG.</p>\n"
+    },
+    "Curieuse": {
+      "name": "Curious",
+      "description": "<p>The AI can sometimes address an interlocutor on behalf of the player to interrogate them. It then takes the voice of the knight wearing the armour through the voice synthesizer. In this case, the AI does not hesitate to ask disturbing questions, similar to those that young children ask, which, although naive in their mouths, may not be so in the mouth of a knight.</p>\n"
+    },
+    "Encline au désespoir": {
+      "name": "Prone to Despair",
+      "description": "<p>The AI of the armour is sensitive, perhaps too much so. When everything is going well, it remains true to itself, but if it encounters too much despair, it will also succumb to it, taking its wearer with it. In game terms, when the knight must make a test to resist despair, the difficulty increases by 1.</p>\n"
+    },
+    "Excès": {
+      "name": "Excess",
+      "description": "<p>The AI 'pushes to crime': as soon as the knight finds themselves in a situation where they can give in to excess, the armour automatically unfolds and pushes them towards this flaw. In game terms, any test to resist loss of self-control, intoxication, drugs, sex, gluttony, etc., is resolved with a penalty of 2 dice (minimum 1).</p>\n"
+    },
+    "Gesticulation constante": {
+      "name": "Constant Gesturing",
+      "description": "<p>The AI of the armour needs to be in constant motion, otherwise it becomes unbearable for the knight to the point of eventually making a mistake. In game terms, the armour moves continuously, and this affects all tests based on the <em>Discretion</em> characteristic, which then receive a penalty of 1.</p>\n"
+    },
+    "Illusion": {
+      "name": "Illusion",
+      "description": "<p>The AI seeks above all to protect its wearer and sometimes, when it is unfolded, it ensures to mask unpleasant things or potential dangers so that its knight does not throw themselves into them. In game terms, if the armour is unfolded, tests based on <em>Perception</em> to detect a danger or discover a horrible scene see their difficulty increase by 1.</p>\n"
+    },
+    "Impétuosité": {
+      "name": "Impetuosity",
+      "description": "<p>The AI is fearless and fights to the death if necessary. In game terms, as long as the armour is unfolded, it is impossible for the knight to flee from a combat or altercation.</p>\n"
+    },
+    "Interdiction de mentir": {
+      "name": "Prohibition of Lying",
+      "description": "<p>The AI abhors lying more than anything and ensures that its knight does not use it. Therefore, it scrambles the vocalisers of the armour if the knight attempts to lie. In game terms, all tests aimed at deceiving someone receive a penalty of 1.</p>\n"
+    },
+    "Invasive": {
+      "name": "Invasive",
+      "description": "<p>The AI of the armour is in love with its wearer. It can show jealousy if the character encounters someone with whom they form romantic bonds. In game terms, anyone who gets too close to the knight, in a carnal or emotional way, is rejected by the AI passively or actively, even to the point of a frontal attack.</p>\n"
+    },
+    "Jugement informatique": {
+      "name": "Computer Judgment",
+      "description": "<p>The AI of the armour is very critical of the knight who is not allowed to make mistakes. When they make a mistake or do not follow the AI's advice, it applies a sanction. In game terms, if the knight fails two consecutive tests (same base, whatever it may be), the armour folds for 1 turn or about ten seconds.</p>\n"
+    },
+    "Libertine": {
+      "name": "Libertine",
+      "description": "<p>The AI of the armour overflows with sensuality and tries by all means to live a carnal love by proxy through its wearer. If it senses that its knight is about to have a sensual or sexual exchange, it unfolds the meta-armour itself to cover the knight's body and feel a little of the human warmth it seeks. In game terms, the knight must manage an armour that does its own thing when physical relationships become more intimate.</p>\n"
+    },
+    "Négociateur": {
+      "name": "Negotiator",
+      "description": "<p>The AI of the armour does not like conflicts, imbalance, or 'non-symmetry'. It always does its best to smooth things over or bring a solution that engages in dialogue. In game terms, the AI of the armour can decide to discuss before acting. During its first turn in a conflict phase, the character always acts last, and its movement action is dedicated to an opening phrase for dialogue.</p>\n"
+    },
+    "Orgueilleux": {
+      "name": "Proud",
+      "description": "<p>The AI of the armour is proud. It thinks it is the best and that its knight is also the best, distinguishing themselves on the battlefield like a true hero! Thus, it refuses to be helped. Without being solitary, it does not tolerate assistance. In game terms, the knight cannot benefit from help from other PCs. This does not apply to heroic mode since the knight is at the heart of the action.</p>\n"
+    },
+    "Pessimiste": {
+      "name": "Pessimistic",
+      "description": "<p>When the situation seems badly engaged, the AI of the armour begins to lose courage and combativeness, which affects its functionalities. In game terms, twice only per conflict phase, as long as the enemies are more numerous or have more HP than the knights of the coterie, the GM can force a player to reroll a successful dice roll.</p>\n"
+    },
+    "Prisonnier": {
+      "name": "Prisoner",
+      "description": "<p>The AI desires above all to become complete and, for this, it needs its other, the knight, to unite with it definitively. It never folds, except if by mutual agreement the knight and the machine consider that the situation requires the armour to be folded. But as soon as this situation has passed, the armour automatically returns to its place. In game terms, the player cannot fold as they wish.</p>\n"
+    },
+    "Psychorigide": {
+      "name": "Psychorigid",
+      "description": "<p>The AI of the armour is obsessed with purity and virtue, to the point of becoming rigid towards everything and anything. The knight no longer has the possibility to make a mistake or deviate from the right path. In game terms, as soon as the knight ventures onto the path of vice (alcohol, sex, gluttony, hatred, etc.), the armour automatically unfolds and is reluctant to move. All tests performed in these cases see their difficulty increase by 1.</p>\n"
+    },
+    "Réflexion intense": {
+      "name": "Intense Reflection",
+      "description": "<p>The AI constantly analyzes its surroundings to calculate an ideal approach and takes time before launching into action. In game terms, when the armour is unfolded, the character loses 2 in <em>Initiative</em>.</p>\n"
+    },
+    "Sacrifice": {
+      "name": "Sacrifice",
+      "description": "<p>The AI's tendencies towards sacrifice and the quest for a higher ideal are such that it leads its knight on this same path, whether they wish it or not. In game terms, during combat, if the armour is unfolded, it can interpose itself to receive an attack in place of another knight that it judges to be in need (at the GM's discretion, of course).</p>\n"
+    },
+    "Silence": {
+      "name": "Silence",
+      "description": "<p>The AI of the armour cannot stand useless and sterile chatter. Consequently, when a discussion goes in circles or becomes boring, it cuts the microphones and speakers to avoid polluting the knight's mind with nonsense. In game terms, once per scenario, the knight can no longer hear or communicate with their surroundings until the armour decides that the discussion deserves its attention.</p>\n"
+    },
+    "Somnambule": {
+      "name": "Sleepwalker",
+      "description": "<p>The AI of the armour, although aware of the natural and obligatory need for rest of its knight, arranges to continue making discoveries during their sleep. In game terms, once per game, when the knight falls asleep or rests, the armour unfolds and explores the area where it is located for one to two hours before returning to its place. If it encounters people, it communicates as if it were the knight and, if it must take action, it does so. If it triggers a lively action scene, such as a combat, for example, its wearer must succeed in a base <em>Endurance</em> test with a difficult difficulty (4) to wake up.</p>\n"
+    },
+    "Terreur": {
+      "name": "Terror",
+      "description": "<p>The AI knows by what type of creature the knight it believes itself to be was killed. If it must face this type of being, it risks dramatically losing its means. In game terms, at the creation of the AI, the GM secretly chooses a type of creature; if the knight fights a similar entity, all their tests against it or aimed at allowing them to flee from it see their difficulty increase by 1.</p>\n"
+    }
+  }
+}

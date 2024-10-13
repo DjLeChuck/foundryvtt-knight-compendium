@@ -12,9 +12,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "max": 0,
-      "optionDeploy": false
+      "malus": {}
     },
     "energie": {
       "value": 0,
@@ -23,8 +21,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "armure": {
       "value": 0,
@@ -33,8 +30,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "initiative": {
       "dice": 3,
@@ -46,13 +42,11 @@
     },
     "reaction": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "defense": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "equipage": {
       "value": 0,
@@ -63,7 +57,9 @@
       },
       "passagers": []
     },
-    "description": "<p>Les vectors l&eacute;gers sont destin&eacute;s &agrave; un usage touristique et sont parfois utilis&eacute;s par des journalistes ou des citoyens d&rsquo;&eacute;chelon 1 &agrave; 2. Bien que fragiles, ils demeurent tr&egrave;s r&eacute;pandus dans les arches.</p>"
+    "description": "<p>Les vectors l&eacute;gers sont destin&eacute;s &agrave; un usage touristique et sont parfois utilis&eacute;s par des journalistes ou des citoyens d&rsquo;&eacute;chelon 1 &agrave; 2. Bien que fragiles, ils demeurent tr&egrave;s r&eacute;pandus dans les arches.</p>",
+    "version": 1,
+    "descriptionLimitee": ""
   },
   "prototypeToken": {
     "name": "Vector léger",
@@ -76,7 +72,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -112,11 +112,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -127,7 +129,25 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [],
   "effects": [],

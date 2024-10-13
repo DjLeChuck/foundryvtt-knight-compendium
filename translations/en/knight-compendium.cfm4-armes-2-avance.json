@@ -1,0 +1,155 @@
+{
+  "label": "Weapons - 2. Advanced",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom",
+    "customEffect": "system.effets.custom"
+  },
+  "entries": {
+    "Bouclier répulsif": {
+      "name": "Repulsive Shield",
+      "description": "<p style=\"text-align: justify;\">The repulsive shield has an irregular surface and a moderate size. The Giant section equipped it with a device that accumulates kinetic energy to release it abruptly upon triggering, pushing back several meters anything in front of it. The shape and structure of the shield have been optimized to deflect projectile shots, while the surface treatment absorbs light for greater discretion. The ideal companion for an ambush shooter.</p>\n<p style=\"text-align: justify;\">At the cost of a free action and 3 EP, the knight can push back a target in contact at short range.</p>",
+      "customEffect": []
+    },
+    "Canon Tesla": {
+      "name": "Tesla Cannon",
+      "description": "<p style=\"text-align: justify;\">A stock, a trigger, a handle to support the weight, and 6 aligned Tesla coils connected to an energy accelerator, and you get the Tesla cannon. The electrical fields created by the cannon reach astronomical powers. But what makes this weapon so dangerous is its intensity, which would fry any organic tissue, and its numerous electrical arcs that flicker randomly.</p>",
+      "customEffect": []
+    },
+    "Carabine adaptable": {
+      "name": "Adaptable Carbine",
+      "description": "<p style=\"text-align: justify;\">Within the Knight, there seems to be a strong demand for long-range weapons other than sniper rifles. Considering the different desires and remarks, the engineers of the Giant section developed the adaptable carbine. In long-range configuration, the double barrel of the weapon fires shrapnel ammunition designed to explode just before hitting the target, thus inflicting significant damage. At short range, they explode upon exiting the barrels to hit a maximum number of targets, at the expense of precision.</p>",
+      "m0Nom": "Long Range",
+      "m1Nom": "Short Range",
+      "customEffect": []
+    },
+    "Epée-fouet": {
+      "name": "Whip Sword",
+      "description": "<p style=\"text-align: justify;\">This sword is actually made of a segmented blade whose pieces are connected by a thin metal cable. With a simple wrist impulse, the weapon can extend like a whip and, if well-handled, wraps around the enemy to bite into their flesh, thus earning its nickname of serpent blade.</p>",
+      "customEffect": []
+    },
+    "Flambeau cryogénique": {
+      "name": "Cryogenic Torch",
+      "description": "<p style=\"text-align: justify;\">Similar to a combat baton, the cryogenic torch differs in its use. Like the said baton, the knight can use it as a blunt weapon, also causing a projection of pressurized liquid nitrogen upon impact. Perfectly balanced, it allows its bearer to twirl it around while activating the jet, thus creating a wall of titanium and nitrogen, capable of deterring the most reckless adversary from approaching.</p>",
+      "customEffect": []
+    },
+    "Iceberg eagle": {
+      "name": "Iceberg Eagle",
+      "description": "<p style=\"text-align: justify;\">Everyone knows the penetrating power of the Desert Eagle, but for some reason, no one thought to combine that with liquid nitrogen ammunition. The operation of the weapon is simple: the bullet makes its way through the armour before releasing the nitrogen. If you can't aim, shoot at the ground: black ice, it's slippery.</p>",
+      "customEffect": []
+    },
+    "Lance-harpon": {
+      "name": "Harpoon Launcher",
+      "description": "<p style=\"text-align: justify;\">When former whalers applied to the Knight, the Giant section decided to experiment with their weapon of choice. If a harpoon can injure cetaceans weighing several tons, the creatures of the Anathema should also be sensitive to it. After a bit of adaptation to be handled by a meta-armour, the harpoon launcher was born: starting from a precision rifle whose ammunition has been heavily modified, the head is studded with barbs while its shaft triggers a net immobilizing the target upon impact.</p>",
+      "customEffect": []
+    },
+    "Mitrailleuse F-34-R": {
+      "name": "F-34-R Machine Gun",
+      "description": "<p style=\"text-align: justify;\">This light M249 machine gun has been specially modified to appear impressive: the barrel has been enlarged and lengthened, the gas cylinder has been perforated, and the sounds have been amplified by a set of speakers. Ordinarily dark, the weapon is painted in aggressive colors and the bullets are hollowed out to produce a shrill whistle when fired. Simply pressing the trigger causes an infectious racket capable of causing panic among those who hear it. Obviously, the weapon carries several belts of ammunition each, so there is no need to hesitate to keep the finger pressed on the trigger.</p>",
+      "customEffect": []
+    },
+    "Pistolame": {
+      "name": "Pistolame",
+      "description": "<p style=\"text-align: justify;\">Some knights love firearms but remain poor shooters despite the help of their AI. The Giant section heard their distress and offered them the pistolame. This long sword blade is mounted on a pistol stock equipped with a six-shot revolving cylinder. The chambers are filled with explosive bullets that lodge directly into the target's wounds. Thanks to this system, there is no need to know how to aim; it is enough to pull the trigger at the right moment.</p>\n<p style=\"text-align: justify;\">Upon contact, the character can choose to expend an explosive bullet and inflict 2D6 additional damage and violence. This attack improvement has the effect of Charger 6.</p>",
+      "customEffect": [
+        {
+          "label": "Explosive Bullet",
+          "description": "<p style=\"text-align: justify;\">Upon contact, the character can choose to expend an explosive bullet and inflict 2D6 additional damage and violence. This attack improvement has the effect of Charger 6.</p>",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 2,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": true,
+              "condition": "If an explosive bullet is expended (Charger 6)"
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 2,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": true,
+              "condition": "If an explosive bullet is expended (Charger 6)"
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    },
+    "Pistolet de précision automatique": {
+      "name": "Automatic Precision Pistol",
+      "description": "<p style=\"text-align: justify;\">This is nothing more than an automatic version of the precision pistol, with an increased rate of fire combined with better stability and aiming assistance, to maximize its use simultaneously with another weapon.</p>",
+      "customEffect": []
+    },
+    "Shotgun gardien": {
+      "name": "Guardian Shotgun",
+      "description": "<p style=\"text-align: justify;\">This very sleek pump-action shotgun fires laser bursts with relative precision, intended to carbonize creatures from the shadows at close range. At the end of the barrel, a set of short blades arranged in a star pattern deploy a shield protecting from enemy fire and on which a heads-up display appears.</p>",
+      "customEffect": []
+    },
+    "Urumi": {
+      "name": "Urumi",
+      "description": "<p style=\"text-align: justify;\">While most swords bet on rigidity, this one opts for flexibility, so the urumi is composed of a long and very thin blade. The flexible blade is quickly spun around to create a true barrier that is both offensive and defensive. A small novelty: the weapon has been adapted to modern knowledge: new alloy, tiny alpha element crystals to serrate the blade, trajectory calculation software...</p>",
+      "customEffect": []
+    }
+  }
+}

@@ -12,8 +12,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "energie": {
       "value": 0,
@@ -22,8 +21,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "armure": {
       "value": 0,
@@ -32,8 +30,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "initiative": {
       "dice": 3,
@@ -45,13 +42,11 @@
     },
     "reaction": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "defense": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "equipage": {
       "value": 0,
@@ -62,7 +57,9 @@
       },
       "passagers": []
     },
-    "description": "<p>Anguleux, d&eacute;nu&eacute; de toit, dot&eacute; de grands arceaux m&eacute;-talliques et d&rsquo;un pare-buffle massif, le stalion est un des principaux v&eacute;hicules terrestres du Knight, aussi utilis&eacute; par de tr&egrave;s nombreuses milices d&rsquo;arches. Passe-partout avec ses quatre roues motrices et directionnelles, le stalion dispose de suspensions s&rsquo;adaptant au terrain, abaissant le ch&acirc;ssis sur route, le remontant en zone meuble ou accident&eacute;e. Ses pneus ne sont pas gonfl&eacute;s d&rsquo;air, mais tendus par une structure alv&eacute;olaire r&eacute;sistante, increvable. Sur son capot se dresse un lance-harpon dont le c&acirc;ble est reli&eacute; &agrave; un puissant treuil. D&eacute;passant de la carrosserie du stalion, de grosses poign&eacute;es permettent de tirer des rideaux m&eacute;talliques solides qui coulissent dans les arceaux pour prot&eacute;ger les passagers. De plus, un g&eacute;n&eacute;rateur de champ cin&eacute;tique prot&egrave;ge l&rsquo;appareil et repousse les corps entrant en contact. Des cam&eacute;ras ext&eacute;rieures transmettent une image panoramique aux casques des chevaliers &agrave; bord. Tous les stalions embarquent une trousse &agrave; outils, une trousse de secours et un ou deux shotguns escamotables. L&rsquo;armement des stalions varie, mais la plupart sont &eacute;quip&eacute;s avec deux mitrailleuses lourdes, l&rsquo;une accroch&eacute;e &agrave; l&rsquo;arceau sup&eacute;rieur qui permet de tirer vers l&rsquo;avant par-dessus le conducteur, et une autre &agrave; l&rsquo;arceau arri&egrave;re. D&rsquo;autres stalions sont &eacute;quip&eacute;s d&rsquo;un railgun en tourelle permettant de tirer dans toutes les directions. Une tradition veut que les stalions, apr&egrave;s leur premier d&eacute;ploiement, se voient gratifi&eacute;s d&rsquo;un nom et d&rsquo;une peinture &nbsp;repr&eacute;sentant un cheval.</p>"
+    "description": "<p>Anguleux, d&eacute;nu&eacute; de toit, dot&eacute; de grands arceaux m&eacute;-talliques et d&rsquo;un pare-buffle massif, le stalion est un des principaux v&eacute;hicules terrestres du Knight, aussi utilis&eacute; par de tr&egrave;s nombreuses milices d&rsquo;arches. Passe-partout avec ses quatre roues motrices et directionnelles, le stalion dispose de suspensions s&rsquo;adaptant au terrain, abaissant le ch&acirc;ssis sur route, le remontant en zone meuble ou accident&eacute;e. Ses pneus ne sont pas gonfl&eacute;s d&rsquo;air, mais tendus par une structure alv&eacute;olaire r&eacute;sistante, increvable. Sur son capot se dresse un lance-harpon dont le c&acirc;ble est reli&eacute; &agrave; un puissant treuil. D&eacute;passant de la carrosserie du stalion, de grosses poign&eacute;es permettent de tirer des rideaux m&eacute;talliques solides qui coulissent dans les arceaux pour prot&eacute;ger les passagers. De plus, un g&eacute;n&eacute;rateur de champ cin&eacute;tique prot&egrave;ge l&rsquo;appareil et repousse les corps entrant en contact. Des cam&eacute;ras ext&eacute;rieures transmettent une image panoramique aux casques des chevaliers &agrave; bord. Tous les stalions embarquent une trousse &agrave; outils, une trousse de secours et un ou deux shotguns escamotables. L&rsquo;armement des stalions varie, mais la plupart sont &eacute;quip&eacute;s avec deux mitrailleuses lourdes, l&rsquo;une accroch&eacute;e &agrave; l&rsquo;arceau sup&eacute;rieur qui permet de tirer vers l&rsquo;avant par-dessus le conducteur, et une autre &agrave; l&rsquo;arceau arri&egrave;re. D&rsquo;autres stalions sont &eacute;quip&eacute;s d&rsquo;un railgun en tourelle permettant de tirer dans toutes les directions. Une tradition veut que les stalions, apr&egrave;s leur premier d&eacute;ploiement, se voient gratifi&eacute;s d&rsquo;un nom et d&rsquo;une peinture &nbsp;repr&eacute;sentant un cheval.</p>",
+    "version": 1,
+    "descriptionLimitee": ""
   },
   "prototypeToken": {
     "name": "Stalion",
@@ -75,7 +72,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -111,11 +112,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -126,7 +129,25 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -134,7 +155,7 @@
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/railgun.webp",
       "system": {
-        "description": "<p>Le railgun est un fusil à canon électrique utilisant la force magnétique pour propulser des balles à une vitesse extrême grâce à des batteries et des circuits d'énergie alpha placés dans la crosse. À 3 500 mètres par seconde, la balle du railgun porte en elle une énergie cinétique phénoménale qui lui fait traverser les bâtiments et les véhicules sans aucun souci. Les cibles sont transpercées, qu'elles soient organiques, mécaniques, à couvert ou blindées n'y change rien. Le railgun dispose, bien entendu, d'une lunette de visée et d'une caméra très haute définition pour désigner des cibles et tirer à plusieurs kilomètres de distance.</p>\n",
+        "description": "<p>Le railgun est un fusil à canon électrique utilisant la force magnétique pour propulser des balles à une vitesse extrême grâce à des batteries et des circuits d'énergie alpha placés dans la crosse. À 3 500 mètres par seconde, la balle du railgun porte en elle une énergie cinétique phénoménale qui lui fait traverser les bâtiments et les véhicules sans aucun souci. Les cibles sont transpercées, qu'elles soient organiques, mécaniques, à couvert ou blindées n'y change rien. Le railgun dispose, bien entendu, d'une lunette de visée et d'une caméra très haute définition pour désigner des cibles et tirer à plusieurs kilomètres de distance.</p>",
         "rarete": "rare",
         "type": "distance",
         "portee": "lointaine",
@@ -179,11 +200,36 @@
         },
         "degats": {
           "dice": 5,
-          "fixe": 10
+          "fixe": 10,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
           "dice": 1,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
@@ -217,7 +263,11 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
       "_id": "WZMoIm65mngsNsLv",
@@ -230,23 +280,24 @@
         }
       },
       "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.58ae79bc821a314f",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890009138,
-        "modifiedTime": 1667499453567,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.29.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
       "folder": "hWomqoUpx2C48FAn",
-      "sort": 0,
-      "_key": "!actors.items!O4ASzhHQMxHCKllZ.WZMoIm65mngsNsLv"
+      "sort": 0
     },
     {
       "name": "Mitrailleuse lourde",
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/mitrailleuse-lourde.webp",
       "system": {
-        "description": "<p>Les recruteurs du Knight ont l'habitude de dire qu'un chevalier en méta-armure est aussi puissant qu'un véhicule blindé. La mitrailleuse lourde à canons rotatifs le confirme. Elle se tient à la hanche, par la poignée du dessus, et un chevalier tire avec celle sur le côté. Une bande articulée blindée relie la mitrailleuse à un caisson de munitions fixé au dos de la méta-armure.</p>\n",
+        "description": "<p>Les recruteurs du Knight ont l'habitude de dire qu'un chevalier en méta-armure est aussi puissant qu'un véhicule blindé. La mitrailleuse lourde à canons rotatifs le confirme. Elle se tient à la hanche, par la poignée du dessus, et un chevalier tire avec celle sur le côté. Une bande articulée blindée relie la mitrailleuse à un caisson de munitions fixé au dos de la méta-armure.</p>",
         "rarete": "avance",
         "type": "distance",
         "portee": "moyenne",
@@ -291,11 +342,36 @@
         },
         "degats": {
           "dice": 5,
-          "fixe": 10
+          "fixe": 10,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
           "dice": 4,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
@@ -326,7 +402,11 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
       "_id": "Xs9oJJiZOsQqoGUJ",
@@ -339,16 +419,17 @@
         }
       },
       "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005694,
-        "modifiedTime": 1667499458124,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.29.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0,
-      "_key": "!actors.items!O4ASzhHQMxHCKllZ.Xs9oJJiZOsQqoGUJ"
+      "sort": 0
     }
   ],
   "effects": [],

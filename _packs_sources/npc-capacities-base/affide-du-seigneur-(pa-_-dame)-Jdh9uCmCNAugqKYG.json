@@ -1,0 +1,129 @@
+{
+  "name": "Affidé du Seigneur (PA / Dame)",
+  "type": "capacite",
+  "img": "systems/knight/assets/icons/capacite.svg",
+  "system": {
+    "description": "<p>Le PNJ ajoute le score de l'aspect de son Seigneur multiplié par 5 à son total de PS (ou de PA). L'aspect exceptionnel n'ajoute pas de PS supplémentaires.\nNote : réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>",
+    "aspects": {
+      "chair": {},
+      "bete": {},
+      "machine": {},
+      "dame": {},
+      "masque": {}
+    },
+    "isPhase2": false,
+    "bonus": {
+      "aspectsLieSupplementaire": {
+        "has": false,
+        "value": "chair"
+      },
+      "sante": {
+        "has": false,
+        "aspect": {
+          "lie": true,
+          "value": "dame",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "armure": {
+        "has": true,
+        "aspect": {
+          "lie": true,
+          "value": "dame",
+          "multiplie": 5
+        },
+        "value": 0
+      },
+      "aspectMax": {
+        "has": false,
+        "aspect": "chair",
+        "maximum": {
+          "aspect": 40,
+          "ae": 20
+        }
+      }
+    },
+    "degats": {
+      "has": false,
+      "system": {
+        "dice": 0,
+        "fixe": 0,
+        "effets": {
+          "raw": [],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "attaque": {
+      "has": false,
+      "type": "contact",
+      "portee": "contact",
+      "degats": {
+        "dice": 0,
+        "fixe": 0
+      },
+      "effets": {
+        "raw": [],
+        "custom": [],
+        "liste": []
+      }
+    },
+    "phase2": {
+      "aspects": {
+        "has": false,
+        "liste": {
+          "chair": {
+            "value": 0
+          },
+          "bete": {
+            "value": 0
+          },
+          "machine": {
+            "value": 0
+          },
+          "dame": {
+            "value": 0
+          },
+          "masque": {
+            "value": 0
+          }
+        }
+      },
+      "sante": {
+        "has": false,
+        "value": 0
+      },
+      "armure": {
+        "has": false,
+        "value": 0
+      },
+      "tactique": {
+        "has": false,
+        "value": ""
+      }
+    }
+  },
+  "effects": [],
+  "_id": "Jdh9uCmCNAugqKYG",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.npc-capacities-base.d7cf492179ece7c0"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890019275,
+    "modifiedTime": 1668026483934,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!Jdh9uCmCNAugqKYG"
+}

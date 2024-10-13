@@ -1,0 +1,100 @@
+{
+  "label": "Advantages - Knights",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Aisance": {
+      "name": "Ease",
+      "description": "<p>The character’s body seems to adapt to whatever they are holding, allowing them to handle weapons and armour with greater ease than most. They can wield a heavy machine gun while swimming fully clothed, and barely notice body armour when moving. In game terms, the PC is unaffected by the heavy weapon trait. Heavy weapons still have to be used with both hands.</p>\n"
+    },
+    "Bon sens": {
+      "name": "Astute",
+      "description": "<p>Given their innate logic and common sense, the character is particularly difficult to manipulate. They get one automatic success on skill checks when determining whether they are being used, played, or duped, regardless of the combo of characteristics involved. Furthermore, if this skill check’s result is a critical failure, the PC suffers the consequences of a normal failure instead.</p>\n"
+    },
+    "Chanceux": {
+      "name": "Lucky",
+      "description": "<p>The character is extraordinarily lucky. They seem to succeed when they were supposed to fail, and win when they should have lost. Once per game session the PC may reroll all dice on a failed skill check.</p>\n"
+    },
+    "Chevalier véritable": {
+      "name": "True Knight",
+      "description": "<p>The character is a model of purity. They embody generosity, benevolence, kindness. They are a true Knight, imbued with honour and the firm intent of saving all of Humankind. Their selflessness is without equal. They truly are a hero. In game terms, the character may spend 4 heroism points to enter heroic mode, rather than the usual 6. They can still gain up to 6 heroism points in total. In exchange, they must refrain from villainy–any act of malice is punished by the loss of 1 heroism point.</p>\n"
+    },
+    "Code moral": {
+      "name": "Moral code",
+      "description": "<p>The character has a moral code that they build their life around. It can be a few short precepts or a strict vow they adhere to. How compatible it is with Avalon’s code of conduct is up to the player. In game terms, the PC has one additional lesser motivation (see Step 6: Motivations, on page 127) called ’moral code.’</p>\n"
+    },
+    "Connaissance secrète": {
+      "name": "Hidden knowledge",
+      "description": "<p>The character holds knowledge shared with few others on specific topics. When performing a knowledge check concerning one of the following: occult, secret society, criminal underworld, religious cults, etc., the difficulty (level, not just numerical value) of all Knowledge-based checks is lowered 1 level. This advantage applies to all checks pertaining to the chosen topic.</p>\n"
+    },
+    "Créateur-né": {
+      "name": "Spark of creation",
+      "description": "<p>The character is skilled at creating works of art. By some stroke of luck, the spark of creativity never left them. They continue with their artistic endeavours, painting, sculpting, dancing, and making use of their talents for the benefit of Avalon and all Humankind. In game terms, the character spends part of their spare time performing, writing, etc. They add an additional lesser motivation to their list of motivations: Create a work of art. This motivation obeys all usual lesser motivation rules.</p>\n"
+    },
+    "Dur à cuir": {
+      "name": "Hard-boiled",
+      "description": "<p>The character’s resistance is higher than most and their endurance seems limitless. They can take a lot more punishment than others of the same strength and build. In game terms, the character has 5 additional health points, increasing both their current and total HP.</p>\n"
+    },
+    "Empathie": {
+      "name": "Empathy",
+      "description": "<p>The character is naturally empathetic. They have a deep understanding of people and are able to detect emotions and moods with little difficulty. In game terms, when the character attempts to determine the state of mind of an NPC or another PC, they receive one automatic success to their Instinct based skill check and can ignore any critical failure results.</p>\n"
+    },
+    "Esprit d'acier": {
+      "name": "Iron will",
+      "description": "<p>The character is used to handling their emotions themselves, and know that they do not need to depend on others. Their way of handling their feelings may seem detached and somewhat robotic, but they resist Horror more than most and lose less hope. In game terms, whenever the character suffers damage to their hope, they lose one less point than they normally would.</p>\n"
+    },
+    "Forteresse spirituelle": {
+      "name": "Spiritual fortress",
+      "description": "<p>The hero’s mind is an impenetrable fortress, a spiritual bunker of sorts. During character creation, they may add 5 points to their maximum and current hope.</p>\n"
+    },
+    "Guérison rapide": {
+      "name": "Swift healing",
+      "description": "<p>The character’s metabolism is faster than most. They heal much, much more quickly than others, and bounce back from wounds that would permanently incapacitate anyone else. In game terms, the character regains health points at twice the usual rate. When their wounds are treated with first aid, nanoMs or healing nodes, they add 3 points to the amount of HP restored.</p>\n"
+    },
+    "Infatigable": {
+      "name": "Tireless",
+      "description": "<p>The character’s body is naturally more resistant to trauma and fatigue inflicted by blows to their meta-armour. The usual loss of health points when their armour is damaged does not apply (ignore the 1 HP loss for every 5 AP damaged rule).</p>\n"
+    },
+    "Instinct animal": {
+      "name": "Animal instinct",
+      "description": "<p>The character’s instincts are always awake and sharper than most, giving them advanced warning of things about to happen. In game terms, the PC’s initiative gains a +10 bonus when they are ambushed. Furthermore, they retain their defence and reaction scores when they are the target of surprise attacks.</p>\n"
+    },
+    "Magnétique": {
+      "name": "Magnetism",
+      "description": "<p>Something in the way the hero moves or speaks seems to draw everyone’s attention. The character gets one automatic success to all their Aura based skill checks when interacting with other humans.</p>\n"
+    },
+    "Mémoire efficace": {
+      "name": "Good memory",
+      "description": "<p>The character is blessed–or cursed–with a memory that registers all information obtained and can recall it at will. Once per game session, they may ask the GM to give them one piece of academic knowledge, a memory, or even something the character may have stumbled across at some point in their life. This information can never be enough to completely trivialise an investigation or solve a mystery on its own, but can and should help in some way.</p>\n"
+    },
+    "Menteur professionnel": {
+      "name": "Professional liar",
+      "description": "<p>The character lies through their teeth, and is so good at it that they can make the most outrageous claims sound quite plausible. Though their lies may not be malicious as such, the ease with which they spin falsehoods is the envy of con artists and politicians alike. In game terms, when the character attempts an Eloquence combo Stealth skill check, the difficulty is reduced 1 level.</p>\n"
+    },
+    "Rayonnement": {
+      "name": "Radiant",
+      "description": "<p>The character radiates a natural aura of comfort and encouragement. Their kind words and approving looks drive their allies to surpass their limitations. In game terms, when the character is helped by one or more other PCs, the helpers get +1 die to their skill check. This also applies if a Radiant character uses Heroic Mode.</p>\n"
+    },
+    "Rêves prémonitoires": {
+      "name": "Prophetic dreams",
+      "description": "<p>The character is blessed–or cursed–with prophetic dreams. They are aware of the nature of these dreams and, whether they make it known or not, the insight they glean from their slumber often turns out to be useful in some way or another. In game terms, once per game session, when the character is asleep, the player may ask the GM what they see in their dreams. The GM’s answer must be cryptic, a couple of evocative phrases about the next part of the mission or one of the main characters at the most. The answer must not intentionally mislead the player or steer them towards false leads (the character can still misinterpret their dreams, though).</p>\n"
+    },
+    "Soif d'apprendre": {
+      "name": "Thirst for knowledge",
+      "description": "<p>The character is probably younger than most, and needs to learn as much as they can from their teammates. They may see other Knights of their banner as role models, trying to emulate their skills as best they can. In game terms, once per game session and only when the characters are in Camelot, the PC may undergo training with another PC to increase one of their characteristic scores. Teacher and pupil must spend several hours in intense instruction, focusing on one characteristic. The teacher’s characteristic score must be at least 2 points higher than the pupil’s. Once they have finished this training period, the pupil may spend half the usual number of experience points to increase the characteristic by 1.</p>\n"
+    },
+    "Sûr de soi": {
+      "name": "Confident",
+      "description": "<p>The PC is supremely confident in their words and judgment, without boasting or making a great show of it. The character gets one automatic success to all their Eloquence based skill checks when interacting with other humans.</p>\n"
+    },
+    "Trompe la mort": {
+      "name": "Cheater of death",
+      "description": "<p>Death itself seems to not be able to find the character even in the worst of situations, as if they were clinging on to life with all their strength. In game terms, whenever the character is at death’s door, they always ignore a ’dead’ result on the random injury table and take the next closest injury instead. This advantage can only happen once per mission.</p>\n"
+    },
+    "Vrai artiste": {
+      "name": "True Artist",
+      "description": "<p>The character is a true artist, a master in their art and able to use it to combat the shadows. The player must explain how their character learned this art, how they achieved excellence, and must practice it regularly. At the end of stage 3, the player must choose one of the six artistic domains presented in the section &laquo; the effects of art &raquo;. They can benefit from the effects of practice and their works, if they create any, will have the described effects.</p>"
+    }
+  }
+}

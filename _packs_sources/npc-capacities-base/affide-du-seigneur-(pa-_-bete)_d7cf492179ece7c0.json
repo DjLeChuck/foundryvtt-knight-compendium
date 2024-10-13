@@ -1,9 +1,9 @@
 {
-  "name": "Affidé du Seigneur",
+  "name": "Affidé du Seigneur (PA / Bête)",
   "type": "capacite",
   "img": "systems/knight/assets/icons/capacite.svg",
   "system": {
-    "description": "<p>Le PNJ ajoute le score de l'aspect de son Seigneur multiplié par 5 à son total de PS (ou de PA). L'aspect exceptionnel n'ajoute pas de PS supplémentaires.\nNote : réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>\n",
+    "description": "<p>Le PNJ ajoute le score de l'aspect de son Seigneur multiplié par 5 à son total de PS (ou de PA). L'aspect exceptionnel n'ajoute pas de PS supplémentaires.\nNote : réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>",
     "aspects": {
       "chair": {},
       "bete": {},
@@ -21,16 +21,16 @@
         "has": false,
         "aspect": {
           "lie": false,
-          "value": "chair",
+          "value": "bete",
           "multiplie": 5
         },
         "value": 0
       },
       "armure": {
-        "has": false,
+        "has": true,
         "aspect": {
-          "lie": false,
-          "value": "chair",
+          "lie": true,
+          "value": "bete",
           "multiplie": 5
         },
         "value": 0

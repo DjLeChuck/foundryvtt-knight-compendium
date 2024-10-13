@@ -87,88 +87,10 @@
         "defense 4",
         "lumiere 2",
         "esperance",
-        "deuxmains"
+        "deuxmains",
+        "intimidantana"
       ],
       "custom": [
-        {
-          "label": "intimidante (Anathème)",
-          "description": "<p>Lorsque l&rsquo;arme est utilis&eacute;e contre des bandes de l&rsquo;Anath&egrave;me, le score de la caract&eacute;ristique Aura (plus les &eacute;ventuels OD) du PJ est ajout&eacute; &agrave; la violence. Dans le cas des PNJ, c&rsquo;est la moiti&eacute; du score de Dame (plus le score de Dame exceptionnel &eacute;ventuel) qui est ajout&eacute;e &agrave; la violence.</p>",
-          "attaque": {
-            "reussite": 0,
-            "jet": 0,
-            "carac": {
-              "labelFixe": "OD Non-Inclus dans le bonus fixe",
-              "odInclusFixe": false,
-              "labelJet": "OD Non-Inclus dans le jet",
-              "odInclusJet": false,
-              "fixe": "",
-              "jet": ""
-            },
-            "aspect": {
-              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
-              "odInclusFixe": false,
-              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
-              "odInclusJet": false,
-              "fixe": "",
-              "jet": ""
-            },
-            "conditionnel": {
-              "has": false,
-              "condition": ""
-            }
-          },
-          "degats": {
-            "fixe": 0,
-            "jet": 0,
-            "carac": {
-              "labelFixe": "OD Non-Inclus dans le bonus fixe",
-              "odInclusFixe": false,
-              "labelJet": "OD Non-Inclus dans le jet",
-              "odInclusJet": false,
-              "fixe": "",
-              "jet": ""
-            },
-            "aspect": {
-              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
-              "odInclusFixe": false,
-              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
-              "odInclusJet": false,
-              "fixe": "",
-              "jet": ""
-            },
-            "conditionnel": {
-              "has": false,
-              "condition": ""
-            }
-          },
-          "violence": {
-            "fixe": 0,
-            "jet": 0,
-            "carac": {
-              "labelFixe": "OD Non-Inclus dans le bonus fixe",
-              "odInclusFixe": false,
-              "labelJet": "OD Non-Inclus dans le jet",
-              "odInclusJet": false,
-              "fixe": "",
-              "jet": ""
-            },
-            "aspect": {
-              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
-              "odInclusFixe": false,
-              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
-              "odInclusJet": false,
-              "fixe": "",
-              "jet": ""
-            },
-            "conditionnel": {
-              "has": false,
-              "condition": ""
-            }
-          },
-          "other": {
-            "cdf": 0
-          }
-        },
         {
           "label": "Spécial",
           "description": "<p>Pour 5PE et &agrave; port&eacute;e contact, pour une action de&nbsp;d&eacute;placement, la poussi&egrave;re d&rsquo;arbre blanc redonne 3D6+6 PS &agrave; la cible. Les cibles touch&eacute;es par la poussi&egrave;re obtiennent l&rsquo;effet endurci 1 pour la dur&eacute;e de la sc&egrave;ne ou de la phase de conflit. &Agrave; noter que la poussi&egrave;re ne passe pas au travers des armures et si un chevalier est cibl&eacute;, il doit folder au moins son heaume pour b&eacute;n&eacute;ficier de ces effets.</p>",

@@ -1,10 +1,10 @@
 {
   "folder": "tKApYkt9O7kxNsDe",
-  "name": "VITALITÉ DE L’OURS",
+  "name": "Vitalité de l'ours",
   "type": "capaciteultime",
   "img": "systems/knight/assets/icons/capaciteultime.svg",
   "system": {
-    "description": "<p>&laquo; Son histoire nous dit qu&rsquo;il &eacute;tait capable de faire&nbsp;face aux pires blessures et &agrave; la mort elle-m&ecirc;me. &raquo;</p>\n<p><strong>Effet</strong> : Une seule fois par mission, le PJ peut activer&nbsp;cette capacit&eacute;. Si durant la sc&egrave;ne ou la phase de&nbsp;conflit pendant laquelle la capacit&eacute; a &eacute;t&eacute; activ&eacute;e&nbsp;le chevalier doit &ecirc;tre mis &agrave; l&rsquo;agonie, alors les effets&nbsp;suivants s&rsquo;appliquent automatiquement : le chevalier ignore la mise &agrave; l&rsquo;agonie, augmente sa valeur&nbsp;actuelle de PS, de PE et de PA jusqu&rsquo;&agrave; leur valeur<br>maximale.</p>",
+    "description": "<p>&laquo; Son histoire nous dit qu&rsquo;il &eacute;tait capable de faire&nbsp;face aux pires blessures et &agrave; la mort elle-m&ecirc;me. &raquo;</p>\n<p><strong>Effet</strong> : Une seule fois par mission, le PJ peut activer&nbsp;cette capacit&eacute;. Si durant la sc&egrave;ne ou la phase de&nbsp;conflit pendant laquelle la capacit&eacute; a &eacute;t&eacute; activ&eacute;e&nbsp;le chevalier doit &ecirc;tre mis &agrave; l&rsquo;agonie, alors les effets&nbsp;suivants s&rsquo;appliquent automatiquement : le chevalier ignore la mise &agrave; l&rsquo;agonie, augmente sa valeur&nbsp;actuelle de PS, de PE et de PA jusqu&rsquo;&agrave; leur valeur maximale.</p>",
     "type": "active",
     "condition": "<p>Uniquement pour un chevalier poss&eacute;dant le&nbsp;blason de l&rsquo;ours.</p>",
     "actives": {

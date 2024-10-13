@@ -1,0 +1,165 @@
+{
+  "label": "Legendary Meta-Armours",
+  "mapping": {
+    "changelingDescription": "system.capacites.selected.changeling.description",
+    "changelingDuration": "system.capacites.selected.changeling.duree",
+    "changelingRange": "system.capacites.selected.changeling.portee",
+    "companionsDescription": "system.capacites.selected.companions.description",
+    "companionsDuration": "system.capacites.selected.companions.duree",
+    "companionsCrow": "system.capacites.selected.companions.crow.capacites",
+    "discordDescription": "system.capacites.selected.discord.description",
+    "discordSceneDuration": "system.capacites.selected.discord.scene.duree",
+    "discordTourDuration": "system.capacites.selected.discord.tour.duree",
+    "falconDescription": "system.capacites.selected.falcon.description",
+    "falconInformations": "system.capacites.selected.falcon.informations",
+    "falconDuration": "system.capacites.selected.falcon.duree",
+    "ghostDescription": "system.capacites.selected.ghost.description",
+    "ghostDuration": "system.capacites.selected.ghost.duree",
+    "goliathDescription": "system.capacites.selected.goliath.description",
+    "goliathDuration": "system.capacites.selected.goliath.duree",
+    "mechanicDescription": "system.capacites.selected.mechanic.description",
+    "mechanicRange": "system.capacites.selected.mechanic.portee",
+    "mechanicContact": "system.capacites.selected.mechanic.reparation.contact.duree",
+    "mechanicDistance": "system.capacites.selected.mechanic.reparation.distance.duree",
+    "nanocDescription": "system.capacites.selected.nanoc.description",
+    "nanocDuration": "system.capacites.selected.nanoc.duree",
+    "oriflammeDescription": "system.capacites.selected.oriflamme.description",
+    "oriflammeDuration": "system.capacites.selected.oriflamme.duree",
+    "customizeDescription": "system.capacites.selected.personnalise.description",
+    "customizeLabel": "system.capacites.selected.personnalise.label",
+    "puppetDescription": "system.capacites.selected.puppet.description",
+    "puppetDuration": "system.capacites.selected.puppet.duree",
+    "recordDescription": "system.capacites.selected.record.description",
+    "recordDuration": "system.capacites.selected.record.duree",
+    "rewindDescription": "system.capacites.selected.rewind.description",
+    "rewindDuration": "system.capacites.selected.rewind.duree",
+    "shrineDescription": "system.capacites.selected.shrine.description",
+    "shrineDuration": "system.capacites.selected.shrine.duree",
+    "shrineRange": "system.capacites.selected.shrine.portee",
+    "totemDescription": "system.capacites.selected.totem.description",
+    "totemDuration": "system.capacites.selected.totem.duree",
+    "typeDescription": "system.capacites.selected.type.description",
+    "typeDuration": "system.capacites.selected.type.duree",
+    "visionDescription": "system.capacites.selected.vision.description",
+    "visionDuration": "system.capacites.selected.vision.duree",
+    "warlordDescription": "system.capacites.selected.warlord.description",
+    "warlordActionDescription": "system.capacites.selected.warlord.base.action.bonus.description",
+    "warlordActionDuration": "system.capacites.selected.warlord.base.action.duree",
+    "warlordEnergieDescription": "system.capacites.selected.warlord.impulsions.energie.bonus.description",
+    "warlordEnergieDuration": "system.capacites.selected.warlord.impulsions.energie.duree",
+    "warlordEsquiveDuration": "system.capacites.selected.warlord.impulsions.esquive.duree",
+    "warlordForceDuration": "system.capacites.selected.warlord.impulsions.force.duree",
+    "warlordGuerreDuration": "system.capacites.selected.warlord.impulsions.guerre.duree",
+    "windtalkerDescription": "system.capacites.selected.windtalker.description",
+    "windtalkerDuration": "system.capacites.selected.windtalker.duree",
+    "recoltefluxDescription": "system.special.selected.recolteflux.description"
+  },
+  "entries": {
+    "Barbarian (Mode Goliath)": {
+      "name": "Barbarian (Goliath Mode)",
+      "goliathDescription": "<p style=\"text-align: justify;\">Works in the same way as the Goliath mode of the Barbarian meta-armour, but the energy cost is higher and the size increase is up to 6 meters maximum. This secondary ability is acquired without evolution.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion:</strong> </span><span class=\"fontstyle2\">Berserk meta-armour, Warlock meta-armour</span>&nbsp;</p>",
+      "goliathDuration": "6 turns or 1 minute."
+    },
+    "Bard (Mode Changeling)": {
+      "name": "Bard (Changeling Mode)",
+      "changelingDescription": "<p style=\"text-align: justify;\">Works in the same way as the Changeling mode of the Bard meta-armour, but at a higher energy cost. This secondary ability is acquired at an evolution level equal to 150 EP (included below).</p>\n<p style=\"text-align: justify;\"><strong><span class=\"fontstyle0\">Exclusion:</strong> </span><span class=\"fontstyle2\">Barbarian meta-armour, Berserk meta-armour</span>&nbsp;</p>",
+      "changelingDuration": "One scene, one phase or one hour, regardless of the phase",
+      "changelingRange": "10 feet radius"
+    },
+    "Druid (Mode Companion)": {
+      "name": "Druid (Companion Mode)",
+      "companionsDescription": "<p style=\"text-align: justify;\">Upon acquiring a secondary ability of this meta-armour, the knight must choose a single type of companion among the Lion type, Wolf type, and Crow type. This companion from this secondary ability functions in the same way as a companion from the Druid meta-armour. This secondary ability is acquired with an evolution level equal to 200 EP (the player must follow the companion evolution rules). The companions do not evolve.</p>",
+      "companionsDuration": "One conflict phase or one scene",
+      "companionsCrow": "Flight: Can travel a distance equivalent to long range per turn (a speed equal to 3 if compared to that of vehicles). The flight is permanent."
+    },
+    "Paladin (Champ de Force Shrine)": {
+      "name": "Paladin (Force Field Shrine)",
+      "shrineDescription": "<p style=\"text-align: justify;\">Works in the same way as the Force Field Shrine of the Paladin meta-armour, but at a higher energy cost. This secondary ability is acquired without evolution.</p>",
+      "shrineDuration": "1 turn",
+      "shrineRange": "Personal / Medium (50-150 feet)"
+    },
+    "Priest (Mode Mechanic)": {
+      "name": "Priest (Mechanic Mode)",
+      "mechanicDescription": "<p style=\"text-align: justify;\">Works in the same way as the Mechanic mode of the Priest meta-armour, but at a higher energy cost. This secondary ability is acquired at an evolution level equal to 200 EP (included below).</p>",
+      "mechanicRange": "Long (150 - 1,000 feet)",
+      "mechanicContact": "Instantaneous",
+      "mechanicDistance": "Instantaneous"
+    },
+    "Priest (Mode NanoC)": {
+      "name": "Priest (NanoC Mode)",
+      "nanocDescription": "<p style=\"text-align: justify;\">Works in the same way as the NanoC mode of the Priest meta-armour, but at a higher energy cost and with limited complexity. This secondary ability is acquired at an evolution level equal to 150 EP (included below).</p>",
+      "nanocDuration": "1 hour"
+    },
+    "Psion (Mode Discord)": {
+      "name": "Psion (Discord Mode)",
+      "discordDescription": "<p style=\"text-align: justify;\">Works in the same way as the Discord mode of the Psion meta-armour. This secondary ability is acquired at an evolution level equal to 200 EP.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion:</strong> </span><span class=\"fontstyle2\">Berserk meta-armour</span>&nbsp;</p>",
+      "discordSceneDuration": "One scene or one conflict phase",
+      "discordTourDuration": "One turn",
+      "recoltefluxDescription": "<p style=\"text-align: justify;\">In combat, against creatures of the Anathema or the desperate and only against these types of enemies, a knight in Psion meta-armour can collect flux. At the beginning of a conflict phase, the knight automatically receives 2 flux points and, at each subsequent turn, receives 1 (to symbolize them, take coins or tokens). If an enemy at medium range is killed by a knight of the coterie or by an ally (thus not by a creature of the Anathema or a desperate), the knight in Psion meta-armour automatically receives the following number of flux points per enemy killed:</p>\n<p style=\"text-align: justify;\">It should be noted that flux can be collected outside of a conflict phase if the knight is in the presence of one or more creatures of the Anathema at a certain range of the armour. It is then considered that they receive flux points per creature present at range, within a certain limit, during the scene. These points are received only once per scene.</p>\n<p style=\"text-align: justify;\">The flux collected by the knight during a combat allows them to use the modes below that have a flux cost. Warning: Each of the described modes can only be used against creatures of the Anathema or against the desperate.</p>\n<p style=\"text-align: justify;\"><strong>Warning:</strong> If at the end of a scene or a conflict phase the absorbed flux has not been used, it is permanently lost.</p>"
+    },
+    "Psion (Mode Puppet Master)": {
+      "name": "Psion (Puppet Master Mode)",
+      "puppetDescription": "<p style=\"text-align: justify;\">Works in the same way as the Puppet Master mode of the Psion meta-armour. This secondary ability is acquired at an evolution level equal to 150 EP.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion:</strong> </span><span class=\"fontstyle2\">Berserk meta-armour</span>&nbsp;</p>",
+      "puppetDuration": "1 turn or 10 seconds",
+      "recoltefluxDescription": "<p style=\"text-align: justify;\">In combat, against creatures of the Anathema or the desperate and only against these types of enemies, a knight in Psion meta-armour can collect flux. At the beginning of a conflict phase, the knight automatically receives 2 flux points and, at each subsequent turn, receives 1 (to symbolize them, take coins or tokens). If an enemy at medium range is killed by a knight of the coterie or by an ally (thus not by a creature of the Anathema or a desperate), the knight in Psion meta-armour automatically receives the following number of flux points per enemy killed:</p>\n<p style=\"text-align: justify;\">It should be noted that flux can be collected outside of a conflict phase if the knight is in the presence of one or more creatures of the Anathema at a certain range of the armour. It is then considered that they receive flux points per creature present at range, within a certain limit, during the scene. These points are received only once per scene.</p>\n<p style=\"text-align: justify;\">The flux collected by the knight during a combat allows them to use the modes below that have a flux cost. Warning: Each of the described modes can only be used against creatures of the Anathema or against the desperate.</p>\n<p style=\"text-align: justify;\"><strong>Warning:</strong> If at the end of a scene or a conflict phase the absorbed flux has not been used, it is permanently lost.</p>"
+    },
+    "Psion (Mode Windtalker)": {
+      "name": "Psion (Windtalker Mode)",
+      "windtalkerDescription": "<p style=\"text-align: justify;\">Works in the same way as the Windtalker mode of the Psion meta-armour. This secondary ability is acquired without evolution.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion:</strong> </span><span class=\"fontstyle2\">Berserk meta-armour</span>&nbsp;</p>",
+      "windtalkerDuration": "Instantaneous",
+      "recoltefluxDescription": "<p style=\"text-align: justify;\">In combat, against creatures of the Anathema or the desperate and only against these types of enemies, a knight in Psion meta-armour can collect flux. At the beginning of a conflict phase, the knight automatically receives 2 flux points and, at each subsequent turn, receives 1 (to symbolize them, take coins or tokens). If an enemy at medium range is killed by a knight of the coterie or by an ally (thus not by a creature of the Anathema or a desperate), the knight in Psion meta-armour automatically receives the following number of flux points per enemy killed:</p>\n<p style=\"text-align: justify;\">It should be noted that flux can be collected outside of a conflict phase if the knight is in the presence of one or more creatures of the Anathema at a certain range of the armour. It is then considered that they receive flux points per creature present at range, within a certain limit, during the scene. These points are received only once per scene.</p>\n<p style=\"text-align: justify;\">The flux collected by the knight during a combat allows them to use the modes below that have a flux cost. Warning: Each of the described modes can only be used against creatures of the Anathema or against the desperate.</p>\n<p style=\"text-align: justify;\"><strong>Warning:</strong> If at the end of a scene or a conflict phase the absorbed flux has not been used, it is permanently lost.</p>"
+    },
+    "Ranger (Vision)": {
+      "name": "Ranger (Vision)",
+      "visionDescription": "<p style=\"text-align: justify;\">Works in the same way as the Vision of the Ranger meta-armour, but at a higher energy cost. This secondary ability is acquired without evolution.</p>",
+      "visionDuration": "6 seconds"
+    },
+    "Rogue (Mode Ghost)": {
+      "name": "Rogue (Ghost Mode)",
+      "ghostDescription": "<p style=\"text-align: justify;\">Works in the same way as the Ghost mode of the Rogue meta-armour, but at a higher energy cost. This secondary ability is acquired at an evolution level equal to 150 EP (included below).</p>\n<p style=\"text-align: justify;\"><strong><span class=\"fontstyle0\">Exclusion:</strong> </span><span class=\"fontstyle2\">Berserk meta-armour, Wizard meta-armour</span>&nbsp;</p>",
+      "ghostDuration": "1 turn or 1 minute"
+    },
+    "Shaman (Mode Totem)": {
+      "name": "Shaman (Totem Mode)",
+      "totemDescription": "<p style=\"text-align: justify;\">Works in the same way as the Totem mode of the Shaman meta-armour, but the energy cost is higher. This secondary ability is acquired without evolution level.</p>",
+      "totemDuration": "1 turn or 6 seconds"
+    },
+    "Warlock (Mode Record)": {
+      "name": "Warlock (Record Mode)",
+      "recordDescription": "<p style=\"text-align: justify;\">Works in the same way as the Record mode of the Warlock meta-armour, but the energy cost is higher. This secondary ability is acquired without evolution.</p>",
+      "recordDuration": "Instantaneous"
+    },
+    "Warlock (Mode Rewind)": {
+      "name": "Warlock (Rewind Mode)",
+      "rewindDescription": "<p style=\"text-align: justify;\">Works in the same way as the Rewind mode of the Warlock meta-armour, but the energy cost is higher. This secondary ability is acquired at an evolution level equal to 200 EP.</p>",
+      "rewindDuration": "Instantaneous"
+    },
+    "Warmaster (Mode Falcon)": {
+      "name": "Warmaster (Falcon Mode)",
+      "falconDescription": "<p style=\"text-align: justify;\">Works in the same way as the Falcon mode of the Warmaster meta-armour, but at a higher energy cost. This secondary ability is acquired at an evolution level equal to 250 EP (without the bonus to the total EP of the knight) (included below).</p>",
+      "falconInformations": "<p>Discover all aspects of an NPC (hostile, scoundrel, boss, or colossus).</p><p>Discover the reaction and defense scores of an NPC (hostile, scoundrel, boss, or colossus).</p><p>Discover all exceptional aspects of an NPC (hostile, scoundrel, boss, or colossus).</p><p>Discover the weak point(s) of an NPC (scoundrel, boss, or colossus).</p><p>Discover the weapons (and their statistics) of an NPC (hostile, scoundrel, boss, or colossus).</p><p>Discover the shield, armour, and health scores of an NPC (hostile, scoundrel, boss, or colossus).</p><p>Discover all abilities of an NPC (hostile, scoundrel, boss, or colossus).</p><p>Discover all aspects and derived values of a gang.</p>",
+      "falconDuration": "Instantaneous"
+    },
+    "Warmaster (Mode Warlord)": {
+      "name": "Warmaster (Warlord Mode)",
+      "warlordDescription": "<p style=\"text-align: justify;\">Upon acquiring this ability, the knight receives the action impulse and another impulse of their choice. The impulses thus acquired function exactly the same way as the impulses of the Warmaster. This secondary ability is acquired without evolution.</p>",
+      "warlordActionDescription": "One ally (and only one) of the meta-armour wearer's choice obtains an additional combat or movement action during their next turn.",
+      "warlordActionDuration": "1 turn",
+      "warlordEnergieDescription": "One ally in meta-armour, chosen by the player, receives a part of the Warmaster's energy. 1 to 5 energy points, at the player's discretion, can be granted to an ally, but not to the Warmaster themselves.",
+      "warlordEnergieDuration": "Instantaneous",
+      "warlordEsquiveDuration": "1 turn (can be extended)",
+      "warlordForceDuration": "1 turn (can be extended)",
+      "warlordGuerreDuration": "1 turn (can be extended)"
+    },
+    "Warrior (Types)": {
+      "name": "Warrior (Types)",
+      "typeDescription": "<p style=\"text-align: justify;\">Upon acquiring the secondary ability, the knight can choose a type among the Soldier, Hunter, Scholar, Herald, or Scout types. This secondary ability is acquired without evolution.</p>",
+      "typeDuration": "1 turn or one scene"
+    },
+    "Wizard (Mode Oriflamme)": {
+      "name": "Wizard (Oriflamme Mode)",
+      "oriflammeDescription": "<p style=\"text-align: justify;\">Works in the same way as the Oriflamme mode of the Wizard meta-armour. This secondary ability is acquired at an evolution level equal to 250 EP.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion:</strong> </span><span class=\"fontstyle2\">Rogue meta-armour</span>&nbsp;</p>",
+      "oriflammeDuration": "Instantaneous"
+    }
+  }
+}

@@ -12,8 +12,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "energie": {
       "value": 0,
@@ -22,8 +21,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "armure": {
       "value": 0,
@@ -32,8 +30,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "initiative": {
       "dice": 3,
@@ -45,13 +42,11 @@
     },
     "reaction": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "defense": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "equipage": {
       "value": 0,
@@ -62,7 +57,9 @@
       },
       "passagers": []
     },
-    "description": "<p>Le titan est un v&eacute;hicule blind&eacute; chenill&eacute; large de 7 m&egrave;tres, long de 34, compos&eacute; de trois compartiments &agrave; un &eacute;tage, articul&eacute;s entre eux. C&rsquo;est &agrave; la fois un v&eacute;hicule de transport de troupes, un blind&eacute; d&rsquo;attaque, une unit&eacute; d&rsquo;artillerie et un QG de campagne mobile. Bref, c&rsquo;est un v&eacute;hicule blind&eacute;, fa&ccedil;onn&eacute; comme un &eacute;tage de fus&eacute;e dans un transport exceptionnel, l&rsquo;agressivit&eacute; et les canons en plus.L&rsquo;avant du titan ressemble &agrave; la proue d&rsquo;un navire. L&rsquo;angle aigu de cette pointe est &agrave; la fois un b&eacute;lier et une porte blind&eacute;e &agrave; double battant. Elle peut d&eacute;foncer un mur de b&eacute;ton arm&eacute;, puis s&rsquo;ouvrir pour laisser place aux escouades de chevaliers, &eacute;paul&eacute;s par des tourelles automatiques.Sur le toit, des compartiments sont install&eacute;s : des projecteurs directionnels, une tourelle &eacute;quip&eacute;e d&rsquo;un railgun ou d&rsquo;un lance-flammes, deux tourelles automatiques &eacute;quip&eacute;es de mitrailleuses lourdes, quatre lance-grenades semi-automatiques, et enfin deux lance-missiles &agrave; pivot charg&eacute;s de missiles et de roquettes.</p>\n<p>Anim&eacute; par un r&eacute;acteur &agrave; &eacute;nergie alpha et des moteurs &eacute;lectriques plac&eacute;s &agrave; l&rsquo;int&eacute;rieur des chenilles, un titan abrite plus de 400 m&egrave;tres carr&eacute;s d&rsquo;espace am&eacute;nag&eacute;. On y trouve une salle de contr&ocirc;le (pilotage, armement, modulateur de champ cin&eacute;tique), une salle de repos, une infirmerie, une armurerie, un atelier et m&ecirc;me un garage dans le compartiment arri&egrave;re qui peut accueillir stalions et centurions par une grande rampe d&rsquo;acc&egrave;s.</p>\n<p>Le titan dispose enfin de tout le mat&eacute;riel utile pour &eacute;tablir un QG de campagne : tentes, pr&eacute;fabriqu&eacute;s pliables, barbel&eacute;s haute-tension, mines, projecteurs, etc</p>"
+    "description": "<p>Le titan est un v&eacute;hicule blind&eacute; chenill&eacute; large de 7 m&egrave;tres, long de 34, compos&eacute; de trois compartiments &agrave; un &eacute;tage, articul&eacute;s entre eux. C&rsquo;est &agrave; la fois un v&eacute;hicule de transport de troupes, un blind&eacute; d&rsquo;attaque, une unit&eacute; d&rsquo;artillerie et un QG de campagne mobile. Bref, c&rsquo;est un v&eacute;hicule blind&eacute;, fa&ccedil;onn&eacute; comme un &eacute;tage de fus&eacute;e dans un transport exceptionnel, l&rsquo;agressivit&eacute; et les canons en plus.L&rsquo;avant du titan ressemble &agrave; la proue d&rsquo;un navire. L&rsquo;angle aigu de cette pointe est &agrave; la fois un b&eacute;lier et une porte blind&eacute;e &agrave; double battant. Elle peut d&eacute;foncer un mur de b&eacute;ton arm&eacute;, puis s&rsquo;ouvrir pour laisser place aux escouades de chevaliers, &eacute;paul&eacute;s par des tourelles automatiques.Sur le toit, des compartiments sont install&eacute;s : des projecteurs directionnels, une tourelle &eacute;quip&eacute;e d&rsquo;un railgun ou d&rsquo;un lance-flammes, deux tourelles automatiques &eacute;quip&eacute;es de mitrailleuses lourdes, quatre lance-grenades semi-automatiques, et enfin deux lance-missiles &agrave; pivot charg&eacute;s de missiles et de roquettes.</p>\n<p>Anim&eacute; par un r&eacute;acteur &agrave; &eacute;nergie alpha et des moteurs &eacute;lectriques plac&eacute;s &agrave; l&rsquo;int&eacute;rieur des chenilles, un titan abrite plus de 400 m&egrave;tres carr&eacute;s d&rsquo;espace am&eacute;nag&eacute;. On y trouve une salle de contr&ocirc;le (pilotage, armement, modulateur de champ cin&eacute;tique), une salle de repos, une infirmerie, une armurerie, un atelier et m&ecirc;me un garage dans le compartiment arri&egrave;re qui peut accueillir stalions et centurions par une grande rampe d&rsquo;acc&egrave;s.</p>\n<p>Le titan dispose enfin de tout le mat&eacute;riel utile pour &eacute;tablir un QG de campagne : tentes, pr&eacute;fabriqu&eacute;s pliables, barbel&eacute;s haute-tension, mines, projecteurs, etc</p>",
+    "version": 1,
+    "descriptionLimitee": ""
   },
   "prototypeToken": {
     "name": "Titan",
@@ -75,7 +72,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -111,11 +112,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -126,7 +129,25 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -134,7 +155,7 @@
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/railgun.webp",
       "system": {
-        "description": "<p>Le railgun est un fusil à canon électrique utilisant la force magnétique pour propulser des balles à une vitesse extrême grâce à des batteries et des circuits d'énergie alpha placés dans la crosse. À 3 500 mètres par seconde, la balle du railgun porte en elle une énergie cinétique phénoménale qui lui fait traverser les bâtiments et les véhicules sans aucun souci. Les cibles sont transpercées, qu'elles soient organiques, mécaniques, à couvert ou blindées n'y change rien. Le railgun dispose, bien entendu, d'une lunette de visée et d'une caméra très haute définition pour désigner des cibles et tirer à plusieurs kilomètres de distance.</p>\n",
+        "description": "<p>Le railgun est un fusil à canon électrique utilisant la force magnétique pour propulser des balles à une vitesse extrême grâce à des batteries et des circuits d'énergie alpha placés dans la crosse. À 3 500 mètres par seconde, la balle du railgun porte en elle une énergie cinétique phénoménale qui lui fait traverser les bâtiments et les véhicules sans aucun souci. Les cibles sont transpercées, qu'elles soient organiques, mécaniques, à couvert ou blindées n'y change rien. Le railgun dispose, bien entendu, d'une lunette de visée et d'une caméra très haute définition pour désigner des cibles et tirer à plusieurs kilomètres de distance.</p>",
         "rarete": "rare",
         "type": "distance",
         "portee": "lointaine",
@@ -179,11 +200,36 @@
         },
         "degats": {
           "dice": 5,
-          "fixe": 10
+          "fixe": 10,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
           "dice": 1,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
@@ -217,7 +263,11 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
       "_id": "bpnJrXyRHObv9DKO",
@@ -230,23 +280,24 @@
         }
       },
       "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.58ae79bc821a314f",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890009138,
-        "modifiedTime": 1667500086848,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.29.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
       "folder": "hWomqoUpx2C48FAn",
-      "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.bpnJrXyRHObv9DKO"
+      "sort": 0
     },
     {
       "name": "Mitrailleuse lourde",
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/mitrailleuse-lourde.webp",
       "system": {
-        "description": "<p>Les recruteurs du Knight ont l'habitude de dire qu'un chevalier en méta-armure est aussi puissant qu'un véhicule blindé. La mitrailleuse lourde à canons rotatifs le confirme. Elle se tient à la hanche, par la poignée du dessus, et un chevalier tire avec celle sur le côté. Une bande articulée blindée relie la mitrailleuse à un caisson de munitions fixé au dos de la méta-armure.</p>\n",
+        "description": "<p>Les recruteurs du Knight ont l'habitude de dire qu'un chevalier en méta-armure est aussi puissant qu'un véhicule blindé. La mitrailleuse lourde à canons rotatifs le confirme. Elle se tient à la hanche, par la poignée du dessus, et un chevalier tire avec celle sur le côté. Une bande articulée blindée relie la mitrailleuse à un caisson de munitions fixé au dos de la méta-armure.</p>",
         "rarete": "avance",
         "type": "distance",
         "portee": "moyenne",
@@ -291,11 +342,36 @@
         },
         "degats": {
           "dice": 5,
-          "fixe": 10
+          "fixe": 10,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
           "dice": 4,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
@@ -326,7 +402,11 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
       "_id": "TVcgmFRN2oYcHD9n",
@@ -339,27 +419,29 @@
         }
       },
       "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005694,
-        "modifiedTime": 1667500096195,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.29.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.TVcgmFRN2oYcHD9n"
+      "sort": 0
     },
     {
-      "name": "Lance-grenade lourd - Grenade incendiaire",
+      "name": "Lance-grenade lourd",
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/lance-grenade-lourd.webp",
       "system": {
-        "description": "<p>Ce lance-grenade semi-automatique lourd donne à un chevalier la puissance d'une petite section d'artillerie. Il est alimenté par un chargeur revolver automatisé contenant 24 grenades 40mm haute vélocité. Ce chargeur arme le type de grenade qu'on lui demande d'un simple mot prononcé à voix haute.</p>\n",
+        "description": "<p>Ce lance-grenade semi-automatique lourd donne à un chevalier la puissance d'une petite section d'artillerie. Il est alimenté par un chargeur revolver automatisé contenant 24 grenades 40mm haute vélocité. Ce chargeur arme le type de grenade qu'on lui demande d'un simple mot prononcé à voix haute.</p>",
         "rarete": "avance",
         "type": "distance",
         "portee": "moyenne",
         "prix": 60,
+        "energie": 0,
         "listes": {},
         "options2mains": {
           "has": false,
@@ -386,337 +468,75 @@
           }
         },
         "optionsmunitions": {
-          "has": false,
+          "has": true,
           "actuel": "0",
-          "value": 1,
-          "liste": {}
-        },
-        "tourelle": {
-          "has": false,
-          "attaque": {
-            "dice": 0,
-            "fixe": 0
-          }
-        },
-        "degats": {
-          "dice": 2,
-          "fixe": 0
-        },
-        "violence": {
-          "dice": 6,
-          "fixe": 6
-        },
-        "effets": {
-          "liste": [],
-          "raw": [
-            "assistanceattaque",
-            "degatscontinus 3",
-            "deuxmains",
-            "lourd"
-          ],
-          "custom": []
-        },
-        "effets2mains": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "distance": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "ornementales": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "structurelles": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        }
-      },
-      "effects": [],
-      "_id": "6EUzmYXJJKOGVNFd",
-      "ownership": {
-        "default": 0
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.1775132029a3cab6"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005648,
-        "modifiedTime": 1667500137182,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.6EUzmYXJJKOGVNFd"
-    },
-    {
-      "name": "Lance-grenade lourd - Grenade explosive",
-      "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/lance-grenade-lourd.webp",
-      "system": {
-        "description": "<p>Ce lance-grenade semi-automatique lourd donne à un chevalier la puissance d'une petite section d'artillerie. Il est alimenté par un chargeur revolver automatisé contenant 24 grenades 40mm haute vélocité. Ce chargeur arme le type de grenade qu'on lui demande d'un simple mot prononcé à voix haute.</p>\n",
-        "rarete": "avance",
-        "type": "distance",
-        "portee": "moyenne",
-        "prix": 60,
-        "listes": {},
-        "options2mains": {
-          "has": false,
-          "actuel": "1main",
-          "1main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
+          "value": 4,
+          "liste": {
+            "0": {
+              "nom": "Grenade adhésive",
+              "raw": [
+                "dispersion 3"
+              ],
+              "custom": [],
+              "liste": [],
+              "degats": {
+                "dice": 6,
+                "fixe": null
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": null
+              }
             },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
-            }
-          },
-          "2main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
+            "1": {
+              "nom": "Grenade anti-blindage",
+              "raw": [
+                "destructeur"
+              ],
+              "custom": [],
+              "liste": [],
+              "degats": {
+                "dice": 5,
+                "fixe": 6
+              },
+              "violence": {
+                "dice": 1,
+                "fixe": null
+              }
             },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
+            "2": {
+              "nom": "Grenade explosive",
+              "raw": [
+                "dispersion 3"
+              ],
+              "custom": [],
+              "liste": [],
+              "degats": {
+                "dice": 5,
+                "fixe": null
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 6
+              }
+            },
+            "3": {
+              "nom": "Grenade incendiaire",
+              "raw": [
+                "degatscontinus 3"
+              ],
+              "custom": [],
+              "liste": [],
+              "degats": {
+                "dice": 2,
+                "fixe": null
+              },
+              "violence": {
+                "dice": 6,
+                "fixe": 6
+              }
             }
           }
-        },
-        "optionsmunitions": {
-          "has": false,
-          "actuel": "0",
-          "value": 1,
-          "liste": {}
-        },
-        "tourelle": {
-          "has": false,
-          "attaque": {
-            "dice": 0,
-            "fixe": 0
-          }
-        },
-        "degats": {
-          "dice": 5,
-          "fixe": 0
-        },
-        "violence": {
-          "dice": 3,
-          "fixe": 6
-        },
-        "effets": {
-          "liste": [],
-          "raw": [
-            "assistanceattaque",
-            "deuxmains",
-            "dispersion 3",
-            "lourd"
-          ],
-          "custom": []
-        },
-        "effets2mains": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "distance": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "ornementales": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "structurelles": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        }
-      },
-      "effects": [],
-      "_id": "R7E3Ii1SDZtQcVr2",
-      "ownership": {
-        "default": 0
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.13c75701d81a6f78"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005645,
-        "modifiedTime": 1667500138341,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.R7E3Ii1SDZtQcVr2"
-    },
-    {
-      "name": "Lance-grenade lourd - Grenade anti-blindage",
-      "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/lance-grenade-lourd.webp",
-      "system": {
-        "description": "<p>Ce lance-grenade semi-automatique lourd donne à un chevalier la puissance d'une petite section d'artillerie. Il est alimenté par un chargeur revolver automatisé contenant 24 grenades 40mm haute vélocité. Ce chargeur arme le type de grenade qu'on lui demande d'un simple mot prononcé à voix haute.</p>\n",
-        "rarete": "avance",
-        "type": "distance",
-        "portee": "moyenne",
-        "prix": 60,
-        "listes": {},
-        "options2mains": {
-          "has": false,
-          "actuel": "1main",
-          "1main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
-            },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
-            }
-          },
-          "2main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
-            },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
-            }
-          }
-        },
-        "optionsmunitions": {
-          "has": false,
-          "actuel": "0",
-          "value": 1,
-          "liste": {}
-        },
-        "tourelle": {
-          "has": false,
-          "attaque": {
-            "dice": 0,
-            "fixe": 0
-          }
-        },
-        "degats": {
-          "dice": 5,
-          "fixe": 6
-        },
-        "violence": {
-          "dice": 1,
-          "fixe": 0
-        },
-        "effets": {
-          "liste": [],
-          "raw": [
-            "assistanceattaque",
-            "destructeur",
-            "deuxmains",
-            "lourd"
-          ],
-          "custom": []
-        },
-        "effets2mains": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "distance": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "ornementales": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "structurelles": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        }
-      },
-      "effects": [],
-      "_id": "X53RuVUieVeUoqHe",
-      "ownership": {
-        "default": 0
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.54aca2ccc05917f2"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005669,
-        "modifiedTime": 1667500139342,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.X53RuVUieVeUoqHe"
-    },
-    {
-      "name": "Lance-grenade lourd - Grenade adhésive",
-      "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/lance-grenade-lourd.webp",
-      "system": {
-        "description": "<p>Ce lance-grenade semi-automatique lourd donne à un chevalier la puissance d'une petite section d'artillerie. Il est alimenté par un chargeur revolver automatisé contenant 24 grenades 40mm haute vélocité. Ce chargeur arme le type de grenade qu'on lui demande d'un simple mot prononcé à voix haute.</p>\n",
-        "rarete": "avance",
-        "type": "distance",
-        "portee": "moyenne",
-        "prix": 60,
-        "listes": {},
-        "options2mains": {
-          "has": false,
-          "actuel": "1main",
-          "1main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
-            },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
-            }
-          },
-          "2main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
-            },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
-            }
-          }
-        },
-        "optionsmunitions": {
-          "has": false,
-          "actuel": "0",
-          "value": 1,
-          "liste": {}
         },
         "tourelle": {
           "has": false,
@@ -727,18 +547,42 @@
         },
         "degats": {
           "dice": 6,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          },
+          "addchair": true
         },
         "violence": {
           "dice": 3,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
           "raw": [
             "assistanceattaque",
             "deuxmains",
-            "dispersion 3",
             "lourd"
           ],
           "custom": []
@@ -762,40 +606,47 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "gratuit": false
       },
       "effects": [],
-      "_id": "KGoTB4rMrPaTLeIB",
-      "ownership": {
-        "default": 0
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.knight-compendium.weapons-avance.cb63eeaea44f3be2"
         }
       },
       "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.cb63eeaea44f3be2",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005689,
-        "modifiedTime": 1667500140318,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.29.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "folder": "Ng4Wg5CoRf575OLv",
+      "_id": "ohqpq3UYI1jXySJW",
+      "folder": null,
       "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.KGoTB4rMrPaTLeIB"
+      "ownership": {
+        "default": 0,
+        "gUfRwPVCnScx6reY": 3,
+        "fsye0fvYVvoAjhx9": 3
+      }
     },
     {
-      "name": "Lance-missile - Missiles",
+      "name": "Lance-missile",
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/lance-missile.webp",
       "system": {
-        "description": "<p>Des créatures énormes peuvent surgir des ténèbres, détruisant tout sur leur passage. De plus, il y a encore des tanks plein les hangars. C'est pourquoi le Knight propose ce lance-missile aux chevaliers. Noir mat pour la discrétion, long de 1m50 une fois déplié, il dispose de quatre fûts pour y mettre missiles et roquettes, et d'une visée laser pour l'acquisition des cibles.\nLe chevalier souhaitant s'armer de munitions pour le lance-missile doit s'acquitter de 10 PG par lot de 5 projectiles, roquettes et missiles confondus. L'ensemble ne prend qu'une place dans le module rack du chevalier.</p>\n",
+        "description": "<p>Des créatures énormes peuvent surgir des ténèbres, détruisant tout sur leur passage. De plus, il y a encore des tanks plein les hangars. C'est pourquoi le Knight propose ce lance-missile aux chevaliers. Noir mat pour la discrétion, long de 1m50 une fois déplié, il dispose de quatre fûts pour y mettre missiles et roquettes, et d'une visée laser pour l'acquisition des cibles.\nLe chevalier souhaitant s'armer de munitions pour le lance-missile doit s'acquitter de 10 PG par lot de 5 projectiles, roquettes et missiles confondus. L'ensemble ne prend qu'une place dans le module rack du chevalier.</p>",
         "rarete": "avance",
         "type": "distance",
         "portee": "lointaine",
         "prix": 15,
+        "energie": 0,
         "listes": {},
         "options2mains": {
           "has": false,
@@ -822,10 +673,45 @@
           }
         },
         "optionsmunitions": {
-          "has": false,
+          "has": true,
           "actuel": "0",
-          "value": 1,
-          "liste": {}
+          "value": 2,
+          "liste": {
+            "0": {
+              "nom": "Missiles",
+              "raw": [
+                "antivehicule",
+                "artillerie"
+              ],
+              "custom": [],
+              "liste": [],
+              "degats": {
+                "dice": 7,
+                "fixe": 10
+              },
+              "violence": {
+                "dice": 3,
+                "fixe": 0
+              }
+            },
+            "1": {
+              "nom": "Roquettes",
+              "raw": [
+                "dispersion 6",
+                "fureur"
+              ],
+              "custom": [],
+              "liste": [],
+              "degats": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "violence": {
+                "dice": 7,
+                "fixe": 10
+              }
+            }
+          }
         },
         "tourelle": {
           "has": false,
@@ -836,17 +722,40 @@
         },
         "degats": {
           "dice": 7,
-          "fixe": 10
+          "fixe": 10,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          },
+          "addchair": true
         },
         "violence": {
           "dice": 3,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
           "raw": [
-            "antivehicule",
-            "artillerie",
             "assistanceattaque",
             "deuxmains",
             "lourd"
@@ -872,139 +781,35 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "gratuit": false
       },
       "effects": [],
-      "_id": "fpVe4zGUhhCO6Az7",
-      "ownership": {
-        "default": 0
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.knight-compendium.weapons-avance.df989aa0e916f542"
         }
       },
       "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.df989aa0e916f542",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005696,
-        "modifiedTime": 1667500158991,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.29.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "folder": "Ng4Wg5CoRf575OLv",
+      "_id": "6YScY0iKKNrV5jKG",
+      "folder": null,
       "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.fpVe4zGUhhCO6Az7"
-    },
-    {
-      "name": "Lance-missile - Roquettes",
-      "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/lance-missile.webp",
-      "system": {
-        "description": "<p>Des créatures énormes peuvent surgir des ténèbres, détruisant tout sur leur passage. De plus, il y a encore des tanks plein les hangars. C'est pourquoi le Knight propose ce lance-missile aux chevaliers. Noir mat pour la discrétion, long de 1m50 une fois déplié, il dispose de quatre fûts pour y mettre missiles et roquettes, et d'une visée laser pour l'acquisition des cibles.\nLe chevalier souhaitant s'armer de munitions pour le lance-missile doit s'acquitter de 10 PG par lot de 5 projectiles, roquettes et missiles confondus. L'ensemble ne prend qu'une place dans le module rack du chevalier.</p>\n",
-        "rarete": "avance",
-        "type": "distance",
-        "portee": "lointaine",
-        "prix": 15,
-        "listes": {},
-        "options2mains": {
-          "has": false,
-          "actuel": "1main",
-          "1main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
-            },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
-            }
-          },
-          "2main": {
-            "degats": {
-              "dice": 0,
-              "fixe": 0
-            },
-            "violence": {
-              "dice": 0,
-              "fixe": 0
-            }
-          }
-        },
-        "optionsmunitions": {
-          "has": false,
-          "actuel": "0",
-          "value": 1,
-          "liste": {}
-        },
-        "tourelle": {
-          "has": false,
-          "attaque": {
-            "dice": 0,
-            "fixe": 0
-          }
-        },
-        "degats": {
-          "dice": 3,
-          "fixe": 0
-        },
-        "violence": {
-          "dice": 7,
-          "fixe": 10
-        },
-        "effets": {
-          "liste": [],
-          "raw": [
-            "assistanceattaque",
-            "deuxmains",
-            "dispersion 6",
-            "fureur",
-            "lourd"
-          ],
-          "custom": []
-        },
-        "effets2mains": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "distance": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "ornementales": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        },
-        "structurelles": {
-          "liste": [],
-          "raw": [],
-          "custom": []
-        }
-      },
-      "effects": [],
-      "_id": "Gskk6cxMbYyVZoSp",
       "ownership": {
-        "default": 0
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.98df5ce93f374d29"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890005684,
-        "modifiedTime": 1667500160327,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "Ng4Wg5CoRf575OLv",
-      "sort": 0,
-      "_key": "!actors.items!A9Z8eQaeP0r9kwZc.Gskk6cxMbYyVZoSp"
+        "default": 0,
+        "gUfRwPVCnScx6reY": 3,
+        "fsye0fvYVvoAjhx9": 3
+      }
     }
   ],
   "effects": [],

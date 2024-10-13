@@ -1,0 +1,96 @@
+{
+  "label": "Disadvantage - Knights",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Amnésique": {
+      "name": "Amnesia",
+      "description": "<p>Whether they woke up in a hospital or were washed up on a beach, the character has no memory of their former life, nobody seems to know who they are, and no records of them exist. They do, however, seem to have a glorious future ahead of them in the ranks of Avalon’s finest. In game terms, the GM decides what mysteries lie in the character’s background. Furthermore, the player does not choose their character’s advantages, letting the GM pick them, and not knowing what they are until they come into play (when the GM chooses to reveal them).</p>\n"
+    },
+    "Brute": {
+      "name": "Bully",
+      "description": "<p>Le héros est une brute finie, avec un comportement violent et une attitude de bourrin. Si sa vie ne se résume pas forcément à ces vérités, il est probable que le héros soit quelqu’un de simpliste, qui aime rabaisser les autres et qui adore la violence et ses conséquences. En termes de jeu, le personnage ne peut pas augmenter son score dans l’aspect Machine au-delà de 5.</p>\n"
+    },
+    "Cauchemars": {
+      "name": "Nightmares",
+      "description": "<p>For the past couple of years, after some traumatic event or other, the character’s sleep is wracked by nightmares. Their sleep is troubled and they frequently wake up more tired than when they went to bed. (The exact nature of these nightmares is to be decided with the GM.) In game terms, when the character sleeps or rests to heal their wounds, they must roll 1D6. On an even result, everything is fine. The character rests and recuperates as normal. On an odd result, the character’s nightmares plague their every attempt to rest. They do not restore any health points, even if they are being treated in Avalon’s infirmary, and lose 1 hope.</p>\n"
+    },
+    "Colérique": {
+      "name": "Wrathful",
+      "description": "<p>The character suffers from piques of anger when in stress-inducing situations (heated debate, failure, witnessing things they cannot stand, and the like). This anger can swiftly manifest as fits of uncontrollable rage. The character’s Composure tests when trying to calm down or not give in to angry impulses suffer a 3-die penalty.</p>\n"
+    },
+    "Curiosité maladive": {
+      "name": "Insatiable curiosity",
+      "description": "<p>The character’s overwhelming curiosity can lead them to take risks and courses of action that may place them or their allies in danger. Once per game session, the GM may use this disadvantage to make the PC focus on a trivial topic or seemingly useless piece of information. The character remains intrigued by the subject of their curiosity for 1D6 hours or until they obtain satisfaction; in the meantime, although it may be no more than a simple distraction, the constant desire to discover the truth of the matter gnaws at their mind and concentration.</p>\n"
+    },
+    "Égoïste": {
+      "name": "Selfish",
+      "description": "<p>The character is self-centred, thinking of themselves before others. Their own integrity, their personal glory, and their place centre stage are all overriding concerns, far more important to the character than whatever may befall their allies or anyone else, for that matter. In game terms, the character may never become an adjutant in a heroic mode. Unlike other PCs who would usually be entirely removed from a scene for not helping, however, the Selfish character can still act as normal–albeit in the heroic protagonist’s shadow.</p>\n"
+    },
+    "Ennemi juré": {
+      "name": "Sworn enemy",
+      "description": "<p>The character has a sworn enemy in one of Avalon’s rival organisations. This enemy is a powerful foe (the GM must decide exactly how powerful and influential they are). This enemy will do their best to kill the character, discredit them, hurt their loved ones and allies, and so on.</p>\n"
+    },
+    "Esprit de contradiction": {
+      "name": "Contrary",
+      "description": "<p>The character cannot stand others being right, and feels the need to take a contrary stance to theirs even if this means drawing a conversation out for hours or angering the person they are talking with (and their allies). Once per game session, when a character (PC or NPC) makes a statement that can be seen as debatable, the GM may decide that the PC must take the opposite stance. The PC must then attempt to prove the initial statement wrong by any means at their disposal.</p>\n"
+    },
+    "Fanatique": {
+      "name": "Fanatic",
+      "description": "<p>The PC holds some sort of fanatical belief. These beliefs are not necessarily religious; the character may just be an ardent defender of law and order or of a moral code. Whatever their chosen views, they are more than willing to share them–at length–and staunchly defend them. There are no specific game mechanics to represent this, but, being a disadvantage, it should be taken into account when roleplaying the character. Bear in mind that while this can make for an interesting character, players should make sure they aren’t needlessly unpleasant or confrontational.</p>\n"
+    },
+    "Forcené": {
+      "name": "Brutish",
+      "description": "<p>Violence and excessive force are the character’s preferred tools against the Anathema. They tend to use their weapons even when stealth and subtlety would be more appropriate courses of action. In game terms, the GM may force the character to attack a nearby enemy if the group takes too long debating how to handle the situation or devising a plan. This can only be done once per game session.</p>\n"
+    },
+    "Graveleux": {
+      "name": "Crude",
+      "description": "<p>Either because of their upbringing or following some mental trauma, the character cannot help but add lewd remarks and coarse innuendoes to everything they say. Their singular fixation and rude outbursts can lead to uncomfortable, embarrassing, and outright dangerous situations for them, for their fellow Knights, and for people to whom they are attracted. A penalty of +1 difficulty level applies to all the character’s Eloquence and Aura skill checks when communicating with someone whom they find sexually attractive (at the GM and the player’s discretion).</p>\n"
+    },
+    "Immunité déficiente": {
+      "name": "Immune deficiency",
+      "description": "<p>The character’s resistance to illness, disease, poison and toxins is almost non-existent. They are at constant risk of infection of all sorts. In game terms, when the character suffers the ill effects of an illness, a poison, or toxins, the GM does not roll for damage; the PC automatically suffers the maximum amount possible.</p>\n"
+    },
+    "Lunatique": {
+      "name": "Mood swings",
+      "description": "<p>The character’s mood is a wildly fluctuating, unpredictable thing. Their mood swings can come from a variety of mental or physical issues, but the end result is the same: their state of mind is prone to jumping from happy to sad or from placid to feverish at the drop of a dime. In game terms, once per game session, the GM may pick an emotional state for the character. It can be in complete opposition with the character’s mood and actions up until then, and have an effect on their skill checks (at the GM’s discretion).</p>\n"
+    },
+    "Mauvaises intuitions": {
+      "name": "Misleading hunches",
+      "description": "<p>Sometimes the character’s unusual hunches and intuition seem to work against them, leading both them and their allies into danger. Once per game session, the GM may decide that one of the PC’s skill checks using either Instinct or Acuity automatically fails. This can be decided after the dice roll.</p>\n"
+    },
+    "Porte-malheur": {
+      "name": "Misfortune Magnet",
+      "description": "<p>The character is a jinx, a lodestone for the worst luck possible. Bad luck surrounds them, sometimes only striking the ones close by. In game terms, once per game session, the GM may decide that a failed skill check performed by the PC or one of their allies is a critical failure. If more than one PC chooses this disadvantage, its effects can stack.</p>\n"
+    },
+    "Présomptueux": {
+      "name": "Presumptuous",
+      "description": "<p>The PC has a very high opinion of themselves. They sometimes take dangerous courses of action, and their attitude can prove grating. When they speak, they tend to boast of their accomplishments and virtue or strengths. Furthermore, they may have a tendency to try to fight creatures clearly stronger than them. (How severely this affects the PC, and what constitutes a stronger opponent, is up to the GM.)</p>\n"
+    },
+    "Prisonnier": {
+      "name": "Convict",
+      "description": "<p>The character was recruited into Avalon while a prisoner, and is still considered a dangerous convict. To make sure they don’t try to escape, Tarasque division implanted a remotecontrolled micro-explosive in the character’s brain. This allows Avalon to terminate them if ever they step out of line. In game terms, their main motivation must be the following: Win back their freedom. Until this motivation is fulfilled, the character cannot regain hope points by any means. The conditions required to fulfil the motivation are to be decided on with the GM. It could mean going on a number of successful missions, performing a selfless act or sacrifice, and so on.</p>\n"
+    },
+    "Sacrifice total": {
+      "name": "Supreme sacrifice",
+      "description": "<p>At some point in their life, the character gave up all they had. They no longer have any family or friends, and they may even be living under a false name. Everything they cared about is lost to them, and only their work for Avalon seems to hold any meaning for them now. In game terms, the character has no main motivation.</p>\n"
+    },
+    "Solitaire": {
+      "name": "Loner",
+      "description": "<p>The character is used to living a solitary life and has trouble trusting others. Even Knights from their banner seem unworthy of their full trust. Whenever the character helps another on a skill check, or is helped by another PC, the check’s difficulty is raised 1 level.</p>\n"
+    },
+    "Trop prudent": {
+      "name": "Too cautious",
+      "description": "<p>The character’s cautious ways sometimes make them act slower than their peers. They aren’t being timid, they are simply ’analysing every angle of the situation.’ Or so they say. In game terms, when determining initiative the PC only rolls 2D6 (plus any additional bonuses) instead of the usual 3D6.</p>\n"
+    },
+    "Trouble mental": {
+      "name": "Mental disorder",
+      "description": "<p>The PC has a mental disorder that makes life difficult for them. It can be a phobia (blood, crowds, insects, water, closed spaces, disease, etc.) or a compulsive behaviour (pyromania, kleptomania, counting seemingly insignificant details around them, etc.). This disadvantage is mostly meant as a roleplaying tool, but it can sometimes negatively impact the character’s skill checks, at the GM or the player’s discretion.</p>\n"
+    },
+    "Vétéran": {
+      "name": "Veteran",
+      "description": "<p>The character is already a grizzled veteran, past the age of 50, with little potential left untapped. They may still have more to learn, but their limits, sadly, have already been set. In game terms, the character may not increase an aspect score beyond 7.</p>\n"
+    }
+  }
+}

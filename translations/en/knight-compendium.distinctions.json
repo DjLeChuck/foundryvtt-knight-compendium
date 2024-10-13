@@ -1,0 +1,40 @@
+{
+  "label": "Awards",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Étoile de Dublin": {
+      "name": "Star of Dublin",
+      "description": "<p>When knights address members of the Knight or when they discuss with characters considered allies of the organization, they receive a bonus of 1 automatic success on their roll.</p>"
+    },
+    "Insigne d’honneur": {
+      "name": "Badge of Honor",
+      "description": "<p>This distinction symbolizes the efforts of the knights in their struggle to save Humanity. Now, when a knight must lose hope points, they always subtract 1 point from this loss. This bonus can perfectly combine with other reductions of this type.</p>"
+    },
+    "Louve de Rome": {
+      "name": "She-Wolf of Rome",
+      "description": "<p>When knights perform social actions with outcasts, they receive a bonus of 1 automatic success on their roll.</p>"
+    },
+    "Médaille de Saint-Georges qui terrasse le dragon": {
+      "name": "Medal of Saint George Slaying the Dragon",
+      "description": "<p>When knights perform friendly or diplomatic social interactions with citizens or immortals, they receive a bonus of 1 automatic success.</p>"
+    },
+    "Médaille du Graal": {
+      "name": "Medal of the Grail",
+      "description": "<p>The distinction increases the knights' resistance to darkness. By wearing this distinction, the knights receive an additional point of Aegis.</p>"
+    },
+    "Rose d’Angleterre": {
+      "name": "Rose of England",
+      "description": "<p>The distinction increases the knights' confidence in their struggle and in themselves. When knights recover hope points during a mission (and only during a mission), they receive an additional hope point, regardless of the source of this recovery.</p>"
+    },
+    "Ryoku-ju hōshō": {
+      "name": "Ryoku-ju hōshō",
+      "description": "<p>When knights perform friendly or diplomatic social interactions with members of the Nodachi, they receive a bonus of 1 automatic success.</p>"
+    },
+    "Table Ronde": {
+      "name": "Round Table",
+      "description": "<p>As long as the character wears this distinction, they receive a bonus of 2 automatic successes on all their social interactions (persuasion, charm, intimidation, diplomacy, etc.) with humans, which can perfectly combine with other social bonuses.</p>"
+    }
+  }
+}

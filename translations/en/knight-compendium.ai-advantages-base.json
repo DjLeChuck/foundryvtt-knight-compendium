@@ -1,0 +1,95 @@
+{
+  "label": "Advantages - AI",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {"À l'unisson": {
+      "name": "In Unison",
+      "description": "<p>The AI of the armour appreciates the knight and feels complete when it is unfolded. All its actions are then fluid, man and machine becoming one. In game terms, the knight gains an additional movement action each turn, as long as the armour is unfolded and as long as they spend 4 energy points to use this additional action.</p>\n"
+    },
+    "Abnégation": {
+      "name": "Selflessness",
+      "description": "<p>The AI of the armour is capable of going very far to save the life of its knight, even to the point of shutting down to achieve it. In game terms, if the character is at death's door and as long as the armour has energy points, it spends them to transform the nanoC that compose it into nanoM to heal the knight. It can use up to 3D6 per turn, as long as it has energy points left. However, each health point restored reduces the armour points by one (in addition to the energy point that the maneuver costs), because the armour decomposes to heal the knight.</p>\n"
+    },
+    "Amoureuse": {
+      "name": "In Love",
+      "description": "<p>The AI of the armour feels a sense of love towards its knight and tries by all means to anticipate their reactions to become one with them. In game terms, the knight gains a bonus of 1 in <em>Initiative</em>.</p>\n"
+    },
+    "Aucun": {
+      "name": "None",
+      "description": "<p>The AI does not wish to help its wearer and therefore offers no advantage.</p>\n"
+    },
+    "Combative": {
+      "name": "Combative",
+      "description": "<p>The AI of the armour optimizes its combat capabilities to help its knight. As a result, the knight benefits from a difficulty reduction of 1 for tests based on the <em>Shooting</em> or <em>Combat</em> characteristic (to be determined when creating the AI), as long as the armour is unfolded.</p>\n"
+    },
+    "Connaissances": {
+      "name": "Knowledge",
+      "description": "<p>The AI accumulates a lot of knowledge in its memory components. Tests based on the character's Knowledge characteristic are performed with a reduced difficulty of 1 when the armour is unfolded.</p>\n"
+    },
+    "Créative": {
+      "name": "Creative",
+      "description": "<p>The AI's questions can help the knight advance in their reflection on the current investigation or be of a more trivial nature. In game terms, at the GM's discretion, the AI can ask the player a question to guide them in a direction favorable to the advancement of the scenario.</p>\n"
+    },
+    "Détection de la vérité": {
+      "name": "Truth Detection",
+      "description": "<p>The AI has conditioned the sound amplifiers of the meta-armour to capture even the slightest differences in vocal intonations in its interlocutors and to perceive if they are lying. In game terms, all the knight's tests aimed at guessing if someone is lying to them see their difficulty reduced by 1.</p>\n"
+    },
+    "Force morale": {
+      "name": "Moral Strength",
+      "description": "<p>The AI of the armour brings strength of character and composure to the knight in moments of doubt and stress. In game terms, during tests based on the <em>Composure</em> characteristic, the difficulty is reduced by 1.</p>\n"
+    },
+    "Impétueuse": {
+      "name": "Impetuous",
+      "description": "<p>The AI of the knight's armour loves combat and proving its worth is very important to it. It engages in combat with ferocity and vigor. In game terms, when the meta-armour is unfolded, all tests based on the <em>Ferocity</em> characteristic see their difficulty reduced by 1.</p>\n"
+    },
+    "Jugement de la lumière": {
+      "name": "Judgment of Light",
+      "description": "<p>The AI has succeeded in magnifying certain components of the armour so that they provide a special effect to an attack carried out by the knight when it is unfolded. In game terms, once per conflict phase, the attacks carried out by the knight (in melee or at range) during a turn benefit from the <em><em>anti-Anathema</em></em> effect.</p>\n"
+    },
+    "Lueur d'espoir": {
+      "name": "Glimmer of Hope",
+      "description": "<p>The AI manages to magnify the armour so that it shines like a beacon in the night. The knight seems to impose their will on the darkness itself. In game terms, once per game, if the armour is unfolded and the knight is part of a group that gains hope, this gain is increased by two points for the allies (PCs and NPCs).</p>\n"
+    },
+    "Lumière": {
+      "name": "Radiance",
+      "description": "<p>The AI guides the knight in the darkness, no matter what. To do this, it magnifies their armour and moves in such a way as to always reflect a little light. In game terms, the knight always benefits from the light aspect 1 for their attacks against the creatures of the Anathema.</p>\n"
+    },
+    "Mémoire du chevalier": {
+      "name": "Knight's Memory",
+      "description": "<p>The AI is so convinced of being a knight who died in combat that it has scanned all possible databases and even the most secret files of the Knight. It has therefore built up a large stock of memories and experiences. In game terms, once per game, the knight can obtain 2 automatic successes on one of their tests, whatever it may be, in addition to those they can obtain through possible overdrives: the AI recognizes a situation 'that it has already experienced'.</p>\n"
+    },
+    "Noble conseiller": {
+      "name": "Noble Advisor",
+      "description": "<p>The AI greatly enhances the character's decision-making and provides them with a majesty that they may not possess without their armour. As a result, all tests based on the <em>Aura</em> characteristic have a reduced difficulty of 1.</p>\n"
+    },
+    "Passionnée": {
+      "name": "Passionate",
+      "description": "<p>The AI of the armour is passionate and a risk-taker. It intends for its knight to follow it even into hell if necessary to win the battle. For this reason, when the player attempts an extremely perilous action, the AI does everything in its power to ensure they emerge victorious. In game terms, when the GM deems that the player is attempting a reckless or extreme action, the AI draws on its energy to support its knight: for every 4 EP spent, the knight can add 1 die to one of their rolls (within the energy limit of the meta-armour).</p>\n"
+    },
+    "Protection maternelle": {
+      "name": "Maternal Protection",
+      "description": "<p>The AI of the armour considers its wearer as its child and does everything in its power to keep them alive. It can therefore take the initiative to automatically administer a care nod and/or armour (without costing the knight any action) if it considers that the character is in danger (and all the more so if they are unconscious). Furthermore, it is able to trigger the alert beacon to Camelot so that reinforcements are sent if necessary.</p>\n"
+    },
+    "Relais": {
+      "name": "Relay",
+      "description": "<p>The AI understands that there are times when the knight must sleep and rest, voluntarily or forced by injuries or shocks. Once per mission, if the knight falls unconscious for any reason (sleeping pill, agony, shock, etc.) and the armour is unfolded, it continues the action until their awakening at a cost of 3 energy points per turn (or 10-second interval) and until the armour has no more energy. It then takes full control of the armour and what it holds to continue the action in which it was engaged (finish a combat, a verbal joust, etc...). As soon as the knight regains consciousness, control of the armour is returned to them.</p>\n"
+    },
+    "Rêve prémonitoire": {
+      "name": "Prophetic dreams",
+      "description": "<p>The AI firmly believes in premonitory dreams and this is one of the reasons why it often analyzes those of its knight. It records many details and can occasionally find similarities or impressions of 'déjà-vu' in reality. It is then able to adapt the reactions of the armour accordingly. In game terms, the AI allows the knight to avoid a normally fatal blow once per scenario (the attack is simply canceled, as if it had not been made).</p>\n"
+    },
+    "Roue de la fortune": {
+      "name": "Wheel of Fortune",
+      "description": "<p>The AI of the armour firmly believes in luck, but a controlled luck. In game terms, twice per game, the player can completely reroll a dice roll but must accept the result of this new roll, even if it is worse.</p>\n"
+    },
+    "Trouver l'étoile": {
+      "name": "Find the Star",
+      "description": "<p>The AI is connected to the sky and the stars, even when they are not visible to the naked eye or in the darkest obscurity. It is impossible for the knight to get lost, even in the deepest darkness: they always know the direction of the North Star and consequently the north, even under the darkness.</p>\n"
+    },
+    "Vertueuse": {
+      "name": "Virtuous",
+      "description": "<p>The AI of the armour watches over the soul of its knight to keep them on the right path. It is more difficult to take control of their mind or make them do something reprehensible. In game terms, all tests aimed at resisting mental control or deception see their difficulty reduced by 1.</p>\n"
+    }
+  }
+}

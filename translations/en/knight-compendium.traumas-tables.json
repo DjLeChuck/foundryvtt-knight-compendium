@@ -1,0 +1,53 @@
+{
+  "label": "Traumas - Random Tables",
+  "entries": {
+    "Traumas graves": {
+      "name": "Severe Traumas",
+      "description": "The PC can recover 30 hope points in exchange for a particularly severe mental injury, such as a major phobia or an effect occurring under regular circumstances (combat, pursuit, dialogue scene...).",
+      "results": {
+        "1-1": "Dissociation",
+        "2-2": "Depression",
+        "3-3": "Paranoia",
+        "4-4": "Memory Disorder",
+        "5-5": "Addiction",
+        "6-6": "Hallucinations"
+      }
+    },
+    "Traumas insignifiants": {
+      "name": "Insignificant Traumas",
+      "description": "The character can recover 10 hope points in exchange for a mental injury symbolized by a small circumstantial effect, such as a fear of a specific situation, a tic, or a new attitude.",
+      "results": {
+        "1-1": "Anxiety",
+        "2-2": "Tic",
+        "3-3": "Loss of Control",
+        "4-4": "Fear of the Monster",
+        "5-5": "Ritual",
+        "6-6": "Collection"
+      }
+    },
+    "Traumas légers": {
+      "name": "Light Traumas",
+      "description": "The character can recover 20 hope points in exchange for a light trauma, generally influencing a characteristic.",
+      "results": {
+        "1-1": "Weakness",
+        "2-2": "Somatization",
+        "3-3": "Distancing",
+        "4-4": "Daydreaming",
+        "5-5": "Hypersensitivity",
+        "6-6": "Sensory Disorder"
+      }
+    },
+    "Traumas lourds": {
+      "name": "Heavy Traumas",
+      "description": "The character can recover 40 hope points in exchange for a heavy trauma that generally influences several characteristics.",
+      "results": {
+        "1-1": "Anathema",
+        "2-2": "Despondency",
+        "3-3": "Discouragement",
+        "4-4": "Forgetfulness",
+        "5-5": "Social Phobia",
+        "6-6": "Loss of Control"
+      }
+    }
+  }
+}

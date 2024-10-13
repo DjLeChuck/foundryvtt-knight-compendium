@@ -1,0 +1,73 @@
+{
+  "label": "Weapons - 3. Rare",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom",
+    "customEffect": "system.effets.custom"
+  },
+  "entries": {
+    "Découpeur haute pression": {
+      "name": "High Pressure Cutter",
+      "description": "<p style=\"text-align: justify;\">Exploiting the concept of industrial water jet cutting, this device collects water directly from the humidity present in the air. It is then mixed with a powerful abrasive before being propelled in the form of an extremely fine beam at very high pressure. It can then cut almost all materials and slices easily through most armors and shields. Its drawbacks: its reduced range and weight.</p>",
+      "customEffect": []
+    },
+    "Epées jumelles": {
+      "name": "Twin Swords",
+      "description": "<p style=\"text-align: justify;\">Like the hurricane pistols, these blades were created and designed to be used in pairs. The blade is long, thin, and slightly curved, while connectors are distributed on the handle to synchronize the weapon and armor. By activating these, one can overcharge the swords to increase their striking speed, decimating targets in a macabre dance. Last-generation gyroscopes have been installed in the guard, allowing the knight to maintain perfect balance in all circumstances.</p>",
+      "customEffect": []
+    },
+    "Faux de guerre": {
+      "name": "War Scythe",
+      "description": "<p style=\"text-align: justify;\">One of the many weapons whose origin can be traced back to agricultural tools, and it is on this basis that the Knight was inspired to create its own version with, of course, a few additional subtleties. Visually imposing, the weapon is actually light enough for a skilled knight to wield it around, while lacerating the flesh of their adversaries. The blade, particularly sharpened, is composed of graphene topped with an alpha element edge. The Giants had the idea to install a rotation system at the former location of the locking ring, allowing the blade to pivot 90° from its initial position; it can therefore straighten along the shaft or, conversely, fold and block an adversary.</p>",
+      "customEffect": []
+    },
+    "Fouet lumière": {
+      "name": "Light Whip",
+      "description": "<p style=\"text-align: justify;\">Inspired by the Wizard armor, the light whip is composed of a flexible alloy tube on which a network of channels carrying plasma is placed. Not only does the weapon produce a bright light, but it also makes the whip extremely hot. Bonus: a small flux emitter has been installed in the handle to produce a constant recoil effect. Guaranteed effectiveness against the weakest creatures.</p>",
+      "customEffect": []
+    },
+    "Fusil gardien": {
+      "name": "Guardian Rifle",
+      "description": "<p style=\"text-align: justify;\">Although this weapon resembles a double-barreled shotgun, it fires impressive darts that, upon contact with the target, ignite and produce extremely bright colors. A force field generator has been placed at the end of the barrels and protects the bearer by deflecting bullets.</p>",
+      "customEffect": []
+    },
+    "Fusil Tesla": {
+      "name": "Tesla Rifle",
+      "description": "<p style=\"text-align: justify;\">Take a carbine, replace the projectile with an adhesive steel dart connected to the weapon by a micro-carbon filament. And there you have a way to direct an electric current precisely onto a target. Add to that 4 miniature Tesla coils and a few electro-magnet accelerators, and you have a Tesla rifle. And if that's not enough, it is always possible to draw from the energy of the meta-armor to increase the intensity of the current. The shock is so violent that it is not uncommon to see sparks flying in all directions.</p>",
+      "m0Nom": "Name",
+      "customEffect": []
+    },
+    "Lance disque (Contact)": {
+      "name": "Disc Launcher (Contact)",
+      "description": "<p style=\"text-align: justify;\">After seeing one of the knights from his section improvise with a construction circular saw, Sagramor fell in love with the destructive potential of the weapon. Thus, Gauvain, under pressure from Sagramor, crafted a boosted version of this saw. And since hitting with a disc is not enough, it can also be launched. Upon leaving the weapon, the disc will then double in diameter depending on its rotation and flight speed.</p>",
+      "customEffect": []
+    },
+    "Lance disque (Distance)": {
+      "name": "Disc Launcher (Distance)",
+      "description": "<p style=\"text-align: justify;\">After seeing one of the knights from his section improvise with a construction circular saw, Sagramor fell in love with the destructive potential of the weapon. Thus, Gauvain, under pressure from Sagramor, crafted a boosted version of this saw. And since hitting with a disc is not enough, it can also be launched. Upon leaving the weapon, the disc will then double in diameter depending on its rotation and flight speed.</p>",
+      "m0Nom": "Contact",
+      "m1Nom": "Shot (Medium Range)",
+      "customEffect": []
+    },
+    "Lance grenade léger automatique": {
+      "name": "Automatic Light Grenade Launcher",
+      "description": "<p style=\"text-align: justify;\">The automatic light grenade launcher, abbreviated as ALGL, is a hybrid weapon more powerful than a submachine gun and, thanks to its ammunition—a 20mm low-dispersion grenade—has a higher rate of fire than the light grenade launcher. The weapon is made compact thanks to the bullpup architecture, meaning the magazine is located behind the handle to reduce the length of the weapon without affecting the barrel. Coupled with the meta-armor that absorbs most of the recoil, it results in a versatile one-handed weapon.</p>",
+      "customEffect": []
+    },
+    "Mitrailleuse motorisée": {
+      "name": "Motorized Machine Gun",
+      "description": "<p style=\"text-align: justify;\">This weapon is designed as an improvement on the heavy machine gun. It is lighter, less bulky, and surprisingly stable. The small novelty comes from its second firing mode. With a simple action, a motor spins the tubes at very high speed to fire even more ammunition, cutting through multiple targets at once. However, this requires an additional stand to maintain some control over its firing.</p>",
+      "m0Nom": "Normal",
+      "m1Nom": "Motorized",
+      "customEffect": []
+    },
+    "Pulvérisateur cryo": {
+      "name": "Cryo Sprayer",
+      "description": "<p style=\"text-align: justify;\">Inspired by the ice statues scattered across the Sahara, the R&D section of the Giant developed a new compound capable of freezing any substance upon contact. Requiring a large reservoir, the weapon visually resembles a flamethrower, but its effects differ drastically upon use: instead of intense and bright fire, a mist of varying thickness invades the area and freezes everything it touches.</p>",
+      "customEffect": []
+    }
+  }
+}

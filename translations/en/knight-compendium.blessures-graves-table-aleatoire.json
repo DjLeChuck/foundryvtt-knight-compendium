@@ -1,0 +1,35 @@
+{
+  "label": "Injury - Random table",
+  "entries": {
+    "Blessures graves": {
+      "name": "Injury",
+      "description": "When a PC is wounded enough to be on death’s door, the player must roll on the following table\nMost permanent injuries cause penalties to one or more characteristics. No characteristic can ever drop below 0. Other effects can apply, depending on the source of damage, at the GM’s discretion. These penalties and effects can only be reverted by cybernetic implants or body reconstruction therapy.\nThe player rolls 1D6 to determine which of the four vertical columns to refer to. They then roll a second D6 and read the row that corresponds with their result to discover which random injury their character has sustained. In the rare event that the GM needs to determine a random injury for an NPC, they must also roll it on the random injury table. These injuries last until the character gets body reconstruction therapy or cybernetic implants.",
+      "results": {
+        "1-1": "Dead",
+        "2-2": "Damaged internal organs",
+        "3-3": "Damaged brain",
+        "4-4": "Damaged spine",
+        "5-5": "Internal bleeding",
+        "6-6": "Punctured lungs",
+        "7-8": "Fractured skull",
+        "9-10": "Blinded",
+        "11-12": "Broken back",
+        "13-14": "Crushed hand",
+        "15-16": "Burst eardrum",
+        "17-18": "Broken ribs",
+        "19-20": "Broken spine",
+        "21-22": "Smashed jaw, teeth, tongue",
+        "23-24": "Crushed foot",
+        "25-26": "Damaged back",
+        "27-28": "Minor concussion",
+        "29-30": "Light wound",
+        "31-31": "Mangled arm",
+        "32-32": "Mangled leg",
+        "33-33": "Severe concussion",
+        "34-34": "One eye blinded",
+        "35-35": "Light wound",
+        "36-36": "Nothing!"
+      }
+    }
+  }
+}

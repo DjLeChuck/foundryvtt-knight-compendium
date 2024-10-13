@@ -91,7 +91,7 @@
       "custom": [
         {
           "label": "Balle explosive",
-          "description": "",
+          "description": "<p style=\"text-align: justify;\">Au contact, le personnage peut choisir de d&eacute;penser une balle explosive et infliger 2D6 d&eacute;g&acirc;ts et de violence suppl&eacute;mentaires. Cette am&eacute;lioration d'attaque poss&egrave;de l'effet Chargeur 6.</p>",
           "attaque": {
             "reussite": 0,
             "jet": 0,

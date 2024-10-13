@@ -1,0 +1,956 @@
+{
+  "label": "NPC Abilities",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "1 %": {
+      "name": "1 %",
+      "description": "<p>The NPC‘s Steed bike is an improved model with a additional point of handling and an additional 100 AP.</p>\n"
+    },
+    "À coup sûr (contact/distance)": {
+      "name": "Unerring senbongiri (melee/ranged)",
+      "description": "<p>When the NPC attacks in melee/ranged, they never miss. Their target‘s defence rating is automatically reduced to zero for their melee attacks.</p>\n"
+    },
+    "À revers": {
+      "name": "Backstab",
+      "description": "<p>Once per conflict phase, the NPC can take the characters by surprise, simply appearing behind them with each of its attacks. Their defense and reaction are then halved, and the NPC's damage is increased by 3D6 for the entire turn.</p>\n"
+    },
+    "Abyssal": {
+      "name": "Abyssal",
+      "description": "<p>This NPC can only be damaged by weapons with an <em>anti-Anathema</em> or <em>radiance</em> effect.</p>\n"
+    },
+    "Abysse": {
+      "name": "Abyss",
+      "description": "<p>All damage inflicted by this NPC is dealt to the target’s hope points rather than its health or armour points.</p>\n"
+    },
+    "Accablant": {
+      "name": "Damning",
+      "description": "<p>If a PC kills this NPC, they must succeed at a hope check (Aggression combo Composure, difficulty set by the GM) or immediately lose 3D6 hope points.</p>\n"
+    },
+    "Actions multiples (X)": {
+      "name": "Multiple actions (X)",
+      "description": "<p>The NPC has X extra combat action, in addition to their move action and standard combat action. It must use this additional action at its initiative phase.</p>\n"
+    },
+    "Aisance": {
+      "name": "Ease",
+      "description": "<p>In game terms, the NPC ignores the heavy effect of weapons. However, they must still hold them with two hands to be able to use them.</p>"
+    },
+    "Amour parental": {
+      "name": "Parental Love",
+      "description": "<p>Although corrupted by the Anathema, the NPC remains attached to their child. If the PCs lead the assault with them, then the NPC is troubled. They lose the ability to perform multiple actions during their first phase (and only this phase).</p>\n"
+    },
+    "Anathème": {
+      "name": "Anathema",
+      "description": "<p>The NPC may choose to deal its damage to the target’s hope points rather than their health points. FF values still apply, but armour points are ignored. If the NPC is killed or destroyed, the PC or PCs whose energy was drained recover 1D6 hope per 6 whole hope points lost.</p>\n"
+    },
+    "Anti-véhicule": {
+      "name": "Anti-vehicle",
+      "description": "<p>Damage inflicted by this NPC always has the <em>anti-vehicle</em> effect.</p>\n"
+    },
+    "Appel de la Chasse": {
+      "name": "Call of the Hunt",
+      "description": "<p>The NPC can decide to sacrifice all their combat actions to use their ranged attack. Note that to use it, they need energy points that they have previously drained. If the target's hope points fall to 0, they join the Wild Hunt (see Atlas).</p>"
+    },
+    "Appui d'artillerie": {
+      "name": "Artillery Support",
+      "description": "<p>Once per combat, the NPC can call upon an artillery barrage that follows the rules of a level 1 rocket pod or a level 1 missile pod, with the additional effect of dispersion 6.</p>\n"
+    },
+    "Armes multiples (1 à 3 avancées)": {
+      "name": "Multiple weapons (1 à 3 advanced)",
+      "description": "<p>The NPC can be equipped with X weapons up to the corresponding rarity in the arsenal.</p>\n"
+    },
+    "Armes multiples (1 à 3 rares)": {
+      "name": "Multiple weapons (1 à 3 rare)",
+      "description": "<p>The NPC can be equipped with X weapons up to the corresponding rarity in the arsenal.</p>\n"
+    },
+    "Armes multiples (1 à 3 standards)": {
+      "name": "Multiple weapons (1 à 3 standard)",
+      "description": "<p>The NPC can be equipped with X weapons up to the corresponding rarity in the arsenal.</p>\n"
+    },
+    "Artisan de la Machine": {
+      "name": "Artisan of the Machine",
+      "description": "<p>The NPC is capable, similar to the NanoC mode of the Priest meta-armour, of creating and modifying the raw materials used by the Machine on Earth, namely everything that is metallic and informatic. Thus, they can create their weapons and modules (a maximum of 2 weapons and 2 advanced modules), shields, erect barricades, and assemble vehicles.</p>\n"
+    },
+    "Assassin": {
+      "name": "Assassin",
+      "description": "<p>When they attack their target by surprise or from behind, the NPC adds their Mask aspect score (exceptional Mask score included) to the damage they inflict.</p>\n"
+    },
+    "Attaque spéciale": {
+      "name": "Special Attack",
+      "description": "<p>The NPC can decide to sacrifice all their combat actions to use their special attack. Note that to use it, they need energy points that they have previously drained.</p>\n"
+    },
+    "Aura de fureur": {
+      "name": "Aura of Fury",
+      "description": "<p>PCs and NPCs in the presence of the NPC must make a Cool-headed base roll with a difficulty of hard (5) or risk attacking, with the weapon of their choice, the person closest to them. This test is only performed once, at the beginning of a scene or conflict phase.</p>\n"
+    },
+    "Aura de lumière": {
+      "name": "Aura of Light",
+      "description": "<p>The NPC has an aegis score.</p>\n"
+    },
+    "Aura de souffrance": {
+      "name": "Aura of sorrow",
+      "description": "<p>A successful attack by a PC (or an NPC) on this NPC causes the attacker to take 2D6 damage with the ignore armour and ignore FF effects.</p>\n"
+    },
+    "Autorité (majeur)": {
+      "name": "Authority (major)",
+      "description": "<p>If the NPC dies, all their followers flee or surrender immediately.</p>\n"
+    },
+    "Autorité (mineur)": {
+      "name": "Authority (minor)",
+      "description": "<p>If the NPC dies, all other NPCs under their orders suffer a 3-point penalty to their aspects, their defence, and their reaction scores until the end of the conflict phase.</p>\n"
+    },
+    "Autre visage": {
+      "name": "Makeover",
+      "description": "<p>This NPC can change its appearance whenever it wants, becoming a replica of any other living being. It can even do this in a conflict phase by expending a move action.</p>\n"
+    },
+    "Bastion": {
+      "name": "Bastion",
+      "description": "<p>The NPC‘s meta-armour is a very durable Warrior armour with all the prestige modules of the bear and the raven.</p>\n"
+    },
+    "Berzerk": {
+      "name": "Berserk",
+      "description": "<p>The NPC‘s meta-armour combines the abilities of a Paladin and a Barbarian, gives its wearer 1D6 additional combat actions to be used on their initiative, and has all the prestige modules of the boar and the bear.</p>\n"
+    },
+    "Bête humaine": {
+      "name": "Human beast",
+      "description": "<p>This NPC has bestial traits, never tires, runs at a speed rating of 3, can breathe underwater, and has improved night vision.</p>\n"
+    },
+    "Bouclier de bois noir": {
+      "name": "Black Wood Shield",
+      "description": "<p>In the conflict phase, once per turn and just after suffering an attack but before calculating the damage, the NPC can add a bonus of 5 to their defense or reaction. If the attack fails after using this ability, then the attacker automatically loses 1D6 + 3 hope points without any reduction.</p>\n"
+    },
+    "Câbles noirs": {
+      "name": "Dark cables",
+      "description": "<p>If a number of dark cables connected to the NPC are found and destroyed (the number required is up to the GM), the NPC’s overrun score resets to its initial value.</p>\n"
+    },
+    "Cantatrice sombre": {
+      "name": "Dark Cantatrice",
+      "description": "<p>The NPC has 1 additional combat action to use one of their three ranged weapons.</p>\n"
+    },
+    "Chant d'Anathème": {
+      "name": "Chant of Anathema",
+      "description": "<p>Whenever they are within long range of Eva, the PCs must remove 1 die from each of their tests. If they are within short range, the penalty increases to 2 dice, in addition to losing 1D6 hope points per turn.</p>\n"
+    },
+    "Charge brutale": {
+      "name": "Brutal charge",
+      "description": "<p>Once per encounter, the NPC can instantly move into contact range with a target up to medium distance. They must make an attack roll and, if successful, deal their weapon damage plus twice their Beast aspect score to their target.</p>\n"
+    },
+    "Chevalier héroïque": {
+      "name": "Heroic Knight",
+      "description": "<p>The NPC has 6 standard, advanced, or rare modules to be defined and allocated by the GM. The equipment of these modules must respect the number of slots of the meta-armour.</p>\n"
+    },
+    "Chevalier initié": {
+      "name": "Initiated Knight",
+      "description": "<p>The NPC has 4 standard or advanced modules to be defined and allocated by the GM. The equipment of these modules must respect the number of slots of the meta-armour.</p>\n"
+    },
+    "Combat en duo": {
+      "name": "Twinned fighters",
+      "description": "<p>The two NPCs wield a heavy weapon (a sonic blade) doubtless stolen from Avalon.</p>\n"
+    },
+    "Conscience": {
+      "name": "Awareness",
+      "description": "<p>The NPC knows everything that happens around them within a 2-kilometer radius. It is impossible to take them by surprise, no discussion is secret, and it is very difficult to lie to them.</p>\n"
+    },
+    "Contradiction": {
+      "name": "Contradictions",
+      "description": "<p>When a PC fails a skill check against this NPC, they lose 1D6 hope points.</p>\n"
+    },
+    "Contrôle": {
+      "name": "Control",
+      "description": "<p>This NPC can make a meta-armour act however it wants, up to long range (forcing it to move, shoot, fight, etc.). A character inside a meta-armour controlled this way can attempt to resist this ability with an Aggression or Tech based skill check against an arduous (6) difficulty. This ability requires a move or combat action to activate.</p>\n"
+    },
+    "Coopération": {
+      "name": "Cooperation",
+      "description": "<p>By coordinating their attacks, 2 NPCs (or more) with this ability gain a 2-point bonus to their defence and reaction values, and each has one additional combat action. This effect cannot stack multiple times on a given enemy.</p>\n"
+    },
+    "Copie parfaite": {
+      "name": "Perfect copy",
+      "description": "<p>When a PC attempts to determine whether the NPC is a creature of the Anathema or not, they must succeed at an <em>Acuity</em> or <em>Instinct</em> based roll, arduous difficulty (6).</p>\n"
+    },
+    "Croissance": {
+      "name": "Growth",
+      "description": "<p>On round 4 of a conflict phase, the aberration gains the behemoth and <em>Multiple actions (2)</em> abilities, and loses <em>Multiple actions (1)</em>.</p>\n"
+    },
+    "Dards électriques": {
+      "name": "Stun needles",
+      "description": "<p>The NPC may choose to inflict stun 2 (this effect is automatically successful on a single PC or NPC) instead of applying its overrun score.</p>\n"
+    },
+    "Désespérant": {
+      "name": "Despair",
+      "description": "<p>If a PC kills this NPC, they must succeed at a hope check (<em>Aggression</em> combo <em>Composure</em>, difficulty set by the GM) or immediately lose 1D6 hope points.</p>\n"
+    },
+    "Désespoir incarné": {
+      "name": "Embodied Despair",
+      "description": "<p>The NPC is sensitive to the hope effect. Additionally, it is sensitive to attempts to bring it back to reason. When a PC performs a test to help this NPC return to the light, they must perform an opposed test against half of its Mask score (the GM must validate the basis of the test and the combo, then can adjust this difficulty based on the PC's arguments). If the PC succeeds, they automatically inflict 10 points of damage with the hope effect on the NPC's HP, without considering the FF and shield of the latter.</p>\n"
+    },
+    "Destinée": {
+      "name": "Destiny",
+      "description": "<p>The NPC can only die on the night of a full moon in the year 2039. If she reaches 0 HP for any reason, something unlikely will save her (GM’s choice).</p>\n"
+    },
+    "Dévorant": {
+      "name": "Devouring",
+      "description": "<p>When this NPC misses an attack on a PC in contact range, the PC’s held weapon (or one of their held weapons if they are dual-wielding, GM’s choice) is destroyed. After this has happened at least once in a conflict phase, the targeted PC may choose to not avoid subsequent attacks and take damage rather than have another weapon be devoured. This ability cannot destroy prestige weapons or weapons with the alpha element enhancement. Destroyed weapons are replaced after the mission ends. This comes at a cost of a 5 GP penalty to earned GP at the end of the mission.</p>\n"
+    },
+    "Dévoreur": {
+      "name": "Dévoreur",
+      "description": "<p>Le PNJ ignore les scores d'égide et de bouclier, sauf conditions indiquées dans un scénario et en fonction des actions des PJ.</p>\n"
+    },
+    "Digger": {
+      "name": "Digger",
+      "description": "<p>The NPC‘s meta-armour combines the abilities of a Priest and a Warmaster, allows them to pass through all solid matter including alpha element as if they had a phase module that can be activated at will, and has all the prestige modules of the raven and the wolf.</p>\n"
+    },
+    "Dissimulé": {
+      "name": "Hidden",
+      "description": "<p> This NPC provides cover for other Mask creatures, giving them a 2-point bonus to <em>defence</em> and <em>reaction</em> as long as they are at Medium range or closer.</p>\n"
+    },
+    "Domination": {
+      "name": "Domination",
+      "description": "<p>Once per turn, at no action cost, the NPC may attempt to seize control of a character’s mind with a Machine skill check against a difficulty equal to the target PC’s <em>Aggression</em> score (including overdrives) (or another NPC’s Beast score). If they are successful, the target obeys the NPC’s orders on their following turn (and only their following turn), performing one combat action and one move action. The dominated character loses their turn and is unable to act.</p>\n"
+    },
+    "Don de la Chair": {
+      "name": "Gifts of the Flesh",
+      "description": "<p>This NPC can heal a grievous wound (rolled on the random wounds table), but the healed character permanently loses 1D6 hope points (from both current and total hope).</p>\n"
+    },
+    "Double face": {
+      "name": "Two-faced",
+      "description": "<p>When this NPC possesses a character, they can only be seen from behind on digital recordings and surveillance footage. From the front, they appear completely invisible.</p>\n"
+    },
+    "Doubles": {
+      "name": "Copies",
+      "description": "<p>Once per conflict phase, the NPC can create 2D6 copies of itself. These copies can act independently, but their aspect scores, substats, and damage are those of the NPC divided by 2.</p>\n"
+    },
+    "Dragon": {
+      "name": "Dragon",
+      "description": "<p>All Lancelot‘s attacks have the ray of hope effect.</p>\n"
+    },
+    "Drain d'énergie": {
+      "name": "Energy drain",
+      "description": "<p>The NPC may choose to deal its damage to the target’s energy points rather than to their health. FF values still apply, but armour points are ignored. If the NPC is killed or destroyed, the PC or PCs whose energy was drained recover 1D6 EP per 6 whole energy points lost. Energy drained this way can be used to power the NPC’s weapons; therefore the GM should keep track of how many it has. If the NPC uses an ability or weapon requiring the use of EPs, those it has obtained via its energy drain ability are used first.</p>\n"
+    },
+    "Drogué à la penombra": {
+      "name": "Penumbra Addict",
+      "description": "<p>The NPC is a human who is more resistant than average, ignoring pain and therefore having more health points.</p>\n"
+    },
+    "Drones Obake": {
+      "name": "Obake Drones",
+      "description": "<p>Once per turn and up to three times in total per conflict phase, the Obake drones can open fire on their owners’ enemies. All PCs are automatically hit by the barrage, taking 5D6 + 10 damage (one roll each).</p>\n"
+    },
+    "Duel": {
+      "name": "Duel",
+      "description": "<p>Once per conflict phase, the NPC can create an indestructible circle of energy around itself and a PC. No PC or NPC outside the circle can act within it, leaving the NPC and its opponent in a deadly face-off. Only a very difficult Endurance-based test (difficulty 9) allows anyone to end the duel; otherwise, it stops as soon as one of the combatants reaches 0 health points.</p>\n"
+    },
+    "Écho": {
+      "name": "Echo",
+      "description": "<p>This NPC is a copy of one of the PCs. It copies all of their equipment and weapons (minus the <em>radiance X</em>, <em>anti-Anathema</em>, and <em>ray of hope</em> effects). Prestige weapons, prestige modules, and heroic abilities are not copied.</p>\n"
+    },
+    "En réseau": {
+      "name": "Networked",
+      "description": "<p>In order to destroy this NPC, they must be isolated in a containment unit. Otherwise, they can flee via network access points.</p>\n"
+    },
+    "Enfants": {
+      "name": "Children",
+      "description": "<p>The gang is mainly composed of children. Every time a PC attacks the gang without explaining how they act to avoid harming the gang members, they lose 1D6 hope points because it is difficult not to kill or seriously injure the children.</p>\n"
+    },
+    "Entre les mondes": {
+      "name": "Between the Worlds",
+      "description": "<p>As long as it has not attacked, the NPC is considered to have double its defense and reaction. Once it has attacked, it becomes tangible until the end of the combat and possesses its normal defense and reaction scores.</p>\n"
+    },
+    "Équipement (1 à 3 avancé)": {
+      "name": "Equipment (3 advanced quality weapons or modules)",
+      "description": "<p>The NPC has 3 weapons or modules of advanced quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Équipement (1 à 3 rares)": {
+      "name": "Equipment (3 rare quality weapons or modules)",
+      "description": "<p>The NPC has 3 weapons or modules of rare quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Équipement (1 à 3 standard)": {
+      "name": "Equipment (3 standard quality weapons or modules)",
+      "description": "<p>The NPC has 3 weapons or modules of standard quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Espion": {
+      "name": "Spy",
+      "description": "<p>This NPC is in constant communication with the Lady. If one (or more) of these NPCs is present in a conflict phase, as long as it remains within long range, it gives all other creatures under the Lady’s command 3 automatic successes on their skill checks. This effect only applies once, no matter how many spying NPCs are present in a scene.</p>\n"
+    },
+    "État d'alerte": {
+      "name": "State of Alert",
+      "description": "<p>The NPC is searching for its target. If the PCs fail a Stealth test (5), the gang spots its target and attacks.</p>\n"
+    },
+    "Étoile mourante": {
+      "name": "Dying Star",
+      "description": "<p>If the heroes manage to reduce the NPC to 0 HP using the hope effect, then it does not have a phase 2. It starts crying for days, then seeks redemption. However, if the PCs do not manage to reduce it to 0 HP in this way, then the NPC's phase 2 is particularly difficult. The Mask has completely possessed it, and it becomes almost an incarnation of the Mask.</p>\n"
+    },
+    "Évolution": {
+      "name": "Evolution",
+      "description": "<p>As long as this NPC is present in a conflict phase, its NPC allies at long range or closer gain one of the following effects: <em>continuous damage 3</em>, <em>stun 2</em>, <em>wounding</em>, <em>destructive</em>, or <em>barrage 3</em>.</p>\n"
+    },
+    "Excalibur": {
+      "name": "Excalibur",
+      "description": "<p>Arthur‘s meta-armour combines the abilities of all 9 of the first meta-armour models, and has all the prestige modules of the lion, the bear, the bull, and the hawk.</p>\n"
+    },
+    "Excalibur corrompue": {
+      "name": "Corrupted Excalibur",
+      "description": "<p>The meta-armour possesses the capabilities of the first 9 existing meta-armour models.</p>\n"
+    },
+    "Exosquelette de combat (nvX)": {
+      "name": "Combat exoskeleton (lvl X)",
+      "description": "<p>The NPC has exceptional aspect scores and lvl X leap and sprint modules. If the NPC’s AP reaches 0, they lose these bonuses.</p>\n"
+    },
+    "Faille vivante": {
+      "name": "Living portal",
+      "description": "<p>During a conflict phase and at the start of each turn, the favoured of the Mask can summon forth a Child of the Mask in contact range. In addition to this, it can create a Mask spawn every four turns.</p>\n"
+    },
+    "Fantôme": {
+      "name": "Phantom",
+      "description": "<p>The NPC‘s meta-armour combines the abilities of a Rogue and a Ranger and has all the prestige modules of the hawk and the serpent.</p>\n"
+    },
+    "Fille de l'Ophidien": {
+      "name": "Daughter of the Ophidian",
+      "description": "<p>When the NPC is attacked by an enemy, the GM must roll 1D6. On an odd result, a snake appears in a corner (if possible) to defend it. This ability cannot be used when at least one snake is present in the scene or the conflict phase.</p>\n"
+    },
+    "Fille/Fils à maman": {
+      "name": "Mama's Boy/Girl",
+      "description": "<p>If the NPC is somehow held captive, their Lord will do everything to free them.</p>\n"
+    },
+    "Flamme": {
+      "name": "Flame",
+      "description": "<p>When Lancelot‘s falcon soars above his enemies and unleashes its piercing cry, they suffer the <em>radiance 6</em> effect for the rest of the fight. This requires no action on the NPC‘s behalf.</p>\n"
+    },
+    "Fleuve de ténèbres": {
+      "name": "Fleuve de ténèbres",
+      "description": "<p>Le PNJ fait naître dans son sillage un fleuve de ténèbres duquel sort à chaque tour soit : une nuée du Masque (si aucune n'est présente dans la phase de conflit), 2D6 enfants du Masque, 1D6 rejetons du masque ou 1D3 favoris du Masque. Elles n'attaquent pas les PJ en mecha-armures mais peuvent s'attaquer à des chevaliers ou des civils.</p>\n"
+    },
+    "Fu-Mari": {
+      "name": "Fu-Mari",
+      "description": "<p>The NPC‘s Warrior meta-armour has one of Avalon‘s strongest force fields, with a score of 30, and has all the prestige modules of the boar and the serpent.</p>\n"
+    },
+    "Fujin": {
+      "name": "Fujin",
+      "description": "<p>The NPC‘s Barbarian meta-armour grants them the ability to use its Goliath mode to its maximum potential without increasing in size and without the associated downsides (such as lower defence and reaction scores), and has all the prestige modules of the boar and the lion.</p>\n"
+    },
+    "Fureur de Raijin": {
+      "name": "Raijin‘s Wrath",
+      "description": "<p>The NPC may spend between 1 and 25 EP to increase his fracture cestis‘ damage. Blue flames appear around his meta-armour and the air around him bends and waves. For each EP spent, NPC adds 2 points of damage to his next attack with the cesti, up to a maximum of 50 added points on a single attack.</p>\n"
+    },
+    "Gargoyle": {
+      "name": "Gargoyle",
+      "description": "<p>The NPC may always choose to redirect enemy attacks toward themselves, taking all the damage they would have inflicted.</p>\n"
+    },
+    "Génie": {
+      "name": "Genius",
+      "description": "<p>The NPC can restore 6D6 + 10 AP of a meta-armour‘s missing armour per turn. He can also improve a weapon, giving it an additional 1D6 damage, violence, or an extra effect until the end of the conflict phase. At the cost of one turn, he can also build a trap or any simple electronic device from spare parts.</p>\n"
+    },
+    "Giant": {
+      "name": "Giant",
+      "description": "<p>With their nanoC mode, the NPC can create any weapon or module from the arsenal, regardless of cost or rarity. Weapons created this way only last 1D6 turns, but are fully functional.</p>\n"
+    },
+    "Gideon": {
+      "name": "Gideon",
+      "description": "<p>Although embodying Mordred and being herself an incarnation of the Mask, Morgane remains attached to her son Gideon. If the PCs lead the assault with him, then Morgane is troubled. She loses the multiple actions (2) ability during her first phase (and only this phase).</p>\n"
+    },
+    "Griffe des ténèbres": {
+      "name": "Claw of Darkness",
+      "description": "<p>Once per turn, the NPC can ignore armour points and inflict its damage directly on health.</p>\n"
+    },
+    "Grosse artillerie": {
+      "name": "Heavy artillery",
+      "description": "<p>On the battlefield, the NPC uses a bulkier than usual Paladin meta-armour with the ability to fire 4 times per round (with whatever weapons the GM deems appropriate)</p>\n"
+    },
+    "Gueule du vide": {
+      "name": "Maw of the Void",
+      "description": "<p>When the NPC inflicts damage or overflow on a character, it is also inflicted on armour points, energy points, hope points, and health points. All these values are reduced simultaneously, without considering the Aegis score.</p>\n"
+    },
+    "Haine de l'Anathème": {
+      "name": "Hatred of the Anathema",
+      "description": "<p>The NPC’s damage gains +3D6 against creatures of the Anathema.</p>\n"
+    },
+    "Hybridation": {
+      "name": "Hybridation",
+      "description": "<p>The NPC serves two Overlords. Any ’Overlord’ abilities are based on two aspects (GM’s choice) rather than one.</p>\n"
+    },
+    "Hypersensibilité lumineuse": {
+      "name": "Light sensitive",
+      "description": "<p>Using equipment with a radiance effect cancels one or more of the NPC’s abilities (at the GM’s discretion) for 1D6 turns. Damage dealt to this NPC by weapons with a radiance effect is doubled.</p>\n"
+    },
+    "Ignore CdF": {
+      "name": "Ignore FF",
+      "description": "<p>The NPC ignores force fields, as per the <em>ignore FF</em> weapon effect.</p>"
+    },
+    "Il est partout": {
+      "name": "Everywhere at once",
+      "description": "<p>The NPC’s attacks target all PCs engaged in the conflict (apart from those who are hidden or invisible), regardless of distance or behaviour.</p>\n"
+    },
+    "Immatériel": {
+      "name": "Immaterial",
+      "description": "<p>The NPC is immaterial and is immune to damage. The only way to damage it is to attack it with weapons with a radiance or an anti-Anathema effect while in the presence of pure alpha element (pure alpha element saps nearby characters’ hope at a rate of 1D6 hope points per turn).</p>\n"
+    },
+    "Immortel": {
+      "name": "Immortal",
+      "description": "<p>The NPC may use a move action to restore 10 to 100 (GM’s choice) of its lost health points. This ability may only be used once per turn in conflict phases.</p>\n"
+    },
+    "Immunité technologique": {
+      "name": "Technological immunity",
+      "description": "<p>The NPC is immune to all <em>stun X</em> and <em>interference X</em> effects.</p>\n"
+    },
+    "Implacable": {
+      "name": "Unstoppable",
+      "description": "<p>If the NPC does not use their move action during their turn, they may perform an additional attack.</p>\n"
+    },
+    "Incarnation de l'Ophidien": {
+      "name": "Incarnation of the Ophidian",
+      "description": "<p>The NPC, by concentrating and performing a ritual under specific conditions, can create a rift between Earth and the Abyss. The longer it spends creating the rift, the larger it becomes and the more people it can allow through. The specific rules are defined by the current scenario or directly by the GM.</p>\n"
+    },
+    "Indestructible": {
+      "name": "Invincible",
+      "description": "<p>Weapons with the anti-vehicle effect are required to damage this NPC. Violence from weapons with an anti-vehicle effect also reduces its cohesion.</p>\n"
+    },
+    "Infestation": {
+      "name": "Infestation",
+      "description": "<p>All non-dark beings that do not benefit from adequate protection, such as meta-armour, automatically suffer 1D6 points of damage per turn at long range.</p>\n"
+    },
+    "Infiltré": {
+      "name": "Infiltrator",
+      "description": "<p>The NPC could be anyone, and is very difficult to differentiate from average humans, even when there are several of them. An Acuity or Instinct based skill check, difficulty delicate (4), is required to spot them.</p>\n"
+    },
+    "Insaisissable": {
+      "name": "Slippery",
+      "description": "<p>The NPC cannot be hit by attacks that need to surpass its defence score (cannot be combined with untouchable).</p>\n"
+    },
+    "Insensibilité physique": {
+      "name": "Physical immunity",
+      "description": "<p>The NPC cannot be harmed by conventional weapons. Only hope, or fighting it in the dream world, can defeat it.</p>\n"
+    },
+    "Intangible": {
+      "name": "Intangible",
+      "description": "<p>While it is in its smoke form, the NPC suffers no weapon damage or violence unless the weapon has the anti-Anathema effect. While intangible, it cannot do anything against characters in meta-armour. This ability may only be activated or deactivated once per turn in conflict phases.</p>\n"
+    },
+    "Intouchable": {
+      "name": "Untouchable",
+      "description": "<p>The NPC cannot be hit by attacks that need to surpass its reaction score (cannot be combined with slippery).</p>\n"
+    },
+    "Intouchable puis insaisissable": {
+      "name": "Untouchable then Slippery",
+      "description": "<p>On even turns, the NPC becomes vaporous and gains the untouchable ability. On odd turns, the NPC becomes as fast as lightning and gains the slippery ability. These two abilities are mutually exclusive and cannot be present at the same time in the creature's profile.</p>\n"
+    },
+    "Invisibilité": {
+      "name": "Cloaking",
+      "description": "<p>This NPC has the same abilities as a Rogue meta-armour, with the same restrictions.</p>\n"
+    },
+    "Invulnérabilité": {
+      "name": "Invulnerability",
+      "description": "<p>To inflict any damage on the target, a character must first reduce its resilience to 0, even if the attack used has the anti-vehicle effect. Indeed, as long as the character or vehicle has resilience points, invulnerability allows it to ignore all damage, even that with the anti-vehicle effect.</p>\n"
+    },
+    "Isolement": {
+      "name": "Isolation",
+      "description": "<p>Once per encounter, the NPC may isolate one or more characters in the scene by trapping them inside large cubes of ice and silence, each one with 100 AP. These cubes last until they are destroyed. An NPC with this ability can attack through these cubes’ walls. Isolated characters can attack the walls and activate modules, but otherwise cannot move. They cannot fire weapons through the walls, even with weapons with an <em>artillery</em> effect.</p>\n"
+    },
+    "Jardinier de chair": {
+      "name": "Flesh gardener",
+      "description": "<p>At the start of a conflict phase the aberration creates fleshy flora with 400 cohesion points in the surrounding area.</p>\n"
+    },
+    "Jumelles": {
+      "name": "Twins",
+      "description": "<p>These two NPCs act as a single entity, reducing their HP to 0 means that one of the pair has been killed or knocked out and that the other ceases combat in order to save them.</p>\n"
+    },
+    "Kamikaze": {
+      "name": "Kamikaze",
+      "description": "<p>When the NPC reaches its target it can explode, dealing 8D6 + 15 damage with a scatter 6 effect up to short range around it.</p>\n"
+    },
+    "Korrigan": {
+      "name": "Korrigan",
+      "description": "<p>Palamedes‘ AI has access to the combined intelligence of the arks, Avalon, and all secret service agencies.</p>\n"
+    },
+    "Loyauté sans faille": {
+      "name": "Unshakable loyalty",
+      "description": "<p>This NPC never flees and never surrenders.</p>\n"
+    },
+    "Lumière": {
+      "name": "Inner light",
+      "description": "<p>An invisible brightness emanates from the NPC, deterring creatures of the Anathema from coming closer than Medium range. If for some reason they were to be closer, they suffer the full effects of a Radiance 6 weapon effect until they move away.</p>\n"
+    },
+    "Machine évolutive": {
+      "name": "Evolving Machine",
+      "description": "<p>The NPC is currently primitive and does not even know how to speak. Upon contact with humans, it will quickly learn everything it can from them, starting with speech. When PCs interact with the NPC and depending on their conversations, the GM is free to evolve the NPC's aspects as well as its exceptional aspects.</p>\n"
+    },
+    "Maison-Dieu": {
+      "name": "The Tower",
+      "description": "<p>The NPC may use its The Tower power for one combat action.</p>"
+    },
+    "Maître de la destruction": {
+      "name": "Master of Destruction",
+      "description": "<p>The NPC's attacks that should reduce the resilience of its targets cause an additional 1D6 points of resilience loss. Buildings, beings, and vehicles smaller than 8 meters are automatically destroyed by its attacks, without damage or violence rolls. PCs without mecha-armour are not destroyed but are brought to the brink of death.</p>\n"
+    },
+    "Maître du destin (majeur)": {
+      "name": "Master of Fate (major)",
+      "description": "<p>As many times per turn as there are characters (PC and NPCs included) in a scene, the NPC can cause a PC or NPC (including herself) to automatically succeed or fail one of their actions.</p>"
+    },
+    "Maître du destin (mineur)": {
+      "name": "Master of Fate (minor)",
+      "description": "<p>Once per turn, the NPC can cause a PC or NPC (including himself) to automatically succeed or fail at one of their actions.</p>\n"
+    },
+    "Marée serpentine": {
+      "name": "Serpentine Tide",
+      "description": "<p>The NPC is always accompanied by a band of small terrestrial snakes of all kinds. This swarming tide is to be treated as a band of noctes with 1000 cohesion.</p>\n"
+    },
+    "Mecha-armure Tengû": {
+      "name": "Mecha-armour Tengû",
+      "description": "<p>The mecha-armour benefits from the following modules: flight level 3 or jump level 3, shoulder turret equipped with a Sol Invictus cannon, 2 missile pods, 2 rocket pods, countermeasures level 3.</p>\n"
+    },
+    "Mecha-shogun": {
+      "name": "Mecha-shogun",
+      "description": "<p>The mecha-armour benefits from the following modules: flight level 3, shoulder turret equipped with a Sol Invictus cannon, 2 missile pods, 2 rocket pods, countermeasures level 3, strike amplification level 3, Thunder security.</p>\n"
+    },
+    "Membre du Knight": {
+      "name": "Avalon’s Finest",
+      "description": "<p>This NPC has one of Avalon’s meta-armours, a melee weapon and a ranged weapon, and 2 modules chosen from the arsenal (standard, advanced, or rare quality, depending on the Knight’s difficulty rating).</p>\n"
+    },
+    "Mémoire": {
+      "name": "Memory",
+      "description": "<p>The NPC is capable of knowing the complete past of all characters it encounters and the mistakes they have made. Each failed Speech, Aura, or Composure-based test against it results in the loss of 1D6 hope points.</p>\n"
+    },
+    "Meneur d'hommes": {
+      "name": "Leader",
+      "description": "<p>This NPC gives other allied NPCs under their orders a 2-point bonus to defence and reaction, as well as an additional 2 overrun points and 50 cohesion to allied bands.</p>\n"
+    },
+    "Méta-armure (12 points d'aspect exceptionnel / 1 à 3 modules rares)": {
+      "name": "Meta-armour (12 exceptional aspect points / 1 to 4 rare modules)",
+      "description": "<p>The NPC has exceptional aspect scores and X modules of rare quality or lower chosen from the arsenal. If the NPC’s AP reaches 0, they lose these bonuses until their armour is repaired.</p>\n"
+    },
+    "Méta-armure (4 points d'aspect exceptionnel / 1 à 3 modules standards)": {
+      "name": "Meta-armour (4 exceptional aspect points / 1 to 4 standard modules)",
+      "description": "<p>The NPC has exceptional aspect scores and X modules of standard quality or lower chosen from the arsenal. If the NPC’s AP reaches 0, they lose these bonuses until their armour is repaired.</p>\n"
+    },
+    "Méta-armure (8 points d'aspect exceptionnel / 1 à 3 modules avancés)": {
+      "name": "Meta-armour (8 exceptional aspect points / 1 to 4 advanced modules)",
+      "description": "<p>The NPC has exceptional aspect scores and X modules of advanced quality or lower chosen from the arsenal. If the NPC’s AP reaches 0, they lose these bonuses until their armour is repaired.</p>\n"
+    },
+    "Méta-armure (Bard)": {
+      "name": "Meta-armour (Bard)",
+      "description": "<p>The NPC possesses the capabilities of a Bard meta-armour with evolution at 150 and 200 PG total.</p>"
+    },
+    "Méta-armure (Paladin)": {
+      "name": "Meta-armour (Paladin)",
+      "description": "<p>The NPC possesses the capabilities of a Paladin meta-armour with 5 rare modules and evolutions at 300 PG.</p>"
+    },
+    "Méta-armure (Priest)": {
+      "name": "Meta-armour (Priest)",
+      "description": "<p>The NPC possesses the capabilities of a Priest meta-armour with evolution at 150 and 200 PG total.</p>"
+    },
+    "Méta-armure (Rogue)": {
+      "name": "Meta-armour (Rogue)",
+      "description": "<p>The NPC possesses the capabilities of a Rogue meta-armour with evolution at 150 and 200 PG total.</p>"
+    },
+    "Méta-armure (Wizard)": {
+      "name": "Meta-armour (Wizard)",
+      "description": "<p>The NPC possesses the capabilities of a Wizard meta-armour with 5 rare modules and evolutions at 300 PG.</p>"
+    },
+    "Méthodique": {
+      "name": "Methodical",
+      "description": "<p>If the NPC’s target has used its move action to move this turn, it does not deal any overrun damage to that target.</p>\n"
+    },
+    "Mitraillage": {
+      "name": "Mitraillage",
+      "description": "<p>Lorsque le PNJ attaque à distance, il reçoit un bonus de 1 réussite automatique à ses jets.</p>\n"
+    },
+    "Module (nom du module avancé au nvX)": {
+      "name": "Module (advanced module name at lvl X)",
+      "description": "<p>The NPC benefits from the equivalent of the module indicated at level X.</p>\n"
+    },
+    "Module (nom du module rare au nvX)": {
+      "name": "Module (rare module name at lvl X)",
+      "description": "<p>The NPC benefits from the equivalent of the module indicated at level X.</p>\n"
+    },
+    "Module (nom du module standard au nvX)": {
+      "name": "Module (standard module name at lvl X)",
+      "description": "<p>The NPC benefits from the equivalent of the module indicated at level X.</p>\n"
+    },
+    "Modules rares": {
+      "name": "Rare Modules",
+      "description": "<p>On its meta-armour, the NPC has all the rare modules from the list of modules in the Knight core rulebook's arsenal. Basic or advanced modules that can evolve to the rare level are also included.</p>\n"
+    },
+    "Monture": {
+      "name": "Mount",
+      "description": "<p>The NPC's steed allows it to benefit from additional points in the Beast aspect as well as in defense and reaction (already included in the profile). To knock it down, one must succeed in a Movement-based test against its Flesh aspect divided by 2 and have at least one level 3 Force overdrive.</p>\n"
+    },
+    "Né dans la lumière": {
+      "name": "Born in the light",
+      "description": "<p>This NPC is immune to all <em>radiance</em> and <em>anti-Anathema</em> effects.</p>\n"
+    },
+    "Né dans les ténèbres": {
+      "name": "Born in the Darkness",
+      "description": "<p>The NPC is immune to the effects of domination, anathema, fear (X), contradiction, and aura of suffering.</p>\n"
+    },
+    "Noyau central": {
+      "name": "Central Core",
+      "description": "<p>The central core of the supercomputer containing the NPC does not move. If it is destroyed, everything the NPC controlled is released from its grip. In return, the core receives the invulnerability rule and 10 points of resilience.</p>\n"
+    },
+    "Obscurité impénétrable": {
+      "name": "Impenetrable Darkness",
+      "description": "<p>The NPC is immune to the light effect generated by weapons, tools, or modules. It remains sensitive to the light effect generated by art.</p>\n"
+    },
+    "Ogre": {
+      "name": "Ogre",
+      "description": "<p>The NPC is immune to the fear ability and all Anathema damage they receive is divided by 2.</p>\n"
+    },
+    "Ombre d'Excalibur": {
+      "name": "Shadow of Excalibur",
+      "description": "<p>A dark copy of Excalibur always stands by the NPC's side and fights with it. It has exactly the same profile as the NPC, but with fewer abilities and without its FF. The shadow can be completely destroyed, but if the NPC is defeated, it disappears.</p>\n"
+    },
+    "Oubli": {
+      "name": "Oblivion",
+      "description": "<p>Rather than suffering overflow, damage, and effects, a PC can always choose to sacrifice a memory. If the PC chooses this option, the GM inflicts one of these effects (at their choice): loss of 3D6 hope points, loss of a contact, loss of a characteristic point (from the lowest ones), loss of a heroic ability, loss of 3D6 total glory points.</p>\n"
+    },
+    "Parangon": {
+      "name": "Paragon",
+      "description": "<p>The NPC‘s meta-armour combines the abilities of a Rogue and a Warmaster and has all the prestige modules of the hawk and the dragon.</p>\n"
+    },
+    "Parangon de lumière": {
+      "name": "Paragon of Light",
+      "description": "<p>More talented than most other humans, the prodigy seems to succeed in everything they undertake. When making a test, the NPC can reroll, once per test, any dice that do not show successes.</p>\n"
+    },
+    "Parasite": {
+      "name": "Parasite",
+      "description": "<p>When it fights within an allied or enemy band, this NPC cannot die. If it reaches 0 HP, its parasite finds a new host and rises again with half its maximum health points on the next turn.</p>\n"
+    },
+    "Parole du Seigneur": {
+      "name": "Word of the Lord",
+      "description": "<p>PCs who attempt to attack the NPC in melee automatically suffer the effect of Major Exceptional Lady. If the NPC does not have the Exceptional Lady aspect, it is considered to be 5.</p>\n"
+    },
+    "Peur (X)": {
+      "name": "Fear (X)",
+      "description": "<p>When a conflict phase with this NPC (or several NPCs with the fear ability) starts, all PCs must make a Composure or Aggression based skill check against one of the NPC’s aspects (chosen by the GM) divided by two. If they succeed, they suffer a -1 D penalty to all their rolls. If they fail, they suffer a -X D penalty to all their rolls and their reaction and defence values suffer a 2-point penalty. In the event of a critical failure, the PC is frozen in terror for 2D6 turns and cannot do anything. This effect can only apply to a PC once per turn.</p>\n"
+    },
+    "Phase 2": {
+      "name": "Phase 2",
+      "description": "<p>Once the NPC has been reduced to death’s door for the first time this conflict phase, it recovers all its HP, AP, and EP (if it has any) and gets back into the fight. This ability can only trigger once per conflict phase. Additionally, the NPC’s stats and abilities may increase or be otherwise improved during phase 2. These changes should be included in the ability description. Its tactics may also change. Make a note of which aspects and related scores increase, and which abilities are gained. An NPC entering phase 2 always becomes more powerful than it was before.</p>\n"
+    },
+    "Phéromones": {
+      "name": "Pheromones",
+      "description": "<p>The NPC can summon all creatures of darkness in a 5-mile radius to it and give them orders, even if they were not its creations or servants to begin with.</p>\n"
+    },
+    "Pilote émérite": {
+      "name": "Ace pilot",
+      "description": "<p>When piloting her steed motorbike, Bors has one additional combat or move action per turn.</p>\n"
+    },
+    "Planificatrice": {
+      "name": "Planner",
+      "description": "<p>In any conflict phase involving this NPC, her allies choose their initiative score and can change it at the beginning of each round.</p>\n"
+    },
+    "Possession": {
+      "name": "Possession",
+      "description": "<p>This NPC may take control of Amaterasu, Iwata Kaneda’s meta-armour, and use it to fight (using the stat block for Iwata Kaneda’s substats, weapons, and aspects apart from <em>Machine</em> and <em>Lady</em>).</p>\n"
+    },
+    "Pour une nuit": {
+      "name": "Just one night",
+      "description": "<p>If this NPC strikes a bargain with a character (PC or NPC), it may possess their body for one night and do what it wants during that time. The possessed character will have no recollection of its actions at the end of the night.</p>\n"
+    },
+    "Prescience": {
+      "name": "Prescience",
+      "description": "<p>The NPC always attacks in a way that hits the enemy's weak point. It can always inflict maximum damage with its weapons.</p>\n"
+    },
+    "Presque humain": {
+      "name": "Almost Human",
+      "description": "<p>The NPC still remembers part of its past and retains human attitudes. It is therefore easier for it to communicate with the PCs and gain their sympathy.</p>\n"
+    },
+    "Prévoyant": {
+      "name": "Foresight",
+      "description": "<p>The NPC has prepared several exits, traps, and automated weapons to ensure its safety and defend against potential enemies. When the NPC is encountered in a location, it may have hidden a secret exit, two explosive traps to be treated as smart grenades that can be triggered at long range, as well as an automated turret equipped with a heavy machine gun or a railgun.</p>\n"
+    },
+    "Prime": {
+      "name": "Bounty",
+      "description": "<p>This NPC may put a bounty on one or several characters’ heads, making them the target of bounty hunters.</p>\n"
+    },
+    "Protégé": {
+      "name": "Protected",
+      "description": "<p>The NPC controls elite members of a faction who stay close to it and protect it.</p>\n"
+    },
+    "Protéiforme majeur": {
+      "name": "Shapechanger major",
+      "description": "<p>The NPC may change shape and give itself weapons with the following effects, at the GM’s discretion: <em>ignore FF</em>, <em>ignore armour</em>, <em>stun 2</em>.</p>\n"
+    },
+    "Protéiforme mineur": {
+      "name": "Shapechanger minor",
+      "description": "<p>The NPC may change shape and give itself weapons with the following effects, at the GM’s discretion: <em>wounding</em>, <em>destructive</em>, or <em>stun 1</em>.</p>\n"
+    },
+    "Psychopathe": {
+      "name": "Psychopath",
+      "description": "<p>If the NPC designates one or more PCs as its prey, it hunts them to the death.</p>\n"
+    },
+    "Puissance de l'Éther": {
+      "name": "Power of the Ether",
+      "description": "<p>Against creatures of the Anathema, meta-armours, and anything that comes from the darkness, the NPC always inflicts an additional 3D6 points of damage. Each of its attacks also possesses the anti-Anathema and light 6 effects. Finally, the Aegis score does not apply against the NPC's attacks.</p>\n"
+    },
+    "Rapide": {
+      "name": "Rapide",
+      "description": "<p>The NPC gains an additional movement action. This action is to be performed at its initiative. The NPC gains +3 in reaction.</p>\n"
+    },
+    "Rayon": {
+      "name": "Beam",
+      "description": "<p>The NPC may use all of its combat actions to perform its beam ranged attack. It must have drained 30 EP during the encounter to use this ability.</p>"
+    },
+    "Regain de santé": {
+      "name": "Emergency repairs",
+      "description": "<p>As long as this NPC (or several of the same type) is present, its Overlord’s bands regain 6D6 cohesion, brutes regain 3D6 health, badasses regain 4D6 health, and bosses regain 6D6 health per conflict phase turn. The NPC itself also regains 6D6 cohesion each turn.</p>\n"
+    },
+    "Régénération": {
+      "name": "Regrowth",
+      "description": "<p>Si le PNJ combat au milieu d'une bande alliée, il peut lui infliger une attaque gratuite pour se régénérer d'autant de points de santé que les dégâts infligés. Les dégâts infligés sont convertis en violence et impactent directement la cohésion de la bande.</p>\n"
+    },
+    "Renaissance": {
+      "name": "Rebirth",
+      "description": "<p>If this NPC is fighting alongside an allied band, it can attack the band once per turn as a bonus action to regain as many health points as it deals damage. Its damage is converted to violence and is inflicted on the band’s cohesion.</p>\n"
+    },
+    "Résistance lumineuse": {
+      "name": "Light resistant",
+      "description": "<p>Despite them being creatures of the Anathema, she-wolves ignore all <em>radiance X</em> and <em>anti-Anathema</em> effects.</p>\n"
+    },
+    "Résistant": {
+      "name": "Durable",
+      "description": "<p>Regardless of actual size, the NPC is treated as a behemoth.</p>\n"
+    },
+    "Résistant au présent": {
+      "name": "Resistant to the Present",
+      "description": "<p>The NPC always suffers half the damage or violence inflicted, except under conditions specified in a scenario and depending on the actions of the PCs.</p>\n"
+    },
+    "Ressources illimitées": {
+      "name": "Unlimited resources",
+      "description": "<p>This NPC has access to all the resources they need, be it money, materials, or people.</p>\n"
+    },
+    "Rubilacxe": {
+      "name": "Rubilacxe",
+      "description": "<p>The twin meta-armour of Excalibur possesses the capabilities of the first 9 existing meta-armour models, as well as 9 modules to be chosen from any module in the arsenal.</p>\n"
+    },
+    "Sabotage": {
+      "name": "Sabotage",
+      "description": "<p>Once per conflict phase, any enemy of the NPC coming into short range suffers a detonation dealing 7D6 + 10 damage and an automatic <em>stun 2</em> effect.</p>\n"
+    },
+    "Sensibilité IEM": {
+      "name": "EMP sensitive",
+      "description": "<p>EMP grenades used against this NPC automatically have an <em>interference 4</em> effect.</p>\n"
+    },
+    "Sentence": {
+      "name": "Sentence passed",
+      "description": "<p> If this NPC passes judgment on a character, the other Triarchs will relentlessly pursue them until they are killed or until they manage to change the Voice’s mind.</p>\n"
+    },
+    "Serial killer": {
+      "name": "Serial killer",
+      "description": "<p>If an attack by this NPC deals damage to their target’s HP, the NPC adds their Mask score to the damage total.</p>\n"
+    },
+    "Serpent titanesque": {
+      "name": "Titanic Serpent",
+      "description": "<p>The NPC possesses all the capabilities of a serpent in addition to its other abilities. Its aspect scores and exceptional aspect scores can exceed 20 and 10, respectively.</p>\n"
+    },
+    "Sherlock": {
+      "name": "Sherlock",
+      "description": "<p>The NPC‘s meta-armour combines the abilities of a Bard and a Warmaster and has all the prestige modules of the stag and the horse.</p>\n"
+    },
+    "Solar": {
+      "name": "Solar",
+      "description": "<p>The NPC‘s meta-armour combines the abilities of a Priest and a Wizard and has all the prestige modules of the hawk and the bear.</p>\n"
+    },
+    "Sombre marcheur": {
+      "name": "Dusk Walker",
+      "description": "<p>Creatures of the Anathema never attack or notice this character unless the character provokes them or displays hostile intentions towards them.</p>\n"
+    },
+    "Sous les ordres": {
+      "name": "Just following orders",
+      "description": "<p>PCs performing actions that go against the orders this NPC receives from their Immortal may force them to turn hostile or become more difficult to handle.</p>\n"
+    },
+    "Sphère de force": {
+      "name": "Force sphere",
+      "description": "<p>The sphere the NPC lives in has 100 AP and a FF of 30.</p>\n"
+    },
+    "Spores": {
+      "name": "Spores",
+      "description": "<p>This NPC can emit spores that find their way into an NPC’s respiratory system and latch onto their body. At any point in the future, the spore-emitting NPC can activate the spores, killing its victim from within, gradually or instantaneously. This effect only applies to other NPCs, since Knights are immune to the spores thanks to their meta-armour.</p>\n"
+    },
+    "Surhomme (18 points d'aspect exceptionnel)": {
+      "name": "Superhuman (18 exceptional aspect points)",
+      "description": "<p>The GM may distribute X exceptional aspect points as they wish. The NPC gains all the usual bonuses granted by exceptional aspects.</p>\n"
+    },
+    "Surhomme (3 points d'aspect exceptionnel)": {
+      "name": "Superhuman (3 exceptional aspect points)",
+      "description": "<p>The GM may distribute X exceptional aspect points as they wish. The NPC gains all the usual bonuses granted by exceptional aspects.</p>\n"
+    },
+    "Surhomme (9 points d'aspect exceptionnel)": {
+      "name": "Superhuman (9 exceptional aspect points)",
+      "description": "<p>The GM may distribute X exceptional aspect points as they wish. The NPC gains all the usual bonuses granted by exceptional aspects.</p>\n"
+    },
+    "Tailles diverses": {
+      "name": "Varying size",
+      "description": "<p>Some NPCs of this type can be considered Behemoths. The GM should plan accordingly when setting up a mission.</p>\n"
+    },
+    "Talon d'Achille": {
+      "name": "Achilles' Heel",
+      "description": "<p>When it attacks a character, the NPC systematically hits, and it inflicts damage to the lowest value among armour points, energy points, or hope points.</p>\n"
+    },
+    "Tarot": {
+      "name": "Tarot",
+      "description": "<p>By reading his personal pack of cards, the NPC can tell the future, but these readings are always enigmatic.</p>\n"
+    },
+    "Téléportation (élément)": {
+      "name": "Teleportation (element)",
+      "description": "<p>The NPC can appear and disappear at will, travelling from element to element.</p>\n"
+    },
+    "Terreur": {
+      "name": "Terror",
+      "description": "<p>At the beginning of each turn, characters must make an <em>Aggression</em> combo <em>Composure</em> skill check against an arduous (6) difficulty in order to not be frozen with fear. If they fail this check, they cannot act during that turn.</p>\n"
+    },
+    "Tireur d'élite": {
+      "name": "Elite Sniper",
+      "description": "<p>All firearms used by the character no longer have a range limit.</p>\n"
+    },
+    "Trahison vivante": {
+      "name": "Living Betrayal",
+      "description": "<p>By using a movement or combat action, the NPC can attempt to bend the will of a target through a test under the Mask aspect opposed to the target PC's Ferocity (with overdrives) (or Beast divided by 2 for a PNJ). If successful, the target must, at the beginning of their next turn, attack one of their allies with one of their combat actions. They must only perform one attack and play normally for the rest of the turn. This effect lasts for one unique turn and can be used up to two times during the same combat turn.</p>\n"
+    },
+    "Tremblement de terre": {
+      "name": "Earthquake",
+      "description": "<p>The NPC’s attacks all have the <em>stun 1</em> effect.</p>\n"
+    },
+    "Tueurs d'éclats (X)": {
+      "name": "Shard Killers (X)",
+      "description": "<p>When facing the Lord in question, the NPC gains 10 automatic successes on its attack and an additional 10D6 damage, regardless of the techniques or weapons used.</p>\n"
+    },
+    "Union": {
+      "name": "Meld",
+      "description": "<p>Two NPCs with the same name can meld together to form a more powerful entity, with the same name and type as its constituent parts. The newly created entity has an additional 2 points in all its aspect scores, an additional 3D6 to 5D6 damage (at the GM’s discretion), and twice the usual health points. The only drawback is its increased size, halving its defence and reaction. An entity created by melding with another can meld with yet more NPCs of the same type, becoming even stronger.</p>\n"
+    },
+    "Versatile": {
+      "name": "Versatile",
+      "description": "<p>The NPC has one of the following modules at level 1: a leap module, flightm module, grip module, or a sneak module. These represent the NPC’s bestial traits, and require no EP to activate.</p>\n"
+    },
+    "Versatilité ultime": {
+      "name": "Ultimate Versatility",
+      "description": "<p>The NPC adapts to each attack in the conflict phase. As soon as it is hit in melee, it instantly gains the elusive ability for the remainder of the turn. It loses this ability if it is hit by a ranged attack (even if this attack is received during the same turn). Furthermore, as soon as the NPC is hit by a ranged attack, it instantly gains the untouchable ability. It loses this ability if it is hit by a melee attack (even if this attack is received during the same turn).</p>\n"
+    },
+    "Vitesse de la lumière": {
+      "name": "Speed of Light",
+      "description": "<p>The NPC receives a bonus to its reaction and initiative. When it moves, it can do so by flying or teleporting to medium range.</p>\n"
+    },
+    "Vol": {
+      "name": "Flight",
+      "description": "<p>The NPC may fly up to long range in one turn (as much as a vehicle speed rating of 3).</p>\n"
+    },
+    "Affidé du Seigneur (PA / Bête)": {
+      "name": "Overlord’s acolyte (PA / Beast)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>"
+    },
+    "Affidé du Seigneur (PA / Chair)": {
+      "name": "Overlord’s acolyte (AP / Flesh)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>"
+    },
+    "Affidé du Seigneur (PA / Dame)": {
+      "name": "Overlord’s acolyte (AP / Lady)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Affidé du Seigneur (PA / Machine)": {
+      "name": "Overlord’s acolyte (AP / Machine)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Affidé du Seigneur (PA / Masque)": {
+      "name": "Overlord’s acolyte (AP / Mask)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Affidé du Seigneur (PS / Bête)": {
+      "name": "Overlord’s acolyte (HP / Beast)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Affidé du Seigneur (PS / Chair)": {
+      "name": "Overlord’s acolyte (HP / Flesh)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Affidé du Seigneur (PS / Dame)": {
+      "name": "Overlord’s acolyte (HP / Lady)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Affidé du Seigneur (PS / Machine)": {
+      "name": "Overlord’s acolyte (HP / Machine)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Affidé du Seigneur (PS / Masque)": {
+      "name": "Overlord’s acolyte (HP / Mask)",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Élu du Seigneur (Bête)": {
+      "name": "Overlord’s chosen (Beast)",
+      "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Élu du Seigneur (Chair)": {
+      "name": "Overlord’s chosen (Flesh)",
+      "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Élu du Seigneur (Dame)": {
+      "name": "Overlord’s chosen (Lady)",
+      "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Élu du Seigneur (Machine)": {
+      "name": "Overlord’s chosen (Machine)",
+      "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Élu du Seigneur (Masque)": {
+      "name": "Overlord’s chosen (Mask)",
+      "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Protégé du Seigneur (Bête)": {
+      "name": "Overlord’s protection (Beast)",
+      "description": "<p>Attacks against the NPC with a combo characteristic that depends on the creature’s Overlord’s aspect do half damage.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Protégé du Seigneur (Chair)": {
+      "name": "Overlord’s protection (Flesh)",
+      "description": "<p>Attacks against the NPC with a combo characteristic that depends on the creature’s Overlord’s aspect do half damage.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Protégé du Seigneur (Dame)": {
+      "name": "Overlord’s protection (Lady)",
+      "description": "<p>Attacks against the NPC with a combo characteristic that depends on the creature’s Overlord’s aspect do half damage.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Protégé du Seigneur (Machine)": {
+      "name": "Overlord’s protection (Machine)",
+      "description": "<p>Attacks against the NPC with a combo characteristic that depends on the creature’s Overlord’s aspect do half damage.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Protégé du Seigneur (Masque)": {
+      "name": "Overlord’s protection (Mask)",
+      "description": "<p>Attacks against the NPC with a combo characteristic that depends on the creature’s Overlord’s aspect do half damage.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Tueur du Seigneur (Bête)": {
+      "name": "Overlord’s executioner (Beast)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Tueur du Seigneur (Chair)": {
+      "name": "Overlord’s executioner (Flesh)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Tueur du Seigneur (Dame)": {
+      "name": "Overlord’s executioner (Lady)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Tueur du Seigneur (Machine)": {
+      "name": "Overlord’s executioner (Machine)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Tueur du Seigneur (Masque)": {
+      "name": "Overlord’s executioner (Mask)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Serviteur du Seigneur (Bête)": {
+      "name": "Overlord’s thrall (Beast)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC treats their target’s defence and reaction scores as if they were halved.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Serviteur du Seigneur (Chair)": {
+      "name": "Overlord’s thrall (Flesh)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC treats their target’s defence and reaction scores as if they were halved.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Serviteur du Seigneur (Dame)": {
+      "name": "Overlord’s thrall (Lady)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC treats their target’s defence and reaction scores as if they were halved.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Serviteur du Seigneur (Machine)": {
+      "name": "Overlord’s thrall (Machine)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC treats their target’s defence and reaction scores as if they were halved.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Serviteur du Seigneur (Masque)": {
+      "name": "Overlord’s thrall (Mask)",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC treats their target’s defence and reaction scores as if they were halved.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "label": "Weapons - 1. Standard",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom"
+  },
+  "entries": {
+    "Canon sans recul": {
+      "name": "Recoilless Cannon",
+      "description": "<p style=\"text-align: justify;\">Originally, the recoilless cannon was designed to provide infantry and light vehicles with fire support during World War II. This version resembles a long tube that rests on the shoulder, to which sighting and stabilizing devices are added to allow firing at 300 meters without difficulty. The recoil compensation is achieved by ejecting the gases at the rear of the weapon.</p>"
+    },
+    "Chakram": {
+      "name": "Chakram",
+      "description": "<p style=\"text-align: justify;\">The chakram is a throwing weapon originating from distant Indian lands. Simple yet elegant, it takes the form of a flat ring adorned with engravings, the outer edge of which has been sharpened. Forged from a modern alloy, the Giant section also had a trajectory calculator installed, directly connected to the sighting system of the meta-armours, allowing the weapon to return to the hand or forearm of its bearer.</p>"
+    },
+    "Couteau de survie": {
+      "name": "Survival Knife",
+      "description": "<p style=\"text-align: justify;\">This knife is a necessity in a world where every life counts. Mainly used by agents on missions close to the Anathema, it resembles a classic survival knife. Behind this appearance hides a retractable serrated blade that vibrates slightly, in harmony with the force fields of the Guardian suits. On the handle is engraved 'III.IX.X': a reminder of the Knight's code of honor and an important moral support for its owner when they have no other choice but to use it.</p>"
+    },
+    "Espadon": {
+      "name": "Espadon",
+      "description": "<p style=\"text-align: justify;\">Here we have a weapon as large as a meta-armour, which can be planted in the ground and used as cover. To limit mass issues, the steel alloy is replaced with a titanium alloy, used in prostheses and aircraft structures. A surface treatment with alpha crystals and diamonds makes each swing of the bearer even more menacing. However, its lack of balance remains a significant problem, literally.</p>"
+    },
+    "Gantelet destructeur": {
+      "name": "Destructive Gauntlet",
+      "description": "<p style=\"text-align: justify;\">Gawain created this weapon to improve the fight against the black knights. Like a medusa, the palm is covered with multiple spikes that release a powerful acid upon contact. Thus, the armour is directly attacked, but it also happens that the spikes reach the enemy's body.</p>"
+    },
+    "Javelot": {
+      "name": "Javelin",
+      "description": "<p style=\"text-align: justify;\">Similar to a lance, this weapon is also balanced for throwing. An alloy of tungsten and alpha element covers the tip, weighted at the front for more impact. To retrieve it, simply rewind a cable that binds it to the armour. The javelin is a rudimentary throwing weapon perfect for knights adept at hand-to-hand combat but wanting a ranged attack option.</p>"
+    },
+    "Lance légère": {
+      "name": "Light Lance",
+      "description": "<p style=\"text-align: justify;\">The light lance is a simple weapon consisting of a shaft topped with a rigid head with two edges and a point made of alpha element. However, it is perfectly balanced to be wielded with one hand. It is therefore possible to use it in combination with a pistol, a shield for a hoplite style, or any other one-handed weapon of your choice.</p>"
+    },
+    "Marteau de guerre": {
+      "name": "War Hammer",
+      "description": "<p style=\"text-align: justify;\">Imagine a sledgehammer. Not the weapon, the demolition tool: you have the war hammer. Built with reinforced material to withstand the use a knight can make of it, it is also ideal if you are looking to break down doors, walls, or destroy armored targets. In terms of personalization, while most are content with a simple hammerhead, cylindrical or rectangular, others prefer a more exotic appearance.</p>"
+    },
+    "Nunchaku": {
+      "name": "Nunchaku",
+      "description": "<p style=\"text-align: justify;\">Visually similar to a classic nunchaku, it is equipped with two adaptive counterweight heads that maximize damage upon impact and stun the enemy. However, its handling requires some dexterity.</p>"
+    },
+    "Poing électrique": {
+      "name": "Electric Fist",
+      "description": "<p style=\"text-align: justify;\">Inspired by police equipment, this powerful taser activates upon contact with the enemy, allowing you to stun an overly curious civilian or an overly ambitious beast.</p>"
+    }
+  }
+}

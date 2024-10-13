@@ -1,9 +1,9 @@
 {
-  "name": "Protégé du Seigneur",
+  "name": "Affidé du Seigneur (PS / Dame)",
   "type": "capacite",
   "img": "systems/knight/assets/icons/capacite.svg",
   "system": {
-    "description": "<p>Les attaques portées sur le PNJ dont la base ou le combo comporte une caractéristique qui dépend de l'aspect du Seigneur de la créature infligent leurs dégâts divisés par deux.\nNote : réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>\n",
+    "description": "<p>Le PNJ ajoute le score de l'aspect de son Seigneur multiplié par 5 à son total de PS (ou de PA). L'aspect exceptionnel n'ajoute pas de PS supplémentaires.\nNote : réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>",
     "aspects": {
       "chair": {},
       "bete": {},
@@ -18,10 +18,10 @@
         "value": "chair"
       },
       "sante": {
-        "has": false,
+        "has": true,
         "aspect": {
-          "lie": false,
-          "value": "chair",
+          "lie": true,
+          "value": "dame",
           "multiplie": 5
         },
         "value": 0
@@ -106,7 +106,7 @@
     }
   },
   "effects": [],
-  "_id": "3661a410a4c5761b",
+  "_id": "y8EtbBa8wMRjZvUP",
   "folder": null,
   "sort": 0,
   "ownership": {
@@ -114,16 +114,16 @@
   },
   "flags": {
     "core": {
-      "sourceId": "Compendium.knight-compendium.npc-capacities-base.3661a410a4c5761b"
+      "sourceId": "Compendium.knight-compendium.npc-capacities-base.d7cf492179ece7c0"
     }
   },
   "_stats": {
     "systemId": "knight",
     "systemVersion": "1.8.6",
     "coreVersion": "10.288",
-    "createdTime": 1666890018829,
-    "modifiedTime": 1668026483945,
+    "createdTime": 1666890019275,
+    "modifiedTime": 1668026483934,
     "lastModifiedBy": "Kisv9JwB5w6zIXyv"
   },
-  "_key": "!items!3661a410a4c5761b"
+  "_key": "!items!y8EtbBa8wMRjZvUP"
 }

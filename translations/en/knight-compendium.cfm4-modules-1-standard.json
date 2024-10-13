@@ -1,0 +1,306 @@
+{
+  "label": "Modules - 1. Standard",
+  "mapping": {
+    "description": "system.description",
+    "n1EnergieTourLabel": "system.niveau.details.n1.energie.tour.label",
+    "n1EnergieMinuteLabel": "system.niveau.details.n1.energie.minute.label",
+    "n1Duration": "system.niveau.details.n1.duree",
+    "n2EnergieTourLabel": "system.niveau.details.n2.energie.tour.label",
+    "n2EnergieMinuteLabel": "system.niveau.details.n2.energie.minute.label",
+    "n2Duration": "system.niveau.details.n2.duree",
+    "n3EnergieTourLabel": "system.niveau.details.n3.energie.tour.label",
+    "n3EnergieMinuteLabel": "system.niveau.details.n3.energie.minute.label",
+    "n3Duration": "system.niveau.details.n3.duree",
+    "n1WpnEffetsCustom": "system.niveau.details.n1.arme.effets.custom",
+    "n2WpnEffetsCustom": "system.niveau.details.n2.arme.effets.custom",
+    "n3WpnEffetsCustom": "system.niveau.details.n3.arme.effets.custom",
+    "n1WpnMunitions1": "system.niveau.details.n1.arme.optionsmunitions.liste.0.nom",
+    "n1WpnMunitions2": "system.niveau.details.n1.arme.optionsmunitions.liste.1.nom",
+    "n1WpnMunitions3": "system.niveau.details.n1.arme.optionsmunitions.liste.2.nom",
+    "n2WpnMunitions1": "system.niveau.details.n2.arme.optionsmunitions.liste.0.nom",
+    "n2WpnMunitions2": "system.niveau.details.n2.arme.optionsmunitions.liste.2.nom",
+    "n3WpnMunitions1": "system.niveau.details.n3.arme.optionsmunitions.liste.0.nom",
+    "n3WpnMunitions2": "system.niveau.details.n3.arme.optionsmunitions.liste.1.nom",
+    "n3WpnMunitions3": "system.niveau.details.n3.arme.optionsmunitions.liste.2.nom"
+  },
+  "entries": {
+    "Arc à poulies": {
+      "name": "Compound Bow",
+      "description": "<p style=\"text-align: justify;\">An attack system is mounted on the gauntlet of the meta-armor, allowing the character to be effective at range without carrying a weapon. Deploying the module requires a movement action, however, firing costs a combat action. The choice of arrow is made during the attack and can therefore be defined with each shot. Regardless of the type of arrow fired, the compound bow always has the following effect: <em>two hands</em>.</p>\n<h2 style=\"text-align: justify;\">Level 2</h2>\n<p style=\"text-align: justify;\">The arrows possess an additional effect to be chosen upon purchasing the level.</p>\n<p style=\"text-align: justify;\"><strong>Elsa: </strong>Barrage 4 / Ultraviolence / Demoralizing.</p>\n<p style=\"text-align: justify;\"><strong>Scar:</strong> Shock 2 / Lethal / Cadence 2.</p>\n<h2 style=\"text-align: justify;\">Level 3</h2>\n<p style=\"text-align: justify;\">The arrows possess an additional effect to be chosen upon purchasing the level.</p>\n<p style=\"text-align: justify;\"><strong>Elsa: </strong>Light 4 / Cadence 2.</p>\n<p style=\"text-align: justify;\"><strong>Scar:</strong> Armor-piercing 60 / Penetrating 10.</p>\n<p style=\"text-align: justify;\"><strong>Improved Smoke Grenade:</strong> By spending 1 additional EP for the Elsa arrow, it is possible to activate an improved smoke grenade module. Upon firing, the knight chooses whether it is a smoke grenade that bypasses the Exceptional Machine and magnetic alternative vision or if it bypasses the Exceptional Beast and heartbeat alternative vision.</p>",
+      "n1EnergieTourLabel": "Until deactivation",
+      "n1EnergieMinuteLabel": "",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Until deactivation",
+      "n2EnergieMinuteLabel": "",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Until deactivation",
+      "n3EnergieMinuteLabel": "",
+      "n3Duration": "",
+      "n1WpnEffetsCustom": [],
+      "n2WpnEffetsCustom": [],
+      "n3WpnEffetsCustom": [],
+      "n1WpnMunitions1": "ELSA",
+      "n1WpnMunitions2": "SCAR",
+      "n2WpnMunitions1": "ELSA",
+      "n2WpnMunitions2": "SCAR",
+      "n3WpnMunitions1": "ELSA",
+      "n3WpnMunitions2": "SCAR"
+    },
+    "Polymère incapacitant": {
+      "name": "Polymère incapacitant",
+      "description": "<p style=\"text-align: justify;\">The incapacitating polymer, or slime, is a material with diverse properties: it is both sticky, elastic, and resistant. Thus, it becomes possible to freeze enemies to the surrounding walls or simply block exits. Although adversaries will always be able to destroy the polymer, this time gain will surely be used effectively by the coterie.</p>\n<h2 style=\"text-align: justify;\">Level 2</h2>\n<p style=\"text-align: justify;\">The immobilization 10 effect becomes immobilization 15 and gains the scatter 3 effect.</p>\n<h2 style=\"text-align: justify;\">Level 3</h2>\n<p style=\"text-align: justify;\">The barrage 2 effect becomes barrage 4 and the module inflicts 1D6 additional violence.</p>",
+      "n1EnergieTourLabel": "",
+      "n1EnergieMinuteLabel": "",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "",
+      "n2EnergieMinuteLabel": "",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "",
+      "n3EnergieMinuteLabel": "",
+      "n3Duration": "",
+      "n1WpnEffetsCustom": [
+        {
+          "label": "Non-lethal",
+          "description": "",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ],
+      "n2WpnEffetsCustom": [
+        {
+          "label": "Non-lethal",
+          "description": "",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ],
+      "n3WpnEffetsCustom": [
+        {
+          "label": "Non-lethal",
+          "description": "",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    }
+  }
+}

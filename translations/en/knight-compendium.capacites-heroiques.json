@@ -1,0 +1,64 @@
+{
+  "label": "Heroic abilities",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Art Guerrier": {
+      "name": "War Art",
+      "description": "<p>With their melee or ranged attacks, the PC strikes all engaged hostiles, scoundrels, or bosses with them or within range (they must choose which type of enemy they strike with each attack).</p>\n<ul>\n<li>Activation: Movement action</li>\n<li>Duration: One scene or one conflict phase</li>\n<li>Heroism: 2</li>\n<li>Category: Combat</li>\n<li>XP: 10</li>\n</ul>"
+    },
+    "Colère du juste": {
+      "name": "Righteous Wrath",
+      "description": "<p>In melee combat or ranged combat, if the knight targets and hits a gang, they do not roll their violence dice but automatically deal the maximum possible violence on each die. For example, 3D6 of violence automatically becomes 18 points of violence. These maximum damages are, of course, added to any fixed bonuses offered by modules, overdrives, or the weapon itself.</p>\n<ul>\n<li>Activation: Movement action</li>\n<li>Duration: One conflict phase</li>\n<li>Heroism: 3</li>\n<li>Category: Combat</li>\n<li>XP: 20</li>\n</ul>"
+    },
+    "Combo + 1": {
+      "name": "Combo + 1",
+      "description": "<p>The PC can add another characteristic to each of their combos. They can generally use two, as the rules stipulate, and thus add a third to define the total dice to roll for their test.</p>\n<p>The PC can add another characteristic to each of their combos. They can generally use two, as the rules stipulate, and thus add a third to define the total dice to roll for their test.</p>\n<ul>\n<li>Activation: None</li>\n<li>Duration: One scene or one conflict phase</li>\n<li>Heroism: 2</li>\n<li>Category: General</li>\n<li>XP: 10</li>\n</ul>"
+    },
+    "Combo + 2": {
+      "name": "Combo + 2",
+      "description": "<p>The PC can add two other characteristics to each of their combos. They can generally use two, as the rules stipulate, and thus add a third and a fourth to define the total dice to roll for their test.</p>\n<ul>\n<li>Activation: None</li>\n<li>Duration: One scene or one conflict phase</li>\n<li>Heroism: 5</li>\n<li>Category: General</li>\n<li>XP: 20</li>\n</ul>"
+    },
+    "Commandant implacable": {
+      "name": "Implacable Commander",
+      "description": "<p>The knight allows allied PCs (and therefore not themselves) to have an additional combat action (contact or ranged) each turn in the conflict phase.</p>\n<ul>\n<li>Activation: Combat action</li>\n<li>Duration: One conflict phase</li>\n<li>Heroism: 5</li>\n<li>Category: Combat</li>\n<li>XP: 30</li>\n</ul>"
+    },
+    "Connaissance des lieux": {
+      "name": "Knowledge of the Area",
+      "description": "<p>The GM, if possible, must provide a precise plan of the building where the PCs are located. Once activated, this ability applies to only one floor. The GM must place any hidden rooms and potential threats, such as characters or security systems, on the plan.</p>\n<ul>\n<li>Activation: None</li>\n<li>Duration: One scene</li>\n<li>Heroism: 3</li>\n<li>Category: Investigation</li>\n<li>XP: 10</li>\n</ul>"
+    },
+    "Discours enflammé": {
+      "name": "Inflamed Speech",
+      "description": "<p>Through a particularly galvanizing speech, the knight can restore hope to desperate people or those on the verge of despair. All people hearing the speech automatically recover 1D6 hope points, to which the knight's Aura score using the ability is added. Desperate people who hear the speech automatically benefit from the hope effect, and the difficulty of the test that NPCs must succeed when subjected to this effect is reduced by one level.</p>\n<p>Finally, a gang of desperate people who hear the speech can also attempt to succeed in a test (difficulty arduous) to regain hope, as if they were a desperate hostile type benefiting from the hope effect. If the test is successful, it is considered that a wave of hope spreads among the gang and that its members regain their spirits. The gang then no longer poses a danger to the knights.</p>\n<ul>\n<li>Activation: Combat action</li>\n<li>Duration: Instantaneous</li>\n<li>Heroism: 5</li>\n<li>Category: Social</li>\n<li>XP: 20</li>\n</ul>"
+    },
+    "Fin limier": {
+      "name": "Keen Tracker",
+      "description": "<p>This ability is to be used when the knight wants to follow an NPC that they have directly in sight. Thanks to discreet clues, whatever happens, the PC always finds the trace of the targeted NPC. The GM can, if they wish, improvise easy to arduous difficulty tests to symbolize the time the knight takes to find the NPC. This can range from a few minutes to several days of tracking.</p>\n<ul>\n<li>Activation: None</li>\n<li>Duration: Until the target is found</li>\n<li>Heroism: 2</li>\n<li>Category: Investigation</li>\n<li>XP: 10</li>\n</ul>"
+    },
+    "Frappe terribles": {
+      "name": "Terrible Strikes",
+      "description": "<p>In melee combat, if the knight hits their target, they do not roll their damage dice but automatically deal the maximum possible damage on each die. For example, 3D6 of damage automatically becomes 18 points of damage. To these maximum damages are, of course, added the fixed damage bonuses of the weapon (or module) and the bonuses provided by the characteristics, overdrives, and modules of the PC.</p>\n<ul>\n<li>Activation: Movement action</li>\n<li>Duration: One conflict phase</li>\n<li>Heroism: 4</li>\n<li>Category: Combat</li>\n<li>XP: 20</li>\n</ul>"
+    },
+    "Instinct infaillible": {
+      "name": "Infallible Instinct",
+      "description": "<p>The PC instinctively knows where to find a useful clue in the investigations of the Knight in a nearby room or location. If no clue is present, the GM must imagine a document or introduce an NPC guiding the PCs towards the continuation of the mission.</p>\n<ul>\n<li>Activation: None</li>\n<li>Duration: Instantaneous</li>\n<li>Heroism: 5</li>\n<li>Category: Investigation</li>\n<li>XP: 20</li>\n</ul>"
+    },
+    "Investigateur expert": {
+      "name": "Expert Investigator",
+      "description": "<p>Tests made with the PC's Perception or Instinct characteristics receive 3 automatic successes.</p>\n<ul>\n<li>Activation: None</li>\n<li>Duration: One scene or one conflict phase</li>\n<li>Heroism: 2</li>\n<li>Category: Investigation</li>\n<li>XP: 10</li>\n</ul>"
+    },
+    "Majesté du chevalier": {
+      "name": "Knight's Majesty",
+      "description": "<p>Tests made with the PC's Speech or Aura characteristics receive 3 automatic successes.</p>\n<ul>\n<li>Activation: None</li>\n<li>Duration: One scene or one conflict phase</li>\n<li>Heroism: 2</li>\n<li>Category: Social</li>\n<li>XP: 10</li>\n</ul>"
+    },
+    "Œil d'aigle": {
+      "name": "Eagle Eye",
+      "description": "<p>The PC ignores the range penalties of their ranged weapon (up to long range) and, for each success exceeding the enemy's reaction score, the PC adds 3 points to the result of their damage (if shooting at a hostile, scoundrel, colossus, or boss) or 3 points to the result of their violence test (if shooting at a gang). This heroic ability can be combined with the attack assistance effect.</p>\n<ul>\n<li>Activation: Movement action</li>\n<li>Duration: One scene or one conflict phase</li>\n<li>Heroism: 3</li>\n<li>Category: Combat</li>\n<li>XP: 20</li>\n</ul>"
+    },
+    "Prédateurs et proies": {
+      "name": "Predators and Prey",
+      "description": "<p>Against all enemies present in the scene or in the conflict phase, the PC and their allies receive a bonus of one automatic success on their combat or ranged tests. Additionally, all present enemies are considered to be designated (the designation bonus is added to the automatic success offered by the ability).</p>\n<ul>\n<li>Activation: Movement action</li>\n<li>Duration: One scene or one conflict phase</li>\n<li>Heroism: 1</li>\n<li>Category: Combat</li>\n<li>XP: 10</li>\n</ul>"
+    }
+  }
+}
