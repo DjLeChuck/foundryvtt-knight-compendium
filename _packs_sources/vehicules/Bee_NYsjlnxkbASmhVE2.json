@@ -62,7 +62,7 @@
     "descriptionLimitee": ""
   },
   "prototypeToken": {
-    "name": "Bee",
+    "name": "Vector de combat",
     "displayName": 0,
     "actorLink": false,
     "texture": {
@@ -112,7 +112,7 @@
     },
     "sight": {
       "enabled": false,
-      "range": 0,
+      "range": null,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
