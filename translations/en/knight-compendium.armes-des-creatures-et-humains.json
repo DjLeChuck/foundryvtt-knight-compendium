@@ -140,6 +140,14 @@
       "name": "Shards of shadow",
       "description": ""
     },
+    "Eclats d'abysse": {
+      "name": "Shards of abyss",
+      "description": ""
+    },
+    "Eclats d'ombre": {
+      "name": "Shards of shadow",
+      "description": ""
+    },
     "Épée": {
       "name": "Sword",
       "description": ""
@@ -157,6 +165,10 @@
       "description": ""
     },
     "Épines d'os": {
+      "name": "Bone spines",
+      "description": ""
+    },
+    "épines d'os": {
       "name": "Bone spines",
       "description": ""
     },
@@ -218,6 +230,14 @@
     },
     "Gueule du vide": {
       "name": "Empty maw",
+      "description": ""
+    },
+    "ARMES EMPOISONNÉES": {
+      "name": "Poisoned weapons",
+      "description": ""
+    },
+    "PROJECTILES EMPOISONNÉS": {
+      "name": "Poisoned projectiles",
       "description": ""
     },
     "Gungir, la lance d'Odin (contact)": {

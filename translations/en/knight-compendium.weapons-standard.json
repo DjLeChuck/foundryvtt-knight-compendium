@@ -87,7 +87,7 @@
       "description": "<p>Les chevaliers qui ne connaissent pas cette arme ne pourront pas se plaindre le jour où ils seront débordés par une bande ennemie. Le concept de ce pistolet mitrailleur est simple : deux canons superposés, deux chargeurs, un dans la poignée, un autre à l'avant du pontet, et voilà, ça crache deux fois plus de plomb. Les méta-armures absorbent tout le recul, il n'y a donc pas de crosse.</p>\n"
     },
     "Shotgun escamotable": {
-      "name": "Shotgun escamotable",
+      "name": "Foldable shotgun",
       "description": "<p>Knights who look down on SMGs have no right to complain if they get overrun by enemy bands. This personal defence weapon has a simple design: two barrels, two magazines, one in the grip and one in the trigger guard, shooting twice as often as regular SMGs. The lack of stock is an intentional feature, since metaarmour absorbs the weapon’s recoil.</p>\n"
     },
     "Épée bâtarde": {

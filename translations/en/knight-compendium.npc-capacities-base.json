@@ -12,6 +12,14 @@
       "name": "Unerring senbongiri (melee/ranged)",
       "description": "<p>When the NPC attacks in melee/ranged, they never miss. Their target‘s defence rating is automatically reduced to zero for their melee attacks.</p>\n"
     },
+    "À coup sûr (contact)": {
+      "name": "Unerring senbongiri (melee)",
+      "description": "<p>When the NPC attacks in melee, they never miss. Their target‘s defence rating is automatically reduced to zero for their melee attacks.</p>\n"
+    },
+    "À coup sûr (distance)": {
+      "name": "Unerring senbongiri (ranged)",
+      "description": "<p>When the NPC attacks in ranged, they never miss. Their target‘s defence rating is automatically reduced to zero for their melee attacks.</p>\n"
+    },
     "À revers": {
       "name": "Backstab",
       "description": "<p>Once per conflict phase, the NPC can take the characters by surprise, simply appearing behind them with each of its attacks. Their defense and reaction are then halved, and the NPC's damage is increased by 3D6 for the entire turn.</p>\n"
@@ -31,6 +39,22 @@
     "Actions multiples (X)": {
       "name": "Multiple actions (X)",
       "description": "<p>The NPC has X extra combat action, in addition to their move action and standard combat action. It must use this additional action at its initiative phase.</p>\n"
+    },
+    "Actions multiples (1)": {
+      "name": "Multiple actions (1)",
+      "description": "<p>The NPC has 1 extra combat action, in addition to their move action and standard combat action. It must use this additional action at its initiative phase.</p>\n"
+    },
+    "Actions multiples (2)": {
+      "name": "Multiple actions (2)",
+      "description": "<p>The NPC has 2 extra combat action, in addition to their move action and standard combat action. It must use this additional action at its initiative phase.</p>\n"
+    },
+    "Actions multiples (3)": {
+      "name": "Multiple actions (3)",
+      "description": "<p>The NPC has 3 extra combat action, in addition to their move action and standard combat action. It must use this additional action at its initiative phase.</p>\n"
+    },
+    "Actions multiples (4)": {
+      "name": "Multiple actions (4)",
+      "description": "<p>The NPC has 4 extra combat action, in addition to their move action and standard combat action. It must use this additional action at its initiative phase.</p>\n"
     },
     "Aisance": {
       "name": "Ease",
@@ -67,6 +91,10 @@
     "Armes multiples (1 à 3 standards)": {
       "name": "Multiple weapons (1 à 3 standard)",
       "description": "<p>The NPC can be equipped with X weapons up to the corresponding rarity in the arsenal.</p>\n"
+    },
+    "Armes multiples (6 rares)": {
+      "name": "Multiple weapons (6 rare)",
+      "description": "<p>The NPC can be equipped with 6 weapons up to the corresponding rarity in the arsenal.</p>\n"
     },
     "Artisan de la Machine": {
       "name": "Artisan of the Machine",
@@ -257,16 +285,36 @@
       "description": "<p>As long as it has not attacked, the NPC is considered to have double its defense and reaction. Once it has attacked, it becomes tangible until the end of the combat and possesses its normal defense and reaction scores.</p>\n"
     },
     "Équipement (1 à 3 avancé)": {
-      "name": "Equipment (3 advanced quality weapons or modules)",
+      "name": "Equipment (1 to 3 advanced)",
       "description": "<p>The NPC has 3 weapons or modules of advanced quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
     },
     "Équipement (1 à 3 rares)": {
-      "name": "Equipment (3 rare quality weapons or modules)",
+      "name": "Equipment (1 to 3 rare)",
       "description": "<p>The NPC has 3 weapons or modules of rare quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
     },
     "Équipement (1 à 3 standard)": {
-      "name": "Equipment (3 standard quality weapons or modules)",
+      "name": "Equipment (1 to 3 standard)",
       "description": "<p>The NPC has 3 weapons or modules of standard quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Équipement (2 avancé, 1 rares)": {
+      "name": "Equipment (2 advanced, 1 rare)",
+      "description": "<p>The NPC has 2 weapons or modules of advanced quality or lower chosen from the arsenal and 1 weapons or modules of rare quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Équipement (10)": {
+      "name": "Equipment (10)",
+      "description": "<p>The NPC has 10 weapons or modules of rare quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Équipement (10 rares)": {
+      "name": "Equipment (10 rare)",
+      "description": "<p>The NPC has 10 weapons or modules of rare quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Équipement (10 avancé)": {
+      "name": "Equipment (10 advanced)",
+      "description": "<p>The NPC has 10 weapons or modules of advanced quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
+    },
+    "Équipement (10 standard)": {
+      "name": "Equipment (10 standard)",
+      "description": "<p>The NPC has 10 weapons or modules of standard quality or lower chosen from the arsenal. This ability may apply to an NPC without meta-armour. When this is the case, the NPC gains all the ability’s effects without having to spend any EP. They must still expend any activation time requirements. How the modules appear on the NPC is up to the GM to decide.</p>\n"
     },
     "Espion": {
       "name": "Spy",
@@ -295,6 +343,14 @@
     "Exosquelette de combat (nvX)": {
       "name": "Combat exoskeleton (lvl X)",
       "description": "<p>The NPC has exceptional aspect scores and lvl X leap and sprint modules. If the NPC’s AP reaches 0, they lose these bonuses.</p>\n"
+    },
+    "Exosquelette de combat (nv1)": {
+      "name": "Combat exoskeleton (lvl 1)",
+      "description": "<p>The NPC has exceptional aspect scores and lvl 1 leap and sprint modules. If the NPC’s AP reaches 0, they lose these bonuses.</p>\n"
+    },
+    "Exosquelette de combat (nv 1)": {
+      "name": "Combat exoskeleton (lvl 1)",
+      "description": "<p>The NPC has exceptional aspect scores and lvl 1 leap and sprint modules. If the NPC’s AP reaches 0, they lose these bonuses.</p>\n"
     },
     "Faille vivante": {
       "name": "Living portal",
@@ -540,6 +596,10 @@
       "name": "Meta-armour (Rogue)",
       "description": "<p>The NPC possesses the capabilities of a Rogue meta-armour with evolution at 150 and 200 PG total.</p>"
     },
+    "Méta-armure (Rogue 5 rare)": {
+      "name": "Meta-armour (Rogue)",
+      "description": "<p>The NPC possesses the capabilities of a Rogue meta-armour and 5 modules up to rare from the arsenal. If its AP drops to 0, these benefits are canceled, until the armour is repaired.</p>"
+    },
     "Méta-armure (Wizard)": {
       "name": "Meta-armour (Wizard)",
       "description": "<p>The NPC possesses the capabilities of a Wizard meta-armour with 5 rare modules and evolutions at 300 PG.</p>"
@@ -563,6 +623,18 @@
     "Module (nom du module standard au nvX)": {
       "name": "Module (standard module name at lvl X)",
       "description": "<p>The NPC benefits from the equivalent of the module indicated at level X.</p>\n"
+    },
+    "Module (saut/vol/course nv3)": {
+      "name": "Module (Leap/Flight/Sprint lvl 3)",
+      "description": "<p>Allows the user to jump to a height equal to long range and to a distance of far range (up to half a mile). Target destination at far range is reached 2 turns later (the activation turn is spent in the air, the following turn too, with the character landing on turn 3). While in midair, the character can still perform ranged attacks, at a penalty of -2 successes on their attack roll. They gain +2 to their reaction score while leaping. Upon landing 2 turns after a far range leap, the character may use their combat action and move action as usual. Changing direction while midair is possible, but to do so requires a Movement based skill check (difficulty to be determined by the GM). If a lvl 3 leap module is used to jump into contact range and attack an enemy with a melee weapon, the user deals an additional 12 damage./<p>\n<p>Allows the character to move up to far range in one move action (as much as a vehicle speed rating of 4). This increased run speed can be prolonged without stopping by paying the energy cost again each move action, and can be done as often as the user wants and can pay. If the user performs a melee combat action while running at increased speed against an adversary slower than them, they deal 12 additional damage to their target. The force of the impact deals half the attack’s damage (rounded down) back to the attacker.</p>\n<p>Allows the character to fly up to long range in one move action (as much as a vehicle speed rating of 3). Duration increases to 10 turns / 100 seconds. Flight duration may be extended (without interruption) by spending the activation cost as for long as the character can afford it.</p>\n"
+    },
+    "Module (saut nv2)": {
+      "name": "Module (Leap lvl 2)",
+      "description": "<p>Allows the user to jump to a height equal to medium range and to a distance of long range. Target destination at long range is reached on the following turn. While in midair, the character can still perform ranged attacks, at a penalty of -2 successes on their attack roll. They gain +2 to their reaction score while leaping. Upon landing on the turn after a long leap, the character may use their combat action and move action as usual. If a lvl 2 leap module is used to jump into contact range and attack an enemy with a melee weapon, the user deals an additional 9 damage.</p>\n"
+    },
+    "Module (phase nv2)": {
+      "name": "Module (Phase module lvl 2)",
+      "description": "<p>The character can phase or pass through matter. Over the course of one action, they can travel (horizontally or vertically) through 20 inches of any solid matter except alpha element. To travel through thicker surfaces, they must pay additional energy at a cost of one activation per 20 inches of matter. If the character is stuck in solid matter, they are disintegrated and die outright.</p>\n<h2>Level 2</h2>\n<p>A character with a phase module may now activate it to avoid a single attack. The attack deals no damage, as if it had missed.</p>\n"
     },
     "Modules rares": {
       "name": "Rare Modules",
@@ -619,6 +691,22 @@
     "Peur (X)": {
       "name": "Fear (X)",
       "description": "<p>When a conflict phase with this NPC (or several NPCs with the fear ability) starts, all PCs must make a Composure or Aggression based skill check against one of the NPC’s aspects (chosen by the GM) divided by two. If they succeed, they suffer a -1 D penalty to all their rolls. If they fail, they suffer a -X D penalty to all their rolls and their reaction and defence values suffer a 2-point penalty. In the event of a critical failure, the PC is frozen in terror for 2D6 turns and cannot do anything. This effect can only apply to a PC once per turn.</p>\n"
+    },
+    "Peur (1)": {
+      "name": "Fear (1)",
+      "description": "<p>When a conflict phase with this NPC (or several NPCs with the fear ability) starts, all PCs must make a Composure or Aggression based skill check against one of the NPC’s aspects (chosen by the GM) divided by two. If they succeed, they suffer a -1 D penalty to all their rolls. If they fail, they suffer a -1 D penalty to all their rolls and their reaction and defence values suffer a 2-point penalty. In the event of a critical failure, the PC is frozen in terror for 2D6 turns and cannot do anything. This effect can only apply to a PC once per turn.</p>\n"
+    },
+    "Peur (2)": {
+      "name": "Fear (2)",
+      "description": "<p>When a conflict phase with this NPC (or several NPCs with the fear ability) starts, all PCs must make a Composure or Aggression based skill check against one of the NPC’s aspects (chosen by the GM) divided by two. If they succeed, they suffer a -1 D penalty to all their rolls. If they fail, they suffer a -2 D penalty to all their rolls and their reaction and defence values suffer a 2-point penalty. In the event of a critical failure, the PC is frozen in terror for 2D6 turns and cannot do anything. This effect can only apply to a PC once per turn.</p>\n"
+    },
+    "Peur (3)": {
+      "name": "Fear (3)",
+      "description": "<p>When a conflict phase with this NPC (or several NPCs with the fear ability) starts, all PCs must make a Composure or Aggression based skill check against one of the NPC’s aspects (chosen by the GM) divided by two. If they succeed, they suffer a -1 D penalty to all their rolls. If they fail, they suffer a -3 D penalty to all their rolls and their reaction and defence values suffer a 2-point penalty. In the event of a critical failure, the PC is frozen in terror for 2D6 turns and cannot do anything. This effect can only apply to a PC once per turn.</p>\n"
+    },
+    "Peur (4)": {
+      "name": "Fear (4)",
+      "description": "<p>When a conflict phase with this NPC (or several NPCs with the fear ability) starts, all PCs must make a Composure or Aggression based skill check against one of the NPC’s aspects (chosen by the GM) divided by two. If they succeed, they suffer a -1 D penalty to all their rolls. If they fail, they suffer a -4 D penalty to all their rolls and their reaction and defence values suffer a 2-point penalty. In the event of a critical failure, the PC is frozen in terror for 2D6 turns and cannot do anything. This effect can only apply to a PC once per turn.</p>\n"
     },
     "Phase 2": {
       "name": "Phase 2",
@@ -776,6 +864,14 @@
       "name": "Superhuman (9 exceptional aspect points)",
       "description": "<p>The GM may distribute X exceptional aspect points as they wish. The NPC gains all the usual bonuses granted by exceptional aspects.</p>\n"
     },
+    "Surhomme (3 à 18 points d'aspect exceptionnel)": {
+      "name": "Superhuman (3 to 18 exceptional aspect points)",
+      "description": "<p>The GM may distribute 3 to 18 exceptional aspect points as they wish. The NPC gains all the usual bonuses granted by exceptional aspects.</p>\n"
+    },
+    "Surhomme (Penumbra)": {
+      "name": "Superhuman (Penumbra)",
+      "description": "<p>When it ingests penumbra, the NPC benefits from 3 points in its exceptional aspects and their effects.</p>\n"
+    },
     "Tailles diverses": {
       "name": "Varying size",
       "description": "<p>Some NPCs of this type can be considered Behemoths. The GM should plan accordingly when setting up a mission.</p>\n"
@@ -791,6 +887,18 @@
     "Téléportation (élément)": {
       "name": "Teleportation (element)",
       "description": "<p>The NPC can appear and disappear at will, travelling from element to element.</p>\n"
+    },
+    "Téléportation (ombre)": {
+      "name": "Teleportation (shadow)",
+      "description": "<p>The NPC can appear and disappear at will, travelling from shadow to shadow.</p>\n"
+    },
+    "Téléportation (portée courte)": {
+      "name": "Teleportation (short range)",
+      "description": "<p>The NPC can appear and disappear at will, travelling to short range.</p>\n"
+    },
+    "Téléportation (mur)": {
+      "name": "Teleportation (Wall)",
+      "description": "<p>The NPC can appear and disappear at will, travelling from wall to wall.</p>\n"
     },
     "Terreur": {
       "name": "Terror",
@@ -832,6 +940,10 @@
       "name": "Flight",
       "description": "<p>The NPC may fly up to long range in one turn (as much as a vehicle speed rating of 3).</p>\n"
     },
+    "Affidé du Seigneur": {
+      "name": "Overlord’s acolyte",
+      "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>"
+    },
     "Affidé du Seigneur (PA / Bête)": {
       "name": "Overlord’s acolyte (PA / Beast)",
       "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: réservé aux créatures affiliées à un des cinq Seigneurs suivants : Chair, Bête, Machine, Dame ou Masque.</p>"
@@ -872,6 +984,10 @@
       "name": "Overlord’s acolyte (HP / Mask)",
       "description": "<p>The NPC adds 5 times their Overlord’s aspect value to their HP (or AP) total. Exceptional aspect scores do not add additional HP or AP.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
     },
+    "Élu du Seigneur": {
+      "name": "Overlord’s chosen",
+      "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
     "Élu du Seigneur (Bête)": {
       "name": "Overlord’s chosen (Beast)",
       "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
@@ -891,6 +1007,10 @@
     "Élu du Seigneur (Masque)": {
       "name": "Overlord’s chosen (Mask)",
       "description": "<p>The NPC’s aspect score can be increased above 20 in their Overlord’s aspect, and its corresponding exceptional aspect can be increased above 10. These scores cannot exceed 40 (for aspects) or 20 (for exceptional aspects).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Protégé du Seigneur": {
+      "name": "Overlord’s protection",
+      "description": "<p>Attacks against the NPC with a combo characteristic that depends on the creature’s Overlord’s aspect do half damage.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
     },
     "Protégé du Seigneur (Bête)": {
       "name": "Overlord’s protection (Beast)",
@@ -912,6 +1032,10 @@
       "name": "Overlord’s protection (Mask)",
       "description": "<p>Attacks against the NPC with a combo characteristic that depends on the creature’s Overlord’s aspect do half damage.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
     },
+    "Tueur du Seigneur": {
+      "name": "Overlord’s executioner",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
     "Tueur du Seigneur (Bête)": {
       "name": "Overlord’s executioner (Beast)",
       "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
@@ -931,6 +1055,10 @@
     "Tueur du Seigneur (Masque)": {
       "name": "Overlord’s executioner (Mask)",
       "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC increases their damage by a fixed amount equal to their Overlord’s aspect score (disregarding any exceptional aspect scores the NPC may have).\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
+    },
+    "Serviteur du Seigneur": {
+      "name": "Overlord’s thrall",
+      "description": "<p>When the NPC’s target has an aspect score of 7 or more (or 14 or more for an NPC) in their Overlord’s aspect, the NPC treats their target’s defence and reaction scores as if they were halved.\nReminder: can only be given to creatures affiliated with one of the five following Overlords: Flesh, Beast, Machine, Lady, or Mask.</p>"
     },
     "Serviteur du Seigneur (Bête)": {
       "name": "Overlord’s thrall (Beast)",
