@@ -1,0 +1,137 @@
+{
+  "name": "Fouet lumière",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Inspir&eacute; par l'armure Wizard, le fouet lumi&egrave;re est compos&eacute; d'un tube en alliage souple sur lequel on a plac&eacute; un r&eacute;seau de canaux o&ugrave; circule du plasma. Non seulement l'arme produit une lumi&egrave;re vive mais cela rend aussi le fouet extr&ecirc;mement chaud. Bonus : un petit &eacute;metteur de flux a &eacute;t&eacute; install&eacute; dans la poign&eacute;e afin qu'il produise en permanence un ordre de recul. Efficacit&eacute; garantie sur les cr&eacute;atures les plus faibles.</p>",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "courte",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "lumiere 4",
+        "antianatheme",
+        "soumission",
+        "tenebricide",
+        "intimidantana",
+        "boostviolence 4",
+        "boostdegats 4"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "Haa6UNdGmXoCBTy7",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!Haa6UNdGmXoCBTy7"
+}

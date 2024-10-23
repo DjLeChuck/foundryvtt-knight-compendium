@@ -1,0 +1,134 @@
+{
+  "name": "Mitrailleuse F-34-R",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Cette mitrailleuse l&eacute;g&egrave;re M249 a &eacute;t&eacute; sp&eacute;cialement modifi&eacute;e pour para&icirc;tre impressionnante : le canon a &eacute;t&eacute; agrandi et allong&eacute;, le cylindre &agrave; gaz a &eacute;t&eacute; perc&eacute; et les bruits ont d'ailleurs &eacute;t&eacute; amplifi&eacute;s par un ensemble d'enceintes. D'ordinaire sombre, l'arme est peinte de couleurs agressives et les balles sont creus&eacute;es pour provoquer un sifflement strident lors du tir. En appuyant simplement sur la g&acirc;chette, la mitrailleuse provoque un brouhaha infect capable de semer la panique chez ceux qui l'entendent. &Eacute;videmment, l'arme emporte plusieurs bandes de munitions chacune, donc il ne faut pas h&eacute;siter &agrave; garder le doigt press&eacute; sur la d&eacute;tente.</p>",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 60,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 3,
+      "fixe": 3,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 4",
+        "demoralisant",
+        "deuxmains",
+        "intimidanthum"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "rfrleyMqsXFHU4hB",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!rfrleyMqsXFHU4hB"
+}

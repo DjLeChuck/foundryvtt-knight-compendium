@@ -1,0 +1,98 @@
+{
+  "label": "Weapons - 1. Standard",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom"
+  },
+  "entries": {
+    "Bouclier amovible - Contact": {
+      "name": "Detachable Shield - Melee",
+      "description": "<p>This square shield was designed to protect Knights in melee combat. Four panels with toothed edges can deploy to increase its covered area as well as its lethality. At the centre of the shield is a single-use, front-facing directional explosive charge, for extreme situations. Using the charge is done with the shield firmly anchored in the ground. If the ground is made of concrete, its user just has to pound it in harder!</p>\n"
+    },
+    "Bouclier amovible - Tir (bouclier déployé)": {
+      "name": "Detachable Shield - Ranged (shield deployed)",
+      "description": "<p>This square shield was designed to protect Knights in melee combat. Four panels with toothed edges can deploy to increase its covered area as well as its lethality. At the centre of the shield is a single-use, front-facing directional explosive charge, for extreme situations. Using the charge is done with the shield firmly anchored in the ground. If the ground is made of concrete, its user just has to pound it in harder!</p>\n"
+    },
+    "Ceste lourd": {
+      "name": "Heavy cestus",
+      "description": "<p>Some Knights prefer to let their fists do the talking, and so Gawain made these weapons for them. Heavy cestuses slip over meta-armour gauntlets before punching hostiles in the face. They are made of heavy, durable alloy, with added spikes capable of smashing through armour plating. Hook, jab, uppercut–or chop, smack, and throttle. A fit for all hand-to-hand styles.</p>\n"
+    },
+    "Coups": {
+      "name": "Slap",
+      "description": "<p>Basic weapon for certain NPCs.</p>\n"
+    },
+    "Couteau de combat": {
+      "name": "Combat knife",
+      "description": "<p>All soldiers worth their salt learn how to fight with a knife. Avalon’s combat knives are made from an almost indestructible alpha element alloy. Sabre-shaped blades with a sawback for added utility. Solid handle guard. In short, a simple, functional blade that can cut an enemy’s throat in silence or slash and stab foes when cornered.</p>\n"
+    },
+    "Fusil d'assaut": {
+      "name": "Assault rifle",
+      "description": "<p>This rifle is Avalon’s primary mass-produced weapon. Asian Dragon soldiers use it with their exoskeletons. Its nickname comes from its codename, ASKR-1. It is designed to be heavy, cumbersome, and packed to the brim with ammunition. No other assault rifle fires as many rounds per minute. Helmets or ear protection is mandatory to prevent hearing loss when used.</p>\n"
+    },
+    "Fusil de précision": {
+      "name": "Sniper rifle",
+      "description": "<p>Sniper rifles are favoured by recruits who prefer to keep a safe distance between them and their target. They are a reliable, effective means of firing shot after shot of large calibre ammunition at distances of more than 1500 feet. A high-definition camera attached to the barrel allows safe firing from cover, its feed appearing directly on the armour’s HUD. Sniper rifles can also mark enemies, holotargeting them for their banner to see on their AR displays. Furthermore, once the shooter has picked their target, the rifle’s automatic ballistic targeting system helps plot the ideal trajectory for immediate incapacitation.</p>\n"
+    },
+    "Hache de combat": {
+      "name": "Combat axe",
+      "description": "<p>This axe is designed to combat groups of enemies. It uses self-powered magnetic accelerators that make the spinning strikes particularly devastating even on isolated targets.</p>\n"
+    },
+    "Lance perforante à piston": {
+      "name": "Piston perforating spear",
+      "description": "<p>In slaughterhouses, captive bolt pistols are often used to « stun » livestock before killing them. In fact, it is a rod that is projected at high speed onto the animal's skull, making a perforation before returning inside the pistol. We have adopted the principle to provide a polearm for newly arrived knights. The result resembles a long, very sober black stick with one end slightly widened. When struck with it, a fifty-centimeter alpha element point perforates the target in a fraction of a second before returning inside the stick.</p>\n"
+    },
+    "Lance-grenade léger": {
+      "name": "Light grenade launcher",
+      "description": "<p>This weapon resembles a roided-up pistol that shoots 1.5-inch grenades. Stick a large magazine under its muzzle, arm it, and lob several flavours of ordnance. Explosive, incendiary, and armour-shredding grenades can be cycled through to fit the needs of the user. Switching grenade types takes a full turn during a conflict phase.</p>\n",
+      "m0Nom": "Armour-piercing grenade",
+      "m1Nom": "Explosive grenade",
+      "m2Nom": "Incendiary grenade"
+    },
+    "Marteau-épieu - Contact": {
+      "name": "Hammerspike - Melee",
+      "description": "<p>A heavy hammer made entirely of metal with an octagonal shaped head at one end and a curved pick on the other. Common among squires, who use it as much as a tool as they do as a weapon. Just in case, a single shot 8-inch calibre cartridge filled with radiant-incendiary buckshot is encased at the end of the handle, allowing for one devastating short-range explosive attack.</p>\n"
+    },
+    "Marteau-épieu - Tir": {
+      "name": "Hammerspike - Ranged",
+      "description": "<p>A heavy hammer made entirely of metal with an octagonal shaped head at one end and a curved pick on the other. Common among squires, who use it as much as a tool as they do as a weapon. Just in case, a single shot 8-inch calibre cartridge filled with radiant-incendiary buckshot is encased at the end of the handle, allowing for one devastating short-range explosive attack.</p>\n"
+    },
+    "Matraque taser": {
+      "name": "Taser batons",
+      "description": "<p>This pair of batons with electrified tips is used to neutralize targets without causing their death. Although causing terrible injuries and burns, the shock is so strong that it can stun even a creature of the Anathema.</p>\n"
+    },
+    "Morgenstern": {
+      "name": "Morning star",
+      "description": "<p>Morning stars, or spiked maces, are reinforced tungsten cylinders topped with a set of long, razor-sharp claws. This sturdy, no-nonsense tool gets the job done, crushing and slicing foes into a bloody mess.</p>\n"
+    },
+    "Pistolet connecté": {
+      "name": "Connected pistol",
+      "description": "<p>This semi-automatic pistol is directly connected to the augmented reality sight interface of the meta-armour for more carnage. Well-balanced and automatically compensating for recoil, it is very useful for dual-wielding techniques.</p>\n"
+    },
+    "Pistolet de précision": {
+      "name": "Precision pistol",
+      "description": "<p>This precise semi-automatic pistol, featuring an integrated laser sight and an ergonomic grip adapted to meta-armours, is the favorite of sharpshooters. While not rivaling sniper rifles, it excels at short and medium range.</p>\n"
+    },
+    "Pistolet de service - Contact": {
+      "name": "Service pistol - Melee",
+      "description": "<p>The service pistol is the arsenal’s least impressive and most important weapon. As Avalon’s service weapon, it accompanies every Knight at all times. When not in use, the device is little more than a grip ending in a sculpture made of nanomachines. A flick of the wrist one way turns it into a semi-automatic pistol with a silencer, another flick and it becomes a combat knife. Sculpture, pistol model, and knife shape can all be tailored to suit its user. Usable out of meta-armour.</p>\n"
+    },
+    "Pistolet de service - Tir": {
+      "name": "Service pistol - Ranged",
+      "description": "<p>The service pistol is the arsenal’s least impressive and most important weapon. As Avalon’s service weapon, it accompanies every Knight at all times. When not in use, the device is little more than a grip ending in a sculpture made of nanomachines. A flick of the wrist one way turns it into a semi-automatic pistol with a silencer, another flick and it becomes a combat knife. Sculpture, pistol model, and knife shape can all be tailored to suit its user. Usable out of meta-armour.</p>\n"
+    },
+    "Pistolet mitrailleur": {
+      "name": "Submachine gun",
+      "description": "<p>Les chevaliers qui ne connaissent pas cette arme ne pourront pas se plaindre le jour où ils seront débordés par une bande ennemie. Le concept de ce pistolet mitrailleur est simple : deux canons superposés, deux chargeurs, un dans la poignée, un autre à l'avant du pontet, et voilà, ça crache deux fois plus de plomb. Les méta-armures absorbent tout le recul, il n'y a donc pas de crosse.</p>\n"
+    },
+    "Shotgun escamotable": {
+      "name": "Foldable shotgun",
+      "description": "<p>Knights who look down on SMGs have no right to complain if they get overrun by enemy bands. This personal defence weapon has a simple design: two barrels, two magazines, one in the grip and one in the trigger guard, shooting twice as often as regular SMGs. The lack of stock is an intentional feature, since metaarmour absorbs the weapon’s recoil.</p>\n"
+    },
+    "Épée bâtarde": {
+      "name": "Bastard sword",
+      "description": "<p>Avalon trains Knights. And what is a Knight without a trusty sword? These straight alpha element blades are sharpened to a razor’s edge. Their thick hilts, weighted pommels, and extendible handles allow them to be used with one hand or both without sacrificing their balance. One press of a button, and the handle lengthens as its weight is reconfigured for optimal cutting power.</p>\n"
+    }
+  }
+}

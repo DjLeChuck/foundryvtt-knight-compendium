@@ -1,0 +1,1502 @@
+{
+  "name": "Arc à poulies",
+  "type": "module",
+  "img": "systems/knight/assets/icons/module.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Un syst&egrave;me d&rsquo;attaque est mont&eacute; sur le gantelet de la m&eacute;ta-armure et permet au personnage d&rsquo;&ecirc;tre efficace &agrave; distance sans pour autant porter d&rsquo;arme. D&eacute;ployer le module n&eacute;cessite une action de d&eacute;placement, cependant, tirer se fait au prix d'une action de combat. Le choix de la fl&egrave;che se fait lors de l&rsquo;attaque et peut donc &ecirc;tre d&eacute;fini &agrave; chaque tir. Quel que soit le type de fl&egrave;che tir&eacute;, l'arc &agrave; poulies dispose toujours de l'effet suivant : <em>deux mains</em>.</p>\n<h2 style=\"text-align: justify;\">Niveau 2</h2>\n<p style=\"text-align: justify;\">Les fl&egrave;ches poss&egrave;dent un effet suppl&eacute;mentaire &agrave; choisir &agrave; l'achat du niveau.</p>\n<p style=\"text-align: justify;\"><strong>Elsa : </strong>Barrage 4 / Ultraviolence / D&eacute;moralisant.</p>\n<p style=\"text-align: justify;\"><strong>Scar :</strong> Choc 2 / Meurtrier / Cadence 2.</p>\n<h2 style=\"text-align: justify;\">Niveau 3</h2>\n<p style=\"text-align: justify;\">Les fl&egrave;ches poss&egrave;dent un effet suppl&eacute;mentaire &agrave; choisir &agrave; l'achat du niveau.</p>\n<p style=\"text-align: justify;\"><strong>Elsa : </strong>Lumi&egrave;re 4 / Cadence 2.</p>\n<p style=\"text-align: justify;\"><strong>Scar :</strong> Perce-armure 60 / P&eacute;n&eacute;trant 10.</p>\n<p style=\"text-align: justify;\"><strong>Fumig&egrave;ne am&eacute;lior&eacute; : </strong>En d&eacute;pensant 1PE suppl&eacute;mentaire pour la fl&egrave;che Elsa, il est possible d&rsquo;activer un module fumig&egrave;ne am&eacute;lior&eacute;. Lors du tir, le chevalier choisit s&rsquo;il s&rsquo;agit d&rsquo;un fumig&egrave;ne qui passe outre la Machine exceptionnelle et la vue alternative magn&eacute;tique ou si il passe outre la B&ecirc;te exceptionnelle et la vue alternative heartbeat.</p>",
+    "categorie": "distance",
+    "slots": {
+      "tete": 0,
+      "torse": 0,
+      "brasGauche": 1,
+      "brasDroit": 1,
+      "jambeGauche": 0,
+      "jambeDroite": 0
+    },
+    "niveau": {
+      "value": 1,
+      "max": 3,
+      "details": {
+        "n1": {
+          "permanent": false,
+          "rarete": "standard",
+          "prix": 20,
+          "energie": {
+            "tour": {
+              "value": 1,
+              "label": "Jusqu'à désactivation"
+            },
+            "minute": {
+              "value": 0,
+              "label": ""
+            },
+            "supplementaire": 0
+          },
+          "activation": "deplacement",
+          "duree": "",
+          "portee": "moyenne",
+          "listes": {},
+          "labels": {},
+          "secondmode": {
+            "has": false,
+            "activation": "aucune"
+          },
+          "aspects": {
+            "chair": {
+              "liste": {
+                "deplacement": {},
+                "force": {},
+                "endurance": {}
+              }
+            },
+            "bete": {
+              "liste": {
+                "hargne": {},
+                "combat": {},
+                "instinct": {}
+              }
+            },
+            "machine": {
+              "liste": {
+                "tir": {},
+                "savoir": {},
+                "technique": {}
+              }
+            },
+            "dame": {
+              "liste": {
+                "aura": {},
+                "parole": {},
+                "sangFroid": {}
+              }
+            },
+            "masque": {
+              "liste": {
+                "discretion": {},
+                "dexterite": {},
+                "perception": {}
+              }
+            }
+          },
+          "bonus": {
+            "has": false,
+            "sante": {
+              "has": false,
+              "value": 0
+            },
+            "armure": {
+              "has": false,
+              "value": 0
+            },
+            "champDeForce": {
+              "has": false,
+              "value": 0
+            },
+            "energie": {
+              "has": false,
+              "value": 0
+            },
+            "degats": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "overdrives": {
+              "has": false,
+              "aspects": {
+                "chair": {
+                  "deplacement": 0,
+                  "force": 0,
+                  "endurance": 0
+                },
+                "bete": {
+                  "hargne": 0,
+                  "combat": 0,
+                  "instinct": 0
+                },
+                "machine": {
+                  "tir": 0,
+                  "savoir": 0,
+                  "technique": 0
+                },
+                "dame": {
+                  "aura": 0,
+                  "parole": 0,
+                  "sangFroid": 0
+                },
+                "masque": {
+                  "discretion": 0,
+                  "dexterite": 0,
+                  "perception": 0
+                }
+              }
+            },
+            "grenades": {
+              "has": false,
+              "liste": {
+                "antiblindage": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "explosive": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "shrapnel": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                }
+              }
+            }
+          },
+          "arme": {
+            "has": true,
+            "type": "distance",
+            "portee": "contact",
+            "optionsmunitions": {
+              "has": true,
+              "actuel": "0",
+              "value": 2,
+              "liste": {
+                "0": {
+                  "nom": "ELSA",
+                  "degats": {
+                    "dice": 2,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 2,
+                    "fixe": 0
+                  },
+                  "raw": [
+                    "barrage 2",
+                    "immobilisation 5"
+                  ],
+                  "custom": [],
+                  "liste": []
+                },
+                "1": {
+                  "nom": "SCAR",
+                  "degats": {
+                    "dice": 3,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "raw": [
+                    "silencieux"
+                  ],
+                  "custom": [],
+                  "liste": []
+                }
+              }
+            },
+            "degats": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "effets": {
+              "liste": [],
+              "custom": [],
+              "raw": [
+                "precision"
+              ]
+            },
+            "distance": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "structurelles": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "ornementales": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "overdrives": {
+            "has": false,
+            "aspects": {
+              "chair": {
+                "deplacement": 0,
+                "force": 0,
+                "endurance": 0
+              },
+              "bete": {
+                "hargne": 0,
+                "combat": 0,
+                "instinct": 0
+              },
+              "machine": {
+                "tir": 0,
+                "savoir": 0,
+                "technique": 0
+              },
+              "dame": {
+                "aura": 0,
+                "parole": 0,
+                "sangFroid": 0
+              },
+              "masque": {
+                "discretion": 0,
+                "dexterite": 0,
+                "perception": 0
+              }
+            }
+          },
+          "pnj": {
+            "has": false,
+            "modele": {
+              "nom": "",
+              "special": "",
+              "type": "pnj",
+              "sante": 0,
+              "champDeForce": 0,
+              "defense": 0,
+              "reaction": 0,
+              "armure": 0,
+              "debordement": 0,
+              "initiative": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "jetSpecial": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "dice": 0,
+                  "overdrive": 0
+                },
+                "liste": {}
+              },
+              "aspects": {
+                "has": false,
+                "liste": {
+                  "chair": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "bete": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "machine": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "dame": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "masque": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  }
+                }
+              },
+              "armes": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "type": "contact",
+                  "portee": "contact",
+                  "attaque": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "degats": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "custom": [],
+                    "raw": []
+                  }
+                },
+                "liste": []
+              }
+            },
+            "liste": {}
+          },
+          "ersatz": {
+            "rogue": {
+              "has": false,
+              "interruption": {
+                "actif": true
+              },
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "bard": {
+              "has": false
+            }
+          },
+          "jetsimple": {
+            "has": false,
+            "label": "",
+            "jet": "0D0",
+            "effets": {
+              "raw": [],
+              "custom": []
+            }
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          },
+          "textarea": {
+            "duree": 51
+          }
+        },
+        "n2": {
+          "permanent": false,
+          "rarete": "avance",
+          "prix": 30,
+          "energie": {
+            "tour": {
+              "value": 1,
+              "label": "Jusqu'à désactivation"
+            },
+            "minute": {
+              "value": 0,
+              "label": ""
+            },
+            "supplementaire": 0
+          },
+          "activation": "deplacement",
+          "duree": "",
+          "portee": "moyenne",
+          "listes": {
+            "rarete": {
+              "standard": "Standard",
+              "avance": "Avancé",
+              "rare": "Rare",
+              "prestige": "Prestige",
+              "espoir": "Relique d'espoir"
+            }
+          },
+          "labels": {
+            "secondmode": "Ne possède pas de second mode d'activation",
+            "duree": "L'effet n'est pas permanent",
+            "bonus": "Ne donne pas de bonus",
+            "pnj": "Ne peut pas devenir une/des créature(s) indépendante(s)",
+            "pnjTitle": "Créature indépendante",
+            "sante": "Aucun bonus à la santé",
+            "armure": "Aucun bonus à l'Armure",
+            "champDeForce": "Aucun bonus au Champ De Force",
+            "energie": "Aucun bonus à l'Energie",
+            "degatsBonus": "Aucun bonus aux Dégâts",
+            "degatsVariable": "Bonus aux dégâts invariable",
+            "violenceBonus": "Aucun bonus à la Violence",
+            "violenceVariable": "Bonus à la violence invariable",
+            "arme": "N'est pas une arme",
+            "armeDegatsVariable": "Dégâts invariable",
+            "armeViolenceVariable": "Violence invariable",
+            "overdrives": "Ne donne pas de niveaux d'overdrives",
+            "bonusOverdrives": "Aucun bonus aux overdrives",
+            "bonusGrenades": "Aucun bonus aux grenades",
+            "ersatzRogue": "N'est pas un camouflage optique (ersatz rogue)",
+            "ersatzBard": "N'est pas un Déguisement (ersatz bard)",
+            "jetSimple": "Ne fait pas de jet automatique",
+            "effets": "N'applique pas/Ne possède pas d'effets"
+          },
+          "secondmode": {
+            "has": false,
+            "activation": "aucune"
+          },
+          "aspects": {
+            "chair": {
+              "liste": {
+                "deplacement": {},
+                "force": {},
+                "endurance": {}
+              }
+            },
+            "bete": {
+              "liste": {
+                "hargne": {},
+                "combat": {},
+                "instinct": {}
+              }
+            },
+            "machine": {
+              "liste": {
+                "tir": {},
+                "savoir": {},
+                "technique": {}
+              }
+            },
+            "dame": {
+              "liste": {
+                "aura": {},
+                "parole": {},
+                "sangFroid": {}
+              }
+            },
+            "masque": {
+              "liste": {
+                "discretion": {},
+                "dexterite": {},
+                "perception": {}
+              }
+            }
+          },
+          "bonus": {
+            "has": false,
+            "sante": {
+              "has": false,
+              "value": 0
+            },
+            "armure": {
+              "has": false,
+              "value": 0
+            },
+            "champDeForce": {
+              "has": false,
+              "value": 0
+            },
+            "energie": {
+              "has": false,
+              "value": 0
+            },
+            "degats": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "overdrives": {
+              "has": false,
+              "aspects": {
+                "chair": {
+                  "deplacement": 0,
+                  "force": 0,
+                  "endurance": 0
+                },
+                "bete": {
+                  "hargne": 0,
+                  "combat": 0,
+                  "instinct": 0
+                },
+                "machine": {
+                  "tir": 0,
+                  "savoir": 0,
+                  "technique": 0
+                },
+                "dame": {
+                  "aura": 0,
+                  "parole": 0,
+                  "sangFroid": 0
+                },
+                "masque": {
+                  "discretion": 0,
+                  "dexterite": 0,
+                  "perception": 0
+                }
+              }
+            },
+            "grenades": {
+              "has": false,
+              "liste": {
+                "antiblindage": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "explosive": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "shrapnel": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                }
+              }
+            }
+          },
+          "arme": {
+            "has": true,
+            "type": "distance",
+            "portee": "contact",
+            "optionsmunitions": {
+              "has": true,
+              "actuel": "0",
+              "value": 2,
+              "liste": {
+                "0": {
+                  "nom": "ELSA",
+                  "degats": {
+                    "dice": 3,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 3,
+                    "fixe": 0
+                  },
+                  "raw": [
+                    "immobilisation 10"
+                  ],
+                  "custom": [],
+                  "liste": []
+                },
+                "1": {
+                  "nom": "SCAR",
+                  "degats": {
+                    "dice": 4,
+                    "fixe": 3
+                  },
+                  "violence": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "raw": [
+                    "assassin 1",
+                    "silencieux"
+                  ],
+                  "custom": [],
+                  "liste": []
+                }
+              }
+            },
+            "degats": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "effets": {
+              "liste": [],
+              "custom": [],
+              "raw": [
+                "precision"
+              ]
+            },
+            "distance": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "structurelles": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "ornementales": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "overdrives": {
+            "has": false,
+            "aspects": {
+              "chair": {
+                "deplacement": 0,
+                "force": 0,
+                "endurance": 0
+              },
+              "bete": {
+                "hargne": 0,
+                "combat": 0,
+                "instinct": 0
+              },
+              "machine": {
+                "tir": 0,
+                "savoir": 0,
+                "technique": 0
+              },
+              "dame": {
+                "aura": 0,
+                "parole": 0,
+                "sangFroid": 0
+              },
+              "masque": {
+                "discretion": 0,
+                "dexterite": 0,
+                "perception": 0
+              }
+            }
+          },
+          "pnj": {
+            "has": false,
+            "modele": {
+              "nom": "",
+              "special": "",
+              "type": "pnj",
+              "sante": 0,
+              "champDeForce": 0,
+              "defense": 0,
+              "reaction": 0,
+              "armure": 0,
+              "debordement": 0,
+              "initiative": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "jetSpecial": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "dice": 0,
+                  "overdrive": 0
+                },
+                "liste": {}
+              },
+              "aspects": {
+                "has": false,
+                "liste": {
+                  "chair": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "bete": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "machine": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "dame": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "masque": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  }
+                }
+              },
+              "armes": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "type": "contact",
+                  "portee": "contact",
+                  "attaque": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "degats": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "custom": [],
+                    "raw": []
+                  }
+                },
+                "liste": []
+              }
+            },
+            "liste": {}
+          },
+          "ersatz": {
+            "rogue": {
+              "has": false,
+              "interruption": {
+                "actif": true
+              },
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "bard": {
+              "has": false
+            }
+          },
+          "jetsimple": {
+            "has": false,
+            "label": "",
+            "jet": "0D0",
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          },
+          "textarea": {
+            "duree": 22
+          },
+          "label": "1"
+        },
+        "n3": {
+          "permanent": false,
+          "rarete": "rare",
+          "prix": 40,
+          "energie": {
+            "tour": {
+              "value": 1,
+              "label": "Jusqu'à désactivation"
+            },
+            "minute": {
+              "value": 0,
+              "label": ""
+            },
+            "supplementaire": 1
+          },
+          "activation": "deplacement",
+          "duree": "",
+          "portee": "moyenne",
+          "listes": {
+            "rarete": {
+              "standard": "Standard",
+              "avance": "Avancé",
+              "rare": "Rare",
+              "prestige": "Prestige",
+              "espoir": "Relique d'espoir"
+            }
+          },
+          "labels": {
+            "secondmode": "Ne possède pas de second mode d'activation",
+            "duree": "L'effet n'est pas permanent",
+            "bonus": "Ne donne pas de bonus",
+            "pnj": "Ne peut pas devenir une/des créature(s) indépendante(s)",
+            "pnjTitle": "Créature indépendante",
+            "sante": "Aucun bonus à la santé",
+            "armure": "Aucun bonus à l'Armure",
+            "champDeForce": "Aucun bonus au Champ De Force",
+            "energie": "Aucun bonus à l'Energie",
+            "degatsBonus": "Aucun bonus aux Dégâts",
+            "degatsVariable": "Bonus aux dégâts invariable",
+            "violenceBonus": "Aucun bonus à la Violence",
+            "violenceVariable": "Bonus à la violence invariable",
+            "arme": "N'est pas une arme",
+            "armeDegatsVariable": "Dégâts invariable",
+            "armeViolenceVariable": "Violence invariable",
+            "overdrives": "Ne donne pas de niveaux d'overdrives",
+            "bonusOverdrives": "Aucun bonus aux overdrives",
+            "bonusGrenades": "Aucun bonus aux grenades",
+            "ersatzRogue": "N'est pas un camouflage optique (ersatz rogue)",
+            "ersatzBard": "N'est pas un Déguisement (ersatz bard)",
+            "jetSimple": "Ne fait pas de jet automatique",
+            "effets": "N'applique pas/Ne possède pas d'effets"
+          },
+          "secondmode": {
+            "has": false,
+            "activation": "aucune"
+          },
+          "aspects": {
+            "chair": {
+              "liste": {
+                "deplacement": {},
+                "force": {},
+                "endurance": {}
+              }
+            },
+            "bete": {
+              "liste": {
+                "hargne": {},
+                "combat": {},
+                "instinct": {}
+              }
+            },
+            "machine": {
+              "liste": {
+                "tir": {},
+                "savoir": {},
+                "technique": {}
+              }
+            },
+            "dame": {
+              "liste": {
+                "aura": {},
+                "parole": {},
+                "sangFroid": {}
+              }
+            },
+            "masque": {
+              "liste": {
+                "discretion": {},
+                "dexterite": {},
+                "perception": {}
+              }
+            }
+          },
+          "bonus": {
+            "has": false,
+            "sante": {
+              "has": false,
+              "value": 0
+            },
+            "armure": {
+              "has": false,
+              "value": 0
+            },
+            "champDeForce": {
+              "has": false,
+              "value": 0
+            },
+            "energie": {
+              "has": false,
+              "value": 0
+            },
+            "degats": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "overdrives": {
+              "has": false,
+              "aspects": {
+                "chair": {
+                  "deplacement": 0,
+                  "force": 0,
+                  "endurance": 0
+                },
+                "bete": {
+                  "hargne": 0,
+                  "combat": 0,
+                  "instinct": 0
+                },
+                "machine": {
+                  "tir": 0,
+                  "savoir": 0,
+                  "technique": 0
+                },
+                "dame": {
+                  "aura": 0,
+                  "parole": 0,
+                  "sangFroid": 0
+                },
+                "masque": {
+                  "discretion": 0,
+                  "dexterite": 0,
+                  "perception": 0
+                }
+              }
+            },
+            "grenades": {
+              "has": false,
+              "liste": {
+                "antiblindage": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "explosive": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "shrapnel": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                }
+              }
+            }
+          },
+          "arme": {
+            "has": true,
+            "type": "distance",
+            "portee": "moyenne",
+            "optionsmunitions": {
+              "has": true,
+              "actuel": "0",
+              "value": 2,
+              "liste": {
+                "0": {
+                  "nom": "ELSA",
+                  "degats": {
+                    "dice": 4,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 4,
+                    "fixe": 0
+                  },
+                  "raw": [
+                    "immobilisation 15"
+                  ],
+                  "custom": [],
+                  "liste": []
+                },
+                "1": {
+                  "nom": "SCAR",
+                  "degats": {
+                    "dice": 5,
+                    "fixe": 6
+                  },
+                  "violence": {
+                    "dice": 1,
+                    "fixe": 0
+                  },
+                  "raw": [
+                    "assistanceattaque",
+                    "assassin 2",
+                    "silencieux"
+                  ],
+                  "custom": [],
+                  "liste": []
+                }
+              }
+            },
+            "degats": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "effets": {
+              "liste": [],
+              "custom": [],
+              "raw": [
+                "precision"
+              ]
+            },
+            "distance": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "structurelles": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "ornementales": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "overdrives": {
+            "has": false,
+            "aspects": {
+              "chair": {
+                "deplacement": 0,
+                "force": 0,
+                "endurance": 0
+              },
+              "bete": {
+                "hargne": 0,
+                "combat": 0,
+                "instinct": 0
+              },
+              "machine": {
+                "tir": 0,
+                "savoir": 0,
+                "technique": 0
+              },
+              "dame": {
+                "aura": 0,
+                "parole": 0,
+                "sangFroid": 0
+              },
+              "masque": {
+                "discretion": 0,
+                "dexterite": 0,
+                "perception": 0
+              }
+            }
+          },
+          "pnj": {
+            "has": false,
+            "modele": {
+              "nom": "",
+              "special": "",
+              "type": "pnj",
+              "sante": 0,
+              "champDeForce": 0,
+              "defense": 0,
+              "reaction": 0,
+              "armure": 0,
+              "debordement": 0,
+              "initiative": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "jetSpecial": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "dice": 0,
+                  "overdrive": 0
+                },
+                "liste": {}
+              },
+              "aspects": {
+                "has": false,
+                "liste": {
+                  "chair": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "bete": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "machine": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "dame": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "masque": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  }
+                }
+              },
+              "armes": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "type": "contact",
+                  "portee": "contact",
+                  "attaque": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "degats": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "custom": [],
+                    "raw": []
+                  }
+                },
+                "liste": []
+              }
+            },
+            "liste": {}
+          },
+          "ersatz": {
+            "rogue": {
+              "has": false,
+              "interruption": {
+                "actif": true
+              },
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "bard": {
+              "has": false
+            }
+          },
+          "jetsimple": {
+            "has": false,
+            "label": "",
+            "jet": "0D0",
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          },
+          "effets": {
+            "raw": [],
+            "custom": [
+              {
+                "label": "Fumigène amélioré",
+                "description": "<p>En d&eacute;pensant 1PE suppl&eacute;mentaire pour la fl&egrave;che Elsa, il est possible d&rsquo;activer un module fumig&egrave;ne am&eacute;lior&eacute;. Lors du tir, le chevalier choisit s&rsquo;il s&rsquo;agit d&rsquo;un fumig&egrave;ne qui passe outre la Machine exceptionnelle et la vue alternative magn&eacute;tique ou si il passe outre la B&ecirc;te exceptionnelle et la vue alternative heartbeat.</p>",
+                "attaque": {
+                  "reussite": 0,
+                  "jet": 0,
+                  "carac": {
+                    "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                    "odInclusFixe": false,
+                    "labelJet": "OD Non-Inclus dans le jet",
+                    "odInclusJet": false,
+                    "fixe": "",
+                    "jet": ""
+                  },
+                  "aspect": {
+                    "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                    "odInclusFixe": false,
+                    "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+                    "odInclusJet": false,
+                    "fixe": "",
+                    "jet": ""
+                  },
+                  "conditionnel": {
+                    "has": false,
+                    "condition": ""
+                  }
+                },
+                "degats": {
+                  "fixe": 0,
+                  "jet": 0,
+                  "carac": {
+                    "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                    "odInclusFixe": false,
+                    "labelJet": "OD Non-Inclus dans le jet",
+                    "odInclusJet": false,
+                    "fixe": "",
+                    "jet": ""
+                  },
+                  "aspect": {
+                    "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                    "odInclusFixe": false,
+                    "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+                    "odInclusJet": false,
+                    "fixe": "",
+                    "jet": ""
+                  },
+                  "conditionnel": {
+                    "has": false,
+                    "condition": ""
+                  }
+                },
+                "violence": {
+                  "fixe": 0,
+                  "jet": 0,
+                  "carac": {
+                    "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                    "odInclusFixe": false,
+                    "labelJet": "OD Non-Inclus dans le jet",
+                    "odInclusJet": false,
+                    "fixe": "",
+                    "jet": ""
+                  },
+                  "aspect": {
+                    "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                    "odInclusFixe": false,
+                    "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+                    "odInclusJet": false,
+                    "fixe": "",
+                    "jet": ""
+                  },
+                  "conditionnel": {
+                    "has": false,
+                    "condition": ""
+                  }
+                },
+                "other": {
+                  "cdf": 0
+                }
+              }
+            ],
+            "liste": [],
+            "has": true
+          },
+          "textarea": {
+            "duree": 22
+          },
+          "label": "1"
+        }
+      },
+      "actuel": {}
+    },
+    "listes": {},
+    "active": {
+      "base": false,
+      "pnj": false
+    },
+    "isLion": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "aRFUt6m56ULtHPkU",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!aRFUt6m56ULtHPkU"
+}

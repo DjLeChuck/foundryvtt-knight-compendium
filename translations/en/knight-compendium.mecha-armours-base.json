@@ -1,0 +1,23 @@
+{
+  "label": "Mecha-armours",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Archangel": {
+      "name": "Archangel",
+      "tokenName": "Archangel",
+      "description": "<p>A white and slender 18-meter-tall mecha-armour resembling a large mechanical angel with immense energy wings and a luminous helm, the Archangel is the ultimate support tool. Composed of alpha element and graphene, its armour is thin but reinforced by a powerful kinetic barrier and an excellent force field capable of withstanding numerous attacks. The objective of the Archangel is to provide rapid support on the field to the various units of the Knight and other mecha-armours. To this end, it has been equipped with a Mark IV flight module, constantly propelling it into the air and giving it unparalleled maneuverability. By passing over allies or staying at a good distance, the Archangel can deploy waves of medical nanomachines from healing modules located on its shoulders. On its left hand, a powerful nanoconstruct diffuser allows it to repair allied vehicles and machines, and on its right hand, there is a prototype disruption cannon designed to repel enemies and disrupt their force fields and kinetic barriers.</p>"
+    },
+    "Demon": {
+      "name": "Demon",
+      "tokenName": "Demon",
+      "description": "<p>A stocky 14-meter-tall mecha-armour with the appearance of a mechanical predator, the Demon model is designed for combat and only for combat. Here, any notion of defense or support must be forgotten; the Demon is made to hunt and kill its targets, whether they are foot soldiers or mecha-armours. Its armour is of good quality but extremely light to offer a good mobility-resistance ratio, and its force field is the best currently available.\nThe Demon model was conceived as a destroyer and is designed to excel in this domain. In its forearms are concealed two 3-meter-long retractable kinetic blades, capable of gutting anything. On its shoulders, two automated laser turrets are configured to vaporize troops or aircraft at close range and provide good proximity defense. To clear away enemies that are too close, too small, or too fast, the Demon has an Inferno module capable of releasing a powerful nova of glowing, burning energy at contact range. Finally, to ensure optimal mobility, it is equipped with a Mark IV jump module allowing it to leap over its enemies or over terrain elements.</p>"
+    },
+    "Nephilim": {
+      "name": "Nephilim",
+      "tokenName": "Nephilim",
+      "description": "<p>An enormous hexapod mecha-armour 8 meters tall and 18 meters long, equipped with two massive Magma cannons mounted in turrets on its back and four mobile Surtur machine guns on its belly, the Nephilim is the ultimate defensive tool of the Knight. In appearance, it resembles a huge armoured beetle, with alpha element and ceramic armour plates superimposed to provide 70 centimeters of protection, effective against the vast majority of known weaponry. A kinetic barrier and a good quality force field complete this armour.\nThe Nephilim is a true bunker, bristling with defenses and weapons, capable of deploying numerous protections to secure an area in danger. Although it is as heavy as it is slow, it has a Mark IV jump module that allows it to move its mass by making distant but slow leaps from one place to another. From afar, the Nephilim can unleash the fury of its Magma artillery and raze an entire block of houses by launching fusion plasma shells that can literally disintegrate most human-sized enemies. Up close, it uses its four Surtur machine guns to clear the surroundings. But the true strength of the Nephilim is its ability to effectively protect and lock down an area. From pods hidden in its armour, it can deploy multiple drones that transform into large portable covers 5 meters wide and 3 meters high, perforated with loopholes. Finally, like a knight equipped with a Banner module, it can also attract enemies to itself by generating noise, light, and diffusing flux that imposes its hostile presence on enemies.</p>"
+    }
+  }
+}

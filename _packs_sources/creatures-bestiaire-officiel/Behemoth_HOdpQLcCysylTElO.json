@@ -27,14 +27,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 2
                 },
@@ -45,14 +40,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 4
                 },
@@ -63,7 +53,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -85,7 +75,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -98,7 +88,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -111,7 +101,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -133,7 +123,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -146,7 +136,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -159,7 +149,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -181,7 +171,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -194,7 +184,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -216,7 +206,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -229,7 +219,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           }
@@ -245,7 +235,10 @@
         "violencebonus": {
           "dice": 0,
           "fixe": 0
-        }
+        },
+        "sacrifice": 0,
+        "tourspasses": 1,
+        "type": "degats"
       }
     },
     "aspects": {
@@ -254,11 +247,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "5",
+            "value": 5,
             "max": 10
           }
         }
@@ -268,11 +261,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "6",
+            "value": 6,
             "max": 10
           }
         }
@@ -282,11 +275,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -296,11 +289,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -310,11 +303,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -327,7 +320,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 1
+        "user": 0
       },
       "malus": {
         "user": 0
@@ -338,7 +331,10 @@
         "bonus": {},
         "malus": {}
       },
-      "optionDeploy": false
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
+      "diceMod": 0
     },
     "reaction": {
       "bonus": {
@@ -351,11 +347,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 1,
-      "optionDeploy": false
+      "mod": 0
     },
     "defense": {
       "bonus": {
@@ -368,11 +362,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 8,
-      "optionDeploy": false
+      "mod": 0
     },
     "sante": {
       "bonus": {
@@ -383,12 +375,10 @@
         "user": 0,
         "capacites": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "max": 0,
       "base": 200,
-      "optionDeploy": false
+      "mod": 0
     },
     "description": "<p>Les behemots sont de grandes esp&egrave;ces animales qui, au contact de l&rsquo;Anath&egrave;me, ont fusionn&eacute; pour former des cr&eacute;atures gigantesques et particuli&egrave;rement violentes. Les behemots sont des pr&eacute;dateurs et attaquent tout ce qui peut sembler les menacer. Il est toutefois assez facile de les rep&eacute;rer, d&rsquo;abord parce que leur taille d&eacute;passe souvent les 10 m&egrave;tres de haut, ensuite parce qu&rsquo;ils ont tendance &agrave; d&eacute;truire tout ce qui leur barre le passage sans m&ecirc;me s&rsquo;en soucier.&nbsp;<br>De loin, ils pourraient ressembler &agrave; d&rsquo;immenses &eacute;l&eacute;phants, mais, lorsqu&rsquo;on s&rsquo;approche, on se rend compte qu&rsquo;il s&rsquo;agit d&rsquo;ours, de f&eacute;lins, de crocodiles, de loups et que cette silhouette pataude est en fait h&eacute;riss&eacute;e de griffes et de crocs pr&ecirc;ts &agrave; massacrer tout ce qui passe &agrave; leur port&eacute;e.</p>",
     "tactique": "<p>Un behemot s&rsquo;attaque syst&eacute;matiquement aux ennemis les plus proches de lui et frappe l&rsquo;ensemble avec une&nbsp;<br>puissance folle. S&rsquo;il doit choisir entre plusieurs ennemis, il choisit celui avec le plus haut score de Machine. Son haut score de d&eacute;fense symbolise le fait que les gueules et les griffes grouillant sur son corps subissent une grande partie des coups.</p>",
@@ -403,36 +393,36 @@
         "chair": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "bete": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "machine": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "dame": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "masque": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         }
       }
@@ -448,11 +438,11 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "bouclier": {
       "value": 0,
-      "max": 0,
       "base": 5,
       "bonus": {
         "user": 0
@@ -460,7 +450,7 @@
       "malus": {
         "user": 0
       },
-      "optionDeploy": false
+      "mod": 0
     },
     "resilience": {
       "value": 0,
@@ -477,7 +467,8 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "options": {
       "energie": false,
@@ -485,10 +476,21 @@
       "bouclier": true,
       "armure": false,
       "resilience": false,
-      "phase2": true
+      "phase2": true,
+      "notFirstMenu": false,
+      "noSecondMenu": false,
+      "embuscadeSubis": false,
+      "embuscadePris": false
     },
-    "knightRoll": {
-      "id": false
+    "colosse": true,
+    "version": 1,
+    "descriptionLimitee": "",
+    "patron": false,
+    "bonusSiEmbuscade": {
+      "bonusInitiative": {
+        "dice": 0,
+        "fixe": 0
+      }
     }
   },
   "prototypeToken": {

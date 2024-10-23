@@ -1,0 +1,486 @@
+{
+  "label": "Creatures - Official Bestiary",
+  "mapping": {
+    "description": "system.description",
+    "tactique": "system.tactique",
+    "descriptionLimitee": "system.descriptionLimitee",
+    "section": "system.section",
+    "type": "system.type",
+    "surnom": "system.surnom",
+    "pointsfaibles": "system.pointsFaibles",
+    "histoire":"system.histoire"
+  },
+  "entries": {
+    "Aberration": {
+      "name": "Aberration",
+      "tokenName": "Aberration",
+      "description": "<p>Powerful, dangerous, and fortunately rare, aberrations are the apex lifeforms in the Flesh’s servants on Earth. These devious monstrosities are strong enough to face off against a full squad of seasoned knights. They are named aberrations because they represent a travesty of everything good and beautiful about Humanity. Made from an amalgamation of dozens of writhing, tortured bodies, its limbs twist and bend unnaturally and faces stretched in fear and pain peer out from all sides, wailing and moaning in a terrifying din of mismatched voices.</p>\n<p>The Nodachi share tales of terror about aberrations, calling them the most fearsome monsters of the Flesh. They have been the downfall of many of the shogun’s loyal agents, battered by limbs with too many joints, crushed by tentacles of flesh capable of bending steel, and bitten in half by jaws dripping with burning, poisonous spittle and blood. They have destroyed entire Reject villages in a matter of hours, drowning them in fleshy flora spread by the aberration’s orifices. Fleshy flora appearing seemingly out of nowhere is a sure sign of the presence of one of these monstrosities - and a signal to run away, and fast. In truth, no-one knows whether these creatures produce flora or whether it just makes it grow faster somehow.</p>\n<p>Whatever the case may be, when an aberration surrounds itself with trees and flowers made of flesh it begins to grow at an alarming rate, growing to colossal sizes in a matter of seconds. The destruction wrought by aberrations and their ability to feed off of their surroundings is one of the reasons why the Nodachi makes liberal use of napalm and white phosphorous to scorch the earth wherever fleshy flora is found.</p>",
+      "tactique": "<p>Aberrations have no tactics, they always attack all their enemies at once.</p>",
+      "type": "Badass (initiate)",
+      "pointsfaibles": ""
+    },
+    "Abomination": {
+      "name": "Abomination",
+      "tokenName": "Abomination",
+      "description": "<p>If embryos are the Flesh’s foot soldiers, then abominations are its tanks. These 30-foot-tall monstrosities are made almost entirely of muscle and bone. Their powerful, hulking bodies are adorned with dozens of eyes. This all-round vision allows them to avoid being caught unawares despite their size. They often have long arms tipped with razor-sharp nails. Their sweeping blows demolish walls and scatter human adversaries without the need for weapons.</p>\n<p>Abominations are so big and tough that most conventional weapons are of little use against them. When they are accompanied by embryos, they are even more resilient, as they can feast on their lesser kin in order to regrow parts of their injured bodies. They do have to take the time to swallow the hapless embryos whole, however, and this can give their enemies a few seconds’ respite. This can prove vital to a human settlement attempting to keep an abomination from smashing through its buildings like twigs, their best bet being to bombard it from afar with cannons and rockets.</p>",
+      "tactique": "<p>Abominations attack targets that it can easily consume, that is to say those with the lowest Flesh aspect score. It throws anything it can find at its enemies while rushing into contact range. Once engaged, its brutal assaults are second to none.</p>",
+      "type": "Behemoth (recruit)",
+      "pointsfaibles": ""
+    },
+    "Behemoth": {
+      "name": "Leviathan",
+      "tokenName": "Leviathan",
+      "description": "<p>Leviathans are the product of many large animals touched by the Anathema fusing together into gigantic, bloodthirsty amalgamations. They are vicious predators, prone to attacking anything that seems to pose a threat. They are easily spotted, however, in no small part because of their size (at least 30 feet) but also because of the trail of destruction they tend to leave in their wake. From afar, they look like huge elephants. Upon closer inspection, however, they are revealed to be made of bears, large cats, crocodiles, and wolves, and their whole form bristles with claws and spiked jaws ready to snap or swipe at anything that comes close.</p>",
+      "tactique": "<p>Leviathans attack a number of enemies close to them at once with devastating force. If they must choose between spread out targets, they will go for ones with high Machine values first. Their high defence score reflects the fact that the claws and teeth all over their bodies take the brunt of most melee blows.</p>",
+      "type": "Behemoth (initiate)",
+      "pointsfaibles": "<p>Endurance</p>"
+    },
+    "Bestian": {
+      "name": "Ferals",
+      "tokenName": "Ferals",
+      "description": "<p>’Ferals’ is the name given to the animals twisted by the Beast’s influence. Mammals, reptiles, insects, anything that survived the first waves of nocts were then transformed into something both more and less evolved than they previously were. There were two main types of mutation. The first, most noticeable change was physical, with creatures displaying traits that were closer to nocturnal or deep-sea animals. These can include night vision, scales, or gills to breathe in the darkness itself, often leaving ferals but a shadow of their former genera.</p>\n<p>The other change was to their behavioural patterns. They all become predators, regardless of their previous means of survival. They are more patient, smarter than before, and can lay traps and lead coordinated ambushes of their prey. They are pack animals now, attacking in droves or schools, harrying their prey until it simply gives up.</p>\n<p>The transformation from animal to feral can be either swift or gradual, barely noticeable even. This has led to laws like Madrid’s ark ban on pets, ever since cats and dogs turned on their masters without having shown any outward signs of being corrupted by the Anathema.</p>",
+      "tactique": "<p>Ferals engage with close combat fighters first. A quarter of the pack will usually stay far away to spew waves of darkness at their foes. They target enemies with high Lady and Aura scores first.</p>",
+      "type": "Brute (recruit)",
+      "pointsfaibles": ""
+    },
+    "Chiens du vide": {
+      "name": "Void Hounds",
+      "tokenName": "Void Hounds",
+      "description": "<p>A Void Hound is the representation created by the Men of devouring oblivion. Creatures of the Void (see LdB – p. 221 & 224) opposed to all creation, these hounds haunt the areas devoured by the orphan of Creation, feasting on everything that has not yet fallen into oblivion and gradually gnawing away at the past. Only strong memories or prestigious monuments can appease their insatiable hunger for memory.&nbsp;<br>In the eyes of Humanity, the Void Hounds are large molossers with gaping maws, sometimes even absent, that seem to suck in everything like a black hole: light, shadows, reality, or memories. Some of the largest specimens can reach the size of horses, but the vast majority never exceed twenty hands at the withers.<br>It is difficult to face the Void Hounds. Relentless and moving in packs of dozens of individuals, they&nbsp;<br>hunt everything present in the Void with supernatural avidity and flair. Only the light of the Falcon or the shadows of the Serpent seem able to keep them at bay for a time. Physical, ethereal, or abyssal weapons affect them little, and the aegis and shield seem not to diminish the power of their maw.&nbsp;<br>On this page, two profiles are presented. The first is that of the Void Molosser, considered a Badass. The second is that of the Void Hounds, considered a gang.</p>",
+      "tactique": "<p>The Void Hounds prioritize attacking the PC with the fewest hope points. A pack of Void Hounds&nbsp;<br>is always accompanied by several molossers (one to three per PC depending on the difficulty of the scene).</p>",
+      "type": "Band (heroic) "
+    },
+    "Construct": {
+      "name": "Construct",
+      "tokenName": "Construct",
+      "description": "<p>Constructs appeared at the same time as moving cities. They come in different shapes and sizes, and are made out of everyday technological appliances. Toasters and construction vehicles seem to have taken on a life of their own in service to the Machine. Most of those that should be incapable of moving around have sprouted four to six artificial limbs. Other transformations occur when necessary to answer specific needs the Overlord or its cities have. Some constructs become weapons, others become units capable of spying or standing lookout.</p>\n<p>They are very common both in and around moving cities. They only act when required to, and blend in with their surroundings, looking like little more than junk or broken-down vehicles. When they awake, however, they can band together to form a mechanical army of frightening strength and singular focus.</p>",
+      "tactique": "<p>Constructs are not usually used to fight. When they do, however, they tend to use ranged weapons. They wield salvaged firearms or launch shards of metal at high speed towards those closest to them. When they reach 0 AP, they shut down automatically until repaired. To prevent repairs, they need to be completely disassembled.</p>",
+      "type": "Badass (initiate)",
+      "pointsfaibles": ""
+    },
+    "Costume": {
+      "name": "Costume",
+      "tokenName": "Costume",
+      "description": "<p>Costumes created by the Shadowed Man are beings tailored to its needs to perform duties both in and outside of the Anathema. It creates them from human corpses, like the Ishmael Jhélam incarnation, imbuing them with a degree of intelligence and responsiveness (but only that which the Overlord chooses to give them). They are quite hardy, and can provide decent protection to the Overlord if required. Their main use, however, is as infiltrators. They can be created in the image of any individual the shard has met, allowing it to create high-profile replicas such as the Immortals Francisco Manuel Guedes and Atal Patil.</p>\n<p>Some of these costumes are quite old. The Shadowed Man’s wife, for instance, is a costume it created from the memories it has of its first love, and she has stood by him for millennia. She hardly ever speaks, since costumes have no free will; they are just puppets, made to obey their Overlord’s will. The Byrd Corporation’s board of directors are also all costumes. The Shadowed Man uses them to mimic board meetings and discuss the company’s future. The Overlord always gets its way, of course.</p>",
+      "tactique": "<p>Costumes usually fight with two weapons, one for ranged combat and one for close combat. They use both with equal skill. They usually aim to disarm their opponents, focusing on enemies with high Beast and Combat scores first.</p>",
+      "type": "Brute (initiate)",
+      "pointsfaibles": ""
+    },
+    "Créature de glace": {
+      "name": "Ice creatures",
+      "tokenName": "Ice creatures",
+      "description": "<p>Ice creatures are legion, and are all created by the Matrix. Each is unique, with varying shapes and functions. One notable example is the nurses. These usually animal-shaped beings inhabit and maintain the labyrinth that keeps the Matrix prisoner. They fulfil their creator’s wants and needs, and are also allowed out of the labyrinth to tend to the numerous ice statues littering the Lady’s domain. Most other creations are soldiers. For now they are dormant, but the Matrix makes more and more of them each day. When the Lady finally has need of them, they will be an army of thousands ready to spring into action. On that day, Humankind shall no doubt tremble.</p>\n<p>In addition to these soldiers, the incarnation has started to fashion champions. Far bigger and stronger than soldiers, these ice giants roam their Overlord’s territory looking for challengers fitting their might.</p>",
+      "tactique": "<p>Ice creatures are defenders above all else, and will attack anything that attempts to reach or attack the Matrix. They will prioritise attacking enemies with a high Beast or Aggression score first.</p>",
+      "type": "Brute (initiate)",
+      "pointsfaibles": ""
+    },
+    "Embryon": {
+      "name": "Embryos",
+      "tokenName": "Embryos",
+      "description": "<p>Embryos are basically the Flesh’s foot soldiers. Unlike fleshy flora, no veins tie them to each other–allowing them to move freely and swiftly across the Flesh’s domain. They are the outcome of the shard’s failed experiments, attempts to recreate humans, brutally twisted and warped by their passage through Horror’s barrier. They appear as malformed, mutilated men and women wielding melee weapons in what passes for arms. Their main weapon, however, is the fear they instill in their opponents. No human seems capable of withstanding the sight of their malformed, monstrous bodies. Wherever these twisted parodies of human physique go, despair soon follows.</p>\n<p>Embryos travel in groups large enough to face off against military battalions or lay siege to a town stubborn or unlucky enough to have survived in Asia. Created in Humankind’s image, they suffer the same pangs of hunger and thirst. They must return to their Overlord on a regular basis to avoid wasting away. Their mutations are sometimes too severe for them to reach the front line when they are sent through portals to Earth. Some die from organ failure, others lack mouths with which to eat or even breathe. Unlike fleshy flora, they cannot assimilate the bodies of their fallen enemies. They just kill them and leave the corpses for the flesh trees that always arrive after any battle won by the Flesh.</p>",
+      "tactique": "<p>Embryos try to play on their target’s fears. They attack characters with the lowest Lady and Composure scores in contact range, doing their best to never give them time to breathe. They also provide direction for the less focused Flesh bands.</p>",
+      "type": "Brute (initiate)",
+      "pointsfaibles": ""
+    },
+    "Enfant de la chair": {
+      "name": "Children of the flesh",
+      "tokenName": "Children of the flesh",
+      "description": "<p>Embryos are the outcome of thousands of failed experiments. Children of the Flesh are the successful ones. Horror turns embryos into twisted lumps of fused flesh and bone, sometimes incapable of surviving more than a few hours. Children of the Flesh are perfectly formed human beings, indistinguishable from the real thing. They are not made entirely from abyssal clay, however–the shard makes them from bodies of men and women it absorbs.</p>\n<p><br>Assimilated and reshaped by the Overlord, a Child of the Flesh retains all its previous skills and physical features, its intelligence, and its physical capabilities. An extremely strong bond forms between it and its creator, a quasi-telepathic link bordering on possession. Since these Children are made as complete copies of humans, the Flesh fears they might end up listening to their human hearts and rebel against it despite this powerful link. It therefore destroys its creations on a regular basis, replacing them with new, identical ones. It takes great care to never have more than one copy of each Child active at once, to lessen the risk of its doppelgängers being caught.</p>\n<p>Children of the Flesh are its spies in the world of humans. Once the Overlord selects and assimilates a person, it sends a Child copy to continue their work and take over their life. It selects people to replace in strategic positions–political figures, scientists and researchers, and military leaders. Currently, the Children’s greatest strength is that very few beings on Earth know of their existence. Their reach and influence are as yet unknown, but everything they do benefits the Overlord in some way.</p>\n<p>The flesh, however, has had to cheat in order to get its Children to resemble humans so closely. Witnessing its experiments disfigured by Horror, the shard decided to create its children in utmost secrecy in order to give them the beauty it sought. The Flesh has been careful so far, and none of the other Overlords seem to have noticed its duplicity. When they do, however, it will doubtless lead to a drawn-out trial led by the Judge…</p>",
+      "tactique": "<p>Children of the Flesh are human in form, perfected by the Flesh. They adapt to all combat situations and are stronger than normal human beings. They tend to attack enemies with the highest Combat scores, then those with high Ranged scores.</p>",
+      "type": "Badass (recruit)",
+      "pointsfaibles": ""
+    },
+    "Enfants du masque": {
+      "name": "Children of the mask",
+      "tokenName": "Children of the mask",
+      "description": "<p>Children of the Mask are the most common creature in its domain. Made from barely solid abyssal clay, their masks are the only thing really holding them together. Their slow, lumpy, and ill-defined appearance is a facade as the fluid nature of their bodies grants them unnatural speed and agility. Their ability to change shape to squeeze through cracks and around doors, combined with a natural predisposition towards stealth, allows them to get into most places unnoticed. They can also hide things in the flowing sludge that makes up their bodies, or smother unwitting victims. Their vast numbers and ability to wield a variety of weapons makes them a surprisingly effective army under the Mask’s command. When facing stronger opponents, they can combine their bodies into one large, writhing mass covered in masks.</p>",
+      "tactique": "<p>Children of the Mask hide in dark corners and try to combine to form a larger, more powerful being. They have little protection against ranged weapons, and try to take out characters with high Machine aspect scores first.</p>",
+      "type": "Brute (heroic)",
+      "pointsfaibles": ""
+    },
+    "Esclave du masque": {
+      "name": "Mask slaves",
+      "tokenName": "Mask slaves",
+      "description": "<p>Mask slaves are humans the Overlord abducted from all over the Earth. Their mouths are sewn or nailed shut, and porcelain masks are stitched to the skin of their faces, marking them as servants of its creatures. They dress with long, flowing robes and are rarely seen on Earth. Instead they dwell in the Abyss, in the shard’s circle, spending most of their time whirling in a silent, grotesque, and endless dance. This mocking parody of revelry is but a thin facade. A glance behind the dancers’ masks is enough to confirm the depths of their despair.</p>\n<p>Each one has undergone hours or days of torture until all their secrets were laid bare. Some are driven beyond sanity by this mistreatment. Those who are not are slowly pushed to this state by the knowledge that their eternal masquerade, the darkness all around them, and the Overlord’s twisted mind, will never let them see the light of day again.</p>",
+      "tactique": "<p>Mask Slaves form spinning lines to surround and separate the PCs from each other. They attack characters with low Mask scores first.</p>",
+      "type": "Band (recruit)"
+    },
+    "Faune": {
+      "name": "Fauns",
+      "tokenName": "Fauns",
+      "description": "<p>Fauns are humans who were touched by despair while in the Beast’s domain. Most of them undergo limited physical transformations, with scales or fur covering their skin, webbing stretching between clawed fingers, and eyes blackening to see better in the dark. Their personality undergoes more profound modifications. Some choose to isolate themselves from other creatures, becoming lone, silent, hateful hunters. Others travel in packs of up to ten individuals. Their speech soon regresses into bellows and barks. They launch organised assaults on Reject communities in order to find food, but will split into smaller groups or resort to cannibalism if they cannot find enough sustenance for all of them.</p>\n<p>Their overriding imperative is survival. They are ready to do whatever it takes in order to prolong their existence, usually turning to violence to survive in the Beast’s gloom. This instinct leads them to attack human settlements for supplies and food.</p>",
+      "tactique": "<p>Their tactics are brutal but effective–they charge at whoever is closest to them. If several foes are at the same distance, they will go for the one with the highest Lady and Aura values first.</p>",
+      "type": "Badass (recruit)",
+      "pointsfaibles": ""
+    },
+    "Favori du masque": {
+      "name": "Favoured of the Mask",
+      "tokenName": "Favoured of the Mask",
+      "description": "<p>Strong, cunning, and relentless, Favoured of the Mask are second in power only to its incarnations. They appear without warning from the shadows, ready to strike. Dozens of arms and ivory masks extend from beneath their floating capes, and are the last thing their victim sees before they attack, kill, and vanish, all in eerie silence. Their preferred method of killing targets is preternaturally accurate rays of scorching alpha energy, which can melt concrete and steel, and interfere with meta-armour circuitry.</p>\n<p>Cyclops division has recently learned that these creatures are in fact floating, ephemeral portals that lead straight to the Mask’s home realm. In addition to alpha energy rays, various other servants of the Mask can crawl through them into our world. They spill forth one by one, joining the ranks of darkness and covering the immediate vicinity in shadow. At least half of the breaches that sporadically appear worldwide are almost certainly due to the Mask’s favoured servants.</p>",
+      "tactique": "<p>Favoured of the Mask always seek to ambush unsuspecting victims. They are always accompanied by 1D6 children of the Mask. They target PCs with the lowest Mask score and try to remain out of contact range.</p>",
+      "type": "Badass (heroic)",
+      "pointsfaibles": ""
+    },
+    "Flore de chair": {
+      "name": "Fleshy flora",
+      "tokenName": "Fleshy flora",
+      "description": "<p>Fleshy flora is one of the two main phenomena observed when the Nodachi managed to push back the gloom covering Asia. Instead of villages and some towns, whole swathes of the countryside was covered in fleshy, writhing vegetation.</p>\n<p>At first glance, this flora seemed terrible to behold but otherwise relatively harmless. When night falls, however, it slowly creeps and crawls outwards, spreading the Flesh’s influence ever farther. This spreading flora is surprisingly difficult to stop because of its numbers and resilient nature. When one fleshy tree falls, another springs up to take its place, carrying on the spread.</p>\n<p>Fleshy flora is always attracted towards areas of human activity. Sleeping travellers or refugees, even ones who think themselves safe inside a building, can wake to find themselves surrounded by wriggling vegetation, trapped and smothered as it tries to add their body to its mass. An awful fate, but perhaps a better one than those who are trapped but not killed by daybreak–having to bear indescribable agony until sundown, encased in flesh and bones.</p>\n<p>Fleshy flora withstands sunlight better than most creatures of the Anathema, but the sun’s rays weaken it enough to prevent it from crawling or trapping prey. So it waits, gathering strength for the coming night and its next spurt of activity…</p>",
+      "tactique": "<p>Fleshy fauna is rooted to the ground and attacks enemies close to it, focusing on those without meta-armour first, then those with the fewest HP. It is incapable of moving.</p>",
+      "type": "Band (recruit)"
+    },
+    "Guenièvre": {
+      "name": "Guinevere",
+      "tokenName": "Guinevere",
+      "description": "<p>Guinevere is not a fully fledged incarnation. Rather, she is just one half of the first of the Machine’s avatars. The Shadowed Man employed a number of human computer engineers to somehow snare its conscience and shackle it to Arthur’s metaarmour. It was then modified and wiped over and over until it became little more than a regular AI – at least in appearance.</p>\n<p>Guinevere, not knowing the truth about its origins, has grown to have feelings for Arthur. She is his constant companion, a confidant, and a trusted advisor. Should she discover her true nature, though, who can tell what she would decide to do?</p>",
+      "tactique": "<p>Guinevere is immaterial and cannot fight. If she is freed from her AI containment cell, however, she would be capable of taking over a number of networks (in Camelot and in the arks) and even control other meta-armours.</p>",
+      "type": "Ally (recruit) / Boss (recruit)",
+      "pointsfaibles": ""
+    },
+    "Hybride": {
+      "name": "Hybrid",
+      "tokenName": "Hybrid",
+      "description": "<p>Hidden in the darkest reaches of central Europe, hybrids are cunning, violence, and rage given shape. They are both man and beast, adding human guile to a potent combination of animal traits – claws, fangs, sharp horns, whipping tails, and even wings. Avalon is aware of these creatures, and teaches its recruits to be wary of the traps they lay and the camouflage they use, as well as their pack tactics. More than a few Reject villages have been laid to waste by the underhanded assaults of groups of hybrids.</p>\n<p>More worrying, though, is the fact that while hybrids apparently slaughter and devour the adults of these settlements, the children are nowhere to be found...</p>\n<p>Their human side gives them the ability to communicate with their prey. Some of their victims claim to have been enthralled by these creatures’ calls and cries. Open doors to Reject burrows lend credence to the fact that they might even be capable of enticing their quarry to forgo their defences...</p>",
+      "tactique": "<p>Hybrids are wily creatures who prefer traps and ambushes to direct confrontation. When possible, they use fauns and even leviathans to attract their enemies’ attention before striking. Once their prey is grappling with their burlier allies, hybrids pounce on the PC with the lowest HP or AP and try to bring them down as fast as possible.</p>",
+      "type": "Brute (recruit)",
+      "pointsfaibles": ""
+    },
+    "Infestés": {
+      "name": "Infested",
+      "tokenName": "Infested",
+      "description": "<p>Humans that succumb to hopelessness in the Flesh’s domain are called the infested. Not all of those touched by the shard are absorbed into its fleshy vegetation. Those who fall to despair too quickly or die before it can fully take hold of them have several other uses. They can be turned into foot soldiers closely resembling other humans, with a high enough sunlight tolerance threshold to allow them to act by day. Weather permitting, however, as direct sunlight is still enough to make them run for their territory’s shadow.</p>\n<p>They also constitute an emergency supply of skin, bone, and organs, with the added perk of being able to go wherever the Overlord needs them to be. Furthermore, being near to the Flesh’s gloomstain is always enough to turn humans into infested sooner or later. These hopeless are common throughout Asia and can be seen in droves during the daytime, and in even greater numbers at night, with crowds of thousands of twisted, hateful human hopeless gathering to form whole armies.</p>",
+      "tactique": "<p>The infested attack everyone without distinction, but tend to converge on larger targets (Knights in Paladin armour or Barbarians using Goliath mode).</p>",
+      "type": "Band (recruit)"
+    },
+    "L'Archiviste": {
+      "name": "The Archivist",
+      "tokenName": "The Archivist",
+      "description": "<p>The Archivist is the Triarchs’ living memory. He writes down their every sentence and investigation, framing them with great poetic grace. Should he be persuaded to talk, he would be the greatest pool of information among the Triarchs. Doing so would require flattery aimed at his poetic talents, encouraging him to give further examples of his craft. His first keepsake is a roll of parchment which, despite its ordinary appearance, contains thousands of lines of information with room for many more. His second keepsake is a scimitar he wields with pinpoint precision.</p>\n<p>The Archivist recalls a life spent as both a poet and a warrior. Among other victories, he recalls having had to face and kill a lion, one-on-one. He also remembers fighting and defeating a woman then, guided by his love for her, helping her reclaim her throne.</p>",
+      "tactique": "<p>The Archivist likes to spring into battle and destabilise his enemies by improvising stanzas about their past or their misdeeds. He targets enemies with low Machine and Knowledge scores first.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Stealth</p>"
+    },
+    "L'Émissaire": {
+      "name": "The Emissary",
+      "tokenName": "The Emissary",
+      "description": "<p>The Emissary is the fastest of the Triarchs. He is charismatic and persuasive with a gift for diplomacy, and is sent ahead of other Triarchs to announce their arrival or to open negotiations with potential threats. His speed allows him to reach his destination faster than his colleagues, and to flee hostile encounters when diplomacy fails. One of the Emissary’s notable features is the horse he rides and that never leaves his side. This bony mount made entirely of darkness makes religious people who come into contact with the Emissary compare him to a Horseman of the Apocalypse. The Emissary’s other keepsake from his human life is a bow he uses to keep enemies at bay and fight from afar.</p>\n<p>Like the Protector, the Emissary exudes natural authority. He remembers that he was once forced to kill a member of his own family in order to seize control of his people. He also recalls that his charisma and leadership skills united several communities under his banner, and that he then led them to conquer other lands.</p>",
+      "tactique": "<p>The Emissary is an outrider, a scout who shies away from combat, preferring to deliver messages and open negotiations. If he must fight, he stays away from the fray and shoots arrows at enemies with high Beast and Aggression scores. The Emissary’s defence, reaction, and Beast values in brackets are to be used when he is mounted.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Movement</p>"
+    },
+    "L'Homme en noir": {
+      "name": "The Man of Shadow",
+      "tokenName": "The Man of Shadow",
+      "description": "<p>The Man of Shadow appears when its Ishmael Jhélam meat suit is in too poor condition to contain the Overlord’s essence, and is hardly ever seen otherwise. It manifests as either wisps of shadow or a human-shaped body made of alpha element. The only people who have witnessed this phenomenon are would-be assassins, few of whom even noticed it escaping the body and disappearing via a nearby air vent.</p>",
+      "tactique": "<p>The Man of Shadow is just that–a shadow. It can only be hit by weapons with an anti-Anathema or radiance effect while in proximity to alpha element. Its main objective is to flee and create a new Ishmael Jhélam vessel from a corpse or, if there are none nearby, from a living human. It cannot attack or interact with anything. Its high defence and reaction scores reflect its intangible nature.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": "<p>Movement</p>"
+    },
+    "L'Investigateur": {
+      "name": "The Detective",
+      "tokenName": "The Detective",
+      "description": "<p>The Detective conducts investigations in the Judge’s name. He acts as an intermediary between the Observer and the Voice, delivering findings that allow verdicts to be reached. He is still close to his human nature, and is the most likely to engage with humans without things degenerating into a bloodbath, which is a valued trait for his Overlord. His keepsakes, twin colt revolvers, dance with lightning speed in his hands. Despite his obvious skill with guns, he also has a fondness for rushing in and using his bare fists.</p>\n<p>This Triarch’s human memories are still quite recent, and the Judge has not yet taken the time to scrub his human reactions clean. He knows that he was once a lawman, pursuing murderers and delivering justice. He also recalls that he did not always adhere to human laws. He was embroiled in disputes between clans and families, and got into large fights to protect himself and his people. Fortunately for him, justice was usually on his side, allowing him to live a life filled with gambling, drinking, and fighting.</p>",
+      "tactique": "<p>The Detective likes fighting, but is more disorganised than his peers. He usually takes up position at a distance, fanning shots with his revolvers at a slew of targets, without concentrating on any one threat in particular.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Aura</p>"
+    },
+    "L'Observateur": {
+      "name": "The Observer",
+      "tokenName": "The Observer",
+      "description": "<p>The Observer is charged with watching the Overlords for signs of trickery and deceit that go against the rules laid down by the Ophidian. He patrols the Anathema’s borders and keeps a constant watch for untoward actions, sending the other Triarchs to look into perceived misdeeds. Unlike his colleagues, his presence is not the result of an investigation or accusation. He can show up in places where some irregular occurrence is happening, or when foul play is suspected. His long, finely wrought rapier immediately draws one’s eye to it, but his main tool for putting down his adversaries is the vintage arquebus, an early type of musket, strapped to his back.</p>\n<p>The Observer knows that he was a warrior, a great explorer, and a maritime force to be reckoned with in his mortal days. He recalls having wielded enough power to hold an emperor captive, a man who was considered a god by his people in their splendid city.</p>",
+      "tactique": "<p>The Observer alternates between his rapier and his arquebus, striking foes near and far. He attacks enemies with high Mask and Stealth scores first.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Aggression</p>"
+    },
+    "L'Ombre": {
+      "name": "The Shadow",
+      "tokenName": "The Shadow",
+      "description": "<p>The Shadow is a consummate spy, blending into shadows and reaching the most secure locations unseen. It hides in darkness, but must move as one with the shadows within which it hides as bright light is unbearable. The Shadow is the Mask’s knife in the darkness, sent to pursue and silently eliminate its adversaries. It does so with slim blades seemingly made of darkness itself. Its skill is without peer, and so far, no-one has survived an encounter with it.</p>",
+      "tactique": "<p>The Shadow is a peerless combatant. It hides in darkness, gliding up behind weakened or less protected opponents and swiftly putting an end to their existence. It therefore attacks targets with the fewest remaining health points, then those with the lowest armour points.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": ""
+    },
+    "La Gardienne": {
+      "name": "The Vigil",
+      "tokenName": "The Vigil",
+      "description": "<p>The Vigil is in charge of making sure those held accused by the Triarchs do not attempt to escape. She is rarely seen but knows how to make her presence known should a guilty party turn against the Judge’s lieutenants. Her skill at flanking and anticipating her opponents’ moves often makes them regret their decision to flee. She wields a round wooden shield with a metal rim and central boss, and a single-bladed axe engraved with Celtic symbols.</p>\n<p>There can be little doubt about the Vigil’s warrior nature. She recalls that her courage and authority in her former life drew the service and protection of a great hound and a bear. She also recalls mounting a great expedition to come to the assistance of the one she loved, leading a hundred ships to his aid in his time of greatest need.</p>",
+      "tactique": "<p>The Vigil rarely appears outside of combat, but once steel is drawn she has a habit of cutting off an enemy’s escape route and taking them by surprise. She attacks enemies with high Mask and Stealth scores first.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Acuity</p>"
+    },
+    "La Matrice": {
+      "name": "The Matrix",
+      "tokenName": "The Matrix",
+      "description": "<p>Of all the Overlords’ incarnations, the Matrix is the one that has spent the most time on Earth. It looked like a stunning woman once, seducing men and bearing their hybrid prodigies, but the Queen turned it into a twisted abomination. Now it appears as a huge insect-like monster with one lone human feature, that of a breathtakingly beautiful woman’s face. Trapped in a prison of ice, it uses its glacial surroundings to create servants it then controls with its pheromones. It detects intruders in its prison lair by sound and smell. If its ’children’ are incapable of stopping them before they reach the avatar, they usually succumb to its pheromones and become the Matrix’s slaves.</p>",
+      "tactique": "<p>The Matrix is a bringer of life, and will call its creatures to its aid then flee if it can. It attacks those who wound it, however, targeting enemies with a high Beast score first, then the one with the highest Combat score.</p>",
+      "type": "Boss Behemoth (initiate)",
+      "pointsfaibles": "<p>Acuity / Aggression</p>"
+    },
+    "La Parole": {
+      "name": "The Voice",
+      "tokenName": "The Voice",
+      "description": "<p>The Voice is sent to announce the Judge’s sentences. By delivering of the shard’s decisions, she determines the actions the other Triarchs will take. She is also the Triarch most likely to discuss and explain the Judge’s decisions. The tone of her voice is undoubtedly female, and the banner she bears makes her the most recognisable of the Triarchs. The white strip of cloth with a central fleur-de-lys, together with the fine medieval sword complete with Christian cross on the pommel, give a good indication of who she was in her former life.</p>\n<p><br>The Voice remembers a few more details of her former life than most other Triarchs. She recalls a life spent in service to a higher power. Heeding its call, she took part in a war and changed its course by freeing a besieged city and leading a young man to his throne. One other thing she vividly recalls are the flames that should have devoured her body at the stake.</p>",
+      "tactique": "<p>The Voice rarely goes into battle alone, ordering the other Triarchs from the rear and fighting back against those who attack her directly. If she must fight, she targets those with high Lady and Aura scores first.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Eloquence</p>"
+    },
+    "La Perfection": {
+      "name": "Perfection",
+      "tokenName": "Perfection",
+      "description": "<p>Perfection presents as male, female, asexual, or androgynous, but by no stretch of the imagination could its usually-naked body be mistaken for human. Its form is the peak of physical perfection, sculpturally far too perfect and symmetrical to be natural. This avatar often converses with Humankind. It chooses those it interacts with great care, however; only those with exceptional physical traits are worthy of its attention. Since they are often superior specimens, Perfection is always keen to engage with Knights face to face.</p>",
+      "tactique": "<p>Perfection prefers negotiating to fighting. If it must fight, it attacks those with the lowest Flesh and Strength ratings first.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Aggression</p>"
+    },
+    "La Prolifération": {
+      "name": "The Proliferation",
+      "tokenName": "The Proliferation",
+      "description": "<p>The Proliferation is an incarnation that has only appeared on Earth for a very short time. An attempt by the Flesh to rapidly expand its territory to India, it was nevertheless defeated before the Lord achieved his goals. The Proliferation was born at the center of the Flesh's territory. Initially small in size, it grew very rapidly, so much so that when it emerged from the shadows, it was already the size of a ten-story building and continued to rise higher and higher. Taking the form of a giant and malformed baby, the Proliferation advanced rapidly westward, scattering thousands of buboes around it that, upon bursting on the ground, spread an increasingly present and aggressive vegetation of flesh. At the same time, it projected air saturated with all existing diseases around it, thus destroying the rare populations of outcasts separating it from India, but especially the troops of the Nodachi who attempted to stop it.<br>This incarnation was defeated not by the Nodachi or the Knight, but by the Black Cell, a secret organization violently fighting against the shadows. To combat it, kamikazes are said to have entered it and detonated a nuclear bomb in its chest. This occurred in northern Burma, as the Proliferation sought to cross the Himalayan range to reach the ark of Calcutta in India. The incarnation had then reached a size exceeding a kilometer.&nbsp;<br>Of course, the human losses were enormous, and even today, many outcast populations are affected by the radioactive fallout from the bomb. The world's great leaders, despite their investigations, still do not know who was behind this victory and disaster.<br>The Flesh, on the other hand, managed to recover fragments of its incarnation, which it repatriated with great effort from its creatures to its territory. Of course, this attempt was discovered by the Arbiter and quickly judged contrary to the rules of the Lords' game. Shortly afterward, the shadows of the third substantially receded, to the great joy of Humans.&nbsp;<br>However, the Flesh does not yet consider itself defeated and is currently seeking to revive its avatar to launch it again in the conquest of human territories. Next time, the Proliferation will no longer be a clumsy newborn but a fast and cunning adult (see The Song of the Shadows – p. 5).</p>",
+      "tactique": "<p>The Proliferation has no tactics and is content to advance to sow the Flesh within the territories&nbsp;<br>of Asia. It does not consider things and beings inferior to 4 meters in height unless they attack it and marches straight toward its target, destroying everything in its path. The Proliferation is capable of demolishing buildings, crushing tanks, and transforming humans into infested beings by its mere presence.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": ""
+    },
+    "La Reine": {
+      "name": "The Queen",
+      "tokenName": "The Queen",
+      "description": "<p>The Queen was sent to Earth to find the Matrix. She represents cold and solitude, but her primary role is that of a mastermind, planning the Lady’s next steps and meticulous schemes. Nothing she does or says, when she chooses to speak, is without an ulterior motive. At first glance, she seems inactive, spending her days alone in an icy castle in an ocean of gloom in Africa. Yet thousands of reflective surfaces all around her mirrored halls allow her to watch the events unfolding on Earth while remaining unseen. An example of her active interference in the Game of Shards was the gift of meta-armour to Humankind.</p>",
+      "tactique": "<p>Hardly anyone makes their way to the Queen’s castle, and she is not a great physical threat. Her voice, on the other hand, has been honed to be a weapon of deadly power. If forced to fight, she will target characters who speak the most, or PCs with high Lady and Aura scores.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": "<p>Stealth</p>"
+    },
+    "La Rumeur": {
+      "name": "Rumour",
+      "tokenName": "Rumour",
+      "description": "<p>Nightmare has travelled the Earth since its birth during the War of Ages. It stays close to humans, hiding in shadows nearby to spy and feed on their fears. It then uses these fears to grow stronger, turning them against its prey. It can take on many monstrous, terrifying shapes, and cannot be harmed by conventional weapons. Its only weakness, in fact, is hope.</p>",
+      "tactique": "<p>Nightmare changes shape to suit each of its enemies, making them face their darkest fears and worst memories. It only deals damage to its targets’ hope, and goes for enemies with the lowest Aggression and Composure scores first.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": "<p>Endurance</p>"
+    },
+    "La Tentation": {
+      "name": "Temptation",
+      "tokenName": "Temptation",
+      "description": "<p>Temptation is extremely charismatic, and its appearance changes depending on who it is talking to. It has a thousand faces, male and female. Not all these faces are necessarily beautiful, but they always fit the expectations of the person facing it. With its impeccable rhetorical skills, Temptation tries to change its target’s mind and make them face their contradictions, real and fabricated. It does not need to lie to do so, its twisted logic and persuasiveness are more than enough.</p>",
+      "tactique": "<p>Temptation never fights, and tries to keep violence from breaking out near it. Its goal is to convince characters with the highest Lady or Machine aspect, and flee rather than fight.</p>",
+      "type": "Boss (recruit)",
+      "pointsfaibles": "<p>Stealth</p>"
+    },
+    "Le Bourreau": {
+      "name": "The Executioner",
+      "tokenName": "The Executioner",
+      "description": "<p>The Executioner puts those sentenced by the Voice to death. The other Triarchs consider the Executioner the best fighter among them, capable of defeating any enemy in a fair fight. He has his own distinct fighting technique, and is a relentless foe. His keepsakes are two Japanese swords, one made of wood, the other of folded steel. When he fights, he becomes a whirlwind of metal and wooden blades.</p>\n<p>The Executioner knows that he was a superb fighter in his mortal days. He claimed his first kill when he was still a boy, and survived over sixty duels undefeated. He knows that his talent gave birth to a school of martial arts, and his teachings formed a new philosophical approach to strategy.</p>",
+      "tactique": "<p>The Executioner does not rush headlong into battle, preferring one-on-one duels and epic showdowns with those he deems worthy of his blades. When forced to face multiple opponents, he will deal with the first one to attack or ones with high Mask and Stealth scores. His defence score reflects his mastery of the sword.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Composure</p>"
+    },
+    "Le Cauchemar": {
+      "name": "Nightmare",
+      "tokenName": "Nightmare",
+      "description": "<p>Nightmare has travelled the Earth since its birth during the War of Ages. It stays close to humans, hiding in shadows nearby to spy and feed on their fears. It then uses these fears to grow stronger, turning them against its prey. It can take on many monstrous, terrifying shapes, and cannot be harmed by conventional weapons. Its only weakness, in fact, is hope.</p>",
+      "tactique": "<p>Nightmare changes shape to suit each of its enemies, making them face their darkest fears and worst memories. It only deals damage to its targets’ hope, and goes for enemies with the lowest Aggression and Composure scores first.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": "<p>Aggression / Composure</p>"
+    },
+    "Le Corps": {
+      "name": "The Body",
+      "tokenName": "The Body",
+      "description": "<p>The Body is the Machine’s physical avatar. The first incarnation’s mechanical shell appeared in New Orleans before heading towards the Atlantic Ocean. Now, this 1000-foot-tall robot squid seems to follow its primitive survival instincts which come from its huge central eye. Unlike the rest of the Body, the eye is made not of electronic and mechanical components but of living flesh and blood. Reacting like a wounded animal, the avatar awaits the missing part that was stolen from it.</p>",
+      "tactique": "<p>The Body advances relentlessly, crushing everything in its way. It attacks enemies with high Flesh and Endurance first. To use its beam, the Body must first drain 30 energy points (which can be spread out over several attacks) with its energy drain ability.</p>",
+      "type": "Boss Behemoth (initiate)",
+      "pointsfaibles": "<p>The eye in the middle of its body / Acuity / Tech</p>"
+    },
+    "Le gardien de l'Ophidien": {
+      "name": "The Guardian of the Ophidian",
+      "tokenName": "The Guardian of the Ophidian",
+      "description": "<p>The Ophidian, being the first shard of the original Serpent and the true master of the shadows, naturally resumed this form upon awakening. Born thus in the appearance of a small serpent, it has not ceased to grow since and today forms the central pillar of the city of the Abyss, Renaissance. Its body now reaches several hundred kilometers in length, coiling upon itself and around a grandiose tower that overlooks the entirety of the Abyss. Its ophidian anatomy plays on hundreds of shades of black. Each scale is a jewel of geometry and perfection. Yet, its body is not simply that of a giant serpent. It is traversed at every moment by hundreds of thousands of smaller, swift, and silent reptiles. These silhouettes protect the Lord, and anyone who approaches too closely risks being pierced by dozens of fangs. The head of the Ophidian is found at the top of the central tower of Renaissance. This construction is so large that it would allow one to see the entirety of the Abysses, the world of Men, and, previously, the Ether. Before the end of the millennial war, the Lord had the leisure to observe the battlefield while spying on the territory of his sworn enemy, the Falcon. In Knight, the Ether is no more. The Ophidian has not, however, left the heights of the tower. Perhaps because its immensity prevents it from moving, at the risk of destroying the city of which it forms the heart. Perhaps because it remains curious about the game of the Lords on Earth. Certainly because, from up there, it can observe something that is particularly dear to it.</p>\n<p>The Ophidian has no incarnation on Earth. Manipulating the destiny of Men itself does not interest it, except in very rare cases, and it leaves it to the other Lords to act to satisfy it. It exists only in the Abysses and in its unique form, at the heart of the city.&nbsp;</p>",
+      "tactique": "<p>When the PCs encounter the Ophidian in The Saga of the End Times, it is protected by a particularly dangerous serpent named the Guardian, which is actually one of its incarnations. The aspects and capabilities of the Ophidian itself are not quantifiable, and only the Grail seems able to annihilate it.</p>",
+      "type": "Boss (ultimate)",
+      "pointsfaibles": ""
+    },
+    "Le Mur": {
+      "name": "The Wall",
+      "tokenName": "The Wall",
+      "description": "<p>The Mask’s incarnation known as the Wall can appear on any flat surface large enough for its white face. It has no need for a body, since it is used as a way of watching and communicating with its followers and its enemies. It can spy on an area by making itself very small, but prefers to use this shape to bargain. It barters, cajoles, imprisons, and makes ludicrous offers in order to get its mark to provide it with information or do something for it, even if it must give something in return.</p>",
+      "tactique": "<p>Since the Wall’s only body is its mask, it cannot engage in combat. It relentlessly pursues a character it wants to bargain with by teleporting from wall to wall.</p>",
+      "type": "Boss (recruit)",
+      "pointsfaibles": ""
+    },
+    "Le Prédateur couronné": {
+      "name": "The Crowned Predator",
+      "tokenName": "The Crowned Predator",
+      "description": "<p>The Crowned Predator is a well-known incarnation, often spotted on the outskirts of the Beast’s gloomstain. Its appearance is most often that of an enormous anglerfish surrounded by dozens of lampreys, seeming to swim in dark coils of shadow as it hunts for its next prey. The Predator is a natural born killer and hunter, cold, patient, and remorseless. In the gloomstain itself, it uses its lantern as bait to draw in the unwary and the lost. The light it emits weakens the Predator a little, but brings in enough desperate prey to be worth the gamble.</p>",
+      "tactique": "<p>The Predator enjoys fighting worthy opponents face to face. It therefore aims for enemies with the highest Beast scores first, followed by those with high Flesh scores. It never travels without a band of nocts (with a cohesion rating of 200). If the Predator is killed, it automatically unleashes its Call of the Hunt ability provided it has accumulated enough energy. To use its blinding flash, the Predator must first drain 50 energy points (which can be spread out over several attacks) with its energy drain ability.</p>",
+      "type": "Boss recruit",
+      "pointsfaibles": "<p>Composure / Acuity / Instinct</p>"
+    },
+    "Le Protecteur": {
+      "name": "The Protector",
+      "tokenName": "The Protector",
+      "description": "<p>The Protector is the oldest of the Triarchs. His task is protecting the others and coming to their aid in times of need. A great warrior and tactician in life, enemy numbers and strength do not impress him. He wastes few words, preferring to use his voice to give his allies clear, confident instructions. His two keepsakes are a double-ended spear and a round shield, an aspis embossed with an upturned V.</p>\n<p>The Protector has been a Triarch for a very long time, and has few memories of his human life. All he can recall is a heroic last stand against overwhelming odds in a narrow valley, holding it with a handful of men against thousands of foreign invaders.</p>",
+      "tactique": "<p>The Protector is a genius tactician. He always tries to use terrain to his advantage, using all the force multipliers it can to turn the odds in his favour. If he is fighting alongside other Triarchs, he defends them with his life. He tries to fend off and attack enemies with a high Aggression or Beast score first. His high shield score reflects the strange protective power conferred by the antique shield he wields.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Knowledge</p>"
+    },
+    "Le Rempart": {
+      "name": "The Bulwark",
+      "tokenName": "The Bulwark",
+      "description": "<p>The Bulwark appears when the Flesh’s territory is in danger. It starts as part of the fleshy flora covering the Overlord’s portion of Earth, increasing in size as it absorbs all living matter around it, indiscriminately using humans and creatures of the Anathema to fuel its growth. Once grown, it resembles a huge tree made of flesh and bone, whipping tendril-like branches tipped with fangs and razor-sharp nails to defend itself. Lobbing weaponised chunks of its own organic material, the Bulwark is a relentless war machine capable of repairing itself by consuming its human foes as fast as they can damage it.</p>",
+      "tactique": "<p>The Bulwark does not move, but it unfurls thousands of veiny branches from its trunk to attack enemies at range. It always attacks whoever dealt it the most damage on the previous turn, or the enemy with the highest Aggression rating.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": "<p>Strength</p>"
+    },
+    "Le Traqueur": {
+      "name": "The Hunstman",
+      "tokenName": "The Hunstman",
+      "description": "<p>The Hunstman is the Triarchs’ tracker, capable of following any trail. Quiet, attentive, he requires but a few pieces of information on his prey in order to hunt them down. The Huntsman is the most withdrawn and contemplative of the Triarchs, and has an intimate knowledge of Earth’s landscapes and natural dangers. Combined with his boundless determination, he is capable of finding anyone when they need to be brought before the Judge’s justice. His keepsakes are a feathered tomahawk and a lever-action rifle with a silver-washed barrel and receiver which never seems to miss its mark.</p>\n<p>The Huntsman’s memories of his former life are quite clear. He remembers living a life guided by hatred. Hatred of outsiders, invaders who on two different occasions murdered his family and descendants. He knows that he was a protector of his people, tracking and killing many of their foes.</p>",
+      "tactique": "<p> The Hunstman stays away from his enemies, firing at one with high Beast and Aggression scores. Once his target has been softened up, he closes in for the kill with his tomahawk.</p>",
+      "type": "Boss (initiate)",
+      "pointsfaibles": "<p>Instinct</p>"
+    },
+    "Longshot": {
+      "name": "Longshot",
+      "tokenName": "Longshot",
+      "description": "<p>Longshot was created as a piece of software meant to stem criminal activity in the arks. Once the program was abandoned, the Machine found a way to take it over and use it to its advantage. Longshot has become a disembodied incarnation providing contracts to an array of bounty hunters. In theory, its services are available for anyone with enough money. In practice, the Machine mainly uses it to take out its opponents. It has proven difficult to stop, despite attempts made by the Immortals to bar it from using their AR networks.</p>\n<p>What they do not know is that the program’s core is held very close to one of their number, specifically in Amaterasu, the Nodachi shogun Iwata Kaneda’s meta-armour.</p>",
+      "tactique": "<p>Longshot has no physical form, and as such it has to control the Immortal Iwata Kaneda by using his metaarmour if it chooses to get directly involved in combat. Otherwise, it indirectly dispatches its enemies by placing prices on their heads.</p>",
+      "type": "Boss (heroic)",
+      "pointsfaibles": ""
+    },
+    "Louve": {
+      "name": "She-Wolf",
+      "tokenName": "She-Wolf",
+      "description": "<p>The She-Wolf of Rome, and she-wolves in general, are a terrifying mix of majesty and power, of primal rage and primal beauty. Unlike their animal counterparts, these wolves act alone and stand guard over sites of mythical importance, sacred ground, and works of art that they themselves, sadly, cannot approach.</p>\n<p>The first recorded she-wolf was spotted near Berlin’s Neues Museum, guarding its entrance and eating any who dared try to get to the treasures kept within. Local tales have her padding silently through the galleries, as if unfazed by the paintings and statues that should have had her recoiling in fear.</p>\n<p>She-wolves look in all ways similar to their earthly counterparts, with two main differences – they can be up to ten feet tall and their claws and teeth are made of pure alpha element. Their skin and bones are extremely durable; they can survive a full-on missile blast, which has led to some very surprised (sometimes fatally so) knights...</p>",
+      "tactique": "<p>She-wolves attack the PC with the highest Aggression score first, and always close in as fast as they can.</p>",
+      "type": "Boss (recruit)",
+      "pointsfaibles": "<p>Composure / Dexterity</p>"
+    },
+    "Machiniste": {
+      "name": "Machinist",
+      "tokenName": "Machinist",
+      "description": "<p>A few communities refused to flee the East Coast of the USA when the red plague hit. Some did so out of stubbornness, clinging to their family homes, while others had nowhere else to go, having been hit too hard by the plague to join up with other refugees. When the Machine’s gloom spread across the coast, these communities almost immediately fell into despair. The hopeless this created are called machinists.</p>\n<pThey are easily recognisable thanks to their crude body modifications, such asnails and small metallic objects jutting from their flesh or through their limbs. They usually have poor weapons, with only a smattering of technologically advanced ones between them. They make up for this shortcoming by providing EMP resistant fighters for the Machine, which is a boon against the armed forces that tend to arm themselves against non-organic adversaries when preparing to fight in the area.</p>",
+      "tactique": "<p>Machinists have a knack for targeting enemies that are easier to take apart, and go for opponents with the lowest armour points first.</p>",
+      "type": "Band (initiate)",
+      "histoire":"’A Machinist is no longer human. It is only a mindless puppet’ - Avalon Handbook"
+    },
+    "Masque vivant": {
+      "name": "Living mask",
+      "tokenName": "Living mask",
+      "description": "<p>When creating its living masks, the Overlord mimicked the Ophidian’s creation of the shards. Unlike the Ophidian, however, the Mask did not create them as equals but as underlings and servants, forced to revere their Overlord as the Serpent had been when it was alive. By using nine small fragments of its own mask, the Overlord created entities that embodied its best abilities. Once they were born, it named them living masks and raised them to be its lieutenants.</p>\n<p>Each has its own area of expertise, using its master’s abilities to their fullest to fulfil their duties. They are made from the same substance as their Overlord, and can communicate with it over any distance without having to use any of their senses. They can act in perfect sync with each other or completely independently. When they are assembled around their master, however, they become truly lethal. They act as one being, in complete harmony. Their deadly alpha element blades and unsurpassed skill could slice through an entire army if necessary to protect their master and creator.</p>",
+      "tactique": "<p>Living masks move with lightning swiftness, attacking several targets in a single turn (starting with those with high Beast and Aggression scores).</p>",
+      "type": "Badass (heroic)",
+      "pointsfaibles": "<p>GM’s choice, depending on the aspect of the Mask</p>"
+    },
+    "Mécaniste": {
+      "name": "Mechanist",
+      "tokenName": "Mechanist",
+      "description": "<p>Mechanists are a unique kind of hopeless. The Machine noticed a tendency to despair among certain humans, and selected some of them for an experiment. By installing mechanical parasites in their brains, fuelled by their host’s despair, it managed to seize control of their central nervous systems. Mechanists, while alive and mostly aware of what is happening to them, are no longer in control of their own bodies. They serve as dual-purpose tools and generators.</p>\n<p>The mechanical parasites in their brain are rather small and unobtrusive, passing unnoticed without careful inspection. They cling tightly to their host’s brain and spinal column, so tightly in fact that removing them without instantly killing the host is almost impossible. They are highly advanced, with artificial intelligence capabilities allowing them to analyse and react to all situations. Groups of machinists are usually led by a mechanist, and they are also sometimes given the task of directing constructs. Most of them, however, spend their time repairing faulty or partially destroyed machines. They tend to appear in large numbers after any mission leading a banner of Knights to the Machine’s territory.</p>",
+      "tactique": "<p>Mechanists attack from a distance, taking cover and firing on enemies with the highest Flesh and Strength ratings. They act as officers, sending other Machine creatures to fight while they stay at the rear.</p>",
+      "type": "Brute (initiate)",
+      "pointsfaibles": ""
+    },
+    "Mise à jour": {
+      "name": "Updates",
+      "tokenName": "Updates",
+      "description": "<p>The first updates were born when the Anathema came to the USA. While the Machine spread its network along the East Coast, it understood that some humans were more sensitive to electromagnetic waves than others or already had cybernetic implants, and could be accessed and even controlled by the Overlord. Rather than use them as cannon fodder, it used these unexpected slaves in two surprising ways. The first was to use some as test subjects, dissecting the human body and finding out exactly which parts it could replace, and which it could not. The second was as spies, infiltrators in Reject communities that had started to shun technology.</p>\n<p>Sooner or later, these humans all ended up breaking free of the Overlord’s control, even just for a couple of seconds. Most of the time this wasn’t enough to betray their new master, but the Machine is not one to leave things to chance. It decided to use its research to perfect its updates, beings that looked identical to humans but which were made of microscopic circuits. It then sent them to infiltrate Reject communities and arks. They are almost impossible to spot but are, like humans, quite fragile and prone to breaking when treated by conventional means (attempting to give one a blood transfusion, for instance, would immediately put it out of order). They are also less than adept at mimicking human emotion. Each generation of update is a little more advanced than the last, however, and they are getting better at it at a frightening pace.</p>",
+      "tactique": "<p>Updates tend to rush towards characters who use energy-fueled devices and meta-armour, as if thirsting for more power.</p>",
+      "type": "Band (recruit)"
+    },
+    "Molosse du vide": {
+      "name": "Void Molosser",
+      "tokenName": "Void Molosser",
+      "description": "<p>A Void Molosser is the representation created by the Men of devouring oblivion. Creatures of the Void (see LdB – p. 221 & 224) opposed to all creation, these hounds haunt the areas devoured by the orphan of Creation, feasting on everything that has not yet fallen into oblivion and gradually gnawing away at the past. Only strong memories or prestigious monuments can appease their insatiable hunger for memory.&nbsp;<br>In the eyes of Humanity, the Void Hounds are large molossers with gaping maws, sometimes even absent, that seem to suck in everything like a black hole: light, shadows, reality, or memories. Some of the largest specimens can reach the size of horses, but the vast majority never exceed twenty hands at the withers.<br>It is difficult to face the Void Hounds. Relentless and moving in packs of dozens of individuals, they&nbsp;<br>hunt everything present in the Void with supernatural avidity and flair. Only the light of the Falcon or the shadows of the Serpent seem able to keep them at bay for a time. Physical, ethereal, or abyssal weapons affect them little, and the aegis and shield seem not to diminish the power of their maw.&nbsp;<br>On this page, two profiles are presented. The first is that of the Void Molosser, considered a Badass. The second is that of the Void Hounds, considered a Band.</p>",
+      "tactique": "<p>The Void Molosser prioritize attacking the PC with the fewest hope points. A Band of Void Hounds&nbsp;<br>is always accompanied by several molossers (one to three per PC depending on the difficulty of the scene).</p>",
+      "type": "Badass (heroic)",
+      "pointsfaibles": ""
+    },
+    "Monstre de chair": {
+      "name": "Flesh monster",
+      "tokenName": "Flesh monster",
+      "description": "<p>Flesh monsters are made from two or three embryos. They scour the Flesh’s domain and battlefields looking for corpses to add to their body. Soon corpses are not enough, and they go looking for living bodies that can be assimilated and transformed with less difficulty.</p>\n<p>Flesh monsters are relatively harmless at first, becoming powerful threats once their mass has increased enough. Some larger specimens are made from dozens of human bodies, turning them into many-limbed monstrosities. Their many bodies make them more resilient than other creatures. So long as they still have enough raw components, they can rebuild themselves and start over. They have one weakness, though. Just like humans and flesh embryos, the bodies they are made of require sustenance in the form of food and water to survive. Some of them end up devouring their own bodies to prolong their existence, or return to their Overlord’s domain and fuse with fleshy fauna.</p>",
+      "tactique": "<p>Flesh monsters usually fight alongside a band of Flesh creatures. They fight in contact range with those closest to them, but stay with the band in order to feed from it.</p>",
+      "type": "Badass (initiate)",
+      "pointsfaibles": ""
+    },
+    "Monstre-machine": {
+      "name": "Machine-monsters",
+      "tokenName": "Machine-monsters",
+      "description": "<p>Although constructs can be made to act in defence of the Machine in a pinch, machine-monsters are its real troops. They are built from vehicles, power tools, and weapons, can grow to impressive size, and move surprisingly fast. They are difficult to dismantle, they change and adapt to fill different roles depending on their current situation and even depending on their enemies. They can add layers of plating to advance on one strongly defended position, for instance, or add additional limbs and weapons to defend against opponents coming from all sides. Some are capable of flight, given the right equipment.</p>\n<p>Machine-monster size makes them easier to spot than constructs. Some have also been spotted far from moving cities, occasionally as convoys heading from one city to another. Their hardiness and speed allow them to travel these long distances with little risk of being overpowered by even well-equipped Reject communities. Avalon’s initial assumption was that convoys are only sent out when the Overlord needs to transport important information or material, and its few successful raids of these convoys have proved that theory correct.</p>",
+      "tactique": "<p>Machine-monsters try to neutralise characters with high Beast and Aggression scores first. When they reach 0 AP, they shut down automatically until repaired. To prevent repairs, they need to be completely disassembled. Their high reaction score represents the layers of deflective plating they use to protect themselves against most types of ammunition.</p>",
+      "type": "Behemoth (initiate)",
+      "pointsfaibles": "<p>Acuity / Tech</p>"
+    },
+    "Noctes": {
+      "name": "Nocts",
+      "tokenName": "Nocts",
+      "description": "<p>Nocts were the first creatures to appear in Europe when darkness fell. Their bestial shapes, seemingly made entirely of shadow, invaded Human lands in a stunningly orderly manner. Their voracious appetite seemed bottomless, and they devoured everything in their way–especially when it sought to halt their advance. The nocts that used to crawl across the land or swim in lakes and rivers have almost all disappeared, making way for creatures of flesh and bone. Winged nocts, however, still flit around the edges of the Beast’s domain. Hundreds and sometimes thousands of them flock together to attack anything that flies or drives too close to their territory, including Avalon’s vectors and armoured ground vehicles. They also harry Reject communities for days at a time, leaving only when nothing is left standing or when they get bored.</p>\n<p>A lone noct is not particularly threatening. Half bird, half deep-sea fish, they are incapable of doing much on their own. They seem oblivious to weapons levelled at them and are particularly sensitive to bright light. They can fly in the daytime, but prefer to come out of the gloom in cloudy weather or in the dwindling light of the end of a day.</p>\n<p>Their true strength lies in their numbers. They act with reckless, near suicidal abandon, throwing themselves bodily at humans or into vehicle engines as one to halt their progress. If enough nocts band together above a Reject settlement, they can blot out the sun long enough for the terrified humans to fall into despair. No matter their target, though, after a while they lose interest and leave the assault to other, more focused beasts.</p>",
+      "tactique": "<p>Nocts attack flying vehicles, armoured cars, and characters in meta-armour above all else. They concentrate on targets outside of buildings first, but are known to smash through doors and windows to get at their prey.</p>",
+      "type": "Band (recruit)"
+    },
+    "Nuée du masque": {
+      "name": "Mask swarm",
+      "tokenName": "Mask swarm",
+      "description": "<p>Shadows are illusions. They may seem similar to whatever they are attached to, move at the same time as they do, but are little more than a lie, a dark mirror without substance. Mask swarms are made from the thousands of shadows once thrown by the humans the Overlord abducts. The Mask commands them, sending them out to abduct those it chooses. They open tiny breaches between Earth and the Abyss, hiding in the Earth’s darkness until they reach their target. They then latch on to their victim’s shadow, using it to trick them into doing their master’s bidding. It can take minutes or days, but their prey always ends up unwittingly following the path laid out by their shadow into a tear to the Abyss. And they do so willingly, or so it would seem. Then the swarm tries to tear away their victim’s shadow, adding it to their number as its owner becomes one of the Mask’s slaves.</p>",
+      "tactique": "<p>Mask swarms never attack head on. They prefer to hide in the darkness, tricking their targets into pursuing them and preying on foes with low Beast scores first.</p>",
+      "type": "Band (initiate)"
+    },
+    "Prodige": {
+      "name": "Prodigies",
+      "tokenName": "Prodigies",
+      "description": "<p>There are many prodigies, humans with abyssal ancestors, on Earth. Some are aware of their nature, but most have no idea of their ties to the events that have befallen their world. They all share an inexplicable affinity with the Anathema, and some exhibit powers linked to cold and shadows. The Lady keeps a watchful eye on all of her get, knowing that one day they will be instrumental in bringing about her grand scheme. When the time comes, she plans on drawing them to her and calling the darkness within them. What happens next will depend on which is stronger: their humanity or their dark side?</p>",
+      "tactique": "<p>Prodigies are not Overlord creations. They are hybrids, something both Human and Abyssal. Each has their own personality and tactics. Some may even turn out to be allies of Avalon.</p>",
+      "type": "Badass (heroic)",
+      "pointsfaibles": ""
+    },
+    "Ravageur": {
+      "name": "Ravager",
+      "tokenName": "Ravager",
+      "description": "<p>Ravagers are more rumour than proven reality, but even some of the Knights of the Round Table speak of them in hushed, nervous whispers. They are said to be mockeries of the human form made from millions of Machine-possessed nanomachines and can shift into any shape they choose, become a skittering grey goo, and disappear into thin air and reform miles away in a heartbeat. These lethal and elusive technological creatures can break into computer systems, electronic components of all types, and simpler machines. Ravagers can control them remotely while using their nanomachine components to fabricate all manner of weapons known to mankind to fight off anyone who tries to interfere. Meta-armours are not immune to the hacking attempts of ravagers, and Knights must rely on their suit’s AI to fend off the worst of the assaults.</p>\n<p>Fortunately, there seem to be very few ravagers. Sightings are few and far between, but each appearance happens at a critical moment for Humankind. Palamedes has recently received reports indicating that ravagers are the only servants of the Machine to have a degree of autonomous thought, almost on par with that of an incarnation. Taking this further, she surmises that they are capable of negotiation, perhaps to further their plans, stymie those of other Overlords, or to plead for their lives.</p>\n<p>One terrifying thing to note is that despite their technological makeup, ravagers’ nanomachines are so complex that they can avoid all known hacking, interference, and security techniques.</p>",
+      "tactique": "<p>Ravagers target Knights in first generation meta-armour with the lowest number of Tech ODs first, then pick their targets in increasing generation complexity.</p>",
+      "type": "Badass (heroic)",
+      "pointsfaibles": ""
+    },
+    "Reflets": {
+      "name": "Reflections",
+      "tokenName": "Reflections",
+      "description": "<p>Along with the Shadowed Man, the Lady is one of the Overlords of the Abyss who has spent the most time in contact with humans and the least time near Horror. Thanks to this prolonged exposure, she has mastered the art of replicating humanity. By using ice and a person’s image, she can create a being identical in all aspects to a normal human. Unless she is close enough to speak through them, however, these reflections are voiceless. They can act with finesse, blend into a crowd, or draw attention to themselves if they wish. They are the Lady’s hand in many things, but cannot be considered an army. They are fragile beings, prone to shattering at the slightest blow.</p>",
+      "tactique": "<p>Reflections try to stay away from heat sources and attack characters with low Flesh scores first.</p>",
+      "type": "Band (recruit)"
+    },
+    "Rejeton du masque": {
+      "name": "Mask spawn",
+      "tokenName": "Mask spawn",
+      "description": "<p>Mask spawn are adaptable creatures capable of modifying their shape to suit their surroundings and their enemies. They draw this power from the Human souls the Overlord used to create them, melding dozens of dead fighters into its more capable warriors. In fact, their prowess in battle and adaptability usually earn them a place as the Mask’s champions (after his living masks, that is). While their white mask is a permanent fixture, their bodies can shift between three different states of solidity. The first is a cloud of dark smoke allowing them to move swiftly, to slip through cracks, and to allow most human weapons to pass harmlessly through them.</p>\n<p>The downside is that their range of actions is rather limited in this shape, so they use it mostly when spying, infiltrating, or fleeing. When in their second state, their bodies seem made of pure obsidian. It is in fact alpha element, and gives them a greatly increased hardiness and strength at the expense of speed. This allows them to lift thousands of pounds with little effort, or turn their bodies into almost impenetrable physical barriers. Their third and last form turns them into masters of close combat. Taking on humanoid form, their body quickly varies between flexible and surprisingly sturdy. They can model it to suit their needs, turning their limbs into slicing blades or heavy maces depending on the type of opponents they face.</p>",
+      "tactique": "<p>Mask spawn are as versatile a fighter as any. They tend to go from opponent to opponent (favouring targets with high Lady and Aura scores), ducking and weaving between blows. When they sustain heavy damage, they attempt to flee as clouds of smoke.</p>",
+      "type": "Badass (initiate)",
+      "pointsfaibles": ""
+    },
+    "Séraphin": {
+      "name": "Seraphin",
+      "tokenName": "Seraphin",
+      "description": "<p>Winged beings without faces, with muscular and asexual bodies adorned with children's drawings always in motion, the seraphins are among the few creatures of the Ether to have survived the arrival of the shadows. If they are encountered in The Saga of the End Times as slaves of the Mask, the seraphins were originally among the most violent and dangerous children of the light.&nbsp;<br>Servants of the muse of the Trait, the former Lord of the light now extinct, the seraphins fight with incandescent weapons, generate powerful waves of light, fly with diaphanous wings that appear dead, and possess above their heads an aureole so bright that it can literally burn the flesh of the monstrosities of the shadows. Silent and shimmering spearheads of the wild armies of the Ether, they were once elite soldiers and fed their power by stealing the imagination and dreams of children becoming adults. All could travel in the dream world in search of prey.&nbsp;<br>Each drawing on the body of a seraphin is indeed a stolen dream, an idea taken by force from the dream escapes of a human being. The more moving drawings a seraphin possesses on its body, the more it has stolen the imagination of Humanity and the more powerful its powers are. Once, when the millennial war was at its peak, one of them was capable of facing a living mask and surviving, even defeating it.&nbsp;<br>Today, due to the victory of the Abyss, there are only two seraphins left on Earth, having become slaves of the Mask. It is their profile that is described here.</p>",
+      "tactique": "<p>Neither discreet nor cautious, a seraphin attacks head-on, without any restraint. It always targets the PC with the highest Machine score.&nbsp;</p>",
+      "type": "Boss (recruit)",
+      "pointsfaibles": ""
+    },
+    "Serpent": {
+      "name": "Serpent",
+      "tokenName": "Serpent",
+      "description": "<p>Serpents are the Ophidian’s only creations, and obey no other master. Millions of these reptiles slither over their creator’s body in the Abyss. They guard and protect it while it gazes at far-off things. Their substance is drawn from their master’s body, but they can separate from it in order to become its messengers, can be sent to kill unruly abyssal creatures, and to keep the other shards’ creatures in line. They are above Rebirth’s partitioning laws, and can travel freely throughout the Abyss, from circle to circle and beyond, fearing nothing except creatures older than the Ophidian itself (see Knight core book – Chapter 8: Abyss to Anathema, on page 223).</p>\n<p><br>Serpents can manifest anywhere on Earth, provided they have a fixed angle or corner to appear from. This method of apparition grants them access to almost any location. They are exempt from laws of physics, and can fly and slither at surprising speeds. Their size ranges from that of a grown person to a hundred feet long. Their alpha element scales are impervious to most conventional means of attack and their fangs’ venom is unknown to humans. No antidote has yet been found to counteract it.</p>\n<p>A serpent’s bite makes its victim’s flesh go deathly pale, their skin starts to crack, and their body falls to ash. All this makes serpents one of the most dangerous creatures of the Abyss. Fortunately, as their Overlord grows ever more drowsy and uninterested in anything but despair, fewer and fewer of them appear on Earth.</p>",
+      "tactique": "<p>Serpents attack characters using weapons with anti-Anathema effects first, then those with radiance effects, then characters with the most hope.</p>",
+      "type": "Badass (heroic)",
+      "pointsfaibles": "<p>Composure</p>"
+    },
+    "Ville mouvante": {
+      "name": "Moving city",
+      "tokenName": "Moving city",
+      "description": "<p>Moving cities were one of the first signs of the Machine’s influence on the East Coast of the USA. Subtly at first, then more and more noticeably, Washington’s communities of red plague survivors and re-settlers saw buildings shift and move. In some buildings, people ended up locked in their own homes, trapped inside with other buildings pressed up against their only ways out. In other parts of the city, abandoned blocks moved away to make room for the construction of huge mechanical creatures.</p>\n<p>This affects all the cities on the East Coast, and has led to the emptying of almost all cities near the shore. Their inhabitants, already few in number due to the red plague, have mostly fled inland. Moving cities seem harmless enough at first glance, with a slow, regular way of moving. They pose two problems, however. The first is that teams sent on any kind of mission in a moving city cannot rely on maps of the area. In New York City or Washington, DC, this can be a major inconvenience. The second is that they open routes for more dangerous Machine creatures. Refugees and Rejects may go to sleep thinking they have found a safe location, only to wake and find all their escape routes cut off with machine monsters bearing down on them.</p>",
+      "tactique": "<p>A moving city rarely goes after individuals, preferring to prey on groups. If it has to choose between more than one group, it concentrates on the largest one first and reconfigures its streets and layout in an attempt to slowly trap and smother them.</p>",
+      "type": "Band (heroic)"
+    },
+    "Yeux indiscret": {
+      "name": "Prying eyes",
+      "tokenName": "Prying eyes",
+      "description": "<p>The Lady rarely ventures out of her Sahara territory. She works with humans only when absolutely necessary and even then does so in a very restrained manner. Her incarnations use prying eyes to keep track of human and Overlord activity, waiting for appropriate times to act herself. Any reflective surface can become one of the Lady’s spies, be it ice, glass, or mirror. Unfortunately for her, there are too many for even an Overlord to keep track of at once. If she chooses to follow a person, however, they have almost no way of escaping her scrutiny.</p>\n<p>The Lady’s prying eyes are only used as a surveillance mechanism, and cannot act in any way apart from moving from one reflective surface to another. They can be used to interact with a target in a limited manner, but if conversing with or pressuring someone is required, the shard is more likely to send one of its avatars.</p>",
+      "tactique": "<p>Prying eyes cannot attack. They appear on reflective surfaces and can at most assist their allies by providing information on an enemy’s location in battle.</p>",
+      "type": "Brute (recruit)",
+      "pointsfaibles": ""
+    }
+  }
+}

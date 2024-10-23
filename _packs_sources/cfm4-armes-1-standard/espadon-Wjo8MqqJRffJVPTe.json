@@ -1,0 +1,135 @@
+{
+  "name": "Espadon",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">On a ici une arme grande comme une m&eacute;ta-armure, qui peut &ecirc;tre plant&eacute;e au sol et utilis&eacute;e comme couvert. Pour limiter les probl&egrave;mes de masse, l'alliage d'acier &nbsp;est remplac&eacute; par un alliage de titane, utilis&eacute; dans les proth&egrave;ses et les structures d'avions. Un traitement de surface &agrave; base de cristaux alpha et diamants rend &nbsp;chaque moulinet du porteur encore plus mena&ccedil;ant. Cependant, son manque d'&eacute;quilibre reste un probl&egrave;me &nbsp;de taille, litt&eacute;ralement.</p>",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 30,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "reaction 1",
+        "demoralisant",
+        "deuxmains",
+        "intimidanthum",
+        "retourflamme"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "Wjo8MqqJRffJVPTe",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!Wjo8MqqJRffJVPTe"
+}

@@ -1,0 +1,305 @@
+{
+  "label": "Modules - 2. Advanced",
+  "mapping": {
+    "description": "system.description",
+    "n1EnergieTourLabel": "system.niveau.details.n1.energie.tour.label",
+    "n1EnergieMinuteLabel": "system.niveau.details.n1.energie.minute.label",
+    "n1Duration": "system.niveau.details.n1.duree",
+    "n2EnergieTourLabel": "system.niveau.details.n2.energie.tour.label",
+    "n2EnergieMinuteLabel": "system.niveau.details.n2.energie.minute.label",
+    "n2Duration": "system.niveau.details.n2.duree",
+    "n3EnergieTourLabel": "system.niveau.details.n3.energie.tour.label",
+    "n3EnergieMinuteLabel": "system.niveau.details.n3.energie.minute.label",
+    "n3Duration": "system.niveau.details.n3.duree",
+    "n1WpnEffetCustom1Label": "system.niveau.details.n1.arme.effets.custom.0.label",
+    "n1WpnEffetCustom1Description": "system.niveau.details.n1.arme.effets.custom.0.description",
+    "n1WpnEffetCustom1AtkCondition": "system.niveau.details.n1.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n1WpnEffetCustom1DgtCondition": "system.niveau.details.n1.arme.effets.custom.0.degats.conditionnel.condition",
+    "n1WpnEffetCustom1ViolenceCondition": "system.niveau.details.n1.arme.effets.custom.0.violence.conditionnel.condition",
+    "n2WpnEffetCustom1Label": "system.niveau.details.n2.arme.effets.custom.0.label",
+    "n2WpnEffetCustom1Description": "system.niveau.details.n2.arme.effets.custom.0.description",
+    "n2WpnEffetCustom1AtkCondition": "system.niveau.details.n2.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n2WpnEffetCustom1DgtCondition": "system.niveau.details.n2.arme.effets.custom.0.degats.conditionnel.condition",
+    "n2WpnEffetCustom1ViolenceCondition": "system.niveau.details.n2.arme.effets.custom.0.violence.conditionnel.condition",
+    "n3WpnEffetCustom1Label": "system.niveau.details.n3.arme.effets.custom.0.label",
+    "n3WpnEffetCustom1Description": "system.niveau.details.n3.arme.effets.custom.0.description",
+    "n3WpnEffetCustom1AtkCondition": "system.niveau.details.n3.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n3WpnEffetCustom1DgtCondition": "system.niveau.details.n3.arme.effets.custom.0.degats.conditionnel.condition",
+    "n3WpnEffetCustom1ViolenceCondition": "system.niveau.details.n3.arme.effets.custom.0.violence.conditionnel.condition"
+  },
+  "entries": {
+    "Adhérence": {
+      "name": "Grip module",
+      "description": "<p>The character can stick to any surface, can climb sheer, smooth buildings and rock faces, and can even cling to glass ceilings. Grip duration may be extended by spending the activation cost as long as the character can afford it. Combat actions can be performed, but only with one-handed weapons.</p>\n<h2>Level 2</h2>\n<p>Grip duration is now unlimited. It can be activated and deactivated at will. Energy cost is only paid when the module is activated.</p>",
+      "n1EnergieTourLabel": "3 turns",
+      "n1EnergieMinuteLabel": "30 seconds",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Until deactivated",
+      "n2EnergieMinuteLabel": "",
+      "n2Duration": ""
+    },
+    "Amplification de frappe": {
+      "name": "Strike intensifier",
+      "description": "<p>A power-enhancing mechanism that increases striking power in exchange for some self-inflicted damage. During a melee combat action, the user may activate this module to add + 1D6 to their damage. Additional dice may be added, up to 6D6 in total, but for each D6 after the first, the user suffers a backlash of 2 points of damage to their armour (bypassing their force field). Damage inflicted to the armour in this manner cannot harm the Knight inside it.</p>\n<h2>Level 2</h2>\n<p>The first 3D6 deal no backlash damage.</p>\n<h2>Level 3</h2>\n<p>The module no longer deals any backlash damage.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Arme de torse": {
+      "name": "Chest cavity weapon",
+      "description": "<p>The armour’s chest has a cavity filled with enough ammunition for a single powerful final recourse attack.</p>\n<h2>Niveau 2</h2>\n<p>The weapon now contains enough ammunition to fire three times before the clip has to be reloaded in Camelot.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": ""
+    },
+    "Banner": {
+      "name": "Warbanner",
+      "description": "<p>All enemies with a Machine aspect lower than 8 up to long range are attracted towards the user. Attracted enemies can only attack the user, and head towards them alone. If two or more Warbanner modules are activated at once, multiple enemies split up into equal groups and head towards as many Warbanners as they can.</p>\n",
+      "n1EnergieTourLabel": "Special – Warbanner effects last until the enemies’ attention is drawn away by something else.",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Billes sonar": {
+      "name": "Sonar beads",
+      "description": "<p>These beads can be propelled up to medium range. Once they have been deployed in a room, a location, or behind cover, they act as sonars and detect living beings–including invisible ones–at short range around them. Living beings in range are treated as if they were holo-targeted when using ranged weapons against them (see the holo-targeting effect).</p>\n",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": ""
+    },
+    "Blindage amélioré": {
+      "name": "Improved shielding",
+      "description": "<p>Improved shielding provides an additional 10 armour points, increasing the meta-armour’s total AP, regardless of the armour’s model.</p>\n<h2>Level 2</h2>\n<p>Improved shielding provides an additional 10 armour points, increasing the meta-armour’s total AP, regardless of the armour’s model (adding to the previous level’s 10 points, for a total of +20 AP above the armour’s base value).</p>\n<h2>Level 3</h2>\n<p>Improved shielding provides an additional 10 armour points, increasing the meta-armour’s total AP, regardless of the armour’s model (adding to the previous level’s 10 points, for a total of +30 AP above the armour’s base value).</p>",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "-",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "-",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Canon de bras": {
+      "name": "Arm cannon",
+      "description": "<p>A lightweight cannon attached to one of the metaarmour’s arms provides an always available weapon for emergencies and surprises.</p>\n<h2>Level 2</h2>\n<p>The weapon gains one additional effect, to be chosen from the following when the upgrade is purchased: scatter 3, radiance 2, assisted aim. The weapon also gains either 1D6 damage or 1D6 violence (chosen when the upgrade is purchased).</p>\n<h2>Level 3</h2>\n<p>The weapon gains one additional effect, to be chosen from the following when the upgrade is purchased: ignore armour, ignore FF, anti-vehicle. The weapon also gains either 1D6 damage or 1D6 violence (chosen when the upgrade is purchased).</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Canon défensif": {
+      "name": "Defensive cannon",
+      "description": "<p>A small AI-controlled cannon designed to protect the Knight at short range or closer. Once per turn, a brute, badass, or boss who performs a melee attack on the PC at a distance of 10 feet or less automatically takes 2D6 damage from the cannon’s defensive fire. It also adds 1D6 violence to weapons used to attack a band at short range or closer.</p>\n<h2>Level 2</h2>\n<p>The cannon now fires defensively at enemies who attack the PC with melee and ranged attacks at a distance of 10 feet or less, dealing 3D6 damage.</p>\n<h2>Level 3</h2>\n<p>The cannon now fires up to medium range when the PC is attacked, inflicting 4D6 damage.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Canon TNL": {
+      "name": "NLD Cannon",
+      "description": "<p>This AI activated non-lethal damage cannon is designed to repel close enemies. Each turn, the armour’s wearer may choose one target in short range. If the enemy’s Flesh aspect is lower than 10, they automatically suffer a stun 1 effect (no attack roll required).</p>\n<h2>Level 2</h2>\n<p>The cannon’s stun 1 can affect enemies with a Flesh aspect of 12 or lower.</p>\n<h2>Level 3</h2>\n<p>The cannon’s stun 1 can affect enemies with a Flesh aspect of 14 or lower.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Champ de force amélioré": {
+      "name": "Improved force field",
+      "description": "<p>Improved force field, or IFF, provides an additional 3 FF, increasing the meta-armour’s total force field, regardless of the armour’s model.</p>\n<h2>Level 2</h2>\n<p>The IFF provides an additional 3 FF, increasing the meta-armour’s total force field regardless of the armour’s model (for a total of +6 FF above the armour’s base value).</p>\n<h2>Level 3</h2>\n<p>The IFF provides an additional 3 FF, increasing the meta-armour’s total force field, regardless of the armour’s model (for a total of +9 FF above the armour’s base value).</p>",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "-",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "-",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Champ de force portatif": {
+      "name": "Portable force field",
+      "description": "<p>Based on the same principle as the Steed motorcycle deployment module, this module allows the embedding of small pellets or balls containing nanites that assemble to form a temporary force field generator. The pellet or ball is thrown like a grenade, instantly deploying an operational force field with a 2-meter radius. It cannot be moved during the duration of its effect. Ideal for protecting a companion or the escape of civilians, it is not uncommon for a knight who possesses this module to use this device on themselves. To do this, simply throw the ball or pellet at their feet.</p>\n<p>The roll to launch this module is made at Short range, +1 range rank per OD of Force. The range indicated on the sheet represents the range of the CdF and not the range for throwing it.</p>\n<h2>Level 2</h2>\n<p>Increased usage before recharge.</p>\n<h2>Level 3</h2>\n<p>Maximum usage before recharge.</p>",
+      "n1EnergieTourLabel": "1 minute or 6 turns in conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "1 minute or 6 turns in conflict phase",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "1 minute or 6 turns in conflict phase",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Contre-mesures": {
+      "name": "Countermeasures",
+      "description": "<p>By expending one countermeasure charge, the user may cancel the damage and effects of one missile or rocket aimed at them (see missile and rocket pods).</p>\n<h2>Level 2</h2>\n<p>Clip 3 increases to clip 6.</p>\n<h2>Level 3</h2>\n<p>Clip 6 increases to clip 10.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Dard": {
+      "name": "Dart",
+      "description": "<p>A discreet tool designed to pierce through any protection and allow its user to inject an adversary with foreign substances–neurotoxins, sedatives, destructive nanomachines–chosen when purchasing this module. Unsheathing the dart is a free action, but attacking with it requires a move action.</p>\n<h2>Level 2</h2>\n<p>The weapon now has 3 additional charges (clip 3 becomes clip 6).</p>\n<h2>Level 3</h2>\n<p>Neurotoxin, sedative, and nanomachine effects can be used simultaneously.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Découpeur": {
+      "name": "Cutter",
+      "description": "<p>This module, a favourite of Priest model wearers, is capable of cutting through nearly anything. It can be used for precision work like cutting the lock out of a door, or to open breaches in walls or cut the barrel off a gun. It can also be used as a melee weapon. It is not designed for that purpose, however, and its user suffers a 3-die penalty to their attack rolls. Using the cutter for its intended purpose requires a move action, attacking with it requires a combat action.</p>\n",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Déplacement silencieux": {
+      "name": "Sneak module",
+      "description": "<p>The character moves quietly, their movements make almost no noise. They get a 2 dice bonus to Stealth combo Movement or combo Combat skill checks.</p>\n<h2>Level 2</h2>\n<p>The character now gets a 4-die bonus to Stealth combo Movement or combo Combat skill checks instead of 2.</p>",
+      "n1EnergieTourLabel": "1 turn",
+      "n1EnergieMinuteLabel": "6 seconds",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "1 turn",
+      "n2EnergieMinuteLabel": "6 seconds",
+      "n2Duration": ""
+    },
+    "Diffuseur de nanoM": {
+      "name": "NanoM injectors",
+      "description": "<p>Dormant medical nanomachines activated by transferring alpha energy to them heal the wearer as needed. Upon activation, the Knight immediately regains 1D6 lost health points. This automatically activates if the character reaches 0 health points.</p>\n<h2>Level 2</h2>\n<p>The Knight now regains 2D6 health points per activation. This automatically activates if the character reaches 0 health points.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": ""
+    },
+    "Drone d'espionnage": {
+      "name": "Spy drone",
+      "description": "<p>This small four-rotor helicopter looks like a toy but is in fact a sophisticated spy drone. It comes equipped with a camera and microphone linked to its user’s helm. Its battery lasts up to 2 hours and it can travel 15 miles from its user before the signal becomes too poor to be useful. Its four rotors can turn into wheels if needed, for better manoeuvrability.\nSpy drones have a simplified stat block.</p>\n",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": ""
+    },
+    "Drone pour nods": {
+      "name": "Drone for nods",
+      "description": "<p>This small drone detaches from the armour to deliver a node of energy, healing, or armour to an ally at medium range, then returns to its initial position. The drone comes with a compartment that can hold 3 additional nodes (in addition to those already possessed by the knight) of the user's choice: 3 healing nodes, 3 energy nodes, 3 armour nodes, or 1 of each type (to be chosen when installing the module). The drone is not very sturdy and has only 10 HP, but it is small enough to not be easily detected or easily destroyed. It has a defense and reaction of 5, and a Perception/Mask roll of difficulty 5 is required to detect it in combat. This difficulty can be adjusted by the GM based on the knight's actions (excessive use...).</p>\n<p>Nodes can be used at medium range, at a rate of one node per turn maximum.</p>\n<p>3 additional nodes in stock at the beginning of each mission.</p>\n",
+      "n1EnergieTourLabel": "1 turn",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Énergie améliorée": {
+      "name": "Improved reactor",
+      "description": "<p>Improved reactor provides an additional 10 energy points, increasing the meta-armour’s total EP, regardless of the armour’s model.</p>\n<h2>Level 2</h2>\n<p>Improved reactor provides an additional 10 energy points, increasing the meta-armour’s total EP, regardless of the armour’s model (adding to the previous level’s 10 points, for a total of +20 EP above the armour’s base value).</p>\n<h2>Level 3</h2>\n<p>Improved reactor provides an additional 10 energy points, increasing the meta-armour’s total EP, regardless of the armour’s model (adding to the previous level’s 10 points, for a total of +30 EP above the armour’s base value).</p>",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "-",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "-",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Fléchettes incandescentes": {
+      "name": "Incandescent darts",
+      "description": "<p>This small dart launcher looks exactly like the flare pod, but it launches small UV darts that explode in bursts of light.</p>\n<p>All enemies at short range are hit.</p>\n<h2>Level 2</h2>\n<p>Modification of effects and violence.</p>\n<h2>Level 3</h2>\n<p>Modification of damage, violence, and effects.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Grenade intelligente supplémentaire": {
+      "name": "Additional smart grenade",
+      "description": "<p>This module modifies the rack module to include an additional smart grenade without changing the number of weapons. This grenade is recharged along with the others at the beginning of each mission, and this module can be purchased up to three times.</p>\n<p>The price indicated is per additional grenade.</p>\n",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Miniaturisation": {
+      "name": "Miniaturisation",
+      "description": "<p>The chosen module occupies one less slot, and only one (even if it takes up slots in several areas of the armour). A module can occupy no slot at all after miniaturisation.</p>\n",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Pack de nods supplémentaires": {
+      "name": "Additional nodes pack",
+      "description": "<p>This module includes additional nodes of your choice: 3 healing nodes, 3 energy nodes, 3 armour nodes, or 1 of each type (to be chosen when installing the module). It is recharged at the beginning of each mission and can be purchased multiple times.</p>\n<p>The price of the module is per pack purchased.</p>\n",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Pod missile": {
+      "name": "Missile pod",
+      "description": "<p>Shoulder-mounted guided anti-tank or anti-air missile launcher. Must be reloaded in Camelot. Missile pods only work if an enemy has been holo-targeted.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Pod roquette": {
+      "name": "Rocket pod",
+      "description": "<p>A launcher capable of firing dozens of small antipersonnel scattering rockets.</p>\n<h2>Level 2</h2>\n<p>The module loses the ultraviolence effect, gaining + 2D6 to its violence in exchange.</p>\n<h2>Level 3</h2>\n<p>The weapon gains the demoralising effect. Clip 3 increases to clip 6.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Thunder security": {
+      "name": "Thunder security",
+      "description": "<p>PCs with this module are immune to the following effects: energy drain, interference X, and EMPs.</p>\n",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Tourelle d'épaule": {
+      "name": "Shoulder turret",
+      "description": "<p>The user has a compact version of one of Avalon’s ranged weapons mounted on their meta-armour’s shoulder. The weapon’s cost must be paid at the same time as the module. Only weapons without the heavy effect can be mounted on a shoulder turret. Weapons can be switched out in Camelot. The PC may use a move action instead of a combat action to fire their shoulder turret.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    }
+  }
+}

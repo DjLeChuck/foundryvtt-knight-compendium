@@ -12,8 +12,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "energie": {
       "value": 0,
@@ -22,8 +21,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "armure": {
       "value": 0,
@@ -32,8 +30,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "initiative": {
       "dice": 3,
@@ -45,13 +42,11 @@
     },
     "reaction": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "defense": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "equipage": {
       "value": 0,
@@ -62,7 +57,9 @@
       },
       "passagers": []
     },
-    "description": "<p>La moto steed est le v&eacute;hicule personnel le plus courant au sein du Knight, notamment au sein de la section Griffon. D&rsquo;aspect, c&rsquo;est un engin tr&egrave;s maniable, puissant, rac&eacute;, avec un guidon &eacute;pais prot&eacute;g&eacute; par un bec a&eacute;rodynamique. Les pneus, mont&eacute;s sur deux &eacute;paisses roues &agrave; suspension intelligente, ne sont pas gonfl&eacute;s mais form&eacute;s de mailles alv&eacute;ol&eacute;es auto-r&eacute;parantes et pouvant supporter des freinages &agrave; haute vitesse. La majorit&eacute; des chevaliers personnalisent leur moto avec des peintures color&eacute;es, affichant leur amour de la vitesse et du danger.</p>\n<p>Enfin, il est &agrave; noter que la moto steed constitue un module qui peut &ecirc;tre achet&eacute; &agrave; l&rsquo;arsenal. Dot&eacute;es d&rsquo;une technologie de pointe, toutes les steed sont en effet foldables, &agrave; l&rsquo;instar des m&eacute;ta-armures, et peuvent &ecirc;tre d&eacute;ploy&eacute;es depuis des petits modules &agrave; faire glisser au sol (ou gr&acirc;ce &agrave; la derni&egrave;re &eacute;volution de la m&eacute;ta-armure Priest).</p>"
+    "description": "<p>La moto steed est le v&eacute;hicule personnel le plus courant au sein du Knight, notamment au sein de la section Griffon. D&rsquo;aspect, c&rsquo;est un engin tr&egrave;s maniable, puissant, rac&eacute;, avec un guidon &eacute;pais prot&eacute;g&eacute; par un bec a&eacute;rodynamique. Les pneus, mont&eacute;s sur deux &eacute;paisses roues &agrave; suspension intelligente, ne sont pas gonfl&eacute;s mais form&eacute;s de mailles alv&eacute;ol&eacute;es auto-r&eacute;parantes et pouvant supporter des freinages &agrave; haute vitesse. La majorit&eacute; des chevaliers personnalisent leur moto avec des peintures color&eacute;es, affichant leur amour de la vitesse et du danger.</p>\n<p>Enfin, il est &agrave; noter que la moto steed constitue un module qui peut &ecirc;tre achet&eacute; &agrave; l&rsquo;arsenal. Dot&eacute;es d&rsquo;une technologie de pointe, toutes les steed sont en effet foldables, &agrave; l&rsquo;instar des m&eacute;ta-armures, et peuvent &ecirc;tre d&eacute;ploy&eacute;es depuis des petits modules &agrave; faire glisser au sol (ou gr&acirc;ce &agrave; la derni&egrave;re &eacute;volution de la m&eacute;ta-armure Priest).</p>",
+    "version": 1,
+    "descriptionLimitee": ""
   },
   "prototypeToken": {
     "name": "Moto steed",
@@ -75,7 +72,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -111,11 +112,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -126,7 +129,25 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -134,7 +155,7 @@
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/shotgun-escamotable.webp",
       "system": {
-        "description": "<p>Ce shotgun pliable est installé à côté des extincteurs dans les couloirs de Camelot et dans les véhicules du Knight. Décrocher, déplier les poignées, un déclic se fait entendre, écarter les poignées énergiquement, ça coulisse, nouveau déclic, et voilà, un fusil à pompe armé et prêt à tirer. Il se recharge par l'arrière, sous la crosse, dans deux magasins tubulaires. Il est utilisable sans méta-armure.</p>\n",
+        "description": "<p>Ce shotgun pliable est installé à côté des extincteurs dans les couloirs de Camelot et dans les véhicules du Knight. Décrocher, déplier les poignées, un déclic se fait entendre, écarter les poignées énergiquement, ça coulisse, nouveau déclic, et voilà, un fusil à pompe armé et prêt à tirer. Il se recharge par l'arrière, sous la crosse, dans deux magasins tubulaires. Il est utilisable sans méta-armure.</p>",
         "rarete": "standard",
         "type": "distance",
         "portee": "moyenne",
@@ -179,11 +200,36 @@
         },
         "degats": {
           "dice": 2,
-          "fixe": 10
+          "fixe": 10,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
           "dice": 2,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
@@ -214,7 +260,11 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
       "_id": "ZVxwQEA8N3SxYsja",

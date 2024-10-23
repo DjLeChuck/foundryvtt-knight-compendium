@@ -1,0 +1,217 @@
+{
+  "name": "« Failnaught »  L'Arc de Tristan",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Cet arc long fut ramen&eacute; par un chevalier errant lors d&rsquo;une exp&eacute;dition dans les &icirc;les britanniques. Son &eacute;tat de conservation remarquable a piqu&eacute; la curiosit&eacute; des scientifiques du Knight qui ont dat&eacute; l&rsquo;arme &agrave; environ 1500 ans. Fa&ccedil;onn&eacute;e d&rsquo;une seule pi&egrave;ce d&rsquo;if et d&eacute;pourvue d&rsquo;ornements, une l&eacute;g&egrave;re aura &eacute;mane de l&rsquo;arc. Les t&eacute;moignages rapportent une compr&eacute;hension instinctive de l&rsquo;archerie, comme si l&rsquo;arme guidait ses porteurs, au point que certains chevaliers pensent qu&rsquo;il s&rsquo;agirait v&eacute;ritablement de &nbsp;Failnaught, l&rsquo;arc l&eacute;gendaire de Tristan de L&eacute;onois.</p>",
+    "rarete": "espoir",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 75,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "precision",
+        "lumiere 4",
+        "antianatheme",
+        "assistanceattaque",
+        "esperance",
+        "tenebricide",
+        "deuxmains"
+      ],
+      "custom": [
+        {
+          "label": "Spécial",
+          "description": "<p>L&rsquo;arc conf&egrave;re un bonus de 3 r&eacute;ussites automatiques au tir contre une cible.</p>",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "vmSHQiNYSnf4118k",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!vmSHQiNYSnf4118k"
+}

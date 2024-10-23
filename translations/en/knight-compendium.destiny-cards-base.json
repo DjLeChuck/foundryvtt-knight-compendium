@@ -1,0 +1,96 @@
+{
+  "label": "Fate Cards",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "I - Le Bateleur": {
+      "name": "I - The Magician",
+      "description": "<p>When a PC plays the Magician card, they can modify a scene the GM has just finished describing. They may remove or add one (and only one) background feature or object, but they cannot add or remove a PC or an NPC from the scene. Furthermore, they cannot create clues or add items of vital importance to the current mission. Once the GM accepts the modification, it must be taken into account for the rest of the scene or conflict phase.</p>\n<blockquote><p>’She knows all, without having to seek it out.’</p>\n</blockquote>"
+    },
+    "II - La Papesse": {
+      "name": "II - The High Priestess",
+      "description": "<p>This card’s effect applies as soon as it is drawn. The PC receives a clue concerning their current mission, by a vision, a hunch, or some other means. This clue may only be a few words long, and can at the most describe events past or still to come (GM’s choice).</p>\n<blockquote><p>Elle saura tout, sans le chercher.</p>\n</blockquote>"
+    },
+    "III - L'Impératrice": {
+      "name": "III - The Empress",
+      "description": "<p>When the PC plays this card, their whole banner (except the PC playing the card) restores their energy points to full.</p>\n</blockquote>"
+    },
+    "IV - L'Empereur": {
+      "name": "IV - The Emperor",
+      "description": "<p>When the PC plays this card, they can restore their armour points to full. This card can be used when armour points reach 0. Any surplus damage is subtracted from the PC’s newly restored armour points.</p>\n<blockquote><p>’At his side, it is as if destruction were but a trick of the light.</p>\n</blockquote>"
+    },
+    "IX - L'Ermite": {
+      "name": "IX - The Hermit",
+      "description": "<p>This card’s effect immediately applies to the PC who draws it. Their lowest characteristic score is increased by 1 point. In the event of a tie, the GM chooses which characteristic score is increased.</p>\n<blockquote><p>’Alone shall he learn the secrets of the world.’</p>\n</blockquote>"
+    },
+    "Le Fou": {
+      "name": "The Fool",
+      "description": "<p>This card’s effect immediately applies to the PC who draws it. Two other PCs of the banner, chosen by the PC who drew this card, may each draw one fate card. The newly drawn cards’ effects are resolved as normal.</p>\n<blockquote><p>’Master of Fate, dealer of the cards.</p>\n</blockquote>"
+    },
+    "V - Le Pape": {
+      "name": "V - The Hierophant",
+      "description": "<p>This card’s effect immediately applies to the PC who draws it. Their lowest aspect score is increased by 1 point. In the event of a tie, the GM chooses which aspect score is increased.</p>\n<blockquote><p>’He provides enlightenment to those who need it.’</p>\n</blockquote>"
+    },
+    "VI - L'Amoureux": {
+      "name": "VI - The Lovers",
+      "description": "<p>When this card is played, the PC adds 6 temporary contact points to their current total. These points are lost at the end of the mission.</p>\n<blockquote><p>’They are known to all, here and elsewhere.’</p>\n</blockquote>"
+    },
+    "VII - Le Chariot": {
+      "name": "VII - The Chariot",
+      "description": "<p>When they play this card, a PC receives an additional combat action each turn for the entire duration of a conflict phase.</p>\n<blockquote><p>’Ever forward, unrelenting.’</p>\n</blockquote>"
+    },
+    "VIII - La Justice": {
+      "name": "VIII - Justice",
+      "description": "<p>When they play this card, a PC can add two additional effects to all their attacks for the entire duration of a conflict phase. The effects must be chosen from the following list: <em>ignore armour</em>, <em>ignore FF</em>, <em>wrath</em>, <em>demoralising</em> (see effect descriptions, Appendix 2: Arsenal, on page 414).</p>\n<blockquote><p>’She turns her sword against those who deserve it.’</p>\n</blockquote>"
+    },
+    "X - La Roue-de-Fortune": {
+      "name": "X - Wheel of Fortune",
+      "description": "<p>When the PC plays this card, they may choose to reroll every single one of their failed skill checks. They can only reroll once for each check, and must keep the second roll, whether they like the new result or not. This effect lasts for a whole scene or conflict phase.</p>\n<blockquote><p>’Success or failure, the Wheel spins eternal.’</p>\n</blockquote>"
+    },
+    "XI - La Force": {
+      "name": "XI - Strength",
+      "description": "<p>When they play this card, the PC can choose to deal the maximum amount of their weapon’s damage to all their successful attacks for the entire duration of a conflict phase.</p>\n<blockquote><p>’Foes quail before such might.’</p>\n</blockquote>"
+    },
+    "XII - Le Pendu": {
+      "name": "XII - The Hanged Man",
+      "description": "<p>When the PC plays this card, they can ignore a death’s door effect and restore their health points to full. This card can be used when their health points reach 0.</p>\n<blockquote><p>’He shall suffer. He shall die. He shall be reborn anew.’</p>\n</blockquote>"
+    },
+    "XIII - L'Arcane sans nom": {
+      "name": "XIII - Death",
+      "description": "<p>When they play this card, the PC can simply wipe out all brute type enemies present in the scene.</p>\n<blockquote><p>’With barely a glance, she leads the weak to their fate.’</p>\n</blockquote>"
+    },
+    "XIV - Tempérance": {
+      "name": "XIV - Temperance",
+      "description": "<p>When they play this card, a PC can choose to be completely immune to any loss of hope (be it due to situations, enemies, or NPC effects) for the duration of an entire mission.</p>\n<blockquote><p>’Placid, fearless, an ocean of calm surrounding an iron will.’</p>\n</blockquote>"
+    },
+    "XIX - Le Soleil": {
+      "name": "XIX - The Sun",
+      "description": "<p>When they play this card, a PC can add the following effects to all their attacks for the entire duration of a conflict phase: <em>radiance 6</em> and <em>anti-Anathema</em> (see effect descriptions, Appendix 2: Arsenal, on page 414).</p>\n<blockquote><p>’Beneath its radiance, darkness shall dwindle.’</p>\n</blockquote>"
+    },
+    "XV - Le Diable": {
+      "name": "XV - The Devil",
+      "description": "<p>When playing this card, a PC can choose to have a brute, badass, or boss type NPC roll 6 fewer dice on all of their rolls. This effect lasts for a whole scene or conflict phase. If the number of dice an NPC would roll is 0 or fewer because of this effect, their actions automatically fail.</p>\n<blockquote><p>’A curse on all his enemies.’</p>\n</blockquote>"
+    },
+    "XVI - La Maison-Dieu": {
+      "name": "XVI - The Tower",
+      "description": "<p>When they play this card, a PC can choose to deal the maximum amount of their weapon’s violence to all their successful attacks against an enemy band for the entire duration of a conflict phase.</p>\n<blockquote><p>’Even massed ranks are as naught against it.’</p>\n</blockquote>"
+    },
+    "XVII - L'Étoile": {
+      "name": "XVII - The Star",
+      "description": "<p>When they play this card, the PC may add one (and only one) additional characteristic to all their combos. This additional characteristic must be chosen when the card is played. (They can, for example, add their Strength characteristic to all their rolls.) If this characteristic seems inappropriate or unlikely to help a given skill check, the GM may choose to increase its difficulty. This third characteristic follows usual combo rules. This effect lasts for a whole scene or conflict phase.</p>\n<blockquote><p>’Dancing, shining, lucky, it excels at all it turns its hand to.’</p>\n</blockquote>"
+    },
+    "XVIII - La Lune": {
+      "name": "XVIII - The Moon",
+      "description": "<p>When this card is played, the PC gains a retaliation effect. For the entire duration of the current scene or conflict phase, when an enemy deals damage to the PC (to either their AP or HP), the enemy immediately takes 5D6 damage (with no additional bonuses or effects).</p>\n<blockquote><p>’Those who wound her do not walk away unscathed.’</p>\n</blockquote>"
+    },
+    "XX - Le Jugement": {
+      "name": "XX - Judgment",
+      "description": "<p>This card’s effect immediately applies to the PC who draws it. The PC may choose whether an action succeeds or fails. They may only do this three times, and only during the current mission. The action can be one they perform, that of another PC, or that of an NPC. They can decide after dice have been rolled for the action.</p>\n<blockquote><p>’He shall weigh the acts of strong and weak alike.’</p>\n</blockquote>"
+    },
+    "XXI - Le Monde": {
+      "name": "XXI - The World",
+      "description": "<p>When they play this card, the PC can restore to all the other PCs either all their health points, or half their armour points (as long as their armour points are higher than 0). The PC playing the card does not benefit from either of these effects.</p>\n<blockquote><p>’Those who deserve it shall inherit it.’</p>\n</blockquote>"
+    }
+  }
+}

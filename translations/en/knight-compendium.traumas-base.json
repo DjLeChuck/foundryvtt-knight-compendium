@@ -1,0 +1,108 @@
+{
+  "label": "Traumas",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Abattement": {
+     "name": "Despondency",
+      "description": "<p>The physical strength of the character is broken by their trauma, as if their body is suffering in place of their mind. The character loses 1 point in two of their characteristics under the Flesh aspect.</p>\n"
+    },
+    "Addiction": {
+      "name": "Addiction",
+      "description": "<p>The character develops an addiction to a substance that helps them soothe their mind and forget their psychic pain. The substance (alcohol, drugs) causes a specific state in the character (to be defined with the GM) that gives them a malus of 3 dice in combat, investigation, social interaction, or pursuit situations. The effects last for a day. As long as the character does not resort to the substance, they cannot regain hope points and suffer from withdrawal symptoms.</p>\n"
+    },
+    "Anathème": {
+      "name": "Anathema",
+      "description": "<p>Something has entered the character's mind and is gradually shaking their highest skills. The character loses 2 points in their highest characteristic.</p>\n"
+    },
+    "Anxiété": {
+      "name": "Anxiety",
+      "description": "<p>The character becomes increasingly anxious and worries about almost everything. Their confidence is diminished. When the PC takes a risk or faces a dangerous situation, the GM can increase the difficulty of their actions by 1 level.</p>\n"
+    },
+    "Collection": {
+      "name": "Collection",
+      "description": "<p>The PC now feels compelled to collect things related to the cause of their trauma. For example, if they suffered a trauma due to a type of creature, they might collect its skull or teeth. If they suffered a trauma due to the loss of allies or innocents, they might keep photos of them or names in a notebook. This collection must be morbid or disturbing to the PC's allies.</p>\n"
+    },
+    "Découragement": {
+      "name": "Discouragement",
+      "description": "<p>The knight no longer finds the courage to fight; their motivation slowly disappears, replaced by a resignation that is not like them. The character loses 1 point in two of their characteristics under the Beast aspect.</p>\n"
+    },
+    "Dépression": {
+      "name": "Depression",
+      "description": "<p>The character falls into a severe depression after the events. To symbolize this, all their hope recoveries are reduced by 1.</p>\n"
+    },
+    "Dissociation": {
+      "name": "Dissociation",
+      "description": "<p>The character's personality sometimes seems to change abruptly. Once per game, the GM can impose an attitude or choice on the character. This behavior or choice is important to them.</p>\n"
+    },
+    "Distanciation": {
+      "name": "Distancing",
+      "description": "<p>The character's trauma affects their instinct and anger. The PC chooses one of the characteristics of their Beast aspect and must lose 1 point from it.</p>\n"
+    },
+    "Esclave": {
+      "name": "Slave",
+      "description": "<p>The trauma allowing the recovery of 50 hope points is not chosen randomly. When a PC decides to choose the 'slave' trauma, the GM makes them the slave of one of the five Dark Lords represented by an aspect, generally the one of the current arc. The PC loses 1 point in the aspect corresponding to the Lord and enters their service for imminent or future actions.\nBeing the slave of a Lord is undoubtedly the most complex trauma to manage. Once during the campaign, the GM can make the PC perform a series of actions that will help the Lord in question. These actions can take the form of somnambulistic acts performed at night or conscious behaviors performed in broad daylight, in front of their teammates. The actions performed by the PC can be conscious or not, they may remember them or not, but they must always be in accordance with the Lord. Thus, the actions for the Flesh may be physical, those for the Beast rather violent, those for the Machine will be thoughtful and complex, those for the Lady will likely be social, and those for the Mask will certainly be based on cheating and lying.\nIt is important to keep in mind that the actions committed by a slave must be decisive and fit into the plan of the Lord who has become the temporary master of the character. The GM must prepare this trauma well, in agreement with the PC.</p>\n"
+    },
+    "Faiblesse": {
+      "name": "Weakness",
+      "description": "<p>The character's mind gradually weakens and diminishes their strength. The PC chooses one of their highest characteristics and must lose 1 point from it.</p>\n"
+    },
+    "Hallucinations": {
+      "name": "Hallucinations",
+      "description": "<p>The character regularly starts having hallucinations, seeing things or people that are not there, hearing voices or unreal music. Once per game, the GM can take the character aside and describe the hallucination they are experiencing. This can occur at any time and last up to an entire scene.</p>\n"
+    },
+    "Hypersensibilité": {
+      "name": "Hypersensitivity",
+      "description": "<p>The character's trauma diminishes their ability to maintain composure. The PC chooses one of the characteristics of their Lady aspect and must lose 1 point from it.</p>\n"
+    },
+    "Oubli": {
+      "name": "Forgetfulness",
+      "description": "<p>Following the trauma, the character forgets entire parts of their culture and academic knowledge. The character loses 1 point in two of their characteristics under the Machine aspect.</p>\n"
+    },
+    "Paranoïa": {
+      "name": "Paranoia",
+      "description": "<p>The PC's trauma develops a feeling of paranoia in them. They are the target of something, everyone is against them. The PC no longer gives their trust and cannot participate in mutual aid or benefit from it.</p>\n"
+    },
+    "Perte de confiance": {
+      "name": "Loss of Confidence",
+      "description": "<p>The character loses some confidence in themselves. To symbolize this, once per mission, the GM can refuse to let the PC regain hope points by accomplishing a minor motivation.</p>\n"
+    },
+    "Perte de contrôle": {
+      "name": "Loss of Control",
+      "description": "<p>The character's senses and body seem to obey them less and less. The character loses 1 point in two of their characteristics under the Mask aspect.</p>\n"
+    },
+    "Peur du monstre": {
+      "name": "Fear of the Monster",
+      "description": "<p>The GM chooses a creature of the Anathema that the PC may encounter in the future and has already encountered at least once. The character fears this monster. To symbolize this, the Anathema creature gains a bonus of 3 in defense and 3 in reaction.</p>\n"
+    },
+    "Phobie sociale": {
+      "name": "Social Phobia",
+      "description": "<p>The character starts to fear the gaze and judgment of others. They must make titanic efforts to address others. The character loses 1 point in two of their characteristics under the Lady aspect.</p>\n"
+    },
+    "Rêveries": {
+      "name": "Daydreaming",
+      "description": "<p>The character's trauma diminishes their concentration. The PC chooses one of the characteristics of their Machine aspect and must lose 1 point from it.</p>\n"
+    },
+    "Rituel": {
+      "name": "Ritual",
+      "description": "<p>The GM and the PC together define a short ritual that the character feels compelled to perform in a specific situation. For example, it could be checking the systems of their meta-armor before engaging in combat, cleaning their weapons as soon as the situation calms down, or always checking the number of nods and grenades of their allies.</p>\n"
+    },
+    "Somatisation": {
+      "name": "Somatization",
+      "description": "<p>The character's trauma affects their physique. The PC chooses one of the characteristics of their Flesh aspect and must lose 1 point from it.</p>\n"
+    },
+    "Tic": {
+      "name": "Tic",
+      "description": "<p>The PC, in a situation defined by the GM, develops a type of compulsive movement that is disturbing during their social interactions. The difficulty of the character's social interactions can be increased by 1 level, at the GM's discretion.</p>\n"
+    },
+    "Trouble mémoriel": {
+      "name": "Memory Disorder",
+      "description": "<p>The character loses the names and faces of several people in their surroundings, even forgetting their names and roles in their life. The character loses 3 contacts of the GM's choice. They no longer remember them.</p>\n"
+    },
+    "Trouble sensitif": {
+      "name": "Sensory Disorder",
+      "description": "<p>The character's trauma affects their senses. The PC chooses one of the characteristics of their Mask aspect and must lose 1 point from it.</p>\n"
+    }
+  }
+}

@@ -12,8 +12,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "energie": {
       "value": 0,
@@ -22,8 +21,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "armure": {
       "value": 0,
@@ -32,8 +30,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "initiative": {
       "dice": 3,
@@ -45,13 +42,11 @@
     },
     "reaction": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "defense": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "equipage": {
       "value": 0,
@@ -62,10 +57,12 @@
       },
       "passagers": []
     },
-    "description": "<p>Construit par Paramount Group, entreprise sud-africaine, le premier maraudeur, un transport de troupes 4x4 blind&eacute; de 10 tonnes, a prouv&eacute; son efficacit&eacute; lors des affrontements contre Eurocorps, devenant par l&agrave; m&ecirc;me une r&eacute;f&eacute;rence. Le maraudeur &eacute;tant un produit phare, la NAU a financ&eacute; un projet de modernisation de la plate-forme.Les prototypes &eacute;taient en phase de test quand l&rsquo;Anath&egrave;me s&rsquo;est d&eacute;voil&eacute;, for&ccedil;ant la NAU &agrave; changer le cahier des charges. La NAU a &eacute;t&eacute; la toute premi&egrave;re &agrave; disposer d&rsquo;un v&eacute;hicule pens&eacute; pour lutter contre les cr&eacute;atures des &nbsp;t&eacute;n&egrave;bres (phares ultra-violets, meurtri&egrave;res coulissantes, porti&egrave;res &agrave; fermeture pneumatique, etc.).L&rsquo;&eacute;quipage du maraudeur II est constitu&eacute; d&rsquo;un pilote et d&rsquo;un copilote-artilleur &agrave; l&rsquo;avant, transportant huit soldats &nbsp;et leur &eacute;quipement &agrave; l&rsquo;arri&egrave;re. D&rsquo;&eacute;normes pneus &agrave; structure alv&eacute;olaire increvable et un gigantesque ch&acirc;ssis quasi indestructible permettent au maraudeur II d&rsquo;&eacute;voluer aussi rapidement en terrain accident&eacute; qu&rsquo;un v&eacute;hicule &agrave; chenilles, quitte &agrave; &eacute;craser des voitures abandonn&eacute;es. Sur le toit, un support pour tourelle automatique permet d&rsquo;&eacute;quiper diff&eacute;rentes armes. En plus des transports de troupes arm&eacute;es, sont disponibles des maraudeurs II ambulances et v&eacute;hicules de commandement.Il est &agrave; noter que le maraudeur est l&rsquo;un des principaux &nbsp;v&eacute;hicules de combat pr&eacute;sents dans les territoires libres mais aussi au sein de certaines arches.</p>"
+    "description": "<p>Construit par Paramount Group, entreprise sud-africaine, le premier maraudeur, un transport de troupes 4x4 blind&eacute; de 10 tonnes, a prouv&eacute; son efficacit&eacute; lors des affrontements contre Eurocorps, devenant par l&agrave; m&ecirc;me une r&eacute;f&eacute;rence. Le maraudeur &eacute;tant un produit phare, la NAU a financ&eacute; un projet de modernisation de la plate-forme.Les prototypes &eacute;taient en phase de test quand l&rsquo;Anath&egrave;me s&rsquo;est d&eacute;voil&eacute;, for&ccedil;ant la NAU &agrave; changer le cahier des charges. La NAU a &eacute;t&eacute; la toute premi&egrave;re &agrave; disposer d&rsquo;un v&eacute;hicule pens&eacute; pour lutter contre les cr&eacute;atures des &nbsp;t&eacute;n&egrave;bres (phares ultra-violets, meurtri&egrave;res coulissantes, porti&egrave;res &agrave; fermeture pneumatique, etc.).L&rsquo;&eacute;quipage du maraudeur II est constitu&eacute; d&rsquo;un pilote et d&rsquo;un copilote-artilleur &agrave; l&rsquo;avant, transportant huit soldats &nbsp;et leur &eacute;quipement &agrave; l&rsquo;arri&egrave;re. D&rsquo;&eacute;normes pneus &agrave; structure alv&eacute;olaire increvable et un gigantesque ch&acirc;ssis quasi indestructible permettent au maraudeur II d&rsquo;&eacute;voluer aussi rapidement en terrain accident&eacute; qu&rsquo;un v&eacute;hicule &agrave; chenilles, quitte &agrave; &eacute;craser des voitures abandonn&eacute;es. Sur le toit, un support pour tourelle automatique permet d&rsquo;&eacute;quiper diff&eacute;rentes armes. En plus des transports de troupes arm&eacute;es, sont disponibles des maraudeurs II ambulances et v&eacute;hicules de commandement.Il est &agrave; noter que le maraudeur est l&rsquo;un des principaux &nbsp;v&eacute;hicules de combat pr&eacute;sents dans les territoires libres mais aussi au sein de certaines arches.</p>",
+    "version": 1,
+    "descriptionLimitee": ""
   },
   "prototypeToken": {
-    "name": "un acteur non défini(e) (210)",
+    "name": "Maraudeur II",
     "displayName": 0,
     "actorLink": false,
     "texture": {
@@ -75,7 +72,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -111,11 +112,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -126,7 +129,25 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [
     {
@@ -134,7 +155,7 @@
       "type": "arme",
       "img": "modules/knight-compendium/assets/weapons/mitrailleuse-lourde.webp",
       "system": {
-        "description": "<p>Les recruteurs du Knight ont l'habitude de dire qu'un chevalier en méta-armure est aussi puissant qu'un véhicule blindé. La mitrailleuse lourde à canons rotatifs le confirme. Elle se tient à la hanche, par la poignée du dessus, et un chevalier tire avec celle sur le côté. Une bande articulée blindée relie la mitrailleuse à un caisson de munitions fixé au dos de la méta-armure.</p>\n",
+        "description": "<p>Les recruteurs du Knight ont l'habitude de dire qu'un chevalier en méta-armure est aussi puissant qu'un véhicule blindé. La mitrailleuse lourde à canons rotatifs le confirme. Elle se tient à la hanche, par la poignée du dessus, et un chevalier tire avec celle sur le côté. Une bande articulée blindée relie la mitrailleuse à un caisson de munitions fixé au dos de la méta-armure.</p>",
         "rarete": "avance",
         "type": "distance",
         "portee": "moyenne",
@@ -179,11 +200,36 @@
         },
         "degats": {
           "dice": 5,
-          "fixe": 10
+          "fixe": 10,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
           "dice": 4,
-          "fixe": 0
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
@@ -214,7 +260,11 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
       "_id": "DEz5tkQjwwDTrn0M",
@@ -239,80 +289,12 @@
       "_key": "!actors.items!H4lnndxdkNbf8KJ2.DEz5tkQjwwDTrn0M"
     },
     {
-      "name": "Pod roquette niv. 1",
+      "name": "Pod roquette",
       "type": "module",
       "img": "modules/knight-compendium/assets/modules/pod-roquette.webp",
       "system": {
-        "description": "<p>Un lanceur envoie une salve de roquettes antipersonnel.</p>\n",
+        "description": "<p>Un lanceur envoie une salve de roquettes antipersonnel.</p>\n<h2>Niveau 2</h2>\n<p>L&rsquo;arme ne poss&egrave;de plus l&rsquo;effet ultraviolence, mais 2D6 suppl&eacute;mentaires &agrave; sa violence.</p>\n<h2>Niveau 3</h2>\n<p>L&rsquo;arme poss&egrave;de l&rsquo;effet d&eacute;moralisant. L&rsquo;effet chargeur 3 devient chargeur 6.</p>",
         "categorie": "distance",
-        "permanent": false,
-        "rarete": "avance",
-        "prix": 30,
-        "energie": {
-          "tour": {
-            "value": 1,
-            "label": "Instantanée"
-          },
-          "minute": {
-            "value": 0,
-            "label": "Minute"
-          },
-          "supplementaire": 0
-        },
-        "activation": "deplacement",
-        "duree": "",
-        "portee": "longue",
-        "listes": {},
-        "labels": {},
-        "aspects": {
-          "chair": {
-            "liste": {
-              "deplacement": {},
-              "force": {},
-              "endurance": {}
-            }
-          },
-          "bete": {
-            "liste": {
-              "hargne": [],
-              "combat": [],
-              "instinct": [],
-              "deplacement": {},
-              "force": {},
-              "endurance": {}
-            }
-          },
-          "machine": {
-            "liste": {
-              "tir": [],
-              "savoir": [],
-              "technique": [],
-              "deplacement": {},
-              "force": {},
-              "endurance": {}
-            }
-          },
-          "dame": {
-            "liste": {
-              "aura": [],
-              "parole": [],
-              "sangFroid": [],
-              "deplacement": {},
-              "force": {},
-              "endurance": {}
-            }
-          },
-          "masque": {
-            "liste": {
-              "discretion": [],
-              "dexterite": [],
-              "perception": [],
-              "deplacement": {},
-              "force": {},
-              "endurance": {}
-            }
-          }
-        },
         "slots": {
           "tete": 0,
           "torse": 2,
@@ -321,328 +303,1280 @@
           "jambeGauche": 0,
           "jambeDroite": 0
         },
-        "bonus": {
-          "has": false,
-          "armure": {
-            "has": false,
-            "value": 0
-          },
-          "champDeForce": {
-            "has": false,
-            "value": 0
-          },
-          "energie": {
-            "has": false,
-            "value": 0
-          },
-          "degats": {
-            "has": false,
-            "type": "contact",
-            "dice": 0,
-            "fixe": 0,
-            "variable": {
-              "has": false,
-              "min": {
-                "dice": 0,
-                "fixe": 0
-              },
-              "max": {
-                "dice": 0,
-                "fixe": 0
-              }
-            }
-          },
-          "violence": {
-            "has": false,
-            "type": "contact",
-            "dice": 0,
-            "fixe": 0,
-            "variable": {
-              "has": false,
-              "min": {
-                "dice": 0,
-                "fixe": 0
-              },
-              "max": {
-                "dice": 0,
-                "fixe": 0
-              }
-            }
-          },
-          "overdrives": {
-            "has": false,
-            "aspects": {
-              "chair": {
-                "deplacement": 0,
-                "force": 0,
-                "endurance": 0
-              },
-              "bete": {
-                "hargne": 0,
-                "combat": 0,
-                "instinct": 0
-              },
-              "machine": {
-                "tir": 0,
-                "savoir": 0,
-                "technique": 0
-              },
-              "dame": {
-                "aura": 0,
-                "parole": 0,
-                "sangFroid": 0
-              },
-              "masque": {
-                "discretion": 0,
-                "dexterite": 0,
-                "perception": 0
-              }
-            }
-          },
-          "grenades": {
-            "has": false,
-            "liste": {
-              "antiblindage": {
-                "degats": {
-                  "dice": 0
+        "niveau": {
+          "value": 1,
+          "max": 3,
+          "details": {
+            "n1": {
+              "permanent": false,
+              "rarete": "avance",
+              "prix": 30,
+              "energie": {
+                "tour": {
+                  "value": 1,
+                  "label": "Instantanée"
                 },
-                "violence": {
-                  "dice": 0
-                }
-              },
-              "explosive": {
-                "degats": {
-                  "dice": 0
-                },
-                "violence": {
-                  "dice": 0
-                }
-              },
-              "shrapnel": {
-                "degats": {
-                  "dice": 0
-                },
-                "violence": {
-                  "dice": 0
-                }
-              }
-            }
-          }
-        },
-        "arme": {
-          "has": true,
-          "type": "distance",
-          "portee": "longue",
-          "degats": {
-            "dice": 1,
-            "fixe": 6,
-            "variable": {
-              "has": false,
-              "min": {
-                "dice": 0,
-                "fixe": 0
-              },
-              "max": {
-                "dice": 0,
-                "fixe": 0
-              },
-              "cout": 0
-            }
-          },
-          "violence": {
-            "dice": 6,
-            "fixe": 12,
-            "variable": {
-              "has": false,
-              "min": {
-                "dice": 0,
-                "fixe": 0
-              },
-              "max": {
-                "dice": 0,
-                "fixe": 0
-              },
-              "cout": 0
-            }
-          },
-          "effets": {
-            "liste": [],
-            "custom": [],
-            "raw": [
-              "chargeur 3",
-              "ultraviolence"
-            ]
-          },
-          "distance": {
-            "liste": [],
-            "custom": [],
-            "raw": []
-          },
-          "structurelles": {
-            "liste": [],
-            "custom": [],
-            "raw": []
-          },
-          "ornementales": {
-            "liste": [],
-            "custom": [],
-            "raw": []
-          }
-        },
-        "overdrives": {
-          "has": false,
-          "aspects": {
-            "chair": {
-              "deplacement": 0,
-              "force": 0,
-              "endurance": 0
-            },
-            "bete": {
-              "hargne": 0,
-              "combat": 0,
-              "instinct": 0
-            },
-            "machine": {
-              "tir": 0,
-              "savoir": 0,
-              "technique": 0
-            },
-            "dame": {
-              "aura": 0,
-              "parole": 0,
-              "sangFroid": 0
-            },
-            "masque": {
-              "discretion": 0,
-              "dexterite": 0,
-              "perception": 0
-            }
-          }
-        },
-        "pnj": {
-          "has": false,
-          "modele": {
-            "nom": "",
-            "special": "",
-            "type": "pnj",
-            "champDeForce": 0,
-            "defense": 0,
-            "reaction": 0,
-            "armure": 0,
-            "debordement": 0,
-            "initiative": {
-              "dice": 3,
-              "fixe": 0
-            },
-            "jetSpecial": {
-              "has": false,
-              "modele": {
-                "nom": "",
-                "dice": 0,
-                "overdrive": 0
-              },
-              "liste": {}
-            },
-            "aspects": {
-              "has": false,
-              "liste": {
-                "chair": {
+                "minute": {
                   "value": 0,
-                  "ae": {
-                    "mineur": 0,
-                    "majeur": 0
+                  "label": "Minute"
+                },
+                "supplementaire": 0
+              },
+              "activation": "deplacement",
+              "duree": "",
+              "portee": "longue",
+              "listes": {},
+              "labels": {},
+              "secondmode": {
+                "has": false,
+                "activation": "aucune"
+              },
+              "aspects": {
+                "chair": {
+                  "liste": {
+                    "deplacement": {},
+                    "force": {},
+                    "endurance": {}
                   }
                 },
                 "bete": {
-                  "value": 0,
-                  "ae": {
-                    "mineur": 0,
-                    "majeur": 0
+                  "liste": {
+                    "hargne": {},
+                    "combat": {},
+                    "instinct": {}
                   }
                 },
                 "machine": {
-                  "value": 0,
-                  "ae": {
-                    "mineur": 0,
-                    "majeur": 0
+                  "liste": {
+                    "tir": {},
+                    "savoir": {},
+                    "technique": {}
                   }
                 },
                 "dame": {
-                  "value": 0,
-                  "ae": {
-                    "mineur": 0,
-                    "majeur": 0
+                  "liste": {
+                    "aura": {},
+                    "parole": {},
+                    "sangFroid": {}
                   }
                 },
                 "masque": {
-                  "value": 0,
-                  "ae": {
-                    "mineur": 0,
-                    "majeur": 0
+                  "liste": {
+                    "discretion": {},
+                    "dexterite": {},
+                    "perception": {}
                   }
                 }
-              }
-            },
-            "armes": {
-              "has": false,
-              "modele": {
-                "nom": "",
-                "type": "contact",
-                "portee": "contact",
-                "attaque": {
-                  "dice": 0,
-                  "fixe": 0
+              },
+              "bonus": {
+                "has": false,
+                "sante": {
+                  "has": false,
+                  "value": 0
+                },
+                "armure": {
+                  "has": false,
+                  "value": 0
+                },
+                "champDeForce": {
+                  "has": false,
+                  "value": 0
+                },
+                "energie": {
+                  "has": false,
+                  "value": 0
                 },
                 "degats": {
+                  "has": false,
+                  "type": "contact",
                   "dice": 0,
-                  "fixe": 0
+                  "fixe": 0,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "cout": 0
+                  }
                 },
                 "violence": {
+                  "has": false,
+                  "type": "contact",
                   "dice": 0,
-                  "fixe": 0
+                  "fixe": 0,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "cout": 0
+                  }
+                },
+                "overdrives": {
+                  "has": false,
+                  "aspects": {
+                    "chair": {
+                      "deplacement": 0,
+                      "force": 0,
+                      "endurance": 0
+                    },
+                    "bete": {
+                      "hargne": 0,
+                      "combat": 0,
+                      "instinct": 0
+                    },
+                    "machine": {
+                      "tir": 0,
+                      "savoir": 0,
+                      "technique": 0
+                    },
+                    "dame": {
+                      "aura": 0,
+                      "parole": 0,
+                      "sangFroid": 0
+                    },
+                    "masque": {
+                      "discretion": 0,
+                      "dexterite": 0,
+                      "perception": 0
+                    }
+                  }
+                },
+                "grenades": {
+                  "has": false,
+                  "liste": {
+                    "antiblindage": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    },
+                    "explosive": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    },
+                    "shrapnel": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "arme": {
+                "has": true,
+                "type": "distance",
+                "portee": "longue",
+                "optionsmunitions": {
+                  "has": false,
+                  "actuel": "0",
+                  "value": 1,
+                  "liste": {}
+                },
+                "degats": {
+                  "dice": 1,
+                  "fixe": 6,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 6
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 6
+                    },
+                    "cout": 0
+                  }
+                },
+                "violence": {
+                  "dice": 6,
+                  "fixe": 12,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 12
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 12
+                    },
+                    "cout": 0
+                  }
                 },
                 "effets": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": [
+                    "chargeur 3",
+                    "ultraviolence"
+                  ]
+                },
+                "distance": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                },
+                "structurelles": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                },
+                "ornementales": {
                   "liste": [],
                   "custom": [],
                   "raw": []
                 }
               },
-              "liste": []
-            }
-          },
-          "liste": {}
-        },
-        "ersatz": {
-          "rogue": {
-            "has": false,
-            "interruption": {
-              "actif": true
+              "overdrives": {
+                "has": false,
+                "aspects": {
+                  "chair": {
+                    "deplacement": 0,
+                    "force": 0,
+                    "endurance": 0
+                  },
+                  "bete": {
+                    "hargne": 0,
+                    "combat": 0,
+                    "instinct": 0
+                  },
+                  "machine": {
+                    "tir": 0,
+                    "savoir": 0,
+                    "technique": 0
+                  },
+                  "dame": {
+                    "aura": 0,
+                    "parole": 0,
+                    "sangFroid": 0
+                  },
+                  "masque": {
+                    "discretion": 0,
+                    "dexterite": 0,
+                    "perception": 0
+                  }
+                }
+              },
+              "pnj": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "special": "",
+                  "type": "pnj",
+                  "champDeForce": 0,
+                  "defense": 0,
+                  "reaction": 0,
+                  "armure": 0,
+                  "debordement": 0,
+                  "initiative": {
+                    "dice": 3,
+                    "fixe": 0
+                  },
+                  "jetSpecial": {
+                    "has": false,
+                    "modele": {
+                      "nom": "",
+                      "dice": 0,
+                      "overdrive": 0
+                    },
+                    "liste": {}
+                  },
+                  "aspects": {
+                    "has": false,
+                    "liste": {
+                      "chair": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "bete": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "machine": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "dame": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "masque": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      }
+                    }
+                  },
+                  "armes": {
+                    "has": false,
+                    "modele": {
+                      "nom": "",
+                      "type": "contact",
+                      "portee": "contact",
+                      "attaque": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "degats": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "violence": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "effets": {
+                        "liste": [],
+                        "custom": [],
+                        "raw": []
+                      }
+                    },
+                    "liste": []
+                  }
+                },
+                "liste": {}
+              },
+              "ersatz": {
+                "rogue": {
+                  "has": false,
+                  "interruption": {
+                    "actif": true
+                  },
+                  "reussites": 3,
+                  "attaque": "discretion",
+                  "degats": {
+                    "caracteristique": "discretion",
+                    "od": true,
+                    "dice": false,
+                    "fixe": true
+                  }
+                },
+                "bard": {
+                  "has": false
+                }
+              },
+              "jetsimple": {
+                "has": false,
+                "label": "",
+                "jet": "0D0",
+                "effets": {
+                  "raw": [],
+                  "custom": []
+                }
+              },
+              "effets": {
+                "raw": [],
+                "custom": [],
+                "liste": [],
+                "has": false
+              },
+              "textarea": {
+                "duree": 22
+              }
             },
-            "reussites": 3,
-            "attaque": "discretion",
-            "degats": {
-              "caracteristique": "discretion",
-              "od": true,
-              "dice": false,
-              "fixe": true
+            "n2": {
+              "permanent": false,
+              "rarete": "avance",
+              "prix": 20,
+              "energie": {
+                "tour": {
+                  "value": 1,
+                  "label": "Instantanée"
+                },
+                "minute": {
+                  "value": 0,
+                  "label": "Minute"
+                },
+                "supplementaire": 0
+              },
+              "activation": "deplacement",
+              "duree": "",
+              "portee": "longue",
+              "listes": {
+                "rarete": {
+                  "standard": "Standard",
+                  "avance": "Avancé",
+                  "rare": "Rare",
+                  "prestige": "Prestige",
+                  "espoir": "Relique d'espoir"
+                }
+              },
+              "labels": {
+                "duree": "L'effet n'est pas permanent",
+                "bonus": "Ne donne pas de bonus",
+                "pnj": "Ne peut pas devenir une/des créature(s) indépendante(s)",
+                "pnjTitle": "Créature indépendante",
+                "armure": "Aucun bonus à l'Armure",
+                "champDeForce": "Aucun bonus au Champ De Force",
+                "energie": "Aucun bonus à l'Energie",
+                "degatsBonus": "Aucun bonus aux Dégâts",
+                "degatsVariable": "Bonus aux dégâts invariable",
+                "violenceBonus": "Aucun bonus à la Violence",
+                "violenceVariable": "Bonus à la violence invariable",
+                "arme": "Est une arme",
+                "armeDegatsVariable": "Dégâts invariable",
+                "armeViolenceVariable": "Violence invariable",
+                "overdrives": "Ne donne pas de niveaux d'overdrives",
+                "bonusOverdrives": "Aucun bonus aux overdrives",
+                "bonusGrenades": "Aucun bonus aux grenades",
+                "ersatzRogue": "N'est pas un camouflage optique (ersatz rogue)",
+                "ersatzBard": "N'est pas un Déguisement (ersatz bard)",
+                "jetSimple": "Ne fait pas de jet automatique"
+              },
+              "aspects": {
+                "chair": {
+                  "liste": {
+                    "deplacement": {},
+                    "force": {},
+                    "endurance": {}
+                  }
+                },
+                "bete": {
+                  "liste": {
+                    "hargne": {},
+                    "combat": {},
+                    "instinct": {}
+                  }
+                },
+                "machine": {
+                  "liste": {
+                    "tir": {},
+                    "savoir": {},
+                    "technique": {}
+                  }
+                },
+                "dame": {
+                  "liste": {
+                    "aura": {},
+                    "parole": {},
+                    "sangFroid": {}
+                  }
+                },
+                "masque": {
+                  "liste": {
+                    "discretion": {},
+                    "dexterite": {},
+                    "perception": {}
+                  }
+                }
+              },
+              "bonus": {
+                "has": false,
+                "armure": {
+                  "has": false,
+                  "value": 0
+                },
+                "champDeForce": {
+                  "has": false,
+                  "value": 0
+                },
+                "energie": {
+                  "has": false,
+                  "value": 0
+                },
+                "degats": {
+                  "has": false,
+                  "type": "contact",
+                  "dice": 0,
+                  "fixe": 0,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "cout": 0
+                  }
+                },
+                "violence": {
+                  "has": false,
+                  "type": "contact",
+                  "dice": 0,
+                  "fixe": 0,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "cout": 0
+                  }
+                },
+                "overdrives": {
+                  "has": false,
+                  "aspects": {
+                    "chair": {
+                      "deplacement": 0,
+                      "force": 0,
+                      "endurance": 0
+                    },
+                    "bete": {
+                      "hargne": 0,
+                      "combat": 0,
+                      "instinct": 0
+                    },
+                    "machine": {
+                      "tir": 0,
+                      "savoir": 0,
+                      "technique": 0
+                    },
+                    "dame": {
+                      "aura": 0,
+                      "parole": 0,
+                      "sangFroid": 0
+                    },
+                    "masque": {
+                      "discretion": 0,
+                      "dexterite": 0,
+                      "perception": 0
+                    }
+                  }
+                },
+                "grenades": {
+                  "has": false,
+                  "liste": {
+                    "antiblindage": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    },
+                    "explosive": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    },
+                    "shrapnel": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "arme": {
+                "has": true,
+                "type": "distance",
+                "portee": "longue",
+                "degats": {
+                  "dice": 1,
+                  "fixe": 6,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 6
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 6
+                    },
+                    "cout": 0
+                  }
+                },
+                "violence": {
+                  "dice": 8,
+                  "fixe": 12,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 12
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 12
+                    },
+                    "cout": 0
+                  }
+                },
+                "effets": {
+                  "liste": [
+                    {
+                      "name": "Chargeur 3",
+                      "description": "L’arme ou le module dispose d’un nombre d’utilisations indiqué par X. Une fois utilisé autant de fois que X, on estime qu’il n’a plus de munitions et ne peut donc plus faire feu. L’arme ou le module doit être rechargé (gratuitement) à Camelot entre deux missions.",
+                      "raw": "chargeur 3"
+                    },
+                    {
+                      "name": "Ultraviolence",
+                      "description": "Lorsque l'arme est utilisée contre une bande avec un score d'aspect _Chair_ de moins de 10, la violence de l'arme est augmentée de 2D6.",
+                      "raw": "ultraviolence"
+                    }
+                  ],
+                  "custom": [],
+                  "raw": [
+                    "chargeur 3"
+                  ]
+                },
+                "distance": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                },
+                "structurelles": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                },
+                "ornementales": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                }
+              },
+              "overdrives": {
+                "has": false,
+                "aspects": {
+                  "chair": {
+                    "deplacement": 0,
+                    "force": 0,
+                    "endurance": 0
+                  },
+                  "bete": {
+                    "hargne": 0,
+                    "combat": 0,
+                    "instinct": 0
+                  },
+                  "machine": {
+                    "tir": 0,
+                    "savoir": 0,
+                    "technique": 0
+                  },
+                  "dame": {
+                    "aura": 0,
+                    "parole": 0,
+                    "sangFroid": 0
+                  },
+                  "masque": {
+                    "discretion": 0,
+                    "dexterite": 0,
+                    "perception": 0
+                  }
+                }
+              },
+              "pnj": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "special": "",
+                  "type": "pnj",
+                  "champDeForce": 0,
+                  "defense": 0,
+                  "reaction": 0,
+                  "armure": 0,
+                  "debordement": 0,
+                  "initiative": {
+                    "dice": 3,
+                    "fixe": 0
+                  },
+                  "jetSpecial": {
+                    "has": false,
+                    "modele": {
+                      "nom": "",
+                      "dice": 0,
+                      "overdrive": 0
+                    },
+                    "liste": {}
+                  },
+                  "aspects": {
+                    "has": false,
+                    "liste": {
+                      "chair": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "bete": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "machine": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "dame": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "masque": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      }
+                    }
+                  },
+                  "armes": {
+                    "has": false,
+                    "modele": {
+                      "nom": "",
+                      "type": "contact",
+                      "portee": "contact",
+                      "attaque": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "degats": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "violence": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "effets": {
+                        "liste": [],
+                        "custom": [],
+                        "raw": []
+                      }
+                    },
+                    "liste": []
+                  }
+                },
+                "liste": {}
+              },
+              "ersatz": {
+                "rogue": {
+                  "has": false,
+                  "interruption": {
+                    "actif": true
+                  },
+                  "reussites": 3,
+                  "attaque": "discretion",
+                  "degats": {
+                    "caracteristique": "discretion",
+                    "od": true,
+                    "dice": false,
+                    "fixe": true
+                  }
+                },
+                "bard": {
+                  "has": false
+                }
+              },
+              "jetsimple": {
+                "has": false,
+                "label": "",
+                "jet": "0D0",
+                "effets": {
+                  "raw": [],
+                  "custom": [],
+                  "liste": []
+                }
+              },
+              "textarea": {
+                "duree": 22
+              },
+              "label": "1",
+              "effets": {
+                "has": false,
+                "custom": [],
+                "raw": [],
+                "liste": []
+              }
+            },
+            "n3": {
+              "permanent": false,
+              "rarete": "rare",
+              "prix": 30,
+              "energie": {
+                "tour": {
+                  "value": 1,
+                  "label": "Instantanée"
+                },
+                "minute": {
+                  "value": 0,
+                  "label": "Minute"
+                },
+                "supplementaire": 0
+              },
+              "activation": "deplacement",
+              "duree": "",
+              "portee": "longue",
+              "listes": {
+                "rarete": {
+                  "standard": "Standard",
+                  "avance": "Avancé",
+                  "rare": "Rare",
+                  "prestige": "Prestige",
+                  "espoir": "Relique d'espoir"
+                }
+              },
+              "labels": {
+                "duree": "L'effet n'est pas permanent",
+                "bonus": "Ne donne pas de bonus",
+                "pnj": "Ne peut pas devenir une/des créature(s) indépendante(s)",
+                "pnjTitle": "Créature indépendante",
+                "armure": "Aucun bonus à l'Armure",
+                "champDeForce": "Aucun bonus au Champ De Force",
+                "energie": "Aucun bonus à l'Energie",
+                "degatsBonus": "Aucun bonus aux Dégâts",
+                "degatsVariable": "Bonus aux dégâts invariable",
+                "violenceBonus": "Aucun bonus à la Violence",
+                "violenceVariable": "Bonus à la violence invariable",
+                "arme": "Est une arme",
+                "armeDegatsVariable": "Dégâts invariable",
+                "armeViolenceVariable": "Violence invariable",
+                "overdrives": "Ne donne pas de niveaux d'overdrives",
+                "bonusOverdrives": "Aucun bonus aux overdrives",
+                "bonusGrenades": "Aucun bonus aux grenades",
+                "ersatzRogue": "N'est pas un camouflage optique (ersatz rogue)",
+                "ersatzBard": "N'est pas un Déguisement (ersatz bard)",
+                "jetSimple": "Ne fait pas de jet automatique"
+              },
+              "aspects": {
+                "chair": {
+                  "liste": {
+                    "deplacement": {},
+                    "force": {},
+                    "endurance": {}
+                  }
+                },
+                "bete": {
+                  "liste": {
+                    "hargne": {},
+                    "combat": {},
+                    "instinct": {}
+                  }
+                },
+                "machine": {
+                  "liste": {
+                    "tir": {},
+                    "savoir": {},
+                    "technique": {}
+                  }
+                },
+                "dame": {
+                  "liste": {
+                    "aura": {},
+                    "parole": {},
+                    "sangFroid": {}
+                  }
+                },
+                "masque": {
+                  "liste": {
+                    "discretion": {},
+                    "dexterite": {},
+                    "perception": {}
+                  }
+                }
+              },
+              "bonus": {
+                "has": false,
+                "armure": {
+                  "has": false,
+                  "value": 0
+                },
+                "champDeForce": {
+                  "has": false,
+                  "value": 0
+                },
+                "energie": {
+                  "has": false,
+                  "value": 0
+                },
+                "degats": {
+                  "has": false,
+                  "type": "contact",
+                  "dice": 0,
+                  "fixe": 0,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "cout": 0
+                  }
+                },
+                "violence": {
+                  "has": false,
+                  "type": "contact",
+                  "dice": 0,
+                  "fixe": 0,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "cout": 0
+                  }
+                },
+                "overdrives": {
+                  "has": false,
+                  "aspects": {
+                    "chair": {
+                      "deplacement": 0,
+                      "force": 0,
+                      "endurance": 0
+                    },
+                    "bete": {
+                      "hargne": 0,
+                      "combat": 0,
+                      "instinct": 0
+                    },
+                    "machine": {
+                      "tir": 0,
+                      "savoir": 0,
+                      "technique": 0
+                    },
+                    "dame": {
+                      "aura": 0,
+                      "parole": 0,
+                      "sangFroid": 0
+                    },
+                    "masque": {
+                      "discretion": 0,
+                      "dexterite": 0,
+                      "perception": 0
+                    }
+                  }
+                },
+                "grenades": {
+                  "has": false,
+                  "liste": {
+                    "antiblindage": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    },
+                    "explosive": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    },
+                    "shrapnel": {
+                      "degats": {
+                        "dice": 0
+                      },
+                      "violence": {
+                        "dice": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "arme": {
+                "has": true,
+                "type": "distance",
+                "portee": "longue",
+                "degats": {
+                  "dice": 1,
+                  "fixe": 6,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 6
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 6
+                    },
+                    "cout": 0
+                  }
+                },
+                "violence": {
+                  "dice": 8,
+                  "fixe": 12,
+                  "variable": {
+                    "has": false,
+                    "min": {
+                      "dice": 0,
+                      "fixe": 12
+                    },
+                    "max": {
+                      "dice": 0,
+                      "fixe": 12
+                    },
+                    "cout": 0
+                  }
+                },
+                "effets": {
+                  "liste": [
+                    {
+                      "name": "Chargeur 3",
+                      "description": "L’arme ou le module dispose d’un nombre d’utilisations indiqué par X. Une fois utilisé autant de fois que X, on estime qu’il n’a plus de munitions et ne peut donc plus faire feu. L’arme ou le module doit être rechargé (gratuitement) à Camelot entre deux missions.",
+                      "raw": "chargeur 3"
+                    },
+                    {
+                      "name": "Ultraviolence",
+                      "description": "Lorsque l'arme est utilisée contre une bande avec un score d'aspect _Chair_ de moins de 10, la violence de l'arme est augmentée de 2D6.",
+                      "raw": "ultraviolence"
+                    }
+                  ],
+                  "custom": [],
+                  "raw": [
+                    "chargeur 6",
+                    "demoralisant"
+                  ]
+                },
+                "distance": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                },
+                "structurelles": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                },
+                "ornementales": {
+                  "liste": [],
+                  "custom": [],
+                  "raw": []
+                }
+              },
+              "overdrives": {
+                "has": false,
+                "aspects": {
+                  "chair": {
+                    "deplacement": 0,
+                    "force": 0,
+                    "endurance": 0
+                  },
+                  "bete": {
+                    "hargne": 0,
+                    "combat": 0,
+                    "instinct": 0
+                  },
+                  "machine": {
+                    "tir": 0,
+                    "savoir": 0,
+                    "technique": 0
+                  },
+                  "dame": {
+                    "aura": 0,
+                    "parole": 0,
+                    "sangFroid": 0
+                  },
+                  "masque": {
+                    "discretion": 0,
+                    "dexterite": 0,
+                    "perception": 0
+                  }
+                }
+              },
+              "pnj": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "special": "",
+                  "type": "pnj",
+                  "champDeForce": 0,
+                  "defense": 0,
+                  "reaction": 0,
+                  "armure": 0,
+                  "debordement": 0,
+                  "initiative": {
+                    "dice": 3,
+                    "fixe": 0
+                  },
+                  "jetSpecial": {
+                    "has": false,
+                    "modele": {
+                      "nom": "",
+                      "dice": 0,
+                      "overdrive": 0
+                    },
+                    "liste": {}
+                  },
+                  "aspects": {
+                    "has": false,
+                    "liste": {
+                      "chair": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "bete": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "machine": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "dame": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      },
+                      "masque": {
+                        "value": 0,
+                        "ae": {
+                          "mineur": 0,
+                          "majeur": 0
+                        }
+                      }
+                    }
+                  },
+                  "armes": {
+                    "has": false,
+                    "modele": {
+                      "nom": "",
+                      "type": "contact",
+                      "portee": "contact",
+                      "attaque": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "degats": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "violence": {
+                        "dice": 0,
+                        "fixe": 0
+                      },
+                      "effets": {
+                        "liste": [],
+                        "custom": [],
+                        "raw": []
+                      }
+                    },
+                    "liste": []
+                  }
+                },
+                "liste": {}
+              },
+              "ersatz": {
+                "rogue": {
+                  "has": false,
+                  "interruption": {
+                    "actif": true
+                  },
+                  "reussites": 3,
+                  "attaque": "discretion",
+                  "degats": {
+                    "caracteristique": "discretion",
+                    "od": true,
+                    "dice": false,
+                    "fixe": true
+                  }
+                },
+                "bard": {
+                  "has": false
+                }
+              },
+              "jetsimple": {
+                "has": false,
+                "label": "",
+                "jet": "0D0",
+                "effets": {
+                  "raw": [],
+                  "custom": [],
+                  "liste": []
+                }
+              },
+              "textarea": {
+                "duree": 22
+              },
+              "label": "1",
+              "effets": {
+                "has": false,
+                "custom": [],
+                "raw": [],
+                "liste": []
+              }
             }
           },
-          "bard": {
-            "has": false
-          }
+          "actuel": {}
         },
-        "jetsimple": {
-          "has": false,
-          "label": "",
-          "jet": "0D0",
-          "effets": {
-            "raw": [],
-            "custom": []
-          }
+        "listes": {},
+        "active": {
+          "base": false,
+          "pnj": false
         },
-        "textarea": {
-          "duree": 22
-        }
+        "isLion": false
       },
       "effects": [],
       "_id": "K39QNRKSF58QMWRG",

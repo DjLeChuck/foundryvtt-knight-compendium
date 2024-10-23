@@ -12,8 +12,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "energie": {
       "value": 0,
@@ -22,8 +21,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "armure": {
       "value": 0,
@@ -32,8 +30,7 @@
       "bonus": {
         "modules": 0
       },
-      "malus": {},
-      "optionDeploy": false
+      "malus": {}
     },
     "initiative": {
       "dice": 3,
@@ -45,13 +42,11 @@
     },
     "reaction": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "defense": {
       "value": 0,
-      "bonus": 0,
-      "malus": 0
+      "mod": 0
     },
     "equipage": {
       "value": 0,
@@ -62,7 +57,9 @@
       },
       "passagers": []
     },
-    "description": "<p>Les centurions sont des transports de troupes blind&eacute;s chenill&eacute;s lourds, con&ccedil;us pour livrer douze chevaliers ou une vingtaine d&rsquo;hommes avec &eacute;quipement en temps, en heure et en s&eacute;curit&eacute;, dans l&rsquo;absence de confort caract&eacute;-ristique des chenill&eacute;s. &Agrave; l&rsquo;avant, un bec a&eacute;rodynamique tranche l&rsquo;air et l&rsquo;eau, d&eacute;fonce les murs de b&eacute;ton et couche les ennemis pour mieux les &eacute;craser. &Agrave; l&rsquo;arri&egrave;re, on trouve une porte blind&eacute;e qui sert de rampe une fois abaiss&eacute;e. Un puissant champ cin&eacute;tique parach&egrave;ve la quasi-invuln&eacute;rabilit&eacute; du centurion. L&rsquo;&eacute;quipage des centurions est constitu&eacute; d&rsquo;un pilote et d&rsquo;un artilleur ou copilote charg&eacute; des communications. Pilote et artilleur n&rsquo;ont aucune vue directe sur l&rsquo;ext&eacute;rieur, qui est &agrave; la place repr&eacute;sent&eacute; sur des &eacute;crans RA permettant de d&eacute;signer les cibles aux deux tourelles automatiques plac&eacute;es sur le toit et souvent &eacute;quip&eacute;es d&rsquo;une mitrailleuse lourde et d&rsquo;un lance-missile.</p>\n<p>La plupart des centurions disposent d&rsquo;un nose art (comme sur les avions) d&rsquo;inspiration imp&eacute;riale romaine, g&eacute;n&eacute;ralement des aigles, et portent le nom d&rsquo;un personnage grec ou romain historique, voire mythique (Parm&eacute;nion, Leonidas, Agamemnon, Neron...).</p>"
+    "description": "<p>Les centurions sont des transports de troupes blind&eacute;s chenill&eacute;s lourds, con&ccedil;us pour livrer douze chevaliers ou une vingtaine d&rsquo;hommes avec &eacute;quipement en temps, en heure et en s&eacute;curit&eacute;, dans l&rsquo;absence de confort caract&eacute;-ristique des chenill&eacute;s. &Agrave; l&rsquo;avant, un bec a&eacute;rodynamique tranche l&rsquo;air et l&rsquo;eau, d&eacute;fonce les murs de b&eacute;ton et couche les ennemis pour mieux les &eacute;craser. &Agrave; l&rsquo;arri&egrave;re, on trouve une porte blind&eacute;e qui sert de rampe une fois abaiss&eacute;e. Un puissant champ cin&eacute;tique parach&egrave;ve la quasi-invuln&eacute;rabilit&eacute; du centurion. L&rsquo;&eacute;quipage des centurions est constitu&eacute; d&rsquo;un pilote et d&rsquo;un artilleur ou copilote charg&eacute; des communications. Pilote et artilleur n&rsquo;ont aucune vue directe sur l&rsquo;ext&eacute;rieur, qui est &agrave; la place repr&eacute;sent&eacute; sur des &eacute;crans RA permettant de d&eacute;signer les cibles aux deux tourelles automatiques plac&eacute;es sur le toit et souvent &eacute;quip&eacute;es d&rsquo;une mitrailleuse lourde et d&rsquo;un lance-missile.</p>\n<p>La plupart des centurions disposent d&rsquo;un nose art (comme sur les avions) d&rsquo;inspiration imp&eacute;riale romaine, g&eacute;n&eacute;ralement des aigles, et portent le nom d&rsquo;un personnage grec ou romain historique, voire mythique (Parm&eacute;nion, Leonidas, Agamemnon, Neron...).</p>",
+    "version": 1,
+    "descriptionLimitee": ""
   },
   "prototypeToken": {
     "name": "Transpore blindé centurion",
@@ -75,7 +72,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -111,11 +112,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -126,7 +129,25 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "items": [],
   "effects": [],

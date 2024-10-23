@@ -1,0 +1,40 @@
+{
+  "label": "Disadvantages - Divisions",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Cyclope - Sensible à l’Anathème": {
+      "name": "Cyclops - Anathema sensitivity",
+      "description": "<p>The character’s insatiable curiosity about the Anathema borders on fascination and obsession. As time passes, Cyclops Knights become more sensitive to the darkness. Whenever a Cyclops division PC is affected by the Anathema effect, they suffer 1D6 additional hope loss. An enemy using the domination ability on them gains 3 automatic successes on their skill check.</p>"
+    },
+    "Dragon - Humaniste": {
+      "name": "Dragon - Humanist",
+      "description": "<p>The character values all human life, even corrupted ones, above all else. They always try to save as many lives as possible, the hopeless included, and suffer greatly when they fail. When the PC suffers the despairing effect, they lose 1D6 + 6 hope points (instead of the usual 1D6).</p>"
+    },
+    "Gargoyle - Surprotecteur": {
+      "name": "Gargoyle - Overprotective",
+      "description": "<p>Natural born guardians, Gargoyles are incapable of leaving those they consider important or weak without protection. A Gargoyle PC must choose one (and only one) member of their banner (another PC) as their ward. Once the ally has been chosen, the following rules apply: Whenever the ward is at death’s door, the Gargoyle PC loses 1D6 + 3 hope points. If the ward is killed, the Gargoyle PC loses 2D6 + 6 hope points in addition to any other hope points the banner would normally lose when one of their own dies.</p>"
+    },
+    "Giant - Rat d’atelier": {
+      "name": "Giant - Workshop Monkey",
+      "description": "<p>More used to tinkering in a workshop than taking to the field in a heavy suit of armour, the PC is less used to facing creatures and horrors of the Anathema than their peers. Whenever they would normally be required to make a skill check to resist a fear effect, they automatically suffer the results of a critical failure. The character spends a number of turns unable to do anything at all. The number of turns is equal to the sum of as many D6 as the enemy’s fear score.</p>"
+    },
+    "Griffon - Jouteur": {
+      "name": "Gryphon - Jouster",
+      "description": "<p>Used to fighting on their motorbike, the PC is less confident on foot. All their combat and ranged skill checks when not piloting their steed or one of Avalon’s vehicles suffer a 2D penalty.</p>"
+    },
+    "Korrigan - Toujours un doute": {
+      "name": "Korrigan - Lingering suspicion",
+      "description": "<p>Trained to always suspect everyone, other Knights treat Korrigans in kind. Whenever a Korrigan attempts to help their allies with a skill check, the number of dice they have to roll as helper is reduced by 3. Furthermore, no allied PC or NPC may use modules or advantages to restore a Korrigan PC’s lost hope points.</p>"
+    },
+    "Ogre - Marqué par les ténèbres": {
+      "name": "Ogre - Marked by the Darkness",
+      "description": "<p>The character has seen many things while in the Anathema’s gloom. As the days go by, they grow ever more quiet and distant. The PC suffers a 2D6 penalty on all skill checks when talking with humans other than Knights of their banner and Ogre division members.</p>"
+    },
+    "Tarasque - Fou dangereux": {
+      "name": "Tarasque - Menace to society",
+      "description": "<p>Though they may no longer be in Tarasque division, Sagramore and several Korrigan agents still closely watch this Knight. If they step out of line or if they start to lose hope, the explosive in their skull detonates, instantly killing them. If the PC has fewer than 10 hope points at the start of a scene, the explosive goes off and they are instantly killed.</p>"
+    }
+  }
+}

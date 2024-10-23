@@ -1,0 +1,452 @@
+{
+  "label": "Human and creatures weapons",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom"
+  },
+  "entries": {
+    "Aiguilles de ténèbres": {
+      "name": "Dark needles",
+      "description": ""
+    },
+    "Arbalète watson": {
+      "name": "Watson crossbow",
+      "description": ""
+    },
+    "Arc": {
+      "name": "Bow",
+      "description": ""
+    },
+    "Arc de puissance ténébreuse": {
+      "name": "Arc of dark power",
+      "description": ""
+    },
+    "Arme antique": {
+      "name": "Ancient weapon",
+      "description": ""
+    },
+    "Arme blanche": {
+      "name": "Bladed weapon",
+      "description": ""
+    },
+    "Arme de lumiere": {
+      "name": "Radiant weapon",
+      "description": ""
+    },
+    "Arme improvisée": {
+      "name": "Improvised weapon",
+      "description": ""
+    },
+    "Arme lourde": {
+      "name": "Heavy weapon",
+      "description": ""
+    },
+    "Arme lourde du faune": {
+      "name": "Fauns's heavy weapon",
+      "description": ""
+    },
+    "Arme polymorphe de Rubilacxe (Contact)": {
+      "name": "Rubilacxe polymorphic weapon (Melee)",
+      "description": "<p><strong>Effect:</strong> <em>ignore armour</em>, <em>ignore FF</em> or <em>anti-vehicle</em>.</p>"
+    },
+    "Arme polymorphe de Rubilacxe (Tir)": {
+      "name": "Rubilacxe polymorphic weapon (Ranged)",
+      "description": "<p><strong>Effect:</strong> <em>scatter 6</em>, <em>stun 2</em> or <em>barrage 6</em>.</p>"
+    },
+    "Armes de chair et d'os": {
+      "name": "Weapons of flesh and bone",
+      "description": "<p><strong>Effects:</strong> <em>ignore armour</em> or <em>ignore FF</em></p>"
+    },
+    "Arquebuse": {
+      "name": "Arquebus",
+      "description": ""
+    },
+    "Branche de chair": {
+      "name": "Flesh branch",
+      "description": ""
+    },
+    "Canon à graviton": {
+      "name": "Graviton cannon",
+      "description": "<p><strong>Energy:</strong> 20 per shot</p>\n<p><strong>Effects:</strong> Doubles the damage against buildings and infrastructure, requires being held by the mecha.</p>"
+    },
+    "Canon à plasma": {
+      "name": "Plasma cannon",
+      "description": ""
+    },
+    "Canon de bras": {
+      "name": "Arm cannon",
+      "description": ""
+    },
+    "Cantique de souffrance": {
+      "name": "Song of suffering",
+      "description": ""
+    },
+    "Chant du désespoir": {
+      "name": "Song of despair",
+      "description": ""
+    },
+    "Cimeterre": {
+      "name": "Scimitar",
+      "description": ""
+    },
+    "Colonne de lumière": {
+      "name": "Light column",
+      "description": ""
+    },
+    "Colts": {
+      "name": "Colts",
+      "description": ""
+    },
+    "Coup d'ombre": {
+      "name": "Shadow stroke",
+      "description": ""
+    },
+    "Couronne du prince de la Chasse": {
+      "name": "Crown of the Prince of the Hunt",
+      "description": ""
+    },
+    "Cri": {
+      "name": "Scream ",
+      "description": ""
+    },
+    "Crocs": {
+      "name": "Fangs",
+      "description": ""
+    },
+    "Crocs titanesques": {
+      "name": "Titanic fangs",
+      "description": ""
+    },
+    "Dague serpent": {
+      "name": "Snake dagger",
+      "description": ""
+    },
+    "Deluge de coup": {
+      "name": "Deluge of blows",
+      "description": ""
+    },
+    "Dents et ongles": {
+      "name": "Tooth and nail",
+      "description": ""
+    },
+    "Éclats d'abysse": {
+      "name": "Shards of abyss",
+      "description": ""
+    },
+    "Éclats d'ombre": {
+      "name": "Shards of shadow",
+      "description": ""
+    },
+    "Eclats d'abysse": {
+      "name": "Shards of abyss",
+      "description": ""
+    },
+    "Eclats d'ombre": {
+      "name": "Shards of shadow",
+      "description": ""
+    },
+    "Épée": {
+      "name": "Sword",
+      "description": ""
+    },
+    "Épée d'Excalibur corrompue": {
+      "name": "Corrupted Excalibur's sword",
+      "description": ""
+    },
+    "Épée d'Excalibure": {
+      "name": "Excalibur's sword",
+      "description": ""
+    },
+    "Épée prisme": {
+      "name": "Prism sword",
+      "description": ""
+    },
+    "Épines d'os": {
+      "name": "Bone spines",
+      "description": ""
+    },
+    "épines d'os": {
+      "name": "Bone spines",
+      "description": ""
+    },
+    "Explosion d'Anathème": {
+      "name": "Anathema blast",
+      "description": ""
+    },
+    "Faille de défense": {
+      "name": "Defence breach",
+      "description": ""
+    },
+    "Failles Explosives": {
+      "name": "Explosive rifts",
+      "description": ""
+    },
+    "Faisceau de lumière": {
+      "name": "Radiant beam",
+      "description": ""
+    },
+    "Fléau de guerre Apophis": {
+      "name": "Apophis war flail",
+      "description": "<p>when wielded on a Steed bike, the Apophis war flail deals double its usual damage dice (16D6 instead of 8D6).</p>"
+    },
+    "Frappe de ki": {
+      "name": "Ki strike",
+      "description": ""
+    },
+    "Fureur de Raijin": {
+      "name": "Raijin's wrath",
+      "description": "<p>Twin fracture cesti</p>"
+    },
+    "Fusil": {
+      "name": "Rifle",
+      "description": ""
+    },
+    "Fusil d'Excalibur corrompu": {
+      "name": "Corrupted excalibur's rifle",
+      "description": ""
+    },
+    "Fusil d'Excalibure": {
+      "name": "Excalibur's rifle",
+      "description": ""
+    },
+    "Grenade de spores": {
+      "name": "Spore grenades",
+      "description": "<p><strong>Effects:</strong> <em>Ignore FF</em>, <em>ignore armour</em> or <em>stun 2</em></p>"
+    },
+    "Griffes de titan": {
+      "name": "Titan claws",
+      "description": ""
+    },
+    "Griffes en élément alpha": {
+      "name": "Alpha element claws",
+      "description": ""
+    },
+    "Gueule de serpent": {
+      "name": "Snake maw",
+      "description": ""
+    },
+    "Gueule du vide": {
+      "name": "Empty maw",
+      "description": ""
+    },
+    "ARMES EMPOISONNÉES": {
+      "name": "Poisoned weapons",
+      "description": ""
+    },
+    "PROJECTILES EMPOISONNÉS": {
+      "name": "Poisoned projectiles",
+      "description": ""
+    },
+    "Gungir, la lance d'Odin (contact)": {
+      "name": "Gungir, Odin's spear (melee)",
+      "description": ""
+    },
+    "Gungir, la lance d'Odin (distance)": {
+      "name": "Gungir, Odin's spear (ranged)",
+      "description": ""
+    },
+    "Hache": {
+      "name": "Axe",
+      "description": ""
+    },
+    "Haut pavois": {
+      "name": "Greatshield",
+      "description": ""
+    },
+    "Jet de soie": {
+      "name": "Silk spurt",
+      "description": ""
+    },
+    "Katana": {
+      "name": "Katana",
+      "description": ""
+    },
+    "Katana cinétique": {
+      "name": "Kinetic Katana",
+      "description": ""
+    },
+    "Katana cinétique géant": {
+      "name": "Giant kinetic katana",
+      "description": ""
+    },
+    "La foreuse": {
+      "name": "The Drill",
+      "description": "<p>If the drill inflicts damage on an enemy (to their AP or their HP), the GM chooses one of the following: one of the target NPC‘s weapons or modules is destroyed, one of their abilities cannot be used for the next two turns, or the target no longer has a FF or shielding score for the next two turns. Several of these effects can stack on the same enemy.</p>"
+    },
+    "La voix": {
+      "name": "Chilling voice",
+      "description": ""
+    },
+    "Lame d'abysse": {
+      "name": "Abyssal blade",
+      "description": ""
+    },
+    "Lame d'élément alpha": {
+      "name": "Alpha element blade",
+      "description": ""
+    },
+    "Lame de bras": {
+      "name": "Arm blade",
+      "description": ""
+    },
+    "Lame de glace": {
+      "name": "Ice blade",
+      "description": ""
+    },
+    "Lame et pics": {
+      "name": "Blades and spikes",
+      "description": ""
+    },
+    "Lance": {
+      "name": "Spear",
+      "description": ""
+    },
+    "Maison-Dieu": {
+      "name": "Tower",
+      "description": ""
+    },
+    "Mandibules": {
+      "name": "Mandibles",
+      "description": ""
+    },
+    "Masque de bronze": {
+      "name": "Bronze mask",
+      "description": ""
+    },
+    "Mecha-mitrailleuse": {
+      "name": "Mecha-machine gun",
+      "description": ""
+    },
+    "Mélodie froide": {
+      "name": "Cold melody",
+      "description": ""
+    },
+    "Membres multiples": {
+      "name": "Multiple members",
+      "description": ""
+    },
+    "Nodachi cinétique géant": {
+      "name": "Giant kinetic nodachi",
+      "description": ""
+    },
+    "Nodachi du shogun": {
+      "name": "Shogun's Nodachi",
+      "description": "<p><strong>Damage:</strong> 4D6 + 18 (+1D6 per 1 per 1 energy point spent, 10D6 max)</p>\n<p><strong>Violence:</strong> 4D6 ( 1D6 per 1 energy point spent, 10D6 max)</p>"
+    },
+    "Os taillé": {
+      "name": "Sharpened bone",
+      "description": ""
+    },
+    "Paire de hache a réaction attila et genghis": {
+      "name": "Twin rocket axes ‘Attila‘ and ‘Genghis‘",
+      "description": ""
+    },
+    "Paume vibratoire": {
+      "name": "Vibratory palm",
+      "description": ""
+    },
+    "Pistolet de gros calibre": {
+      "name": "Large-calibre pistol",
+      "description": ""
+    },
+    "Poings": {
+      "name": "Fists",
+      "description": ""
+    },
+    "Projection de corps": {
+      "name": "Body throw",
+      "description": ""
+    },
+    "Projection de métal": {
+      "name": "Metal launcher",
+      "description": ""
+    },
+    "Projection de sang": {
+      "name": "Blood spraying",
+      "description": ""
+    },
+    "Prothèse taser": {
+      "name": "Taser prosthesis",
+      "description": ""
+    },
+    "Queue de scorpion": {
+      "name": "Scorpion tail",
+      "description": ""
+    },
+    "Railgun baliste": {
+      "name": "Balista railgun",
+      "description": ""
+    },
+    "Railgun de poing": {
+      "name": "Handheld railgun",
+      "description": ""
+    },
+    "Rapière": {
+      "name": "Rapier",
+      "description": ""
+    },
+    "Rayon": {
+      "name": "Beam",
+      "description": "<p>Requires 30 energy points</p>"
+    },
+    "Serre du faucon (paire de lame de bras)": {
+      "name": "Claws of the hawk (twin arm blades)",
+      "description": ""
+    },
+    "Tentacules": {
+      "name": "Tentacle",
+      "description": ""
+    },
+    "Tetsubo de fracture géant": {
+      "name": "Giant fracture tetsubo",
+      "description": "<p><strong>Energy:</strong> 10 per attack</p>"
+    },
+    "Tomahawk": {
+      "name": "Tomahawk",
+      "description": ""
+    },
+    "Touché glacial": {
+      "name": "Icy touch",
+      "description": ""
+    },
+    "Tronçonneuse géante": {
+      "name": "Giant chainsaw",
+      "description": ""
+    },
+    "Vague d'énergie alpha": {
+      "name": "Alpha energy wave",
+      "description": ""
+    },
+    "Vague de lumière": {
+      "name": "Radiant wave",
+      "description": ""
+    },
+    "Venin abyssal": {
+      "name": "Abyssal venom",
+      "description": ""
+    },
+    "Venin de l'ophidien": {
+      "name": "Ophidian venom",
+      "description": ""
+    },
+    "Vision d'horreur": {
+      "name": "Vision of horror",
+      "description": ""
+    },
+    "Vision désespérées": {
+      "name": "Desperate visions",
+      "description": ""
+    },
+    "Voix du désespoir": {
+      "name": "Voice of despair",
+      "description": ""
+    },
+    "Wakizashi cinétique": {
+      "name": "Kinetic wakizashi",
+      "description": ""
+    }
+  }
+}

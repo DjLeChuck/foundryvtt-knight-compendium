@@ -27,14 +27,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 2
                 },
@@ -45,14 +40,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 4
                 },
@@ -63,7 +53,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -85,7 +75,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -98,7 +88,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -111,7 +101,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -133,7 +123,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -146,7 +136,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -159,7 +149,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -181,7 +171,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -194,7 +184,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -216,7 +206,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -229,7 +219,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           }
@@ -245,7 +235,10 @@
         "violencebonus": {
           "dice": 0,
           "fixe": 0
-        }
+        },
+        "sacrifice": 0,
+        "tourspasses": 1,
+        "type": "degats"
       }
     },
     "aspects": {
@@ -254,11 +247,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -268,11 +261,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -282,11 +275,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -296,11 +289,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -310,11 +303,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -327,7 +320,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 6
+        "user": 0
       },
       "malus": {
         "user": 0
@@ -338,7 +331,10 @@
         "bonus": {},
         "malus": {}
       },
-      "optionDeploy": false
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
+      "diceMod": 0
     },
     "reaction": {
       "bonus": {
@@ -351,11 +347,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 9,
-      "optionDeploy": false
+      "mod": 0
     },
     "defense": {
       "bonus": {
@@ -368,11 +362,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 8,
-      "optionDeploy": false
+      "mod": 0
     },
     "sante": {
       "bonus": {
@@ -383,12 +375,10 @@
         "user": 0,
         "capacites": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "max": 0,
       "base": 300,
-      "optionDeploy": false
+      "mod": 0
     },
     "description": "<p>L&rsquo;Archiviste est la m&eacute;moire des triarches. Il s&rsquo;attache &agrave; tout noter des enqu&ecirc;tes et des sentences formul&eacute;es par les siens en des phrases souvent d&rsquo;une grande po&eacute;sie. Il est, parmi les triarches, un grand informateur si on r&eacute;ussit &agrave; le convaincre de divulguer ses secrets. Il suffit pour cela de vanter ses talents d&rsquo;orateur et de po&egrave;te afin qu&rsquo;il donne quelques exemples de son art. Son premier attribut est donc naturellement un parchemin qui, m&ecirc;me s&rsquo;il ne semble pas long, comporte des centaines, des milliers d&rsquo;informations et garde encore assez de place pour celles ajout&eacute;es. Son deuxi&egrave;me attribut est un cimeterre qu&rsquo;il manie avec une grande dext&eacute;rit&eacute;.Car si l&rsquo;Archiviste se souvient, de sa vie d&rsquo;humain, avoir &eacute;t&eacute; un grand po&egrave;te, il a aussi la m&eacute;moire de ses actes guerriers. Il se rappelle par exemple avoir combattu et vaincu un lion. Il a aussi le souvenir d&rsquo;avoir combattu une femme guerri&egrave;re qu&rsquo;il a destitu&eacute;e, mais, l&rsquo;amour le guidant, qu&rsquo;il a ensuite d&eacute;cid&eacute; d&rsquo;aider &agrave; regagner son tr&ocirc;ne.</p>",
     "tactique": "<p>L&rsquo;Archiviste aime se jeter au c&oelig;ur de la bataille et cherche en g&eacute;n&eacute;ral &agrave; d&eacute;concentrer son ennemi en clamant des vers improvis&eacute;s sur le pass&eacute; et les fautes de ses ennemis. Il attaque en particulier les ennemis avec un score bas en Machine puis en Savoir.</p>",
@@ -403,36 +393,36 @@
         "chair": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "bete": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "machine": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "dame": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "masque": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         }
       }
@@ -448,11 +438,11 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "bouclier": {
       "value": 0,
-      "max": 0,
       "base": 10,
       "bonus": {
         "user": 0
@@ -460,7 +450,7 @@
       "malus": {
         "user": 0
       },
-      "optionDeploy": false
+      "mod": 0
     },
     "resilience": {
       "value": 0,
@@ -477,7 +467,8 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "options": {
       "energie": false,
@@ -485,10 +476,21 @@
       "bouclier": true,
       "armure": false,
       "resilience": false,
-      "phase2": false
+      "phase2": false,
+      "notFirstMenu": false,
+      "noSecondMenu": false,
+      "embuscadeSubis": false,
+      "embuscadePris": false
     },
-    "knightRoll": {
-      "id": false
+    "version": 1,
+    "descriptionLimitee": "",
+    "colosse": false,
+    "patron": true,
+    "bonusSiEmbuscade": {
+      "bonusInitiative": {
+        "dice": 0,
+        "fixe": 0
+      }
     }
   },
   "prototypeToken": {

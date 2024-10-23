@@ -1,0 +1,138 @@
+{
+  "name": "Epée de feu de Saint Michel",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Cette &eacute;p&eacute;e est constitu&eacute;e d&rsquo;un minerai particuli&egrave;rement rare baptis&eacute; le lumarbre et semble r&eacute;pondre &agrave; l&rsquo;&eacute;l&eacute;ment alpha en inversant ses effets sur les humains, notamment en soulageant l'esprit de ces derniers. Les chocs violents sur le lumarbre g&eacute;n&egrave;rent une explosion lumineuse, et le mat&eacute;riau prend feu d&egrave;s qu&rsquo;il entre en contact avec un &eacute;l&eacute;ment issu des t&eacute;n&egrave;bres.</p>\n<p style=\"text-align: justify;\">Selon la l&eacute;gende, l&rsquo;&eacute;p&eacute;e de feu de saint Michel est une arme ayant servi &agrave; pourfendre le dragon, &agrave; combattre Lucifer et est &agrave; l'origine d'un mythe expliquant les emplacements des sanctuaires d&eacute;di&eacute;s au saint en Europe et au Moyen-Orient. Redoutable contre l'Anath&egrave;me, elle ne saurait &ecirc;tre employ&eacute;e pour blesser un humain, l&rsquo;archange veillant &agrave; la protection des &acirc;mes innocentes et les faisant revenir dans le droit chemin si elles venaient &agrave; se perdre.</p>",
+    "rarete": "espoir",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 100,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 10,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 4",
+        "lumiere 6",
+        "antianatheme",
+        "ultraviolence",
+        "esperance",
+        "tenebricide",
+        "deuxmains",
+        "intimidantana"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "mSG74B8v4OufxsEf",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!mSG74B8v4OufxsEf"
+}

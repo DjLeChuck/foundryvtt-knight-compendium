@@ -1,0 +1,216 @@
+{
+  "name": "Khakkara",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">L&rsquo;arbre sacr&eacute; des Hunters de l&rsquo;arche de MOQ n'ont eu de cesse d'intriguer les scientifiques du Knight, en particulier d&ucirc; &agrave; ses propri&eacute;t&eacute;s. Ce ne fut qu'apr&egrave;s d'&acirc;pres n&eacute;gociations que ces derniers finirent par offrir une branche &agrave; l'organisation, afin de sceller leur alliance.</p>\n<p style=\"text-align: justify;\">Avec l'aval de la Table Ronde et en utilisant un fragment de bois, ce prototype tire profit des facult&eacute;s r&eacute;g&eacute;n&eacute;ratrices de l'arbre. Inspir&eacute; par les b&acirc;tons traditionnels bouddhistes, le Khakkhara est surplomb&eacute; de 4 globes qui abritent et prot&egrave;gent le syst&egrave;me de diffusion de la poussi&egrave;re d'arbre blanc. De larges anneaux ont &eacute;t&eacute;s accroch&eacute;s &agrave; ces derniers et sur lequels sont pass&eacute;s des anneaux plus petits. &Eacute;tudi&eacute;s pour s&rsquo;entrechoquer en cr&eacute;ant des harmonies primales, elles instillent la peur chez les cr&eacute;atures de l&rsquo;Anath&egrave;me.</p>\n<p style=\"text-align: justify;\">La t&ecirc;te du b&acirc;ton, compos&eacute; d'un fleuron ainsi que d'ornements entrelac&eacute;s, permettent au porteur de parer, voir bloquer les armes adverses. &Agrave; son oppos&eacute; se trouve un contrepoids qui sert &agrave; augmenter le mouvement inertiel et maximiser les d&eacute;g&acirc;ts lorsqu'on frappe avec.</p>",
+    "rarete": "prestige",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 120,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "leste",
+        "defense 4",
+        "lumiere 2",
+        "esperance",
+        "deuxmains",
+        "intimidantana"
+      ],
+      "custom": [
+        {
+          "label": "Spécial",
+          "description": "<p>Pour 5PE et &agrave; port&eacute;e contact, pour une action de&nbsp;d&eacute;placement, la poussi&egrave;re d&rsquo;arbre blanc redonne 3D6+6 PS &agrave; la cible. Les cibles touch&eacute;es par la poussi&egrave;re obtiennent l&rsquo;effet endurci 1 pour la dur&eacute;e de la sc&egrave;ne ou de la phase de conflit. &Agrave; noter que la poussi&egrave;re ne passe pas au travers des armures et si un chevalier est cibl&eacute;, il doit folder au moins son heaume pour b&eacute;n&eacute;ficier de ces effets.</p>",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "TRA88Ie7THSdkmTR",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!TRA88Ie7THSdkmTR"
+}

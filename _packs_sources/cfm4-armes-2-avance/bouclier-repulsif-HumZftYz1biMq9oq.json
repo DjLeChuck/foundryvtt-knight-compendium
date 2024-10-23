@@ -1,0 +1,133 @@
+{
+  "name": "Bouclier répulsif",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Le bouclier r&eacute;pulsif est dot&eacute; d'une surface irr&eacute;guli&egrave;re et d'une taille mod&eacute;r&eacute;e. La section Giant l'a &eacute;quip&eacute; d'un dispositif accumulant l'&eacute;nergie cin&eacute;tique pour la rel&acirc;cher brutalement sur d&eacute;clencheur, repoussant sur plusieurs m&egrave;tres tout ce qui se trouve devant lui. La forme et la &nbsp;structure du bouclier ont &eacute;t&eacute; optimis&eacute;es afin de d&eacute;vier les tirs de projectiles, tandis que le traitement de surface absorbe la lumi&egrave;re pour plus de discr&eacute;tion. Le compagnon &nbsp;id&eacute;al d'un tireur embusqu&eacute;.</p>\n<p style=\"text-align: justify;\">Au prix d'une action gratuite et 3 PE, le chevalier peut repousser &agrave; port&eacute;e courte une cible au contact.</p>",
+    "rarete": "avance",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 50,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 2,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 2,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "defense 2",
+        "reaction 4",
+        "jumeleambidextrie"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "HumZftYz1biMq9oq",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!HumZftYz1biMq9oq"
+}

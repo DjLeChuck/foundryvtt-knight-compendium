@@ -1,0 +1,200 @@
+{
+  "label": "Modules - 3. Rare",
+  "mapping": {
+    "description": "system.description",
+    "n1EnergieTourLabel": "system.niveau.details.n1.energie.tour.label",
+    "n1EnergieMinuteLabel": "system.niveau.details.n1.energie.minute.label",
+    "n1Duration": "system.niveau.details.n1.duree",
+    "n2EnergieTourLabel": "system.niveau.details.n2.energie.tour.label",
+    "n2EnergieMinuteLabel": "system.niveau.details.n2.energie.minute.label",
+    "n2Duration": "system.niveau.details.n2.duree",
+    "n3EnergieTourLabel": "system.niveau.details.n3.energie.tour.label",
+    "n3EnergieMinuteLabel": "system.niveau.details.n3.energie.minute.label",
+    "n3Duration": "system.niveau.details.n3.duree",
+    "n1WpnEffetCustom1Label": "system.niveau.details.n1.arme.effets.custom.0.label",
+    "n1WpnEffetCustom1Description": "system.niveau.details.n1.arme.effets.custom.0.description",
+    "n1WpnEffetCustom1AtkCondition": "system.niveau.details.n1.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n1WpnEffetCustom1DgtCondition": "system.niveau.details.n1.arme.effets.custom.0.degats.conditionnel.condition",
+    "n1WpnEffetCustom1ViolenceCondition": "system.niveau.details.n1.arme.effets.custom.0.violence.conditionnel.condition",
+    "n2WpnEffetCustom1Label": "system.niveau.details.n2.arme.effets.custom.0.label",
+    "n2WpnEffetCustom1Description": "system.niveau.details.n2.arme.effets.custom.0.description",
+    "n2WpnEffetCustom1AtkCondition": "system.niveau.details.n2.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n2WpnEffetCustom1DgtCondition": "system.niveau.details.n2.arme.effets.custom.0.degats.conditionnel.condition",
+    "n2WpnEffetCustom1ViolenceCondition": "system.niveau.details.n2.arme.effets.custom.0.violence.conditionnel.condition",
+    "n3WpnEffetCustom1Label": "system.niveau.details.n3.arme.effets.custom.0.label",
+    "n3WpnEffetCustom1Description": "system.niveau.details.n3.arme.effets.custom.0.description",
+    "n3WpnEffetCustom1AtkCondition": "system.niveau.details.n3.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n3WpnEffetCustom1DgtCondition": "system.niveau.details.n3.arme.effets.custom.0.degats.conditionnel.condition",
+    "n3WpnEffetCustom1ViolenceCondition": "system.niveau.details.n3.arme.effets.custom.0.violence.conditionnel.condition"
+  },
+  "entries": {
+    "Accélérateur": {
+      "name": "Accelerator",
+      "description": "<p>Avalon’s movement accelerator allows meta-armour wearers to act almost twice as fast as a normal human being. Activating the accelerator module provides its user with an additional move action. It can only be activated once per turn.</p>\n<h2>Level 2</h2>\n<p>In addition to the move action, activating the accelerator module now provides its user with an extra combat action. It can only be activated once per turn.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": ""
+    },
+    "Accumulation de force": {
+      "name": "Force accumulator",
+      "description": "<p>When they activate this module, the character’s force field becomes visible to the naked eye and seems to grow thicker and swell with each blow it absorbs, until it finally bursts in a tremendous gout of energy strong enough to stagger or kill even the hardiest foe.</p>\n<p>In game terms, each time the character’s force field absorbs damage (completely or partially) they set aside 1D6 for every 6 full points of damage prevented by the FF. Up to 8D6 can be kept next to the player’s character sheet. Whenever they choose, by expending a move action, the character unleashes the force field’s pent-up power. The player then rolls all the dice set aside, and deals that amount of damage (or violence, whichever they prefer) to all enemies in contact range. These dice are lost. The explosion has the ignore FF effect, and inflicts an automatic stun 1 effect on enemies with a Flesh aspect lower than 14.</p>\n<p>For the next 1D6 turns following the burst, the character’s force field is disabled. Their FF is reduced to 0, and returns to normal after the 1D6 turns have passed. The module itself serves no purpose while the force field is deactivated. Once the FF returns, the module must be reactivated and its EP cost paid once more if the character wants to use it again.</p>\n<h2>Level 2</h2>\n<p>The module can now accumulate up to 12D6. The character only remains without their FF for one turn after releasing any amount of accumulated damage.</p>",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "One scene",
+      "n2EnergieMinuteLabel": "one conflict phase",
+      "n2Duration": ""
+    },
+    "Attaque portée": {
+      "name": "Warp strike",
+      "description": "<p>This high-tech system allows its user to strike distant enemies as if they were in contact range, using temporary wormholes that open for less than a second. These attacks can strike any enemy they can see (by any means, camera, scope, alternate vision module, etc.) up to long range. Warp strike modules are not without their dangers. To use them safely, the character needs to have an Acuity or a Dexterity score of 5. If neither score is high enough, they must roll a D6 each time they activate the module. If they roll a 1, the wormhole shuts early and the character’s arm is chopped off. This counts as a mangled arm grievous wound (naturally affecting the arm that held the weapon used to attack), and their armour and health points are both reduced to 0.</p>\n<h2>Level 2</h2>\n<p>Enemies can now be surprise attacked by the warp strike. Their defence rating is counted as 0 (unless the enemy has an exceptional Beast, Machine, or Mask aspect, in which case they ignore this effect).</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": ""
+    },
+    "Blindage drone": {
+      "name": "Drone shielding",
+      "description": "<p>This module is separate from the meta-armour it is installed on, zipping around it to prevent damage.</p>\n<h2>Level 2</h2>\n<p>FF increases to +4 points, defence increases to +3 points in total.</p>",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "One scene",
+      "n2EnergieMinuteLabel": "one conflict phase",
+      "n2Duration": ""
+    },
+    "Camouflage optique": {
+      "name": "Optical Camouflage",
+      "description": "<p>Some armours can be enhanced to include part of the power of the Ghost mode from Rogue meta-armours. However, this requires an already installed Discretion overdrive on the armour in question (whether it is original or added) and, unlike the Rogue armour, it is not possible to evolve this module to remain invisible when attacking.</p>\n<p>Cannot be miniaturized.</p>\n<p>It is not possible to reactivate the module on the same turn it was deactivated.</p>\n<p>Module forbidden for Rogue and Paladin meta-armours (as long as it is 'slow and heavy').</p>\n<p>The energy indicated is per combat turn. For a scene, the cost is 8 EP / minute.</p>",
+      "n1EnergieTourLabel": "Variable",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Canon Sol Invictus": {
+      "name": "Sol invictus cannon",
+      "description": "<p>The Sol invictus cannon is a more powerful version of the Balder, complete with multiple tubes capable of firing powerful coherent light blasts.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Capsule": {
+      "name": "Capsule",
+      "description": "<p>Designed on the same principle as the Steed motorcycle deployment module, this module allows the embedding of small pellets or balls containing nanites to construct various objects, somewhat like the nanoC mode of the Priest armour, but the objects in question are preprogrammed. Between each mission, the knight can decide for each capsule the form it will take.</p>\n<p>The basic module provides access to 3 capsules, and it is possible to purchase up to 2 additional capsules for 5 GP each.</p>\n<p>List of available objects per capsule:</p>\n<ul>\n<li>All standard Knight weapons with a PG cost lower than the number of PG spent on this module (including additional capsules)</li>\n<li>A battering ram</li>\n<li>A small wall</li>\n<li>A net that can transform into a spherical cage for 1 PE</li>\n<li>An advanced medical station offering a bonus of 3 dice</li>\n<li>An advanced repair system offering a bonus of 3 dice</li>\n<li>2 ammunition for a weapon with the loader effect</li>\n<li>A powerful UV projector allowing the application of the light 1 effect over an area equal to medium range</li>\n<li>A high-quality mini-camera and microphones</li>\n<li>A high-performance GPS tracking device and two sticky tracker-emitters</li>\n<li>A spiked mat</li>\n<li>A small maglev cart capable of carrying approximately 150 kg</li>\n</ul>",
+      "n1EnergieTourLabel": "10 minutes + 10 minutes per 2 EP spent at once (max 1 hour)",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Couvert portatif": {
+      "name": "Portable cover",
+      "description": "<p>Beads filled with nanomachines provide temporary cover when thrown on the ground. Once deployed, these portable covers cannot be recovered or moved and act like regular cover for any PC who hides behind them (see Chapter 4: Game mechanics, on page 87).</p>\n<h2>Level 2</h2>\n<p>Clip 3 increases to clip 6. Cover design is improved and provides an additional 1 reaction point.</p>\n<h2>Level 3</h2>\n<p>Clip 6 increases to clip 9. Cover design is improved and provides an additional 1 reaction point.</p>",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "One scene",
+      "n2EnergieMinuteLabel": "one conflict phase",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "One scene",
+      "n3EnergieMinuteLabel": "one conflict phase",
+      "n3Duration": ""
+    },
+    "Déguisement": {
+      "name": "Disguise",
+      "description": "<p>Some armours can be enhanced to include part of the power of the Changeling mode from Bard meta-armours. However, this requires the armour to have a quasi-human size and shape (so not the Warrior or Paladin, for example).</p>\n<p>Cannot be miniaturized.</p>\n<p>Module forbidden for Warrior, Paladin, and Bard meta-armours.</p>\n<p>The energy cost is for a scene, a conflict phase, or an hour.</p>\n",
+      "n1EnergieTourLabel": "Variable",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Déploiement pour méga-armure": {
+      "name": "Deployment for mega-armour",
+      "description": "<p>It was after the deployment modules for the Steed motorcycle were put into service that Priest bearers from the Giant section began working on a module that would allow them to compete with a Barbarian meta-armour in close combat, even if only for a couple of minutes. Inspired by the giant combat robots of the Nodachi, they developed a massive combat exoskeleton that can deploy over a meta-armour to temporarily increase its resistance and close combat striking power. The drawback of the process is that it is quite energy-intensive. As soon as the mega-armour reaches 0 HP (or the meta-armour reaches 0 EP), the latter folds.</p>\n<p>The knight can continue to use their weapons and modules normally.</p>\n<p>Cannot be miniaturized.</p>\n<p>The mega-armour adds 30 HP (taking damage in priority) to the meta-armour.</p>\n<p>Module forbidden for Barbarian and Paladin meta-armours.</p>\n<p>The energy cost is per turn.</p>\n",
+      "n1EnergieTourLabel": "One scene or one conflict phase",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Interception": {
+      "name": "Interception",
+      "description": "<p style='text-align: justify;'>With this module, a character entering a combat situation can ready themselves for anything and react in the blink of an eye. It allows them to use a move action (limited to one move action per turn) at any time during the turn, interrupting all other actions.</p>\n<h2>Level 2</h2>\n<p style='text-align: justify;'>The interception module now allows its user to spend 8 EP to perform a combat action (limited to one combat action per turn) at any time during the turn, interrupting all other actions.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "",
+      "n1Duration": "Instantaneous",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "",
+      "n2Duration": "Instantaneous"
+    },
+    "Interface Babel": {
+      "name": "Babel interface",
+      "description": "<p>This linguistics module provides near instantaneous translation (for both parties) of all known languages via the armour’s headpiece. The armour’s AI selects the language output depending on their audience and knowledge of the recipient’s spoken languages. When a PC speaks to an NPC who speaks a different language than theirs, their meta-armour automatically sets itself to the most appropriate language output.</p>\n",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Masse de contrôle": {
+      "name": "Mass redistributor",
+      "description": "<p>Adds an additional slot to all armour locations.</p>\n<h2>Level 2</h2>\n<p>Adds an additional slot to all armour locations.</p>\n<h2>Level 3</h2>\n<p>Adds an additional slot to all armour locations.</p>",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "-",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "-",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Module de phase": {
+      "name": "Phase module",
+      "description": "<p>The character can phase or pass through matter. Over the course of one action, they can travel (horizontally or vertically) through 20 inches of any solid matter except alpha element. To travel through thicker surfaces, they must pay additional energy at a cost of one activation per 20 inches of matter. If the character is stuck in solid matter, they are disintegrated and die outright.</p>\n<h2>Level 2</h2>\n<p>A character with a phase module may now activate it to avoid a single attack. The attack deals no damage, as if it had missed.</p>",
+      "n1EnergieTourLabel": "Spécial – 1 action pour 50 centimètres de matière",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Special - 1 action per 20 inches traveled",
+      "n2EnergieMinuteLabel": "Avoiding an attack",
+      "n2Duration": ""
+    },
+    "Nova": {
+      "name": "Nova",
+      "description": "<p>This module produces a powerful shockwave capable of stunning enemies in contact range with the armour’s wearer.</p>\n<h2>Level 1</h2>\n<p>Adversaries (not including bands) with a Flesh score lower than 10 automatically suffer a stun 1 effect. Adversaries with a higher Flesh score are unaffected.</p>\n<h2>Level 2</h2>\n<p>Adversaries (not including bands) with a Flesh score lower than 14 automatically suffer a stun 1 effect. Adversaries with a higher Flesh score are unaffected.</p>\n<h2>Level 3</h2>\n<p>Adversaries up to short range with a Flesh score lower than 18 automatically suffer a stun 1 effect. Bands with a Flesh score lower than 18 are also affected, and do not deal overrun damage this turn.</p>",
+      "n1EnergieTourLabel": "Automatic on enemies (not bands) Flesh < 10",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Automatic on enemies (not bands) Flesh < 14",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Automatic on enemies (not bands) Flesh < 18",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Téléportation": {
+      "name": "Teleportation",
+      "description": "<p>The character may move instantly to any area at far distance, without traveling through the intervening space. A sharp clap of thunder and bluish light happen at both the point of departure and arrival (preventing any Stealth manoeuvres). When teleporting, the character must be able to see their intended destination.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Vol": {
+      "name": "Flight",
+      "description": "<h2>Niveau 1</h2>\n<p>Allows the character to fly up to short range in one move action (as much as a vehicle speed rating of 1). They can choose to go slower or just hover. Flight duration may be extended (without interruption) by spending the activation cost for as long as the character can afford it.</p>\n<h2>Level 2</h2>\n<p>Allows the character to fly up to medium range in one move action (as much as a vehicle speed rating of 2). Duration increases to 5 turns / 50 seconds. Flight duration may be extended (without interruption) by spending the activation cost as long as the character can afford it.</p>\n<h2>Level 3</h2>\n<p>Allows the character to fly up to long range in one move action (as much as a vehicle speed rating of 3). Duration increases to 10 turns / 100 seconds. Flight duration may be extended (without interruption) by spending the activation cost as for long as the character can afford it.</p>",
+      "n1EnergieTourLabel": "3 turns",
+      "n1EnergieMinuteLabel": "30 seconds",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "5 tours",
+      "n2EnergieMinuteLabel": "50 seconds",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "10 tours",
+      "n3EnergieMinuteLabel": "100 seconds",
+      "n3Duration": ""
+    },
+    "Wolfpack": {
+      "name": "Wolfpack",
+      "description": "<p>No matter the circumstances, the PC always knows where their teammates are. This effect works up to 50 miles away.</p>\n",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    }
+  }
+}

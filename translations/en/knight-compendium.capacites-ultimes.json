@@ -1,0 +1,232 @@
+{
+  "label": "Ultimate Abilities",
+  "folders": {
+    "Capacités actives": "Active Abilities",
+    "Capacités passives": "Passive Abilities"
+  },
+  "mapping": {
+    "description": "system.description",
+    "condition": "system.condition",
+    "activation": "system.actives.activation",
+    "duration": "system.actives.duree"
+  },
+  "entries": {
+    "Artilleur": {
+      "name": "Artillerist",
+      "description": "<p>\"Face à elle, les ennemis ployaient sous la fureur des traits de feu.\"</p>\n<p><strong>Effect</strong>: When activating Watchtower mode, the knight receives two additional combat actions. These combat actions can only be used for shooting. Each additional shot costs 1 energy point.</p>",
+      "condition": "<p>Only for a knight in Paladin meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Artiste énergétique": {
+      "name": "Energy Artist",
+      "description": "<p>\"It is said that he could sculpt and manipulate dark energy like a true artist.\"</p>\n<p><strong>Effect</strong>: Now, certain effects of the propulsion types of Céa mode are enhanced:</p>\n<ul>\n<li>The interference 4 effect of the energy wave becomes the interference 6 effect.</li>\n<li>The dispersion 6 effect of the energy burst becomes the dispersion 12 effect.</li>\n<li>The ignore FF effect is added to the effects of the energy ray.</li>\n</ul>\n<p>Additionally, the damage and violence scores of each propulsion type of Céa mode receive a bonus of 5D6 (in addition to other bonuses obtained previously).</p>",
+      "condition": "<p>Only for a knight in Monk meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Bastion": {
+      "name": "Bastion",
+      "description": "<p>\"The heroine was capable of enduring fatal blows, and it is said that death itself fled from her.\"</p>\n<p><strong>Effect</strong>: The character receives a bonus to their HP total equal to half of their current total HP. Additionally, when they must suffer damage to their HP due to AP loss, they suffer nothing. Finally, the PC can reroll (once per agony) the result obtained on the table of serious injuries.</p>",
+      "condition": "",
+      "activation": "",
+      "duration": ""
+    },
+    "Champion véritable": {
+      "name": "True Champion",
+      "description": "<p>\"In his wake, the light of the Grail pierced the shadows. He was the champion of Humanity that everyone was waiting for.\"</p>\n<p>The hero is a beacon in the shadows that haunt this world. The desperate become normal in his presence, and hope endures in his wake.</p>\n<p><strong>Effect</strong>: The character increases all hope point recoveries by 6 for allies within medium range. If the PC gives a stirring speech or performs a heroic act, desperate humans within long range regain all hope.</p>",
+      "condition": "",
+      "activation": "",
+      "duration": ""
+    },
+    "Changeforme": {
+      "name": "Shapeshifter",
+      "description": "<p>\"The legend tells us that he was capable of perfectly imitating the gestures, words, faces, and bodies of those he encountered.\"</p>\n<p><strong>Effect</strong>: Now, the personal use of Changeling mode costs no EP, requires no activation, and has no duration limit. Additionally, the PC can transform into any being or person already encountered or seen. Finally, depending on the person or being whose appearance they take, they can grant themselves 1 OD in two characteristics, in agreement with the GM. In truth, it is no longer just an appearance; the meta-armour almost truly transforms.</p>",
+      "condition": "<p>Only for a knight in Bard meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Charge du sanglier": {
+      "name": "Boar's Charge",
+      "description": "<p>\"When she charged her enemies, the weak in her path fell or were terrified.\"</p>\n<p><strong>Effect</strong>: By using this ability, the PC instantly moves into contact with an enemy within medium or short range. All enemies, who are not colossi, located in the knight's path automatically suffer the stun 2 effect and 8D6 damage. The targeted enemy can be attacked for free, without action, right after the charge. If the PC succeeds in their attack, their target suffers the stun 4 and barrage 9 effects, and the damage dice of their main weapon are doubled.</p>",
+      "condition": "<p>Only for a knight possessing the boar's crest.</p>",
+      "activation": "Movement action",
+      "duration": ""
+    },
+    "Cible de l'aigle": {
+      "name": "Eagle's Target",
+      "description": "<p>\"The story tells that he could take down all his enemies with a single magazine.\"</p>\n<p><strong>Effect</strong>: Once per conflict phase, the knight equipped with a ranged weapon can activate this ability by spending all the actions of their turn. They are then considered to be waiting a turn and taking the time to aim at their targets. On the next turn, the knight automatically puts three hostiles out of combat. The knight can wait an additional turn to automatically put six hostiles out of combat (instead of three) or two scoundrels. Finally, they can choose to wait three turns (instead of two) to automatically put twelve hostiles out of combat (instead of six) or three scoundrels.</p>",
+      "condition": "<p>Only for a knight possessing the eagle's crest.</p>",
+      "activation": "One, two, or three turns",
+      "duration": ""
+    },
+    "Corps et âme": {
+      "name": "Body and Soul",
+      "description": "<p>\"The legend tells that she was no longer human and was not an armour either. She had raised the symbiosis between the living and the machine to a level never before reached.\"</p>\n<p><strong>Effect</strong>: Now, the PC can recharge their meta-armour normally. Additionally, certain abilities of Morph mode evolve:</p>\n<ul>\n<li>Swarm flight allows the knight to benefit from the effects of the Flight module level 3.</li>\n<li>Stretching allows the knight to stretch their limbs to long range.</li>\n<li>Metal body allows the knight to benefit from 8 additional FF points instead of 4.</li>\n<li>Fluid body allows the knight to benefit from 5 additional defense and reaction points instead of 3.</li>\n<li>The modules created with war polymorphy are now level 3 modules; the effects and bonuses to be chosen when the modules level up are chosen directly when the knight acquires this ability.</li>\n</ul>",
+      "condition": "<p>Only for a knight in Sorcerer meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Deux fois vivant": {
+      "name": "Twice Alive",
+      "description": "<p>\"All the stories about the knight said that she existed in two places at the same time. One soul for two bodies.\"</p>\n<p><strong>Effect</strong>: Now, the Ascension mode of the meta-armour is always activated. The generated double is no longer really a double but a true copy of the character with all their scores, values, and equipment from the arsenal. Only prestige weapons and modules, as well as ultimate abilities, are not duplicated. When this ability is acquired, the knight must consider that they can exist in two places at the same time. They therefore have two characters.</p>",
+      "condition": "<p>Only for a knight in Shaman meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Exaltation du dragon": {
+      "name": "Dragon's Exaltation",
+      "description": "<p>\"She could use the energy of her meta-armour as a true weapon.\"</p>\n<p><strong>Effect</strong>: Once per turn, the PC can release the energy of their meta-armour to inflict terrible damage on all enemies around them. For 1 EP spent, the PC inflicts 2 damage points with the dispersion 6 effect and ignores FF. The PC can spend 1 to 60 EP in this way.</p>",
+      "condition": "<p>Only for a knight possessing the dragon's crest.</p>",
+      "activation": "None",
+      "duration": ""
+    },
+    "Fluidité du serpent": {
+      "name": "Serpent's Fluidity",
+      "description": "<p>\"She was as fluid, elusive, and fast as the wind.\"</p>\n<p><strong>Effect</strong>: Just before suffering an attack from an enemy, the PC can activate this ability. They receive, during the entire turn, a bonus of 6 to their reaction and defense. If the attack that allows them to activate the serpent's fluidity does not hit them, the PC can instantly and freely perform an attack against their assailant if they are within range.</p>",
+      "condition": "<p>Only for a knight possessing the serpent's crest.</p>",
+      "activation": "None",
+      "duration": ""
+    },
+    "Foudre de guerre": {
+      "name": "War Thunder",
+      "description": "<p>\"In his metal armour, he was no longer the paragon of a single force but of several at once.\"</p>\n<p><strong>Effect</strong>: When activating a type, the knight can activate a second one for free, without additional EP cost.</p>",
+      "condition": "<p>Only for a knight in Warrior meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Hurlement du loup": {
+      "name": "Wolf's Howl",
+      "description": "<p>\"His story tells us that a single one of his rallying cries could change the course of a battle.\"</p>\n<p><strong>Effect</strong>: The PC howls and makes their enemies waver. Each enemy within short range automatically suffers the barrage 9 effect for 3 turns. During these 3 turns, each ally receives the attack assistance effect and an additional movement action for free.</p>",
+      "condition": "<p>Only for a knight possessing the wolf's crest.</p>",
+      "activation": "None",
+      "duration": "3 turns"
+    },
+    "Indomptable": {
+      "name": "Indomitable",
+      "description": "<p>\"It is said that nothing among the shadows could hinder the knight's grace.\"</p>\n<p><strong>Effect</strong>: The PC is immune to the effects of domination, anathema, stun X, interference X, barrage X, as well as the rule \"confronting the Lords.\"</p>",
+      "condition": "",
+      "activation": "",
+      "duration": ""
+    },
+    "Lueur dans la nuit": {
+      "name": "Light in the Night",
+      "description": "<p>\"She was the only one capable of pushing the Wizard meta-armour to its maximum, as if her own light powered the armour.\"</p>\n<p><strong>Effect</strong>: Now, the Oriflamme mode has the following rules:</p>\n<ul>\n<li>When the mode is activated, the meta-armour generates a field of light at long range.</li>\n<li>All creatures of the Anathema present within suffer the damage or violence of the mode.</li>\n<li>Enemies in cover do not suffer damage or violence.</li>\n<li>The mode requiring a movement action to activate, a knight can also activate it for a combat action by transforming their combat action into a movement action.</li>\n</ul>",
+      "condition": "<p>Only for a knight in Wizard meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Maître des bêtes": {
+      "name": "Beast Master",
+      "description": "<p>\"The legend tells that he mastered his beasts with a single thought. Their symbiosis was such that the knight was inseparable from his animal companions.\"</p>\n<p><strong>Effect</strong>: Now, the PC in Druid meta-armour can deploy the three types of companions at the same time.</p>",
+      "condition": "<p>Only for a knight in Druid meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Médium": {
+      "name": "Medium",
+      "description": "<p>\"It is said of her that she could plunge her gaze into other worlds, scrutinize the shadows, the past, and the future without even blinking.\"</p>\n<p><strong>Effect</strong>: Now, the knight can maintain the effect of Vision during an entire scene or conflict phase. Changing the effect of Vision during this period costs a number of EP defined by the GM.</p>",
+      "condition": "<p>Only for a knight in Ranger meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Moisson de flux": {
+      "name": "Flux Harvest",
+      "description": "<p>\"The legend tells that she could use the language of the shadows to control their creatures.\"</p>\n<p><strong>Effect</strong>: Now, at the beginning of each scene or conflict phase, the character receives 10 flux points. In addition to other flux gains, the PC receives 5 flux points each turn in the conflict phase.</p>",
+      "condition": "<p>Only for a knight in Psion meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Nuée du corbeau": {
+      "name": "Raven's Swarm",
+      "description": "<p>\"The legend tells that he was capable of manipulating the energy of his meta-armour to protect the weak.\"</p>\n<p><strong>Effect</strong>: Once per turn, the PC can channel the energy of their meta-armour to protect their allies within short range. The knight can, by spending the indicated EP, give each ally, PC or NPC, within short range a bonus of 10 FF points and 30 energy points to add to their current EP value.</p>\n<p>The FF bonus lasts 1D6 turns and cannot be cumulated with another FF bonus offered by an ultimate ability.</p>",
+      "condition": "<p>Only for a knight possessing the raven's crest.</p>",
+      "activation": "None",
+      "duration": ""
+    },
+    "Proie du lion": {
+      "name": "Lion's Prey",
+      "description": "<p>\"When he hunted his prey, no one could hope to stop him.\"</p>\n<p><strong>Effect</strong>: The PC designates a boss during a conflict phase. Until the end of the conflict phase or until their enemy is eliminated, the damage inflicted by the PC against the boss is always equal to its maximum.</p>",
+      "condition": "<p>Only for a knight possessing the lion's crest.</p>",
+      "activation": "None",
+      "duration": "One conflict phase"
+    },
+    "Rage maitrisée": {
+      "name": "Controlled Rage",
+      "description": "<p>\"It is said that she was capable of unleashing the rage of light while maintaining control of her mind.\"</p>\n<p><strong>Effect</strong>: Now, the character no longer suffers the penalties of Berserk mode, only the bonuses.</p>",
+      "condition": "<p>Only for a knight in Berserk meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Règne du cerf": {
+      "name": "Reign of the Stag",
+      "description": "<p>\"She was capable of turning, with a single speech, a pack of loyal and faithful dogs against their master.\"</p>\n<p><strong>Effect</strong>: When in a conflict phase, the PC can, by giving a speech, activate this ability targeting a gang or up to six hostiles. If they are facing a gang composed of humans or human hostiles, these become allies for the remainder of the phase and attack the hero's enemies. After the phase, the PC can attempt to convince them to join the Knight or the camp of their choice by succeeding in a difficult base Speech or Aura test. If they are facing a gang or hostiles other than humans, the targeted gang or hostiles simply flee the scene, unable to resist the reign of the stag.</p>",
+      "condition": "<p>Only for a knight possessing the stag's crest.</p>",
+      "activation": "Movement action",
+      "duration": "One scene or one conflict phase"
+    },
+    "Réseau": {
+      "name": "Network",
+      "description": "<p>\"The legend tells that all were his friends and that all granted him welcome services and aid.\"</p>\n<p>The PC knows many people, everywhere, and knows how to make use of their contacts in all circumstances.</p>\n<p><strong>Effect</strong>: Now, the character has 20 additional contact points for each mission.</p>",
+      "condition": "",
+      "activation": "",
+      "duration": ""
+    },
+    "Ruade du taureau": {
+      "name": "Bull's Kick",
+      "description": "<p>\"She was so powerful that she could make the ground tremble with a single blow.\"</p>\n<p><strong>Effect</strong>: Once per turn, the PC can use a combat action to heavily strike the ground and make the enemies in front of them fall. All hostiles, scoundrels, and enemy bosses (who are not colossi) within short range and within a 90° arc in front of the knight automatically suffer the stun 3 and barrage 9 effects, even if they normally ignore these effects. Instead of these effects, the gangs present in front of the knight suffer 10D6 + 18 violence points.</p>",
+      "condition": "<p>Only for a knight possessing the bull's crest.</p>",
+      "activation": "Combat action",
+      "duration": ""
+    },
+    "Seigneur de guerre": {
+      "name": "Warlord",
+      "description": "<p>\"She could, with a single word or gesture, galvanize those who fought by her side.\"</p>\n<p><strong>Effect</strong>: At the beginning of each turn, the knight can freely, without cost in action or EP, use an impulse they possess and that has not been activated on the previous turn. Additionally, they can freely extend an already active impulse (and that can be extended) without EP cost and without using an action. They then act normally by performing their turn's actions.</p>",
+      "condition": "<p>Only for a knight in Warmaster meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Seigneur du temps": {
+      "name": "Lord of Time",
+      "description": "<p>\"It is often said that manipulating time was as easy for her as breathing.\"</p>\n<p><strong>Effect</strong>: Now, the character no longer suffers the temporal paradox and temporal failure rules of their Warlock meta-armour.</p>",
+      "condition": "<p>Only for a knight in Warlock meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Spectre": {
+      "name": "Specter",
+      "description": "<p>\"It is said that he was a shadow, always silent, almost invisible.\"</p>\n<p><strong>Effect</strong>: The Ghost mode of the Rogue meta-armour no longer deactivates during attacks with weapons that can benefit from Ghost mode. It is not necessary to spend EP to remain invisible.</p>",
+      "condition": "<p>Only for a knight in Rogue meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Surpuissance": {
+      "name": "Overpower",
+      "description": "<p>\"His story was that of a knight capable of moving mountains and defeating titans.\"</p>\n<p><strong>Effect</strong>: Now, if the PC wishes, the use of Goliath mode no longer causes an increase in size and no longer causes penalties. The PC retains all the usual bonuses. Additionally, they can virtually increase their size up to a total of 12 meters and benefit from the corresponding bonuses.</p>",
+      "condition": "<p>Only for a knight in Barbarian meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Thaumaturge": {
+      "name": "Thaumaturge",
+      "description": "<p>\"The legend tells that, with a single gesture, he was capable of forging metal and repairing everything that was broken.\"</p>\n<p><strong>Effect</strong>: When activating Mechanic mode, the knight can repair up to 3 allied meta-armours (including their own) at the same time, without spending additional EP. Repairs now regain 2D6 AP more.</p>",
+      "condition": "<p>Only for a knight in Priest meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Tombeau vivant": {
+      "name": "Living Tomb",
+      "description": "<p>\"Although he died several times, his legend tells us that he continued to fight despite injuries, madness, and traumas.\"</p>\n<p><strong>Effect</strong>: Now, the PC in Necromancer meta-armour can once again use all the abilities of their old meta-armour, with their maximum accumulated PG evolutions.</p>",
+      "condition": "<p>Only for a knight in Necromancer meta-armour.</p>",
+      "activation": "",
+      "duration": ""
+    },
+    "Vitalité de l'ours": {
+      "name": "Bear's Vitality",
+      "description": "<p>\"His story tells us that he was capable of facing the worst injuries and death itself.\"</p>\n<p><strong>Effect</strong>: Only once per mission, the PC can activate this ability. If during the scene or conflict phase during which the ability was activated the knight must be put to agony, then the following effects automatically apply: the knight ignores the agony, increases their current HP, EP, and AP values to their maximum.</p>",
+      "condition": "<p>Only for a knight possessing the bear's crest.</p>",
+      "activation": "None",
+      "duration": ""
+    }
+  }
+}

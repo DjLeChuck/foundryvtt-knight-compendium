@@ -1,0 +1,40 @@
+{
+  "label": "Modules - 2. Advanced",
+  "mapping": {
+    "description": "system.description",
+    "n1EnergieTourLabel": "system.niveau.details.n1.energie.tour.label",
+    "n1EnergieMinuteLabel": "system.niveau.details.n1.energie.minute.label",
+    "n1Duration": "system.niveau.details.n1.duree",
+    "n2EnergieTourLabel": "system.niveau.details.n2.energie.tour.label",
+    "n2EnergieMinuteLabel": "system.niveau.details.n2.energie.minute.label",
+    "n2Duration": "system.niveau.details.n2.duree",
+    "n3EnergieTourLabel": "system.niveau.details.n3.energie.tour.label",
+    "n3EnergieMinuteLabel": "system.niveau.details.n3.energie.minute.label",
+    "n3Duration": "system.niveau.details.n3.duree",
+    "n1WpnEffetsCustom": "system.niveau.details.n1.arme.effets.custom",
+    "n2WpnEffetsCustom": "system.niveau.details.n2.arme.effets.custom",
+    "n3WpnEffetsCustom": "system.niveau.details.n3.arme.effets.custom",
+    "n1WpnMunitions1": "system.niveau.details.n1.arme.optionsmunitions.liste.0.nom",
+    "n1WpnMunitions2": "system.niveau.details.n1.arme.optionsmunitions.liste.1.nom",
+    "n1WpnMunitions3": "system.niveau.details.n1.arme.optionsmunitions.liste.2.nom",
+    "n2WpnMunitions1": "system.niveau.details.n2.arme.optionsmunitions.liste.0.nom",
+    "n2WpnMunitions2": "system.niveau.details.n2.arme.optionsmunitions.liste.2.nom",
+    "n3WpnMunitions1": "system.niveau.details.n3.arme.optionsmunitions.liste.0.nom",
+    "n3WpnMunitions2": "system.niveau.details.n3.arme.optionsmunitions.liste.1.nom",
+    "n3WpnMunitions3": "system.niveau.details.n3.arme.optionsmunitions.liste.2.nom"
+  },
+  "entries": {
+    "Étoiles de jet": {
+      "name": "Throwing Stars",
+      "description": "<p>Mounted on the forearm of the meta-armor, this small device allows the projection of throwing stars capable of injecting molten thermite into their target.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "",
+      "n2EnergieMinuteLabel": "",
+      "n2Duration": "",
+      "n1WpnEffetsCustom": [],
+      "n2WpnEffetsCustom": []
+    }
+  }
+}

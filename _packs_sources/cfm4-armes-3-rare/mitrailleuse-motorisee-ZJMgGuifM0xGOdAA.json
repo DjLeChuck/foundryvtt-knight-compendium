@@ -1,0 +1,169 @@
+{
+  "name": "Mitrailleuse motorisée",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Cette arme est pens&eacute;e comme une am&eacute;lioration de la mitrailleuse lourde. Elle est plus l&eacute;g&egrave;re, moins encombrante et &eacute;tonnamment stable. La petite originalit&eacute; vient de son second mode de tir. Sur simple action, un moteur fait tourner les tubes &agrave; tr&egrave;s haute vitesse pour cracher toujours plus de munitions d&eacute;coupant plusieurs cibles &agrave; la fois. Par contre, &ccedil;a demande un pied suppl&eacute;mentaire pour garder un semblant de contr&ocirc;le sur son tir.</p>",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 60,
+    "energie": 1,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": true,
+      "actuel": "0",
+      "value": 2,
+      "liste": {
+        "0": {
+          "nom": "Normal",
+          "degats": {
+            "dice": 6,
+            "fixe": 10
+          },
+          "violence": {
+            "dice": 4,
+            "fixe": 0
+          },
+          "raw": [
+            "assistanceattaque"
+          ],
+          "custom": [],
+          "liste": []
+        },
+        "1": {
+          "nom": "Motorisé",
+          "degats": {
+            "dice": 6,
+            "fixe": 10
+          },
+          "violence": {
+            "dice": 4,
+            "fixe": 0
+          },
+          "raw": [
+            "cadence 2",
+            "fureur",
+            "tirenrafale",
+            "lourd"
+          ],
+          "custom": [],
+          "liste": []
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "percearmure 40",
+        "destructeur",
+        "deuxmains"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "ZJMgGuifM0xGOdAA",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!ZJMgGuifM0xGOdAA"
+}

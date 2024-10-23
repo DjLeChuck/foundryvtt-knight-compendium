@@ -1,0 +1,183 @@
+{
+  "label": "Weapons - 4. Prestige",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom",
+    "customEffect": "system.effets.custom"
+  },
+  "entries": {
+    "Bouclier dynamique polymorphe": {
+      "name": "Polymorphic Dynamic Shield",
+      "description": "<p style=\"text-align: justify;\">Inspired by chakrams and other disc launchers, Merlin, with the help of new arrivals at the Round Table, developed the concept of the polymorphic dynamic shield aka the PDS, a round shield rising above the elbow and resting on a gauntlet equipped with a trajectory calculator managed by the armor's AI. Made of an adaptive mesh of nanomachines, its shape can be modulated, allowing it to alter its form to better absorb shocks, deflect shots, or, once launched, adopt a more aerodynamic shape. It is the only weapon that allows for effectively defending a target at a distance.</p>",
+      "customEffect": [
+        {
+          "label": "Special",
+          "description": "<p>For a combat action, the user can intercept an attack and give defense 6/reaction 6 to a target for one turn.</p>",
+         "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    },
+    "Khakkara": {
+    "name": "Khakkara",
+    "description": "<p style=\"text-align: justify;\">The sacred tree of the Hunters of the MOQ ark has long intrigued the scientists of the Knight, particularly due to its properties. It was only after lengthy negotiations that the Hunters finally offered a branch to the organization to seal their alliance.</p>\n<p style=\"text-align: justify;\">With the approval of the Round Table and using a fragment of the wood, this prototype takes advantage of the regenerative abilities of the tree. Inspired by traditional Buddhist staffs, the Khakkara is topped with 4 globes that house and protect the system for dispersing white tree dust. Large rings have been attached to these globes, through which smaller rings are passed. Designed to clash together creating primal harmonies, they instill fear in the creatures of the Anathema.</p>\n<p style=\"text-align: justify;\">The head of the staff, composed of a finial and intertwined ornaments, allows the bearer to parry or even block enemy weapons. At its opposite end is a counterweight that serves to increase inertial movement and maximize damage when striking.</p>",
+    "customEffect": [
+      {
+        "label": "Special",
+        "description": "<p>For 5 EP and at contact range, for a movement action, the white tree dust restores 3D6+6 HP to the target. Targets hit by the dust gain the hardened 1 effect for the duration of the scene or the conflict phase. Note that the dust does not pass through armor, and if a knight is targeted, they must at least remove their helmet to benefit from these effects.</p>",
+        "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    }
+  }
+}

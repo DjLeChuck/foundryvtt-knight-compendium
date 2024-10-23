@@ -27,14 +27,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 2
                 },
@@ -45,14 +40,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 4
                 },
@@ -63,7 +53,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -85,7 +75,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -98,7 +88,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -111,7 +101,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -133,7 +123,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -146,7 +136,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -159,7 +149,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -181,7 +171,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -194,7 +184,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -216,7 +206,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -229,7 +219,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           }
@@ -245,7 +235,10 @@
         "violencebonus": {
           "dice": 0,
           "fixe": 0
-        }
+        },
+        "sacrifice": 0,
+        "tourspasses": 1,
+        "type": "degats"
       }
     },
     "aspects": {
@@ -254,11 +247,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -268,11 +261,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -282,11 +275,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -296,11 +289,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -310,11 +303,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -327,7 +320,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 1
+        "user": 0
       },
       "malus": {
         "user": 0
@@ -338,7 +331,10 @@
         "bonus": {},
         "malus": {}
       },
-      "optionDeploy": false
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
+      "diceMod": 0
     },
     "reaction": {
       "bonus": {
@@ -351,11 +347,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 1,
-      "optionDeploy": false
+      "mod": 0
     },
     "defense": {
       "bonus": {
@@ -368,11 +362,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 1,
-      "optionDeploy": false
+      "mod": 0
     },
     "sante": {
       "bonus": {
@@ -383,11 +375,10 @@
         "user": 0,
         "capacites": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "max": 0,
-      "base": 0
+      "base": 0,
+      "mod": 0
     },
     "description": "<p>La Prolif&eacute;ration est une incarnation qui n&rsquo;est apparue que tr&egrave;s peu de temps sur Terre. Tentative de la Chair pour &eacute;tendre tr&egrave;s rapidement son territoire jusqu&rsquo;&agrave; l&rsquo;Inde, elle a toutefois &eacute;t&eacute; abattue avant que le Seigneur arrive &agrave; ses fins. La Prolif&eacute;ration est n&eacute;e au centre du territoire de la Chair. D&rsquo;abord de petite taille, elle a tr&egrave;s rapidement grandi, si bien que lorsqu&rsquo;elle est sortie des t&eacute;n&egrave;bres, elle faisait d&eacute;j&agrave; la taille d&rsquo;un immeuble de dix &eacute;tages et ne cessait de s&rsquo;&eacute;lever de plus en plus haut. Prenant la forme d&rsquo;un b&eacute;b&eacute; g&eacute;ant et malform&eacute;, la Prolif&eacute;ration avan&ccedil;ait rapidement vers l&rsquo;ouest, dispersant autour d&rsquo;elle des milliers de bubons qui, en &eacute;clatant au sol, r&eacute;pandaient une v&eacute;g&eacute;tation de chair toujours plus pr&eacute;sente et agressive. En parall&egrave;le, elle projetait tout autour d&rsquo;elle un air satur&eacute; de toutes les maladies existantes, d&eacute;truisant ainsi les rares populations de rebuts la s&eacute;parant de l&rsquo;Inde, mais surtout les troupes du Nodachi qui tentaient de l&rsquo;arr&ecirc;ter.<br>Cette incarnation a &eacute;t&eacute; vaincue non pas par le Nodachi ou le Knight, mais par la Black Cell, un organisme secret luttant violemment contre les t&eacute;n&egrave;bres. Pour la combattre, des kamikazes se seraient introduits en elle et auraient fait exploser une bombe nucl&eacute;aire dans son torse. Cela s&rsquo;est pass&eacute; au nord de la Birmanie, alors que la Prolif&eacute;ration cherchait &agrave; passer la cha&icirc;ne de l&rsquo;Himalaya pour rejoindre l&rsquo;arche de Calcutta en Inde. L&rsquo;incarnation avait alors atteint une taille qui d&eacute;passait le kilom&egrave;tre.&nbsp;<br>Bien s&ucirc;r, les pertes humaines ont &eacute;t&eacute; &eacute;normes et, encore aujourd&rsquo;hui, de nombreuses populations de rebuts sont touch&eacute;es par les retomb&eacute;es radioactives de la bombe. Les grands dirigeants du monde, malgr&eacute; leurs enqu&ecirc;tes, ne savent toujours pas qui a &eacute;t&eacute; &agrave; l&rsquo;origine de cette victoire et de ce d&eacute;sastre.<br>La Chair, quant &agrave; elle, a r&eacute;ussi &agrave; r&eacute;cup&eacute;rer des bribes de son incarnation qu&rsquo;elle a rapatri&eacute;es &agrave; grand renfort de cr&eacute;atures sur son territoire. Bien s&ucirc;r, cette tentative a &eacute;t&eacute; d&eacute;couverte par l&rsquo;Arbitre et rapidement jug&eacute;e comme contraire aux r&egrave;gles du jeu des Seigneurs. Peu apr&egrave;s, les t&eacute;n&egrave;bres du troisi&egrave;me ont substantiellement recul&eacute;, au grand bonheur des Hommes.&nbsp;<br>Cependant, la Chair ne se consid&egrave;re pas encore comme vaincue et cherche actuellement &agrave; redonner vie &agrave; son avatar pour le lancer &agrave; nouveau dans la conqu&ecirc;te des territoires humains. La prochaine fois, la Prolif&eacute;ration ne sera plus un nouveau-n&eacute; maladroit, mais un adulte rapide et malin (voir La Chanson des t&eacute;n&egrave;bres &ndash; p. 5).</p>",
     "tactique": "<p>La Prolif&eacute;ration ne dispose d&rsquo;aucune tactique et se contente d&rsquo;avancer pour semer la Chair au sein des territoires&nbsp;<br>d&rsquo;Asie. Elle ne consid&egrave;re pas les choses et &ecirc;tres inf&eacute;rieurs &agrave; 4 m&egrave;tres de hauteur tant qu&rsquo;ils ne l&rsquo;agressent pas et marche en ligne droite vers sa cible, d&eacute;truisant tout sur son passage. La Prolif&eacute;ration est capable de d&eacute;foncer des b&acirc;timents, d&rsquo;&eacute;craser des chars et de transformer les humains en infestes par sa simple pr&eacute;sence.</p>",
@@ -402,36 +393,36 @@
         "chair": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "bete": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "machine": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "dame": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "masque": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         }
       }
@@ -447,18 +438,19 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "bouclier": {
       "value": 0,
-      "max": 0,
       "base": 0,
       "bonus": {
         "user": 0
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "resilience": {
       "value": 0,
@@ -475,7 +467,8 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "options": {
       "energie": false,
@@ -483,7 +476,21 @@
       "bouclier": false,
       "armure": false,
       "resilience": false,
-      "phase2": true
+      "phase2": true,
+      "notFirstMenu": false,
+      "noSecondMenu": false,
+      "embuscadeSubis": false,
+      "embuscadePris": false
+    },
+    "version": 1,
+    "descriptionLimitee": "",
+    "colosse": false,
+    "patron": true,
+    "bonusSiEmbuscade": {
+      "bonusInitiative": {
+        "dice": 0,
+        "fixe": 0
+      }
     }
   },
   "prototypeToken": {

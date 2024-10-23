@@ -1,0 +1,33 @@
+{
+  "label": "Fate Cards - Random table",
+  "entries": {
+    "Cartes du Destin": {
+      "name": "Fate Cards",
+      "description": "",
+      "results": {
+        "1-1": "The Fool",
+        "2-2": "I - The Magician",
+        "3-3": "II - The High Priestess",
+        "4-4": "III - The Empress",
+        "5-5": "IV - The Emperor",
+        "6-6": "V - The Hierophant",
+        "7-7": "VI - The Lovers",
+        "8-8": "VII - The Chariot",
+        "9-9": "VIII - Justice",
+        "10-10": "IX - The Hermit",
+        "11-11": "X - Wheel of Fortune",
+        "12-12": "XI - Strength",
+        "13-13": "XII - The Hanged Man",
+        "14-14": "XIII - Death",
+        "15-15": "XIV - Temperance",
+        "16-16": "XV - The Devil",
+        "17-17": "XVI - The Tower",
+        "18-18": "XVII - The Star",
+        "19-19": "XVIII - The Moon",
+        "20-20": "XIX - The Sun",
+        "21-21": "XX - Judgment",
+        "22-22": "XXI - The World"
+      }
+    }
+  }
+}

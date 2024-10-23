@@ -33,7 +33,8 @@
           "divise": 0,
           "value": 0
         }
-      }
+      },
+      "noDmgSante":true
     }
   },
   "effects": [],

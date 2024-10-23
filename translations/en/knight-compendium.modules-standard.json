@@ -1,0 +1,264 @@
+{
+  "label": "Modules - 1. Standard",
+  "mapping": {
+    "description": "system.description",
+    "n1EnergieTourLabel": "system.niveau.details.n1.energie.tour.label",
+    "n1EnergieMinuteLabel": "system.niveau.details.n1.energie.minute.label",
+    "n1Duration": "system.niveau.details.n1.duree",
+    "n2EnergieTourLabel": "system.niveau.details.n2.energie.tour.label",
+    "n2EnergieMinuteLabel": "system.niveau.details.n2.energie.minute.label",
+    "n2Duration": "system.niveau.details.n2.duree",
+    "n3EnergieTourLabel": "system.niveau.details.n3.energie.tour.label",
+    "n3EnergieMinuteLabel": "system.niveau.details.n3.energie.minute.label",
+    "n3Duration": "system.niveau.details.n3.duree",
+    "n1WpnEffetCustom1Label": "system.niveau.details.n1.arme.effets.custom.0.label",
+    "n1WpnEffetCustom1Description": "system.niveau.details.n1.arme.effets.custom.0.description",
+    "n1WpnEffetCustom1AtkCondition": "system.niveau.details.n1.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n1WpnEffetCustom1DgtCondition": "system.niveau.details.n1.arme.effets.custom.0.degats.conditionnel.condition",
+    "n1WpnEffetCustom1ViolenceCondition": "system.niveau.details.n1.arme.effets.custom.0.violence.conditionnel.condition",
+    "n2WpnEffetCustom1Label": "system.niveau.details.n2.arme.effets.custom.0.label",
+    "n2WpnEffetCustom1Description": "system.niveau.details.n2.arme.effets.custom.0.description",
+    "n2WpnEffetCustom1AtkCondition": "system.niveau.details.n2.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n2WpnEffetCustom1DgtCondition": "system.niveau.details.n2.arme.effets.custom.0.degats.conditionnel.condition",
+    "n2WpnEffetCustom1ViolenceCondition": "system.niveau.details.n2.arme.effets.custom.0.violence.conditionnel.condition",
+    "n3WpnEffetCustom1Label": "system.niveau.details.n3.arme.effets.custom.0.label",
+    "n3WpnEffetCustom1Description": "system.niveau.details.n3.arme.effets.custom.0.description",
+    "n3WpnEffetCustom1AtkCondition": "system.niveau.details.n3.arme.effets.custom.0.attaque.conditionnel.condition",
+    "n3WpnEffetCustom1DgtCondition": "system.niveau.details.n3.arme.effets.custom.0.degats.conditionnel.condition",
+    "n3WpnEffetCustom1ViolenceCondition": "system.niveau.details.n3.arme.effets.custom.0.violence.conditionnel.condition"
+  },
+  "entries": {
+    "Accompagnement tactique": {
+      "name": "Tactical support",
+      "description": "<p>This module consists of an onboard database containing numerous mission reports from the Knight and information on the strengths and weaknesses of its teammates, coupled with a network link to Camelot for updates. It acts as a small expert system, making its owner capable of communicating with the members of their coterie and providing them with advice, via their AR module and AI, on the tactics to adopt.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Analyse des adversaires": {
+      "name": "Analysis of opponents",
+      "description": "<p>This module consists of an onboard database containing most of the known information about the creatures of the Anathema, coupled with a network link to Camelot for updates. It acts as a small expert system and makes its owner capable of detecting the weaknesses and strengths of enemies. However, it requires getting close enough to the creature to be analyzed and spending an entire turn observing it.</p>\n<p>Possible analyses (1 per activation):</p>\n<ul>\n<li>Discover all aspects of an NPC</li>\n<li>Discover the reaction and defense scores of an NPC</li>\n<li>Discover all exceptional aspects of an NPC</li>\n<li>Discover the weak point(s) of an NPC</li>\n<li>Discover the weapons (and their statistics) of an NPC</li>\n<li>Discover the shielding, armor, and health scores of an NPC</li>\n<li>Discover all abilities of an NPC</li>\n<li>Discover all aspects and derived values of a gang</li>\n</ul>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Attaque non létale": {
+      "name": "Non-lethal attack",
+      "description": "<p>A non-lethal attack module attached to the metaarmour’s forearm allows the character to knock out their enemies without killing them. If this module’s attack reduces an enemy’s health to 0, they are rendered unconscious for 1D6 hours. Once this time has passed they wake up with 1 HP.</p>\n<h2>Level 2</h2>\n<p>The module’s stun 1 effect is upgraded to a stun 2 effect.</p>\n<h2>Level 3</h2>\n<p>The weapon no longer has a clip limit.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Attaque sur casque": {
+      "name": "Head-mounted attack module",
+      "description": "<p>The character inflicts +1D6 damage in melee combat. This module can be used 6 times, when the user chooses, before needing to be reloaded in Camelot.</p>\n<h2>Level 2</h2>\n<p>Damage bonus is now permanent, the module no longer needs to be reloaded.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": ""
+    },
+    "Caméraman": {
+      "name": "Cameraman module",
+      "description": "<p>The armour’s helmet is equipped with a HD camera and a HF microphone. These may be activated at will, at no cost.</p>\n",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Canon Balder": {
+      "name": "Balder cannon",
+      "description": "<p>This small beam cannon fires a high-density laser capable of cutting through flesh, stone, and metal.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Course": {
+      "name": "Sprint",
+      "description": "<h2>Level 1</h2>\n<p>Allows the character to move up to medium range in one move action (as much as a vehicle speed rating of 2). This increased run speed can be prolonged without stopping by paying the energy cost again each move action, and can be done as often as the user wants and can pay. If the user performs a melee combat action while running at increased speed against an adversary slower than them, they deal 6 additional damage to their target. The force of the impact deals half the attack’s damage (rounded down) back to the attacker.</p>\n<h2>Level 2</h2>\n<p>Allows the character to move up to long range in one move action (as much as a vehicle speed rating of 3). This increased run speed can be prolonged without stopping by paying the energy cost again each move action, and can be done as often as the user wants and can pay. If the user performs a melee combat action while running at increased speed against an adversary slower than them, they deal 9 additional damage to their target. The force of the impact deals half the attack’s damage (rounded down) back to the attacker.</p>\n<h2>Level 3</h2>\n<p>Allows the character to move up to far range in one move action (as much as a vehicle speed rating of 4). This increased run speed can be prolonged without stopping by paying the energy cost again each move action, and can be done as often as the user wants and can pay. If the user performs a melee combat action while running at increased speed against an adversary slower than them, they deal 12 additional damage to their target. The force of the impact deals half the attack’s damage (rounded down) back to the attacker.</p>\n<p>Reminder: Note that a Knight with this module and a Movement overdrive may use their move action to move up to medium range, and then immediately perform an additional short-range movement due to the overdrive.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Instantaneous",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Instantaneous",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Désignation": {
+      "name": "Holo-targeting",
+      "description": "<p>This module allows its user to holo-target a target at long range or nearer (see the holo-targeting effect).</p>\n<h2>Level 2</h2>\n<p>The module can now holo-target a band and an additional 2 brutes, badasses, bosses, or behemoths each time it is activated.</p>\n<h2>Level 3</h2>\n<p>The module can now holo-target a band and an additional 3 brutes, badasses, bosses, or behemoths each time it is activated.</p>",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "One scene",
+      "n2EnergieMinuteLabel": "one conflict phase",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "One scene",
+      "n3EnergieMinuteLabel": "one conflict phase",
+      "n3Duration": ""
+    },
+    "Flash": {
+      "name": "Flash",
+      "description": "<p>This module emits a strong blinding flash designed to disorient targets in contact range. If the enemy’s Flesh aspect is lower than 8, they automatically suffer a stun 1 effect (no attack roll required).</p>\n",
+      "n1EnergieTourLabel": "1 turn",
+      "n1EnergieMinuteLabel": "10 seconds",
+      "n1Duration": ""
+    },
+    "Fumigène": {
+      "name": "Smokescreen",
+      "description": "<p>The user and all PCs and NPCs at short range gain 2 defence and 2 reaction points, but also a–3D penalty to ranged attacks. Exceptional Beast, Machine, and Mask aspects (or an appropriate alternate vision module) allow PCs and NPCs to ignore these penalties.</p>\n",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": ""
+    },
+    "Grappin": {
+      "name": "Grappling hook module",
+      "description": "<p>A grappling hook attached to the armour’s forearm allows its user to climb tricky surfaces, to draw small enemies close, and to save themselves from fall damage.\n1 automatic success on climb checks for heights of 150 feet or less / Grappling hook prevents critical failures on climb checks / Can drag an enemy with a Flesh aspect lower than 8 closer by one range increment. A target at medium range would therefore be dragged to short range. If the enemy has a Flesh aspect of 14 or higher, the user pulls themselves one range increment closer with the grappling hook.</p>\n",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Griffes de combat": {
+      "name": "Fighting claws",
+      "description": "<p>A close combat claw module attached to the metaarmour’s glove allows the character to perform well in melee without a weapon. Unsheathing the claws is a free action, but attacking with them requires a combat action as usual.</p>\n<h2>Level 2</h2>\n<p>The weapon gains an additional effect–wounding or stun 1, chosen when upgrading the module. It also gains + 1D6 damage.</p>\n<h2>Level 3</h2>\n<p>The weapon gains an additional effect–weighted or penetration 5, chosen when upgrading the module. It also gains + 1D6 damage.</p>",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Until deactivated",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Until deactivated",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Interface sensitive RIGG": {
+      "name": "RIGG sensory interface",
+      "description": "<p>Allows the user to control drones, vehicles, and systems by interfacing mentally with them. They no longer need to use their hands to drive or use a computer, but must be at medium range at the most. PCs cannot take control of vehicles or computers already in use, but can power them up, use, and shut them down from a distance. If the computer or vehicle is password or key protected, the PC must make a Tech based skill check against a difficulty determined by the GM.</p>\n",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Lame de bras": {
+      "name": "Arm blade",
+      "description": "<p>A close combat blade module attached to the metaarmour’s forearm allows the character to perform well in melee without a weapon. Unsheathing the blade is a free action, but attacking with it requires a combat action as usual.</p>\n<h2>Level 2</h2>\n<p>The weapon gains an additional effect–finecrafted or destructive, chosen when upgrading the module. It also gains + 1D6 damage.</p>\n<h2>Level 3</h2>\n<p>The weapon gains an additional effect–armourpiercing 40 or radiance 4, chosen when upgrading the module. It also gains + 1D6 damage.</p>",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "Until deactivated",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "Until deactivated",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Modules de base": {
+      "name": "Basic modules",
+      "description": "<p>In technical terms, all meta-armours are equipped with the same systems dedicated to the survival of their wearer and their effectiveness on the field. Here is an exhaustive list of the equipment provided on each meta-armour:</p>\n<p>&nbsp;</p>\n<h2>Fold module</h2>\n<p>Each meta-armour is fitted with a fold module, allowing it to withdraw (’fold’) or to deploy (’unfold’) around a Guardian suit: a light alpha element jumpsuit made from highly durable material and worn under the clothes of all Avalon’s Knights.</p>\n<p>The armour takes 3 to 6 seconds (1 game turn during a conflict phase) to unfold around its wearer. Deployment is triggered by a simple mental command. An armour’s method of deployment can take several forms, from nanomachines building on a 3D schematic to teleportation or construction drones flying around the character’s frame (players may choose whatever method they like most). Any clothes the Knight may have been wearing over their Guardian suit are destroyed when the armour unfolds. Only jewellery, the Guardian suit, weapon rack and pack modules (designed to be compatible with armour deployment) remain intact.</p>\n<p><strong>Beware:</strong> A Knight wearing nothing but their Guardian suit has 5 armour points and a 5-point FF. Modules, armour abilities, and OD abilities can only be activated if the armour is unfolded. Even if a Guardian suit’s APs are reduced to 0, its FF still applies against incoming damage.</p>\n<p>&nbsp;</p>\n<h2>Rack module</h2>\n<p>Rack modules shrink weapons down to very compact size for easy transportation. Weapon grips attached to hand-sized metallic rectangles hang from the armour’s belt. By taking one of these grips in hand the rest of the weapon unfolds from the rectangle, ready for use. The whole process takes fewer than 5 seconds. To sheathe the weapon, shrinking it once more, the grip simply needs to be placed near the belt again.</p>\n<p><strong>Warning:</strong> Characters can carry up to five weapons (of any size and type) on their rack module. Getting a weapon out or putting one away costs a move action in conflict phases.</p>\n<p>&nbsp;</p>\n<h2>Pack module</h2>\n<p>Knights carry their pack module on their back. This small reinforced backpack has discrete compartments, each hermetically sealed and bathed in UV light. It can carry up to 90 lb of material, including weapons, accessories, rock and tissue samples, and the like. Meta-armour deploys around the pack without damaging it.</p>\n<p>&nbsp;</p>\n<h2>Beacon</h2>\n<p>Every meta-armour comes equipped with a powerful distress beacon. These beacons transmit the Knight’s position to Avalon 24/7. It cannot be deactivated.</p>\n<p>&nbsp;</p>\n<h2>Alpha element chronometer</h2>\n<p>This seemingly innocuous piece of equipment may seem trivial, but forays into the Anathema have shown distorting effects on the passage of time, or at least how it is perceived by those inside it. As such, an alpha element stopwatch proves useful in keeping track of time.</p>\n<p>&nbsp;</p>\n<h2>Squire-model AI</h2>\n<p>Squire is an AI model linked to Camelot’s network, helping a meta-armour’s wearer have full and optimal control over all its systems. AIs can suggest tactical choices, offer strategic alternatives in combat situations, give updates on the state of the meta-armour or warn of environmental hazards, and handles many vital subsystems. Its voice can be personalised from a selection of over 100 different vocal models. Knights tend to give their meta-armour’s AI names that mean something to them personally.</p>\n<p>&nbsp;</p>\n<h2>Hermetic seal, oxygen regulator and multi-layer filters</h2>\n<p>By simple activation ordered by its wearer or decided by its AI, a meta-armour can seal itself hermetically (with an internal supply of 6 hours of oxygen) or activate multi-layer filters. These filters have been designed to block out 99.9% of all airborne toxins, bacteriological, and chemical compounds.</p>\n<p>&nbsp;</p>\n<h2>Temperature regulators</h2>\n<p>Thanks to their meta-armour, Knights are completely safe from extreme temperature fluctuations (while still being able to monitor changes on their HUD). They feel neither heat nor cold so long as their suit’s integrity remains intact.</p>\n<p>&nbsp;</p>\n<h2>Ceramic weave, cooling circuits, and heat dispersers</h2>\n<p>Between a meta-armour’s plating and its wearer is a layer of heat dispersing ceramic weave, made to protect them from fire and ice alike. Knights can travel through icy landscapes at minus 80 °F or raging infernos of up to 2200 °F without feeling any ill effects. Regular flames (not those of a flamethrower or similar weapons) have no effect on a suit of meta-armour.</p>\n<p>&nbsp;</p>\n<h2>Modules shared by all armour models</h2>\n<p>&nbsp;</p>\n<h2>Night vision module</h2>\n<p>Lowlight vision module allowing vision in almost pitch darkness. This piece of seemingly standard equipment is, unsurprisingly, indispensable in the fight against the Anathema.</p>\n<p>&nbsp;</p>\n<h2>Zoom X40</h2>\n<p>Meta-armour AR displays come with a high definition x40 zoom capability, activated by neural command. This zoom allows Knights to focus on objects up to 1500 ft away with little loss of detail.</p>\n<p>&nbsp;</p>\n<h2>UV lamps</h2>\n<p>Powerful UV lamps are fixed to the armour’s torso and shoulders, ready to light up at a thought, or whenever the Knight comes into contact with a creature of the Anathema or a hopeless. Knights using their UV lamps inflict radiance 1 to one (and only one) creature of the Anathema in melee range.</p>\n<p>&nbsp;</p>\n<h2>Painkiller injectors</h2>\n<p>Whenever a Knight takes heavy damage, their armour administers measured doses of painkillers, designed to take effect immediately.</p>\n<p>&nbsp;</p>\n<h2>Ablative plating</h2>\n<p>Three microscopic layers of ablative plating cover every inch of each meta-armour. These alpha element layers take the brunt of any blows and projectiles fired at the armour, spreading their impact as evenly as possible over the armour’s mass. This dispersal allows meta-armour to withstand light to moderate blows without flinching, and negates the stopping power of all but the heaviest firearms.</p>\n<p>&nbsp;</p>\n<h2>Kinetic force field (FF)</h2>\n<p>An invisible kinetic barrier, commonly known as a force field (abbreviated to FF), surrounds the Knight’s armour, as a first line of shielding against attacks aimed their way. Without a force field weakening most incoming blows, even Avalon’s impressive armour would not last long given the opposing forces the organisation faces.</p>\n<p>&nbsp;</p>\n<h2>Communications array</h2>\n<p>A high tech comms array allows the wearer to remain in contact with Camelot and the rest of their team. Provided the armour’s helm is deployed, members of a banner can communicate in complete secrecy. Discreet messages and lines of communication can be established with specific individuals with a thought or a gesture. Some equipment can scramble or otherwise interfere with these communications devices.</p>\n<p>&nbsp;</p>\n<h2>Distress signal</h2>\n<p>Can be activated to send a distress signal to Camelot, and nearby Avalon outposts or vectors in case of an emergency. Should the armour break down or the distress signal be blocked, each Knight has a pack of 6 simple flares. These are rudimentary but effective means of signalling location anywhere outside of deep gloomstains. (Their dim but visible red light is far weaker than the arsenal’s much more powerful flare pods.)</p>\n<p>&nbsp;</p>\n<h2>Underwater survival system</h2>\n<p>Underwater survival systems automatically activate when the armour is immersed in water or any other liquid. Small underwater propulsion reactors in the legs, back, arms, and torso allow submerged manoeuvrability similar to swimming, allowing even heavy armour to leave bodies of water with ease. In the event of system failure, two flotation balloons deploy to bring the meta-armour to the surface. Once sealed, meta-armour can withstand pressure up to a depth of 6500 ft.</p>\n<p>&nbsp;</p>\n<h2>Organic waste recycling systems</h2>\n<p>Waste recycling systems allow Knights to remain in their armour for several days at a time. If necessary, the accumulated organic waste can be repurposed as emergency rations. Any non-recycled residue is incinerated and evacuated automatically through the armour’s vents.</p>\n<p>&nbsp;</p>\n<h2>Augmented reality HUD</h2>\n<p>Standard issue helmet visors serve only as backups in the event of system failure. In regular conditions, sight of a Knight’s surroundings is provided by an AR heads-up display. All outside details are perfectly reproduced on the helmet’s interior HUD, synchronised to the wearer’s eyes. Precision microphones transmit sound in real time to interior speakers, and other information of note is also displayed, ranging from oxygen levels and heat to local topography and chemical composition of the surrounding atmosphere.</p>\n<p>&nbsp;</p>\n<h2>Geo-tracking maps</h2>\n<p>Ever since the Anathema appeared, GPS systems and other geolocalisation methods have had a tendency to stop working at the worst possible times. To try to reduce the impact this has on missions, detailed maps of the country Knights are sent to are uploaded to the armour’s memory banks. Upon landing in the theatre of operations, vectors or dropships transmit the exact location of all deployed meta-armours. This localisation is kept up to date by sensors in the armours tracking their movement (speed, rotation, etc.), letting their wearers know where on their maps they are at all times.</p>",
+      "n1EnergieTourLabel": "Turn",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Moto steed": {
+      "name": "Steed bike",
+      "description": "<p>By powering the module and throwing it to the ground, the Knight unfolds an Avalon steed model combat motorbike (see Vehicles, on page 447). The motorbike’s price is included in the module’s GP cost. It takes fewer than 6 seconds to completely materialise. The Knight can fold the bike again by giving their AI a simple command. This takes fewer than 6 seconds, and can be done up to half a mile away.\nWarning: if the motorbike is destroyed, so is the module. Its slot is freed, and a new one may be purchased for its full cost.</p>\n",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Option grenades intelligentes avancées": {
+      "name": "Advanced smart grenade option",
+      "description": "",
+      "n1EnergieTourLabel": "Turn",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Pod fusées éclairantes": {
+      "name": "Flare rocket pod",
+      "description": "<p>This module allows the character to fire a dazzling white flare into the sky (making it more useful outdoors, or at least from somewhere with an opening outside).</p>\n<p>In game terms, the flare lights up the sky for 1D6 turns. Flare rockets deal no actual damage or violence, and firing several at once gives no additional effect.</p>\n<p>Human characters in the area (scene or conflict phase) not wearing meta-armour are dazzled, gaining a -1 D penalty to all their skill checks. Creatures of the Anathema suffer a -2D to all their rolls as well as radiance 2.</p>\n<h2>Level 2</h2>\n<p>In addition to the above effects, flares now inflict radiance 4. Clip 3 increases to clip 6.</p>\n<h2>Level 3</h2>\n<p>In addition to the above effects, flares now inflict anti-Anathema. Clip 6 increases to clip 9.</p>",
+      "n1EnergieTourLabel": "1D6 turns",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "1D6 turns",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "1D6 turns",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Relais satellite": {
+      "name": "Satellite relay",
+      "description": "<p>Grants access to Avalon’s satellite network, providing topographic maps and recent aerial images (several minutes to one day old).</p>\n<h2>Level 2</h2>\n<p>The module now gives access to a location’s thermal and magnetic readings.</p>\n<h2>Level 3</h2>\n<p>Readings are now all in high definition and allow realtime tracking of enemy troop movements.</p>",
+      "n1EnergieTourLabel": "None",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "None",
+      "n2EnergieMinuteLabel": "Minute",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "None",
+      "n3EnergieMinuteLabel": "Minute",
+      "n3Duration": ""
+    },
+    "Relais TacCom": {
+      "name": "Taccom relay",
+      "description": "<p>Allows constant communication with Camelot, even in remote areas or areas with strong interference, and even in the Anathema. The line is perfectly secure.</p>\n",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Saut": {
+      "name": "Leap",
+      "description": "<h2>Level 1</h2>\n<p>Allows the user to jump to a height equal to short range and to a distance of medium range. During the same turn as the leap the user can also perform a combat action. If a leap module is used to jump into contact range and attack an enemy with a melee weapon, the user deals an additional 6 damage.</p>\n<h2>Level 2</h2>\n<p>Allows the user to jump to a height equal to medium range and to a distance of long range. Target destination at long range is reached on the following turn. While in midair, the character can still perform ranged attacks, at a penalty of -2 successes on their attack roll. They gain +2 to their reaction score while leaping. Upon landing on the turn after a long leap, the character may use their combat action and move action as usual. If a lvl 2 leap module is used to jump into contact range and attack an enemy with a melee weapon, the user deals an additional 9 damage.</p>\n<h2>Level 3</h2>\n<p>Allows the user to jump to a height equal to long range and to a distance of far range (up to half a mile). Target destination at far range is reached 2 turns later (the activation turn is spent in the air, the following turn too, with the character landing on turn 3). While in midair, the character can still perform ranged attacks, at a penalty of -2 successes on their attack roll. They gain +2 to their reaction score while leaping. Upon landing 2 turns after a far range leap, the character may use their combat action and move action as usual. Changing direction while midair is possible, but to do so requires a Movement based skill check (difficulty to be determined by the GM). If a lvl 3 leap module is used to jump into contact range and attack an enemy with a melee weapon, the user deals an additional 12 damage.</p>",
+      "n1EnergieTourLabel": "Instantaneous",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "1 turn",
+      "n2EnergieMinuteLabel": "10 seconds",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "2 tours",
+      "n3EnergieMinuteLabel": "20 secondes",
+      "n3Duration": ""
+    },
+    "Tourelle automatisée": {
+      "name": "Automated turret",
+      "description": "<p>The user may deploy a ranged weapon of their choice mounted on a small security turret. The weapon’s cost must be paid at the same time as the module. The turret comes equipped with a sonar and fires on the enemies as instructed by its owner. It can also be set to overwatch mode, firing at anything other than Knights. The turret has one combat action per turn. It is treated as an NPC with a very simplified stat block.</p>\n",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": ""
+    },
+    "Voyager": {
+      "name": "Traveller",
+      "description": "<p>The user does not need to eat or drink over the course of an average mission, and can spend 30 days without having to resupply for food or water.</p>\n",
+      "n1EnergieTourLabel": "-",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    },
+    "Vue alternative": {
+      "name": "Alternate vision",
+      "description": "<p>This module adds an alternate mode of sight to the armour.</p>\n<h2>Level 2</h2>\n<p>Adds a second alternate vision type.</p>\n<h2>Level 3</h2>\n<p>Adds a third alternate vision type.</p>",
+      "n1EnergieTourLabel": "One scene",
+      "n1EnergieMinuteLabel": "one conflict phase",
+      "n1Duration": "",
+      "n2EnergieTourLabel": "One scene",
+      "n2EnergieMinuteLabel": "one conflict phase",
+      "n2Duration": "",
+      "n3EnergieTourLabel": "One scene",
+      "n3EnergieMinuteLabel": "one conflict phase",
+      "n3Duration": ""
+    },
+    "Wingsuit": {
+      "name": "Wingsuit",
+      "description": "<p>As long as the user pays the module’s activation cost, they take no damage from falling. While the wingsuit is deployed and the character is in midair, they can perform one ranged attack per turn at a penalty of -2 successes on their attack roll. They gain +2 to their reaction score while falling.</p>\n",
+      "n1EnergieTourLabel": "Until deactivated",
+      "n1EnergieMinuteLabel": "Minute",
+      "n1Duration": ""
+    }
+  }
+}

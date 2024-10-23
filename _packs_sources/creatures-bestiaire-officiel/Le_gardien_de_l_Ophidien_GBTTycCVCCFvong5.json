@@ -27,14 +27,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 2
                 },
@@ -45,14 +40,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 4
                 },
@@ -63,7 +53,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -85,7 +75,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -98,7 +88,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -111,7 +101,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -133,7 +123,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -146,7 +136,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -159,7 +149,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -181,7 +171,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -194,7 +184,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -216,7 +206,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -229,7 +219,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           }
@@ -245,7 +235,10 @@
         "violencebonus": {
           "dice": 0,
           "fixe": 0
-        }
+        },
+        "sacrifice": 0,
+        "tourspasses": 1,
+        "type": "degats"
       }
     },
     "aspects": {
@@ -254,11 +247,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -268,11 +261,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -282,11 +275,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -296,11 +289,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -310,11 +303,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "10",
+            "value": 10,
             "max": 10
           }
         }
@@ -337,7 +330,11 @@
         "diceMalus": {},
         "bonus": {},
         "malus": {}
-      }
+      },
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
+      "diceMod": 0
     },
     "reaction": {
       "bonus": {
@@ -350,11 +347,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 10,
-      "optionDeploy": false
+      "mod": 0
     },
     "defense": {
       "bonus": {
@@ -367,11 +362,9 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 10,
-      "optionDeploy": false
+      "mod": 0
     },
     "sante": {
       "bonus": {
@@ -382,12 +375,10 @@
         "user": 0,
         "capacites": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "max": 0,
       "base": 1000,
-      "optionDeploy": false
+      "mod": 0
     },
     "description": "<p>L&rsquo;Ophidien &eacute;tant le premier &eacute;clat du Serpent originel et le v&eacute;ritable ma&icirc;tre des t&eacute;n&egrave;bres, il a naturellement repris cette forme &agrave; son &eacute;veil. Naissant ainsi sous l&rsquo;apparence d&rsquo;un petit serpent, il n&rsquo;a cess&eacute; de grandir depuis et forme aujourd&rsquo;hui m&ecirc;me le pilier central de la cit&eacute; des Abysses, Renaissance. Son corps atteint maintenant plusieurs centaines de kilom&egrave;tres de long, s&rsquo;enroulant sur lui-m&ecirc;me et autour d&rsquo;une tour grandiose qui surplombe la totalit&eacute; de l&rsquo;Abysse. Son anatomie ophidienne joue sur des centaines de nuances de noir. Chaque &eacute;caille est un bijou de g&eacute;om&eacute;trie et de perfection. Pourtant, son corps n&rsquo;est pas simplement celui d&rsquo;un serpent g&eacute;ant. Il est parcouru &agrave; tout instant par des centaines de milliers de reptiles, plus petits, rapides et silencieux. Ces silhouettes prot&egrave;gent le Seigneur et quiconque se rapproche trop de lui court le danger de se voir transpercer par des dizaines de crocs. La t&ecirc;te de l&rsquo;Ophidien se trouve au sommet de la tour centrale de Renaissance. Cette construction est tellement grande qu&rsquo;elle permettrait de voir &agrave; la fois la totalit&eacute; des Abysses, le monde des Hommes, et, auparavant, l&rsquo;&Eacute;ther. Avant la fin de la guerre mill&eacute;naire, le Seigneur avait alors tout le loisir d&rsquo;observer le champ de bataille tout en espionnant le territoire de son ennemi jur&eacute;, le Faucon. Dans Knight, l&rsquo;&Eacute;ther n&rsquo;est plus. L&rsquo;Ophidien n&rsquo;a pourtant pas quitt&eacute; les sommets de la tour. Peut-&ecirc;tre parce que son immensit&eacute; l&rsquo;emp&ecirc;che de se d&eacute;placer, sous peine de d&eacute;truire la cit&eacute; dont il forme le coeur. Peut-&ecirc;tre parce qu&rsquo;il reste curieux du jeu des Seigneurs sur Terre. Certainement parce que, de l&agrave;-haut, il peut observer quelque chose qui lui est particuli&egrave;rement cher.</p>\n<p>L&rsquo;Ophidien n&rsquo;a aucune incarnation sur Terre. Manipuler par lui-m&ecirc;me le destin des Hommes ne l&rsquo;int&eacute;resse pas, sauf dans de tr&egrave;s rares cas, et il laisse le soin aux autres Seigneurs d&rsquo;agir pour le contenter. Il n&rsquo;existe donc que dans les Abysses et sous sa forme unique, au c&oelig;ur de la cit&eacute;.&nbsp;</p>",
     "tactique": "<p>Lorsque les PJ rencontrent l&rsquo;Ophidien dans La Geste de la fin des temps, il est prot&eacute;g&eacute; par un serpent particuli&egrave;rement dangereux nomm&eacute; le Gardien, qui est en fait une de ses incarnations. Les aspects et capacit&eacute;s de l&rsquo;Ophidien lui-m&ecirc;me ne sont pas quantifiables et seul le Graal semble pouvoir l&rsquo;an&eacute;antir.</p>",
@@ -402,36 +393,36 @@
         "chair": {
           "value": 10,
           "ae": {
-            "mineur": "0",
-            "majeur": "5"
+            "mineur": 0,
+            "majeur": 5
           }
         },
         "bete": {
           "value": 10,
           "ae": {
-            "mineur": "0",
-            "majeur": "5"
+            "mineur": 0,
+            "majeur": 5
           }
         },
         "machine": {
           "value": 10,
           "ae": {
-            "mineur": "0",
-            "majeur": "5"
+            "mineur": 0,
+            "majeur": 5
           }
         },
         "dame": {
           "value": 10,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "masque": {
           "value": 10,
           "ae": {
-            "mineur": "0",
-            "majeur": "5"
+            "mineur": 0,
+            "majeur": 5
           }
         }
       }
@@ -447,11 +438,11 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "bouclier": {
       "value": 0,
-      "max": 0,
       "base": 30,
       "bonus": {
         "user": 0
@@ -459,7 +450,7 @@
       "malus": {
         "user": 0
       },
-      "optionDeploy": false
+      "mod": 0
     },
     "resilience": {
       "value": 0,
@@ -476,7 +467,8 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "options": {
       "energie": false,
@@ -484,10 +476,21 @@
       "bouclier": true,
       "armure": false,
       "resilience": false,
-      "phase2": true
+      "phase2": true,
+      "notFirstMenu": false,
+      "noSecondMenu": false,
+      "embuscadeSubis": false,
+      "embuscadePris": false
     },
-    "knightRoll": {
-      "id": false
+    "version": 1,
+    "descriptionLimitee": "",
+    "colosse": false,
+    "patron": true,
+    "bonusSiEmbuscade": {
+      "bonusInitiative": {
+        "dice": 0,
+        "fixe": 0
+      }
     }
   },
   "prototypeToken": {

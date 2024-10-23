@@ -1,0 +1,332 @@
+{
+  "name": "Judicium et Redemptio (Contact)",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Ce set d'arme fut b&eacute;ni et confi&eacute; par le Pape &agrave; un baron converti &agrave; l'Inquisition &agrave; la fin du 16e si&egrave;cle.Perdues lors d'un p&eacute;riple pour rejoindre les Am&eacute;riques, ce n'est que tr&egrave;s r&eacute;cemment, avec l'ouverture d'archives par l'&Eacute;glise et la mise en place de fouilles par le Knight, qu'un coffre &nbsp;contenant les armes ainsi que le mat&eacute;riel n&eacute;cessaire &agrave; son entretien ont &eacute;t&eacute; retrouv&eacute;s.</p>\n<p style=\"text-align: justify;\">Judicium est un pistolet &agrave; silex dont la crosse en bois serait tir&eacute;e de la croix du Christ. Le canon, en acier, est recouvert d'un rev&ecirc;tement en or o&ugrave; sont grav&eacute;s des &eacute;crits bibliques en latin. &Agrave; la place de balles, il tire des fl&eacute;chettes grav&eacute;es d'une croix entour&eacute;e de lianes de ronce. Redemptio est une rapi&egrave;re finement ouvrag&eacute;e, dont le pommeau creux permet de contenir la poudre permettant le rechargement de Judicium.</p>\n<p style=\"text-align: justify;\">&Agrave; l'obtention de la relique, le chevalier r&eacute;cup&egrave;re l'ensemble du mat&eacute;riel permettant l'entretien et l'utilisation des armes. L'&eacute;quipement est soit d'origine, soit recr&eacute;&eacute; comme tel, et chaque munition est forg&eacute;e &agrave; l'identique par un ma&icirc;tre forgeron.</p>",
+    "rarete": "espoir",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 80,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": true,
+      "actuel": "0",
+      "value": 2,
+      "liste": {
+        "0": {
+          "nom": "Redemtio (Contact)",
+          "degats": {
+            "dice": 5,
+            "fixe": 0
+          },
+          "violence": {
+            "dice": 2,
+            "fixe": 0
+          },
+          "raw": [
+            "orfevrerie",
+            "lumiere 4",
+            "enchaine",
+            "meurtrier"
+          ],
+          "custom": [],
+          "liste": []
+        },
+        "1": {
+          "nom": "Judicium (Tir)",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "violence": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "raw": [
+            "antianatheme"
+          ],
+          "custom": [
+            {
+              "label": "Spécial",
+              "description": "<p>Tirer avec Judicium se fait au prix d'une action de &nbsp;d&eacute;placement. &nbsp;Le &nbsp;personnage &nbsp;peut &nbsp;effectuer &nbsp;3 &nbsp;tirs&nbsp; avant de devoir recharger pendant un tour complet.</p>",
+              "attaque": {
+                "reussite": 0,
+                "jet": 0,
+                "carac": {
+                  "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                  "odInclusFixe": false,
+                  "labelJet": "OD Non-Inclus dans le jet",
+                  "odInclusJet": false,
+                  "fixe": "",
+                  "jet": ""
+                },
+                "aspect": {
+                  "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                  "odInclusFixe": false,
+                  "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+                  "odInclusJet": false,
+                  "fixe": "",
+                  "jet": ""
+                },
+                "conditionnel": {
+                  "has": false,
+                  "condition": ""
+                }
+              },
+              "degats": {
+                "fixe": 0,
+                "jet": 0,
+                "carac": {
+                  "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                  "odInclusFixe": false,
+                  "labelJet": "OD Non-Inclus dans le jet",
+                  "odInclusJet": false,
+                  "fixe": "",
+                  "jet": ""
+                },
+                "aspect": {
+                  "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                  "odInclusFixe": false,
+                  "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+                  "odInclusJet": false,
+                  "fixe": "",
+                  "jet": ""
+                },
+                "conditionnel": {
+                  "has": false,
+                  "condition": ""
+                }
+              },
+              "violence": {
+                "fixe": 0,
+                "jet": 0,
+                "carac": {
+                  "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                  "odInclusFixe": false,
+                  "labelJet": "OD Non-Inclus dans le jet",
+                  "odInclusJet": false,
+                  "fixe": "",
+                  "jet": ""
+                },
+                "aspect": {
+                  "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                  "odInclusFixe": false,
+                  "labelJet": "Aspect Exceptionnel Non-Inclus dans le jet",
+                  "odInclusJet": false,
+                  "fixe": "",
+                  "jet": ""
+                },
+                "conditionnel": {
+                  "has": false,
+                  "condition": ""
+                }
+              },
+              "other": {
+                "cdf": 0
+              }
+            }
+          ],
+          "liste": []
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "esperance",
+        "tenebricide",
+        "orfevrerie",
+        "lumiere 4",
+        "enchaine",
+        "meurtrier"
+      ],
+      "custom": [
+        {
+          "label": "Spécial",
+          "description": "<p>Tirer avec Judicium se fait au prix d'une action de d&eacute;placement. Le personnage peut effectuer 3 tirs avant de devoir recharger pendant un tour complet.</p>",
+          "attaque": {
+            "reussite": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "degats": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "violence": {
+            "fixe": 0,
+            "jet": 0,
+            "carac": {
+              "labelFixe": "OD Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "OD Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "aspect": {
+              "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusFixe": false,
+              "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+              "odInclusJet": false,
+              "fixe": "",
+              "jet": ""
+            },
+            "conditionnel": {
+              "has": false,
+              "condition": ""
+            }
+          },
+          "other": {
+            "cdf": 0
+          }
+        }
+      ]
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "6sr22XrYDnAxrlem",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!6sr22XrYDnAxrlem"
+}

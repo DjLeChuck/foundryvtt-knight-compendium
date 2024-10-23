@@ -1,0 +1,137 @@
+{
+  "name": "Epées jumelles",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p style=\"text-align: justify;\">&Agrave; l&rsquo;instar des pistolets ouragan, ces lames ont &eacute;t&eacute; cr&eacute;&eacute;es et pens&eacute;es pour &ecirc;tre utilis&eacute;es par paire. La lame est longue, fine, et l&eacute;g&egrave;rement incurv&eacute;e tandis que sur la poign&eacute;e sont dispatch&eacute;s ici et l&agrave; des connecteurs servant &agrave; synchroniser arme et armure. En activant ces derniers, on peut surcharger les &eacute;p&eacute;es pour augmenter sa vitesse de frappe, d&eacute;cimant les cibles dans une danse macabre. Des gyroscopes derni&egrave;re g&eacute;n&eacute;ration ont &eacute;t&eacute; install&eacute;s dans la garde et permettent au chevalier de conserver un &eacute;quilibre parfait en toute circonstance.</p>",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 85,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "orfevrerie",
+        "assistanceattaque",
+        "meurtrier",
+        "ultraviolence",
+        "deuxmains",
+        "boostviolence 4",
+        "boostdegats 4"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "equipped": false,
+    "rack": false,
+    "gratuit": false
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1728479651500,
+    "modifiedTime": 1728479651500,
+    "lastModifiedBy": "JJ2mOUWIh8ZMeYTH"
+  },
+  "_id": "nxPyhe52ZlGccU2f",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!nxPyhe52ZlGccU2f"
+}

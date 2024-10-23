@@ -1,3 +1,13 @@
+Hooks.on('init', () => {
+  if (typeof Babele !== 'undefined') {
+    Babele.get().register({
+      module: 'knight-compendium',
+      lang: 'en',
+      dir: 'translations/en',
+    });
+  }
+});
+
 Hooks.on('ready', () => {
   processPackVisibility('include-capacite2038', 'knight-compendium.armours-2038');
   processPackVisibility('include-capacitecodex', 'knight-compendium.armours-codex');

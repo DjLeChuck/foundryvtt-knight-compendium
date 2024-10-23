@@ -1,0 +1,100 @@
+{
+  "label": "Injuries",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Blessure mineure": {
+      "name": "Light wound",
+      "description": "<p>The PC suffers a 1 point penalty to one characteristic of the GM’s choosing.</p>\n<p>No other lasting effect.</p>"
+    },
+    "Borgne": {
+      "name": "One eye blinded",
+      "description": "<p>The PC is blinded in one eye and suffers a 1 point penalty to their <em>Ranged</em> and <em>Acuity</em> characteristic scores.</p>"
+    },
+    "Bras mutilé": {
+      "name": "Mangled arm",
+      "description": "<p>The character can no longer use weapons with the <em>heavy</em> or <em>two hands</em> effects.</p>\n<p>The GM must increase the difficulty of all skill checks hindered by having only one arm.</p>"
+    },
+    "Cerveau touché": {
+      "name": "Damaged brain",
+      "description": "<p>The PC suffers a 1 point penalty to all characteristic scores linked to <em>Beast</em>, <em>Machine</em>, <em>Lady</em>, and <em>Mask</em> aspects, and has to forfeit an action of their choice each conflict phase.</p>"
+    },
+    "Colonne vertébrale brisée": {
+      "name": "Broken spine",
+      "description": "<p>The character loses use of their legs. Any skill check that requires functioning legs to perform fails automatically.</p>"
+    },
+    "Colonne vertébrale touchée": {
+      "name": "Damaged spine",
+      "description": "<p>The PC suffers a 2 point penalty to all characteristic scores linked to the <em>Flesh</em>, <em>Beast</em>, and <em>Mask</em> aspects.</p>"
+    },
+    "Côtes brisées": {
+      "name": "Broken ribs",
+      "description": "<p>The PC suffers a 1 point penalty to their <em>Endurance</em> and <em>Combat</em> characteristic scores.</p>"
+    },
+    "Crâne brisé": {
+      "name": "Fractured skull",
+      "description": "<p>The character loses 1 point in all skills linked to the <em>Machine</em>, <em>Lady</em>, and <em>Mask</em> aspects.</p>"
+    },
+    "Dos brisé": {
+      "name": "Broken back",
+      "description": "<p>The PC loses 1 point in all skills linked to the <em>Flesh</em> and <em>Beast</em> aspects.</p>"
+    },
+    "Dos touché": {
+      "name": "Damaged back",
+      "description": "<p>The PC suffers a 1 point penalty to their <em>Strength</em> and <em>Movement</em> characteristic scores.</p>"
+    },
+    "Hémorragie interne": {
+      "name": "Internal bleeding",
+      "description": "<p>The character will bleed out and die if they are not healed for at least 1 health point in the next minute.</p>"
+    },
+    "Jambe mutilée": {
+      "name": "Mangled leg",
+      "description": "<p>The PC can no longer walk, run, or jump.</p>\n<p>The GM must increase the difficulty of all skill checks hindered by having only one leg.</p>"
+    },
+    "Mâchoire, langue et dents détruites": {
+      "name": "Smashed jaw, teeth, tongue",
+      "description": "<p>The PC suffers a 3 point penalty to all characteristic scores linked to the <em>Lady</em> aspect. They can no longer communicate by speech.</p>"
+    },
+    "Main brisée": {
+      "name": "Crushed hand",
+      "description": "<p>The PC suffers a 1 point penalty to their <em>Combat</em>, <em>Tech</em>, <em>Ranged</em>, and <em>Dexterity</em> characteristic scores.</p>"
+    },
+    "Mort": {
+      "name": "Dead",
+      "description": "<p>The character is killed outright.</p>"
+    },
+    "Oreille éclatée": {
+      "name": "Burst eardrum",
+      "description": "<p>The PC suffers a 1 point penalty to their <em>Acuity</em>, <em>Movement</em>, and <em>Instinct</em> characteristic scores.</p>"
+    },
+    "Organes internes touchés": {
+      "name": "Damaged internal organs",
+      "description": "<p>The PC suffers a 1 point penalty to all their characteristic scores.</p>"
+    },
+    "Pied brisé": {
+      "name": "Crushed foot",
+      "description": "<p>The PC suffers a 1 point penalty to their <em>Combat</em>, <em>Movement</em>, <em>Stealth</em>, and <em>Strength</em> characteristic scores.</p>"
+    },
+    "Poumons perforés": {
+      "name": "Punctured lungs",
+      "description": "<p>The PC suffers a 2 point penalty to their <em>Endurance</em> and <em>Movement</em> characteristic scores.</p>"
+    },
+    "Rien !": {
+      "name": "Nothing!",
+      "description": "<p>The PC suffers no additional effect, other than being at death’s door.</p>"
+    },
+    "Tempe touchée": {
+      "name": "Minor concussion",
+      "description": "<p>The PC suffers a 1 point penalty to their <em>Aggression</em> and <em>Composure</em> characteristic scores.</p>"
+    },
+    "Traumatisme crânien": {
+      "name": "Severe concussion",
+      "description": "<p>The PC suffers a 1 point penalty to their <em>Knowledge</em>, <em>Tech</em>, and <em>Instinct</em> characteristic scores.</p>"
+    },
+    "Yeux détruits": {
+      "name": "Blinded",
+      "description": "<p>The character completely loses their eyesight. The character can no longer see.</p>\n<p>The GM must increase the difficulty of all skill checks hindered by blindness.</p>"
+    }
+  }
+}
