@@ -18,7 +18,7 @@
     },
     "À coup sûr (distance)": {
       "name": "Unerring senbongiri (ranged)",
-      "description": "<p>When the NPC attacks in ranged, they never miss. Their target‘s defence rating is automatically reduced to zero for their melee attacks.</p>\n"
+      "description": "<p>When the NPC attacks in ranged, they never miss. Their target‘s reaction rating is automatically reduced to zero for their melee attacks.</p>\n"
     },
     "À revers": {
       "name": "Backstab",
