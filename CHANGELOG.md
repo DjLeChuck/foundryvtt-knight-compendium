@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [12.1.0] - 2024-10-23
+
+Thank you @Zakarik for all the changes of this release!
+
+### Added
+
+- feat: add FM4 Codex
+- feat: add Babele in order to support English
+- feat: all compendiums English translations
+
+### Fixed
+
+- fix: several items adjustements
+
 ### [12.0.1] - 2024-06-19
 
 ### Fixed
@@ -332,7 +346,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.0.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.0...HEAD
+
+[12.1.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.0.1...12.1.0
 
 [12.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.0.0...12.0.1
 
