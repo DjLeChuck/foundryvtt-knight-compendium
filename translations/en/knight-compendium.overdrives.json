@@ -1,5 +1,5 @@
 {
-  "label": "Orverdrive modules",
+  "label": "Overdrive modules",
   "mapping": {
     "description": "system.description",
     "n1EnergieTourLabel": "system.niveau.details.n1.energie.tour.label",
