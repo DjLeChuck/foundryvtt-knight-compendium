@@ -7,13 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### [12.1.1] - 2024-10-23
+## [12.1.2] - 2024-10-23
+
+### Fixed
+
+- fix: add missing `translations/` directory into module zip creation
+
+## [12.1.1] - 2024-10-23
 
 ### Fixed
 
 - fix: small translation fixes
 
-### [12.1.0] - 2024-10-23
+## [12.1.0] - 2024-10-23
 
 Thank you @Zakarik for all the changes of this release!
 
@@ -27,26 +33,26 @@ Thank you @Zakarik for all the changes of this release!
 
 - fix: several items adjustements
 
-### [12.0.1] - 2024-06-19
+## [12.0.1] - 2024-06-19
 
 ### Fixed
 
 - fix(armours-base): missing effect and wrong violence values on Wizard
 - fix(armours-atlas): wrong espoir values on Berzerk
 
-### [12.0.0] - 2024-05-29
+## [12.0.0] - 2024-05-29
 
 ### Added
 
 - FoundryVTT v12 compatibility
 
-### [11.1.3] - 2024-04-02
+## [11.1.3] - 2024-04-02
 
 ### Fixed
 
 - fix: energy cost on Warlock
 
-### [11.1.2] - 2024-04-09
+## [11.1.2] - 2024-04-09
 
 Thank you @sdurrheimer for the following fixes
 
@@ -57,13 +63,13 @@ Thank you @sdurrheimer for the following fixes
 - fix(modules-rare): enable 'Erzatz Bard' effect on 'Déguisement'
 - fix(weapons-rare): add boost effects on 'Paire de pistolets ouragan'
 
-### [11.1.1] - 2024-03-25
+## [11.1.1] - 2024-03-25
 
 ### Fixed
 
 - Missing `Espoir` bonus on Berserk armour evolutions
 
-### [11.1.0] - 2024-02-23
+## [11.1.0] - 2024-02-23
 
 ### Added
 
@@ -73,13 +79,13 @@ Thank you @sdurrheimer for the following fixes
 
 - Wrong defense and reaction on some creatures
 
-### [11.0.1] - 2023-12-01
+## [11.0.1] - 2023-12-01
 
 ### Fixed
 
 - Misspell prototype token name of "Enfants du masque"
 
-### [11.0.0] - 2023-11-12
+## [11.0.0] - 2023-11-12
 
 ### Added
 
@@ -352,7 +358,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.2...HEAD
+
+[12.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.1...12.1.2
 
 [12.1.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.0...12.1.1
 
