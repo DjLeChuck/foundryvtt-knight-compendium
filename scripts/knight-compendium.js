@@ -6,7 +6,7 @@ Hooks.on('init', () => {
   };
 
   if (foundry.utils.isNewerVersion(game.version, 12)) {
-    if (game.babele !== 'undefined') {
+    if (game.babele) {
       game.babele.register(module);
     }
   } else {
