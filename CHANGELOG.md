@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [12.1.3] - 2024-10-26
+
+### Fixed
+
+- fix: Babele loading for Foundry v12+
+- fix: typo in one overdrive
+
 ## [12.1.2] - 2024-10-23
 
 ### Fixed
@@ -358,9 +365,11 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.2...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.3...HEAD
 
-[12.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.1...12.1.2
+[12.1.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.1...12.1.2
+
+[12.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.2...12.1.3
 
 [12.1.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.0...12.1.1
 
