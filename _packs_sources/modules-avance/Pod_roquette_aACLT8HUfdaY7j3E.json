@@ -23,7 +23,7 @@
       ],
       "details": {
         "n1": {
-          "permanent": false,
+          "permanent": true,
           "rarete": "avance",
           "prix": 30,
           "energie": {
@@ -201,6 +201,7 @@
             "has": true,
             "type": "distance",
             "portee": "longue",
+            "energie":1,
             "optionsmunitions": {
               "has": false,
               "actuel": "0",
@@ -425,7 +426,7 @@
           }
         },
         "n2": {
-          "permanent": false,
+          "permanent": true,
           "rarete": "avance",
           "prix": 20,
           "energie": {
@@ -624,6 +625,7 @@
             "has": true,
             "type": "distance",
             "portee": "longue",
+            "energie":1,
             "degats": {
               "dice": 1,
               "fixe": 6,
@@ -854,7 +856,7 @@
           }
         },
         "n3": {
-          "permanent": false,
+          "permanent": true,
           "rarete": "rare",
           "prix": 30,
           "energie": {
@@ -1053,6 +1055,7 @@
             "has": true,
             "type": "distance",
             "portee": "longue",
+            "energie":1,
             "degats": {
               "dice": 1,
               "fixe": 6,
