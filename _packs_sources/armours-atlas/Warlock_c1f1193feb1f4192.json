@@ -3778,7 +3778,7 @@
               },
               "relance": {
                 "label": "",
-                "value": false
+                "value": true
               },
               "maxeffets": {
                 "label": "",

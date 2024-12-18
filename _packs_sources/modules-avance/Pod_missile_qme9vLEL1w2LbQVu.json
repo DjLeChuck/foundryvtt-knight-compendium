@@ -21,7 +21,7 @@
       ],
       "details": {
         "n1": {
-          "permanent": false,
+          "permanent": true,
           "rarete": "avance",
           "prix": 30,
           "energie": {
@@ -199,6 +199,7 @@
             "has": true,
             "type": "distance",
             "portee": "longue",
+            "energie":1,
             "optionsmunitions": {
               "has": false,
               "actuel": "0",
