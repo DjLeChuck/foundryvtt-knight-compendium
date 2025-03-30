@@ -37,7 +37,7 @@
     },
     "espoir": {
       "bonus": true,
-      "value": 15,
+      "value": 0,
       "remplaceEnergie": true,
       "cout": 2
     },
