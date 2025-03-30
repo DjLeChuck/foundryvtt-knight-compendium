@@ -3316,9 +3316,58 @@
       }
     },
     "special": {
-      "actuel": "personnalise",
+      "actuel": "",
       "liste": {},
-      "selected": {},
+      "selected": {
+        "apeiron": {
+          "label": "Noyau Apeiron",
+          "description": "<p style=\"text-align:justify\">Tant qu’il porte la méta-armure, le personnage augmente son total de points d’espoir. De plus, toutes ses pertes d’espoir (en dehors des pertes causées par les capacités de la méta-armure) sont réduites. L’effet est cumulable avec d’autres avantages ou effets.</p>",
+          "espoir": {
+            "bonus": 15,
+            "reduction": {
+              "value": 1
+            }
+          },
+          "evolutions": {
+            "espoir": {
+              "bonus": 15,
+              "reduction": {
+                "value": 1
+              }
+            }
+          },
+          "key": "apeiron",
+          "softlock": true
+        },
+        "porteurlumiere": {
+          "label": "Porteur de lumière",
+          "bonus": {
+            "effets": {
+              "raw": [
+                "antianatheme",
+                "tenebricide"
+              ],
+              "liste": [],
+              "custom": []
+            }
+          },
+          "evolutions": {
+            "bonus": {
+              "effets": {
+                "raw": [
+                  "antianatheme",
+                  "tenebricide"
+                ],
+                "liste": [],
+                "custom": []
+              }
+            }
+          },
+          "description": "<p style=\"text-align:justify\">Toutes les attaques portées par le chevalier en méta-armure reçoivent des effets bonus.</p>",
+          "key": "porteurlumiere",
+          "softlock": true
+        }
+      },
       "base": {
         "personnalise": {
           "label": "",
@@ -3566,7 +3615,8 @@
               "c1": "hargne",
               "c2": "sangFroid"
             }
-          }
+          },
+          "unactif": false
         }
       },
       "atlasSpecial": {
