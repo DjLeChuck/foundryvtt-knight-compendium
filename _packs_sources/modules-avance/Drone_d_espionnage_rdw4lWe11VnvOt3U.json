@@ -196,7 +196,7 @@
             }
           },
           "arme": {
-            "has": true,
+            "has": false,
             "type": "distance",
             "portee": "lointaine",
             "optionsmunitions": {
@@ -256,7 +256,8 @@
               "liste": [],
               "custom": [],
               "raw": []
-            }
+            },
+            "energie": 0
           },
           "overdrives": {
             "has": false,
@@ -289,7 +290,7 @@
             }
           },
           "pnj": {
-            "has": false,
+            "has": true,
             "modele": {
               "nom": "",
               "special": "",
@@ -379,7 +380,109 @@
                 "liste": []
               }
             },
-            "liste": {}
+            "liste": {
+              "0": {
+                "nom": "Drône d'espionnage",
+                "special": "",
+                "type": "pnj",
+                "champDeForce": 10,
+                "defense": 5,
+                "reaction": 5,
+                "armure": 20,
+                "debordement": 0,
+                "initiative": {
+                  "dice": 3,
+                  "fixe": 0
+                },
+                "jetSpecial": {
+                  "has": true,
+                  "modele": {
+                    "nom": "",
+                    "dice": 0,
+                    "overdrive": 0
+                  },
+                  "liste": {
+                    "0": {
+                      "nom": "Discrétion",
+                      "dice": 10,
+                      "overdrive": 2
+                    },
+                    "1": {
+                      "nom": "Déplacement",
+                      "dice": 8,
+                      "overdrive": 0
+                    }
+                  }
+                },
+                "aspects": {
+                  "has": false,
+                  "liste": {
+                    "chair": {
+                      "value": 0,
+                      "ae": {
+                        "mineur": 0,
+                        "majeur": 0
+                      }
+                    },
+                    "bete": {
+                      "value": 0,
+                      "ae": {
+                        "mineur": 0,
+                        "majeur": 0
+                      }
+                    },
+                    "machine": {
+                      "value": 0,
+                      "ae": {
+                        "mineur": 0,
+                        "majeur": 0
+                      }
+                    },
+                    "dame": {
+                      "value": 0,
+                      "ae": {
+                        "mineur": 0,
+                        "majeur": 0
+                      }
+                    },
+                    "masque": {
+                      "value": 0,
+                      "ae": {
+                        "mineur": 0,
+                        "majeur": 0
+                      }
+                    }
+                  }
+                },
+                "armes": {
+                  "has": false,
+                  "modele": {
+                    "nom": "",
+                    "type": "contact",
+                    "portee": "contact",
+                    "attaque": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "degats": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "violence": {
+                      "dice": 0,
+                      "fixe": 0
+                    },
+                    "effets": {
+                      "liste": [],
+                      "custom": [],
+                      "raw": []
+                    }
+                  },
+                  "liste": []
+                },
+                "sante": null
+              }
+            }
           },
           "ersatz": {
             "rogue": {
