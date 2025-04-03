@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [12.1.5] - 2025-04-03
+
+### Fixed
+
+- Fix Berserk armor
+- Fix "Drône d'espionnage" module
+
 ## [12.1.4] - 2024-12-18
 
 ### Fixed
@@ -372,7 +379,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.4...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.5...HEAD
+
+[12.1.5]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.4...12.1.5
 
 [12.1.4]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.3...12.1.4
 
