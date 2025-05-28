@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [13.0.0] - 2025-05-28
+
+### Added
+
+FoundryVTT v13 compatibility
+
+### Fixed
+
+- Fix Priest armor mechanic activation
+
 ## [12.1.6] - 2025-04-23
 
 ### Fixed
@@ -385,7 +395,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.6...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.0.0...HEAD
+
+[13.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.6...13.0.0
 
 [12.1.6]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.5...12.1.6
 
