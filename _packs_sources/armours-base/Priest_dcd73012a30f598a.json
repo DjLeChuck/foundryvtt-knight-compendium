@@ -3335,8 +3335,8 @@
             },
             "mechanic": {
               "activation": {
-                "contact": "aucune",
-                "distance": "aucune"
+                "contact": "deplacement",
+                "distance": "deplacement"
               },
               "portee": "Longue",
               "reparation": {
@@ -3387,8 +3387,8 @@
             },
             "mechanic": {
               "activation": {
-                "contact": "aucune",
-                "distance": "aucune"
+                "contact": "deplacement",
+                "distance": "deplacement"
               },
               "portee": "Longue",
               "reparation": {
@@ -3439,8 +3439,8 @@
             },
             "mechanic": {
               "activation": {
-                "contact": "aucune",
-                "distance": "aucune"
+                "contact": "deplacement",
+                "distance": "deplacement"
               },
               "portee": "Longue",
               "reparation": {
