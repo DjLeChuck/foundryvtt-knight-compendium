@@ -7,11 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Separate some special meta-armours in their own compendium, syncing visibility with system parameter (thank you @popoyo2706)
+
 ## [13.0.0] - 2025-05-28
 
 ### Added
 
-FoundryVTT v13 compatibility
+- FoundryVTT v13 compatibility
 
 ### Fixed
 

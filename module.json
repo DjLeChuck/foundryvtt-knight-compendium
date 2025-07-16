@@ -75,8 +75,11 @@
           "packs": [
             "armours-base",
             "armours-2038",
+            "armours-2038-necromancer",
+            "armours-2038-sorcerer",
             "armours-codex",
             "armours-atlas",
+            "armours-atlas-berserk",
             "meta-armures-de-legende"
           ]
         },
@@ -181,7 +184,7 @@
       }
     },
     {
-      "label": "Méta-armures - 4. Atlas - berserk",
+      "label": "Méta-armures - 4. Atlas - Berserk",
       "type": "Item",
       "name": "armours-atlas-berserk",
       "system": "knight",
