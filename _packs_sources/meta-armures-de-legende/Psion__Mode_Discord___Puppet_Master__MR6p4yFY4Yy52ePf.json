@@ -843,8 +843,8 @@
   "flags": {},
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "#{VERSION}#",
-    "coreVersion": "13.346",
+    "systemVersion": "3.23.3",
+    "coreVersion": "11.315",
     "createdTime": 1707840753144,
     "modifiedTime": 1755096274713,
     "lastModifiedBy": "0ZYXqr4CSnK8QLjo",
