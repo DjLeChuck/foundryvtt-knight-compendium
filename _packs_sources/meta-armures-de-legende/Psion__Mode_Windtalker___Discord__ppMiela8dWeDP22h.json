@@ -757,7 +757,7 @@
         },
         "discord": {
           "label": "Mode Discord",
-          "description": "",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Discord de la m&eacute;ta-armure Psion. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 200 PG.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Berserk</span>&nbsp;</p>",
           "special": "recolteflux",
           "malus": {
             "reaction": 3,

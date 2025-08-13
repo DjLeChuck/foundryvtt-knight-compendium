@@ -771,7 +771,7 @@
         },
         "puppet": {
           "label": "Mode Puppet Master",
-          "description": "",
+          "description": "<p>Fonctionne de la m&ecirc;me mani&egrave;re que le mode Puppet Master de la m&eacute;ta-armure Psion. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 150 PG.</p>\n<p><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Berserk</span>&nbsp;</p>",
           "special": "recolteflux",
           "duree": "1 tour ou 10 secondes",
           "activation": "deplacement",
