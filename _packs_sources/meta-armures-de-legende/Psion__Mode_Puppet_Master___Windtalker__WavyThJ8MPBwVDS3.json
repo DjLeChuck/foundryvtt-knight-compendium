@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "Psion (Mode Discord)",
+  "name": "Psion (Mode Puppet Master / Windtalker)",
   "type": "armurelegende",
   "img": "systems/knight/assets/icons/armureLegende.svg",
   "system": {
@@ -741,33 +741,44 @@
       },
       "liste": {},
       "selected": {
-        "discord": {
-          "label": "Mode Discord",
-          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Discord de la m&eacute;ta-armure Psion. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 200 PG.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Berserk</span>&nbsp;</p>",
+        "puppet": {
+          "label": "Mode Puppet Master",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Puppet Master de la m&eacute;ta-armure Psion. Cette capacit&eacute; annexe est acquise &agrave; un niveau d&rsquo;&eacute;volution &eacute;gal &agrave; 150 PG.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Berserk</span>&nbsp;</p>",
           "special": "recolteflux",
-          "malus": {
-            "reaction": 3,
-            "defense": 3,
-            "actions": 3
+          "duree": "1 tour ou 10 secondes",
+          "activation": "deplacement",
+          "creatures": 3,
+          "energie": {
+            "ordre": 2,
+            "supplementaire": 3,
+            "prolonger": 1
           },
-          "tour": {
-            "flux": 1,
-            "energie": 2,
-            "activation": "deplacement",
-            "duree": "Un tour"
-          },
-          "scene": {
-            "flux": 3,
-            "energie": 6,
-            "activation": "deplacement",
-            "duree": "Une scène ou une phase de conflit"
+          "flux": {
+            "has": true,
+            "ordre": 1,
+            "supplementaire": 1,
+            "prolonger": 1
           },
           "textarea": {
-            "dureeTour": 50,
-            "dureeScene": 50
+            "duree": 50
           },
           "softlock": true,
-          "key": "discord"
+          "key": "puppet"
+        },
+        "windtalker": {
+          "label": "Mode Windtalker",
+          "description": "<p style=\"text-align: justify;\">Fonctionne de la m&ecirc;me mani&egrave;re que le mode Windtalker de la m&eacute;ta-armure Psion. Cette capacit&eacute; annexe est acquise sans &eacute;volution.</p>\n<p style=\"text-align: justify;\"><span class=\"fontstyle0\"><strong>Exclusion :</strong> </span><span class=\"fontstyle2\">M&eacute;ta-armure Berserk</span>&nbsp;</p>",
+          "special": "recolteflux",
+          "flux": 2,
+          "energie": 4,
+          "activation": "deplacement",
+          "duree": "Instantanée",
+          "textarea": {
+            "duree": 50
+          },
+          "softlock": true,
+          "main": "windtalker",
+          "key": "windtalker"
         }
       }
     },
@@ -824,11 +835,11 @@
     "modifiedTime": 1708260757592,
     "lastModifiedBy": "nnPHX87Qkm8EnXN9"
   },
-  "_id": "MR6p4yFY4Yy52ePf",
+  "_id": "WavyThJ8MPBwVDS3",
   "sort": 0,
   "ownership": {
     "default": 0,
     "nnPHX87Qkm8EnXN9": 3
   },
-  "_key": "!items!MR6p4yFY4Yy52ePf"
+  "_key": "!items!WavyThJ8MPBwVDS3"
 }
