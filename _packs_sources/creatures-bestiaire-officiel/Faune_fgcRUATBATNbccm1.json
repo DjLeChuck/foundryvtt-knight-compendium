@@ -484,7 +484,7 @@
       "bouclier": false,
       "armure": false,
       "resilience": false,
-      "phase2": true
+      "phase2": false
     },
     "knightRoll": {
       "id": false
@@ -783,6 +783,135 @@
         "lastModifiedBy": "y7bwecrKsFInhWQ1"
       },
       "_key": "!actors.items!fgcRUATBATNbccm1.TZt2njrzFv49lcRX"
+    }, {
+      "name": "Module (saut nv2)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ b&eacute;n&eacute;ficie de l'&eacute;quivalent du module saut au niveau 2.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "1qJy4qS6AiWatCJp",
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.88323b66b48170fd",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "knight",
+        "systemVersion": "3.48.2",
+        "createdTime": 1762979199181,
+        "modifiedTime": 1762979245348,
+        "lastModifiedBy": "ctFeaKdl4cosh3mL"
+      },
+      "_key": "!actors.items!fgcRUATBATNbccm1.1qJy4qS6AiWatCJp",
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],

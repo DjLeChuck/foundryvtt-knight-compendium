@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Remove "Phase 2" from "Faune" creature
+- Add "Saut nv2" module to "Faune" creature
+
 ## [13.1.1] - 2025-08-26
 
 ### Fixed
