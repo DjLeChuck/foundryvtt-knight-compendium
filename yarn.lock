@@ -5,9 +5,9 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@foundryvtt/foundryvtt-cli@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@foundryvtt/foundryvtt-cli@npm:1.1.0"
+"@foundryvtt/foundryvtt-cli@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@foundryvtt/foundryvtt-cli@npm:3.0.1"
   dependencies:
     chalk: ^5.4.1
     classic-level: ^1.4.1
@@ -18,7 +18,7 @@ __metadata:
     yargs: ^17.7.2
   bin:
     fvtt: fvtt.mjs
-  checksum: e9bdb012a561f6d31000517c5f6f8d6d344e6c6cb1484e853934a0d0424c29b1f401df4d3887e30ea942634356b258e40b85c37c036be62ceeb6b6bb7444b0ec
+  checksum: 425ba46338a1463dd926531875a4b90a2e0d5c0f483bcbe0f60868b8bd88d82a1a040d023d919293df210b9254ebbff49b8ba29fc3963e7bfa1b19ba55ffcd92
   languageName: node
   linkType: hard
 
@@ -711,7 +711,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "knight-compendium@workspace:."
   dependencies:
-    "@foundryvtt/foundryvtt-cli": ^1.1.0
+    "@foundryvtt/foundryvtt-cli": ^3.0.1
   languageName: unknown
   linkType: soft
 

@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.1.0"
+    "@foundryvtt/foundryvtt-cli": "^3.0.1"
   },
   "volta": {
     "node": "18.17.1",
