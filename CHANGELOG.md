@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [13.1.2] - 2025-11-12
+
 ### Fixed
 
 - Remove "Phase 2" from "Faune" creature
@@ -413,7 +415,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.2...HEAD
+
+[13.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.1...13.1.2
 
 [13.1.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.0...13.1.1
 
