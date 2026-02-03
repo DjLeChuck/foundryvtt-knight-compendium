@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [13.1.3] - 2026-02-03
+
+### Fixed
+
+- Level 2 and 3 of "Pod Roquette" are not working (thank you @thevalami)
+
 ## [13.1.2] - 2025-11-12
 
 ### Fixed
@@ -415,7 +421,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.2...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.3...HEAD
+
+[13.1.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.2...13.1.3
 
 [13.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.1...13.1.2
 
