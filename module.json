@@ -76,8 +76,11 @@
           "packs": [
             "armours-base",
             "armours-2038",
+            "armours-2038-necromancer",
+            "armours-2038-sorcerer",
             "armours-codex",
             "armours-atlas",
+            "armours-atlas-berserk",
             "meta-armures-de-legende"
           ]
         },
@@ -146,6 +149,32 @@
       }
     },
     {
+      "label": "Méta-armures - 2. Supplément 2038 - Necromancer",
+      "type": "Item",
+      "name": "armours-2038-necromancer",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Méta-armures - 2. Supplément 2038 - Sorcerer",
+      "type": "Item",
+      "name": "armours-2038-sorcerer",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
       "label": "Méta-armures - 3. Codex v1.5",
       "type": "Item",
       "name": "armours-codex",
@@ -162,6 +191,19 @@
       "label": "Méta-armures - 4. Atlas",
       "type": "Item",
       "name": "armours-atlas",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Méta-armures - 4. Atlas - Berserk",
+      "type": "Item",
+      "name": "armours-atlas-berserk",
       "system": "knight",
       "private": true,
       "ownership": {

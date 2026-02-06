@@ -5,21 +5,20 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@foundryvtt/foundryvtt-cli@npm:^1.0.0-rc.4":
-  version: 1.0.0-rc.4
-  resolution: "@foundryvtt/foundryvtt-cli@npm:1.0.0-rc.4"
+"@foundryvtt/foundryvtt-cli@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@foundryvtt/foundryvtt-cli@npm:3.0.1"
   dependencies:
-    chalk: ^5.2.0
-    classic-level: ^1.2.0
+    chalk: ^5.4.1
+    classic-level: ^1.4.1
     esm: ^3.2.25
     js-yaml: ^4.1.0
-    mkdirp: ^3.0.0
-    nedb-core: ^3.0.6
-    nedb-promises: ^6.2.1
-    yargs: ^17.7.1
+    mkdirp: ^3.0.1
+    nedb-promises: ^6.2.3
+    yargs: ^17.7.2
   bin:
     fvtt: fvtt.mjs
-  checksum: 265d391ab85a2bb2103452b2a53e884e8888332b6c9ac104f1b5b107985999779f9cec1f1128fe0997e23d6465c92cbe93c40694e02e90a81c61d5d117b84b13
+  checksum: 425ba46338a1463dd926531875a4b90a2e0d5c0f483bcbe0f60868b8bd88d82a1a040d023d919293df210b9254ebbff49b8ba29fc3963e7bfa1b19ba55ffcd92
   languageName: node
   linkType: hard
 
@@ -162,13 +161,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:latest":
-  version: 3.2.5
-  resolution: "async@npm:3.2.5"
-  checksum: 5ec77f1312301dee02d62140a6b1f7ee0edd2a0f983b6fd2b0849b969f245225b990b47b8243e7b9ad16451a53e7f68e753700385b706198ced888beedba3af4
-  languageName: node
-  linkType: hard
-
 "available-typed-arrays@npm:^1.0.5":
   version: 1.0.5
   resolution: "available-typed-arrays@npm:1.0.5"
@@ -247,10 +239,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.2.0":
-  version: 5.3.0
-  resolution: "chalk@npm:5.3.0"
-  checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
+"chalk@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "chalk@npm:5.4.1"
+  checksum: 0c656f30b782fed4d99198825c0860158901f449a6b12b818b0aabad27ec970389e7e8767d0e00762175b23620c812e70c4fd92c0210e55fc2d993638b74e86e
   languageName: node
   linkType: hard
 
@@ -261,9 +253,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classic-level@npm:^1.2.0":
-  version: 1.3.0
-  resolution: "classic-level@npm:1.3.0"
+"classic-level@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "classic-level@npm:1.4.1"
   dependencies:
     abstract-level: ^1.0.2
     catering: ^2.1.0
@@ -271,7 +263,7 @@ __metadata:
     napi-macros: ^2.2.2
     node-gyp: latest
     node-gyp-build: ^4.3.0
-  checksum: 773da48aef52a041115d413fee8340b357a4da2eb505764f327183b155edd7cc9d24819eb4f707c83dbdae8588024f5dddeb322125567c59d5d1f6f16334cdb9
+  checksum: 62e7e07297fcd656941eb88f92b91df0046ebb2b34987e98ec870cb736f096e212ef109a25541deba2f30866b9d5df550594ed04948614815dd5964933da50a9
   languageName: node
   linkType: hard
 
@@ -677,13 +669,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is@npm:latest":
-  version: 3.3.0
-  resolution: "is@npm:3.3.0"
-  checksum: 81fad3b40c606984c2d0699207c4c48d2a0d29cc834b274d0b74c172f3eeebdb981301fe0d690ce090a96bf021a8a1f8b1325262ad9870c525e557ac4a559c56
-  languageName: node
-  linkType: hard
-
 "isexe@npm:^2.0.0":
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
@@ -726,7 +711,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "knight-compendium@workspace:."
   dependencies:
-    "@foundryvtt/foundryvtt-cli": ^1.0.0-rc.4
+    "@foundryvtt/foundryvtt-cli": ^3.0.1
   languageName: unknown
   linkType: soft
 
@@ -756,7 +741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"localforage@npm:^1.9.0, localforage@npm:latest":
+"localforage@npm:^1.9.0":
   version: 1.10.0
   resolution: "localforage@npm:1.10.0"
   dependencies:
@@ -904,7 +889,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mkdirp@npm:^3.0.0, mkdirp@npm:latest":
+"mkdirp@npm:^3.0.1":
   version: 3.0.1
   resolution: "mkdirp@npm:3.0.1"
   bin:
@@ -934,20 +919,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nedb-core@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "nedb-core@npm:3.0.6"
-  dependencies:
-    async: latest
-    is: latest
-    localforage: latest
-    mkdirp: latest
-    underscore: latest
-  checksum: 223586e11c924975402567b780fc5ace7ac4f02254a03c1a2621d9d17eb38c370891b2b0aed138f6993bb52e89418be6ae71def48dc553f860a1314bdffffd1b
-  languageName: node
-  linkType: hard
-
-"nedb-promises@npm:^6.2.1":
+"nedb-promises@npm:^6.2.3":
   version: 6.2.3
   resolution: "nedb-promises@npm:6.2.3"
   dependencies:
@@ -1213,13 +1185,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"underscore@npm:latest":
-  version: 1.13.6
-  resolution: "underscore@npm:1.13.6"
-  checksum: d5cedd14a9d0d91dd38c1ce6169e4455bb931f0aaf354108e47bd46d3f2da7464d49b2171a5cf786d61963204a42d01ea1332a903b7342ad428deaafaf70ec36
-  languageName: node
-  linkType: hard
-
 "unique-filename@npm:^3.0.0":
   version: 3.0.0
   resolution: "unique-filename@npm:3.0.0"
@@ -1329,7 +1294,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.7.1":
+"yargs@npm:^17.7.2":
   version: 17.7.2
   resolution: "yargs@npm:17.7.2"
   dependencies:

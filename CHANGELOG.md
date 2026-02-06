@@ -7,6 +7,69 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [13.1.3] - 2026-02-03
+
+### Fixed
+
+- Level 2 and 3 of "Pod Roquette" are not working (thank you @thevalami)
+
+## [13.1.2] - 2025-11-12
+
+### Fixed
+
+- Remove "Phase 2" from "Faune" creature
+- Add "Saut nv2" module to "Faune" creature
+
+## [13.1.1] - 2025-08-26
+
+### Fixed
+
+- Reorganize Psion armor
+
+## [13.1.0] - 2025-07-16
+
+### Added
+
+- Separate some special meta-armours in their own compendium, syncing visibility with system parameter (thank you
+  @popoyo2706)
+
+## [13.0.0] - 2025-05-28
+
+### Added
+
+- FoundryVTT v13 compatibility
+
+### Fixed
+
+- Fix Priest armor mechanic activation
+
+## [12.1.6] - 2025-04-23
+
+### Fixed
+
+- Fix "Épée de lumière" weapon effect
+
+## [12.1.5] - 2025-04-03
+
+### Fixed
+
+- Fix Berserk armor
+- Fix "Drône d'espionnage" module
+
+## [12.1.4] - 2024-12-18
+
+### Fixed
+
+- fix the 250GP Warlock evolution
+- fix missile pod and rocket pod permanent state
+
+## [12.1.3] - 2024-10-26
+
+### Fixed
+
+- fix: Babele loading for Foundry v12+
+- fix: typo in one overdrive
+
 ## [12.1.2] - 2024-10-23
 
 ### Fixed
@@ -358,7 +421,25 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.2...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.3...HEAD
+
+[13.1.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.2...13.1.3
+
+[13.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.1...13.1.2
+
+[13.1.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.0...13.1.1
+
+[13.1.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.0.0...13.1.0
+
+[13.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.6...13.0.0
+
+[12.1.6]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.5...12.1.6
+
+[12.1.5]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.4...12.1.5
+
+[12.1.4]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.3...12.1.4
+
+[12.1.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.2...12.1.3
 
 [12.1.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/12.1.1...12.1.2
 
