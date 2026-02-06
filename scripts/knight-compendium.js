@@ -58,9 +58,13 @@ function processPackVisibility(setting, packName) {
 }
 
 async function processAdlVisibility() {
+  const hasSetting = game.settings.settings.has('knight.adl');
+
   if (!game.user.isGM) {
     return;
   }
+
+  if(!hasSetting) return;
 
   const setting = game.settings.get('knight', 'adl');
   const std = setting;
