@@ -1,0 +1,139 @@
+{
+  "name": "Lance-flammes",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/lance-flammes.webp",
+  "system": {
+    "description": "<p>Voilà l'arme ultime face aux hordes. Un caisson vissé dans le dos de la méta-armure contient le carburant inflammable. Un tube blindé le relie au propulseur, qui se tient à une ou à deux mains. Par commande vocale, un chevalier peut modifier le débit, la pression, l'angle de dispersion du jet et la viscosité du napalm. Tout est possible : tir fluide haute pression et rectiligne, tir en cloche par-dessus un mur ou tir large pour enflammer une salle ou un groupe tout entier. Le napalm lui-même est une réussite majeure des chimistes du Knight. Sa combustion produit une grande quantité de lumière ultra-violette. Il brûle sur l'eau et ne peut être éteint par les moyens habituels.</p>\n",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 100,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 8,
+      "fixe": 12,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 5",
+        "degatscontinus 6",
+        "demoralisant",
+        "deuxmains",
+        "dispersion 6",
+        "fureur",
+        "lourd",
+        "lumiere 2"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "1cec7557b4d15010",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.1cec7557b4d15010"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009126,
+    "modifiedTime": 1693092600325,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!1cec7557b4d15010"
+}

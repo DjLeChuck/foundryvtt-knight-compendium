@@ -385,7 +385,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 80,
       "max": 0,
       "base": 80,
       "optionDeploy": false
@@ -484,7 +484,7 @@
       "bouclier": false,
       "armure": false,
       "resilience": false,
-      "phase2": true
+      "phase2": false
     },
     "knightRoll": {
       "id": false
@@ -501,7 +501,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -537,11 +541,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -552,7 +558,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -668,17 +698,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.50ca71407d7356b8"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018849,
         "modifiedTime": 1666908728768,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.50ca71407d7356b8",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -777,27 +808,161 @@
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666908741597,
         "modifiedTime": 1667154407270,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!fgcRUATBATNbccm1.TZt2njrzFv49lcRX"
+    },
+    {
+      "name": "Module (saut nv2)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ b&eacute;n&eacute;ficie de l'&eacute;quivalent du module saut au niveau 2.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "1qJy4qS6AiWatCJp",
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.88323b66b48170fd",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "knight",
+        "systemVersion": "3.48.2",
+        "createdTime": 1762979199181,
+        "modifiedTime": 1762979245348,
+        "lastModifiedBy": "ctFeaKdl4cosh3mL"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fgcRUATBATNbccm1.1qJy4qS6AiWatCJp"
     }
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.fgcRUATBATNbccm1"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1666908516117,
-    "modifiedTime": 1668026211623,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770387747740,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.fgcRUATBATNbccm1",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "fgcRUATBATNbccm1",
   "folder": null,

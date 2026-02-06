@@ -497,7 +497,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 30,
       "max": 0,
       "base": 30,
       "optionDeploy": false
@@ -623,7 +623,8 @@
       "resilience": false,
       "modules": false,
       "phase2": false
-    }
+    },
+    "origin": "autre"
   },
   "prototypeToken": {
     "name": "Monsieur pendulum",
@@ -636,7 +637,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -672,11 +677,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -687,13 +694,35 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "SBA2P04ynbZZKArz",
@@ -707,14 +736,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!YbGLTVjL0p46LYss.SBA2P04ynbZZKArz"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -819,14 +864,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!YbGLTVjL0p46LYss.7TnsEcsKFvzzhAzT"
     },
     {
-      "label": "Armes",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "mroCEmVLb7wc6N5l",
@@ -840,28 +901,47 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!YbGLTVjL0p46LYss.mroCEmVLb7wc6N5l"
     }
   ],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-bete.YbGLTVjL0p46LYss"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667427432245,
-    "modifiedTime": 1685553115448,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770384877832,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-bete.YbGLTVjL0p46LYss",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "YbGLTVjL0p46LYss",
   "folder": null,
-  "sort": 0,
+  "sort": 14900000,
   "ownership": {
     "default": 0
   },

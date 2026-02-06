@@ -31,6 +31,7 @@
       "packs": [
         "creatures-bestiaire-officiel",
         "npcs",
+        "drones",
         "vehicules",
         "overdrives",
         "npc-capacities-base",
@@ -103,6 +104,22 @@
             "cfm4-modules-1-standard",
             "cfm4-modules-2-avance",
             "cfm4-modules-3-rare"
+          ]
+        },
+        {
+          "name": "Arsenal de légende",
+          "sorting": "m",
+          "packs": [
+            "adl-overdrives",
+            "adl-armes-1-standard",
+            "adl-armes-2-avance",
+            "adl-armes-3-rare",
+            "adl-armes-4-prestige",
+            "adl-armes-5-espoir",
+            "adl-modules-1-standard",
+            "adl-modules-2-avance",
+            "adl-modules-3-rare",
+            "adl-modules-4-prestige"
           ]
         }
       ]
@@ -383,6 +400,19 @@
       }
     },
     {
+      "label": "Drones",
+      "type": "Actor",
+      "name": "drones",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
       "label": "Créatures - Bestiaire officiel",
       "type": "Actor",
       "name": "creatures-bestiaire-officiel",
@@ -547,6 +577,136 @@
       "label": "Modules - 3. Rare",
       "type": "Item",
       "name": "cfm4-modules-3-rare",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Overdrives",
+      "type": "Item",
+      "name": "adl-overdrives",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 1. Standard",
+      "type": "Item",
+      "name": "adl-armes-1-standard",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 2. Avancé",
+      "type": "Item",
+      "name": "adl-armes-2-avance",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 3. Rare",
+      "type": "Item",
+      "name": "adl-armes-3-rare",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 4. Prestige",
+      "type": "Item",
+      "name": "adl-armes-4-prestige",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Armes - 5. Espoir",
+      "type": "Item",
+      "name": "adl-armes-5-espoir",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Modules - 1. Standard",
+      "type": "Item",
+      "name": "adl-modules-1-standard",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Modules - 2. Avancé",
+      "type": "Item",
+      "name": "adl-modules-2-avance",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Modules - 3. Rare",
+      "type": "Item",
+      "name": "adl-modules-3-rare",
+      "system": "knight",
+      "private": true,
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "label": "Modules - 4. Prestige",
+      "type": "Item",
+      "name": "adl-modules-4-prestige",
       "system": "knight",
       "private": true,
       "ownership": {

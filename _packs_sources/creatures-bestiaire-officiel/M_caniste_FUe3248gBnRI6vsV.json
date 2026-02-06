@@ -385,7 +385,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 30,
       "max": 0,
       "base": 30,
       "optionDeploy": false
@@ -502,7 +502,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -538,11 +542,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -553,7 +559,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -669,17 +699,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.0c27be9fb01a466d"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018796,
         "modifiedTime": 1667150071747,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.0c27be9fb01a466d",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -798,17 +829,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.f27606832c45f29d"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019301,
         "modifiedTime": 1667150098144,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.f27606832c45f29d",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -903,17 +935,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.5PybDXMEA3tJxElu"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667150146515,
         "modifiedTime": 1667150252153,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.5PybDXMEA3tJxElu",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "aHzmwLcKz4ufffxr",
       "_key": "!actors.items!FUe3248gBnRI6vsV.aHzmwLcKz4ufffxr"
@@ -1011,17 +1044,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005694,
         "modifiedTime": 1667150313187,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.ddf79bae2a501808",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1030,17 +1064,18 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.FUe3248gBnRI6vsV"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667149735647,
-    "modifiedTime": 1668026211651,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770388272685,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.FUe3248gBnRI6vsV",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "FUe3248gBnRI6vsV",
   "folder": null,

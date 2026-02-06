@@ -1,0 +1,135 @@
+{
+  "name": "Canon Nova",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>Voilà longtemps que l'on utilise des lampes à ultraviolets dans les laboratoires pour détruire les germes, c'est plus efficace que le traditionnel autoclave. Détruire des créatures indésirables qui pullulent dès qu'on a le dos tourné avec de la lumière... Il n'en fallait pas plus pour que Merlin se penche sur le concept.</p>\n<p>Le Nova est une arme double. Un générateur à énergie alpha dans la crosse alimente un canon à ultraviolets et un canon à faisceau. Une batterie particulièrement puissante permet d'utiliser ces deux canons à charge maximale pendant un temps limité, puis est rapidement rechargée par le générateur.</p>\n<p>Le canon UV a pour cœur une ampoule à arc électrique à intensité variable. L'augmentation de l'intensité augmente la puissance du rayonnement, mais diminue la durée de vie de l'ampoule. Un jeu de lentilles et de miroirs permet de modifier la largeur du vaisseau. Une vitre blindée et à changement de polarité électrique protège la lentille et filtre la lumière quand le chevalier désire éclairer sans risquer de blesser (les ampoules à ultraviolets brûlent la cornée et la peau).</p>\n<p>À l'usage, le chevalier a dans les mains un gros fusil à double poignée et double détente, chacune accompagnée d'une molette d'intensité réglant la puissance et d'une autre de focale réglant la taille du faisceau. Une pression sur la gâchette du Nova annule la polarisation de la vitre blindée et augmente la taille et l'intensité de l'arc électrique, lâchant sur les créatures prises dans le faisceau une lumière brûlant à chaque seconde comme plusieurs heures d'ensoleillement au zénith. Le chevalier peut doubler, tripler, quadrupler la puissance de l'ampoule, puisant sur la batterie et réduisant d'autant l'espérance de vie des adversaires que la sienne, au risque de la pousser à bout en plein combat. Il faudra alors beaucoup de sang-froid pour changer l'ampoule, qui, malgré l'excellent système de refroidissement, est en plus terriblement chaude. Les ampoules de rechange, très précieuses, sont maintenues en sécurité dans des étuis blindés cylindriques.</p>\n<p><strong>Spécial</strong> : Lorsqu'il commence un combat, le personnage utilisateur dispose d'une réserve de 18 dés qu'il peut répartir dans les dégâts ou la violence (avec un maximum d'un total de 15D6 pour un même jet de dégâts ou de violence). Lorsque la réserve arrive à 2D, le joueur doit lancer 1D6. Sur un résultat de 1, l'ampoule explose et il faut 2 tours pour la remplacer. À 1D, le joueur doit lancer 1D6. Sur un résultat de 1 ou 2, l'ampoule explose et il faut 2 tours pour la remplacer. À 0D, le joueur doit lancer 1D6. Sur un résultat de 1, 2 ou 3, l'ampoule explose et il faut 2 tours pour la remplacer. Lorsque l'ampoule a explosé, l'arme ne peut plus être utilisée jusqu'au remplacement de l'ampoule.</p>\n<p>Ces dégâts supplémentaires ne peuvent être utilisés que contre les créatures de l'Anathème.</p>\n",
+    "rarete": "prestige",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 120,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antianatheme",
+        "barrage 4",
+        "deuxmains",
+        "lumiere 6",
+        "tenebricide"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "02fce8711b40801e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-prestige.02fce8711b40801e"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890012486,
+    "modifiedTime": 1693092967863,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_key": "!items!02fce8711b40801e"
+}

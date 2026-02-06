@@ -1,0 +1,184 @@
+{
+  "name": "Pistolet d'infiltration",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/pistolet-dinfiltration.webp",
+  "system": {
+    "description": "<p>Ce pistolet d'infiltration compact et silencieux propulse des fléchettes blindées conçues pour traverser les armures et les blindages légers. Une fois dans le corps de la cible, elles relâchent une substance qui peut être une neurotoxine, un sédatif ou des nanomachines destructrices. C'est donc l'arme idéale pour un assaut discret. Les trois types de chargeurs sont marqués ainsi : neuro, choc et nano, avec code couleur. Au chevalier de choisir le type de munition qui correspond le mieux à la situation.\nChanger de chargeur prend une action de déplacement.</p>\n",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 50,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": true,
+      "actuel": "0",
+      "value": 3,
+      "liste": {
+        "0": {
+          "nom": "Fléchettes à nanomachines",
+          "raw": [
+            "destructeur"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 4,
+            "fixe": 6
+          },
+          "violence": {
+            "dice": 1,
+            "fixe": null
+          }
+        },
+        "1": {
+          "nom": "Fléchettes à neurotoxine",
+          "raw": [
+            "degatscontinus 3",
+            "ignorearmure"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 4,
+            "fixe": null
+          },
+          "violence": {
+            "dice": 1,
+            "fixe": null
+          }
+        },
+        "2": {
+          "nom": "Fléchettes choc",
+          "raw": [
+            "choc 2",
+            "ignorearmure"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 3,
+            "fixe": null
+          },
+          "violence": {
+            "dice": 1,
+            "fixe": null
+          }
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "jumeleambidextrie",
+        "silencieux"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.c16dd5b6cbcd8644"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005687,
+    "modifiedTime": 1693092596474,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "BjzowSIdz05Ckm9s",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!BjzowSIdz05Ckm9s"
+}

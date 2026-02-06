@@ -1,0 +1,135 @@
+{
+  "name": "Bélier à piston",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/belier-a-piston.webp",
+  "system": {
+    "description": "<p>Cette arme est un piston magnétique qui propulse un tube de métal blindé capable de défoncer une porte blindée. Fixé sous l'avant-bras de la méta-armure, il cogne quand un chevalier frappe du poing ou de la paume. Il peut aussi être réglé pour frapper en marteau-piqueur. C'est moins pratique au combat – à moins d'avoir immobilisé l'adversaire –, mais idéal pour se frayer un passage à travers un bâtiment.</p>\n",
+    "rarete": "avance",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 40,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "assistanceattaque",
+        "choc 1",
+        "destructeur",
+        "leste"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.9b6a36c5d686a11c"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005686,
+    "modifiedTime": 1693092596469,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "ajDYsyHiPjlV0HUe",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!ajDYsyHiPjlV0HUe"
+}

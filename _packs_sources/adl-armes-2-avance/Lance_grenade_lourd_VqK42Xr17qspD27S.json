@@ -1,0 +1,199 @@
+{
+  "name": "Lance-grenade lourd",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/lance-grenade-lourd.webp",
+  "system": {
+    "description": "<p>Ce lance-grenade semi-automatique lourd donne à un chevalier la puissance d'une petite section d'artillerie. Il est alimenté par un chargeur revolver automatisé contenant 24 grenades 40mm haute vélocité. Ce chargeur arme le type de grenade qu'on lui demande d'un simple mot prononcé à voix haute.</p>\n",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 60,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": true,
+      "actuel": "0",
+      "value": 4,
+      "liste": {
+        "0": {
+          "nom": "Grenade adhésive",
+          "raw": [
+            "dispersion 3"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 6,
+            "fixe": null
+          },
+          "violence": {
+            "dice": 3,
+            "fixe": null
+          }
+        },
+        "1": {
+          "nom": "Grenade anti-blindage",
+          "raw": [
+            "destructeur"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 5,
+            "fixe": 6
+          },
+          "violence": {
+            "dice": 1,
+            "fixe": null
+          }
+        },
+        "2": {
+          "nom": "Grenade explosive",
+          "raw": [
+            "dispersion 3"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 5,
+            "fixe": null
+          },
+          "violence": {
+            "dice": 3,
+            "fixe": 6
+          }
+        },
+        "3": {
+          "nom": "Grenade incendiaire",
+          "raw": [
+            "degatscontinus 3"
+          ],
+          "custom": [],
+          "liste": [],
+          "degats": {
+            "dice": 2,
+            "fixe": null
+          },
+          "violence": {
+            "dice": 6,
+            "fixe": 6
+          }
+        }
+      }
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 3,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "assistanceattaque",
+        "deuxmains",
+        "lourd"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.cb63eeaea44f3be2"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005689,
+    "modifiedTime": 1693092596473,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "VqK42Xr17qspD27S",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!VqK42Xr17qspD27S"
+}

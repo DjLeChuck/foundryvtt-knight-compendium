@@ -1,0 +1,135 @@
+{
+  "name": "Fléau répulsif",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/fleau-repulsif.webp",
+  "system": {
+    "description": "<p>Le fléau répulsif contient dans sa masse un générateur de champ alimenté par l'armure. À chaque frappe, il dégage une onde de choc capable de détruire un mur en béton et de faire valdinguer plusieurs adversaires simultanément. Vu la violence des impacts, la masse est installée au bout d'une chaîne afin de limiter les contrecoups. Son usage est à réserver aux chevaliers qui maîtrisent le combat au corps à corps, car à la moindre erreur, on risque de se reprendre la masse par ricochet et c'est un coup à perdre la tête. La masse peut se personnaliser en atelier... Et les têtes de taureau ou de lion ont la cote.</p>\n",
+    "rarete": "avance",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 55,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 7,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 3",
+        "choc 2",
+        "dispersion 3",
+        "enchaine"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.92db28d4c1ff4cf9"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005683,
+    "modifiedTime": 1693092596472,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "mZOkug4D3NGiBrqt",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!mZOkug4D3NGiBrqt"
+}

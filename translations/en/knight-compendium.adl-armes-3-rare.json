@@ -1,0 +1,98 @@
+{
+  "label": "Weapons - 3. Rare",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom"
+  },
+  "entries": {
+    "Arbalète magnétique": {
+      "name": "Magnetic crossbow",
+      "description": "<p>This so-called ‘crossbow’ is actually a magnetic catapult designed to silently propel thin metal stakes. Knights call these stakes bolts, and in truth, the alpha element shafts bear some resemblance to traditional crossbow quarrels. Tiny fins allow them to spin and maintain the momentum required to pierce most protective layers. Once they reach their target, they release neurotoxins, sedatives, or destructive nanomachines. The barbed bolt itself has three rows of spring-loaded blades that help it hook into flesh and dice up the target’s internal organs. The end result is a weapon that is both deadly and silent.\nSwitching ammunition takes a move action in combat.</p>\n",
+      "m0Nom": "Nano-machine bolt",
+      "m1Nom": "Neurotoxin bolt",
+      "m2Nom": "Barbed bolt",
+      "m3Nom": "Stun bolt"
+    },
+    "Canon UV": {
+      "name": "UV cannon",
+      "description": "<p>UV cannons are upgraded versions of UV rifles. Mounted on the wearer‘s hip, they do the same things their smaller versions doe, but bigger: larger, longer barrels, bigger magazine, ammunition twice as wide, and a whole lot more shots per minute. Each looks like a shiny white heavy machine gun, and its rotating barrels are capable of firing six UV bolts a second.</p>\n"
+    },
+    "Canon à concussion": {
+      "name": "Concussive cannon",
+      "description": "<p>Similar in appearance to an oversized grenade launcher with a larger barrel, this weapon launches powerful sonic grenades at medium range. These rounds explode on impact, generating a powerful sound wave in the surrounding area. As with the sonic rifle, this sound wave sends enemies flying and has devastating effects on weaker foes. The shockwave from the grenades‘ detonation is strong enough to create small localised earthquakes, leading to the weapon gaining the wellearned name of concussive cannon.</p>\n"
+    },
+    "Ceste de fracture": {
+      "name": "Fracture cestus",
+      "description": "<p>Fracture cestuses are demolition tools designed to clear a path for a banner of Knights in urban settings. Its use is straightforward. Punching a surface releases a powerful vibrating shockwave, crumbling matter on a molecular level. 30 foot walls turn to rubble, machines crumble to heaps of scrap, and bones shatter like porcelain on rocky ground.</p>\n"
+    },
+    "Chaîne tronçonneuse": {
+      "name": "Chain saw",
+      "description": "<p>The defection of yojimbos from the Nodachi to the Knight can lead to interesting technological transfers, and the chainsaw chain is one of them.</p>\n<p>This weapon is not just a simple chainsaw chain, but a combat chain traversed by a chainsaw chain. It therefore distinguishes between the support chain and the cutting chain that slides over it. Wrapped around the handle, the long and heavy combat chain is unfurled with a flick of the wrist. The main 'links' are capable of restraining powerful adversaries. The blades of the chainsaw links, made of tungsten carbide, can cut through concrete or steel with ease. The rotation of the chainsaw chain stabilizes the movements of the support chain through centripetal force, allowing it to deliver very precise strikes. Better yet, the cutting chain, by biting into metal, stone, wood, or flesh, will grip the target like the jaws of a hungry shark, encircling it to better cut it apart.</p>\n"
+    },
+    "Fusil laser": {
+      "name": "Laser rifle",
+      "description": "<p>This weapon is a portable coherent light emitter. Laser rifle is a much simpler way of putting it. It requires too much energy to be powered by battery. As a result of this, each shot fired draws on an armour’s alpha energy reactor’s reserves. Greater expenditure of energy results in a stronger beam of light. The beam itself is bluish and invisible to the eye in clear conditions. If the air is full of dust particles or shots are fired in a zone of darkness, the beam cannot be missed.</p>\n"
+    },
+    "Hache à réaction": {
+      "name": "Rocket axe",
+      "description": "<p>Gawain’s latest weapon invention is the rocket axe. Vents on the sides of the blade act as air intakes for a plasma reactor that increases the weapon’s speed and striking power. Knights who train with this weapon quickly learn how to use the added momentum of its rocket propulsion system to launch themselves at and through several enemies at a time with wide, sweeping attacks. The reactor’s blue flames bring the axe blade and all its components to red-hot temperatures, allowing it to clean itself of stray chunks of flesh, concrete, and even steel that might get stuck in its vents, by burning, melting, or grinding them into dust</p>\n"
+    },
+    "Lance thermique": {
+      "name": "Thermal lance",
+      "description": "<p>The thermal lance is the conceptual cross between the jaw trident and the thermal stylus. It is therefore a long lance with a sharp alpha element tip. But after penetration, long barbs, like so many butcher's hooks, deploy with a sharp snap to hook, immobilize, and diffuse the burning thermite inside the target. When facing a horde, it is possible to maintain an aluminothermic reaction at the tip of the lance continuously for psychological impact.</p>\n"
+    },
+    "Lance-flammes": {
+      "name": "Flame thrower",
+      "description": "<p>The best weapon bar none against hordes. A tank screwed to the back of the meta-armour contains enough flammable substances for a mission of any length. Reinforced tubing leads from the tank to the propulsion unit, which can be held with one hand or two. Voice activated systems allow the user to control the flow, pressure, angle, and spread, and viscosity of the weapon’s napalm. All kinds of settings are available, from a straight, thin line of fluid to an arced squirt over an obstacle, or a wide spray covering a whole room or group of enemies. The napalm used by this weapon is a major scientific breakthrough in its own right. Avalon’s chemistry specialists managed to make it emit a strong ultra violet light as it burns. Water does not quench its flames, nor can it be put out by ordinary means.</p>\n"
+    },
+    "Masse magnétique": {
+      "name": "Magnetic mace",
+      "description": "<p>This impressive flanged mace sports eight vertical blades at the end of a 5-foot haft. The grip is connected to its wearer’s meta-armour by a reinforced power cord. The mace’s head is a powerful vertical axis rotating electrostatic field generator, clearly visible behind the blades. Once powered up, the generator imparts an ionic glow to the blades, surrounding them with Saint Elmo’s fires. When the mace hits, power is released in bursts of electric mayhem. Its magnetic field and centripetal force are strong enough to tear reinforced concrete near to shreds.</p>\n"
+    },
+    "Paire de pistolets ouragan": {
+      "name": "Pair of hurricane pistols",
+      "description": "<p>This pair of pistols is a direct evolution of the Knight's first submachine guns. In appearance, the hurricanes are massive, equipped with rotating barrels with 3 tubes capable of delivering a myriad of blue energy projectiles at short range. When the target is farther away, the user can modify the barrel with a simple flick of the wrist to deliver larger projectiles at a reduced rate. These incandescent blue shards explode upon contact with their target and inflict terrible burns. The hurricanes do not have a magazine but articulated attachments that automatically connect to the gauntlets to draw energy from the meta-armour's core to generate the energy projectiles.</p>\n<p>Particularly effective against multiple enemy groups, these pistols are intended for ambidextrous knights who wish to clear areas quickly.</p>\n<p>The hurricanes are difficult to handle as their ammunition tends to scatter, and only those who demonstrate enough dexterity are allowed to wield them.</p>\n"
+    },
+    "Pavois - Charge": {
+      "name": "Pavise - Charge",
+      "description": "<p>Pavises are Avalon’s biggest type of shield. Each pavise houses a field generator that exerts enough force to push a Knight in meta-armour away from the ground. Gawain has found two applications for this side effect. Firstly, the force field itself can deflect most incoming attacks. Secondly, when a pavise’s field receives an additional energy injection, it deviates air around it enough to create a vacuum effect ahead of it. Knights can use this suction effect to launch a particularly powerful charge capable of stunning all but the most resilient of adversaries.\nCharging in this manner costs a regular move action, colliding with the target at the end of the move. A Knight already engaged in melee with their target cannot charge at them.</p>\n"
+    },
+    "Pavois - Pavois": {
+      "name": "Pavise - Pavise",
+      "description": "<p>Pavises are Avalon’s biggest type of shield. Each pavise houses a field generator that exerts enough force to push a Knight in meta-armour away from the ground. Gawain has found two applications for this side effect. Firstly, the force field itself can deflect most incoming attacks. Secondly, when a pavise’s field receives an additional energy injection, it deviates air around it enough to create a vacuum effect ahead of it. Knights can use this suction effect to launch a particularly powerful charge capable of stunning all but the most resilient of adversaries.\nCharging in this manner costs a regular move action, colliding with the target at the end of the move. A Knight already engaged in melee with their target cannot charge at them.</p>\n"
+    },
+    "Railgun": {
+      "name": "Railgun",
+      "description": "<p>Railguns are linear barrelled rifles that launch high velocity projectiles by using electromagnetic force generated by alpha energy batteries and circuits in its stock. Railgun bullets traveling upwards of 10,000 feet per second possess a phenomenal amount of kinetic energy, allowing them to punch through buildings and vehicles with ease. They go through any targets, be they mechanical, organic, behind cover, or wearing protective armour. Railguns naturally come equipped with a scope and high-definition camera allowing their user to spot and shoot at targets several miles away.</p>\n"
+    },
+    "Revolver lourd": {
+      "name": "Heavy revolver",
+      "description": "<p>Designed by Nathan ‘Nate’ Johanson, one of Gawain’s squires, this revolver was made to shoot a special type of elephant hunting ammunition, the 600 Nitro Express (NE). The end result was a handgun with the firepower of an anti-materiel rifle. Nate collects meta-armour manufacturing scraps and forges them into bullets made from his own blend of materials. This ammunition is capable of piercing all known substances and is called T-800 as nod to The Terminator, an old flick Nathan was fond of watching. The base materials’ scarcity and high value make the bullets a rare commodity, however.\nSwitching ammunition takes a move action in combat.\nWarning: T-800s cost 5 GP apiece, and can only be purchased in Camelot</p>\n",
+      "m0Nom": "600 NE",
+      "m1Nom": "T-800"
+    },
+    "Shotgun auto. lourd": {
+      "name": "Heavy auto shotgun",
+      "description": "<p>Lamorak requested an improved automatic shotgun design, and Gawain provided one. The new model has larger, more powerful cartridges, filled with depleted uranium shot. Its sliding barrel widens to suit the size of the target, making it as effective at taking down lone, powerful enemies as it is at spreading havoc in a horde of creatures. When its barrel is shortened, it shoots in a wide spread, and when it lengthens, it focuses a devastating shot on a smaller area. Truly a weapon of mass carnage in the right hands</p>\n"
+    },
+    "Stylet thermique": {
+      "name": "Thermal stylus",
+      "description": "<p>A stiletto is a dagger with a very thin blade designed to pass between the links of medieval armor. However, this one is a long needle made from the same alloy as the Knight's daggers. It injects burning thermite into the target, which is a mixture of aluminum powder and iron oxide that, once the aluminothermic reaction is initiated, will burn at a very high temperature (2000°C), even in the absence of air or underwater.</p>\n"
+    },
+    "Épée cinétique": {
+      "name": "Kinetic sword",
+      "description": "<p>One of Gawain’s upgrades was encasing tools in localised force fields in order to safely work with alpha element samples. The results were so effective that he decided to make a weapon based on the same technology. Kinetic swords are long, thin, rapier-like blades. They are made from an alpha element alloy, folded many times like Damascus steel or a traditional katana. A modulator in their hilts surrounds the blade with an extended version of the user’s meta-armour force field, then modifies it to cause high frequency vibrations. Flesh that comes into contact with the vibrating force field scatters like sawdust from a wood chipper. Armour and metal are broken apart in a shower of sparks.</p>\n"
+    },
+    "Épée lumière": {
+      "name": "Radiant sword",
+      "description": "<p>Some weapons more than others make a hero of their wielder. Radiant swords are as lightweight as titanium, as dense as tungsten, as sharp as alpha element, and as blazingly bright as magnesium. Its hilt can extend like a bastard sword’s, and redistribute its weight to be used with both hands. Microscopic rivulets along the blade’s edge are filled with magnesium. Each time the weapon strikes, or when activated with a flick of the wrist, the magnesium flares up in a burst of light, burning and blinding creatures of the Anathema.</p>\n"
+    },
+    "Épée sonique": {
+      "name": "Sonic blade",
+      "description": "<p>Big and heavy, sonic blades consist of two parallel 5 foot blades and a rotating, serrated alpha element chain that runs between them. Spinning at eight times the speed of sound, the chain emits vibrations that make the air around it appear to shudder. Its engine, encased in the sword’s thick hilt, is powered by the armour’s energy supply. Sonic blades were designed to tear through the toughest armoured vehicles and mecha-armour, such as those belonging to the Nodachi. The faster the chain spins, the better the blade cuts, but at a steeper energy cost.</p>\n"
+    }
+  }
+}

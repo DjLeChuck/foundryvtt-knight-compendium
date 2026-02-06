@@ -1,0 +1,141 @@
+{
+  "name": "Pistolet Polycalibre",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/pistolet-de-service.webp",
+  "system": {
+    "equipped": false,
+    "rack": false,
+    "description": "<p>Le pistolet polycalibre offre aux agents du Knight une puissance de feu cons&eacute;quente, m&ecirc;me sans m&eacute;ta-armure. Ce pistolet propose une excellente cadence de tir mais aussi des &eacute;volutions sp&eacute;cifiques de sa structure de base, pour en faire une arme unique : une arme de l&eacute;gende.<br>Le pistolet polycalibre peut &ecirc;tre utilis&eacute; sans m&eacute;ta-armure.</p>",
+    "rarete": "standard",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 0,
+    "energie": 0,
+    "listes": {},
+    "gratuit": false,
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      },
+      "addchair": true
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "fatal"
+      ],
+      "custom": [],
+      "chargeur": null,
+      "activable": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": [],
+      "chargeur": null,
+      "activable": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "knight",
+    "systemVersion": "3.51.0",
+    "createdTime": 1770296087192,
+    "modifiedTime": 1770296087192,
+    "lastModifiedBy": "3D61xgwQ6U36wEf0"
+  },
+  "ownership": {
+    "default": 0,
+    "3D61xgwQ6U36wEf0": 3
+  },
+  "_id": "VSCCX2zEIZ0gXjzT",
+  "sort": 0,
+  "_key": "!items!VSCCX2zEIZ0gXjzT"
+}

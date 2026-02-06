@@ -1,0 +1,135 @@
+{
+  "name": "Ceste shotgun - Mêlée",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>C'est une arme deux en un. Un ceste lourd sur lequel on a placé un canon de shotgun. Le mécanisme du shotgun adapté au ceste est réarmé dès qu'on frappe avec ou d'un geste à la fois technique et brutal qui consiste en une rotation du poignet suivi d'un geste énergique vers l'arrière, comme un coup de coude, ou tout simplement en le réarmant de l'autre main.</p>\n",
+    "rarete": "avance",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 50,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "choc 1",
+        "jumeleakimbo",
+        "leste",
+        "meurtrier"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.cbfaea7808dcbd43"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005689,
+    "modifiedTime": 1693092596471,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "gnNvk02R1AngjIbl",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!gnNvk02R1AngjIbl"
+}

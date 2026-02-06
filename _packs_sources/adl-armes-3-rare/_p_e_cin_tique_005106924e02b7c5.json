@@ -1,0 +1,136 @@
+{
+  "name": "Épée cinétique",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/epee-cinetique.webp",
+  "system": {
+    "description": "<p>À l'atelier, Gauvain a renforcé les outils du Knight avec des champs de force, notamment pour travailler l'élément alpha. Les résultats ont été si impressionnants qu'il a créé par la suite l'épée cinétique. Comme une rapière, elle est droite, fine et à tranchant unique. Elle est forgée dans un alliage d'élément alpha replié en fines lignes comme une lame de damas ou un katana. Un modulateur dans la poignée étend le champ de force de la méta-armure à la lame et modifie son comportement pour le faire vibrer à très haute fréquence. À son contact, la chair se disperse comme la sciure crachée par une broyeuse. Et les armures se disloquent dans une pluie d'étincelles.</p>\n",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 3,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "assistanceattaque",
+        "defense 2",
+        "jumeleambidextrie",
+        "orfevrerie",
+        "ignorearmure"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "005106924e02b7c5",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.005106924e02b7c5"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009121,
+    "modifiedTime": 1693092600324,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!005106924e02b7c5"
+}

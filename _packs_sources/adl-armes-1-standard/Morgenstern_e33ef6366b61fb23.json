@@ -1,0 +1,132 @@
+{
+  "name": "Morgenstern",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/morgenstern.webp",
+  "system": {
+    "description": "<p>L'étoile du matin, ou morgenstern, est un cylindre de tungstène blindé armé de longues griffes acérées. C'est une arme d'une solidité à toute épreuve qui permet de défoncer, de lacérer les créatures hostiles.</p>\n",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 15,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 3,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "leste"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "e33ef6366b61fb23",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-standard.e33ef6366b61fb23"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.4",
+    "coreVersion": "10.303",
+    "createdTime": 1666890002690,
+    "modifiedTime": 1694104199344,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!e33ef6366b61fb23"
+}

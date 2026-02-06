@@ -1,0 +1,134 @@
+{
+  "name": "Pavois - Pavois",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/pavois.webp",
+  "system": {
+    "description": "<p>Le pavois est le plus grand bouclier du Knight. Il dispose d'un générateur de champ si efficace qu'il est capable de repousser le sol. Gauvain lui a trouvé deux usages. Premièrement, le champ de force du pavois dévie la plupart des attaques. Deuxièmement, quand il est surchargé en énergie, le pavois dévie l'air si fort qu'il génère une aspiration devant lui. Le chevalier, tiré vers l'avant peut faire une charge particulièrement violente à même de sonner la plus résistante des horreurs.\nEffectuer une charge coûte une action de déplacement normale qui se termine par un gros choc sur la cible visée. Une charge ne peut pas être effectuée par un chevalier déjà au combat au contact.</p>\n",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 60,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 2,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 2,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "defense 4",
+        "jumeleambidextrie",
+        "reaction 4"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "699223ab4d42e4a9",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.699223ab4d42e4a9"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009148,
+    "modifiedTime": 1693092600326,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!699223ab4d42e4a9"
+}

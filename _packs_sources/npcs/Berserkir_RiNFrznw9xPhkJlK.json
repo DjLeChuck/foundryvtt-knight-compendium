@@ -362,11 +362,11 @@
     },
     "aspects": {
       "chair": {
-        "value": 2,
+        "value": 8,
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
@@ -376,7 +376,7 @@
         }
       },
       "bete": {
-        "value": 2,
+        "value": 8,
         "max": 20,
         "ae": {
           "mineur": {
@@ -390,7 +390,7 @@
         }
       },
       "machine": {
-        "value": 2,
+        "value": 8,
         "max": 20,
         "ae": {
           "mineur": {
@@ -404,7 +404,7 @@
         }
       },
       "dame": {
-        "value": 2,
+        "value": 8,
         "max": 20,
         "ae": {
           "mineur": {
@@ -418,7 +418,7 @@
         }
       },
       "masque": {
-        "value": 2,
+        "value": 8,
         "max": 20,
         "ae": {
           "mineur": {
@@ -439,7 +439,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 0
+        "user": 4
       },
       "malus": {
         "user": 0
@@ -465,7 +465,7 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 0
+      "base": 4
     },
     "defense": {
       "bonus": {
@@ -481,7 +481,7 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 0
+      "base": 6
     },
     "sante": {
       "bonus": {
@@ -494,9 +494,9 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 40,
       "max": 0,
-      "base": 0
+      "base": 40
     },
     "description": "<p>Ces guerriers surentra&icirc;n&eacute;s, aux corps presque enti&egrave;rement cybern&eacute;tiques et servant Odin avec une loyaut&eacute; sans faille, forment &agrave; la fois une sorte de super-milice pr&eacute;sente au sein de l&rsquo;arche et &agrave; la fois la garde pr&eacute;torienne d&rsquo;Odin. Chacun est augment&eacute; diff&eacute;remment, mais toujours de mani&egrave;re quasi totale, le corps recouvert de m&eacute;tal et de graph&egrave;ne. Certains sont ainsi de purs guerriers au corps h&eacute;riss&eacute; d&rsquo;armes, d&rsquo;autres sont des infiltrateurs capables de se rendre invisibles et d&rsquo;autres encore sont ultra-rapides, capables d&rsquo;&eacute;galer la vitesse de voitures de course. &Agrave; l&rsquo;instar des chevaliers, chaque berserk peut s&rsquo;&eacute;quiper comme il le d&eacute;sire et gagner de nouvelles augmentations &agrave; mesure qu&rsquo;il accomplit des exploits et des missions. D&rsquo;ailleurs, la plupart peuvent rivaliser avec les chevaliers en combat singulier, et comme eux, ils luttent contre les t&eacute;n&egrave;bres. Seulement, les hommes d&rsquo;Odin ne se chargent que de l&rsquo;Horreur et des cr&eacute;atures qui menacent Asgard, pas du reste du monde. Si Odin et les berserkir changeaient de politique et aidaient le Knight, nul doute que la lutte contre les t&eacute;n&egrave;bres serait plus facile&hellip;</p>",
     "tactique": "<p>Les berserkir n&rsquo;existent que pour prot&eacute;ger Odin. Ils n&rsquo;attaqueront que si Odin l&rsquo;ordonne et ils se rueront sur l&rsquo;ennemi ayant inflig&eacute; le plus de d&eacute;g&acirc;ts &agrave; leur ma&icirc;tre ou sur celui ayant le plus haut score de Hargne ou de B&ecirc;te.</p>",
@@ -546,9 +546,9 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 10,
       "max": 0,
-      "base": 0,
+      "base": 10,
       "bonus": {
         "user": 0,
         "modules": 0,
@@ -595,7 +595,7 @@
     },
     "champDeForce": {
       "value": 0,
-      "base": 0,
+      "base": 5,
       "bonus": {
         "user": 0,
         "modules": 0
@@ -609,7 +609,7 @@
       "max": 0
     },
     "options": {
-      "energie": true,
+      "energie": false,
       "champDeForce": true,
       "sante": true,
       "bouclier": false,
@@ -631,7 +631,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -667,11 +671,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -682,7 +688,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -798,17 +828,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.82424419a75bed1f"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018902,
         "modifiedTime": 1667508894159,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.82424419a75bed1f",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -927,17 +958,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.fb26dd11f6518f97"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019310,
         "modifiedTime": 1667508924982,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.fb26dd11f6518f97",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1056,17 +1088,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.029a37f4096a442e"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018775,
         "modifiedTime": 1667509080784,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.029a37f4096a442e",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1185,17 +1218,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.09e8362f60e15668"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018792,
         "modifiedTime": 1667509130279,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.09e8362f60e15668",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1295,17 +1329,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-rare.314e155d8b406db8"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890009133,
         "modifiedTime": 1667509141941,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.314e155d8b406db8",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "hWomqoUpx2C48FAn",
       "sort": 0,
@@ -1404,17 +1439,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.1bce240afa036ddc"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005650,
         "modifiedTime": 1667509152068,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.1bce240afa036ddc",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1511,17 +1547,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.47163e43b229c3fa"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005665,
         "modifiedTime": 1667509153505,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.47163e43b229c3fa",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1530,21 +1567,22 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.RiNFrznw9xPhkJlK"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667508362354,
-    "modifiedTime": 1668026239217,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770386052565,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.RiNFrznw9xPhkJlK",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "RiNFrznw9xPhkJlK",
   "folder": null,
-  "sort": 0,
+  "sort": 12600000,
   "ownership": {
     "default": 0
   },

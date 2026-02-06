@@ -1,0 +1,110 @@
+{
+  "name": "Griffes de Fenrir",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>Ce prototype pourrait bien devenir l'arme la plus destructrice du Knight. Mais la puissance nécessaire requiert un second générateur à énergie alpha, maintenu bien à l'abri à l'intérieur d'un harnais lui-même superposé au plastron de la méta-armure.</p>\n<p>Ce harnais alimente deux gros gants de contrôle magnétique à distance, donnant à la méta-armure la puissance d'une catastrophe naturelle, si tant est qu'il y ait du fer et de l'acier dans le paysage. Merlin, voulant éviter de laisser un chevalier désarmé au milieu de la jungle ou du désert, a fait de nombreux essais avec différentes armes et projectiles. Câbles et chaînes barbelées deviennent tentacules virevoltantes. Des billes d'acier se transforment en nuées perforantes. Des fluides métalliques se changent en armes colossales.</p>\n<p>Mais aucune de ces techniques n'a permis de transpercer un épais blindage doublé d'un champ cinétique. C'est pourquoi dix grandes lames articulées blindées d'élément alpha sont livrées avec le harnais et ses gants. Ce sont elles, les griffes de Fenrir. Elles flottent derrière le porteur du harnais, comme une cape. En action, elles s'animent, dix doigts gigantesques permettant à leur utilisateur de découper, broyer, défoncer, comme un enfant qui écrase lui- même ses constructions et ses figurines articulées. Chacune de ces griffes peut être projetée vers l'avant comme un carreau d'arbalète. Les gants ne peuvent contrôler que les griffes et rien d'autre.</p>\n<p>Enfin, le chevalier peut se porter ou se tirer avec les griffes de Fenrir, comme s'il était suspendu par des bras gigantesques.</p>\n<p><strong>Spécial</strong> :</p>\n<ul>\n<li>Bien qu'elles soient considérées comme des armes de contact, les griffes de Fenrir peuvent frapper jusqu'à portée moyenne.</li>\n<li>Grâce aux griffes, le personnage reçoit un bonus équivalent à celui du <em>module de saut</em> niveau 3 avec le même coût en points d'énergie.</li>\n<li>En manipulant les griffes de Fenrir, le chevalier n'ajoute pas sa <em>Force</em> aux dégâts mais sa <em>Perception</em>.</li>\n</ul>\n",
+    "rarete": "prestige",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 120,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 8,
+      "fixe": 0
+    },
+    "violence": {
+      "dice": 8,
+      "fixe": 6
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "defense 4",
+        "deuxmains",
+        "dispersion 6",
+        "ignorechampdeforce",
+        "reaction 4"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "28ba5b2fb9bed7f2",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-prestige.28ba5b2fb9bed7f2"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890012490,
+    "modifiedTime": 1668026445676,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!28ba5b2fb9bed7f2"
+}

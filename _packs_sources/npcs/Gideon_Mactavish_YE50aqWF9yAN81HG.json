@@ -496,14 +496,14 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 40,
       "max": 0,
       "base": 40,
       "optionDeploy": false
     },
     "description": "<p>Gideon MacTavish est le neveu d&rsquo;Arthur et le fils de sa demi-s&oelig;ur Mo&iuml;ra Murphy, alias Morgane. Jeune homme talentueux et vers&eacute; dans les arts de la guerre comme beaucoup de membres de sa famille, il n&rsquo;a cependant pas &eacute;t&eacute; int&eacute;gr&eacute; &agrave; l&rsquo;organisation d&egrave;s sa cr&eacute;ation. Soutien de son oncle et de sa tante lors de la bataille de Dublin, il a subi un grave traumatisme en voyant sa m&egrave;re, qui chantait alors au sein du Gaiety Theatre, succomber au d&eacute;sespoir et dispara&icirc;tre brutalement. Le choc a &eacute;t&eacute; si violent pour Gideon qu&rsquo;il a subi une amn&eacute;sie. Il a oubli&eacute; Dublin et jusqu&rsquo;&agrave; sa m&egrave;re elle-m&ecirc;me.</p>\n<p>Apr&egrave;s plusieurs mois de traitement, Gideon a finalement rejoint le Knight. Il rev&ecirc;t une m&eacute;taarmure Rogue et s&rsquo;est sp&eacute;cialis&eacute; dans l&rsquo;&eacute;limination discr&egrave;te de ses ennemis. Il op&egrave;re, avec sa coterie, en tant qu&rsquo;&eacute;cuyer de Kay. Cette derni&egrave;re le consid&egrave;re et le fait passer pour son fils. Elle a m&ecirc;me &eacute;t&eacute; jusqu&rsquo;&agrave; modifier son nom de famille, Murphy, en MacTavish pour &eacute;viter les diff&eacute;rentes rumeurs sur sa maternit&eacute;.</p>\n<p>Gideon est empreint de grands id&eacute;aux de libert&eacute;. Pour lui, l&rsquo;utilisation de ses pratiques d&rsquo;assassin sert &agrave; faire survivre l&rsquo;Humanit&eacute; et &agrave; lutter contre les t&eacute;n&egrave;bres. Il refuse l&rsquo;injustice, la corruption, et cherche &agrave; attirer l&rsquo;attention de son oncle ador&eacute; dont il souhaite par-dessus tout l&rsquo;approbation, Arthur lui-m&ecirc;me.</p>",
     "tactique": "<p>Gideon est un tueur discret, ma&icirc;trisant sa m&eacute;ta-armure Rogue avec efficacit&eacute;. Il est expert dans l&rsquo;&eacute;limination de cible individuelle mais aussi dans les missions de reconnaissance. Fonctionnant en symbiose parfaite avec Cicero et Meredith, il est le fer de lance de sa coterie. Cette derni&egrave;re est d&rsquo;ailleurs sp&eacute;cialis&eacute;e dans les missions d&rsquo;observation en territoire ennemi.</p>",
-    "type": "type allié (initié) ",
+    "type": "Allié (initié)",
     "pointsFaibles": "",
     "phase2Activate": false,
     "phase2": {
@@ -549,7 +549,7 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 50,
       "max": 0,
       "base": 50,
       "bonus": {
@@ -638,7 +638,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -674,11 +678,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -689,7 +695,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -805,17 +835,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.b7dc1c0d0c56b29e"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019254,
         "modifiedTime": 1667422181050,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.b7dc1c0d0c56b29e",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -934,17 +965,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.630b6483eb096f3b"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018866,
         "modifiedTime": 1667422194806,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.630b6483eb096f3b",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1064,17 +1096,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.pnUuqUyb2hEuXiSh"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667422705456,
         "modifiedTime": 1667422729662,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.pnUuqUyb2hEuXiSh",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "1j21uv1BUR5teEn9",
       "_key": "!actors.items!YE50aqWF9yAN81HG.1j21uv1BUR5teEn9"
@@ -1174,17 +1207,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.e8f29a6c81e48464"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005697,
         "modifiedTime": 1667422750882,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.e8f29a6c81e48464",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1288,17 +1322,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.83fd22d5e3b1ee5a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005682,
         "modifiedTime": 1667422776202,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.83fd22d5e3b1ee5a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1307,8 +1342,6 @@
   ],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "3PdTisroHqtXztkQ",
@@ -1322,14 +1355,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!YE50aqWF9yAN81HG.3PdTisroHqtXztkQ"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -1434,14 +1483,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!YE50aqWF9yAN81HG.LiNcZNT4WrMEpnSF"
     },
     {
-      "label": "Armes",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "6uYftgD3gVxs46ze",
@@ -1455,28 +1520,47 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!YE50aqWF9yAN81HG.6uYftgD3gVxs46ze"
     }
   ],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-bete.YE50aqWF9yAN81HG"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667421365558,
-    "modifiedTime": 1686392085615,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770386459631,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-bete.YE50aqWF9yAN81HG",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "YE50aqWF9yAN81HG",
   "folder": null,
-  "sort": 0,
+  "sort": 14800000,
   "ownership": {
     "default": 0
   },

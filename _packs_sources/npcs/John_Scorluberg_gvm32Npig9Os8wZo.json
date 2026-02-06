@@ -493,7 +493,7 @@
     },
     "description": "<p>John Scorluberg &eacute;tait une personnalit&eacute; connue &agrave; travers le monde entier avant l&rsquo;arriv&eacute;e des t&eacute;n&egrave;bres. R&eacute;alisateur prim&eacute; et tr&egrave;s prolixe du Hollywood de la fin du XXIe si&egrave;cle, l&rsquo;homme fait partie des rares artistes &agrave; ne pas avoir totalement perdu la fibre artistique qui &eacute;tait en lui. Bien s&ucirc;r, le cin&eacute;ma ayant assez peu d&rsquo;impact sur l&rsquo;espoir des citoyens et les bons acteurs venant &agrave; manquer, John Scorluberg ne fait plus de grosses productions. Il a pr&eacute;f&eacute;r&eacute; mettre son talent au service des immortels et c&rsquo;est dans plusieurs studios portant son nom qu&rsquo;une partie des vid&eacute;os des immortels de tout lieu prennent vie avant d&rsquo;appara&icirc;tre sur les r&eacute;seaux RA. Bien s&ucirc;r, ce regain de succ&egrave;s a fait gonfler les chevilles de l&rsquo;homme alors qu&rsquo;on pensait que ce n&rsquo;&eacute;tait plus possible. Dor&eacute;navant, le r&eacute;alisateur se croit le sauveur de l&rsquo;Humanit&eacute; et ne supporte aucun &laquo; non &raquo;.</p>",
     "tactique": "<p>John Scorluberg ne combat pas et est prot&eacute;g&eacute; par des gardes personnels. Il sera exfiltr&eacute; &agrave; la moindre attaque ou au moindre coup de feu.</p>",
-    "type": "Salopard (initié) / allié (héros)",
+    "type": "Salopard (initié) / Allié (héros)",
     "pointsFaibles": "",
     "phase2Activate": false,
     "phase2": {
@@ -539,7 +539,7 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 20,
       "max": 0,
       "base": 20,
       "bonus": {
@@ -623,7 +623,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -659,11 +663,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -674,7 +680,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -793,25 +823,24 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.76f7c56995dad05f"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890018880,
         "modifiedTime": 1685563708404,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.76f7c56995dad05f",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!gvm32Npig9Os8wZo.2zrdxSl74beTk53x"
     }
   ],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "MqGVJiRzuaeJ5uUT",
@@ -825,14 +854,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!gvm32Npig9Os8wZo.MqGVJiRzuaeJ5uUT"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -937,14 +982,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!gvm32Npig9Os8wZo.Nn9ZPGxWEejuYcqN"
     },
     {
-      "label": "Armes",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "JxjB3qrTkJnx3t7B",
@@ -958,24 +1019,45 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!gvm32Npig9Os8wZo.JxjB3qrTkJnx3t7B"
     }
   ],
   "flags": {},
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1685563642762,
-    "modifiedTime": 1685567477676,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770387153136,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "gvm32Npig9Os8wZo",
   "folder": null,
-  "sort": 0,
+  "sort": 18500000,
   "ownership": {
     "default": 0,
     "Kisv9JwB5w6zIXyv": 3

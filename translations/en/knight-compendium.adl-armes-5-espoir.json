@@ -1,0 +1,20 @@
+{
+  "label": "Weapons - 5. Relic of hope",
+  "mapping": {
+    "description": "system.description",
+    "m0Nom": "system.optionsmunitions.liste.0.nom",
+    "m1Nom": "system.optionsmunitions.liste.1.nom",
+    "m2Nom": "system.optionsmunitions.liste.2.nom",
+    "m3Nom": "system.optionsmunitions.liste.3.nom"
+  },
+  "entries": {
+    "Épée du sacre de Charlemagne": {
+      "name": "'Joyeuse.' Charlemagn's coronation sword",
+      "description": "<p>This beautiful sword is a composite of various parts added over the centuries. Both sides of the pommel contain engravings of falcons, its crossguard extends in a stylised winged dragon motif, and the handle is encased in gold grip covered in diamond patterns. Its scabbard also bears a plaque decorated in gemstones of various colours, and a length covered in fleur-de-lys embroidery. This regalia was used in French coronations all the way back to Charlemagne, and appears in many songs and tales of old.</p>\n<p>It still shines as bright today as it did before, and remains a bladed weapon actually capable of being used as one. Since the arrival of darkness, it seems to glow and pulsate with a soft, comforting aura, soothing its wielder and imparting a powerful sense of serenity unto them.</p><p><strong>Special</strong>: While the character has Joyeuse in hand, all their hope losses are reduced by 1 point. This effect can stack with other hope loss reduction effects.</p>\n<h2>Relic of hope</h2>\n<p>Avalon currently has three relics of hope in its vaults. These items are works of art, be they weapon, jewellery, or armour. All are priceless and irreplaceable, and are only bestowed upon the most worthy Knights. A relic of hope can purge the sickness of despair from those who succumb to Horror, dragging them back to sanity. Their mere presence is enough to shine light on creatures of the Anathema and cause them physical pain. In short, relics of hope are unique boons prized by Avalon in its fight against the dark, and the organisation is always on the lookout for more of them.</p>\n<p>Relics of hope can only be acquired by Knights who have reached a total of 300 GP or more. Furthermore, there is only one of each relic.</p>\n"
+    },
+    "Première grande lance du Japon": {
+      "name": "'Tonbokiri.' First spear of japan",
+      "description": "<p>The Tonbokiri is one of three legendary Japanese spears created by the famed swordsmith Masazane Fujiwara. It is said to have been wielded by the daimyō Honda Tadakatsu, a renowned samurai and general of Tokugawa Ieyasu. The spear derives its name from the myth that a dragonfly landed on its blade and was instantly cut in two. Thus tonbo, Japanese for ‘dragonfly,’ and kiri, Japanese for ‘cutting,’ which translates to this spear‘s name as ‘Dragonfly Cutter.’ Few people in Avalon know where the spear comes from; some say it must have been a gift to Arthur from Iwata Kaneda himself.</p>\n<h2>Relic of hope</h2>\n<p>Avalon currently has three relics of hope in its vaults. These items are works of art, be they weapon, jewellery, or armour. All are priceless and irreplaceable, and are only bestowed upon the most worthy Knights. A relic of hope can purge the sickness of despair from those who succumb to Horror, dragging them back to sanity. Their mere presence is enough to shine light on creatures of the Anathema and cause them physical pain. In short, relics of hope are unique boons prized by Avalon in its fight against the dark, and the organisation is always on the lookout for more of them.</p>\n<p>Relics of hope can only be acquired by Knights who have reached a total of 300 GP or more. Furthermore, there is only one of each relic.</p>\n"
+    }
+  }
+}

@@ -384,7 +384,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 150,
       "max": 0,
       "base": 150,
       "optionDeploy": false
@@ -461,7 +461,8 @@
       }
     },
     "type": "Bande (recrue)",
-    "tactique": "<p>Les miliciens sont omnipr&eacute;sents dans une arche.&nbsp;<br>Ils r&eacute;agissent au moindre manquement au bon ordre et &eacute;vitent g&eacute;n&eacute;ralement de tuer sauf s&rsquo;ils en re&ccedil;oivent l&rsquo;ordre direct. Ils pr&eacute;f&egrave;rent utiliser des armes &agrave; distance et arrosent leurs ennemis depuis des positions &agrave; couvert ou depuis leurs v&eacute;hicules de combat. Il est &agrave; noter qu&rsquo;un milicien tirant depuis un v&eacute;hicule est consid&eacute;r&eacute; comme un hostile poss&eacute;dant les m&ecirc;mes scores que la bande (sauf la coh&eacute;sion et le d&eacute;bordement) ainsi que 30 PS et utilisant une arme pr&eacute;sente sur le v&eacute;hicule.</p>"
+    "tactique": "<p>Les miliciens sont omnipr&eacute;sents dans une arche.&nbsp;<br>Ils r&eacute;agissent au moindre manquement au bon ordre et &eacute;vitent g&eacute;n&eacute;ralement de tuer sauf s&rsquo;ils en re&ccedil;oivent l&rsquo;ordre direct. Ils pr&eacute;f&egrave;rent utiliser des armes &agrave; distance et arrosent leurs ennemis depuis des positions &agrave; couvert ou depuis leurs v&eacute;hicules de combat. Il est &agrave; noter qu&rsquo;un milicien tirant depuis un v&eacute;hicule est consid&eacute;r&eacute; comme un hostile poss&eacute;dant les m&ecirc;mes scores que la bande (sauf la coh&eacute;sion et le d&eacute;bordement) ainsi que 30 PS et utilisant une arme pr&eacute;sente sur le v&eacute;hicule.</p>",
+    "origin": "humain"
   },
   "prototypeToken": {
     "name": "Milicien",
@@ -474,7 +475,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -510,11 +515,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -525,7 +532,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -641,17 +672,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018810,
         "modifiedTime": 1667218675130,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -770,17 +802,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.ce241cd4369ca2d0"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019270,
         "modifiedTime": 1667218679581,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.ce241cd4369ca2d0",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -789,21 +822,22 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.profils-humains.mgBZXcFuE84v5Jxz"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667217651610,
-    "modifiedTime": 1668026276181,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770384812711,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.profils-humains.mgBZXcFuE84v5Jxz",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "mgBZXcFuE84v5Jxz",
   "folder": null,
-  "sort": 0,
+  "sort": 20700000,
   "ownership": {
     "default": 0
   },

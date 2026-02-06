@@ -497,7 +497,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 200,
       "max": 0,
       "base": 200,
       "optionDeploy": false
@@ -624,7 +624,8 @@
       "resilience": false,
       "modules": false,
       "phase2": false
-    }
+    },
+    "origin": "autre"
   },
   "prototypeToken": {
     "name": "Maria Lasserre",
@@ -637,7 +638,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -673,11 +678,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -688,7 +695,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -804,17 +835,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018810,
         "modifiedTime": 1667586601578,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -933,17 +965,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.600a8ea0ccdc6a60"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018864,
         "modifiedTime": 1667586638888,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.600a8ea0ccdc6a60",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1062,17 +1095,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.d7623336525efb62"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019274,
         "modifiedTime": 1667586649036,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.d7623336525efb62",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1174,17 +1208,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.IFsABSzGFoUzzKrB"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667586855015,
         "modifiedTime": 1667587225726,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.IFsABSzGFoUzzKrB",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "Lo4VRUc1BtuBjgnU",
       "_key": "!actors.items!903ASkd4MEMmcwJh.Lo4VRUc1BtuBjgnU"
@@ -1284,17 +1319,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.wcibLQrY6LPvHJ5U"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667587456523,
         "modifiedTime": 1667587649795,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.wcibLQrY6LPvHJ5U",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "1u1qSxvWT7mTQgtF",
       "_key": "!actors.items!903ASkd4MEMmcwJh.1u1qSxvWT7mTQgtF"
@@ -1302,21 +1338,22 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-dame.903ASkd4MEMmcwJh"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667584958078,
-    "modifiedTime": 1685567386135,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770387350828,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-dame.903ASkd4MEMmcwJh",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "903ASkd4MEMmcwJh",
   "folder": null,
-  "sort": 0,
+  "sort": 4000000,
   "ownership": {
     "default": 0
   },

@@ -504,7 +504,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -540,11 +544,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -555,7 +561,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -671,17 +701,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.e372417c0b24b75d"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019280,
         "modifiedTime": 1666904622148,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.e372417c0b24b75d",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -800,17 +831,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.f6b6f298d399638a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019305,
         "modifiedTime": 1666904666075,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.f6b6f298d399638a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -929,17 +961,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.ecba22620c6471b2"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019290,
         "modifiedTime": 1666904746276,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.ecba22620c6471b2",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1058,17 +1091,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019239,
         "modifiedTime": 1666904797666,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1188,17 +1222,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.PF7JSlUGTUve06lx"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666904912660,
         "modifiedTime": 1666904961419,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.PF7JSlUGTUve06lx",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "wnV6a1TzNWNxG6Pr",
       "_key": "!actors.items!d7u8cHzwYlYUr2Zk.wnV6a1TzNWNxG6Pr"
@@ -1316,17 +1351,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.d7cf492179ece7c0"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019275,
         "modifiedTime": 1666905105070,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.d7cf492179ece7c0",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1445,17 +1481,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.3661a410a4c5761b"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.5",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018829,
         "modifiedTime": 1666905155376,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.3661a410a4c5761b",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1554,10 +1591,13 @@
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666905201751,
         "modifiedTime": 1667154149164,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!d7u8cHzwYlYUr2Zk.q0Z51PmEaYklQjyT"
     },
@@ -1658,27 +1698,31 @@
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666905265113,
         "modifiedTime": 1667154203140,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!d7u8cHzwYlYUr2Zk.Yyk0p7GsSvorPvBo"
     }
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.d7u8cHzwYlYUr2Zk"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
     "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "coreVersion": "13.351",
     "createdTime": 1666904156987,
     "modifiedTime": 1668026211645,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.d7u8cHzwYlYUr2Zk",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "d7u8cHzwYlYUr2Zk",
   "folder": null,

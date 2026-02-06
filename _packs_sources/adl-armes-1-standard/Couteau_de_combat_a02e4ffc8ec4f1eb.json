@@ -1,0 +1,134 @@
+{
+  "name": "Couteau de combat",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/couteau-de-combat.webp",
+  "system": {
+    "description": "<p>Tout soldat qui se respecte a été formé au combat au couteau. Celui du Knight est forgé dans un alliage d'élément alpha quasi indestructible. La lame est courbée tel un sabre. Le dos est cranté pour mieux scier. La poignée est protégée par une garde solide. Bref, c'est l'arme idéale pour couper des gorges en silence et multiplier les coups d'estoc et de taille.</p>\n",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 15,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 3,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "jumeleambidextrie",
+        "orfevrerie",
+        "silencieux"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "a02e4ffc8ec4f1eb",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-standard.a02e4ffc8ec4f1eb"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.4",
+    "coreVersion": "10.303",
+    "createdTime": 1666890002686,
+    "modifiedTime": 1694104199344,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!a02e4ffc8ec4f1eb"
+}

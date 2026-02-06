@@ -384,9 +384,9 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 50,
       "max": 0,
-      "base": 0
+      "base": 50
     },
     "description": "<p>Les humains qui sont tomb&eacute;s dans le d&eacute;sespoir face &agrave; la Chair sont nomm&eacute;s les infestes. En effet, l&rsquo;&eacute;clat n&rsquo;absorbe pas forc&eacute;ment tous les humains auxquels il se confronte. Dans le cas de ceux qui ont &eacute;t&eacute; pris de d&eacute;sespoir brutalement ou qui en sont m&ecirc;me morts, ne pas les assimiler compl&egrave;tement a plusieurs int&eacute;r&ecirc;ts. Le premier, c&rsquo;est d&rsquo;en faire des armes proches des Hommes, des cr&eacute;atures qui r&eacute;sistent assez bien &agrave; la lumi&egrave;re pour pouvoir agir de jour (pour peu que le temps ne soit pas trop cl&eacute;ment). Le deuxi&egrave;me, c&rsquo;est que ces infestes constituent une r&eacute;serve d&rsquo;organes, de peau et d&rsquo;os assez mobile pour aller l&agrave; o&ugrave; le Seigneur a besoin de leur corps. Enfin, la seule pr&eacute;sence de l&rsquo;obscurit&eacute; de la Chair finit fatalement par transformer les humains en infestes. Ainsi, ces d&eacute;sesp&eacute;r&eacute;s sont tr&egrave;s r&eacute;pandus et peuvent &ecirc;tre visibles de jour, m&ecirc;me s&rsquo;ils agissent principalement de nuit, formant alors des arm&eacute;es de milliers d&rsquo;humains d&eacute;form&eacute;s et pleins de haine.</p>",
     "histoire": "",
@@ -473,7 +473,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -509,11 +513,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -524,7 +530,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -640,17 +670,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018810,
         "modifiedTime": 1667143141886,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -769,17 +800,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.64f2bade70f971a2"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018867,
         "modifiedTime": 1667143149202,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.64f2bade70f971a2",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -788,17 +820,18 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.lFbiVmvFMYb0kXKF"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667142890638,
-    "modifiedTime": 1668026211627,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770387831051,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.lFbiVmvFMYb0kXKF",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "lFbiVmvFMYb0kXKF",
   "folder": null,

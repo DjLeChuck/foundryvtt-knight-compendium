@@ -497,14 +497,14 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 60,
       "max": 0,
       "base": 60,
       "optionDeploy": false
     },
     "description": "<p>Cicero Ceves est aussi d&eacute;mesur&eacute; dans sa mani&egrave;re d&rsquo;&ecirc;tre que ses deux co&eacute;quipiers sont sobres. Ancien joueur de football am&eacute;ricain &agrave; New York, il a fui la c&ocirc;te Est des &Eacute;tats-Unis &agrave; l&rsquo;arriv&eacute;e de la Machine. Il &eacute;tait en train de passer son brevet de pilote et a fait le voyage &agrave; bord d&rsquo;un avion qu&rsquo;il avait vol&eacute;. Bien s&ucirc;r, Cicero n&rsquo;&eacute;tait pas seul et il a sauv&eacute; plusieurs centaines de New-yorkais par ses actes. Cela lui a valu d&rsquo;&ecirc;tre remarqu&eacute; par Kay et de rejoindre la coterie de Gideon.Depuis son aventure, Cicero, en armure Priest, est devenu un pilote &eacute;m&eacute;rite et un bon m&eacute;cano. Adepte du combat au corps &agrave; corps, il n&rsquo;h&eacute;site pas &agrave; ponctuer ses coups de petites piques humoristiques. Il est le seul &agrave; r&eacute;ussir &agrave; d&eacute;rider Gideon lors de leurs nombreux entra&icirc;nements ensemble.</p>",
     "tactique": "<p>Cicero est un personnage audacieux, parfois imprudent, qui a eu beaucoup de mal &agrave; accepter le calme et la discr&eacute;tion de sa coterie. Gr&acirc;ce &agrave; Gideon et &agrave; la suite d&rsquo;une op&eacute;ration qui a mal tourn&eacute;, il a cependant compris que les missions d&rsquo;observation n&eacute;cessitaient de la d&eacute;licatesse et du sang-froid. Depuis, Cicero est un support exemplaire qui intervient uniquement lorsque c&rsquo;est n&eacute;cessaire et qui accepte d&rsquo;&ecirc;tre en retrait. Il n&rsquo;use de ses armes et de sa puissance de feu que lorsque la situation l&rsquo;exige et jubile d&egrave;s qu&rsquo;il peut d&eacute;truire les engeances de l&rsquo;Anath&egrave;me.</p>",
-    "type": "allié (initié)",
+    "type": "Allié (initié)",
     "pointsFaibles": "",
     "phase2Activate": false,
     "phase2": {
@@ -550,7 +550,7 @@
       }
     },
     "armure": {
-      "value": null,
+      "value": 70,
       "max": 0,
       "base": 70,
       "bonus": {
@@ -588,7 +588,7 @@
     "histoire": "",
     "metaarmure": "",
     "energie": {
-      "value": 0,
+      "value": 60,
       "max": 0,
       "base": 60,
       "bonus": {
@@ -639,7 +639,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -675,11 +679,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -690,7 +696,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -807,17 +837,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.pnUuqUyb2hEuXiSh"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667422705456,
         "modifiedTime": 1667424737120,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.pnUuqUyb2hEuXiSh",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "UPLwWiAoqLbZ5wko",
       "_key": "!actors.items!hHhHVmcShOIiMCWN.UPLwWiAoqLbZ5wko"
@@ -936,17 +967,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.aw1slwS7GQT6oy4y"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667424942616,
         "modifiedTime": 1667424978727,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.aw1slwS7GQT6oy4y",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "i3UnCbTlAAmhu8C8",
       "_key": "!actors.items!hHhHVmcShOIiMCWN.i3UnCbTlAAmhu8C8"
@@ -1064,17 +1096,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.630b6483eb096f3b"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018866,
         "modifiedTime": 1667424987415,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.630b6483eb096f3b",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1171,17 +1204,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-standard.e33ef6366b61fb23"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890002690,
         "modifiedTime": 1667425083105,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-standard.e33ef6366b61fb23",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "WSLEdZOoNq5OS4E3",
       "sort": 0,
@@ -1283,17 +1317,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.7e3201bd7b540e2c"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005681,
         "modifiedTime": 1667425097377,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.7e3201bd7b540e2c",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1302,8 +1337,6 @@
   ],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "WgNg00emfk3wfVxx",
@@ -1317,14 +1350,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!hHhHVmcShOIiMCWN.WgNg00emfk3wfVxx"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -1429,14 +1478,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!hHhHVmcShOIiMCWN.NWyOK448yvr0JHGX"
     },
     {
-      "label": "Armes",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "qSITUIA4HgEyJYUd",
@@ -1450,28 +1515,47 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!hHhHVmcShOIiMCWN.qSITUIA4HgEyJYUd"
     }
   ],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-bete.hHhHVmcShOIiMCWN"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667424439973,
-    "modifiedTime": 1686392052085,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770386170869,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-bete.hHhHVmcShOIiMCWN",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "hHhHVmcShOIiMCWN",
   "folder": null,
-  "sort": 0,
+  "sort": 18700000,
   "ownership": {
     "default": 0
   },

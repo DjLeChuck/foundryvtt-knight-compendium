@@ -1,7 +1,7 @@
 {
-  "name": "Le Collectionneur  (3è rencontre)",
-  "type": "creature",
-  "img": "systems/knight/assets/icons/creature.svg",
+  "name": "Cicero Ceves (Héros)",
+  "type": "pnj",
+  "img": "modules/knight-compendium/assets/npc/cicero-ceves.webp",
   "system": {
     "combat": {
       "armesimprovisees": {
@@ -246,10 +246,136 @@
           "dice": 0,
           "fixe": 0
         }
+      },
+      "nods": {
+        "soin": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "armure": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        },
+        "energie": {
+          "value": 0,
+          "max": 0,
+          "recuperationBonus": 0
+        }
+      },
+      "grenades": {
+        "quantity": {
+          "value": 5,
+          "max": 5
+        },
+        "liste": {
+          "antiblindage": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "destructeur",
+                "dispersion 6",
+                "penetrant 6",
+                "percearmure 20"
+              ],
+              "custom": []
+            }
+          },
+          "explosive": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "antivehicule",
+                "choc 1",
+                "dispersion 3"
+              ],
+              "custom": []
+            }
+          },
+          "flashbang": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "barrage 2",
+                "choc 1",
+                "dispersion 6"
+              ],
+              "custom": []
+            }
+          },
+          "iem": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "aucundegatsviolence",
+                "dispersion 6",
+                "parasitage 2"
+              ],
+              "custom": []
+            }
+          },
+          "shrapnel": {
+            "degats": {
+              "dice": 3
+            },
+            "violence": {
+              "dice": 3
+            },
+            "effets": {
+              "liste": [],
+              "raw": [
+                "dispersion 6",
+                "meurtrier",
+                "ultraviolence"
+              ],
+              "custom": []
+            }
+          }
+        }
       }
     },
     "aspects": {
       "chair": {
+        "value": 12,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "3",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
+      "bete": {
         "value": 6,
         "max": 20,
         "ae": {
@@ -263,22 +389,8 @@
           }
         }
       },
-      "bete": {
-        "value": 12,
-        "max": 20,
-        "ae": {
-          "mineur": {
-            "value": "4",
-            "max": 10
-          },
-          "majeur": {
-            "value": "0",
-            "max": 10
-          }
-        }
-      },
       "machine": {
-        "value": 2,
+        "value": 14,
         "max": 20,
         "ae": {
           "mineur": {
@@ -286,13 +398,13 @@
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": "4",
             "max": 10
           }
         }
       },
       "dame": {
-        "value": 2,
+        "value": 6,
         "max": 20,
         "ae": {
           "mineur": {
@@ -306,15 +418,15 @@
         }
       },
       "masque": {
-        "value": 2,
+        "value": 10,
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "3",
+            "value": "0",
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": "5",
             "max": 10
           }
         }
@@ -327,7 +439,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 10
+        "user": 8
       },
       "malus": {
         "user": 0
@@ -354,7 +466,7 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 5,
+      "base": 7,
       "optionDeploy": false
     },
     "defense": {
@@ -371,7 +483,7 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 7,
+      "base": 3,
       "optionDeploy": false
     },
     "sante": {
@@ -385,15 +497,15 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 60,
       "max": 0,
-      "base": 250,
+      "base": 60,
       "optionDeploy": false
     },
-    "description": "",
-    "tactique": "<p>Cette cr&eacute;ature aime se t&eacute;l&eacute;porter et attaquer le personnage avec le plus d&rsquo;Aura ou de Hargne. Brutale et rapide, elle est difficilement touchable au corps &agrave; corps, mais craint particuli&egrave;rement les armes &agrave; distance. Elle peut d&eacute;cider d&rsquo;effectuer indiff&eacute;remment ses attaques au contact ou &agrave; distance.</p>",
-    "type": "Patron (initié)",
-    "pointsFaibles": "<p>Perception/Hargne</p>",
+    "description": "<p>Cicero Ceves est aussi d&eacute;mesur&eacute; dans sa mani&egrave;re d&rsquo;&ecirc;tre que ses deux co&eacute;quipiers sont sobres. Ancien joueur de football am&eacute;ricain &agrave; New York, il a fui la c&ocirc;te Est des &Eacute;tats-Unis &agrave; l&rsquo;arriv&eacute;e de la Machine. Il &eacute;tait en train de passer son brevet de pilote et a fait le voyage &agrave; bord d&rsquo;un avion qu&rsquo;il avait vol&eacute;. Bien s&ucirc;r, Cicero n&rsquo;&eacute;tait pas seul et il a sauv&eacute; plusieurs centaines de New-yorkais par ses actes. Cela lui a valu d&rsquo;&ecirc;tre remarqu&eacute; par Kay et de rejoindre la coterie de Gideon.Depuis son aventure, Cicero, en armure Priest, est devenu un pilote &eacute;m&eacute;rite et un bon m&eacute;cano. Adepte du combat au corps &agrave; corps, il n&rsquo;h&eacute;site pas &agrave; ponctuer ses coups de petites piques humoristiques. Il est le seul &agrave; r&eacute;ussir &agrave; d&eacute;rider Gideon lors de leurs nombreux entra&icirc;nements ensemble.</p>",
+    "tactique": "<p>Cicero est un personnage audacieux, parfois imprudent, qui a eu beaucoup de mal &agrave; accepter le calme et la discr&eacute;tion de sa coterie. Gr&acirc;ce &agrave; Gideon et &agrave; la suite d&rsquo;une op&eacute;ration qui a mal tourn&eacute;, il a cependant compris que les missions d&rsquo;observation n&eacute;cessitaient de la d&eacute;licatesse et du sang-froid. Depuis, Cicero est un support exemplaire qui intervient uniquement lorsque c&rsquo;est n&eacute;cessaire et qui accepte d&rsquo;&ecirc;tre en retrait. Il n&rsquo;use de ses armes et de sa puissance de feu que lorsque la situation l&rsquo;exige et jubile d&egrave;s qu&rsquo;il peut d&eacute;truire les engeances de l&rsquo;Anath&egrave;me.</p>",
+    "type": "Allié (Héros)",
+    "pointsFaibles": "",
     "phase2Activate": false,
     "phase2": {
       "sante": 0,
@@ -438,9 +550,9 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 70,
       "max": 0,
-      "base": 0,
+      "base": 70,
       "bonus": {
         "user": 0,
         "modules": 0,
@@ -448,58 +560,90 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "optionDeploy": false
     },
     "bouclier": {
       "value": 0,
       "max": 0,
-      "base": 15,
+      "base": 0,
       "bonus": {
         "user": 0
       },
       "malus": {
         "user": 0
-      },
-      "optionDeploy": false
+      }
     },
     "resilience": {
       "value": 0,
       "max": 0
     },
+    "surnom": "",
+    "age": "",
+    "wear": "",
+    "archetype": "",
+    "hautFait": "",
+    "section": "",
+    "blason": "",
     "histoire": "",
+    "metaarmure": "",
     "energie": {
-      "value": 0,
+      "value": 60,
       "max": 0,
-      "base": 0,
+      "base": 60,
       "bonus": {
         "user": 0,
         "modules": 0
       },
       "malus": {
         "user": 0
-      }
+      },
+      "optionDeploy": false
+    },
+    "champDeForce": {
+      "value": 0,
+      "base": 10,
+      "bonus": {
+        "user": 0,
+        "modules": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "optionDeploy": false
+    },
+    "espoir": {
+      "value": 0,
+      "max": 0
     },
     "options": {
-      "energie": false,
+      "energie": true,
+      "champDeForce": true,
       "sante": true,
-      "bouclier": true,
-      "armure": false,
+      "bouclier": false,
+      "armure": true,
+      "espoir": false,
       "resilience": false,
+      "modules": true,
       "phase2": false
     }
   },
   "prototypeToken": {
-    "name": "Le collectionneur",
+    "name": "Cicero Ceves",
     "displayName": 0,
     "actorLink": false,
     "texture": {
-      "src": "systems/knight/assets/icons/creature.svg",
+      "src": "modules/knight-compendium/assets/npc/cicero-ceves.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -535,11 +679,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -550,15 +696,40 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
-      "name": "Téléportation (ombres)",
+      "folder": "tdM7pAG1fy6ovTFO",
+      "name": "Méta-armure (Priest)",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ peut apparaître et disparaître à volonté dans l'élément correspondant.</p>\n",
+        "description": "<p>Le PNJ poss&egrave;de les capacit&eacute;s d&rsquo;une m&eacute;ta-armure Priestavec &eacute;volution &agrave; 150 et 200 PG totaux.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -661,33 +832,34 @@
         }
       },
       "effects": [],
-      "_id": "b2uVSnNXFYiGzElR",
+      "sort": 0,
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.cbec271b05955401"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1666890019269,
-        "modifiedTime": 1667300063558,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "1.5.7",
+        "coreVersion": "13.351",
+        "createdTime": 1667422705456,
+        "modifiedTime": 1667424737120,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.pnUuqUyb2hEuXiSh",
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "folder": "FdIw3AaAAqfstH0n",
-      "sort": 0,
-      "_key": "!actors.items!MMwcsiP62x1F5vlh.b2uVSnNXFYiGzElR"
+      "_id": "UPLwWiAoqLbZ5wko",
+      "_key": "!actors.items!wSb6lXPad63NJhzy.UPLwWiAoqLbZ5wko"
     },
     {
-      "name": "Obscurité impénétrable",
+      "folder": "tdM7pAG1fy6ovTFO",
+      "name": "Aisance",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ est immunisé à l'effet lumière généré par des armes, des outils ou des modules. Il reste sensible à l'effet lumière généré par l'art.</p>\n",
+        "description": "<p>En termes de jeu, le PNJ ignore l&rsquo;effet lourd des armes. Cependant, il doit&nbsp;<br>quand m&ecirc;me les tenir &agrave; deux mains pour pouvoir les utiliser.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -790,33 +962,33 @@
         }
       },
       "effects": [],
-      "_id": "LMsa1ILX5IKgyxYF",
+      "sort": 0,
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.e04e985b7ea5accc"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1666890019277,
-        "modifiedTime": 1667300071683,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "1.5.7",
+        "coreVersion": "13.351",
+        "createdTime": 1667424942616,
+        "modifiedTime": 1667424978727,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.aw1slwS7GQT6oy4y",
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "folder": "FdIw3AaAAqfstH0n",
-      "sort": 0,
-      "_key": "!actors.items!MMwcsiP62x1F5vlh.LMsa1ILX5IKgyxYF"
+      "_id": "i3UnCbTlAAmhu8C8",
+      "_key": "!actors.items!wSb6lXPad63NJhzy.i3UnCbTlAAmhu8C8"
     },
     {
-      "name": "Domination",
+      "name": "Chevalier héroïque",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Une fois par tour, sans utiliser d'action, le PNJ peut tenter de prendre le contrôle de l'esprit d'un personnage grâce à un test sous l'aspect Machine en opposition à la Hargne du PJ visé (avec overdrives) (ou Bête/2 pour un PNJ). S'il réussit, ce dernier agit sous ses ordres au prochain tour comme s'il possédait une action de combat et de déplacement (et uniquement au prochain tour). Le personnage dominé perd ce tour de jeu et ne peut pas effectuer d'action.</p>\n",
+        "description": "<p>Le PNJ dispose de 6 modules standards, avancés ou rares à définir et répartir par le MJ. L'équipement de ces modules doit respecter le nombre de slots de la méta-armure.</p>\n",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -919,296 +1091,39 @@
         }
       },
       "effects": [],
-      "_id": "5y2UttMVghuhGTtH",
+      "_id": "HOz7B5Lp1s1v9Fu7",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.0e861d7cdf9a8085"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1666890018802,
-        "modifiedTime": 1667300085529,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "1.7.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666890018830,
+        "modifiedTime": 1667559295543,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.386557f70752eda5",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
-      "_key": "!actors.items!MMwcsiP62x1F5vlh.5y2UttMVghuhGTtH"
+      "_key": "!actors.items!wSb6lXPad63NJhzy.HOz7B5Lp1s1v9Fu7"
     },
     {
-      "name": "Anathème",
-      "type": "capacite",
-      "img": "systems/knight/assets/icons/capacite.svg",
-      "system": {
-        "description": "<p>Le PNJ peut décider d'infliger ses dégâts sur les points d'espoir plutôt que sur les points de santé. Le CdF fonctionne, mais pas les points d'armure. Si le PNJ est tué, les PJ ayant subi cet effet récupèrent 1D6 points d'espoir par tranche complète de 6 points d'espoir perdus.</p>\n",
-        "aspects": {
-          "chair": {},
-          "bete": {},
-          "machine": {},
-          "dame": {},
-          "masque": {}
-        },
-        "isPhase2": false,
-        "bonus": {
-          "aspectsLieSupplementaire": {
-            "has": false,
-            "value": "chair"
-          },
-          "sante": {
-            "has": false,
-            "aspect": {
-              "lie": false,
-              "value": "chair",
-              "multiplie": 5
-            },
-            "value": 0
-          },
-          "armure": {
-            "has": false,
-            "aspect": {
-              "lie": false,
-              "value": "chair",
-              "multiplie": 5
-            },
-            "value": 0
-          },
-          "aspectMax": {
-            "has": false,
-            "aspect": "chair",
-            "maximum": {
-              "aspect": 40,
-              "ae": 20
-            }
-          }
-        },
-        "degats": {
-          "has": false,
-          "system": {
-            "dice": 0,
-            "fixe": 0,
-            "effets": {
-              "raw": [],
-              "custom": [],
-              "liste": []
-            }
-          }
-        },
-        "attaque": {
-          "has": false,
-          "type": "contact",
-          "portee": "contact",
-          "degats": {
-            "dice": 0,
-            "fixe": 0
-          },
-          "effets": {
-            "raw": [],
-            "custom": [],
-            "liste": []
-          }
-        },
-        "phase2": {
-          "aspects": {
-            "has": false,
-            "liste": {
-              "chair": {
-                "value": 0
-              },
-              "bete": {
-                "value": 0
-              },
-              "machine": {
-                "value": 0
-              },
-              "dame": {
-                "value": 0
-              },
-              "masque": {
-                "value": 0
-              }
-            }
-          },
-          "sante": {
-            "has": false,
-            "value": 0
-          },
-          "armure": {
-            "has": false,
-            "value": 0
-          },
-          "tactique": {
-            "has": false,
-            "value": ""
-          }
-        }
-      },
-      "effects": [],
-      "_id": "pj3WQEumaD5IcPg7",
-      "ownership": {
-        "default": 0
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.70564a32cf49705f"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1666890018874,
-        "modifiedTime": 1667300095318,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "FdIw3AaAAqfstH0n",
-      "sort": 0,
-      "_key": "!actors.items!MMwcsiP62x1F5vlh.pj3WQEumaD5IcPg7"
-    },
-    {
-      "name": "Actions multiples (1)",
-      "type": "capacite",
-      "img": "systems/knight/assets/icons/capacite.svg",
-      "system": {
-        "description": "<p>Le PNJ possède X actions de combat en plus de son action de déplacement et de combat de base. Ces actions sont à effectuer à son initiative.</p>\n",
-        "aspects": {
-          "chair": {},
-          "bete": {},
-          "machine": {},
-          "dame": {},
-          "masque": {}
-        },
-        "isPhase2": false,
-        "bonus": {
-          "aspectsLieSupplementaire": {
-            "has": false,
-            "value": "chair"
-          },
-          "sante": {
-            "has": false,
-            "aspect": {
-              "lie": false,
-              "value": "chair",
-              "multiplie": 5
-            },
-            "value": 0
-          },
-          "armure": {
-            "has": false,
-            "aspect": {
-              "lie": false,
-              "value": "chair",
-              "multiplie": 5
-            },
-            "value": 0
-          },
-          "aspectMax": {
-            "has": false,
-            "aspect": "chair",
-            "maximum": {
-              "aspect": 40,
-              "ae": 20
-            }
-          }
-        },
-        "degats": {
-          "has": false,
-          "system": {
-            "dice": 0,
-            "fixe": 0,
-            "effets": {
-              "raw": [],
-              "custom": [],
-              "liste": []
-            }
-          }
-        },
-        "attaque": {
-          "has": false,
-          "type": "contact",
-          "portee": "contact",
-          "degats": {
-            "dice": 0,
-            "fixe": 0
-          },
-          "effets": {
-            "raw": [],
-            "custom": [],
-            "liste": []
-          }
-        },
-        "phase2": {
-          "aspects": {
-            "has": false,
-            "liste": {
-              "chair": {
-                "value": 0
-              },
-              "bete": {
-                "value": 0
-              },
-              "machine": {
-                "value": 0
-              },
-              "dame": {
-                "value": 0
-              },
-              "masque": {
-                "value": 0
-              }
-            }
-          },
-          "sante": {
-            "has": false,
-            "value": 0
-          },
-          "armure": {
-            "has": false,
-            "value": 0
-          },
-          "tactique": {
-            "has": false,
-            "value": ""
-          }
-        }
-      },
-      "effects": [],
-      "_id": "w0ZvdXfbyA5Rxvz2",
-      "ownership": {
-        "default": 0
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1666890019239,
-        "modifiedTime": 1667300166243,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "FdIw3AaAAqfstH0n",
-      "sort": 0,
-      "_key": "!actors.items!MMwcsiP62x1F5vlh.w0ZvdXfbyA5Rxvz2"
-    },
-    {
-      "folder": "BZpWmamPeuX1E27W",
-      "name": "Griffes en élément alpha",
+      "name": "Masse magnétique",
       "type": "arme",
-      "img": "systems/knight/assets/icons/arme.svg",
+      "img": "modules/knight-compendium/assets/weapons/masse-magnetique.webp",
       "system": {
-        "description": "",
-        "rarete": "standard",
+        "description": "<p>C'est une masse d'armes imposante à huit lames verticales, d'1m60 de long avec un large manche relié à son extrémité par un câble d'alimentation à la méta-armure de son utilisateur. La masse a pour cœur un puissant générateur de champ magnétique et d'électricité statique rotatif à axe vertical, bien visible sous les lames. Une fois le générateur sous tension, les pointes des lames émettent une lumière ionique, un feu de Saint-Elme. Les coups de masse provoquent alors de véritables éclairs foudroyants. Le champ magnétique, lui, génère attraction ou répulsion capable d'arracher l'armature du béton armé.</p>\n",
+        "rarete": "rare",
         "type": "contact",
-        "portee": "courte",
-        "prix": 0,
+        "portee": "contact",
+        "prix": 90,
+        "energie": 0,
         "listes": {},
         "options2mains": {
           "has": false,
@@ -1248,17 +1163,23 @@
           }
         },
         "degats": {
-          "dice": 3,
-          "fixe": 6
+          "dice": 8,
+          "fixe": 0
         },
         "violence": {
-          "dice": 0,
+          "dice": 6,
           "fixe": 0
         },
         "effets": {
           "liste": [],
           "raw": [
-            "ignorearmure"
+            "choc 2",
+            "deuxmains",
+            "dispersion 3",
+            "ignorechampdeforce",
+            "leste",
+            "lourd",
+            "lumiere 2"
           ],
           "custom": []
         },
@@ -1284,37 +1205,39 @@
         }
       },
       "effects": [],
-      "sort": 0,
+      "_id": "H35h82DOOtiEd7yy",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.nb00RTH8IVRdJSD5"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1667264822708,
-        "modifiedTime": 1667300182415,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "1.7.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666890009131,
+        "modifiedTime": 1667559314388,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.31020f7af7a1d200",
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "_id": "XKQgYQd8BgMd4BO2",
-      "_key": "!actors.items!MMwcsiP62x1F5vlh.XKQgYQd8BgMd4BO2"
+      "folder": "hWomqoUpx2C48FAn",
+      "sort": 0,
+      "_key": "!actors.items!wSb6lXPad63NJhzy.H35h82DOOtiEd7yy"
     },
     {
-      "folder": "BZpWmamPeuX1E27W",
-      "name": "Aiguilles de ténèbres",
+      "name": "Shotgun auto. lourd",
       "type": "arme",
-      "img": "systems/knight/assets/icons/arme.svg",
+      "img": "modules/knight-compendium/assets/weapons/shotgun-auto-lourd.webp",
       "system": {
-        "description": "",
-        "rarete": "standard",
+        "description": "<p>À la demande du chevalier Lamorak, Gauvain a mis au point une nouvelle version du shotgun automatique. Les cartouches, plus puissantes, tirent de la chevrotine en uranium appauvri. Le canon coulisse sur lui-même pour augmenter ou diminuer la dispersion de la chevrotine, il s'adapte ainsi à la nature de l'adversaire. Quand le canon est court, il disperse la chevrotine sur une large zone et des adversaires multiples. Et quand il est long, il centre la chevrotine sur une zone réduite et un adversaire unique. Bref, ce shotgun promet de glorieuses hécatombes à qui saura en tirer le meilleur.</p>\n",
+        "rarete": "rare",
         "type": "distance",
         "portee": "moyenne",
-        "prix": 0,
+        "prix": 80,
+        "energie": 0,
         "listes": {},
         "options2mains": {
           "has": false,
@@ -1354,17 +1277,21 @@
           }
         },
         "degats": {
-          "dice": 3,
-          "fixe": 6
+          "dice": 6,
+          "fixe": 12
         },
         "violence": {
-          "dice": 0,
-          "fixe": 0
+          "dice": 6,
+          "fixe": 12
         },
         "effets": {
           "liste": [],
           "raw": [
-            "dispersion 4"
+            "demoralisant",
+            "deuxmains",
+            "dispersion 6",
+            "fureur",
+            "lourd"
           ],
           "custom": []
         },
@@ -1390,46 +1317,252 @@
         }
       },
       "effects": [],
-      "sort": 0,
+      "_id": "oMlBsg2GuUR5niUr",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.KCTwFDzPJ9BQbxgx"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1667264967489,
-        "modifiedTime": 1667300199340,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "1.7.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666890009149,
+        "modifiedTime": 1667559326950,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.69d16505712c021d",
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "_id": "WJORzc3Ka3mgy2YI",
-      "_key": "!actors.items!MMwcsiP62x1F5vlh.WJORzc3Ka3mgy2YI"
+      "folder": "hWomqoUpx2C48FAn",
+      "sort": 0,
+      "_key": "!actors.items!wSb6lXPad63NJhzy.oMlBsg2GuUR5niUr"
     }
   ],
-  "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-prequelles.MMwcsiP62x1F5vlh"
+  "effects": [
+    {
+      "changes": [],
+      "disabled": false,
+      "_id": "sKMbGWRiTR9kLzjn",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!wSb6lXPad63NJhzy.sKMbGWRiTR9kLzjn"
+    },
+    {
+      "changes": [
+        {
+          "key": "system.aspects.chair.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.chair.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.chair.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.bete.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.bete.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.bete.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.machine.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.machine.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.machine.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.dame.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.dame.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.dame.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.masque.max",
+          "mode": 5,
+          "priority": null,
+          "value": "20"
+        },
+        {
+          "key": "system.aspects.masque.ae.mineur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        },
+        {
+          "key": "system.aspects.masque.ae.majeur.max",
+          "mode": 5,
+          "priority": null,
+          "value": "10"
+        }
+      ],
+      "disabled": false,
+      "_id": "VNPStbJFJE19X5ej",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!wSb6lXPad63NJhzy.VNPStbJFJE19X5ej"
+    },
+    {
+      "changes": [],
+      "disabled": false,
+      "_id": "PV2NmuL2hzHgyJ6b",
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!wSb6lXPad63NJhzy.PV2NmuL2hzHgyJ6b"
     }
+  ],
+  "flags": {
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
-    "createdTime": 1667299453313,
-    "modifiedTime": 1668026252051,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
+    "createdTime": 1667424439973,
+    "modifiedTime": 1770386179785,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.wSb6lXPad63NJhzy",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "_id": "MMwcsiP62x1F5vlh",
+  "_id": "wSb6lXPad63NJhzy",
   "folder": null,
-  "sort": 0,
+  "sort": 24200000,
   "ownership": {
     "default": 0
   },
-  "_key": "!actors!MMwcsiP62x1F5vlh"
+  "_key": "!actors!wSb6lXPad63NJhzy"
 }

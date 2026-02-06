@@ -385,7 +385,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 20,
       "max": 0,
       "base": 20,
       "optionDeploy": false
@@ -485,7 +485,8 @@
       "armure": false,
       "resilience": false,
       "phase2": false
-    }
+    },
+    "origin": "humain"
   },
   "prototypeToken": {
     "name": "Mia Gaspini",
@@ -498,7 +499,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -534,11 +539,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -549,7 +556,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -665,17 +696,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018810,
         "modifiedTime": 1667269702241,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -794,17 +826,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.108ba2e5828c431b"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018805,
         "modifiedTime": 1667269715134,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.108ba2e5828c431b",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -899,17 +932,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.aicteB6GaSDAfLDE"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667177067184,
         "modifiedTime": 1667269741304,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.aicteB6GaSDAfLDE",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "mKiaRt5GsGLVscQ1",
       "_key": "!actors.items!eQgB1HJAF5RNVQ1y.mKiaRt5GsGLVscQ1"
@@ -917,21 +951,22 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-prequelles.eQgB1HJAF5RNVQ1y"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667269591554,
-    "modifiedTime": 1668026252052,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770384778875,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-prequelles.eQgB1HJAF5RNVQ1y",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "eQgB1HJAF5RNVQ1y",
   "folder": null,
-  "sort": 0,
+  "sort": 17200000,
   "ownership": {
     "default": 0
   },

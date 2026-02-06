@@ -1,0 +1,133 @@
+{
+  "name": "Bouclier amovible - Contact",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/bouclier-amovible.webp",
+  "system": {
+    "description": "<p>C'est pour protéger les chevaliers au contact que ce bouclier carré a été créé. Quatre panneaux amovibles aux bords dentés démultiplient sa surface de couverture et sa dangerosité. Au centre, une charge explosive directionnelle à usage unique permet de balayer l'adversité. Pour l'utiliser, il vaut mieux planter le bouclier au sol. Si le sol est en béton, le chevalier doit frapper plus fort !</p>\n",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 20,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 1,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 1,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "defense 2",
+        "jumeleambidextrie"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "f0f7ec5d55a69c6f",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-standard.f0f7ec5d55a69c6f"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.4",
+    "coreVersion": "10.303",
+    "createdTime": 1666890002695,
+    "modifiedTime": 1694104199344,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!f0f7ec5d55a69c6f"
+}

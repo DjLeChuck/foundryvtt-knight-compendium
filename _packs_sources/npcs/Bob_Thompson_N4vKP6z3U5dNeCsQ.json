@@ -539,7 +539,7 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 30,
       "max": 0,
       "base": 30,
       "bonus": {
@@ -622,7 +622,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -658,11 +662,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -673,13 +679,35 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "OCkP2ARCiDKGWg9H",
@@ -693,14 +721,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!N4vKP6z3U5dNeCsQ.OCkP2ARCiDKGWg9H"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -805,14 +849,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!N4vKP6z3U5dNeCsQ.wp4eh3ZiUOOLltYy"
     },
     {
-      "label": "Armes",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "bR6A6n2IgTKzomKs",
@@ -826,24 +886,45 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!N4vKP6z3U5dNeCsQ.bR6A6n2IgTKzomKs"
     }
   ],
   "flags": {},
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1685563718995,
-    "modifiedTime": 1685567477677,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770386101794,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "N4vKP6z3U5dNeCsQ",
   "folder": null,
-  "sort": 0,
+  "sort": 10000000,
   "ownership": {
     "default": 0,
     "Kisv9JwB5w6zIXyv": 3

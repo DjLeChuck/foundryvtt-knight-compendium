@@ -1,0 +1,829 @@
+{
+  "name": "Modules de base",
+  "type": "module",
+  "img": "systems/knight/assets/icons/module.svg",
+  "system": {
+    "description": "<p>En termes techniques, toutes les m&eacute;ta-armures sont &eacute;quip&eacute;es des m&ecirc;mes syst&egrave;mes d&eacute;di&eacute;s &agrave; la survie de leur porteur et &agrave; son efficacit&eacute; sur le terrain. Voici une liste exhaustive des &eacute;quipements fournis sur chaque m&eacute;ta-armure :</p>\n<p>&nbsp;</p>\n<h2>Module fold</h2>\n<p>Toutes les m&eacute;ta-armures sont &eacute;quip&eacute;es du module fold leur donnant la capacit&eacute; de se r&eacute;tracter &ndash; folder &ndash; ou au contraire de se d&eacute;ployer &ndash; d&eacute;folder &ndash; autour d&rsquo;une simple combinaison l&eacute;g&egrave;re en &eacute;l&eacute;ment alpha et alliage ultra r&eacute;sistant, nomm&eacute;e combinaison Guardian, que chaque chevalier porte sous ses v&ecirc;tements.</p>\n<p>L&rsquo;armure appara&icirc;t en 3 &agrave; 6 secondes (1 tour de jeu en phase de conflit) autour du porteur, sur une simple pens&eacute;e. Elle peut se d&eacute;ployer gr&acirc;ce aux nanomachines qui la construisent via un sch&eacute;ma en 3D, par t&eacute;l&eacute;portation ou encore gr&acirc;ce &agrave; des drones constructeurs gravitant autour du personnage (au choix du joueur). Lorsque l&rsquo;armure appara&icirc;t, si le chevalier poss&egrave;de des v&ecirc;tements en dehors de la combinaison, ceux-ci sont d&eacute;truits ou r&eacute;duits en lambeaux. Seuls ses bijoux, sa combinaison, ses armes rack et son pack (sp&eacute;cialement con&ccedil;us pour) restent en &eacute;tat.</p>\n<p><strong>Attention :</strong> En combinaison Guardian, le chevalier dispose de 5 points d&rsquo;armure et d&rsquo;un CdF de 5 points. Aucun module, aucune capacit&eacute; et aucun OD de l&rsquo;armure ne peut &ecirc;tre activ&eacute; si elle n&rsquo;est pas d&eacute;ploy&eacute;e (ou d&eacute;fold&eacute;e). Si la combinaison tombe &agrave; 0 PA, son CdF peut tout de m&ecirc;me &ecirc;tre appliqu&eacute;.</p>\n<p>&nbsp;</p>\n<h2>Module rack</h2>\n<p>Le module rack permet &agrave; l&rsquo;armure de conserver les armes de son porteur sous une forme r&eacute;duite. Des rectangles m&eacute;talliques &agrave; peine plus gros qu&rsquo;une main et &eacute;quip&eacute;s des poign&eacute;es des armes ainsi condens&eacute;es sont r&eacute;partis sur la ceinture de l&rsquo;armure. Lorsque le porteur prend la poign&eacute;e d&rsquo;une arme, celleci se d&eacute;ploie en moins de 5 secondes et fonctionne normalement. Pour la rengainer, il suffit d&rsquo;approcher la poign&eacute;e de la ceinture.</p>\n<p><strong>Attention :</strong> Le personnage peut porter sur lui jus&shy; qu&rsquo;&agrave; cinq armes (de n&rsquo;importe quel type) en mode rack. D&eacute;gainer ou rengainer une arme en mode rack co&ucirc;te une action de d&eacute;placement en phase de conflit.</p>\n<p>&nbsp;</p>\n<h2>Pack</h2>\n<p>Le pack du chevalier est situ&eacute; dans son dos. C&rsquo;est un petit sac &agrave; dos blind&eacute;, poss&eacute;dant plusieurs compartiments herm&eacute;tiques et illumin&eacute;s gr&acirc;ce &agrave; des lampes UV. Le chevalier peut y stocker des armes, des accessoires, des &eacute;chantillons..., et ce, jusqu&rsquo;&agrave; 40 kilos de mat&eacute;riel. Le pack se trouve sur la combinaison et suit le d&eacute;ploiement de la m&eacute;ta-armure, sans subir aucune alt&eacute;ration.</p>\n<p>&nbsp;</p>\n<h2>Balise</h2>\n<p>Chaque m&eacute;ta-armure est &eacute;quip&eacute;e d&rsquo;une puissante balise qui &eacute;met 24h/24 sa position aux autorit&eacute;s du Knight. Elle ne peut pas &ecirc;tre d&eacute;sactiv&eacute;e.</p>\n<p>&nbsp;</p>\n<h2>Chronom&egrave;tre &agrave; &eacute;l&eacute;ment alpha</h2>\n<p>Cet outil peut sembler superficiel, pourtant, lorsque les chevaliers sont amen&eacute;s &agrave; se d&eacute;placer dans l&rsquo;Anath&egrave;me, enclencher leur chronom&egrave;tre &agrave; &eacute;l&eacute;ment alpha leur permet de ne pas perdre la notion du temps malgr&eacute; les fluctuations qui ont souvent lieu dans les t&eacute;n&egrave;bres.</p>\n<p>&nbsp;</p>\n<h2>IA mod&egrave;le Squire</h2>\n<p>Squire est une IA reli&eacute;e au r&eacute;seau de Camelot et assurant au chevalier un contr&ocirc;le optimal de son armure. L&rsquo;IA peut annoncer des choix strat&eacute;giques, faire des propositions tactiques, renseigner le chevalier sur l&rsquo;&eacute;tat de sa m&eacute;ta-armure ou de l&rsquo;environnement et activer nombre d&rsquo;&eacute;quipements de mani&egrave;re automatique. Sa voix peut en outre &ecirc;tre configur&eacute;e avec pr&egrave;s de 100 mod&egrave;les vocaux diff&eacute;rents. Il est courant que les chevaliers nomment l&rsquo;IA de leur m&eacute;ta-armure avec un nom qui leur tient &agrave; c&oelig;ur.</p>\n<p>&nbsp;</p>\n<h2>Verrou herm&eacute;tique, r&eacute;gulateur d&rsquo;oxyg&egrave;ne et filtres multiples</h2>\n<p>Par une simple activation, le chevalier ou l&rsquo;IA peut rendre l&rsquo;armure totalement herm&eacute;tique au monde ext&eacute;rieur (dans ce cas, le chevalier dispose d&rsquo;une r&eacute;serve d&rsquo;oxyg&egrave;ne de 6 heures) ou encore activer plusieurs filtres a&eacute;riens efficaces contre 99,9 % des gaz et des attaques bact&eacute;riologiques ou chimiques.</p>\n<p>&nbsp;</p>\n<h2>R&eacute;gulateur de temp&eacute;rature</h2>\n<p>Le chevalier en m&eacute;ta-armure ne ressent presque jamais les variations de temp&eacute;rature (bien qu&rsquo;elles soient indiqu&eacute;es dans l&rsquo;affichage RA de son heaume). Il ne subit pas en interne les effets dus au froid ou &agrave; la chaleur tant que sa m&eacute;ta-armure n&rsquo;est pas trop ab&icirc;m&eacute;e.</p>\n<p>&nbsp;</p>\n<h2>Maille c&eacute;ramique, circuit de refroidissement, diffuseur de chaleur</h2>\n<p>Sous l&rsquo;&eacute;pais blindage de sa m&eacute;ta-armure, le chevalier est aussi abrit&eacute; par une combinaison de maille c&eacute;ramique destin&eacute;e &agrave; r&eacute;sister aux flammes comme au froid extr&ecirc;me. Le chevalier peut ainsi arpenter des zones gel&eacute;es &agrave; moins 60 &deg;C gr&acirc;ce aux diffuseurs de chaleur pr&eacute;sents sur les servomoteurs et braver des flammes &agrave; 1200 &deg;C sans en ressentir les effets. Les effets de flammes d&rsquo;un incendie (pas celles d&rsquo;un lance-flammes ou d&rsquo;une arme du m&ecirc;me type) n&rsquo;ont aucun impact sur la m&eacute;ta-armure.</p>\n<p>&nbsp;</p>\n<h2>Module de vision de nuit</h2>\n<p>Toutes les armures sont &eacute;quip&eacute;es d&rsquo;un module de vision de nuit permettant de voir sans lumi&egrave;re. C&rsquo;est un &eacute;quipement de s&eacute;rie tr&egrave;s important, car n&eacute;cessaire dans la lutte contre l&rsquo;Anath&egrave;me.</p>\n<p>&nbsp;</p>\n<h2>Zoom x40</h2>\n<p>L&rsquo;affichage RA de la m&eacute;ta-armure est &eacute;quip&eacute; d&rsquo;un zoom x40 haute d&eacute;finition s&rsquo;activant sur simple commande nerveuse. Gr&acirc;ce &agrave; ce zoom, un chevalier peut voir jusqu&rsquo;&agrave; 400 m&egrave;tres de mani&egrave;re pr&eacute;cise et d&eacute;taill&eacute;e.</p>\n<p>&nbsp;</p>\n<h2>Lampes UV</h2>\n<p>Sur le torse et les &eacute;paules de l&rsquo;armure, de puissantes lampes UV s&rsquo;allument d&rsquo;une pens&eacute;e ou d&egrave;s que le chevalier est en contact avec une cr&eacute;ature de l&rsquo;Anath&egrave;me ou un d&eacute;sesp&eacute;r&eacute;. Un chevalier activant ses lampes &agrave; UV inflige l&rsquo;effet <em>lumi&egrave;re 1</em> &agrave; une (et une seule) cr&eacute;ature de l&rsquo;Anath&egrave;me au contact.</p>\n<p>&nbsp;</p>\n<h2>Diffuseur d&rsquo;antalgiques</h2>\n<p>D&egrave;s que le chevalier est touch&eacute; par un impact lourd le blessant, l&rsquo;armure diffuse automatiquement une dose calcul&eacute;e d&rsquo;antidouleurs efficaces sur l&rsquo;instant.</p>\n<p>&nbsp;</p>\n<h2>Blindage ablatif</h2>\n<p>Trois couches microscopiques de blindage ablatif reposent sur l&rsquo;armure. Ce blindage, en &eacute;l&eacute;ment alpha, accuse &agrave; lui seul une grande partie des chocs provoqu&eacute;s par les coups et les tirs sur la m&eacute;ta-armure. De fait, tant que le chevalier ne subit pas de chocs trop violents, il n&rsquo;est pas renvers&eacute; et ne subit pas la force d&rsquo;arr&ecirc;t des armes.</p>\n<p>&nbsp;</p>\n<h2>Champ de force cin&eacute;tique (CdF)</h2>\n<p>Sur le blindage de l&rsquo;armure, une barri&egrave;re cin&eacute;tique invisible, nomm&eacute;e champ de force ou CdF, fait office de premi&egrave;re muraille contre les attaques port&eacute;es contre le chevalier. Si toutes les attaques ne sont pas arr&ecirc;t&eacute;es, le CdF a le m&eacute;rite d&rsquo;amortir une partie des d&eacute;g&acirc;ts de l&rsquo;armure.</p>\n<p>&nbsp;</p>\n<h2>Communicateurs</h2>\n<p>Un r&eacute;seau de communicateurs de derni&egrave;re g&eacute;n&eacute;ration permet au chevalier de rester en contact avec Camelot et l&rsquo;ensemble de son &eacute;quipe. Heaume ferm&eacute;, les communicateurs permettent &agrave; l&rsquo;&eacute;quipe de discuter en toute discr&eacute;tion. Les destinataires peuvent &ecirc;tre choisis et r&eacute;gl&eacute;s d&rsquo;une seule pens&eacute;e ou d&rsquo;un seul mouvement. Le syst&egrave;me peut cependant &ecirc;tre brouill&eacute; par les outils idoines.</p>\n<p>&nbsp;</p>\n<h2>Signal de secours</h2>\n<p>En cas de coup dur, le chevalier peut activer un signal de d&eacute;tresse &eacute;mis vers Camelot, les avant-postes et vectors les plus proches. Si l&rsquo;armure subit une panne ou si le signal ne passe pas, le chevalier dispose de 6 fus&eacute;es &eacute;clairantes, archa&iuml;ques mais efficaces (attention, ces fus&eacute;es produisant une lumi&egrave;re rouge d&rsquo;alerte ne sont pas l&rsquo;&eacute;quivalent du pod fus&eacute;es &eacute;clairantes de l&rsquo;arsenal).</p>\n<p>&nbsp;</p>\n<h2>Syst&egrave;me de survie subaquatique</h2>\n<p>L&rsquo;armure est &eacute;quip&eacute;e d&rsquo;un module de survie qui se met en place une fois qu&rsquo;elle est immerg&eacute;e dans l&rsquo;eau ou dans n&rsquo;importe quel liquide. Gr&acirc;ce &agrave; de petits r&eacute;acteurs &agrave; propulsion sous-marine log&eacute;s dans les jambes, le dos, les bras et le torse de la m&eacute;ta-armure, le porteur peut nager et sortir de l&rsquo;eau sans difficult&eacute;. En cas de coupure des syst&egrave;mes, deux ballons de survie peuvent &ecirc;tre d&eacute;ploy&eacute;s pour remonter la m&eacute;ta-armure &agrave; la surface. Enfin, la m&eacute;ta-armure, une fois rendue herm&eacute;tique, peut r&eacute;sister &agrave; la pression exerc&eacute;e par l&rsquo;eau jusqu&rsquo;&agrave; 2 000 m&egrave;tres de profondeur.</p>\n<p>&nbsp;</p>\n<h2>Syst&egrave;me de recyclage des d&eacute;chets corporels</h2>\n<p>En plus de permettre aux chevaliers de rester en armure d&eacute;ploy&eacute;e durant plusieurs jours, ce syst&egrave;me permet aussi d&rsquo;offrir une r&eacute;serve d&rsquo;eau et de nutriments de secours en cas de perte de ressources alimentaires. Ce qui n&rsquo;est pas recycl&eacute; est automatiquement br&ucirc;l&eacute; puis &eacute;vacu&eacute; par l&rsquo;armure sans que les chevaliers aient &agrave; s&rsquo;en soucier.</p>\n<p>&nbsp;</p>\n<h2>Affichage et outils &agrave; r&eacute;alit&eacute; augment&eacute;e</h2>\n<p>Si la visi&egrave;re standard sert surtout en cas de coupure des syst&egrave;mes, c&rsquo;est habituellement l&rsquo;afficheur RA qui permet au porteur de voir &agrave; l&rsquo;ext&eacute;rieur. Synchronis&eacute; sur ses yeux, le syst&egrave;me affiche une vision parfaite de l&rsquo;environnement entourant la m&eacute;ta-armure et reproduit avec exactitude les sons ambiants en plus de soumettre diff&eacute;rentes informations au porteur comme le taux d&rsquo;oxyg&egrave;ne, la chaleur, la topographie ou encore les diff&eacute;rents &eacute;l&eacute;ments pr&eacute;sents dans l&rsquo;air.</p>\n<p>&nbsp;</p>\n<h2>Cartes et g&eacute;olocalisation</h2>\n<p>Depuis l&rsquo;apparition de l&rsquo;Anath&egrave;me, les syst&egrave;mes GPS et de rep&eacute;rage par satellite cessent souvent de fonctionner aux moments les plus critiques. Pour rem&eacute;dier &agrave; cela, une carte globale et pr&eacute;cise du pays o&ugrave; la mission se d&eacute;roule ainsi que des plans de chaque ville sont t&eacute;l&eacute;charg&eacute;s dans l&rsquo;armure de chaque chevalier. Une fois sur place, le vector ou le dropship t&eacute;l&eacute;charge la position exacte des diff&eacute;rentes m&eacute;ta-armures sur la carte. Gr&acirc;ce &agrave; un syst&egrave;me de rep&eacute;rage li&eacute; au d&eacute;placement de la m&eacute;ta-armure (vitesse, rotation, mouvements divers), le chevalier sait toujours o&ugrave; il se trouve sur les diff&eacute;rents plans &agrave; sa disposition.</p>",
+    "categorie": "",
+    "slots": {
+      "tete": 0,
+      "torse": 0,
+      "brasGauche": 0,
+      "brasDroit": 0,
+      "jambeGauche": 0,
+      "jambeDroite": 0
+    },
+    "niveau": {
+      "value": "1",
+      "max": 1,
+      "liste": [
+        1
+      ],
+      "details": {
+        "n1": {
+          "permanent": false,
+          "rarete": "standard",
+          "prix": 0,
+          "energie": {
+            "tour": {
+              "value": 0,
+              "label": "Tour"
+            },
+            "minute": {
+              "value": 0,
+              "label": "Minute"
+            },
+            "supplementaire": 0
+          },
+          "activation": "aucune",
+          "duree": "",
+          "portee": "personnelle",
+          "listes": {},
+          "labels": {},
+          "secondmode": {
+            "has": false,
+            "activation": "aucune"
+          },
+          "aspects": {
+            "chair": {
+              "liste": {
+                "deplacement": {},
+                "force": {},
+                "endurance": {}
+              }
+            },
+            "bete": {
+              "liste": {
+                "hargne": {},
+                "combat": {},
+                "instinct": {}
+              }
+            },
+            "machine": {
+              "liste": {
+                "tir": {},
+                "savoir": {},
+                "technique": {}
+              }
+            },
+            "dame": {
+              "liste": {
+                "aura": {},
+                "parole": {},
+                "sangFroid": {}
+              }
+            },
+            "masque": {
+              "liste": {
+                "discretion": {},
+                "dexterite": {},
+                "perception": {}
+              }
+            }
+          },
+          "bonus": {
+            "has": false,
+            "sante": {
+              "has": false,
+              "value": 0
+            },
+            "armure": {
+              "has": false,
+              "value": 0
+            },
+            "champDeForce": {
+              "has": false,
+              "value": 0
+            },
+            "energie": {
+              "has": false,
+              "value": 0
+            },
+            "degats": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "overdrives": {
+              "has": false,
+              "aspects": {
+                "chair": {
+                  "deplacement": 0,
+                  "force": 0,
+                  "endurance": 0
+                },
+                "bete": {
+                  "hargne": 0,
+                  "combat": 0,
+                  "instinct": 0
+                },
+                "machine": {
+                  "tir": 0,
+                  "savoir": 0,
+                  "technique": 0
+                },
+                "dame": {
+                  "aura": 0,
+                  "parole": 0,
+                  "sangFroid": 0
+                },
+                "masque": {
+                  "discretion": 0,
+                  "dexterite": 0,
+                  "perception": 0
+                }
+              }
+            },
+            "grenades": {
+              "has": false,
+              "liste": {
+                "antiblindage": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "explosive": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "shrapnel": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                }
+              }
+            }
+          },
+          "arme": {
+            "has": false,
+            "type": "contact",
+            "portee": "contact",
+            "optionsmunitions": {
+              "has": false,
+              "actuel": "0",
+              "value": 1,
+              "liste": {}
+            },
+            "degats": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "effets": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "distance": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "structurelles": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "ornementales": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "overdrives": {
+            "has": false,
+            "aspects": {
+              "chair": {
+                "deplacement": 0,
+                "force": 0,
+                "endurance": 0
+              },
+              "bete": {
+                "hargne": 0,
+                "combat": 0,
+                "instinct": 0
+              },
+              "machine": {
+                "tir": 0,
+                "savoir": 0,
+                "technique": 0
+              },
+              "dame": {
+                "aura": 0,
+                "parole": 0,
+                "sangFroid": 0
+              },
+              "masque": {
+                "discretion": 0,
+                "dexterite": 0,
+                "perception": 0
+              }
+            }
+          },
+          "pnj": {
+            "has": false,
+            "modele": {
+              "nom": "",
+              "special": "",
+              "type": "pnj",
+              "champDeForce": 0,
+              "defense": 0,
+              "reaction": 0,
+              "armure": 0,
+              "debordement": 0,
+              "initiative": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "jetSpecial": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "dice": 0,
+                  "overdrive": 0
+                },
+                "liste": {}
+              },
+              "aspects": {
+                "has": false,
+                "liste": {
+                  "chair": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "bete": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "machine": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "dame": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "masque": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  }
+                }
+              },
+              "armes": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "type": "contact",
+                  "portee": "contact",
+                  "attaque": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "degats": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "custom": [],
+                    "raw": []
+                  }
+                },
+                "liste": []
+              }
+            },
+            "liste": {}
+          },
+          "ersatz": {
+            "rogue": {
+              "has": false,
+              "interruption": {
+                "actif": true
+              },
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "bard": {
+              "has": false
+            }
+          },
+          "jetsimple": {
+            "has": false,
+            "label": "",
+            "jet": "0D0",
+            "effets": {
+              "raw": [],
+              "custom": []
+            }
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": [],
+            "has": false
+          },
+          "textarea": {
+            "duree": 51
+          }
+        }
+      }
+    },
+    "listes": {},
+    "permanent": false,
+    "rarete": "standard",
+    "prix": 0,
+    "energie": {
+      "tour": {
+        "value": 0,
+        "label": "Tour"
+      },
+      "minute": {
+        "value": 0,
+        "label": "Minute"
+      },
+      "supplementaire": 0
+    },
+    "activation": "aucune",
+    "duree": "",
+    "portee": "personnelle",
+    "labels": {},
+    "aspects": {
+      "chair": {
+        "liste": {
+          "deplacement": {},
+          "force": {},
+          "endurance": {}
+        }
+      },
+      "bete": {
+        "liste": {
+          "hargne": {},
+          "combat": {},
+          "instinct": {}
+        }
+      },
+      "machine": {
+        "liste": {
+          "tir": {},
+          "savoir": {},
+          "technique": {}
+        }
+      },
+      "dame": {
+        "liste": {
+          "aura": {},
+          "parole": {},
+          "sangFroid": {}
+        }
+      },
+      "masque": {
+        "liste": {
+          "discretion": {},
+          "dexterite": {},
+          "perception": {}
+        }
+      }
+    },
+    "bonus": {
+      "has": false,
+      "armure": {
+        "has": false,
+        "value": 0
+      },
+      "champDeForce": {
+        "has": false,
+        "value": 0
+      },
+      "energie": {
+        "has": false,
+        "value": 0
+      },
+      "degats": {
+        "has": false,
+        "type": "contact",
+        "dice": 0,
+        "fixe": 0,
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "violence": {
+        "has": false,
+        "type": "contact",
+        "dice": 0,
+        "fixe": 0,
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "overdrives": {
+        "has": false,
+        "aspects": {
+          "chair": {
+            "deplacement": 0,
+            "force": 0,
+            "endurance": 0
+          },
+          "bete": {
+            "hargne": 0,
+            "combat": 0,
+            "instinct": 0
+          },
+          "machine": {
+            "tir": 0,
+            "savoir": 0,
+            "technique": 0
+          },
+          "dame": {
+            "aura": 0,
+            "parole": 0,
+            "sangFroid": 0
+          },
+          "masque": {
+            "discretion": 0,
+            "dexterite": 0,
+            "perception": 0
+          }
+        }
+      },
+      "grenades": {
+        "has": false,
+        "liste": {
+          "antiblindage": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            }
+          },
+          "explosive": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            }
+          },
+          "shrapnel": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            }
+          }
+        }
+      }
+    },
+    "arme": {
+      "has": false,
+      "type": "contact",
+      "portee": "contact",
+      "degats": {
+        "dice": 0,
+        "fixe": 0,
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "violence": {
+        "dice": 0,
+        "fixe": 0,
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "effets": {
+        "liste": [],
+        "custom": [],
+        "raw": []
+      },
+      "distance": {
+        "liste": [],
+        "custom": [],
+        "raw": []
+      },
+      "structurelles": {
+        "liste": [],
+        "custom": [],
+        "raw": []
+      },
+      "ornementales": {
+        "liste": [],
+        "custom": [],
+        "raw": []
+      }
+    },
+    "overdrives": {
+      "has": false,
+      "aspects": {
+        "chair": {
+          "deplacement": 0,
+          "force": 0,
+          "endurance": 0
+        },
+        "bete": {
+          "hargne": 0,
+          "combat": 0,
+          "instinct": 0
+        },
+        "machine": {
+          "tir": 0,
+          "savoir": 0,
+          "technique": 0
+        },
+        "dame": {
+          "aura": 0,
+          "parole": 0,
+          "sangFroid": 0
+        },
+        "masque": {
+          "discretion": 0,
+          "dexterite": 0,
+          "perception": 0
+        }
+      }
+    },
+    "pnj": {
+      "has": false,
+      "modele": {
+        "nom": "",
+        "special": "",
+        "type": "pnj",
+        "champDeForce": 0,
+        "defense": 0,
+        "reaction": 0,
+        "armure": 0,
+        "debordement": 0,
+        "initiative": {
+          "dice": 3,
+          "fixe": 0
+        },
+        "jetSpecial": {
+          "has": false,
+          "modele": {
+            "nom": "",
+            "dice": 0,
+            "overdrive": 0
+          },
+          "liste": {}
+        },
+        "aspects": {
+          "has": false,
+          "liste": {
+            "chair": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "bete": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "machine": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "dame": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "masque": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            }
+          }
+        },
+        "armes": {
+          "has": false,
+          "modele": {
+            "nom": "",
+            "type": "contact",
+            "portee": "contact",
+            "attaque": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "effets": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "liste": []
+        }
+      },
+      "liste": {}
+    },
+    "ersatz": {
+      "rogue": {
+        "has": false,
+        "interruption": {
+          "actif": true
+        },
+        "reussites": 3,
+        "attaque": "discretion",
+        "degats": {
+          "caracteristique": "discretion",
+          "od": true,
+          "dice": false,
+          "fixe": true
+        }
+      },
+      "bard": {
+        "has": false
+      }
+    },
+    "jetsimple": {
+      "has": false,
+      "label": "",
+      "jet": "0D0",
+      "effets": {
+        "raw": [],
+        "custom": []
+      }
+    },
+    "textarea": {
+      "duree": 51
+    },
+    "secondmode": {
+      "has": false,
+      "activation": "aucune"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "13.351",
+    "createdTime": 1677866044606,
+    "modifiedTime": 1693092477639,
+    "lastModifiedBy": "gUfRwPVCnScx6reY",
+    "compendiumSource": "Compendium.knight.modules-standard.SIXl5TvA7O8XN1v6",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ClWFfoguoPCWCOkB",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!ClWFfoguoPCWCOkB"
+}

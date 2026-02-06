@@ -1,0 +1,136 @@
+{
+  "name": "Canon à concussion",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/canon-concussion.webp",
+  "system": {
+    "description": "<p>Ce canon, semblable à un lance-grenades massif doté d'un barillet, propulse à distance des grenades soniques, explosant à l'impact et libérant une superbe onde sonore sur quelques mètres. Comme avec le fusil sonique, l'onde dégagée envoie valser les ennemis dans les airs et a un impact terrible sur les cibles les plus faibles. Le choc de l'explosion de la grenade est généralement si violent que l'environnement proche tremble d'une violente secousse, d'où le nom de « canon à concussion ».</p>\n",
+    "rarete": "rare",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 60,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 7,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 7,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "choc 1",
+        "deuxmains",
+        "dispersion 6",
+        "lourd",
+        "obliteration"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "d3a6b52076292422",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.d3a6b52076292422"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009160,
+    "modifiedTime": 1693092600322,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!d3a6b52076292422"
+}

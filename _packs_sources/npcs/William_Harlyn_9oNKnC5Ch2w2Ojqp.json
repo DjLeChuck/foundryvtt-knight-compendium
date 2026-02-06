@@ -497,7 +497,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 30,
       "max": 0,
       "base": 30,
       "optionDeploy": false
@@ -550,7 +550,7 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 50,
       "max": 0,
       "base": 50,
       "bonus": {
@@ -588,7 +588,7 @@
     "histoire": "",
     "metaarmure": "",
     "energie": {
-      "value": 0,
+      "value": 70,
       "max": 0,
       "base": 70,
       "bonus": {
@@ -639,7 +639,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -675,11 +679,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -690,7 +696,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -786,17 +816,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-standard.62be65b080418e07"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890002677,
         "modifiedTime": 1667554147071,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-standard.62be65b080418e07",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "WSLEdZOoNq5OS4E3",
       "sort": 0,
@@ -916,17 +947,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.pnUuqUyb2hEuXiSh"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667422705456,
         "modifiedTime": 1667557039299,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.pnUuqUyb2hEuXiSh",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "lS9frVNtarvdUB63",
       "_key": "!actors.items!9oNKnC5Ch2w2Ojqp.lS9frVNtarvdUB63"
@@ -1026,17 +1058,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-rare.005106924e02b7c5"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890009121,
         "modifiedTime": 1667557061264,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.005106924e02b7c5",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "hWomqoUpx2C48FAn",
       "sort": 0,
@@ -1045,21 +1078,22 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.9oNKnC5Ch2w2Ojqp"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667553781024,
-    "modifiedTime": 1685567372820,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770385780138,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.9oNKnC5Ch2w2Ojqp",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "9oNKnC5Ch2w2Ojqp",
   "folder": null,
-  "sort": 0,
+  "sort": 4300000,
   "ownership": {
     "default": 0
   },

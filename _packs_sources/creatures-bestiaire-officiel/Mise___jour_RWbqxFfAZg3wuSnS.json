@@ -384,9 +384,9 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 150,
       "max": 0,
-      "base": 0
+      "base": 150
     },
     "description": "<p>Les premi&egrave;res mises &agrave; jour sont n&eacute;es d&egrave;s l&rsquo;arriv&eacute;e de l&rsquo;Anath&egrave;me sur les &Eacute;tats-Unis. Lorsque la Machine a &eacute;tendu son contr&ocirc;le sur toute la c&ocirc;te Est, elle s&rsquo;est rapidement rendu compte que certains humains, particuli&egrave;rement sensibles aux ondes ou partiellement compos&eacute;s de technologie, r&eacute;pondaient eux aussi &agrave; son pouvoir. Plut&ocirc;t que d&rsquo;utiliser ces personnes comme soldats, le Seigneur a trouv&eacute; deux utilit&eacute;s &agrave; ces esclaves inattendus. D&rsquo;une part, ces mises &agrave; jour lui ont permis d&rsquo;&eacute;tudier le corps humain, de voir ce qui &eacute;tait rempla&ccedil;able ou pas par ses soins. Ensuite, ces personnes formaient des espions parfaits au sein des communaut&eacute;s de rebuts qui s&rsquo;&eacute;taient rapidement m&eacute;fi&eacute;es de toute forme de technologie.Cependant, ces humains sensibles au pouvoir de l&rsquo;&eacute;clat finissaient forc&eacute;ment par reprendre conscience, m&ecirc;me de courts instants. S&rsquo;ils n&rsquo;avaient souvent pas le temps de trahir le Seigneur, celui-ci a pr&eacute;f&eacute;r&eacute; s&rsquo;en passer. Il a alors mis au point, &agrave; l&rsquo;aide de ses recherches, un nouveau type de mises &agrave; jour ressemblant trait pour trait aux humains, mais uniquement compos&eacute;es de circuits imprim&eacute;s infiniment petits.&nbsp;<br>Celles-l&agrave; sont infiltr&eacute;es dans les communaut&eacute;s de rebuts comme dans les arches. Presque ind&eacute;tectables, elles sont, au m&ecirc;me titre que les Hommes, assez fragiles, particuli&egrave;rement lorsqu&rsquo;on cherche &agrave; leur venir en aide avec des soins conventionnels (perfusions de sang par exemple). De plus, elles ont encore du mal &agrave; repr&eacute;senter les sentiments humains, m&ecirc;me si chaque mise &agrave; jour est un peu plus &eacute;volu&eacute;e que la pr&eacute;c&eacute;dente.</p>",
     "histoire": "",
@@ -473,7 +473,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -509,11 +513,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -524,7 +530,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -640,17 +670,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.f6b6f298d399638a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019305,
         "modifiedTime": 1667172013449,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.f6b6f298d399638a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -769,17 +800,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.8df467df3fb2fc9e"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019228,
         "modifiedTime": 1667172021472,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.8df467df3fb2fc9e",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -788,17 +820,18 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.RWbqxFfAZg3wuSnS"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667171818435,
-    "modifiedTime": 1668026211652,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770388284441,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.RWbqxFfAZg3wuSnS",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "RWbqxFfAZg3wuSnS",
   "folder": null,

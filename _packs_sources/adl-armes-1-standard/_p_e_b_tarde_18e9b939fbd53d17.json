@@ -1,0 +1,135 @@
+{
+  "name": "Épée bâtarde",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/epee-batarde.webp",
+  "system": {
+    "description": "<p>Au Knight, on forme des chevaliers. Et un chevalier, bien souvent, ça porte une épée bâtarde. Cette lame droite en élément alpha est aiguisée au nanomètre. Sa garde épaisse protège une poignée télescopique lestée qui permet d'utiliser l'arme à une ou à deux mains sans sacrifier l'équilibrage. Il suffit d'appuyer sur un bouton pour que la poignée s'allonge et que la garde redistribue son poids afin de trancher au mieux.</p>\n",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 30,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": true,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 4,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 2,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 4,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 3,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 3,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "orfevrerie"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [
+        "deuxmains",
+        "leste"
+      ],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "18e9b939fbd53d17",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-standard.18e9b939fbd53d17"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.4",
+    "coreVersion": "10.303",
+    "createdTime": 1666890002646,
+    "modifiedTime": 1694104199342,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!18e9b939fbd53d17"
+}

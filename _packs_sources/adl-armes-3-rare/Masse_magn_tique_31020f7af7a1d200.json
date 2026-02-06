@@ -1,0 +1,138 @@
+{
+  "name": "Masse magnétique",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/masse-magnetique.webp",
+  "system": {
+    "description": "<p>C'est une masse d'armes imposante à huit lames verticales, d'1m60 de long avec un large manche relié à son extrémité par un câble d'alimentation à la méta-armure de son utilisateur. La masse a pour cœur un puissant générateur de champ magnétique et d'électricité statique rotatif à axe vertical, bien visible sous les lames. Une fois le générateur sous tension, les pointes des lames émettent une lumière ionique, un feu de Saint-Elme. Les coups de masse provoquent alors de véritables éclairs foudroyants. Le champ magnétique, lui, génère attraction ou répulsion capable d'arracher l'armature du béton armé.</p>\n",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 90,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 8,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "choc 2",
+        "deuxmains",
+        "dispersion 3",
+        "ignorechampdeforce",
+        "leste",
+        "lourd",
+        "lumiere 2"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "31020f7af7a1d200",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.31020f7af7a1d200"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009131,
+    "modifiedTime": 1693092600325,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!31020f7af7a1d200"
+}

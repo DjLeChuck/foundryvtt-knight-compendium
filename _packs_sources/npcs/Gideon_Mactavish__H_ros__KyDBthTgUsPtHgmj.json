@@ -1,7 +1,7 @@
 {
-  "name": "Cicero Ceves (hero)",
+  "name": "Gideon Mactavish (Héros)",
   "type": "pnj",
-  "img": "modules/knight-compendium/assets/npc/cicero-ceves.webp",
+  "img": "modules/knight-compendium/assets/npc/gideon-mactavish.webp",
   "system": {
     "combat": {
       "armesimprovisees": {
@@ -362,11 +362,11 @@
     },
     "aspects": {
       "chair": {
-        "value": 12,
+        "value": 9,
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "3",
+            "value": "0",
             "max": 10
           },
           "majeur": {
@@ -376,21 +376,7 @@
         }
       },
       "bete": {
-        "value": 6,
-        "max": 20,
-        "ae": {
-          "mineur": {
-            "value": "1",
-            "max": 10
-          },
-          "majeur": {
-            "value": "0",
-            "max": 10
-          }
-        }
-      },
-      "machine": {
-        "value": 14,
+        "value": 12,
         "max": 20,
         "ae": {
           "mineur": {
@@ -403,8 +389,22 @@
           }
         }
       },
+      "machine": {
+        "value": 12,
+        "max": 20,
+        "ae": {
+          "mineur": {
+            "value": "2",
+            "max": 10
+          },
+          "majeur": {
+            "value": "0",
+            "max": 10
+          }
+        }
+      },
       "dame": {
-        "value": 6,
+        "value": 10,
         "max": 20,
         "ae": {
           "mineur": {
@@ -418,7 +418,7 @@
         }
       },
       "masque": {
-        "value": 10,
+        "value": 14,
         "max": 20,
         "ae": {
           "mineur": {
@@ -439,7 +439,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 8
+        "user": 0
       },
       "malus": {
         "user": 0
@@ -449,8 +449,7 @@
         "diceMalus": {},
         "bonus": {},
         "malus": {}
-      },
-      "optionDeploy": false
+      }
     },
     "reaction": {
       "bonus": {
@@ -466,13 +465,13 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 7,
+      "base": 6,
       "optionDeploy": false
     },
     "defense": {
       "bonus": {
         "user": 0,
-        "armes": 0,
+        "armes": 2,
         "capacites": 0
       },
       "malus": {
@@ -483,7 +482,7 @@
       "bonusValue": 0,
       "malusValue": 0,
       "value": 0,
-      "base": 3,
+      "base": 6,
       "optionDeploy": false
     },
     "sante": {
@@ -497,14 +496,14 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 50,
       "max": 0,
-      "base": 60,
+      "base": 50,
       "optionDeploy": false
     },
-    "description": "<p>Cicero Ceves est aussi d&eacute;mesur&eacute; dans sa mani&egrave;re d&rsquo;&ecirc;tre que ses deux co&eacute;quipiers sont sobres. Ancien joueur de football am&eacute;ricain &agrave; New York, il a fui la c&ocirc;te Est des &Eacute;tats-Unis &agrave; l&rsquo;arriv&eacute;e de la Machine. Il &eacute;tait en train de passer son brevet de pilote et a fait le voyage &agrave; bord d&rsquo;un avion qu&rsquo;il avait vol&eacute;. Bien s&ucirc;r, Cicero n&rsquo;&eacute;tait pas seul et il a sauv&eacute; plusieurs centaines de New-yorkais par ses actes. Cela lui a valu d&rsquo;&ecirc;tre remarqu&eacute; par Kay et de rejoindre la coterie de Gideon.Depuis son aventure, Cicero, en armure Priest, est devenu un pilote &eacute;m&eacute;rite et un bon m&eacute;cano. Adepte du combat au corps &agrave; corps, il n&rsquo;h&eacute;site pas &agrave; ponctuer ses coups de petites piques humoristiques. Il est le seul &agrave; r&eacute;ussir &agrave; d&eacute;rider Gideon lors de leurs nombreux entra&icirc;nements ensemble.</p>",
-    "tactique": "<p>Cicero est un personnage audacieux, parfois imprudent, qui a eu beaucoup de mal &agrave; accepter le calme et la discr&eacute;tion de sa coterie. Gr&acirc;ce &agrave; Gideon et &agrave; la suite d&rsquo;une op&eacute;ration qui a mal tourn&eacute;, il a cependant compris que les missions d&rsquo;observation n&eacute;cessitaient de la d&eacute;licatesse et du sang-froid. Depuis, Cicero est un support exemplaire qui intervient uniquement lorsque c&rsquo;est n&eacute;cessaire et qui accepte d&rsquo;&ecirc;tre en retrait. Il n&rsquo;use de ses armes et de sa puissance de feu que lorsque la situation l&rsquo;exige et jubile d&egrave;s qu&rsquo;il peut d&eacute;truire les engeances de l&rsquo;Anath&egrave;me.</p>",
-    "type": "allié (hero)",
+    "description": "<p>Gideon MacTavish est le neveu d&rsquo;Arthur et le fils de sa demi-s&oelig;ur Mo&iuml;ra Murphy, alias Morgane. Jeune homme talentueux et vers&eacute; dans les arts de la guerre comme beaucoup de membres de sa famille, il n&rsquo;a cependant pas &eacute;t&eacute; int&eacute;gr&eacute; &agrave; l&rsquo;organisation d&egrave;s sa cr&eacute;ation. Soutien de son oncle et de sa tante lors de la bataille de Dublin, il a subi un grave traumatisme en voyant sa m&egrave;re, qui chantait alors au sein du Gaiety Theatre, succomber au d&eacute;sespoir et dispara&icirc;tre brutalement. Le choc a &eacute;t&eacute; si violent pour Gideon qu&rsquo;il a subi une amn&eacute;sie. Il a oubli&eacute; Dublin et jusqu&rsquo;&agrave; sa m&egrave;re elle-m&ecirc;me.</p>\n<p>Apr&egrave;s plusieurs mois de traitement, Gideon a finalement rejoint le Knight. Il rev&ecirc;t une m&eacute;taarmure Rogue et s&rsquo;est sp&eacute;cialis&eacute; dans l&rsquo;&eacute;limination discr&egrave;te de ses ennemis. Il op&egrave;re, avec sa coterie, en tant qu&rsquo;&eacute;cuyer de Kay. Cette derni&egrave;re le consid&egrave;re et le fait passer pour son fils. Elle a m&ecirc;me &eacute;t&eacute; jusqu&rsquo;&agrave; modifier son nom de famille, Murphy, en MacTavish pour &eacute;viter les diff&eacute;rentes rumeurs sur sa maternit&eacute;.</p>\n<p>Gideon est empreint de grands id&eacute;aux de libert&eacute;. Pour lui, l&rsquo;utilisation de ses pratiques d&rsquo;assassin sert &agrave; faire survivre l&rsquo;Humanit&eacute; et &agrave; lutter contre les t&eacute;n&egrave;bres. Il refuse l&rsquo;injustice, la corruption, et cherche &agrave; attirer l&rsquo;attention de son oncle ador&eacute; dont il souhaite par-dessus tout l&rsquo;approbation, Arthur lui-m&ecirc;me.</p>",
+    "tactique": "<p>Gideon est un tueur discret, ma&icirc;trisant sa m&eacute;ta-armure Rogue avec efficacit&eacute;. Il est expert dans l&rsquo;&eacute;limination de cible individuelle mais aussi dans les missions de reconnaissance. Fonctionnant en symbiose parfaite avec Cicero et Meredith, il est le fer de lance de sa coterie. Cette derni&egrave;re est d&rsquo;ailleurs sp&eacute;cialis&eacute;e dans les missions d&rsquo;observation en territoire ennemi.</p>",
+    "type": "Allié (Héros)",
     "pointsFaibles": "",
     "phase2Activate": false,
     "phase2": {
@@ -550,7 +549,7 @@
       }
     },
     "armure": {
-      "value": null,
+      "value": 70,
       "max": 0,
       "base": 70,
       "bonus": {
@@ -578,9 +577,9 @@
       "value": 0,
       "max": 0
     },
-    "surnom": "",
+    "surnom": "Prophet",
     "age": "",
-    "wear": "",
+    "wear": "Rogue",
     "archetype": "",
     "hautFait": "",
     "section": "",
@@ -588,9 +587,9 @@
     "histoire": "",
     "metaarmure": "",
     "energie": {
-      "value": 0,
+      "value": 90,
       "max": 0,
-      "base": 60,
+      "base": 90,
       "bonus": {
         "user": 0,
         "modules": 0
@@ -602,7 +601,7 @@
     },
     "champDeForce": {
       "value": 0,
-      "base": 10,
+      "base": 14,
       "bonus": {
         "user": 0,
         "modules": 0
@@ -629,17 +628,21 @@
     }
   },
   "prototypeToken": {
-    "name": "Cicero Ceves",
+    "name": "Gideon Mactavish",
     "displayName": 0,
     "actorLink": false,
     "texture": {
-      "src": "modules/knight-compendium/assets/npc/cicero-ceves.webp",
+      "src": "modules/knight-compendium/assets/npc/gideon-mactavish.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -675,11 +678,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -690,16 +695,39 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
-      "folder": "tdM7pAG1fy6ovTFO",
-      "name": "Méta-armure (Priest)",
+      "name": "Autorité (mineur)",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ poss&egrave;de les capacit&eacute;s d&rsquo;une m&eacute;ta-armure Priestavec &eacute;volution &agrave; 150 et 200 PG totaux.</p>",
+        "description": "<p>Si le PNJ meurt, les PNJ sous ses ordres subissent 3 points de malus sur tous leurs aspects, leur défense et leur réaction, jusqu'à la fin de la phase de conflit.</p>\n",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -802,33 +830,35 @@
         }
       },
       "effects": [],
-      "sort": 0,
+      "_id": "cO5kSuizmJcdmn4g",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.pnUuqUyb2hEuXiSh"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1667422705456,
-        "modifiedTime": 1667424737120,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "coreVersion": "13.351",
+        "createdTime": 1666890019254,
+        "modifiedTime": 1667422181050,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.b7dc1c0d0c56b29e",
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "_id": "UPLwWiAoqLbZ5wko",
-      "_key": "!actors.items!wSb6lXPad63NJhzy.UPLwWiAoqLbZ5wko"
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!KyDBthTgUsPtHgmj.cO5kSuizmJcdmn4g"
     },
     {
       "folder": "tdM7pAG1fy6ovTFO",
-      "name": "Aisance",
+      "name": "Méta-armure (Rogue)",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>En termes de jeu, le PNJ ignore l&rsquo;effet lourd des armes. Cependant, il doit&nbsp;<br>quand m&ecirc;me les tenir &agrave; deux mains pour pouvoir les utiliser.</p>",
+        "description": "<p>Le PNJ poss&egrave;de les capacit&eacute;s d&rsquo;une m&eacute;ta-armure Rogue avec &eacute;volution &agrave; 150 et 200 PG totaux.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -936,20 +966,21 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.aw1slwS7GQT6oy4y"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1667424942616,
-        "modifiedTime": 1667424978727,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "coreVersion": "13.351",
+        "createdTime": 1667422705456,
+        "modifiedTime": 1667422729662,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.pnUuqUyb2hEuXiSh",
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "_id": "i3UnCbTlAAmhu8C8",
-      "_key": "!actors.items!wSb6lXPad63NJhzy.i3UnCbTlAAmhu8C8"
+      "_id": "1j21uv1BUR5teEn9",
+      "_key": "!actors.items!KyDBthTgUsPtHgmj.1j21uv1BUR5teEn9"
     },
     {
       "name": "Chevalier héroïque",
@@ -1059,37 +1090,168 @@
         }
       },
       "effects": [],
-      "_id": "HOz7B5Lp1s1v9Fu7",
+      "_id": "eE95h2MgbTMSIqLd",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.386557f70752eda5"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018830,
-        "modifiedTime": 1667559295543,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "modifiedTime": 1667558200261,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.386557f70752eda5",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
-      "_key": "!actors.items!wSb6lXPad63NJhzy.HOz7B5Lp1s1v9Fu7"
+      "_key": "!actors.items!KyDBthTgUsPtHgmj.eE95h2MgbTMSIqLd"
     },
     {
-      "name": "Masse magnétique",
-      "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/masse-magnetique.webp",
+      "name": "Meneur d'hommes",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>C'est une masse d'armes imposante à huit lames verticales, d'1m60 de long avec un large manche relié à son extrémité par un câble d'alimentation à la méta-armure de son utilisateur. La masse a pour cœur un puissant générateur de champ magnétique et d'électricité statique rotatif à axe vertical, bien visible sous les lames. Une fois le générateur sous tension, les pointes des lames émettent une lumière ionique, un feu de Saint-Elme. Les coups de masse provoquent alors de véritables éclairs foudroyants. Le champ magnétique, lui, génère attraction ou répulsion capable d'arracher l'armature du béton armé.</p>\n",
+        "description": "<p>Le PNJ, lorsqu'il est accompagné d'alliés sous ses ordres, leur procure un bonus de 2 en défense et en réaction, ainsi qu'un bonus de 2 en débordement et de 50 en cohésion si les alliés forment une bande.</p>\n",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "rUuW9OggjnxjKN33",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "knight",
+        "systemVersion": "1.7.1",
+        "coreVersion": "13.351",
+        "createdTime": 1666890019308,
+        "modifiedTime": 1667558209565,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.f8150d4f36b6adc1",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!KyDBthTgUsPtHgmj.rUuW9OggjnxjKN33"
+    },
+    {
+      "name": "Épée cinétique",
+      "type": "arme",
+      "img": "modules/knight-compendium/assets/weapons/epee-cinetique.webp",
+      "system": {
+        "description": "<p>À l'atelier, Gauvain a renforcé les outils du Knight avec des champs de force, notamment pour travailler l'élément alpha. Les résultats ont été si impressionnants qu'il a créé par la suite l'épée cinétique. Comme une rapière, elle est droite, fine et à tranchant unique. Elle est forgée dans un alliage d'élément alpha replié en fines lignes comme une lame de damas ou un katana. Un modulateur dans la poignée étend le champ de force de la méta-armure à la lame et modifie son comportement pour le faire vibrer à très haute fréquence. À son contact, la chair se disperse comme la sciure crachée par une broyeuse. Et les armures se disloquent dans une pluie d'étincelles.</p>\n",
         "rarete": "rare",
         "type": "contact",
         "portee": "contact",
-        "prix": 90,
+        "prix": 70,
         "energie": 0,
         "listes": {},
         "options2mains": {
@@ -1130,23 +1292,21 @@
           }
         },
         "degats": {
-          "dice": 8,
+          "dice": 6,
           "fixe": 0
         },
         "violence": {
-          "dice": 6,
+          "dice": 3,
           "fixe": 0
         },
         "effets": {
           "liste": [],
           "raw": [
-            "choc 2",
-            "deuxmains",
-            "dispersion 3",
-            "ignorechampdeforce",
-            "leste",
-            "lourd",
-            "lumiere 2"
+            "assistanceattaque",
+            "defense 2",
+            "jumeleambidextrie",
+            "orfevrerie",
+            "ignorearmure"
           ],
           "custom": []
         },
@@ -1172,37 +1332,38 @@
         }
       },
       "effects": [],
-      "_id": "H35h82DOOtiEd7yy",
+      "_id": "Kf1HWkBiF7QyhbLK",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-rare.31020f7af7a1d200"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
-        "createdTime": 1666890009131,
-        "modifiedTime": 1667559314388,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "coreVersion": "13.351",
+        "createdTime": 1666890009121,
+        "modifiedTime": 1667558227302,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.005106924e02b7c5",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "hWomqoUpx2C48FAn",
       "sort": 0,
-      "_key": "!actors.items!wSb6lXPad63NJhzy.H35h82DOOtiEd7yy"
+      "_key": "!actors.items!KyDBthTgUsPtHgmj.Kf1HWkBiF7QyhbLK"
     },
     {
-      "name": "Shotgun auto. lourd",
+      "name": "Revolver lourd - 600 NE",
       "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/shotgun-auto-lourd.webp",
+      "img": "modules/knight-compendium/assets/weapons/revolver-lourd.webp",
       "system": {
-        "description": "<p>À la demande du chevalier Lamorak, Gauvain a mis au point une nouvelle version du shotgun automatique. Les cartouches, plus puissantes, tirent de la chevrotine en uranium appauvri. Le canon coulisse sur lui-même pour augmenter ou diminuer la dispersion de la chevrotine, il s'adapte ainsi à la nature de l'adversaire. Quand le canon est court, il disperse la chevrotine sur une large zone et des adversaires multiples. Et quand il est long, il centre la chevrotine sur une zone réduite et un adversaire unique. Bref, ce shotgun promet de glorieuses hécatombes à qui saura en tirer le meilleur.</p>\n",
+        "description": "<p>Ce revolver a été conçu par Nathan « Nate » Johanson, écuyer de Gauvain, pour tirer une balle de chasse à l'éléphant, la 600 Nitro Express (NE). Cette arme égale en puissance un fusil anti-matériel, mais ne s'utilise qu'à une main. Nate récupère des chutes d'usinage de méta-armure pour faire des balles dans un amalgame spécial capable de traverser n'importe quoi. Ces rares munitions sont nommées les T-800, en référence à Terminator. Mais la matière première manque et chaque balle a un coût.\nChanger de type de munition prend une action de déplacement.\nAttention : Les T-800 s'achètent 5 PG l'unité à Camelot même.</p>\n",
         "rarete": "rare",
         "type": "distance",
         "portee": "moyenne",
-        "prix": 80,
+        "prix": 70,
         "energie": 0,
         "listes": {},
         "options2mains": {
@@ -1244,20 +1405,18 @@
         },
         "degats": {
           "dice": 6,
-          "fixe": 12
+          "fixe": 6
         },
         "violence": {
-          "dice": 6,
-          "fixe": 12
+          "dice": 1,
+          "fixe": 0
         },
         "effets": {
           "liste": [],
           "raw": [
-            "demoralisant",
-            "deuxmains",
-            "dispersion 6",
-            "fureur",
-            "lourd"
+            "meurtrier",
+            "penetrant 10",
+            "percearmure 40"
           ],
           "custom": []
         },
@@ -1283,35 +1442,34 @@
         }
       },
       "effects": [],
-      "_id": "oMlBsg2GuUR5niUr",
+      "_id": "Zl5l7bRqxc18wrWb",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-rare.69d16505712c021d"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
-        "createdTime": 1666890009149,
-        "modifiedTime": 1667559326950,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "coreVersion": "13.351",
+        "createdTime": 1666890009157,
+        "modifiedTime": 1667558255076,
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-rare.93aaf9881cdcd09b",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "hWomqoUpx2C48FAn",
       "sort": 0,
-      "_key": "!actors.items!wSb6lXPad63NJhzy.oMlBsg2GuUR5niUr"
+      "_key": "!actors.items!KyDBthTgUsPtHgmj.Zl5l7bRqxc18wrWb"
     }
   ],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
-      "_id": "sKMbGWRiTR9kLzjn",
+      "_id": "FlzcsWeWsvufXnXz",
       "duration": {
         "startTime": 0,
         "seconds": null,
@@ -1322,14 +1480,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
-      "_key": "!actors.effects!wSb6lXPad63NJhzy.sKMbGWRiTR9kLzjn"
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!KyDBthTgUsPtHgmj.FlzcsWeWsvufXnXz"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -1423,7 +1597,7 @@
         }
       ],
       "disabled": false,
-      "_id": "VNPStbJFJE19X5ej",
+      "_id": "nlDFKtnGkpaS680a",
       "duration": {
         "startTime": 0,
         "seconds": null,
@@ -1434,17 +1608,40 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
-      "_key": "!actors.effects!wSb6lXPad63NJhzy.VNPStbJFJE19X5ej"
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!KyDBthTgUsPtHgmj.nlDFKtnGkpaS680a"
     },
     {
-      "label": "Armes",
-      "icon": null,
-      "changes": [],
+      "changes": [
+        {
+          "key": "system.defense.bonusValue",
+          "mode": 2,
+          "priority": null,
+          "value": "2"
+        }
+      ],
       "disabled": false,
-      "_id": "PV2NmuL2hzHgyJ6b",
+      "_id": "OChRr9QukkBRXtJA",
       "duration": {
         "startTime": 0,
         "seconds": null,
@@ -1455,30 +1652,49 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
-      "_key": "!actors.effects!wSb6lXPad63NJhzy.PV2NmuL2hzHgyJ6b"
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!KyDBthTgUsPtHgmj.OChRr9QukkBRXtJA"
     }
   ],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.wSb6lXPad63NJhzy"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
-    "createdTime": 1667424439973,
-    "modifiedTime": 1686392053134,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
+    "createdTime": 1667421365558,
+    "modifiedTime": 1770386449786,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.KyDBthTgUsPtHgmj",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "_id": "wSb6lXPad63NJhzy",
+  "_id": "KyDBthTgUsPtHgmj",
   "folder": null,
-  "sort": 0,
+  "sort": 8800000,
   "ownership": {
     "default": 0
   },
-  "_key": "!actors!wSb6lXPad63NJhzy"
+  "_key": "!actors!KyDBthTgUsPtHgmj"
 }

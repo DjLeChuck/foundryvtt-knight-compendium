@@ -1,0 +1,133 @@
+{
+  "name": "Ceste à concussion",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/ceste-concussion.webp",
+  "system": {
+    "description": "<p>Utilisant la technologie du fusil sonique, le ceste à concussion est formé par un gros gantelet à la paume équipée d'un puissant émetteur sonore directement relié au réacteur à énergie alpha de l'armure. Lorsque le porteur de la méta-armure frappe ses cibles avec la paume du ceste, il déclenche une importante onde sonique vers l'avant, propulsant les ennemis et détruisant leurs organes. Certains chevaliers adeptes des arts martiaux effectuent des frappes impressionnantes et précises qui tuent souvent leurs ennemis sur le coup. D'autres, plus brutaux, se contentent de coller de grandes baffes dévastatrices.</p>\n",
+    "rarete": "avance",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 40,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 3,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "choc 1",
+        "obliteration"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.2b2729c95a128286"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005660,
+    "modifiedTime": 1693092596470,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "6gdDqDrZglx2mtyh",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!6gdDqDrZglx2mtyh"
+}

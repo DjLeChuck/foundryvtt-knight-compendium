@@ -4,240 +4,7 @@
   "img": "systems/knight/assets/icons/bande.svg",
   "system": {
     "combat": {
-      "armesimprovisees": {
-        "aspect": "chair",
-        "contact": "combat",
-        "distance": "tir",
-        "liste": {
-          "ai1": {
-            "force": 1,
-            "chair": [
-              1,
-              2
-            ],
-            "liste": {
-              "1": {
-                "degats": {
-                  "dice": 4
-                },
-                "violence": {
-                  "dice": 4
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 3
-              },
-              "2": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
-                "degats": {
-                  "dice": 2
-                },
-                "violence": {
-                  "dice": 5
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 1
-              },
-              "3": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
-                "degats": {
-                  "dice": 4
-                },
-                "violence": {
-                  "dice": 4
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 2
-              }
-            }
-          },
-          "ai2": {
-            "force": 2,
-            "chair": [
-              3,
-              4
-            ],
-            "liste": {
-              "1": {
-                "degats": {
-                  "dice": 6
-                },
-                "violence": {
-                  "dice": 4
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 3
-              },
-              "2": {
-                "degats": {
-                  "dice": 4
-                },
-                "violence": {
-                  "dice": 6
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 1
-              },
-              "3": {
-                "degats": {
-                  "dice": 5
-                },
-                "violence": {
-                  "dice": 5
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 2
-              }
-            }
-          },
-          "ai3": {
-            "force": 3,
-            "chair": [
-              5,
-              6
-            ],
-            "liste": {
-              "1": {
-                "degats": {
-                  "dice": 7
-                },
-                "violence": {
-                  "dice": 5
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 3
-              },
-              "2": {
-                "degats": {
-                  "dice": 5
-                },
-                "violence": {
-                  "dice": 7
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 1
-              },
-              "3": {
-                "degats": {
-                  "dice": 6
-                },
-                "violence": {
-                  "dice": 6
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 2
-              }
-            }
-          },
-          "ai4": {
-            "force": 4,
-            "chair": [
-              7,
-              8
-            ],
-            "liste": {
-              "1": {
-                "degats": {
-                  "dice": 7
-                },
-                "violence": {
-                  "dice": 9
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 1
-              },
-              "2": {
-                "degats": {
-                  "dice": 8
-                },
-                "violence": {
-                  "dice": 8
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 2
-              }
-            }
-          },
-          "ai5": {
-            "force": 5,
-            "chair": [
-              9,
-              10
-            ],
-            "liste": {
-              "1": {
-                "degats": {
-                  "dice": 10
-                },
-                "violence": {
-                  "dice": 12
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 1
-              },
-              "2": {
-                "degats": {
-                  "dice": 11
-                },
-                "violence": {
-                  "dice": 11
-                },
-                "effets": {
-                  "raw": [],
-                  "custom": []
-                },
-                "utilisations": 2
-              }
-            }
-          }
-        }
-      },
       "data": {
-        "modificateur": 0,
-        "succesbonus": 0,
         "degatsbonus": {
           "dice": 0,
           "fixe": 0
@@ -245,85 +12,94 @@
         "violencebonus": {
           "dice": 0,
           "fixe": 0
-        }
+        },
+        "modificateur": 0,
+        "sacrifice": 0,
+        "succesbonus": 0,
+        "tourspasses": 1,
+        "type": "degats"
       }
     },
     "aspects": {
       "chair": {
-        "value": 6,
         "max": 20,
+        "value": 6,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
       },
       "bete": {
-        "value": 8,
         "max": 20,
+        "value": 8,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
       },
       "machine": {
-        "value": 8,
         "max": 20,
+        "value": 8,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
       },
       "dame": {
-        "value": 6,
         "max": 20,
+        "value": 6,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
       },
       "masque": {
-        "value": 10,
         "max": 20,
+        "value": 10,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
       }
     },
     "initiative": {
-      "dice": 3,
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
       "value": 0,
+      "dice": 0,
       "diceBase": 3,
+      "diceMod": 0,
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
@@ -333,65 +109,64 @@
         "user": 0
       },
       "embuscade": {
-        "diceBonus": {},
-        "diceMalus": {},
         "bonus": {},
-        "malus": {}
+        "malus": {},
+        "diceBonus": {},
+        "diceMalus": {}
       }
     },
     "reaction": {
+      "base": 2,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
       "bonus": {
         "user": 0,
-        "armes": 0,
-        "capacites": 0
+        "system": 0
       },
       "malus": {
         "user": 0,
-        "capacites": 0,
-        "armes": 0
-      },
-      "bonusValue": 0,
-      "malusValue": 0,
-      "value": 0,
-      "base": 2,
-      "optionDeploy": false
+        "system": 0
+      }
     },
     "defense": {
+      "base": 3,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
       "bonus": {
         "user": 0,
-        "armes": 0,
-        "capacites": 0
+        "system": 0
       },
       "malus": {
         "user": 0,
-        "capacites": 0,
-        "armes": 0
-      },
-      "bonusValue": 0,
-      "malusValue": 0,
-      "value": 0,
-      "base": 3,
-      "optionDeploy": false
+        "system": 0
+      }
     },
     "sante": {
-      "bonus": {
-        "user": 0,
-        "capacites": 0
-      },
-      "malus": {
-        "user": 0,
-        "capacites": 0
-      },
+      "base": 150,
+      "mod": 0,
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
-      "max": 0,
-      "base": 0
+      "value": 150,
+      "max": 16,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
     },
-    "description": "",
+    "description": "<p>Actuellement, la Black Cell dispose d&rsquo;environ 6000 agents&nbsp;r&eacute;partis en petites cellules de deux &agrave; vingt individus, partout&nbsp;dans le monde, des territoires libres aux arches, en passant&nbsp;par des communaut&eacute;s de rebuts. Certaines cellules sont&nbsp;dissimul&eacute;es dans des strates sociales ou des corps de&nbsp;m&eacute;tiers, devenant des agents dormants qui attendent d&rsquo;&ecirc;tre&nbsp;&laquo; r&eacute;veill&eacute;s &raquo; par Kravtchenko. D&rsquo;autres cellules agissent en&nbsp;groupes plus larges dans les territoires &agrave; l&rsquo;abandon et sont&nbsp;de v&eacute;ritables petits groupes arm&eacute;s. Bien souvent, ce sont des&nbsp;agents actifs, qui disposent de moyens plus cons&eacute;quents,&nbsp;comme des vectors, des exosquelettes de combat ou encore&nbsp;des armes aussi efficaces que celles des chevaliers.</p>\n<p>Chaque homme et chaque femme de la Black Cell est un&nbsp;soldat ou un agent secret confirm&eacute;, ayant, avant l&rsquo;Anath&egrave;me,&nbsp;accompli son travail avec professionnalisme. Chacun est&nbsp;par ailleurs un profond soutien de Kravtchenko et de ses&nbsp;id&eacute;es. Entrer dans la Black Cell, c&rsquo;est devenir membre d&rsquo;une&nbsp;organisation occulte, mais aussi d&rsquo;une secte, o&ugrave; la collecte&nbsp;d&rsquo;informations et la lutte contre l&rsquo;Anath&egrave;me sont &eacute;rig&eacute;es en&nbsp;dogme.</p>",
     "histoire": "",
     "phase2Activate": false,
     "phase2": {
+      "armure": 0,
+      "energie": 0,
       "sante": 0,
       "aspects": {
         "chair": {
@@ -437,33 +212,60 @@
     },
     "energie": {
       "value": 0,
-      "max": 0
+      "max": 16
     },
     "bouclier": {
-      "value": 0,
-      "max": 0,
       "base": 0,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
       "bonus": {
-        "user": 0
+        "user": 0,
+        "system": 0
       },
       "malus": {
-        "user": 0
+        "user": 0,
+        "system": 0
       }
     },
     "options": {
-      "bouclier": false
-    },
-    "armure": {
-      "bonus": {
-        "modules": 0,
-        "capacites": 0
-      }
+      "bouclier": false,
+      "phase2": false,
+      "champDeForce": false
     },
     "type": "Bande (recrue)",
-    "tactique": "<p>Les agents de la Black Cell sont infiltr&eacute;s partout dans la soci&eacute;t&eacute;. Au moindre signe de leur chef, ils se regroupent et peuvent devenir un vrai danger s&rsquo;ils sont nombreux. G&eacute;n&eacute;ralement, les agents de la Black Cell utilisent de puissantes armes de tir &agrave; silencieux et pr&eacute;f&egrave;rent faire feu &agrave; bonne distance de leurs ennemis.</p>"
+    "tactique": "<p>Les agents de la Black Cell sont infiltr&eacute;s partout&nbsp;dans la soci&eacute;t&eacute;. Au moindre signe de leur chef, ils se&nbsp;regroupent et peuvent devenir un vrai danger s&rsquo;ils sont&nbsp;nombreux. G&eacute;n&eacute;ralement, les agents de la Black Cell utilisent&nbsp;de puissantes armes de tir &agrave; silencieux et pr&eacute;f&egrave;rent faire feu&nbsp;&agrave; bonne distance de leurs ennemis.</p>",
+    "version": 1,
+    "descriptionLimitee": "",
+    "pointsFaibles": "",
+    "limited": {
+      "showPointsFaibles": false,
+      "showDescriptionFull": false,
+      "showDescriptionLimited": false
+    },
+    "otherMods": {},
+    "origin": "humain",
+    "champDeForce": {
+      "base": 0,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
+      "bonus": {
+        "user": 0,
+        "system": 0
+      },
+      "malus": {
+        "user": 0,
+        "system": 0
+      }
+    }
   },
   "prototypeToken": {
-    "name": "Agents de la black cell",
+    "name": "Agents de la Black Cell",
     "displayName": 0,
     "actorLink": false,
     "texture": {
@@ -473,7 +275,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -481,12 +287,12 @@
     "rotation": 0,
     "alpha": 1,
     "disposition": -1,
-    "displayBars": 0,
+    "displayBars": 50,
     "bar1": {
-      "attribute": null
+      "attribute": "sante"
     },
     "bar2": {
-      "attribute": null
+      "attribute": "armure"
     },
     "light": {
       "alpha": 0.5,
@@ -509,11 +315,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -523,8 +331,59 @@
       "contrast": 0
     },
     "detectionModes": [],
-    "flags": {},
-    "randomImg": false
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "sante",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 0,
+            "otherVisibility": 0
+          },
+          "bar2": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "armure",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 0,
+            "otherVisibility": 0
+          }
+        }
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -532,7 +391,7 @@
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ peut se retrouver partout et est difficilement identifiable et différentiable d'humains communs, même quand il n'est pas seul. Seul un test base Perception ou Instinct difficulté délicat (4) peut permettre de le repérer.</p>\n",
+        "description": "<p>Le PNJ peut se retrouver partout et est difficilement identifiable et différentiable d'humains communs, même quand il n'est pas seul. Seul un test base Perception ou Instinct difficulté délicat (4) peut permettre de le repérer.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -635,33 +494,32 @@
         }
       },
       "effects": [],
-      "_id": "7OtM0CbMYICwufYi",
+      "_id": "lNyKnaYS9QAvvTWB",
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "knight",
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
       "ownership": {
         "default": 0
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.fc6c3de464238abd"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1666890019311,
-        "modifiedTime": 1667245961798,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "FdIw3AaAAqfstH0n",
-      "sort": 0,
-      "_key": "!actors.items!tJiVyQjxiwZ8mdh8.7OtM0CbMYICwufYi"
+      "_key": "!actors.items!tJiVyQjxiwZ8mdh8.lNyKnaYS9QAvvTWB"
     },
     {
       "name": "Désespérant",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Si un PJ détruit le PNJ, il doit réussir un test base Hargne combo Sang-Froid (difficulté au choix du MJ) pour ne pas perdre 1D6 point d'espoir.</p>\n",
+        "description": "<p>Si un PJ détruit le PNJ, il doit réussir un test base Hargne combo Sang-Froid (difficulté au choix du MJ) pour ne pas perdre 1D6 point d'espoir.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -764,45 +622,43 @@
         }
       },
       "effects": [],
-      "_id": "bOevJSHFfLOvelHu",
+      "_id": "zF1juTlqgyiUu0nn",
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "knight",
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
       "ownership": {
         "default": 0
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.5.0",
-        "coreVersion": "10.288",
-        "createdTime": 1666890018810,
-        "modifiedTime": 1667245988551,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "folder": "FdIw3AaAAqfstH0n",
-      "sort": 0,
-      "_key": "!actors.items!tJiVyQjxiwZ8mdh8.bOevJSHFfLOvelHu"
+      "_key": "!actors.items!tJiVyQjxiwZ8mdh8.zF1juTlqgyiUu0nn"
     }
   ],
   "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-black-cell.tJiVyQjxiwZ8mdh8"
-    }
-  },
+  "flags": {},
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667245673378,
-    "modifiedTime": 1668026216266,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770384216932,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-black-cell.tJiVyQjxiwZ8mdh8",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "tJiVyQjxiwZ8mdh8",
   "folder": null,
-  "sort": 0,
+  "sort": 23000000,
   "ownership": {
     "default": 0
   },

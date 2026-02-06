@@ -27,14 +27,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 2
                 },
@@ -45,14 +40,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 4
                 },
@@ -63,7 +53,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -85,7 +75,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -98,7 +88,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -111,7 +101,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -133,7 +123,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -146,7 +136,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -159,7 +149,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -181,7 +171,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -194,7 +184,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -216,7 +206,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -229,7 +219,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           }
@@ -245,23 +235,26 @@
         "violencebonus": {
           "dice": 0,
           "fixe": 0
-        }
+        },
+        "sacrifice": 0,
+        "tourspasses": 1,
+        "type": "degats"
       },
       "nods": {
         "soin": {
           "value": 0,
           "max": 0,
-          "recuperationBonus": 0
+          "dices": "3D6"
         },
         "armure": {
           "value": 0,
           "max": 0,
-          "recuperationBonus": 0
+          "dices": "3D6"
         },
         "energie": {
           "value": 0,
           "max": 0,
-          "recuperationBonus": 0
+          "dices": "3D6"
         }
       },
       "grenades": {
@@ -318,7 +311,8 @@
                 "aucundegatsviolence",
                 "barrage 2",
                 "choc 1",
-                "dispersion 6"
+                "dispersion 6",
+                "lumiere 2"
               ],
               "custom": []
             }
@@ -366,11 +360,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "6",
+            "value": 6,
             "max": 10
           }
         }
@@ -380,11 +374,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -394,11 +388,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -408,11 +402,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -422,11 +416,11 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -439,7 +433,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 5
+        "user": 0
       },
       "malus": {
         "user": 0
@@ -450,7 +444,10 @@
         "bonus": {},
         "malus": {}
       },
-      "optionDeploy": false
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
+      "diceMod": 0
     },
     "reaction": {
       "bonus": {
@@ -463,11 +460,12 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 4,
-      "optionDeploy": false
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false
     },
     "defense": {
       "bonus": {
@@ -480,11 +478,12 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
       "base": 4,
-      "optionDeploy": false
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false
     },
     "sante": {
       "bonus": {
@@ -495,16 +494,14 @@
         "user": 0,
         "capacites": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
-      "value": 0,
+      "value": 50,
       "max": 0,
       "base": 50,
-      "optionDeploy": false
+      "mod": 0
     },
     "description": "<p>Dolores Mercato est la PDG de Tlaloc Inc. et l&rsquo;administratrice g&eacute;n&eacute;rale de l&rsquo;arche de Mexico. Cette immortelle est totalement d&eacute;vou&eacute;e au Masque depuis qu&rsquo;elle subit de terrifiants chantages de la part de l&rsquo;Ombre. En effet, cette femme entre deux &acirc;ges a h&eacute;rit&eacute; de son entreprise suite &agrave; la mort tragique et non naturelle de son p&egrave;re. Depuis qu&rsquo;elle est &agrave; la t&ecirc;te d&rsquo;une arche, la femme semble se d&eacute;composer et son temp&eacute;rament fort s&rsquo;affaiblit de jour en jour. Elle aurait m&ecirc;me tent&eacute; de se suicider, malgr&eacute; le fait que son immortalit&eacute; rende la chose impossible.</p>",
     "tactique": "<p>Un immortel ne combat pas, il pr&eacute;f&egrave;re user de son &eacute;nergie dans la direction d&rsquo;une arche et en g&eacute;n&eacute;ral d&rsquo;une entreprise. En cas de conflit, il essaie d&rsquo;user de son charisme pour apaiser la situation. S&rsquo;il doit tout de m&ecirc;me combattre, il fait appel &agrave; la milice locale ou &agrave; ses gardes du corps tout en essayant de fuir (il est g&eacute;n&eacute;ralement exfiltr&eacute; vers un endroit s&ucirc;r au moindre coup de feu ou &agrave; la moindre attaque).</p>",
-    "type": "",
+    "type": "Patron (héros) / Allié (héros)",
     "pointsFaibles": "",
     "phase2Activate": false,
     "phase2": {
@@ -515,36 +512,36 @@
         "chair": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "bete": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "machine": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "dame": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "masque": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         }
       }
@@ -560,18 +557,23 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "bonusValue": 0,
+      "malusValue": 0
     },
     "bouclier": {
       "value": 0,
-      "max": 0,
       "base": 0,
       "bonus": {
         "user": 0
       },
       "malus": {
         "user": 0
-      }
+      },
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false
     },
     "resilience": {
       "value": 0,
@@ -579,8 +581,7 @@
     },
     "surnom": "",
     "age": "",
-    "wear": "",
-    "archetype": "Patron (héros) / Allié (héros)",
+    "archetype": "",
     "hautFait": "",
     "section": "",
     "blason": "",
@@ -596,7 +597,8 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "mod": 0
     },
     "champDeForce": {
       "value": 0,
@@ -607,11 +609,16 @@
       },
       "malus": {
         "user": 0
-      }
+      },
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false
     },
     "espoir": {
       "value": 0,
-      "max": 0
+      "max": 0,
+      "reduction": 0
     },
     "options": {
       "energie": false,
@@ -622,8 +629,113 @@
       "espoir": false,
       "resilience": false,
       "modules": false,
-      "phase2": false
-    }
+      "phase2": false,
+      "art": false,
+      "notFirstMenu": false,
+      "noSecondMenu": false,
+      "embuscadeSubis": false,
+      "embuscadePris": false,
+      "wolfConfiguration": false,
+      "jetsSpeciaux": false
+    },
+    "version": 2,
+    "descriptionLimitee": "",
+    "egide": {
+      "base": 0,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
+      "bonus": {
+        "user": 0,
+        "system": 0
+      },
+      "malus": {
+        "user": 0,
+        "system": 0
+      }
+    },
+    "configurationActive": "",
+    "wolf": {},
+    "jetsSpeciaux": [],
+    "colosse": false,
+    "patron": true,
+    "limited": {
+      "showPointsFaibles": false,
+      "showDescriptionFull": false,
+      "showDescriptionLimited": false
+    },
+    "art": {
+      "oeuvres": {}
+    },
+    "equipements": {
+      "armure": {
+        "capacites": {
+          "ascension": {
+            "id": "0",
+            "energie": 0
+          },
+          "borealis": {
+            "allie": 0
+          },
+          "changeling": {
+            "fauxetres": 0
+          },
+          "companions": {
+            "type": "",
+            "energie": 0,
+            "energieDisponible": []
+          },
+          "forward": 1,
+          "goliath": {
+            "metre": 0
+          },
+          "morph": {
+            "nbre": 0
+          },
+          "puppet": {
+            "cible": 0
+          },
+          "rage": {
+            "niveau": {}
+          },
+          "totem": {
+            "nombre": 0
+          },
+          "vision": {
+            "energie": 0
+          },
+          "warlord": {
+            "energie": {
+              "nbre": 1
+            },
+            "esquive": {
+              "nbre": 1
+            },
+            "force": {
+              "nbre": 1
+            },
+            "guerre": {
+              "nbre": 1
+            }
+          }
+        },
+        "special": {
+          "contrecoups": 0,
+          "flux": 1,
+          "impregnation": 0
+        }
+      }
+    },
+    "bonusSiEmbuscade": {
+      "bonusInitiative": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "otherMods": {},
+    "origin": "humain"
   },
   "prototypeToken": {
     "name": "immortel",
@@ -636,7 +748,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -672,11 +788,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -687,7 +805,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -695,7 +837,7 @@
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Si le PNJ meurt, les PNJ sous ses ordres fuient ou se rendent automatiquement.</p>\n",
+        "description": "<p>Si le PNJ meurt, les PNJ sous ses ordres fuient ou se rendent automatiquement.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -803,17 +945,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.f434a8f49290c9de"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019303,
         "modifiedTime": 1667219058500,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.f434a8f49290c9de",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -824,7 +967,7 @@
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ a accès à toutes les ressources qu'il souhaite, qu'il s'agisse d'argent, de matériel ou d'hommes.</p>\n",
+        "description": "<p>Le PNJ a accès à toutes les ressources qu'il souhaite, qu'il s'agisse d'argent, de matériel ou d'hommes.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -932,17 +1075,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.975c59ec076e600a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019233,
         "modifiedTime": 1667219067508,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.975c59ec076e600a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -953,7 +1097,7 @@
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ peut dépenser une action de déplacement pour récupérer 10 à 100 points de santé (au choix du MJ). Cette capacité ne peut être activée qu'une fois par tour en phase de conflit.</p>\n",
+        "description": "<p>Le PNJ peut dépenser une action de déplacement pour récupérer 10 à 100 points de santé (au choix du MJ). Cette capacité ne peut être activée qu'une fois par tour en phase de conflit.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -1061,17 +1205,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.7c5c911f687b8b64"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018888,
         "modifiedTime": 1667219080415,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.7c5c911f687b8b64",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1080,21 +1225,22 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Actor.FJGFE1rTTJPtI6nl"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667218846697,
-    "modifiedTime": 1685567372841,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770386296748,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Actor.FJGFE1rTTJPtI6nl",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "lKMSy9ySA4ebtggF",
   "folder": null,
-  "sort": 0,
+  "sort": 20000000,
   "ownership": {
     "default": 0
   },

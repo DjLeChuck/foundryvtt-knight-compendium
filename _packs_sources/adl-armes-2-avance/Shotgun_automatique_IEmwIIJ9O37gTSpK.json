@@ -1,0 +1,137 @@
+{
+  "name": "Shotgun automatique",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>Fléau des désespérés, décimateur de bandes, le shotgun automatique possède un chargeur circulaire de 35 cartouches 23mm permettant de tirer une pluie de chevrotine en rafales continues dans un vacarme assourdissant.</p>\n",
+    "rarete": "avance",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 70,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 10,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 6,
+      "fixe": 10,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "barrage 4",
+        "demoralisant",
+        "deuxmains",
+        "dispersion 3",
+        "lourd",
+        "ultraviolence"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.7e3201bd7b540e2c"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005681,
+    "modifiedTime": 1693092596475,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "IEmwIIJ9O37gTSpK",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!IEmwIIJ9O37gTSpK"
+}

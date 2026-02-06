@@ -1,5 +1,5 @@
 {
-  "name": "Meredith Cole (hero)",
+  "name": "Meredith Cole (Héros)",
   "type": "pnj",
   "img": "modules/knight-compendium/assets/npc/meredith-cole.webp",
   "system": {
@@ -496,14 +496,14 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 40,
       "max": 0,
       "base": 40,
       "optionDeploy": false
     },
     "description": "<p>Meredith Cole est une londonienne pur jus. Dipl&ocirc;m&eacute;e en psychologie, elle a quitt&eacute; cette voie pour suivre celle des arts. Elle &eacute;tait devenue professeure de th&eacute;&acirc;tre &agrave; la Royal Academy of Dramatic Art quand la face du monde a chang&eacute;. C&rsquo;est l&rsquo;association de ses dons d&rsquo;empathie et de sa capacit&eacute; &agrave; mentir parfaitement qui lui ont permis de sauvegarder son groupe d&rsquo;&eacute;tudiants du d&eacute;sespoir en isolant ceux sur le point de succomber. Apr&egrave;s plusieurs mois &agrave; tenter de maintenir une vie normale, elle a fini par rejoindre le Knight et la coterie de Gideon.Meredith n&rsquo;est pas la co&eacute;quipi&egrave;re du neveu d&rsquo;Arthur par hasard. Proche de Gideon, d&rsquo;aucuns diraient sa confidente, Kay attend d&rsquo;elle qu&rsquo;elle le surveille pour v&eacute;rifier l&rsquo;&eacute;volution de son syndrome post-traumatique. &Eacute;quip&eacute;e d&rsquo;une m&eacute;ta-armure Bard, elle est capable de berner n&rsquo;importe qui.</p>",
     "tactique": "<p>Meredith est une artiste du mensonge, sp&eacute;cialis&eacute;e dans l&rsquo;illusion et les manipulations complexes. Elle sait aussi &eacute;laborer des tactiques subtiles qui profitent des faiblesses de l&rsquo;ennemi. En combat aupr&egrave;s de sa coterie, elle donne le tempo et cr&eacute;e des illusions, des diversions et des pi&egrave;ges permettant &agrave; ses alli&eacute;s de se d&eacute;placer et d&rsquo;&eacute;liminer les cibles sans se faire rep&eacute;rer. Seule, elle n&rsquo;engage le combat que si c&rsquo;est absolument n&eacute;cessaire et tente dans ce cas de rester dissimul&eacute;e sous ses simulacres.</p>",
-    "type": "type alliée (hero)",
+    "type": "Alliée (Héros)",
     "pointsFaibles": "",
     "phase2Activate": false,
     "phase2": {
@@ -549,7 +549,7 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 60,
       "max": 0,
       "base": 60,
       "bonus": {
@@ -587,7 +587,7 @@
     "histoire": "",
     "metaarmure": "",
     "energie": {
-      "value": 0,
+      "value": 100,
       "max": 0,
       "base": 100,
       "bonus": {
@@ -638,7 +638,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -674,11 +678,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -689,7 +695,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -806,17 +836,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.pnUuqUyb2hEuXiSh"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1667422705456,
         "modifiedTime": 1667424192221,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Item.pnUuqUyb2hEuXiSh",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "RyQ7PsfCkacQJMCv",
       "_key": "!actors.items!BdKWdZCb43nAyepN.RyQ7PsfCkacQJMCv"
@@ -916,17 +947,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.21dc401928791ce2"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005658,
         "modifiedTime": 1667424243045,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.21dc401928791ce2",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1025,17 +1057,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.c16dd5b6cbcd8644"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005687,
         "modifiedTime": 1667424265839,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.c16dd5b6cbcd8644",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1135,17 +1168,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.5a2081f18d341072"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005673,
         "modifiedTime": 1667424267817,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.5a2081f18d341072",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1245,17 +1279,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-avance.cd4b3842fadb868f"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890005690,
         "modifiedTime": 1667424270225,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.weapons-avance.cd4b3842fadb868f",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "Ng4Wg5CoRf575OLv",
       "sort": 0,
@@ -1374,17 +1409,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.386557f70752eda5"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018830,
         "modifiedTime": 1667558640963,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.386557f70752eda5",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -1393,8 +1429,6 @@
   ],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "TIwKI5c4akFpYF7d",
@@ -1408,14 +1442,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!BdKWdZCb43nAyepN.TIwKI5c4akFpYF7d"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -1520,14 +1570,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!BdKWdZCb43nAyepN.LQOMEUwELO21Myym"
     },
     {
-      "label": "Armes",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "j4aA2y4DtibpWyle",
@@ -1541,28 +1607,47 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!BdKWdZCb43nAyepN.j4aA2y4DtibpWyle"
     }
   ],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.BdKWdZCb43nAyepN"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667423189012,
-    "modifiedTime": 1686392332407,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770384754441,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.BdKWdZCb43nAyepN",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "BdKWdZCb43nAyepN",
   "folder": null,
-  "sort": 0,
+  "sort": 4700000,
   "ownership": {
     "default": 0
   },

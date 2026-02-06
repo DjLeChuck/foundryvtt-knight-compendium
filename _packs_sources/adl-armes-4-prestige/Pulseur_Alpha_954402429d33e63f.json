@@ -1,0 +1,113 @@
+{
+  "name": "Pulseur Alpha",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>Merlin considère les armes à feu comme une chose du passé. Agacé par l'intérêt des chevaliers et armuriers pour les armes ridiculement primitives de M. Johanson, il s'est penché sur les problèmes rencontrés par les railguns : l'impossibilité d'utiliser des munitions antipersonnel et la faible fréquence de tir.</p>\n<p>Le pulseur alpha est le résultat de ces recherches. Au lieu de deux rails, le canon est entouré de huit rails propulsant, paire opposée par paire opposée, des grappes de fléchettes de 3 mm à une vitesse hypersonique. Lors d'un choc contre un objet solide ou d'une violente décélération, ces fléchettes se désolidarisent les unes des autres, transformant la chair en bouillie.</p>\n<p>Animé par un générateur à énergie alpha, le pulseur alpha dispose d'un système de refroidissement très performant qui maintient les rails à très basse température et permet une haute fréquence de tir. Le vrombissement du pulseur alpha n'est entendu qu'après l'arrivée d'une pluie de fléchettes capable de transformer tout être vivant en viande hachée. Face à des adversaires plus résistants, des fléchettes d'uranium appauvri à pointe d'élément alpha transpercent blindages et armures, les fragments pyrogènes d'uranium faisant aussi beaucoup de dégâts. Les fléchettes sont rangées dans des chargeurs droits contenant chacun 300 projectiles.</p>\n",
+    "rarete": "prestige",
+    "type": "distance",
+    "portee": "longue",
+    "prix": 120,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 10
+    },
+    "violence": {
+      "dice": 12,
+      "fixe": 10
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "assistanceattaque",
+        "demoralisant",
+        "deuxmains",
+        "dispersion 6",
+        "fureur",
+        "ignorearmure",
+        "meurtrier",
+        "obliteration"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "954402429d33e63f",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-prestige.954402429d33e63f"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "1.8.6",
+    "coreVersion": "10.288",
+    "createdTime": 1666890012493,
+    "modifiedTime": 1668026445676,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "_key": "!items!954402429d33e63f"
+}
