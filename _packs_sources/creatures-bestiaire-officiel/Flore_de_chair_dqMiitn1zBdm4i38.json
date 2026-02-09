@@ -384,9 +384,9 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 300,
       "max": 0,
-      "base": 0
+      "base": 300
     },
     "description": "<p>La flore de chair est parmi les deux principaux ph&eacute;nom&egrave;nes qui ont &eacute;t&eacute; d&eacute;couverts lorsque le Nodachi a r&eacute;ussi &agrave; faire reculer les t&eacute;n&egrave;bres tapies en Asie. &Agrave; la place des villages habit&eacute;s et de certaines villes s&rsquo;&eacute;tendaient des jungles enti&egrave;res de flore de chair. Au premier abord, cette v&eacute;g&eacute;tation faite de veines et d&rsquo;os semble inoffensive quoique monstrueuse. Cependant, la nuit tomb&eacute;e, elle se d&eacute;place, lentement, afin de se d&eacute;ployer sur toujours plus de territoire. Cette force lente est tr&egrave;s dure &agrave; arr&ecirc;ter et m&ecirc;me &agrave; retarder, car elle est r&eacute;sistante et innombrable. Si un arbre de chair est mis &agrave; bas, un autre se forme &agrave; sa suite et continue la lente progression d&eacute;but&eacute;e par le premier.</p>\n<p>La flore de chair est syst&eacute;matiquement attir&eacute;e par la pr&eacute;sence d&rsquo;humains. Un voyageur ou un r&eacute;fugi&eacute; endormi, m&ecirc;me s&rsquo;il se croit prot&eacute;g&eacute; &agrave; l&rsquo;int&eacute;rieur d&rsquo;une masure, peut se r&eacute;veiller entour&eacute; de cette v&eacute;g&eacute;tation mouvante qui l&rsquo;&eacute;crase alors et cherche &agrave; int&eacute;grer son corps. Pire encore est le destin de celui qui se fait surprendre, mais qui, le jour immobilisant les arbres et les plantes, reste bloqu&eacute; par la v&eacute;g&eacute;tation, agonisant au c&oelig;ur de la chair et des os. Car si la flore de chair peut r&eacute;sister &agrave; la lumi&egrave;re du soleil, contrairement &agrave; de nombreuses cr&eacute;atures t&eacute;n&eacute;breuses, celle-ci l&rsquo;affaiblit trop pour qu&rsquo;elle puisse continuer d&rsquo;avancer et d&rsquo;agir. Elle se contente donc d&rsquo;attendre patiemment la nuit suivante pour reprendre sa progression.</p>",
     "histoire": "",
@@ -473,7 +473,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -509,11 +513,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -524,7 +530,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -640,17 +670,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.66c744a03eb4bfa9"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018868,
         "modifiedTime": 1667143531650,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.66c744a03eb4bfa9",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -659,17 +690,18 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.dqMiitn1zBdm4i38"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667143328419,
-    "modifiedTime": 1668026211624,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770387773829,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.dqMiitn1zBdm4i38",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "dqMiitn1zBdm4i38",
   "folder": null,

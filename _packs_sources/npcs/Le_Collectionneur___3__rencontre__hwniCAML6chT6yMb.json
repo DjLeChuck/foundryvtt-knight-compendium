@@ -1,7 +1,7 @@
 {
-  "name": "Gideon Mactavish (hero)",
-  "type": "pnj",
-  "img": "modules/knight-compendium/assets/npc/gideon-mactavish.webp",
+  "name": "Le Collectionneur  (3è rencontre)",
+  "type": "creature",
+  "img": "systems/knight/assets/icons/creature.svg",
   "system": {
     "combat": {
       "armesimprovisees": {
@@ -27,14 +27,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 2
                 },
@@ -45,14 +40,9 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
-                "force": 1,
-                "chair": [
-                  1,
-                  2
-                ],
                 "degats": {
                   "dice": 4
                 },
@@ -63,7 +53,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -85,7 +75,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -98,7 +88,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -111,7 +101,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -133,7 +123,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 3
+                "utilisation": 3
               },
               "2": {
                 "degats": {
@@ -146,7 +136,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "3": {
                 "degats": {
@@ -159,7 +149,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -181,7 +171,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -194,7 +184,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           },
@@ -216,7 +206,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 1
+                "utilisation": 1
               },
               "2": {
                 "degats": {
@@ -229,7 +219,7 @@
                   "raw": [],
                   "custom": []
                 },
-                "utilisations": 2
+                "utilisation": 2
               }
             }
           }
@@ -245,132 +235,23 @@
         "violencebonus": {
           "dice": 0,
           "fixe": 0
-        }
-      },
-      "nods": {
-        "soin": {
-          "value": 0,
-          "max": 0,
-          "recuperationBonus": 0
         },
-        "armure": {
-          "value": 0,
-          "max": 0,
-          "recuperationBonus": 0
-        },
-        "energie": {
-          "value": 0,
-          "max": 0,
-          "recuperationBonus": 0
-        }
-      },
-      "grenades": {
-        "quantity": {
-          "value": 5,
-          "max": 5
-        },
-        "liste": {
-          "antiblindage": {
-            "degats": {
-              "dice": 3
-            },
-            "violence": {
-              "dice": 3
-            },
-            "effets": {
-              "liste": [],
-              "raw": [
-                "destructeur",
-                "dispersion 6",
-                "penetrant 6",
-                "percearmure 20"
-              ],
-              "custom": []
-            }
-          },
-          "explosive": {
-            "degats": {
-              "dice": 3
-            },
-            "violence": {
-              "dice": 3
-            },
-            "effets": {
-              "liste": [],
-              "raw": [
-                "antivehicule",
-                "choc 1",
-                "dispersion 3"
-              ],
-              "custom": []
-            }
-          },
-          "flashbang": {
-            "degats": {
-              "dice": 0
-            },
-            "violence": {
-              "dice": 0
-            },
-            "effets": {
-              "liste": [],
-              "raw": [
-                "aucundegatsviolence",
-                "barrage 2",
-                "choc 1",
-                "dispersion 6"
-              ],
-              "custom": []
-            }
-          },
-          "iem": {
-            "degats": {
-              "dice": 0
-            },
-            "violence": {
-              "dice": 0
-            },
-            "effets": {
-              "liste": [],
-              "raw": [
-                "aucundegatsviolence",
-                "dispersion 6",
-                "parasitage 2"
-              ],
-              "custom": []
-            }
-          },
-          "shrapnel": {
-            "degats": {
-              "dice": 3
-            },
-            "violence": {
-              "dice": 3
-            },
-            "effets": {
-              "liste": [],
-              "raw": [
-                "dispersion 6",
-                "meurtrier",
-                "ultraviolence"
-              ],
-              "custom": []
-            }
-          }
-        }
+        "sacrifice": 0,
+        "tourspasses": 1,
+        "type": "degats"
       }
     },
     "aspects": {
       "chair": {
-        "value": 9,
+        "value": 6,
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 1,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
@@ -380,53 +261,53 @@
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 4,
             "max": 10
           },
           "majeur": {
-            "value": "4",
+            "value": 0,
             "max": 10
           }
         }
       },
       "machine": {
-        "value": 12,
+        "value": 6,
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "2",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
       },
       "dame": {
-        "value": 10,
+        "value": 6,
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           },
           "majeur": {
-            "value": "0",
+            "value": 0,
             "max": 10
           }
         }
       },
       "masque": {
-        "value": 14,
+        "value": 12,
         "max": 20,
         "ae": {
           "mineur": {
-            "value": "0",
+            "value": 3,
             "max": 10
           },
           "majeur": {
-            "value": "5",
+            "value": 0,
             "max": 10
           }
         }
@@ -439,7 +320,7 @@
       "diceBonus": {},
       "diceMalus": {},
       "bonus": {
-        "user": 0
+        "user": 10
       },
       "malus": {
         "user": 0
@@ -449,7 +330,11 @@
         "diceMalus": {},
         "bonus": {},
         "malus": {}
-      }
+      },
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
+      "diceMod": 0
     },
     "reaction": {
       "bonus": {
@@ -462,16 +347,17 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
-      "base": 6,
-      "optionDeploy": false
+      "base": 5,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false
     },
     "defense": {
       "bonus": {
         "user": 0,
-        "armes": 2,
+        "armes": 0,
         "capacites": 0
       },
       "malus": {
@@ -479,11 +365,12 @@
         "capacites": 0,
         "armes": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
       "value": 0,
-      "base": 6,
-      "optionDeploy": false
+      "base": 7,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false
     },
     "sante": {
       "bonus": {
@@ -494,17 +381,15 @@
         "user": 0,
         "capacites": 0
       },
-      "bonusValue": 0,
-      "malusValue": 0,
-      "value": 0,
+      "value": 250,
       "max": 0,
-      "base": 50,
-      "optionDeploy": false
+      "base": 250,
+      "mod": 0
     },
-    "description": "<p>Gideon MacTavish est le neveu d&rsquo;Arthur et le fils de sa demi-s&oelig;ur Mo&iuml;ra Murphy, alias Morgane. Jeune homme talentueux et vers&eacute; dans les arts de la guerre comme beaucoup de membres de sa famille, il n&rsquo;a cependant pas &eacute;t&eacute; int&eacute;gr&eacute; &agrave; l&rsquo;organisation d&egrave;s sa cr&eacute;ation. Soutien de son oncle et de sa tante lors de la bataille de Dublin, il a subi un grave traumatisme en voyant sa m&egrave;re, qui chantait alors au sein du Gaiety Theatre, succomber au d&eacute;sespoir et dispara&icirc;tre brutalement. Le choc a &eacute;t&eacute; si violent pour Gideon qu&rsquo;il a subi une amn&eacute;sie. Il a oubli&eacute; Dublin et jusqu&rsquo;&agrave; sa m&egrave;re elle-m&ecirc;me.</p>\n<p>Apr&egrave;s plusieurs mois de traitement, Gideon a finalement rejoint le Knight. Il rev&ecirc;t une m&eacute;taarmure Rogue et s&rsquo;est sp&eacute;cialis&eacute; dans l&rsquo;&eacute;limination discr&egrave;te de ses ennemis. Il op&egrave;re, avec sa coterie, en tant qu&rsquo;&eacute;cuyer de Kay. Cette derni&egrave;re le consid&egrave;re et le fait passer pour son fils. Elle a m&ecirc;me &eacute;t&eacute; jusqu&rsquo;&agrave; modifier son nom de famille, Murphy, en MacTavish pour &eacute;viter les diff&eacute;rentes rumeurs sur sa maternit&eacute;.</p>\n<p>Gideon est empreint de grands id&eacute;aux de libert&eacute;. Pour lui, l&rsquo;utilisation de ses pratiques d&rsquo;assassin sert &agrave; faire survivre l&rsquo;Humanit&eacute; et &agrave; lutter contre les t&eacute;n&egrave;bres. Il refuse l&rsquo;injustice, la corruption, et cherche &agrave; attirer l&rsquo;attention de son oncle ador&eacute; dont il souhaite par-dessus tout l&rsquo;approbation, Arthur lui-m&ecirc;me.</p>",
-    "tactique": "<p>Gideon est un tueur discret, ma&icirc;trisant sa m&eacute;ta-armure Rogue avec efficacit&eacute;. Il est expert dans l&rsquo;&eacute;limination de cible individuelle mais aussi dans les missions de reconnaissance. Fonctionnant en symbiose parfaite avec Cicero et Meredith, il est le fer de lance de sa coterie. Cette derni&egrave;re est d&rsquo;ailleurs sp&eacute;cialis&eacute;e dans les missions d&rsquo;observation en territoire ennemi.</p>",
-    "type": "type allié (hero) ",
-    "pointsFaibles": "",
+    "description": "",
+    "tactique": "<p>Cette cr&eacute;ature aime se t&eacute;l&eacute;porter et attaquer le personnage avec le plus d&rsquo;Aura ou de Hargne. Brutale et rapide, elle est difficilement touchable au corps &agrave; corps, mais craint particuli&egrave;rement les armes &agrave; distance. Elle peut d&eacute;cider d&rsquo;effectuer indiff&eacute;remment ses attaques au contact ou &agrave; distance.</p>",
+    "type": "Patron (initié)",
+    "pointsFaibles": "<p>Perception/Hargne</p>",
     "phase2Activate": false,
     "phase2": {
       "sante": 0,
@@ -514,36 +399,36 @@
         "chair": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "bete": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "machine": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "dame": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         },
         "masque": {
           "value": 0,
           "ae": {
-            "mineur": "0",
-            "majeur": "0"
+            "mineur": 0,
+            "majeur": 0
           }
         }
       }
@@ -551,7 +436,7 @@
     "armure": {
       "value": 0,
       "max": 0,
-      "base": 70,
+      "base": 0,
       "bonus": {
         "user": 0,
         "modules": 0,
@@ -560,36 +445,31 @@
       "malus": {
         "user": 0
       },
-      "optionDeploy": false
+      "mod": 0
     },
     "bouclier": {
       "value": 0,
-      "max": 0,
-      "base": 0,
+      "base": 15,
       "bonus": {
         "user": 0
       },
       "malus": {
         "user": 0
-      }
+      },
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false
     },
     "resilience": {
       "value": 0,
       "max": 0
     },
-    "surnom": "Prophet",
-    "age": "",
-    "wear": "Rogue",
-    "archetype": "",
-    "hautFait": "",
-    "section": "",
-    "blason": "",
     "histoire": "",
-    "metaarmure": "",
     "energie": {
       "value": 0,
       "max": 0,
-      "base": 90,
+      "base": 0,
       "bonus": {
         "user": 0,
         "modules": 0
@@ -597,48 +477,70 @@
       "malus": {
         "user": 0
       },
-      "optionDeploy": false
-    },
-    "champDeForce": {
-      "value": 0,
-      "base": 14,
-      "bonus": {
-        "user": 0,
-        "modules": 0
-      },
-      "malus": {
-        "user": 0
-      },
-      "optionDeploy": false
-    },
-    "espoir": {
-      "value": 0,
-      "max": 0
+      "mod": 0
     },
     "options": {
-      "energie": true,
-      "champDeForce": true,
+      "energie": false,
       "sante": true,
-      "bouclier": false,
-      "armure": true,
-      "espoir": false,
+      "bouclier": true,
+      "armure": false,
       "resilience": false,
-      "modules": true,
-      "phase2": false
+      "phase2": false,
+      "notFirstMenu": false,
+      "noSecondMenu": false,
+      "embuscadeSubis": false,
+      "embuscadePris": false
+    },
+    "patron": true,
+    "version": 1,
+    "descriptionLimitee": "",
+    "limited": {
+      "showDescriptionFull": false,
+      "showDescriptionLimited": false,
+      "showPointsFaibles": false
+    },
+    "otherMods": {},
+    "origin": "anatheme",
+    "champDeForce": {
+      "base": 0,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
+      "bonus": {
+        "user": 0,
+        "system": 0
+      },
+      "malus": {
+        "user": 0,
+        "system": 0
+      }
+    },
+    "colosse": false,
+    "bonusSiEmbuscade": {
+      "bonusInitiative": {
+        "dice": 0,
+        "fixe": 0
+      }
     }
   },
   "prototypeToken": {
-    "name": "Gideon Mactavish",
+    "name": "Le collectionneur",
     "displayName": 0,
     "actorLink": false,
     "texture": {
-      "src": "modules/knight-compendium/assets/npc/gideon-mactavish.webp",
+      "src": "systems/knight/assets/icons/creature.svg",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -674,11 +576,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -689,15 +593,39 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
-      "name": "Autorité (mineur)",
+      "name": "Téléportation (ombres)",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Si le PNJ meurt, les PNJ sous ses ordres subissent 3 points de malus sur tous leurs aspects, leur défense et leur réaction, jusqu'à la fin de la phase de conflit.</p>\n",
+        "description": "<p>Le PNJ peut apparaître et disparaître à volonté dans l'élément correspondant.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -800,34 +728,32 @@
         }
       },
       "effects": [],
-      "_id": "cO5kSuizmJcdmn4g",
+      "_id": "b2uVSnNXFYiGzElR",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.b7dc1c0d0c56b29e"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1666890019254,
-        "modifiedTime": 1667422181050,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
-      "_key": "!actors.items!KyDBthTgUsPtHgmj.cO5kSuizmJcdmn4g"
+      "_key": "!actors.items!hwniCAML6chT6yMb.b2uVSnNXFYiGzElR"
     },
     {
-      "folder": "tdM7pAG1fy6ovTFO",
-      "name": "Méta-armure (Rogue)",
+      "name": "Obscurité impénétrable",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ poss&egrave;de les capacit&eacute;s d&rsquo;une m&eacute;ta-armure Rogue avec &eacute;volution &agrave; 150 et 200 PG totaux.</p>",
+        "description": "<p>Le PNJ est immunisé à l'effet lumière généré par des armes, des outils ou des modules. Il reste sensible à l'effet lumière généré par l'art.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -930,161 +856,32 @@
         }
       },
       "effects": [],
-      "sort": 0,
+      "_id": "LMsa1ILX5IKgyxYF",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.pnUuqUyb2hEuXiSh"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "knight",
-        "systemVersion": "1.5.7",
-        "coreVersion": "10.288",
-        "createdTime": 1667422705456,
-        "modifiedTime": 1667422729662,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
-      },
-      "_id": "1j21uv1BUR5teEn9",
-      "_key": "!actors.items!KyDBthTgUsPtHgmj.1j21uv1BUR5teEn9"
-    },
-    {
-      "name": "Chevalier héroïque",
-      "type": "capacite",
-      "img": "systems/knight/assets/icons/capacite.svg",
-      "system": {
-        "description": "<p>Le PNJ dispose de 6 modules standards, avancés ou rares à définir et répartir par le MJ. L'équipement de ces modules doit respecter le nombre de slots de la méta-armure.</p>\n",
-        "aspects": {
-          "chair": {},
-          "bete": {},
-          "machine": {},
-          "dame": {},
-          "masque": {}
-        },
-        "isPhase2": false,
-        "bonus": {
-          "aspectsLieSupplementaire": {
-            "has": false,
-            "value": "chair"
-          },
-          "sante": {
-            "has": false,
-            "aspect": {
-              "lie": false,
-              "value": "chair",
-              "multiplie": 5
-            },
-            "value": 0
-          },
-          "armure": {
-            "has": false,
-            "aspect": {
-              "lie": false,
-              "value": "chair",
-              "multiplie": 5
-            },
-            "value": 0
-          },
-          "aspectMax": {
-            "has": false,
-            "aspect": "chair",
-            "maximum": {
-              "aspect": 40,
-              "ae": 20
-            }
-          }
-        },
-        "degats": {
-          "has": false,
-          "system": {
-            "dice": 0,
-            "fixe": 0,
-            "effets": {
-              "raw": [],
-              "custom": [],
-              "liste": []
-            }
-          }
-        },
-        "attaque": {
-          "has": false,
-          "type": "contact",
-          "portee": "contact",
-          "degats": {
-            "dice": 0,
-            "fixe": 0
-          },
-          "effets": {
-            "raw": [],
-            "custom": [],
-            "liste": []
-          }
-        },
-        "phase2": {
-          "aspects": {
-            "has": false,
-            "liste": {
-              "chair": {
-                "value": 0
-              },
-              "bete": {
-                "value": 0
-              },
-              "machine": {
-                "value": 0
-              },
-              "dame": {
-                "value": 0
-              },
-              "masque": {
-                "value": 0
-              }
-            }
-          },
-          "sante": {
-            "has": false,
-            "value": 0
-          },
-          "armure": {
-            "has": false,
-            "value": 0
-          },
-          "tactique": {
-            "has": false,
-            "value": ""
-          }
-        }
-      },
-      "effects": [],
-      "_id": "eE95h2MgbTMSIqLd",
-      "ownership": {
-        "default": 0
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.386557f70752eda5"
-        }
-      },
-      "_stats": {
-        "systemId": "knight",
-        "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
-        "createdTime": 1666890018830,
-        "modifiedTime": 1667558200261,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
-      "_key": "!actors.items!KyDBthTgUsPtHgmj.eE95h2MgbTMSIqLd"
+      "_key": "!actors.items!hwniCAML6chT6yMb.LMsa1ILX5IKgyxYF"
     },
     {
-      "name": "Meneur d'hommes",
+      "name": "Domination",
       "type": "capacite",
       "img": "systems/knight/assets/icons/capacite.svg",
       "system": {
-        "description": "<p>Le PNJ, lorsqu'il est accompagné d'alliés sous ses ordres, leur procure un bonus de 2 en défense et en réaction, ainsi qu'un bonus de 2 en débordement et de 50 en cohésion si les alliés forment une bande.</p>\n",
+        "description": "<p>Une fois par tour, sans utiliser d'action, le PNJ peut tenter de prendre le contrôle de l'esprit d'un personnage grâce à un test sous l'aspect Machine en opposition à la Hargne du PJ visé (avec overdrives) (ou Bête/2 pour un PNJ). S'il réussit, ce dernier agit sous ses ordres au prochain tour comme s'il possédait une action de combat et de déplacement (et uniquement au prochain tour). Le personnage dominé perd ce tour de jeu et ne peut pas effectuer d'action.</p>",
         "aspects": {
           "chair": {},
           "bete": {},
@@ -1187,38 +984,293 @@
         }
       },
       "effects": [],
-      "_id": "rUuW9OggjnxjKN33",
+      "_id": "5y2UttMVghuhGTtH",
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.f8150d4f36b6adc1"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "knight",
-        "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
-        "createdTime": 1666890019308,
-        "modifiedTime": 1667558209565,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
-      "_key": "!actors.items!KyDBthTgUsPtHgmj.rUuW9OggjnxjKN33"
+      "_key": "!actors.items!hwniCAML6chT6yMb.5y2UttMVghuhGTtH"
     },
     {
-      "name": "Épée cinétique",
+      "name": "Anathème",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ peut décider d'infliger ses dégâts sur les points d'espoir plutôt que sur les points de santé. Le CdF fonctionne, mais pas les points d'armure. Si le PNJ est tué, les PJ ayant subi cet effet récupèrent 1D6 points d'espoir par tranche complète de 6 points d'espoir perdus.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "pj3WQEumaD5IcPg7",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "knight",
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!hwniCAML6chT6yMb.pj3WQEumaD5IcPg7"
+    },
+    {
+      "name": "Actions multiples (1)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ possède X actions de combat en plus de son action de déplacement et de combat de base. Ces actions sont à effectuer à son initiative.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "w0ZvdXfbyA5Rxvz2",
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "knight",
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
+      },
+      "folder": "FdIw3AaAAqfstH0n",
+      "sort": 0,
+      "_key": "!actors.items!hwniCAML6chT6yMb.w0ZvdXfbyA5Rxvz2"
+    },
+    {
+      "folder": "BZpWmamPeuX1E27W",
+      "name": "Griffes en élément alpha",
       "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/epee-cinetique.webp",
+      "img": "systems/knight/assets/icons/arme.svg",
       "system": {
-        "description": "<p>À l'atelier, Gauvain a renforcé les outils du Knight avec des champs de force, notamment pour travailler l'élément alpha. Les résultats ont été si impressionnants qu'il a créé par la suite l'épée cinétique. Comme une rapière, elle est droite, fine et à tranchant unique. Elle est forgée dans un alliage d'élément alpha replié en fines lignes comme une lame de damas ou un katana. Un modulateur dans la poignée étend le champ de force de la méta-armure à la lame et modifie son comportement pour le faire vibrer à très haute fréquence. À son contact, la chair se disperse comme la sciure crachée par une broyeuse. Et les armures se disloquent dans une pluie d'étincelles.</p>\n",
-        "rarete": "rare",
+        "description": "",
+        "rarete": "standard",
         "type": "contact",
-        "portee": "contact",
-        "prix": 70,
-        "energie": 0,
+        "portee": "courte",
+        "prix": 0,
         "listes": {},
         "options2mains": {
           "has": false,
@@ -1258,28 +1310,53 @@
           }
         },
         "degats": {
-          "dice": 6,
-          "fixe": 0
+          "dice": 3,
+          "fixe": 6,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
-          "dice": 3,
-          "fixe": 0
+          "dice": 0,
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
           "raw": [
-            "assistanceattaque",
-            "defense 2",
-            "jumeleambidextrie",
-            "orfevrerie",
             "ignorearmure"
           ],
-          "custom": []
+          "custom": [],
+          "chargeur": null,
+          "activable": []
         },
         "effets2mains": {
           "liste": [],
           "raw": [],
-          "custom": []
+          "custom": [],
+          "chargeur": null,
+          "activable": []
         },
         "distance": {
           "liste": [],
@@ -1295,41 +1372,43 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
-      "_id": "Kf1HWkBiF7QyhbLK",
+      "sort": 0,
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-rare.005106924e02b7c5"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "knight",
-        "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
-        "createdTime": 1666890009121,
-        "modifiedTime": 1667558227302,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
       },
-      "folder": "hWomqoUpx2C48FAn",
-      "sort": 0,
-      "_key": "!actors.items!KyDBthTgUsPtHgmj.Kf1HWkBiF7QyhbLK"
+      "_id": "XKQgYQd8BgMd4BO2",
+      "_key": "!actors.items!hwniCAML6chT6yMb.XKQgYQd8BgMd4BO2"
     },
     {
-      "name": "Revolver lourd - 600 NE",
+      "folder": "BZpWmamPeuX1E27W",
+      "name": "Aiguilles de ténèbres",
       "type": "arme",
-      "img": "modules/knight-compendium/assets/weapons/revolver-lourd.webp",
+      "img": "systems/knight/assets/icons/arme.svg",
       "system": {
-        "description": "<p>Ce revolver a été conçu par Nathan « Nate » Johanson, écuyer de Gauvain, pour tirer une balle de chasse à l'éléphant, la 600 Nitro Express (NE). Cette arme égale en puissance un fusil anti-matériel, mais ne s'utilise qu'à une main. Nate récupère des chutes d'usinage de méta-armure pour faire des balles dans un amalgame spécial capable de traverser n'importe quoi. Ces rares munitions sont nommées les T-800, en référence à Terminator. Mais la matière première manque et chaque balle a un coût.\nChanger de type de munition prend une action de déplacement.\nAttention : Les T-800 s'achètent 5 PG l'unité à Camelot même.</p>\n",
-        "rarete": "rare",
+        "description": "",
+        "rarete": "standard",
         "type": "distance",
         "portee": "moyenne",
-        "prix": 70,
-        "energie": 0,
+        "prix": 0,
         "listes": {},
         "options2mains": {
           "has": false,
@@ -1369,26 +1448,53 @@
           }
         },
         "degats": {
-          "dice": 6,
-          "fixe": 6
+          "dice": 4,
+          "fixe": 6,
+          "addchair": true,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "violence": {
-          "dice": 1,
-          "fixe": 0
+          "dice": 0,
+          "fixe": 0,
+          "variable": {
+            "has": false,
+            "min": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "max": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "cout": 0
+          }
         },
         "effets": {
           "liste": [],
           "raw": [
-            "meurtrier",
-            "penetrant 10",
-            "percearmure 40"
+            "dispersion 4"
           ],
-          "custom": []
+          "custom": [],
+          "chargeur": null,
+          "activable": []
         },
         "effets2mains": {
           "liste": [],
           "raw": [],
-          "custom": []
+          "custom": [],
+          "chargeur": null,
+          "activable": []
         },
         "distance": {
           "liste": [],
@@ -1404,212 +1510,54 @@
           "liste": [],
           "raw": [],
           "custom": []
-        }
+        },
+        "equipped": false,
+        "rack": false,
+        "energie": 0,
+        "gratuit": false
       },
       "effects": [],
-      "_id": "Zl5l7bRqxc18wrWb",
+      "sort": 0,
       "ownership": {
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.weapons-rare.93aaf9881cdcd09b"
-        }
+        "core": {}
       },
       "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "knight",
-        "systemVersion": "1.7.1",
-        "coreVersion": "10.288",
-        "createdTime": 1666890009157,
-        "modifiedTime": 1667558255076,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
       },
-      "folder": "hWomqoUpx2C48FAn",
-      "sort": 0,
-      "_key": "!actors.items!KyDBthTgUsPtHgmj.Zl5l7bRqxc18wrWb"
+      "_id": "WJORzc3Ka3mgy2YI",
+      "_key": "!actors.items!hwniCAML6chT6yMb.WJORzc3Ka3mgy2YI"
     }
   ],
-  "effects": [
-    {
-      "label": "Modules",
-      "icon": null,
-      "changes": [],
-      "disabled": false,
-      "_id": "FlzcsWeWsvufXnXz",
-      "duration": {
-        "startTime": 0,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": null,
-      "tint": null,
-      "transfer": false,
-      "flags": {},
-      "_key": "!actors.effects!KyDBthTgUsPtHgmj.FlzcsWeWsvufXnXz"
-    },
-    {
-      "label": "Capacites",
-      "icon": null,
-      "changes": [
-        {
-          "key": "system.aspects.chair.max",
-          "mode": 5,
-          "priority": null,
-          "value": "20"
-        },
-        {
-          "key": "system.aspects.chair.ae.mineur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.chair.ae.majeur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.bete.max",
-          "mode": 5,
-          "priority": null,
-          "value": "20"
-        },
-        {
-          "key": "system.aspects.bete.ae.mineur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.bete.ae.majeur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.machine.max",
-          "mode": 5,
-          "priority": null,
-          "value": "20"
-        },
-        {
-          "key": "system.aspects.machine.ae.mineur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.machine.ae.majeur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.dame.max",
-          "mode": 5,
-          "priority": null,
-          "value": "20"
-        },
-        {
-          "key": "system.aspects.dame.ae.mineur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.dame.ae.majeur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.masque.max",
-          "mode": 5,
-          "priority": null,
-          "value": "20"
-        },
-        {
-          "key": "system.aspects.masque.ae.mineur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        },
-        {
-          "key": "system.aspects.masque.ae.majeur.max",
-          "mode": 5,
-          "priority": null,
-          "value": "10"
-        }
-      ],
-      "disabled": false,
-      "_id": "nlDFKtnGkpaS680a",
-      "duration": {
-        "startTime": 0,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": null,
-      "tint": null,
-      "transfer": false,
-      "flags": {},
-      "_key": "!actors.effects!KyDBthTgUsPtHgmj.nlDFKtnGkpaS680a"
-    },
-    {
-      "label": "Armes",
-      "icon": null,
-      "changes": [
-        {
-          "key": "system.defense.bonusValue",
-          "mode": 2,
-          "priority": null,
-          "value": "2"
-        }
-      ],
-      "disabled": false,
-      "_id": "OChRr9QukkBRXtJA",
-      "duration": {
-        "startTime": 0,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": null,
-      "tint": null,
-      "transfer": false,
-      "flags": {},
-      "_key": "!actors.effects!KyDBthTgUsPtHgmj.OChRr9QukkBRXtJA"
-    }
-  ],
+  "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.la-geste-de-la-fin-des-temps-arc-de-la-machine.KyDBthTgUsPtHgmj"
-    }
+    "core": {}
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
-    "createdTime": 1667421365558,
-    "modifiedTime": 1686392086213,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "systemVersion": "3.51.0",
+    "createdTime": 1770384214496,
+    "modifiedTime": 1770384216932,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7"
   },
-  "_id": "KyDBthTgUsPtHgmj",
   "folder": null,
-  "sort": 0,
   "ownership": {
-    "default": 0
+    "default": 0,
+    "HhA0aXorQtaUxgO7": 3
   },
-  "_key": "!actors!KyDBthTgUsPtHgmj"
+  "_id": "hwniCAML6chT6yMb",
+  "sort": 9800000,
+  "_key": "!actors!hwniCAML6chT6yMb"
 }

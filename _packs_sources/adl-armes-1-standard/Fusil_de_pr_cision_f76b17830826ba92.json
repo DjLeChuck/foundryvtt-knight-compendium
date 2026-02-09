@@ -1,0 +1,136 @@
+{
+  "name": "Fusil de précision",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/fusil-de-precision.webp",
+  "system": {
+    "description": "<p>Le fusil de précision est l'arme préférée des recrues qui tirent à longue distance. Avec ça, un chevalier tire du gros calibre au coup par coup à plus de 500 mètres, avec la plus grande simplicité. Une caméra hyper-performante permet de tirer sans quitter son couvert. La visée est reproduite sur l'affichage Réalité Augmentée de l'armure. Mieux encore, un chevalier peut désigner des cibles qui seront signalées sur tous les affichages RA de l'escouade. De plus, une fois la cible désignée, le tireur profite d'une assistance balistique automatisée qui affichera la trajectoire idéale pour lui ouvrir un troisième œil.</p>\n",
+    "rarete": "standard",
+    "type": "distance",
+    "portee": "lointaine",
+    "prix": 40,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 4,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "assistanceattaque",
+        "designation",
+        "deuxmains",
+        "precision",
+        "tirensecurite"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "f76b17830826ba92",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-standard.f76b17830826ba92"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.4",
+    "coreVersion": "10.303",
+    "createdTime": 1666890002697,
+    "modifiedTime": 1694104199344,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!f76b17830826ba92"
+}

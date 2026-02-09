@@ -384,9 +384,9 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 250,
       "max": 0,
-      "base": 0
+      "base": 250
     },
     "description": "<p>Si la quasi-totalit&eacute; de la c&ocirc;te Est des &Eacute;tats-Unis a &eacute;t&eacute; d&eacute;sert&eacute;e lors de la peste rouge, plusieurs communaut&eacute;s y sont rest&eacute;es, soit parce qu&rsquo;elles ne voulaient pas quitter leurs habitations, soit parce qu&rsquo;elles &eacute;taient trop atteintes par la peste pour &ecirc;tre accept&eacute;es chez les r&eacute;fugi&eacute;s. Lorsque la p&eacute;nombre de la Machine est apparue, ces communaut&eacute;s, vivant d&eacute;j&agrave; difficilement, ont &eacute;t&eacute; touch&eacute;es de plein fouet par le d&eacute;sespoir. Ces d&eacute;sesp&eacute;r&eacute;s se nomment les machinistes. Ils sont facilement reconnaissables par les clous et autres petits objets de m&eacute;tal qu&rsquo;ils ont souvent gliss&eacute;s sous la peau ou plant&eacute;s &agrave; travers leurs membres.&nbsp;<br>Arm&eacute;s de bric et de broc, rarement de technologie avanc&eacute;e, ils forment une force de combat capable de r&eacute;sister aux IEM (impulsions &eacute;lectromagn&eacute;tiques) que les arm&eacute;es utilisent r&eacute;guli&egrave;rement pour mettre hors service les cr&eacute;atures de la Machine.</p>\n<p>&nbsp;</p>\n<p>&laquo; UN MACHINISTE N&rsquo;A PLUS&nbsp;<br>&nbsp;RIEN D&rsquo;HUMAIN, Il N&rsquo;EST PLUS QU&rsquo;UN&nbsp;<br>PANTIN SANS CONSCIENCE &raquo;<br>GUIDE DU KNIGHT&nbsp;</p>",
     "histoire": "<p>&laquo; UN MACHINISTE N&rsquo;A PLUS&nbsp;<br>&nbsp;RIEN D&rsquo;HUMAIN, Il N&rsquo;EST PLUS QU&rsquo;UN&nbsp;<br>PANTIN SANS CONSCIENCE &raquo;<br>GUIDE DU KNIGHT&nbsp;</p>",
@@ -474,7 +474,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -510,11 +514,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -525,7 +531,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -641,17 +671,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018810,
         "modifiedTime": 1667149223617,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.14b5daf85c0b478a",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -770,17 +801,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.9b22f57f20a39ce2"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019236,
         "modifiedTime": 1667149231432,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.9b22f57f20a39ce2",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -899,17 +931,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.09e8362f60e15668"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890018792,
         "modifiedTime": 1667149266890,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.09e8362f60e15668",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -918,17 +951,18 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.EFmeOQc8nGTwix3S"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667148991218,
-    "modifiedTime": 1668026211650,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770388256862,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.EFmeOQc8nGTwix3S",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "EFmeOQc8nGTwix3S",
   "folder": null,

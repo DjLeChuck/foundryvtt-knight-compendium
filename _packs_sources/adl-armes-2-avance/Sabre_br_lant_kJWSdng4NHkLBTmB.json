@@ -1,0 +1,136 @@
+{
+  "name": "Sabre brûlant",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/sabre-brulant.webp",
+  "system": {
+    "description": "<p>Ce sabre a pour particularité de s'enflammer au combat. Son fonctionnement est ingénieux : la poignée aspire l'air qui est mélangé à du carburant pour fusée dans la garde. Enflammé, il fuse au niveau des évents des deux côtés de la lame. Quand un chevalier tranche, la flamme s'engouffre dans la plaie, l'élargit et brûle les organes. Il faut juste penser à recharger la garde en carburant entre les combats.</p>\n",
+    "rarete": "avance",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 40,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 5,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 3,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antianatheme",
+        "jumeleambidextrie",
+        "lumiere 4",
+        "meurtrier",
+        "orfevrerie"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-avance.d7e9d255f3daaf72"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890005693,
+    "modifiedTime": 1693092596475,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "kJWSdng4NHkLBTmB",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!kJWSdng4NHkLBTmB"
+}

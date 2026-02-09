@@ -1,0 +1,132 @@
+{
+  "name": "Pistolet de service - Tir",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/pistolet-de-service.webp",
+  "system": {
+    "description": "<p>De toutes les armes de l'arsenal, celle-ci est à la fois la plus insignifiante et la plus importante. C'est l'arme de service du Knight, celle qui accompagne les chevaliers à chaque instant. Au repos, il s'agit juste d'une poignée surmontée d'une petite sculpture constituée de nanomachines. D'un mouvement de poignet, elle se transforme en pistolet semi-automatique avec silencieux, d'un autre, en couteau de combat. Personnalisable, il est possible de configurer la sculpture, le modèle de pistolet et la forme du couteau. Il est utilisable sans méta-armure.</p>\n",
+    "rarete": "standard",
+    "type": "distance",
+    "portee": "moyenne",
+    "prix": 15,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 2,
+      "fixe": 6,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "silencieux"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "448e9e2430dceff8",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-standard.448e9e2430dceff8"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.4",
+    "coreVersion": "10.303",
+    "createdTime": 1666890002671,
+    "modifiedTime": 1694104199343,
+    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!448e9e2430dceff8"
+}

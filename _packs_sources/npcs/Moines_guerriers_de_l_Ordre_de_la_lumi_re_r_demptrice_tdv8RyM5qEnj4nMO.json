@@ -1,0 +1,538 @@
+{
+  "folder": null,
+  "name": "Moines-guerriers de l'Ordre de la lumière rédemptrice",
+  "type": "bande",
+  "img": "systems/knight/assets/icons/bande.svg",
+  "system": {
+    "version": 1,
+    "type": "Bande (initié)",
+    "histoire": "",
+    "tactique": "<p>Les membres de l&rsquo;Ordre sont tous des combattants&nbsp;confirm&eacute;s qui se servent d&rsquo;exosquelettes de combat, visibles&nbsp;au-dessus de leurs bures de moine. Ils attaquent les ennemis&nbsp;les plus gros avec leurs armes b&eacute;n&eacute;ficiant de l&rsquo;effet lumi&egrave;re 4.</p>",
+    "description": "",
+    "descriptionLimitee": "",
+    "pointsFaibles": "",
+    "aspects": {
+      "chair": {
+        "max": 20,
+        "value": 8,
+        "ae": {
+          "mineur": {
+            "value": 0,
+            "max": 10
+          },
+          "majeur": {
+            "value": 0,
+            "max": 10
+          }
+        }
+      },
+      "bete": {
+        "max": 20,
+        "value": 10,
+        "ae": {
+          "mineur": {
+            "value": 0,
+            "max": 10
+          },
+          "majeur": {
+            "value": 0,
+            "max": 10
+          }
+        }
+      },
+      "machine": {
+        "max": 20,
+        "value": 4,
+        "ae": {
+          "mineur": {
+            "value": 0,
+            "max": 10
+          },
+          "majeur": {
+            "value": 0,
+            "max": 10
+          }
+        }
+      },
+      "dame": {
+        "max": 20,
+        "value": 4,
+        "ae": {
+          "mineur": {
+            "value": 0,
+            "max": 10
+          },
+          "majeur": {
+            "value": 0,
+            "max": 10
+          }
+        }
+      },
+      "masque": {
+        "max": 20,
+        "value": 4,
+        "ae": {
+          "mineur": {
+            "value": 0,
+            "max": 10
+          },
+          "majeur": {
+            "value": 0,
+            "max": 10
+          }
+        }
+      }
+    },
+    "limited": {
+      "showPointsFaibles": false,
+      "showDescriptionFull": false,
+      "showDescriptionLimited": false
+    },
+    "combat": {
+      "data": {
+        "degatsbonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violencebonus": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "modificateur": 0,
+        "sacrifice": 0,
+        "succesbonus": 0,
+        "tourspasses": 1,
+        "type": "degats"
+      }
+    },
+    "bouclier": {
+      "base": 0,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
+      "bonus": {
+        "user": 0,
+        "system": 0
+      },
+      "malus": {
+        "user": 0,
+        "system": 0
+      }
+    },
+    "defense": {
+      "base": 5,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
+      "bonus": {
+        "user": 0,
+        "system": 0
+      },
+      "malus": {
+        "user": 0,
+        "system": 0
+      }
+    },
+    "reaction": {
+      "base": 2,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
+      "bonus": {
+        "user": 0,
+        "system": 0
+      },
+      "malus": {
+        "user": 0,
+        "system": 0
+      }
+    },
+    "debordement": {
+      "value": 10,
+      "tour": 1
+    },
+    "sante": {
+      "base": 200,
+      "mod": 0,
+      "bonusValue": 0,
+      "malusValue": 0,
+      "value": 200,
+      "max": 16,
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      }
+    },
+    "energie": {
+      "value": 0,
+      "max": 16
+    },
+    "phase2": {
+      "armure": 0,
+      "energie": 0,
+      "sante": 0,
+      "aspects": {
+        "chair": {
+          "value": 0,
+          "ae": {
+            "mineur": 0,
+            "majeur": 0
+          }
+        },
+        "bete": {
+          "value": 0,
+          "ae": {
+            "mineur": 0,
+            "majeur": 0
+          }
+        },
+        "machine": {
+          "value": 0,
+          "ae": {
+            "mineur": 0,
+            "majeur": 0
+          }
+        },
+        "dame": {
+          "value": 0,
+          "ae": {
+            "mineur": 0,
+            "majeur": 0
+          }
+        },
+        "masque": {
+          "value": 0,
+          "ae": {
+            "mineur": 0,
+            "majeur": 0
+          }
+        }
+      }
+    },
+    "phase2Activate": false,
+    "initiative": {
+      "complet": "3D6",
+      "base": 0,
+      "mod": 0,
+      "value": 0,
+      "dice": 0,
+      "diceBase": 3,
+      "diceMod": 0,
+      "diceBonus": {},
+      "diceMalus": {},
+      "bonus": {
+        "user": 0
+      },
+      "malus": {
+        "user": 0
+      },
+      "embuscade": {
+        "bonus": {},
+        "malus": {},
+        "diceBonus": {},
+        "diceMalus": {}
+      }
+    },
+    "options": {
+      "bouclier": false,
+      "phase2": false,
+      "champDeForce": false
+    },
+    "otherMods": {},
+    "origin": "humain",
+    "champDeForce": {
+      "base": 0,
+      "value": 0,
+      "valueWOMod": 0,
+      "mod": 0,
+      "malustotal": 0,
+      "iswatchtower": false,
+      "bonus": {
+        "user": 0,
+        "system": 0
+      },
+      "malus": {
+        "user": 0,
+        "system": 0
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Moines-guerriers de l'ordre de la lumière rédemptrice",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/knight/assets/icons/bande.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "sante"
+    },
+    "bar2": {
+      "attribute": "armure"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "sante",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 0,
+            "otherVisibility": 0
+          },
+          "bar2": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "armure",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 0,
+            "otherVisibility": 0
+          }
+        }
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Loyauté sans faille",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ ne fuit jamais et ne se rend jamais.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "gPnwM8bs9iiARf9x",
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "knight",
+        "systemVersion": "3.51.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!tdv8RyM5qEnj4nMO.gPnwM8bs9iiARf9x"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "knight",
+    "systemVersion": "3.51.0",
+    "createdTime": 1770303869014,
+    "modifiedTime": 1770384856596,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7"
+  },
+  "_id": "tdv8RyM5qEnj4nMO",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 23400000,
+  "_key": "!actors!tdv8RyM5qEnj4nMO"
+}

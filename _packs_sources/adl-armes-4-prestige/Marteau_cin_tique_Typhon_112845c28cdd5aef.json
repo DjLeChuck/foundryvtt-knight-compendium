@@ -1,0 +1,136 @@
+{
+  "name": "Marteau cinétique Typhon",
+  "type": "arme",
+  "img": "systems/knight/assets/icons/arme.svg",
+  "system": {
+    "description": "<p>Fils de Gaïa et de Tartare, Typhon est devenu si grand, si effroyable, que les dieux ont dû fuir l'Olympe à sa vue. Né des forces telluriques, il représente l'ouragan. Vaincu par Zeus, il est enfermé sous l'Etna. Depuis, la terre tremble quand il s'étire et le volcan entre en éruption lors de ses colères.</p>\n<p>Le marteau cinétique Typhon est l'arme de corps à corps la plus puissante que Merlin ait créée. C'est un gros marteau à long manche dont la tête contient un générateur à énergie alpha et un émetteur de champ cinétique. D'un côté, un gros bout rond relâche lors de l'impact une puissante onde de choc à 300 degrés. La vibration au sol secoue tel un séisme et la déflagration projette et décape sur plusieurs dizaines de mètres, laissant au sol l'empreinte d'un sabot géant. Cette déflagration a plus d'effet dans les lieux clos, sa portée est même multipliée dans un couloir. De l'autre côté, une pointe acérée, dont le champ cinétique augmente la pénétration, taille dans l'acier, écarte les chairs, augmente la taille des trous laissés et coupe en deux les créatures à dimension humaine. Enfin, à l'extrémité du manche, un solide burin vibre tel un marteau-piqueur dès que le chevalier frappe une surface dure.</p>\n<p>Une fois le champ cinétique activé, il crépite, fait un bruit de friture. L'air ondoie autour de la tête du marteau comme l'air chaud au-dessus d'une voiture. Cette vibration peut être transmise par simple contact avec le bout rond, ce qui peut amener tout un bâtiment à trembler dangereusement.</p>\n<p>La dernière fonction du Typhon, nécessitant un apport énergétique depuis l'armure, permet au champ cinétique de propulser le marteau comme un réacteur de fusée, augmentant considérablement la puissance de l'impact.</p>\n<p><strong>Spécial</strong> : Au prix de 5 PE et pour une attaque, le chevalier peut ajouter l'effet dispersion 6 à l'arme. Il frappe fortement le sol et produit une puissante déflagration.</p>\n",
+    "rarete": "prestige",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 150,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 0,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 0,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "antivehicule",
+        "deuxmains",
+        "ignorechampdeforce",
+        "leste",
+        "lourd",
+        "dispersion 6"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "112845c28cdd5aef",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-prestige.112845c28cdd5aef"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890012488,
+    "modifiedTime": 1693092976400,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_key": "!items!112845c28cdd5aef"
+}

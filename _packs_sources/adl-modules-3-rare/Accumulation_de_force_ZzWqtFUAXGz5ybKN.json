@@ -1,0 +1,1757 @@
+{
+  "name": "Accumulation de force",
+  "type": "module",
+  "img": "modules/knight-compendium/assets/modules/accumulation-de-force.webp",
+  "system": {
+    "description": "<p>Lorsque le personnage active ce module, son champ de force devient visible aux yeux de tous et semble gonfler sous les coups et les impacts pour &eacute;clater en une formidable explosion d'&eacute;nergie &agrave; m&ecirc;me de terrasser les ennemis les plus r&eacute;sistants.</p>\n<p>En termes de jeu, lorsque le personnage subit des d&eacute;g&acirc;ts stopp&eacute;s partiellement ou totalement par son CdF, il doit conserver 1D6 par tranche de 6 points de d&eacute;g&acirc;ts encaiss&eacute;s par son CdF. Ces d&eacute;s sont &agrave; accumuler, avec un maximum de 8D6, &agrave; c&ocirc;t&eacute; de la fiche du joueur.</p>\n<p>Au moment o&ugrave; il le d&eacute;sire, pour une action de d&eacute;placement, le personnage peut rel&acirc;cher toute la puissance accumul&eacute;e par le champ de force. Le joueur lance alors tous les d&eacute;s accumul&eacute;s gr&acirc;ce &agrave; ce module qui sont convertis en points de d&eacute;g&acirc;ts (ou de violence, au choix du joueur) inflig&eacute;s aux ennemis &agrave; port&eacute;e contact. Les d&eacute;s ainsi utilis&eacute;s sont perdus.</p>\n<p>En outre, les ennemis touch&eacute;s par l'explosion de force subissent l'effet choc 1 s'ils ont un score inf&eacute;rieur &agrave; 14 dans leur aspect Chair et l'effet ignore CdF.</p>\n<p>Lorsque la puissance est rel&acirc;ch&eacute;e, le personnage reste 1D6 tours sans champ de force. Durant ce laps de temps, son score de CdF est r&eacute;duit &agrave; 0, avant de revenir &agrave; la normale.</p>\n<p>Le module ne peut bien entendu pas &ecirc;tre utilis&eacute; durant ce laps de temps et doit &ecirc;tre r&eacute;activ&eacute; pour fonctionner de nouveau lorsque le personnage retrouve son score normal de CdF.</p>\n<h2>Niveau 2</h2>\n<p>D&eacute;sormais, le module peut cumuler jusqu&rsquo;&agrave; 12 d&eacute;s. Lorsque la puissance est rel&acirc;ch&eacute;e, le personnage reste seulement un tour sans champ de force.</p>",
+    "categorie": "defense",
+    "slots": {
+      "tete": 0,
+      "torse": 1,
+      "brasGauche": 1,
+      "brasDroit": 1,
+      "jambeGauche": 1,
+      "jambeDroite": 1
+    },
+    "niveau": {
+      "value": "1",
+      "max": 2,
+      "liste": [
+        1,
+        2
+      ],
+      "details": {
+        "n1": {
+          "permanent": false,
+          "rarete": "rare",
+          "prix": 50,
+          "energie": {
+            "tour": {
+              "value": 8,
+              "label": "Une scène"
+            },
+            "minute": {
+              "value": 8,
+              "label": "une phase de conflit"
+            },
+            "supplementaire": 0
+          },
+          "activation": "aucune",
+          "duree": "",
+          "portee": "contact",
+          "listes": {},
+          "labels": {},
+          "secondmode": {
+            "has": false,
+            "activation": "aucune"
+          },
+          "aspects": {
+            "chair": {
+              "liste": {
+                "deplacement": {},
+                "force": {},
+                "endurance": {}
+              }
+            },
+            "bete": {
+              "liste": {
+                "hargne": {},
+                "combat": {},
+                "instinct": {}
+              }
+            },
+            "machine": {
+              "liste": {
+                "tir": {},
+                "savoir": {},
+                "technique": {}
+              }
+            },
+            "dame": {
+              "liste": {
+                "aura": {},
+                "parole": {},
+                "sangFroid": {}
+              }
+            },
+            "masque": {
+              "liste": {
+                "discretion": {},
+                "dexterite": {},
+                "perception": {}
+              }
+            }
+          },
+          "bonus": {
+            "has": false,
+            "sante": {
+              "has": false,
+              "value": 0
+            },
+            "armure": {
+              "has": false,
+              "value": 0
+            },
+            "champDeForce": {
+              "has": false,
+              "value": 0
+            },
+            "energie": {
+              "has": false,
+              "value": 0
+            },
+            "degats": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "overdrives": {
+              "has": false,
+              "aspects": {
+                "chair": {
+                  "deplacement": 0,
+                  "force": 0,
+                  "endurance": 0
+                },
+                "bete": {
+                  "hargne": 0,
+                  "combat": 0,
+                  "instinct": 0
+                },
+                "machine": {
+                  "tir": 0,
+                  "savoir": 0,
+                  "technique": 0
+                },
+                "dame": {
+                  "aura": 0,
+                  "parole": 0,
+                  "sangFroid": 0
+                },
+                "masque": {
+                  "discretion": 0,
+                  "dexterite": 0,
+                  "perception": 0
+                }
+              }
+            },
+            "grenades": {
+              "has": false,
+              "liste": {
+                "antiblindage": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "explosive": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "shrapnel": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                }
+              }
+            }
+          },
+          "arme": {
+            "has": true,
+            "type": "contact",
+            "portee": "contact",
+            "optionsmunitions": {
+              "has": false,
+              "actuel": "0",
+              "value": 1,
+              "liste": {}
+            },
+            "degats": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "effets": {
+              "liste": [],
+              "custom": [
+                {
+                  "label": "Effet personnalisé",
+                  "description": "",
+                  "attaque": {
+                    "reussite": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  },
+                  "degats": {
+                    "fixe": 0,
+                    "jet": 8,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": true,
+                      "condition": "Valeur max de dés cumulables, choisir dégâts ou violence au moment du relâchement."
+                    }
+                  },
+                  "violence": {
+                    "fixe": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  }
+                },
+                {
+                  "label": "Effet personnalisé",
+                  "description": "",
+                  "attaque": {
+                    "reussite": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  },
+                  "degats": {
+                    "fixe": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  },
+                  "violence": {
+                    "fixe": 0,
+                    "jet": 8,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": true,
+                      "condition": "Valeur max de dés cumulables, choisir dégâts ou violence au moment du relâchement."
+                    }
+                  }
+                }
+              ],
+              "raw": [
+                "choc 1",
+                "ignorechampdeforce"
+              ]
+            },
+            "distance": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "structurelles": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "ornementales": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "overdrives": {
+            "has": false,
+            "aspects": {
+              "chair": {
+                "deplacement": 0,
+                "force": 0,
+                "endurance": 0
+              },
+              "bete": {
+                "hargne": 0,
+                "combat": 0,
+                "instinct": 0
+              },
+              "machine": {
+                "tir": 0,
+                "savoir": 0,
+                "technique": 0
+              },
+              "dame": {
+                "aura": 0,
+                "parole": 0,
+                "sangFroid": 0
+              },
+              "masque": {
+                "discretion": 0,
+                "dexterite": 0,
+                "perception": 0
+              }
+            }
+          },
+          "pnj": {
+            "has": false,
+            "modele": {
+              "nom": "",
+              "special": "",
+              "type": "pnj",
+              "champDeForce": 0,
+              "defense": 0,
+              "reaction": 0,
+              "armure": 0,
+              "debordement": 0,
+              "initiative": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "jetSpecial": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "dice": 0,
+                  "overdrive": 0
+                },
+                "liste": {}
+              },
+              "aspects": {
+                "has": false,
+                "liste": {
+                  "chair": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "bete": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "machine": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "dame": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "masque": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  }
+                }
+              },
+              "armes": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "type": "contact",
+                  "portee": "contact",
+                  "attaque": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "degats": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "custom": [],
+                    "raw": []
+                  }
+                },
+                "liste": []
+              }
+            },
+            "liste": {}
+          },
+          "ersatz": {
+            "rogue": {
+              "has": false,
+              "interruption": {
+                "actif": true
+              },
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "bard": {
+              "has": false
+            }
+          },
+          "jetsimple": {
+            "has": false,
+            "label": "",
+            "jet": "0D0",
+            "effets": {
+              "raw": [],
+              "custom": []
+            }
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": [],
+            "has": false
+          },
+          "textarea": {
+            "duree": 22
+          }
+        },
+        "n2": {
+          "permanent": false,
+          "rarete": "rare",
+          "prix": 50,
+          "energie": {
+            "tour": {
+              "value": 8,
+              "label": "Une scène"
+            },
+            "minute": {
+              "value": 8,
+              "label": "une phase de conflit"
+            },
+            "supplementaire": 0
+          },
+          "activation": "aucune",
+          "duree": "",
+          "portee": "contact",
+          "listes": {
+            "rarete": {
+              "standard": "Standard",
+              "avance": "Avancé",
+              "rare": "Rare",
+              "prestige": "Prestige",
+              "espoir": "Relique d'espoir"
+            }
+          },
+          "labels": {
+            "duree": "L'effet n'est pas permanent",
+            "bonus": "Ne donne pas de bonus",
+            "pnj": "Ne peut pas devenir une/des créature(s) indépendante(s)",
+            "pnjTitle": "Créature indépendante",
+            "armure": "Aucun bonus à l'Armure",
+            "champDeForce": "Aucun bonus au Champ De Force",
+            "energie": "Aucun bonus à l'Energie",
+            "degatsBonus": "Aucun bonus aux Dégâts",
+            "degatsVariable": "Bonus aux dégâts invariable",
+            "violenceBonus": "Aucun bonus à la Violence",
+            "violenceVariable": "Bonus à la violence invariable",
+            "arme": "Est une arme",
+            "armeDegatsVariable": "Dégâts invariable",
+            "armeViolenceVariable": "Violence invariable",
+            "overdrives": "Ne donne pas de niveaux d'overdrives",
+            "bonusOverdrives": "Aucun bonus aux overdrives",
+            "bonusGrenades": "Aucun bonus aux grenades",
+            "ersatzRogue": "N'est pas un camouflage optique (ersatz rogue)",
+            "ersatzBard": "N'est pas un Déguisement (ersatz bard)",
+            "jetSimple": "Ne fait pas de jet automatique"
+          },
+          "aspects": {
+            "chair": {
+              "liste": {
+                "deplacement": {},
+                "force": {},
+                "endurance": {}
+              }
+            },
+            "bete": {
+              "liste": {
+                "hargne": {},
+                "combat": {},
+                "instinct": {}
+              }
+            },
+            "machine": {
+              "liste": {
+                "tir": {},
+                "savoir": {},
+                "technique": {}
+              }
+            },
+            "dame": {
+              "liste": {
+                "aura": {},
+                "parole": {},
+                "sangFroid": {}
+              }
+            },
+            "masque": {
+              "liste": {
+                "discretion": {},
+                "dexterite": {},
+                "perception": {}
+              }
+            }
+          },
+          "bonus": {
+            "has": false,
+            "armure": {
+              "has": false,
+              "value": 0
+            },
+            "champDeForce": {
+              "has": false,
+              "value": 0
+            },
+            "energie": {
+              "has": false,
+              "value": 0
+            },
+            "degats": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "has": false,
+              "type": "contact",
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "overdrives": {
+              "has": false,
+              "aspects": {
+                "chair": {
+                  "deplacement": 0,
+                  "force": 0,
+                  "endurance": 0
+                },
+                "bete": {
+                  "hargne": 0,
+                  "combat": 0,
+                  "instinct": 0
+                },
+                "machine": {
+                  "tir": 0,
+                  "savoir": 0,
+                  "technique": 0
+                },
+                "dame": {
+                  "aura": 0,
+                  "parole": 0,
+                  "sangFroid": 0
+                },
+                "masque": {
+                  "discretion": 0,
+                  "dexterite": 0,
+                  "perception": 0
+                }
+              }
+            },
+            "grenades": {
+              "has": false,
+              "liste": {
+                "antiblindage": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "explosive": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                },
+                "shrapnel": {
+                  "degats": {
+                    "dice": 0
+                  },
+                  "violence": {
+                    "dice": 0
+                  }
+                }
+              }
+            }
+          },
+          "arme": {
+            "has": true,
+            "type": "contact",
+            "portee": "contact",
+            "degats": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0,
+              "variable": {
+                "has": false,
+                "min": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "max": {
+                  "dice": 0,
+                  "fixe": 0
+                },
+                "cout": 0
+              }
+            },
+            "effets": {
+              "liste": [
+                {
+                  "name": "Choc 1",
+                  "description": "Si le jet pour toucher avec l'arme est supérieur au score de l'aspect _Chair_ (divisé par 2 pour un PNJ) de la cible, celle-ci perd ses X prochaines actions. Cet effet ne fonctionne pas contre les bandes. Attention, l'effet ne peut pas se cumuler alors que la cible est déjà sous l'effet _choc_. Dans certaines circonstances, l'effet _choc_ peut être considéré comme automatique et ne prend donc pas en compte le score de l'aspect _Chair_. Lorsque l'effet _choc_ est censé s'appliquer automatiquement, il faut tout de même que le personnage touche sa cible. En revanche, son résultat n'a pas besoin d'égaler l'aspect _Chair_ divisé par deux de la cible pour que l'effet fonctionne. En fonction des circonstances, le MJ peut décider qu'un personnage sous l'effet choc subit un malus de 2 à sa _réaction_ et à sa _défense_. L'effet ne se cumule pas avec _parasitage X_.",
+                  "raw": "choc 1"
+                },
+                {
+                  "id": 0,
+                  "name": "Effet personnalisé",
+                  "description": "",
+                  "custom": true
+                },
+                {
+                  "id": 1,
+                  "name": "Effet personnalisé",
+                  "description": "",
+                  "custom": true
+                },
+                {
+                  "name": "Ignore Champ De Force",
+                  "description": "L'arme ignore purement et simplement le champ de force d'un adversaire. Les PS de la cible sont directement touchée si les dégâts passent les PA ou le bouclier.",
+                  "raw": "ignorechampdeforce"
+                }
+              ],
+              "custom": [
+                {
+                  "label": "Effet personnalisé",
+                  "description": "",
+                  "attaque": {
+                    "reussite": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  },
+                  "degats": {
+                    "fixe": 0,
+                    "jet": 8,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": true,
+                      "condition": "Valeur max de dés cumulables, choisir dégâts ou violence au moment du relâchement."
+                    }
+                  },
+                  "violence": {
+                    "fixe": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  }
+                },
+                {
+                  "label": "Effet personnalisé",
+                  "description": "",
+                  "attaque": {
+                    "reussite": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  },
+                  "degats": {
+                    "fixe": 0,
+                    "jet": 0,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": false,
+                      "condition": ""
+                    }
+                  },
+                  "violence": {
+                    "fixe": 0,
+                    "jet": 8,
+                    "carac": {
+                      "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "OD Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "aspect": {
+                      "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusFixe": false,
+                      "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                      "odInclusJet": false,
+                      "fixe": "",
+                      "jet": ""
+                    },
+                    "conditionnel": {
+                      "has": true,
+                      "condition": "Valeur max de dés cumulables, choisir dégâts ou violence au moment du relâchement."
+                    }
+                  }
+                }
+              ],
+              "raw": [
+                "choc 1",
+                "ignorechampdeforce"
+              ]
+            },
+            "distance": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "structurelles": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            },
+            "ornementales": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "overdrives": {
+            "has": false,
+            "aspects": {
+              "chair": {
+                "deplacement": 0,
+                "force": 0,
+                "endurance": 0
+              },
+              "bete": {
+                "hargne": 0,
+                "combat": 0,
+                "instinct": 0
+              },
+              "machine": {
+                "tir": 0,
+                "savoir": 0,
+                "technique": 0
+              },
+              "dame": {
+                "aura": 0,
+                "parole": 0,
+                "sangFroid": 0
+              },
+              "masque": {
+                "discretion": 0,
+                "dexterite": 0,
+                "perception": 0
+              }
+            }
+          },
+          "pnj": {
+            "has": false,
+            "modele": {
+              "nom": "",
+              "special": "",
+              "type": "pnj",
+              "champDeForce": 0,
+              "defense": 0,
+              "reaction": 0,
+              "armure": 0,
+              "debordement": 0,
+              "initiative": {
+                "dice": 3,
+                "fixe": 0
+              },
+              "jetSpecial": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "dice": 0,
+                  "overdrive": 0
+                },
+                "liste": {}
+              },
+              "aspects": {
+                "has": false,
+                "liste": {
+                  "chair": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "bete": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "machine": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "dame": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  },
+                  "masque": {
+                    "value": 0,
+                    "ae": {
+                      "mineur": 0,
+                      "majeur": 0
+                    }
+                  }
+                }
+              },
+              "armes": {
+                "has": false,
+                "modele": {
+                  "nom": "",
+                  "type": "contact",
+                  "portee": "contact",
+                  "attaque": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "degats": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "violence": {
+                    "dice": 0,
+                    "fixe": 0
+                  },
+                  "effets": {
+                    "liste": [],
+                    "custom": [],
+                    "raw": []
+                  }
+                },
+                "liste": []
+              }
+            },
+            "liste": {}
+          },
+          "ersatz": {
+            "rogue": {
+              "has": false,
+              "interruption": {
+                "actif": true
+              },
+              "reussites": 3,
+              "attaque": "discretion",
+              "degats": {
+                "caracteristique": "discretion",
+                "od": true,
+                "dice": false,
+                "fixe": true
+              }
+            },
+            "bard": {
+              "has": false
+            }
+          },
+          "jetsimple": {
+            "has": false,
+            "label": "",
+            "jet": "0D0",
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          },
+          "textarea": {
+            "duree": 22
+          },
+          "label": "1",
+          "effets": {
+            "has": false,
+            "custom": [],
+            "raw": [],
+            "liste": []
+          }
+        }
+      }
+    },
+    "listes": {},
+    "permanent": false,
+    "rarete": "rare",
+    "prix": 50,
+    "energie": {
+      "tour": {
+        "value": 8,
+        "label": "Une scène"
+      },
+      "minute": {
+        "value": 8,
+        "label": "une phase de conflit"
+      },
+      "supplementaire": 0
+    },
+    "activation": "aucune",
+    "duree": "",
+    "portee": "contact",
+    "labels": {},
+    "aspects": {
+      "chair": {
+        "liste": {
+          "deplacement": {},
+          "force": {},
+          "endurance": {}
+        }
+      },
+      "bete": {
+        "liste": {
+          "hargne": [],
+          "combat": [],
+          "instinct": [],
+          "deplacement": {},
+          "force": {},
+          "endurance": {}
+        }
+      },
+      "machine": {
+        "liste": {
+          "tir": [],
+          "savoir": [],
+          "technique": [],
+          "deplacement": {},
+          "force": {},
+          "endurance": {}
+        }
+      },
+      "dame": {
+        "liste": {
+          "aura": [],
+          "parole": [],
+          "sangFroid": [],
+          "deplacement": {},
+          "force": {},
+          "endurance": {}
+        }
+      },
+      "masque": {
+        "liste": {
+          "discretion": [],
+          "dexterite": [],
+          "perception": [],
+          "deplacement": {},
+          "force": {},
+          "endurance": {}
+        }
+      }
+    },
+    "bonus": {
+      "has": false,
+      "armure": {
+        "has": false,
+        "value": 0
+      },
+      "champDeForce": {
+        "has": false,
+        "value": 0
+      },
+      "energie": {
+        "has": false,
+        "value": 0
+      },
+      "degats": {
+        "has": false,
+        "type": [
+          "contact",
+          "contact"
+        ],
+        "dice": 0,
+        "fixe": 0,
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "violence": {
+        "has": false,
+        "type": "contact",
+        "dice": [
+          0,
+          0
+        ],
+        "fixe": [
+          0,
+          0
+        ],
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "overdrives": {
+        "has": false,
+        "aspects": {
+          "chair": {
+            "deplacement": 0,
+            "force": 0,
+            "endurance": 0
+          },
+          "bete": {
+            "hargne": 0,
+            "combat": 0,
+            "instinct": 0
+          },
+          "machine": {
+            "tir": 0,
+            "savoir": 0,
+            "technique": 0
+          },
+          "dame": {
+            "aura": 0,
+            "parole": 0,
+            "sangFroid": 0
+          },
+          "masque": {
+            "discretion": 0,
+            "dexterite": 0,
+            "perception": 0
+          }
+        }
+      },
+      "grenades": {
+        "has": false,
+        "liste": {
+          "antiblindage": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            }
+          },
+          "explosive": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            }
+          },
+          "shrapnel": {
+            "degats": {
+              "dice": 0
+            },
+            "violence": {
+              "dice": 0
+            }
+          }
+        }
+      }
+    },
+    "arme": {
+      "has": true,
+      "type": "contact",
+      "portee": "contact",
+      "degats": {
+        "dice": 0,
+        "fixe": 0,
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "violence": {
+        "dice": 0,
+        "fixe": 0,
+        "variable": {
+          "has": false,
+          "min": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "max": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "cout": 0
+        }
+      },
+      "effets": {
+        "liste": [],
+        "custom": [
+          {
+            "label": "Effet personnalisé",
+            "description": "",
+            "attaque": {
+              "reussite": 0,
+              "jet": 0,
+              "carac": {
+                "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "OD Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "aspect": {
+                "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "conditionnel": {
+                "has": false,
+                "condition": ""
+              }
+            },
+            "degats": {
+              "fixe": 0,
+              "jet": 8,
+              "carac": {
+                "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "OD Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "aspect": {
+                "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "conditionnel": {
+                "has": true,
+                "condition": "Valeur max de dés cumulables, choisir dégâts ou violence au moment du relâchement."
+              }
+            },
+            "violence": {
+              "fixe": 0,
+              "jet": 0,
+              "carac": {
+                "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "OD Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "aspect": {
+                "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "conditionnel": {
+                "has": false,
+                "condition": ""
+              }
+            }
+          },
+          {
+            "label": "Effet personnalisé",
+            "description": "",
+            "attaque": {
+              "reussite": 0,
+              "jet": 0,
+              "carac": {
+                "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "OD Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "aspect": {
+                "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "conditionnel": {
+                "has": false,
+                "condition": ""
+              }
+            },
+            "degats": {
+              "fixe": 0,
+              "jet": 0,
+              "carac": {
+                "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "OD Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "aspect": {
+                "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "conditionnel": {
+                "has": false,
+                "condition": ""
+              }
+            },
+            "violence": {
+              "fixe": 0,
+              "jet": 8,
+              "carac": {
+                "labelFixe": "OD Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "OD Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "aspect": {
+                "labelFixe": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusFixe": false,
+                "labelJet": "Aspect Exceptionnel Non-Inclus dans le bonus fixe",
+                "odInclusJet": false,
+                "fixe": "",
+                "jet": ""
+              },
+              "conditionnel": {
+                "has": true,
+                "condition": "Valeur max de dés cumulables, choisir dégâts ou violence au moment du relâchement."
+              }
+            }
+          }
+        ],
+        "raw": [
+          "choc 1",
+          "ignorechampdeforce"
+        ]
+      },
+      "distance": {
+        "liste": [],
+        "custom": [],
+        "raw": []
+      },
+      "structurelles": {
+        "liste": [],
+        "custom": [],
+        "raw": []
+      },
+      "ornementales": {
+        "liste": [],
+        "custom": [],
+        "raw": []
+      }
+    },
+    "overdrives": {
+      "has": false,
+      "aspects": {
+        "chair": {
+          "deplacement": 0,
+          "force": 0,
+          "endurance": 0
+        },
+        "bete": {
+          "hargne": 0,
+          "combat": 0,
+          "instinct": 0
+        },
+        "machine": {
+          "tir": 0,
+          "savoir": 0,
+          "technique": 0
+        },
+        "dame": {
+          "aura": 0,
+          "parole": 0,
+          "sangFroid": 0
+        },
+        "masque": {
+          "discretion": 0,
+          "dexterite": 0,
+          "perception": 0
+        }
+      }
+    },
+    "pnj": {
+      "has": false,
+      "modele": {
+        "nom": "",
+        "special": "",
+        "type": "pnj",
+        "champDeForce": 0,
+        "defense": 0,
+        "reaction": 0,
+        "armure": 0,
+        "debordement": 0,
+        "initiative": {
+          "dice": 3,
+          "fixe": 0
+        },
+        "jetSpecial": {
+          "has": false,
+          "modele": {
+            "nom": "",
+            "dice": 0,
+            "overdrive": 0
+          },
+          "liste": {}
+        },
+        "aspects": {
+          "has": false,
+          "liste": {
+            "chair": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "bete": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "machine": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "dame": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            },
+            "masque": {
+              "value": 0,
+              "ae": {
+                "mineur": 0,
+                "majeur": 0
+              }
+            }
+          }
+        },
+        "armes": {
+          "has": false,
+          "modele": {
+            "nom": "",
+            "type": "contact",
+            "portee": "contact",
+            "attaque": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "degats": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "violence": {
+              "dice": 0,
+              "fixe": 0
+            },
+            "effets": {
+              "liste": [],
+              "custom": [],
+              "raw": []
+            }
+          },
+          "liste": []
+        }
+      },
+      "liste": {}
+    },
+    "ersatz": {
+      "rogue": {
+        "has": false,
+        "interruption": {
+          "actif": true
+        },
+        "reussites": 3,
+        "attaque": "discretion",
+        "degats": {
+          "caracteristique": "discretion",
+          "od": true,
+          "dice": false,
+          "fixe": true
+        }
+      },
+      "bard": {
+        "has": false
+      }
+    },
+    "jetsimple": {
+      "has": false,
+      "label": "",
+      "jet": "0D0",
+      "effets": {
+        "raw": [],
+        "custom": []
+      }
+    },
+    "textarea": {
+      "duree": 22
+    },
+    "secondmode": {
+      "has": false,
+      "activation": "aucune"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.modules-rare.7641a5b143240539"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890052213,
+    "modifiedTime": 1693092488254,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "_id": "ZzWqtFUAXGz5ybKN",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!ZzWqtFUAXGz5ybKN"
+}

@@ -487,7 +487,7 @@
       },
       "bonusValue": 0,
       "malusValue": 0,
-      "value": 0,
+      "value": 100,
       "max": 0,
       "base": 100,
       "optionDeploy": false
@@ -540,7 +540,7 @@
       }
     },
     "armure": {
-      "value": 0,
+      "value": 100,
       "max": 0,
       "base": 100,
       "bonus": {
@@ -610,7 +610,10 @@
       "resilience": false,
       "modules": false,
       "phase2": false
-    }
+    },
+    "origin": "anatheme",
+    "colosse": true,
+    "patron": true
   },
   "prototypeToken": {
     "name": "Le Colosse",
@@ -623,7 +626,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -659,11 +666,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -674,7 +683,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -793,17 +826,18 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.108ba2e5828c431b"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890018805,
         "modifiedTime": 1685555660877,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.108ba2e5828c431b",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!D2b85F84GC5eErsp.uPKhUhygnrVSJJYW"
     },
@@ -923,17 +957,18 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890019239,
         "modifiedTime": 1685555721752,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!D2b85F84GC5eErsp.7a73R4wGcq53KetJ"
     },
@@ -1053,17 +1088,18 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.50ca71407d7356b8"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890018849,
         "modifiedTime": 1685555671445,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.50ca71407d7356b8",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!D2b85F84GC5eErsp.hwX9kSn2RgQVPWmy"
     },
@@ -1183,17 +1219,18 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.e372417c0b24b75d"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890019280,
         "modifiedTime": 1685555752825,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.e372417c0b24b75d",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!D2b85F84GC5eErsp.GPXSQDblBxsoscZN"
     },
@@ -1313,17 +1350,18 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.76f7c56995dad05f"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890018880,
         "modifiedTime": 1685555682993,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.76f7c56995dad05f",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!D2b85F84GC5eErsp.kKBcgNjyiNv0Vahx"
     },
@@ -1443,17 +1481,18 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.e6c5763629216e05"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890019286,
         "modifiedTime": 1685555686928,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.e6c5763629216e05",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!D2b85F84GC5eErsp.KwdiAH0JoJ3GRobs"
     },
@@ -1573,17 +1612,18 @@
         "Kisv9JwB5w6zIXyv": 3
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.56da20fc3c6c535d"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1666890018852,
         "modifiedTime": 1685555692777,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.56da20fc3c6c535d",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!D2b85F84GC5eErsp.EKs2IXQvsXjAzWcK"
     },
@@ -1675,17 +1715,18 @@
       },
       "effects": [],
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.armes-des-creatures-et-humains.IWvPYYaOJ7H7yVv1"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "3.10.2",
-        "coreVersion": "10.291",
+        "coreVersion": "13.351",
         "createdTime": 1667168010011,
         "modifiedTime": 1685555795665,
-        "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+        "lastModifiedBy": "Kisv9JwB5w6zIXyv",
+        "compendiumSource": "Compendium.knight-compendium.armes-des-creatures-et-humains.IWvPYYaOJ7H7yVv1",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "NpI1bRck9GKvBLVw",
       "folder": null,
@@ -1699,8 +1740,6 @@
   ],
   "effects": [
     {
-      "label": "Modules",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "5GsCZiLZlgJU772c",
@@ -1714,14 +1753,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Modules",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!D2b85F84GC5eErsp.5GsCZiLZlgJU772c"
     },
     {
-      "label": "Capacites",
-      "icon": null,
       "changes": [
         {
           "key": "system.aspects.chair.max",
@@ -1826,14 +1881,30 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Capacites",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!D2b85F84GC5eErsp.b6Myuga2EHRtfe5n"
     },
     {
-      "label": "Armes",
-      "icon": null,
       "changes": [],
       "disabled": false,
       "_id": "I1drAd0uN447sUxU",
@@ -1847,28 +1918,47 @@
         "startTurn": null
       },
       "origin": null,
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armes",
+      "img": null,
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!D2b85F84GC5eErsp.I1drAd0uN447sUxU"
     }
   ],
   "flags": {
-    "core": {
-      "sourceId": "Actor.D2b85F84GC5eErsp"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "3.10.2",
-    "coreVersion": "10.291",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1685555542124,
-    "modifiedTime": 1685567561675,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770384263910,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Actor.D2b85F84GC5eErsp",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "D2b85F84GC5eErsp",
   "folder": null,
-  "sort": 0,
+  "sort": 5300000,
   "ownership": {
     "default": 0,
     "Kisv9JwB5w6zIXyv": 3

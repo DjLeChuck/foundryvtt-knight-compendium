@@ -375,9 +375,9 @@
         "user": 0,
         "capacites": 0
       },
-      "value": 0,
+      "value": 300,
       "max": 0,
-      "base": 0,
+      "base": 300,
       "mod": 0
     },
     "description": "<p>L&rsquo;&Eacute;missaire est le triarche le plus rapide. Faisant preuve de diplomatie et d&rsquo;une grande aura, il a pour but d&rsquo;annoncer l&rsquo;arriv&eacute;e de ses compagnons ou parfois de traiter avec des ennemis potentiels. Sa rapidit&eacute; lui permet donc &agrave; la fois de devancer ses co&eacute;quipiers, mais aussi d&rsquo;&eacute;chapper &agrave; toute cr&eacute;ature qui serait r&eacute;ticente &agrave; coop&eacute;rer. L&rsquo;&Eacute;missaire est remarquable par le cheval qu&rsquo;il monte et qui ne le quitte jamais. Osseuse et faite d&rsquo;obscurit&eacute;, cette monture l&rsquo;associe pour beaucoup de religieux &agrave; un cavalier de l&rsquo;apocalypse. L&rsquo;autre attribut de l&rsquo;&Eacute;missaire est son arc qui lui permet de tenir en respect ses interlocuteurs et m&ecirc;me de combattre sans se mettre en danger lui-m&ecirc;me.Tout comme le Protecteur, l&rsquo;&Eacute;missaire a l&rsquo;aura d&rsquo;un chef. Il se souvient d&rsquo;ailleurs avoir d&ucirc; tuer un &ecirc;tre de sa famille, une personne qui lui &eacute;tait cher, afin de prendre le pouvoir sur son peuple. Il sait aussi que son charisme et son autorit&eacute; l&rsquo;ont amen&eacute; &agrave; regrouper plusieurs communaut&eacute;s de son vivant afin de conqu&eacute;rir des territoires.</p>",
@@ -443,7 +443,7 @@
     },
     "bouclier": {
       "value": 0,
-      "base": 0,
+      "base": 10,
       "bonus": {
         "user": 0
       },
@@ -504,7 +504,11 @@
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
-      "tint": null
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "width": 1,
     "height": 1,
@@ -540,11 +544,13 @@
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "negative": false,
+      "priority": 0
     },
     "sight": {
       "enabled": false,
-      "range": null,
+      "range": 0,
       "angle": 360,
       "visionMode": "basic",
       "color": null,
@@ -555,7 +561,31 @@
     },
     "detectionModes": [],
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
@@ -671,17 +701,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.bad945b52c52d4ad"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019254,
         "modifiedTime": 1667173330553,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.bad945b52c52d4ad",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -800,17 +831,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.ce4ecdf9ca6c27fd"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019271,
         "modifiedTime": 1667173347450,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.ce4ecdf9ca6c27fd",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -929,17 +961,18 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
         "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "coreVersion": "13.351",
         "createdTime": 1666890019239,
         "modifiedTime": 1667173365924,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "lastModifiedBy": "y7bwecrKsFInhWQ1",
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "folder": "FdIw3AaAAqfstH0n",
       "sort": 0,
@@ -947,7 +980,7 @@
     },
     {
       "folder": "BZpWmamPeuX1E27W",
-      "name": "arc",
+      "name": "Arc",
       "type": "arme",
       "img": "systems/knight/assets/icons/arme.svg",
       "system": {
@@ -996,7 +1029,7 @@
         },
         "degats": {
           "dice": 4,
-          "fixe": 0
+          "fixe": 6
         },
         "violence": {
           "dice": 0,
@@ -1037,35 +1070,168 @@
         "default": 0
       },
       "flags": {
-        "core": {
-          "sourceId": "Item.FHky4w4m7Uk33Ii6"
-        }
+        "core": {}
       },
       "_stats": {
         "systemId": "knight",
-        "systemVersion": "1.4.9",
-        "coreVersion": "10.288",
+        "systemVersion": "3.51.0",
+        "coreVersion": "13.351",
         "createdTime": 1667173385692,
-        "modifiedTime": 1667173418499,
-        "lastModifiedBy": "y7bwecrKsFInhWQ1"
+        "modifiedTime": 1770387949007,
+        "lastModifiedBy": "HhA0aXorQtaUxgO7",
+        "compendiumSource": "Item.FHky4w4m7Uk33Ii6",
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "Ib0uTkN4R66C6Q1Y",
       "_key": "!actors.items!PcGFY7IOsw4dvM5Y.Ib0uTkN4R66C6Q1Y"
+    },
+    {
+      "name": "Actions multiples (1)",
+      "type": "capacite",
+      "img": "systems/knight/assets/icons/capacite.svg",
+      "system": {
+        "description": "<p>Le PNJ possède X actions de combat en plus de son action de déplacement et de combat de base. Ces actions sont à effectuer à son initiative.</p>",
+        "aspects": {
+          "chair": {},
+          "bete": {},
+          "machine": {},
+          "dame": {},
+          "masque": {}
+        },
+        "isPhase2": false,
+        "bonus": {
+          "aspectsLieSupplementaire": {
+            "has": false,
+            "value": "chair"
+          },
+          "sante": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "aspect": {
+              "lie": false,
+              "value": "chair",
+              "multiplie": 5
+            },
+            "value": 0
+          },
+          "aspectMax": {
+            "has": false,
+            "aspect": "chair",
+            "maximum": {
+              "aspect": 40,
+              "ae": 20
+            }
+          }
+        },
+        "degats": {
+          "has": false,
+          "system": {
+            "dice": 0,
+            "fixe": 0,
+            "effets": {
+              "raw": [],
+              "custom": [],
+              "liste": []
+            }
+          }
+        },
+        "attaque": {
+          "has": false,
+          "type": "contact",
+          "portee": "contact",
+          "degats": {
+            "dice": 0,
+            "fixe": 0
+          },
+          "effets": {
+            "raw": [],
+            "custom": [],
+            "liste": []
+          }
+        },
+        "phase2": {
+          "aspects": {
+            "has": false,
+            "liste": {
+              "chair": {
+                "value": 0
+              },
+              "bete": {
+                "value": 0
+              },
+              "machine": {
+                "value": 0
+              },
+              "dame": {
+                "value": 0
+              },
+              "masque": {
+                "value": 0
+              }
+            }
+          },
+          "sante": {
+            "has": false,
+            "value": 0
+          },
+          "armure": {
+            "has": false,
+            "value": 0
+          },
+          "tactique": {
+            "has": false,
+            "value": ""
+          }
+        }
+      },
+      "effects": [],
+      "_id": "62N7lXMLKZ4eCDF0",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "HhA0aXorQtaUxgO7": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.knight-compendium.npc-capacities-base.9f9fafdee3a5d7a9",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "knight",
+        "systemVersion": "3.51.0",
+        "createdTime": 1770387922993,
+        "modifiedTime": 1770387927351,
+        "lastModifiedBy": "HhA0aXorQtaUxgO7"
+      },
+      "_key": "!actors.items!PcGFY7IOsw4dvM5Y.62N7lXMLKZ4eCDF0"
     }
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.knight-compendium.creatures-bestiaire-officiel.PcGFY7IOsw4dvM5Y"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "knight",
-    "systemVersion": "1.8.6",
-    "coreVersion": "10.288",
+    "systemVersion": "3.51.0",
+    "coreVersion": "13.351",
     "createdTime": 1667172834155,
-    "modifiedTime": 1668026211628,
-    "lastModifiedBy": "Kisv9JwB5w6zIXyv"
+    "modifiedTime": 1770387895656,
+    "lastModifiedBy": "HhA0aXorQtaUxgO7",
+    "compendiumSource": "Compendium.knight-compendium.creatures-bestiaire-officiel.PcGFY7IOsw4dvM5Y",
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "PcGFY7IOsw4dvM5Y",
   "folder": null,

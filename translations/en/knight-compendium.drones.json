@@ -1,0 +1,103 @@
+{
+  "label": "Drones",
+  "mapping": {
+    "description": "system.description",
+    "tactique": "system.tactique",
+    "descriptionLimitee": "system.descriptionLimitee",
+    "section": "system.section",
+    "type": "system.type",
+    "surnom": "system.surnom",
+    "pointsfaibles": "system.pointsFaibles"
+  },
+  "folders": {},
+  "entries": {
+    "Mantis": {
+      "name": "Mantis",
+      "tokenName": "Mantis",
+      "items": {
+        "Sensibilité IEM": {
+          "name": "Sensibilité IEM"
+        },
+        "Actions multiples (3)": {
+          "name": "Actions multiples (3)"
+        },
+        "Module (saut nv3)": {
+          "name": "Module (saut nv3)"
+        },
+        "Module (désignation nv2)": {
+          "name": "Module (désignation nv2)"
+        },
+        "Module (nova nv3)": {
+          "name": "Module (nova nv3)"
+        },
+        "Mitrailleuse lourde": {
+          "name": "Mitrailleuse lourde"
+        },
+        "Lance-missile": {
+          "name": "Lance-missile"
+        },
+        "Shotgun auto. lourd": {
+          "name": "Shotgun auto. lourd"
+        }
+      },
+      "description": "<p>Automated Mantis mechas are large combat platforms mounted on six heavy legs. They are generally equipped with powerful artillery cannons as well as non-lethal weapons. Producing a tremendous amount of noise when moving, Mantis units are also capable of performing jumps of several dozen meters both vertically and horizontally thanks to thrusters and retro-jets, greatly facilitating their movement across rough terrain.</p>\n<p>Within the cities of South Africa and the NAU, Mantis units are deployed when situations become tense or when Ant units alone are insufficient to resolve the problem. Automated Mantis mechas also possess a formidable artificial intelligence capable, like Ant robots, of making independent decisions. That said, due to their firepower, they are generally closely monitored by several operators who can deactivate them with a simple command.</p>",
+      "tactique": "<p>The Mantis is deployed to hold positions and support the advance of Ant units. It therefore often remains at range in a support role, unleashing all its weapons against the enemy wielding the weapon that inflicts the highest number of damage dice, or against the enemy with the highest Beast score. Finally, it must be kept in mind that Mantis units are remotely controlled by a U-Sigma pilot. Locating the pilot and neutralizing them—by incapacitating, killing, or destroying their equipment—can completely shut down a Mantis unit. A pilot’s profile is similar to that of a common notable (see the core rulebook – Appendix 1: Bestiary – page 400). If a Mantis reaches 0 AP, it is automatically destroyed.</p>",
+      "descriptionLimitee": "",
+      "section": "",
+      "type": "Behemoth (initiate)",
+      "surnom": "",
+      "pointsfaibles": ""
+    },
+    "Hornet": {
+      "name": "Hornet",
+      "tokenName": "Hornet",
+      "items": {
+        "Vol": {
+          "name": "Vol"
+        },
+        "Sensibilité IEM": {
+          "name": "Sensibilité IEM"
+        },
+        "Dards électriques": {
+          "name": "Dards électriques"
+        },
+        "Loyauté sans faille": {
+          "name": "Loyauté sans faille"
+        }
+      },
+      "description": "<p>Hornet drones, constantly grouped into swarms of one hundred to one thousand units, take the form of small anti-gravity spheres capable of firing electric stingers used to neutralize or eliminate human targets. Hornet swarms are used by U-Sigma to conduct patrols or intimidate enemies, if not to neutralize a crowd outright. Witnessing a thousand of these small drones moving like a flock of birds is a sight that is both terrifying and fascinating. Finally, an entire Hornet swarm is generally controlled by a single human operator from a control tower or a remote location.</p>",
+      "tactique": "<p>Hornet drones are not deployed to kill enemies, but solely to knock them unconscious. Operating in swarms of several dozen drones, they harass all of their enemies until they are rendered unconscious. Finally, it should be kept in mind that the drones are remotely controlled by a U-Sigma pilot. Locating the pilot and neutralizing them—by incapacitating, killing, or destroying their equipment—can annihilate all drone activity. A pilot’s profile is similar to that of a common notable (see the core rulebook – Appendix 1: Bestiary – page 400).</p>",
+      "descriptionLimitee": "",
+      "type": "Band (recruit)",
+      "pointsfaibles": ""
+    },
+    "Ant": {
+      "name": "Ant",
+      "tokenName": "Ant",
+      "items": {
+        "Loyauté sans faille": {
+          "name": "Loyauté sans faille"
+        },
+        "Sensibilité IEM": {
+          "name": "Sensibilité IEM"
+        },
+        "Matraques électriques": {
+          "name": "Matraques électriques"
+        },
+        "Mitrailleuse lourde": {
+          "name": "Mitrailleuse lourde"
+        },
+        "Shotgun automatique": {
+          "name": "Shotgun automatique"
+        }
+      },
+      "description": "<p>Les robots de s&eacute;curit&eacute; Ant sont des machines anthropomorphes &agrave; taille humaine, se d&eacute;pla&ccedil;ant en solo ou en unit&eacute;s de six et assurant l&rsquo;ensemble de la s&eacute;curit&eacute; de Johannesburg ainsi que de nombreuses villes d&rsquo;Afrique du Sud. Les Ants sont d&rsquo;un noir de jais et poss&egrave;dent un corps long et &eacute;troit fabriqu&eacute; en graph&egrave;ne et dans un alliage de kevlar tr&egrave;s r&eacute;sistant. Ils peuvent &ecirc;tre &eacute;quip&eacute;s d&rsquo;un arsenal d&rsquo;armes cons&eacute;quent et g&eacute;n&eacute;rer un champ de force. De plus, chaque robot Ant poss&egrave;de sur sa t&ecirc;te un &eacute;cran pouvant afficher des informations ou encore des smileys ainsi qu&rsquo;un haut-parleur permettant de diffuser la voix du robot et d&rsquo;&eacute;ventuels ordres ou mises en garde. Ce qui fait la renomm&eacute;e de ces robots est leur intelligence artificielle tr&egrave;s pouss&eacute;e leur permettant d&rsquo;effectuer des actions complexes et de prendre des initiatives.</p>",
+      "tactique": "<p>Robotiques et implacables, les Ants sont extr&ecirc;mement&nbsp;m&eacute;thodiques, ils attaquent toujours en premier&nbsp;l&rsquo;ennemi avec l&rsquo;arme infligeant le plus de d&eacute;s de d&eacute;g&acirc;ts ou&nbsp;celui ayant le plus de points d&rsquo;armure ou de sant&eacute;. Ils ne&nbsp;se mettent jamais &agrave; couvert et avancent vers leurs ennemis&nbsp;en tirant. Ils fonctionnent g&eacute;n&eacute;ralement par groupe&nbsp;de six ou douze individus. Si un Ant atteint 0 PA, il est&nbsp;automatiquement d&eacute;truit.</p>",
+      "descriptionLimitee": "",
+      "section": "",
+      "type": "Brute (initiate)",
+      "surnom": "",
+      "pointsfaibles": ""
+    }
+  }
+}

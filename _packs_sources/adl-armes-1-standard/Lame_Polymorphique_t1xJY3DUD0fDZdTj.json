@@ -1,0 +1,142 @@
+{
+  "name": "Lame Polymorphique",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/couteau-de-combat.webp",
+  "system": {
+    "equipped": false,
+    "rack": false,
+    "description": "<p>La lame polymorphique est une simple poign&eacute;e discr&egrave;te qui peut se transformer d'un geste en un long couteau de combat. Elle sert d'arme d'autod&eacute;fense pour la majorit&eacute; des agents du Knight.<br>La lame polymorphique peut &ecirc;tre utilis&eacute;e sans m&eacute;ta-armure.</p>",
+    "rarete": "standard",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 0,
+    "energie": 0,
+    "listes": {},
+    "gratuit": false,
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "addchair": true,
+      "dice": 2,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 1,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "silencieux",
+        "fatal"
+      ],
+      "custom": [],
+      "chargeur": null,
+      "activable": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": [],
+      "chargeur": null,
+      "activable": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "knight",
+    "systemVersion": "3.51.0",
+    "createdTime": 1770295624554,
+    "modifiedTime": 1770295624554,
+    "lastModifiedBy": "3D61xgwQ6U36wEf0"
+  },
+  "ownership": {
+    "default": 0,
+    "3D61xgwQ6U36wEf0": 3
+  },
+  "_id": "t1xJY3DUD0fDZdTj",
+  "sort": 0,
+  "_key": "!items!t1xJY3DUD0fDZdTj"
+}

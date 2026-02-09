@@ -23,6 +23,7 @@ Hooks.on('ready', () => {
   processPackVisibility('include-capacitecodex', 'knight-compendium.armours-codex');
   processPackVisibility('include-capaciteatlas', 'knight-compendium.armours-atlas');
   processPackVisibility('include-capaciteatlasspecial', 'knight-compendium.armours-atlas-berserk');
+  processAdlVisibility();
 });
 
 Hooks.on('knightSettingsChange', setting => {
@@ -45,6 +46,9 @@ Hooks.on('knightSettingsChange', setting => {
     case 'include-capaciteatlasspecial':
       processPackVisibility(setting, 'knight-compendium.armours-atlas-berserk');
       break;
+    case 'adl':
+      processAdlVisibility();
+    break;
   }
 });
 
@@ -63,4 +67,53 @@ function processPackVisibility(setting, packName) {
       TRUSTED: ownershipLevel,
     },
   });
+}
+
+async function processAdlVisibility() {
+  const hasSetting = game.settings.settings.has('knight.adl');
+
+  if (!game.user.isGM) {
+    return;
+  }
+
+  if(!hasSetting) return;
+
+  const setting = game.settings.get('knight', 'adl');
+  const std = setting;
+  const adl = !setting;
+  const ownershipStdLevel = std ? 'LIMITED' : 'OBSERVER';
+  const ownershipAdlLevel = adl ? 'LIMITED' : 'OBSERVER';
+
+  const listStd = [
+    'knight-compendium.overdrives',
+    'knight-compendium.weapons-standard',
+    'knight-compendium.weapons-avance',
+    'knight-compendium.weapons-rare',
+    'knight-compendium.modules-standard',
+    'knight-compendium.modules-avance',
+    'knight-compendium.modules-rare'];
+  const listAdl = [
+    'knight-compendium.adl-overdrives',
+    'knight-compendium.adl-armes-1-standard',
+    'knight-compendium.adl-modules-1-standard'];
+
+  for(let p of listStd) {
+    await game.packs.get(p).configure({
+      private: std,
+      ownership: {
+        PLAYER: ownershipStdLevel,
+        TRUSTED: ownershipStdLevel,
+      },
+    });
+  }
+
+  for(let p of listAdl) {
+    await game.packs.get(p).configure({
+      private: adl,
+      ownership: {
+        PLAYER: ownershipAdlLevel,
+        TRUSTED: ownershipAdlLevel,
+      },
+    });
+  }
 }

@@ -1,0 +1,136 @@
+{
+  "name": "Hache à réaction",
+  "type": "arme",
+  "img": "modules/knight-compendium/assets/weapons/hache-a-reaction.webp",
+  "system": {
+    "description": "<p>Le dernier modèle d'arme conçu par Gauvain est la hache à réaction. Des évents sur les côtés de la lame alimentent en air un réacteur à plasma qui accélère la vitesse de frappe et donc la violence des coups. Les chevaliers qui ont appris à la manier profitent de l'élan donné par la turbine pour attaquer plusieurs adversaires en de grands mouvements circulaires. La hache, et toute sa mécanique, est portée au rouge par la flamme bleue du réacteur, ce qui lui permet de s'auto-nettoyer par combustion, concassage ou fusion de tout ce qui peut rentrer dans les évents, chair, béton, acier, etc.</p>\n",
+    "rarete": "rare",
+    "type": "contact",
+    "portee": "contact",
+    "prix": 60,
+    "energie": 0,
+    "listes": {},
+    "options2mains": {
+      "has": false,
+      "actuel": "1main",
+      "1main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      },
+      "2main": {
+        "degats": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "violence": {
+          "dice": 0,
+          "fixe": 0
+        }
+      }
+    },
+    "optionsmunitions": {
+      "has": false,
+      "actuel": "0",
+      "value": 1,
+      "liste": {}
+    },
+    "tourelle": {
+      "has": false,
+      "attaque": {
+        "dice": 0,
+        "fixe": 0
+      }
+    },
+    "degats": {
+      "dice": 6,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "violence": {
+      "dice": 4,
+      "fixe": 0,
+      "variable": {
+        "has": false,
+        "min": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "max": {
+          "dice": 0,
+          "fixe": 0
+        },
+        "cout": 0
+      }
+    },
+    "effets": {
+      "liste": [],
+      "raw": [
+        "assistanceattaque",
+        "enchaine",
+        "ignorechampdeforce",
+        "leste",
+        "orfevrerie"
+      ],
+      "custom": []
+    },
+    "effets2mains": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "distance": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "ornementales": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    },
+    "structurelles": {
+      "liste": [],
+      "raw": [],
+      "custom": []
+    }
+  },
+  "effects": [],
+  "_id": "314e155d8b406db8",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.knight-compendium.weapons-rare.314e155d8b406db8"
+    }
+  },
+  "_stats": {
+    "systemId": "knight",
+    "systemVersion": "3.21.0",
+    "coreVersion": "10.303",
+    "createdTime": 1666890009133,
+    "modifiedTime": 1693092600325,
+    "lastModifiedBy": "gUfRwPVCnScx6reY"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "gUfRwPVCnScx6reY": 3
+  },
+  "_key": "!items!314e155d8b406db8"
+}
