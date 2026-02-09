@@ -48,7 +48,7 @@ Hooks.on('knightSettingsChange', setting => {
       break;
     case 'adl':
       processAdlVisibility();
-    break;
+      break;
   }
 });
 
@@ -76,7 +76,9 @@ async function processAdlVisibility() {
     return;
   }
 
-  if(!hasSetting) return;
+  if (!hasSetting) {
+    return;
+  }
 
   const setting = game.settings.get('knight', 'adl');
   const std = setting;
@@ -97,7 +99,7 @@ async function processAdlVisibility() {
     'knight-compendium.adl-armes-1-standard',
     'knight-compendium.adl-modules-1-standard'];
 
-  for(let p of listStd) {
+  for (const p of listStd) {
     await game.packs.get(p).configure({
       private: std,
       ownership: {
@@ -107,7 +109,7 @@ async function processAdlVisibility() {
     });
   }
 
-  for(let p of listAdl) {
+  for (const p of listAdl) {
     await game.packs.get(p).configure({
       private: adl,
       ownership: {
