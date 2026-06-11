@@ -78,7 +78,7 @@
             }
           },
           "bonus": {
-            "has": false,
+            "has": true,
             "armure": {
               "has": false,
               "value": 0
@@ -185,6 +185,11 @@
                   }
                 }
               }
+            },
+            "sante": {
+              "value": 0,
+              "has": true,
+              "half": true
             }
           },
           "arme": {
