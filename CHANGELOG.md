@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [14.0.0] - 2026-04-29
+
+### Added
+
+- FoundryVTT v14 compatibility
+
+## [13.2.0] - 2026-02-09
+
+### Added
+
+- Support of Legendary Arsenal (thank you @Zakarik)
+
+### Changed
+
+- Update various compendium data (thank you @Zakarik)
+
 ## [13.1.3] - 2026-02-03
 
 ### Fixed
@@ -421,7 +437,11 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.3...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.0...HEAD
+
+[14.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.2.0...14.0.0
+
+[13.2.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.3...13.2.0
 
 [13.1.3]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.1.2...13.1.3
 
