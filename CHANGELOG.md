@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [14.0.1] - 2026-06-17
+
+### Fixed
+
+- Fixed an omission in the "Vigueur du taureau" module following the latest system update (thank you @Zakarik)
+- Delete Old Active Effects (thank you @Zakarik)
+
 ## [14.0.0] - 2026-04-29
 
 ### Added
@@ -437,7 +444,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.0...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.1...HEAD
+
+[14.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.0...14.0.1
 
 [14.0.0]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/13.2.0...14.0.0
 
