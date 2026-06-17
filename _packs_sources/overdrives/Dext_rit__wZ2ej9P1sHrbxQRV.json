@@ -2505,36 +2505,7 @@
       "activation": "aucune"
     }
   },
-  "effects": [
-    {
-      "label": "overdrive",
-      "icon": "/icons/svg/mystery-man.svg",
-      "changes": [
-        {
-          "key": "system.aspects.masque.caracteristiques.dexterite.overdrive.base",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        }
-      ],
-      "_id": "cdhOBO2XnCZRJ7tx",
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": null,
-      "tint": null,
-      "transfer": true,
-      "flags": {},
-      "_key": "!items.effects!wZ2ej9P1sHrbxQRV.cdhOBO2XnCZRJ7tx"
-    }
-  ],
+  "effects": [],
   "flags": {
     "core": {
       "sourceId": "Compendium.knight-compendium.overdrives-avance.ffbc21cf013ddbeb"

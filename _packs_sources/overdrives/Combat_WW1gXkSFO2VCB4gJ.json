@@ -2505,36 +2505,7 @@
       "activation": "aucune"
     }
   },
-  "effects": [
-    {
-      "label": "overdrive",
-      "icon": "/icons/svg/mystery-man.svg",
-      "changes": [
-        {
-          "key": "system.aspects.bete.caracteristiques.combat.overdrive.base",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        }
-      ],
-      "_id": "I1GIl8Fsk9J6moK9",
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": null,
-      "tint": null,
-      "transfer": true,
-      "flags": {},
-      "_key": "!items.effects!WW1gXkSFO2VCB4gJ.I1GIl8Fsk9J6moK9"
-    }
-  ],
+  "effects": [],
   "flags": {
     "core": {
       "sourceId": "Compendium.knight-compendium.overdrives-avance.e9f27e06b0407fe3"

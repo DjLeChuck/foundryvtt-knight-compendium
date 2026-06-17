@@ -2517,36 +2517,7 @@
       "activation": "aucune"
     }
   },
-  "effects": [
-    {
-      "label": "overdrive",
-      "icon": "/icons/svg/mystery-man.svg",
-      "changes": [
-        {
-          "key": "system.aspects.dame.caracteristiques.aura.overdrive.base",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        }
-      ],
-      "_id": "kwBbNWDqtQSu92Ua",
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": null,
-      "tint": null,
-      "transfer": true,
-      "flags": {},
-      "_key": "!items.effects!hyzD1qa69MVPm472.kwBbNWDqtQSu92Ua"
-    }
-  ],
+  "effects": [],
   "flags": {
     "core": {
       "sourceId": "Compendium.knight-compendium.overdrives-avance.5b0ec63f87b80d30"
