@@ -149,10 +149,7 @@
             "candle": {
               "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\r\n\r\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
               "portee": "contact",
-              "espoir": {
-                "dice": 1,
-                "face": 3
-              }
+              "espoir": 1
             },
             "beacon": {
               "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
@@ -2931,10 +2928,7 @@
             "candle": {
               "description": "",
               "portee": "contact",
-              "espoir": {
-                "dice": 1,
-                "face": 3
-              }
+              "espoir": 1
             },
             "beacon": {
               "description": "",
@@ -4025,12 +4019,21 @@
               }
             }
           },
-          "special": [],
+          "special": {
+            "apeiron": {
+              "espoir": {
+                "bonus": 25,
+                "reduction": {
+                  "value": 1
+                }
+              }
+            }
+          },
           "data": {
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": 25
+            "espoir": 0
           }
         },
         "1": {
@@ -4281,12 +4284,21 @@
               }
             }
           },
-          "special": [],
+          "special": {
+            "apeiron": {
+              "espoir": {
+                "bonus": 25,
+                "reduction": {
+                  "value": 1
+                }
+              }
+            }
+          },
           "data": {
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": 25
+            "espoir": 0
           }
         },
         "2": {
@@ -4537,12 +4549,21 @@
               }
             }
           },
-          "special": [],
+          "special": {
+            "apeiron": {
+              "espoir": {
+                "bonus": 25,
+                "reduction": {
+                  "value": 3
+                }
+              }
+            }
+          },
           "data": {
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": 25
+            "espoir": 0
           }
         }
       },
