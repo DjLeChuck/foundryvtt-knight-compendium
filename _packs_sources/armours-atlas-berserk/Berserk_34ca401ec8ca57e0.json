@@ -149,7 +149,10 @@
             "candle": {
               "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\r\n\r\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
               "portee": "contact",
-              "espoir": 1
+              "espoir": {
+                "dice": 1,
+                "face": 3
+              }
             },
             "beacon": {
               "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
@@ -2928,7 +2931,10 @@
             "candle": {
               "description": "",
               "portee": "contact",
-              "espoir": 1
+              "espoir": {
+                "dice": 1,
+                "face": 3
+              }
             },
             "beacon": {
               "description": "",
