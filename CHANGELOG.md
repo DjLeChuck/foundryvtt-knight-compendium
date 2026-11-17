@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [14.0.2] - 2026-11-17
+
+### Fixed
+
+- Changed the Hope cost of the Candle to 1D3 instead of 1 (currently non-functional)
+- Adjusted the Aegis bonus provided at Rage level 2 (from 3 to 6) to align with how meta-armor functions
+- Adjusted the damage for Blaze mode (from 2d6 to 4d6) at the 350 HP evolution threshold to align with how meta-armor functions
+
 ## [14.0.1] - 2026-06-17
 
 ### Fixed
@@ -444,7 +452,9 @@ Thank you @sdurrheimer for the following fixes
 
 - First release
 
-[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.1...HEAD
+[Unreleased]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.2...HEAD
+
+[14.0.2]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.1...14.0.2
 
 [14.0.1]: https://github.com/DjLeChuck/foundryvtt-knight-compendium/compare/14.0.0...14.0.1
 
