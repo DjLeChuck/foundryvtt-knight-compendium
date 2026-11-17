@@ -149,7 +149,10 @@
             "candle": {
               "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\r\n\r\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
               "portee": "contact",
-              "espoir": 1
+              "espoir": {
+                "dice": 1,
+                "face": 3
+              }
             },
             "beacon": {
               "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
@@ -304,7 +307,7 @@
             "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\r\n\r\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\r\n\r\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\r\n\r\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
             "degats": "bete",
             "violence": "bete",
-            "egide": 3,
+            "egide": 6,
             "defense": 9,
             "reaction": 9,
             "subis": 0,
@@ -462,7 +465,7 @@
               "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\r\n\r\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\r\n\r\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\r\n\r\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
               "degats": "bete",
               "violence": "bete",
-              "egide": 3,
+              "egide": 6,
               "defense": 9,
               "reaction": 9,
               "subis": 0,
@@ -2928,7 +2931,10 @@
             "candle": {
               "description": "",
               "portee": "contact",
-              "espoir": 1
+              "espoir": {
+                "dice": 1,
+                "face": 3
+              }
             },
             "beacon": {
               "description": "",
@@ -3081,7 +3087,7 @@
             "description": "",
             "degats": "bete",
             "violence": "bete",
-            "egide": 3,
+            "egide": 6,
             "defense": 9,
             "reaction": 9,
             "subis": 0,
@@ -3239,7 +3245,7 @@
               "description": "",
               "degats": "bete",
               "violence": "bete",
-              "egide": 3,
+              "egide": 6,
               "defense": 9,
               "reaction": 9,
               "subis": 0,
@@ -3791,7 +3797,10 @@
               "candle": {
                 "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\n\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
                 "portee": "contact",
-                "espoir": 1
+                "espoir": {
+                  "dice": 1,
+                  "face": 3
+                }
               },
               "beacon": {
                 "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
@@ -3942,7 +3951,7 @@
                 "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
                 "degats": "bete",
                 "violence": "bete",
-                "egide": 3,
+                "egide": 6,
                 "defense": 9,
                 "reaction": 9,
                 "subis": 0,
@@ -4016,12 +4025,21 @@
               }
             }
           },
-          "special": [],
+          "special": {
+            "apeiron": {
+              "espoir": {
+                "bonus": 25,
+                "reduction": {
+                  "value": 1
+                }
+              }
+            }
+          },
           "data": {
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": 25
+            "espoir": 0
           }
         },
         "1": {
@@ -4033,8 +4051,8 @@
               "duree": "1 tour ou 6 secondes",
               "blaze": {
                 "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
-                "degats": 2,
-                "violence": 2,
+                "degats": 4,
+                "violence": 4,
                 "portee": "contact",
                 "espoir": {
                   "base": 2,
@@ -4044,7 +4062,10 @@
               "candle": {
                 "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\n\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
                 "portee": "contact",
-                "espoir": 1
+                "espoir": {
+                  "dice": 1,
+                  "face": 3
+                }
               },
               "beacon": {
                 "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
@@ -4195,7 +4216,7 @@
                 "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
                 "degats": "bete",
                 "violence": "bete",
-                "egide": 3,
+                "egide": 6,
                 "defense": 9,
                 "reaction": 9,
                 "subis": 0,
@@ -4269,12 +4290,21 @@
               }
             }
           },
-          "special": [],
+          "special": {
+            "apeiron": {
+              "espoir": {
+                "bonus": 25,
+                "reduction": {
+                  "value": 1
+                }
+              }
+            }
+          },
           "data": {
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": 25
+            "espoir": 0
           }
         },
         "2": {
@@ -4286,8 +4316,8 @@
               "duree": "1 tour ou 6 secondes",
               "blaze": {
                 "description": "La lumière autour de l’armure peut être modelée en volutes brûlantes qui blessent les créatures de l’Anathème à portée contact.\n\nTant que l’effet est activé, les créatures de l’Anathème à portée contact de l’armure subissent des dégâts et de la violence à chaque tour en phase de conflit ou toutes les 6 secondes lors d’une scène. Le score de bouclier est ignoré. De plus, les ténèbres de type nuit ou pénombre s’éloignent à portée courte.",
-                "degats": 2,
-                "violence": 2,
+                "degats": 4,
+                "violence": 4,
                 "portee": "contact",
                 "espoir": {
                   "base": 2,
@@ -4297,7 +4327,10 @@
               "candle": {
                 "description": "La méta-armure Berserk peut déployer de petites étincelles de lumière douce et chaude qui permettent à un allié de recouvrer de l’espoir.\n\nEn sacrifiant des points d’espoir (sans aucune réduction possible), le chevalier peut redonner à un allié, PJ ou PNJ, le même nombre de points d’espoir.",
                 "portee": "contact",
-                "espoir": 1
+                "espoir": {
+                  "dice": 1,
+                  "face": 3
+                }
               },
               "beacon": {
                 "description": "La lumière luisant de l’armure renforce la détermination des alliés, les rendant plus hargneux. Tant que l’effet est activé, lorsqu’un PJ ou un allié à portée courte de l’armure effectue un test, il reçoit des réussites automatiques aux jets effectués contre les créatures de l’Anathème (combat, poursuite, etc.).",
@@ -4448,7 +4481,7 @@
                 "description": "Le niveau n’est pas cumulé avec le précédent, mais il annule et remplace le précédent (les cumuls sont déjà calculés)\n\nIl ne peut plus perdre de points d’espoir en dehors du coût de ses capacités.\n\nIl doit attaquer la créature des ténèbres ou l’ennemi le plus proche en s’approchant le plus possible.\n\nIl tue ou met automatiquement à l’agonie un ennemi qu’il devrait simplement mettre hors combat.",
                 "degats": "bete",
                 "violence": "bete",
-                "egide": 3,
+                "egide": 6,
                 "defense": 9,
                 "reaction": 9,
                 "subis": 0,
@@ -4522,12 +4555,21 @@
               }
             }
           },
-          "special": [],
+          "special": {
+            "apeiron": {
+              "espoir": {
+                "bonus": 25,
+                "reduction": {
+                  "value": 3
+                }
+              }
+            }
+          },
           "data": {
             "armure": 0,
             "champDeForce": 0,
             "energie": 0,
-            "espoir": 25
+            "espoir": 0
           }
         }
       },
